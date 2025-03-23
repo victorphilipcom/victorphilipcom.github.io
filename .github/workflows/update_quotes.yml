@@ -23,16 +23,13 @@ jobs:
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: |
-          curl -s "https://api.tiingo.com/iex?tickers=AAPL,TSLA,MSFT,AMZN,GOOGL&token=${TIINGO_API_KEY}" \
-            | tee raw.json \
-            | jq 'map(. + { price: ( if .last == null then .tngoLast else .last end ) })' \
-            > data.json
-          
-          echo "======== Tiingo raw response ========"
+          curl -v "https://api.tiingo.com/iex?tickers=AAPL,TSLA,MSFT,AMZN,GOOGL&token=${TIINGO_API_KEY}" \
+            -o raw.json
+      
+          echo "======== Status code $? ========"
+          echo "======== raw.json ========"
           cat raw.json
-          
-          echo "======== data.json after JQ ========"
-          cat data.json
+
 
 
       - name: Commit changes
