@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>My Tiingo Ticker Banner</title>
+  <style>
+    /* Basic styling for the scrolling ticker */
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff; /* adjust as needed */
+      font-family: sans-serif;
+    }
+    #ticker-container {
+      width: 100%;
+      overflow: hidden;         /* hide overflowing text */
+      white-space: nowrap;      /* keep everything on one line */
+      border: 1px solid #ccc;   /* optional border or background */
+    }
+    #ticker-text {
+      display: inline-block;
+      padding-left: 100%;       /* start offscreen to the right */
+      animation: scroll-left 15s linear infinite;
+      font-size: 16px;
+      line-height: 40px;        /* vertical size of the ticker */
+    }
+    @keyframes scroll-left {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
+    }
+  </style>
+</head>
+<body>
+  <div id="ticker-container">
+    <div id="ticker-text">Loading quotes...</div>
+  </div>
+
+  <script>
+    // Fetch the JSON data that GitHub Action updates every 5 minutes
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        // 'data' is an array of objects like:
+        // [{ "ticker":"AAPL", "tngoLast":123.45, "last":123.45, "prevClose":122.10, ...}, ...]
+
+        // Build an array of "SYMBOL: PRICE"
+        const items = data.map(quote => {
+          const symbol = quote.ticker;
+          // We can use 'last' if you have IEX entitlements, or fallback to 'tngoLast'
+          const price = quote.last ?? quote.tngoLast ?? 0;
+          return `${symbol}: $${price.toFixed(2)}`;
+        });
+
+        // Join them with a separator
+        document.getElementById('ticker-text').textContent = items.join('   |   ');
+      })
+      .catch(err => {
+        console.error('Error loading quotes', err);
+        document.getElementById('ticker-text').textContent = 'Error loading quotes...';
+      });
+  </script>
+</body>
+</html>
