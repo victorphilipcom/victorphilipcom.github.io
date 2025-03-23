@@ -39,32 +39,50 @@
   </div>
 
   <script>
-    fetch("data.json")  // same directory if you're hosting via GitHub Pages
-      .then(res => res.json())
+    // This script expects 'data.json' in the *same* folder on GitHub Pages.
+    // So your final URL might look like:
+    //   https://YOUR_USERNAME.github.io/REPO_NAME/ticker-tiingo.html
+    // and your data is at:
+    //   https://YOUR_USERNAME.github.io/REPO_NAME/data.json
+
+    fetch("data.json")
+      .then(response => {
+        // Throw an error if the HTTP status is not "OK"
+        if (!response.ok) {
+          throw new Error(`Network response was not OK: ${response.status} ${response.statusText}`);
+        }
+        return response.json();
+      })
       .then(quotes => {
-        // 'quotes' is an array of objects like:
-        // [{ ticker: "TSLA", last: 248.71, prevClose: 236.26, timestamp: "..."}, ...]
+        // The array in data.json has objects like:
+        // {
+        //   "ticker": "AAPL",
+        //   "prevClose": 214.1,
+        //   "price": 218.27,
+        //   ...
+        // }
 
-        // We'll build an array of HTML snippets for each ticker
+        // For each quote, build a snippet: "AAPL: $218.27 (+4.17)"
         const tickerItems = quotes.map(q => {
-          // Basic data
           const symbol = q.ticker;
-          const last   = q.last  || 0;
-          const prev   = q.prevClose || 0;
+          const price = q.price ?? 0;       // fallback to 0 if somehow undefined
+          const prev  = q.prevClose ?? 0;   // fallback to 0 if no prevClose
 
-          // Calculate change vs. previous close
-          const diff = last - prev;
+          // Calculate difference
+          const diff    = price - prev;
           const diffStr = diff.toFixed(2);
-          const sign = diff >= 0 ? "+" : ""; // Show "+" for positive
+          const sign    = diff >= 0 ? "+" : "";  // add "+" for positive changes
           
-          // Use a CSS class for color
-          const cssClass = diff > 0 ? 'up' : (diff < 0 ? 'down' : '');
+          // Assign CSS class for color
+          const cssClass = diff > 0 ? 'up'
+                           : diff < 0 ? 'down'
+                           : '';
 
-          // Example label: "TSLA: $248.71 (+12.45)"
-          return `<span class="${cssClass}">${symbol}: $${last.toFixed(2)} (${sign}${diffStr})</span>`;
+          // Example output: "AAPL: $218.27 (+4.17)"
+          return `<span class="${cssClass}">${symbol}: $${price.toFixed(2)} (${sign}${diffStr})</span>`;
         });
 
-        // Join them with some spacing or a separator
+        // Join them with a separator
         document.getElementById('ticker-text').innerHTML = tickerItems.join('  |  ');
       })
       .catch(err => {
