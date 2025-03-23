@@ -1,0 +1,37 @@
+name: Update Ticker Data
+
+on:
+  # Run every 5 minutes
+  schedule:
+    - cron: '*/5 * * * *'
+  # Allows manual trigger in the Actions tab (optional)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Fetch quotes from Tiingo
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+        run: |
+          # Fetch multiple tickers (adjust to your needs)
+          # Example: AAPL,TSLA,MSFT,AMZN,GOOGL
+          curl -s "https://api.tiingo.com/iex?tickers=AAPL,TSLA,MSFT,AMZN,GOOGL&token=${TIINGO_API_KEY}" -o data.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage the updated data.json
+          git add data.json
+
+          # Commit (don't fail if no changes)
+          git commit -m "Update quotes" || exit 0
+
+          # Push changes to main branch
+          git push origin HEAD:main
