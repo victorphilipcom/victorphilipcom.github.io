@@ -2,32 +2,35 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>My Tiingo Ticker Banner</title>
+  <title>My Tiingo Ticker</title>
   <style>
-    /* Basic styling for the scrolling ticker */
+    /* Basic styling for a scrolling ticker */
     body {
-      margin: 0;
-      padding: 0;
-      background: #ffffff; /* adjust as needed */
+      margin: 0; 
+      padding: 0; 
       font-family: sans-serif;
     }
     #ticker-container {
       width: 100%;
-      overflow: hidden;         /* hide overflowing text */
-      white-space: nowrap;      /* keep everything on one line */
-      border: 1px solid #ccc;   /* optional border or background */
+      overflow: hidden;         /* hide overflow for the "marquee" effect */
+      white-space: nowrap;
+      border: 1px solid #ccc;
     }
     #ticker-text {
       display: inline-block;
-      padding-left: 100%;       /* start offscreen to the right */
+      padding-left: 100%;       /* start off the right edge */
       animation: scroll-left 15s linear infinite;
       font-size: 16px;
-      line-height: 40px;        /* vertical size of the ticker */
+      line-height: 40px;
     }
     @keyframes scroll-left {
       0%   { transform: translate(0, 0); }
       100% { transform: translate(-100%, 0); }
     }
+
+    /* Optional color for gains vs. losses */
+    .up   { color: green; }
+    .down { color: red;   }
   </style>
 </head>
 <body>
@@ -36,27 +39,37 @@
   </div>
 
   <script>
-    // Fetch the JSON data that GitHub Action updates every 5 minutes
-    fetch('data.json')
-      .then(response => response.json())
-      .then(data => {
-        // 'data' is an array of objects like:
-        // [{ "ticker":"AAPL", "tngoLast":123.45, "last":123.45, "prevClose":122.10, ...}, ...]
+    fetch("data.json")  // same directory if you're hosting via GitHub Pages
+      .then(res => res.json())
+      .then(quotes => {
+        // 'quotes' is an array of objects like:
+        // [{ ticker: "TSLA", last: 248.71, prevClose: 236.26, timestamp: "..."}, ...]
 
-        // Build an array of "SYMBOL: PRICE"
-        const items = data.map(quote => {
-          const symbol = quote.ticker;
-          // We can use 'last' if you have IEX entitlements, or fallback to 'tngoLast'
-          const price = quote.last ?? quote.tngoLast ?? 0;
-          return `${symbol}: $${price.toFixed(2)}`;
+        // We'll build an array of HTML snippets for each ticker
+        const tickerItems = quotes.map(q => {
+          // Basic data
+          const symbol = q.ticker;
+          const last   = q.last  || 0;
+          const prev   = q.prevClose || 0;
+
+          // Calculate change vs. previous close
+          const diff = last - prev;
+          const diffStr = diff.toFixed(2);
+          const sign = diff >= 0 ? "+" : ""; // Show "+" for positive
+          
+          // Use a CSS class for color
+          const cssClass = diff > 0 ? 'up' : (diff < 0 ? 'down' : '');
+
+          // Example label: "TSLA: $248.71 (+12.45)"
+          return `<span class="${cssClass}">${symbol}: $${last.toFixed(2)} (${sign}${diffStr})</span>`;
         });
 
-        // Join them with a separator
-        document.getElementById('ticker-text').textContent = items.join('   |   ');
+        // Join them with some spacing or a separator
+        document.getElementById('ticker-text').innerHTML = tickerItems.join('  |  ');
       })
       .catch(err => {
-        console.error('Error loading quotes', err);
-        document.getElementById('ticker-text').textContent = 'Error loading quotes...';
+        console.error("Failed to load quotes:", err);
+        document.getElementById('ticker-text').textContent = "Error loading quotes...";
       });
   </script>
 </body>
