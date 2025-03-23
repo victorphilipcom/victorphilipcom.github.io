@@ -23,14 +23,17 @@ jobs:
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: |
-          # 1) Use curl to get the raw data from Tiingo
-          # 2) Pipe into jq, which adds a new field "price":
-          #       price = (if .last == null then .tngoLast else .last end)
-          #    So each element will have "price" that's not null (unless both fields are null).
-          
           curl -s "https://api.tiingo.com/iex?tickers=AAPL,TSLA,MSFT,AMZN,GOOGL&token=${TIINGO_API_KEY}" \
+            | tee raw.json \
             | jq 'map(. + { price: ( if .last == null then .tngoLast else .last end ) })' \
             > data.json
+          
+          echo "======== Tiingo raw response ========"
+          cat raw.json
+          
+          echo "======== data.json after JQ ========"
+          cat data.json
+
 
       - name: Commit changes
         run: |
