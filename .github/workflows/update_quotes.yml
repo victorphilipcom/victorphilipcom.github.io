@@ -1,10 +1,8 @@
 name: Update Ticker Data
 
 on:
-  # Run every 5 minutes
   schedule:
     - cron: '*/5 * * * *'
-  # Allows manual trigger in the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -23,20 +21,25 @@ jobs:
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: |
-          curl -v "https://api.tiingo.com/iex?tickers=AAPL,TSLA,MSFT,AMZN,GOOGL&token=${TIINGO_API_KEY}" \
-            -o raw.json
-      
-          echo "======== Status code $? ========"
-          echo "======== raw.json ========"
+          # Either use -L or the slash in the URL
+          curl -sSL "https://api.tiingo.com/iex?tickers=AAPL,TSLA,MSFT,AMZN,GOOGL&token=${TIINGO_API_KEY}" > raw.json
+          # Or: curl -sS "https://api.tiingo.com/iex/?tickers=..." > raw.json
+
+          echo "===== raw.json ====="
           cat raw.json
 
+          # Example jq transform (optional):
+          cat raw.json \
+            | jq 'map(. + {price: (if .last == null then .tngoLast else .last end)})' \
+            > data.json
 
+          echo "===== data.json ====="
+          cat data.json
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add data.json
           git commit -m "Update quotes" || exit 0
           git push origin HEAD:main
