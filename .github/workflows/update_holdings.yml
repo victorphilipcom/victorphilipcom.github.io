@@ -44,7 +44,7 @@ jobs:
         run: |
           jq '.records | map({
             "Ticker": .fields.Ticker,
-            "Rank": ( .fields.Rank // 9999 )
+            "Rank": ( .fields.Rank // 9999 ),
             "Logo": (.fields.Logo // "")
           })' holdingsRaw.json > holdingsClean.json
           echo "===== holdingsClean.json ====="
