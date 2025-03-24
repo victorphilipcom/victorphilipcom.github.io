@@ -58,6 +58,7 @@
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
           const rankStr = h.rank;
+          const logo = h.url
           const priceStr = parseFloat(h.price).toFixed(2);
           let logoHtml = "";
           if (h.logo) {
@@ -68,7 +69,7 @@
           }
           return `
             <span class="ticker-item">
-              ${logoHtml}
+              ${logo}
               ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
               <span class="${retClass}">${absRet}</span> 
               <span class="${retClass}">(${pctStr})</span>
