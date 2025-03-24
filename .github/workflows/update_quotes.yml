@@ -19,7 +19,7 @@ jobs:
           sudo apt-get install -y jq
           sudo apt-get install -y nodejs npm
 
-      # Debugging: Print token length to confirm the PAT is being passed
+      # Debug: Check token length
       - name: Debug AIRTABLE_PAT Length
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
@@ -34,12 +34,14 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching holdings from Airtable..."
-          curl -sSL -w "\nHTTP_STATUS:%{http_code}\n" \
+          # Dump HTTP headers to a temp file for logging only
+          curl -sSL -D headers.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" \
-          > holdingsRaw.json
-
-          echo "===== Holdings Raw Response ====="
+          -o holdingsRaw.json
+          echo "HTTP headers for holdings:"
+          cat headers.txt
+          echo "===== Holdings Raw Response (JSON) ====="
           cat holdingsRaw.json
 
       - name: Flatten Holdings Data
@@ -61,12 +63,13 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching logos from Airtable..."
-          curl -sSL -w "\nHTTP_STATUS:%{http_code}\n" \
+          curl -sSL -D headers_logos.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
-          > logosRaw.json
-
-          echo "===== Logos Raw Response ====="
+          -o logosRaw.json
+          echo "HTTP headers for logos:"
+          cat headers_logos.txt
+          echo "===== Logos Raw Response (JSON) ====="
           cat logosRaw.json
 
       - name: Flatten Logos Data
@@ -91,15 +94,19 @@ jobs:
           echo "const fs = require('fs');
 
           let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+          
           function stripCountry(t) {
             return t.split(':')[0];
           }
+          
           let baseTickers = holdings.map(h => stripCountry(h.Ticker));
           baseTickers = [...new Set(baseTickers.filter(Boolean))];
+          
           fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
           " > buildTickers.js
 
           node buildTickers.js
+
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
 
@@ -113,7 +120,7 @@ jobs:
           TICKERS=$(cat tiingoTickers.txt)
           echo "Fetching Tiingo quotes for: $TICKERS"
           curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
-          > tiingoRaw.json
+          -o tiingoRaw.json
           echo "===== tiingoRaw.json ====="
           cat tiingoRaw.json
 
@@ -132,7 +139,6 @@ jobs:
           let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
           let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
 
-          // Build a map for Tiingo data by base ticker.
           let tiingoMap = {};
           tiingoRaw.forEach(item => {
             let price = (item.last == null) ? item.tngoLast : item.last;
@@ -146,7 +152,6 @@ jobs:
             };
           });
 
-          // Build a map for logos by base ticker.
           let logoMap = {};
           logos.forEach(l => {
             let baseT = stripCountry(l.Ticker || '');
@@ -154,7 +159,6 @@ jobs:
             logoMap[baseT] = logoURL;
           });
 
-          // Merge holdings with Tiingo data and logos.
           let merged = holdings.map(h => {
             let baseT = stripCountry(h.Ticker || '');
             let info = tiingoMap[baseT] || {};
@@ -170,7 +174,6 @@ jobs:
             };
           });
 
-          // Separate tickers by positive and non-positive returns.
           let positives = merged.filter(m => m.absReturn > 0);
           let negatives = merged.filter(m => m.absReturn <= 0);
           positives.sort((a,b) => a.rank - b.rank);
