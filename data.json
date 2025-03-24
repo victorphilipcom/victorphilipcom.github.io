@@ -2,73 +2,73 @@
   {
     "fullTicker": "RM:USA",
     "baseTicker": "RM",
-    "rank": 98.4782,
-    "price": 31.95,
+    "rank": "98.5",
+    "price": 32.02,
     "prevClose": 30.84,
-    "absReturn": 1.1099999999999994,
+    "absReturn": 1.1800000000000033,
     "logo": ""
   },
   {
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
-    "rank": 98.5458,
-    "price": 15.84,
+    "rank": "98.5",
+    "price": 16.015,
     "prevClose": 15.36,
-    "absReturn": 0.4800000000000004,
+    "absReturn": 0.6550000000000011,
     "logo": ""
   },
   {
     "fullTicker": "KMDA:USA",
     "baseTicker": "KMDA",
-    "rank": 98.7487,
-    "price": 7.09,
+    "rank": "98.7",
+    "price": 7.095,
     "prevClose": 6.72,
-    "absReturn": 0.3700000000000001,
+    "absReturn": 0.375,
+    "logo": "https://v5.airtableusercontent.com/v3/u/39/39/1742839200000/5MI8yOW6N647WF-d4wCEdg/K0a_3uEq4RPvkqoZ6Y7O9rWA_2bdl5p4PRfLOzgDSqegVrjz3PKD62rTnyrs2LnM031juRK_SgQmslwMgSlGqZnAqQiT3K-bYyeduKlMZNeT2wWTDgmhj3gpWh_MFwNKoE9bkIRSmVdvWAkY0iHW_Q/SZm5r9ttmoo_Hm14g8Lrog9y8AZkK_VZFN53lw45n-s"
+  },
+  {
+    "fullTicker": "CVU:USA",
+    "baseTicker": "CVU",
+    "rank": "98.8",
+    "price": 3.62,
+    "prevClose": 3.61,
+    "absReturn": 0.010000000000000231,
+    "logo": ""
+  },
+  {
+    "fullTicker": "RIGL:USA",
+    "baseTicker": "RIGL",
+    "rank": "98.9",
+    "price": 20.62,
+    "prevClose": 20.2,
+    "absReturn": 0.4200000000000017,
     "logo": ""
   },
   {
     "fullTicker": "NATH:USA",
     "baseTicker": "NATH",
-    "rank": 98.9516,
-    "price": 94.5,
+    "rank": "99.0",
+    "price": 94.7,
     "prevClose": 94.23,
-    "absReturn": 0.269999999999996,
+    "absReturn": 0.46999999999999886,
     "logo": ""
   },
   {
     "fullTicker": "TIPT:USA",
     "baseTicker": "TIPT",
-    "rank": 98.9855,
-    "price": 23.215,
+    "rank": "99.0",
+    "price": 23.13,
     "prevClose": 23.08,
-    "absReturn": 0.13500000000000156,
+    "absReturn": 0.05000000000000071,
     "logo": ""
   },
   {
     "fullTicker": "BSEM:USA",
     "baseTicker": "BSEM",
-    "rank": 99.1545,
+    "rank": "99.2",
     "price": 10.82,
     "prevClose": 10.1,
     "absReturn": 0.7200000000000006,
-    "logo": ""
-  },
-  {
-    "fullTicker": "CCLD:USA",
-    "baseTicker": "CCLD",
-    "rank": 99.2898,
-    "price": 1.605,
-    "prevClose": 1.51,
-    "absReturn": 0.09499999999999997,
-    "logo": ""
-  },
-  {
-    "fullTicker": "SPNS:USA",
-    "baseTicker": "SPNS",
-    "rank": 99.3236,
-    "price": 27.39,
-    "prevClose": 27.03,
-    "absReturn": 0.35999999999999943,
     "logo": ""
   }
 ]
