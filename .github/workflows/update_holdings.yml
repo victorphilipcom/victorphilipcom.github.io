@@ -16,24 +16,19 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq
-          sudo apt-get install -y nodejs npm
+          sudo apt-get install -y jq nodejs npm
 
-      # Debug: Print token length to ensure the PAT is complete (should be ~82 characters)
       - name: Debug AIRTABLE_PAT Length
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
-        run: echo "AIRTABLE_PAT length: ${#AIRTABLE_PAT}"
+        run: |
+          echo "AIRTABLE_PAT length: ${#AIRTABLE_PAT}"
 
-      ######################################################
-      # 1) FETCH AIRTABLE DATA (Holdings & Logos) using Table IDs
-      ######################################################
       - name: Fetch Holdings from Airtable with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching holdings from Airtable..."
-          # Use the Holdings table ID
           curl -sSL -D headers_holdings.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" \
@@ -47,9 +42,9 @@ jobs:
         run: |
           if jq -e '.records' holdingsRaw.json >/dev/null; then
             jq '.records | map({
-               "Ticker": .fields.Ticker,
-               "Rank": ( .fields.Rank // 9999 )
-             })' holdingsRaw.json > holdingsClean.json
+              "Ticker": .fields.Ticker,
+              "Rank": ( .fields.Rank // 9999 )
+            })' holdingsRaw.json > holdingsClean.json
             echo "===== holdingsClean.json ====="
             cat holdingsClean.json
           else
@@ -62,7 +57,6 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching logos from Airtable..."
-          # Use the Logos table ID
           curl -sSL -D headers_logos.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
@@ -76,9 +70,9 @@ jobs:
         run: |
           if jq -e '.records' logosRaw.json >/dev/null; then
             jq '.records | map({
-               "Ticker": .fields.Ticker,
-               "Logo": .fields.Logo
-             })' logosRaw.json > logosClean.json
+              "Ticker": .fields.Ticker,
+              "Logo": .fields.Logo
+            })' logosRaw.json > logosClean.json
             echo "===== logosClean.json ====="
             cat logosClean.json
           else
@@ -86,9 +80,6 @@ jobs:
             exit 1
           fi
 
-      ######################################################
-      # 2) BUILD TICKER LIST FOR TIINGO
-      ######################################################
       - name: Prepare Ticker List
         run: |
           cat << 'EOF' > buildTickers.js
@@ -105,9 +96,6 @@ EOF
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
 
-      ######################################################
-      # 3) FETCH TIINGO QUOTES
-      ######################################################
       - name: Fetch from Tiingo
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
@@ -119,9 +107,6 @@ EOF
           echo "===== tiingoRaw.json ====="
           cat tiingoRaw.json
 
-      ######################################################
-      # 4) MERGE & PICK 8 TICKERS IN A NODE SCRIPT
-      ######################################################
       - name: Merge & Pick Final 8
         run: |
           cat << 'EOF' > merge.js
@@ -211,9 +196,6 @@ EOF
           echo "===== FINAL data.json ====="
           cat data.json
 
-      ######################################################
-      # 5) COMMIT data.json
-      ######################################################
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
