@@ -45,42 +45,10 @@ jobs:
           jq '.records | map({
             "Ticker": .fields.Ticker,
             "Rank": ( .fields.Rank // 9999 )
+            "Logo": (.fields.Logo // "")
           })' holdingsRaw.json > holdingsClean.json
           echo "===== holdingsClean.json ====="
           cat holdingsClean.json
-
-      - name: Fetch Logos from Airtable with Debug Logging
-        env:
-          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
-        run: |
-          echo "Fetching logos from Airtable..."
-          curl -sSL -D headers_logos.txt \
-            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=3000" \
-            -o logosRaw.json
-          echo "HTTP headers for logos:"
-          cat headers_logos.txt
-          echo "===== Logos Raw Response ====="
-          cat logosRaw.json
-
-      - name: Verify Logos JSON and Debug
-        run: |
-          if ! jq -e '.records' logosRaw.json >/dev/null; then
-            echo "Error: logosRaw.json does not contain a 'records' field."
-            echo "Here is the contents of logosRaw.json:"
-            cat logosRaw.json
-            exit 1
-          fi
-
-      - name: Flatten Logos Data
-        run: |
-          echo "Flattening Logos Data..."
-          jq '.records | map({
-            "Ticker": .fields.Ticker,
-            "Logo": (.fields.Logo[0].url // "")
-          })' logosRaw.json > logosClean.json
-          echo "===== logosClean.json ====="
-          cat logosClean.json
 
       - name: Prepare Ticker List
         run: |2
@@ -154,7 +122,7 @@ jobs:
               price: info.price || 0,
               prevClose: info.prevClose || 0,
               absReturn: info.absReturn || 0,
-              logo: logo
+              logo: h.Logo
             };
           });
           merged.sort((a, b) => a.rank - b.rank);
