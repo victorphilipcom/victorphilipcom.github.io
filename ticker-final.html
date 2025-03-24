@@ -22,7 +22,7 @@
       font-size: 16px;
       line-height: 40px;
     }
-    /* Pause the scroll when hovering */
+    /* Pause animation on hover */
     #ticker-container:hover #ticker-text {
       animation-play-state: paused;
     }
@@ -34,7 +34,7 @@
     .down { color: red; }
     img.logo {
       width: 80px;
-      height: 41px;
+      height: auto;
       vertical-align: middle;
       margin-right: 5px;
     }
@@ -54,18 +54,14 @@
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
           const sign = (h.absReturn >= 0) ? "+" : "";
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
-          // Format absolute return and percentage.
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
           const rankStr = h.rank;
           const priceStr = parseFloat(h.price).toFixed(2);
-          let logoHtml = "";
-          if (h.logo) {
-            logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
-          } else {
-            // Uncomment the next line to use a placeholder image when no logo is available.
-            // logoHtml = `<img class="logo" src="placeholder.png" alt="No logo available">`;
-          }
+          // Only create an image tag if the logo field is nonempty.
+          const logoHtml = (h.logo && h.logo.trim().length > 0) 
+              ? `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">` 
+              : "";
           return `
             <span class="ticker-item">
               ${logoHtml}
