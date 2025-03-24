@@ -19,7 +19,7 @@ jobs:
           sudo apt-get install -y jq
           sudo apt-get install -y nodejs npm
 
-      # Debug: Check that the Airtable PAT is being passed (should be ~82 characters)
+      # Debug: Print token length to verify the PAT is being passed (should be ~82 characters)
       - name: Debug AIRTABLE_PAT Length
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
@@ -34,13 +34,13 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching holdings from Airtable..."
-          # Use the table ID for your holdings table: tblW1gCMCcxFIuTDD
-          curl -sSL -D headers.txt \
+          # Use the Holdings table ID: tblW1gCMCcxFIuTDD
+          curl -sSL -D headers_holdings.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" \
           -o holdingsRaw.json
           echo "HTTP headers for holdings:"
-          cat headers.txt
+          cat headers_holdings.txt
           echo "===== Holdings Raw Response ====="
           cat holdingsRaw.json
 
@@ -63,7 +63,7 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching logos from Airtable..."
-          # Use the table ID for your logos table: tblfqaxUHA0XvxQgm
+          # Use the Logos table ID: tblfqaxUHA0XvxQgm
           curl -sSL -D headers_logos.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
@@ -76,11 +76,10 @@ jobs:
       - name: Flatten Logos Data
         run: |
           if jq -e '.records' logosRaw.json >/dev/null; then
-            # Attempt to get both "Logo" and "Logo-url" fields
+            # Extract only the "Logo" attachment array (ignore "Logo-url")
             jq '.records | map({
                "Ticker": .fields.Ticker,
-               "Logo": .fields.Logo,
-               "Logo-url": .fields["Logo-url"]
+               "Logo": .fields.Logo
              })' logosRaw.json > logosClean.json
             echo "===== logosClean.json ====="
             cat logosClean.json
@@ -95,7 +94,7 @@ jobs:
       - name: Prepare Ticker List
         run: |
           echo "const fs = require('fs');
-          
+
           let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
           function stripCountry(t) {
             return t.split(':')[0];
@@ -134,6 +133,7 @@ jobs:
             return t.split(':')[0];
           }
 
+          // Read flattened holdings and logos data, and Tiingo quotes.
           let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
           let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
           let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
@@ -152,17 +152,13 @@ jobs:
             };
           });
 
-          // Build a map for logos keyed by base ticker.
+          // Build a map for logos using only the 'Logo' attachment field.
           let logoMap = {};
           logos.forEach(l => {
             let baseT = stripCountry(l.Ticker || '');
             let logoURL = "";
-            if (l["Logo-url"] && typeof l["Logo-url"] === "string" && l["Logo-url"].trim() !== "") {
-              logoURL = l["Logo-url"];
-            } else if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {
+            if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {
               logoURL = l.Logo[0].url;
-            } else if (typeof l.Logo === "string") {
-              logoURL = l.Logo;
             }
             logoMap[baseT] = logoURL;
           });
