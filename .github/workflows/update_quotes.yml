@@ -33,7 +33,7 @@ jobs:
           # Table name = "Algorithm1_holdings"
           curl -sSL \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appXYZ123/Algorithm1_holdings?maxRecords=30" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm1_holdings?maxRecords=30" \
           > holdingsRaw.json
 
           echo "===== Holdings Raw ====="
