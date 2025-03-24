@@ -19,6 +19,13 @@ jobs:
           sudo apt-get install -y jq
           sudo apt-get install -y nodejs npm
 
+      # Debugging step to check token length
+      - name: Debug AIRTABLE_PAT Length
+        env:
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+        run: |
+          echo "Token length is: ${#AIRTABLE_PAT}"
+
       ######################################################
       # 1) FETCH AIRTABLE DATA (Algorithm1_holdings & Logos)
       ######################################################
@@ -37,7 +44,6 @@ jobs:
 
       - name: Flatten Algorithm1_holdings
         run: |
-          # Process the JSON only if it contains the "records" field.
           if jq -e '.records' holdingsRaw.json >/dev/null; then
             jq '.records | map({
                "Ticker": .fields.Ticker,
