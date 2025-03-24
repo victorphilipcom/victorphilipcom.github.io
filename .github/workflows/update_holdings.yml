@@ -89,7 +89,6 @@ jobs:
 
           // Read JSON files
           let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-          let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
           let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
 
           // Build a map for Tiingo data keyed by base ticker.
