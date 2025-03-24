@@ -14,134 +14,134 @@ jobs:
 
       - name: Install dependencies
         run:
-          - sudo apt-get update
-          - sudo apt-get install -y jq nodejs npm
+          - "sudo apt-get update"
+          - "sudo apt-get install -y jq nodejs npm"
 
       - name: Fetch Holdings from Airtable with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run:
-          - echo "Fetching holdings from Airtable..."
-          - curl -sSL -D headers_holdings.txt -H "Authorization: Bearer ${AIRTABLE_PAT}" "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" -o holdingsRaw.json
-          - echo "HTTP headers for holdings:"
-          - cat headers_holdings.txt
-          - echo "===== Holdings Raw Response ====="
-          - cat holdingsRaw.json
+          - "echo \"Fetching holdings from Airtable...\""
+          - "curl -sSL -D headers_holdings.txt -H \"Authorization: Bearer ${AIRTABLE_PAT}\" \"https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30\" -o holdingsRaw.json"
+          - "echo \"HTTP headers for holdings:\""
+          - "cat headers_holdings.txt"
+          - "echo \"===== Holdings Raw Response =====\""
+          - "cat holdingsRaw.json"
 
       - name: Verify Holdings JSON
         run:
-          - jq -e '.records' holdingsRaw.json >/dev/null
+          - "jq -e '.records' holdingsRaw.json >/dev/null"
 
       - name: Flatten Holdings Data
         run:
-          - jq '.records | map({ "Ticker": .fields.Ticker, "Rank": ( .fields.Rank // 9999 ) })' holdingsRaw.json > holdingsClean.json
-          - echo "===== holdingsClean.json ====="
-          - cat holdingsClean.json
+          - "jq '.records | map({ \"Ticker\": .fields.Ticker, \"Rank\": ( .fields.Rank // 9999 ) })' holdingsRaw.json > holdingsClean.json"
+          - "echo \"===== holdingsClean.json =====\""
+          - "cat holdingsClean.json"
 
       - name: Fetch Logos from Airtable with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run:
-          - echo "Fetching logos from Airtable..."
-          - curl -sSL -D headers_logos.txt -H "Authorization: Bearer ${AIRTABLE_PAT}" "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" -o logosRaw.json
-          - echo "HTTP headers for logos:"
-          - cat headers_logos.txt
-          - echo "===== Logos Raw Response ====="
-          - cat logosRaw.json
+          - "echo \"Fetching logos from Airtable...\""
+          - "curl -sSL -D headers_logos.txt -H \"Authorization: Bearer ${AIRTABLE_PAT}\" \"https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80\" -o logosRaw.json"
+          - "echo \"HTTP headers for logos:\""
+          - "cat headers_logos.txt"
+          - "echo \"===== Logos Raw Response =====\""
+          - "cat logosRaw.json"
 
       - name: Verify Logos JSON
         run:
-          - jq -e '.records' logosRaw.json >/dev/null
+          - "jq -e '.records' logosRaw.json >/dev/null"
 
       - name: Flatten Logos Data
         run:
-          - echo "Flattening Logos Data..."
-          - jq '.records | map({ "Ticker": .fields.Ticker, "Logo": .fields.Logo })' logosRaw.json > logosClean.json
-          - echo "===== logosClean.json ====="
-          - cat logosClean.json
+          - "echo \"Flattening Logos Data...\""
+          - "jq '.records | map({ \"Ticker\": .fields.Ticker, \"Logo\": .fields.Logo })' logosRaw.json > logosClean.json"
+          - "echo \"===== logosClean.json =====\""
+          - "cat logosClean.json"
 
       - name: Prepare Ticker List
         run:
-          - echo "const fs = require('fs');" > buildTickers.js
-          - echo "let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));" >> buildTickers.js
-          - echo "function stripCountry(t) {" >> buildTickers.js
-          - echo "  return t.split(':')[0];" >> buildTickers.js
-          - echo "}" >> buildTickers.js
-          - echo "let baseTickers = holdings.map(h => stripCountry(h.Ticker));" >> buildTickers.js
-          - echo "baseTickers = [...new Set(baseTickers.filter(Boolean))];" >> buildTickers.js
-          - echo "fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');" >> buildTickers.js
-          - node buildTickers.js
-          - echo "==== TICKERS FOR TIINGO ===="
-          - cat tiingoTickers.txt
+          - "echo \"const fs = require('fs');\" > buildTickers.js"
+          - "echo \"let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));\" >> buildTickers.js"
+          - "echo \"function stripCountry(t) {\" >> buildTickers.js"
+          - "echo \"  return t.split(':')[0];\" >> buildTickers.js"
+          - "echo \"}\" >> buildTickers.js"
+          - "echo \"let baseTickers = holdings.map(h => stripCountry(h.Ticker));\" >> buildTickers.js"
+          - "echo \"baseTickers = [...new Set(baseTickers.filter(Boolean))];\" >> buildTickers.js"
+          - "echo \"fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');\" >> buildTickers.js"
+          - "node buildTickers.js"
+          - "echo \"==== TICKERS FOR TIINGO ====\""
+          - "cat tiingoTickers.txt"
 
       - name: Fetch from Tiingo
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run:
-          - TICKERS=$(cat tiingoTickers.txt)
-          - echo "Fetching Tiingo quotes for: $TICKERS"
-          - curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" -o tiingoRaw.json
-          - echo "===== tiingoRaw.json ====="
-          - cat tiingoRaw.json
+          - "TICKERS=$(cat tiingoTickers.txt)"
+          - "echo \"Fetching Tiingo quotes for: $TICKERS\""
+          - "curl -sSL \"https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}\" -o tiingoRaw.json"
+          - "echo \"===== tiingoRaw.json =====\""
+          - "cat tiingoRaw.json"
 
       - name: Merge & Pick Final 8
         run:
-          - echo "const fs = require('fs');" > merge.js
-          - echo "// Helper function to strip country codes (e.g. \"SFM:USA\" -> \"SFM\")" >> merge.js
-          - echo "function stripCountry(t) {" >> merge.js
-          - echo "  return t.split(':')[0];" >> merge.js
-          - echo "}" >> merge.js
-          - echo "// Read JSON files" >> merge.js
-          - echo "let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));" >> merge.js
-          - echo "let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));" >> merge.js
-          - echo "let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));" >> merge.js
-          - echo "// Build a map for Tiingo data keyed by base ticker." >> merge.js
-          - echo "let tiingoMap = {};" >> merge.js
-          - echo "tiingoRaw.forEach(item => {" >> merge.js
-          - echo "  let price = (item.last == null) ? item.tngoLast : item.last;" >> merge.js
-          - echo "  let prev = item.prevClose || 0;" >> merge.js
-          - echo "  let ret = price - prev;" >> merge.js
-          - echo "  tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };" >> merge.js
-          - echo "});" >> merge.js
-          - echo "// Build a map for logos using the 'Logo' attachment field." >> merge.js
-          - echo "let logoMap = {};" >> merge.js
-          - echo "logos.forEach(l => {" >> merge.js
-          - echo "  let baseT = l.Ticker.split(':')[0];" >> merge.js
-          - echo "  console.log('Processing logo for ticker:', l.Ticker, '-> base:', baseT, 'Logo field:', JSON.stringify(l.Logo));" >> merge.js
-          - echo "  let logoURL = \"\";" >> merge.js
-          - echo "  if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {" >> merge.js
-          - echo "    logoURL = l.Logo[0].url;" >> merge.js
-          - echo "  }" >> merge.js
-          - echo "  logoMap[baseT] = logoURL;" >> merge.js
-          - echo "});" >> merge.js
-          - echo "console.log('Logo Map:', JSON.stringify(logoMap, null, 2));" >> merge.js
-          - echo "// Merge holdings with Tiingo data and logos." >> merge.js
-          - echo "let merged = holdings.map(h => {" >> merge.js
-          - echo "  let baseT = h.Ticker.split(':')[0];" >> merge.js
-          - echo "  let info = tiingoMap[baseT] || {};" >> merge.js
-          - echo "  let logo = logoMap[baseT] || \"\";" >> merge.js
-          - echo "  return {" >> merge.js
-          - echo "    fullTicker: h.Ticker," >> merge.js
-          - echo "    baseTicker: baseT," >> merge.js
-          - echo "    rank: h.Rank," >> merge.js
-          - echo "    price: info.price || 0," >> merge.js
-          - echo "    prevClose: info.prevClose || 0," >> merge.js
-          - echo "    absReturn: info.absReturn || 0," >> merge.js
-          - echo "    logo: logo" >> merge.js
-          - echo "  };" >> merge.js
-          - echo "});" >> merge.js
-          - echo "merged.sort((a, b) => a.rank - b.rank);" >> merge.js
-          - echo "merged = merged.map(item => ({ ...item, rank: parseFloat(item.rank).toFixed(1) }));" >> merge.js
-          - echo "fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');" >> merge.js
-          - echo "console.log('Final selection =>', merged);" >> merge.js
-          - node merge.js
-          - echo "===== FINAL data.json ====="
-          - cat data.json
+          - "echo \"const fs = require('fs');\" > merge.js"
+          - "echo \"// Helper function to strip country codes (e.g. 'SFM:USA' -> 'SFM')\" >> merge.js"
+          - "echo \"function stripCountry(t) {\" >> merge.js"
+          - "echo \"  return t.split(':')[0];\" >> merge.js"
+          - "echo \"}\" >> merge.js"
+          - "echo \"// Read JSON files\" >> merge.js"
+          - "echo \"let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));\" >> merge.js"
+          - "echo \"let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));\" >> merge.js"
+          - "echo \"let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));\" >> merge.js"
+          - "echo \"// Build a map for Tiingo data keyed by base ticker.\" >> merge.js"
+          - "echo \"let tiingoMap = {};\" >> merge.js"
+          - "echo \"tiingoRaw.forEach(item => {\" >> merge.js"
+          - "echo \"  let price = (item.last == null) ? item.tngoLast : item.last;\" >> merge.js"
+          - "echo \"  let prev = item.prevClose || 0;\" >> merge.js"
+          - "echo \"  let ret = price - prev;\" >> merge.js"
+          - "echo \"  tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };\" >> merge.js"
+          - "echo \"});\" >> merge.js"
+          - "echo \"// Build a map for logos using the 'Logo' attachment field.\" >> merge.js"
+          - "echo \"let logoMap = {};\" >> merge.js"
+          - "echo \"logos.forEach(l => {\" >> merge.js"
+          - "echo \"  let baseT = l.Ticker.split(':')[0];\" >> merge.js"
+          - "echo \"  console.log('Processing logo for ticker:', l.Ticker, '-> base:', baseT, 'Logo field:', JSON.stringify(l.Logo));\" >> merge.js"
+          - "echo \"  let logoURL = '';\" >> merge.js"
+          - "echo \"  if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {\" >> merge.js"
+          - "echo \"    logoURL = l.Logo[0].url;\" >> merge.js"
+          - "echo \"  }\" >> merge.js"
+          - "echo \"  logoMap[baseT] = logoURL;\" >> merge.js"
+          - "echo \"});\" >> merge.js"
+          - "echo \"console.log('Logo Map:', JSON.stringify(logoMap, null, 2));\" >> merge.js"
+          - "echo \"// Merge holdings with Tiingo data and logos.\" >> merge.js"
+          - "echo \"let merged = holdings.map(h => {\" >> merge.js"
+          - "echo \"  let baseT = h.Ticker.split(':')[0];\" >> merge.js"
+          - "echo \"  let info = tiingoMap[baseT] || {};\" >> merge.js"
+          - "echo \"  let logo = logoMap[baseT] || '';\" >> merge.js"
+          - "echo \"  return {\" >> merge.js"
+          - "echo \"    fullTicker: h.Ticker,\" >> merge.js"
+          - "echo \"    baseTicker: baseT,\" >> merge.js"
+          - "echo \"    rank: h.Rank,\" >> merge.js"
+          - "echo \"    price: info.price || 0,\" >> merge.js"
+          - "echo \"    prevClose: info.prevClose || 0,\" >> merge.js"
+          - "echo \"    absReturn: info.absReturn || 0,\" >> merge.js"
+          - "echo \"    logo: logo\" >> merge.js"
+          - "echo \"  };\" >> merge.js"
+          - "echo \"});\" >> merge.js"
+          - "echo \"merged.sort((a, b) => a.rank - b.rank);\" >> merge.js"
+          - "echo \"merged = merged.map(item => ({ ...item, rank: parseFloat(item.rank).toFixed(1) }));\" >> merge.js"
+          - "echo \"fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');\" >> merge.js"
+          - "echo \"console.log('Final selection =>', merged);\" >> merge.js"
+          - "node merge.js"
+          - "echo \"===== FINAL data.json =====\""
+          - "cat data.json"
 
       - name: Commit changes
         run:
-          - git config user.name "github-actions[bot]"
-          - git config user.email "github-actions[bot]@users.noreply.github.com"
-          - git add data.json
-          - git commit -m "Update final ticker selection" || exit 0
-          - git push origin HEAD:main
+          - "git config user.name \"github-actions[bot]\""
+          - "git config user.email \"github-actions[bot]@users.noreply.github.com\""
+          - "git add data.json"
+          - "git commit -m \"Update final ticker selection\" || exit 0"
+          - "git push origin HEAD:main"
