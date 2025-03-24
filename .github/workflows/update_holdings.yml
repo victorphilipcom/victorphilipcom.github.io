@@ -104,7 +104,6 @@ jobs:
           let merged = holdings.map(h => {
             let baseT = stripCountry(h.Ticker || '');
             let info = tiingoMap[baseT] || {};
-            let logo = logoMap[baseT] || "";
             return {
               fullTicker: h.Ticker,
               baseTicker: baseT,
