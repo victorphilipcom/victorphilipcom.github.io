@@ -113,7 +113,7 @@ jobs:
       - name: Fetch from Tiingo
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-        run: |8
+        run: |2
           TICKERS=$(cat tiingoTickers.txt)
           echo "Fetching Tiingo quotes for: $TICKERS"
           curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
