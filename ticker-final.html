@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Final Holdings Ticker</title>
+  <style>
+    body {
+      margin: 0; padding: 0; font-family: sans-serif;
+    }
+    #ticker-container {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      border: 1px solid #ccc;
+    }
+    #ticker-text {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 20s linear infinite;
+      font-size: 16px;
+      line-height: 40px;
+    }
+    @keyframes scroll-left {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
+    }
+    .up   { color: green; }
+    .down { color: red;   }
+    img.logo {
+      width: 80px;
+      height: 41px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="ticker-container">
+    <div id="ticker-text">Loading final holdings...</div>
+  </div>
+
+  <script>
+    fetch("data.json")  // assume it's in the same folder on GitHub Pages
+      .then(resp => resp.json())
+      .then(finalHoldings => {
+        // Example finalHoldings entry:
+        // {
+        //   "fullTicker": "AAPL:USA",
+        //   "baseTicker": "AAPL",
+        //   "rank": 2,
+        //   "price": 218.27,
+        //   "prevClose": 214.1,
+        //   "absReturn": 4.17,
+        //   "logo": "https://..."
+        // }
+
+        const items = finalHoldings.map(h => {
+          // color-coded daily return
+          const sign = (h.absReturn >= 0) ? "+" : "";
+          const retClass = (h.absReturn > 0) ? "up" :
+                           (h.absReturn < 0) ? "down" : "";
+          
+          const absRet = `${sign}${h.absReturn.toFixed(2)}`;
+
+          // Build <img> if we have a logo
+          let logoHtml = "";
+          if (h.logo) {
+            // We'll size it to 80x41 with CSS class "logo"
+            logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
+          }
+
+          return `
+            <span class="ticker-item">
+              ${logoHtml}
+              (<strong>${h.rank}</strong>) 
+              ${h.baseTicker} $${h.price.toFixed(2)}
+              <span class="${retClass}">
+                (${absRet})
+              </span>
+            </span>
+          `;
+        });
+
+        document.getElementById('ticker-text').innerHTML = items.join(" | ");
+      })
+      .catch(err => {
+        console.error("Error loading final holdings:", err);
+        document.getElementById('ticker-text').textContent = "Error loading final holdings.";
+      });
+  </script>
+</body>
+</html>
