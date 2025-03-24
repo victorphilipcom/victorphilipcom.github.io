@@ -59,7 +59,8 @@
           // Format absolute return and percentage.
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
-          const rankStr = h.rank;
+          // Round the ranking to one decimal.
+          const rankStr = parseFloat(h.rank).toFixed(1);
           const priceStr = parseFloat(h.price).toFixed(2);
           
           let logoHtml = "";
