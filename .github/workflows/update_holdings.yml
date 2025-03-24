@@ -30,7 +30,10 @@ jobs:
 
       - name: Flatten Holdings Data
         run:
-          - if jq -e '.records' holdingsRaw.json >/dev/null; then jq '.records | map({ "Ticker": .fields.Ticker, "Rank": ( .fields.Rank // 9999 ) })' holdingsRaw.json > holdingsClean.json && echo "===== holdingsClean.json =====" && cat holdingsClean.json; else echo "Error: holdingsRaw.json does not contain a 'records' field." && exit 1; fi
+          - if ! jq -e '.records' holdingsRaw.json >/dev/null; then echo "Error: holdingsRaw.json does not contain a 'records' field." && exit 1; fi
+          - jq '.records | map({ "Ticker": .fields.Ticker, "Rank": ( .fields.Rank // 9999 ) })' holdingsRaw.json > holdingsClean.json
+          - echo "===== holdingsClean.json ====="
+          - cat holdingsClean.json
 
       - name: Fetch Logos from Airtable with Debug Logging
         env:
@@ -45,7 +48,11 @@ jobs:
 
       - name: Flatten Logos Data
         run:
-          - if jq -e '.records' logosRaw.json >/dev/null; then echo "Flattening Logos Data..." && jq '.records | map({ "Ticker": .fields.Ticker, "Logo": .fields.Logo })' logosRaw.json > logosClean.json && echo "===== logosClean.json =====" && cat logosClean.json; else echo "Error: logosRaw.json does not contain a 'records' field." && exit 1; fi
+          - if ! jq -e '.records' logosRaw.json >/dev/null; then echo "Error: logosRaw.json does not contain a 'records' field." && exit 1; fi
+          - echo "Flattening Logos Data..."
+          - jq '.records | map({ "Ticker": .fields.Ticker, "Logo": .fields.Logo })' logosRaw.json > logosClean.json
+          - echo "===== logosClean.json ====="
+          - cat logosClean.json
 
       - name: Prepare Ticker List
         run:
@@ -93,7 +100,7 @@ jobs:
           - echo "// Build a map for logos using the 'Logo' attachment field." >> merge.js
           - echo "let logoMap = {};" >> merge.js
           - echo "logos.forEach(l => {" >> merge.js
-          - echo "  let baseT = stripCountry(l.Ticker || '');" >> merge.js
+          - echo "  let baseT = l.Ticker.split(':')[0];" >> merge.js
           - echo "  console.log('Processing logo for ticker:', l.Ticker, '-> base:', baseT, 'Logo field:', JSON.stringify(l.Logo));" >> merge.js
           - echo "  let logoURL = \"\";" >> merge.js
           - echo "  if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {" >> merge.js
@@ -104,7 +111,7 @@ jobs:
           - echo "console.log('Logo Map:', JSON.stringify(logoMap, null, 2));" >> merge.js
           - echo "// Merge holdings with Tiingo data and logos." >> merge.js
           - echo "let merged = holdings.map(h => {" >> merge.js
-          - echo "  let baseT = stripCountry(h.Ticker || '');" >> merge.js
+          - echo "  let baseT = h.Ticker.split(':')[0];" >> merge.js
           - echo "  let info = tiingoMap[baseT] || {};" >> merge.js
           - echo "  let logo = logoMap[baseT] || \"\";" >> merge.js
           - echo "  return {" >> merge.js
