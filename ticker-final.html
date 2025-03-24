@@ -60,13 +60,13 @@
           const rankStr = h.rank;
           const logo = h.url
           const priceStr = parseFloat(h.price).toFixed(2);
-          let logoHtml = "";
-          if (h.logo) {
-            logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
-          } else {
-            // Uncomment the next line to use a placeholder image when no logo is available.
-            // logoHtml = `<img class="logo" src="placeholder.png" alt="No logo available">`;
-          }
+          // let logoHtml = "";
+          // if (h.logo) {
+          //   logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
+          // } else {
+          //   // Uncomment the next line to use a placeholder image when no logo is available.
+          //   // logoHtml = `<img class="logo" src="placeholder.png" alt="No logo available">`;
+          // }
           return `
             <span class="ticker-item">
               ${logo}
