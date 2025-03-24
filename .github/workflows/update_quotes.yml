@@ -19,7 +19,7 @@ jobs:
           sudo apt-get install -y jq
           sudo apt-get install -y nodejs npm
 
-      # Debug: Check token length
+      # Debug: Check that the Airtable PAT is being passed (should be ~82 characters)
       - name: Debug AIRTABLE_PAT Length
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
@@ -34,14 +34,14 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching holdings from Airtable..."
-          # Dump HTTP headers to a temp file for logging only
+          # Use the table ID for your holdings table: tblW1gCMCcxFIuTDD
           curl -sSL -D headers.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" \
           -o holdingsRaw.json
           echo "HTTP headers for holdings:"
           cat headers.txt
-          echo "===== Holdings Raw Response (JSON) ====="
+          echo "===== Holdings Raw Response ====="
           cat holdingsRaw.json
 
       - name: Flatten Holdings Data
@@ -63,21 +63,24 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching logos from Airtable..."
+          # Use the table ID for your logos table: tblfqaxUHA0XvxQgm
           curl -sSL -D headers_logos.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
           -o logosRaw.json
           echo "HTTP headers for logos:"
           cat headers_logos.txt
-          echo "===== Logos Raw Response (JSON) ====="
+          echo "===== Logos Raw Response ====="
           cat logosRaw.json
 
       - name: Flatten Logos Data
         run: |
           if jq -e '.records' logosRaw.json >/dev/null; then
+            # Attempt to get both "Logo" and "Logo-url" fields
             jq '.records | map({
                "Ticker": .fields.Ticker,
-               "Logo": .fields.Logo
+               "Logo": .fields.Logo,
+               "Logo-url": .fields["Logo-url"]
              })' logosRaw.json > logosClean.json
             echo "===== logosClean.json ====="
             cat logosClean.json
@@ -92,21 +95,17 @@ jobs:
       - name: Prepare Ticker List
         run: |
           echo "const fs = require('fs');
-
-          let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
           
+          let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
           function stripCountry(t) {
             return t.split(':')[0];
           }
-          
           let baseTickers = holdings.map(h => stripCountry(h.Ticker));
           baseTickers = [...new Set(baseTickers.filter(Boolean))];
-          
           fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
           " > buildTickers.js
 
           node buildTickers.js
-
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
 
@@ -139,6 +138,7 @@ jobs:
           let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
           let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
 
+          // Build a map for Tiingo data keyed by base ticker.
           let tiingoMap = {};
           tiingoRaw.forEach(item => {
             let price = (item.last == null) ? item.tngoLast : item.last;
@@ -152,17 +152,26 @@ jobs:
             };
           });
 
+          // Build a map for logos keyed by base ticker.
           let logoMap = {};
           logos.forEach(l => {
             let baseT = stripCountry(l.Ticker || '');
-            let logoURL = (typeof l.Logo === 'string') ? l.Logo : '';
+            let logoURL = "";
+            if (l["Logo-url"] && typeof l["Logo-url"] === "string" && l["Logo-url"].trim() !== "") {
+              logoURL = l["Logo-url"];
+            } else if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {
+              logoURL = l.Logo[0].url;
+            } else if (typeof l.Logo === "string") {
+              logoURL = l.Logo;
+            }
             logoMap[baseT] = logoURL;
           });
 
+          // Merge holdings with Tiingo data and logos.
           let merged = holdings.map(h => {
             let baseT = stripCountry(h.Ticker || '');
             let info = tiingoMap[baseT] || {};
-            let logo = logoMap[baseT] || '';
+            let logo = logoMap[baseT] || "";
             return {
               fullTicker: h.Ticker,
               baseTicker: baseT,
@@ -174,6 +183,7 @@ jobs:
             };
           });
 
+          // Separate tickers by positive and non-positive returns.
           let positives = merged.filter(m => m.absReturn > 0);
           let negatives = merged.filter(m => m.absReturn <= 0);
           positives.sort((a,b) => a.rank - b.rank);
@@ -199,6 +209,13 @@ jobs:
             finalSelection = [...topPos, ...topNeg];
           }
           finalSelection.sort((a,b) => a.rank - b.rank);
+
+          // Format rank to one decimal.
+          finalSelection = finalSelection.map(item => ({
+            ...item,
+            rank: parseFloat(item.rank).toFixed(1)
+          }));
+
           fs.writeFileSync('data.json', JSON.stringify(finalSelection, null, 2), 'utf8');
           console.log('Final selection =>', finalSelection);
           " > merge.js
