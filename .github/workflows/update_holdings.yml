@@ -80,6 +80,7 @@ jobs:
             exit 1
           fi
 
+
       - name: Prepare Ticker List
         run: |
           cat << 'EOF' > buildTickers.js
