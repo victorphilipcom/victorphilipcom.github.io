@@ -54,7 +54,7 @@ jobs:
           node -e "const fs = require('fs'); 
                    const holdings = JSON.parse(fs.readFileSync('holdingsClean.json', 'utf8'));
                    const tickers = holdings.map(h => h.Ticker);
-                   const formula = 'OR(' + tickers.map(t => \"{Ticker}='\" + t + \"'\").join(',') + ')';
+                   const formula = 'OR(' + tickers.map(t => `{Ticker}='${t}'`).join(',') + ')';
                    const encoded = encodeURIComponent(formula);
                    console.log('Filter formula:', formula);
                    fs.writeFileSync('logosFilter.txt', encoded);"
@@ -97,15 +97,15 @@ jobs:
       - name: Prepare Ticker List
         run: |2
           cat <<'EOF' > buildTickers.js
-const fs = require('fs');
-let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-function stripCountry(t) {
-  return t.split(':')[0];
-}
-let baseTickers = holdings.map(h => stripCountry(h.Ticker));
-baseTickers = [...new Set(baseTickers.filter(Boolean))];
-fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
-EOF
+          const fs = require('fs');
+          let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+          function stripCountry(t) {
+            return t.split(':')[0];
+          }
+          let baseTickers = holdings.map(h => stripCountry(h.Ticker));
+          baseTickers = [...new Set(baseTickers.filter(Boolean))];
+          fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
+          EOF
           node buildTickers.js
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
@@ -113,7 +113,7 @@ EOF
       - name: Fetch from Tiingo
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-        run: |
+        run: |2
           TICKERS=$(cat tiingoTickers.txt)
           echo "Fetching Tiingo quotes for: $TICKERS"
           curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
@@ -124,47 +124,47 @@ EOF
       - name: Merge & Pick Final 8
         run: |2
           cat <<'EOF' > merge.js
-const fs = require('fs');
-function stripCountry(t) {
-  return t.split(':')[0];
-}
-let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
-let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
-let tiingoMap = {};
-tiingoRaw.forEach(item => {
-  let price = (item.last == null) ? item.tngoLast : item.last;
-  let prev = item.prevClose || 0;
-  let ret = price - prev;
-  tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
-});
-let logoMap = {};
-logos.forEach(l => {
-  let baseT = stripCountry(l.Ticker || '');
-  logoMap[baseT] = l.Logo;
-});
-let merged = holdings.map(h => {
-  let baseT = stripCountry(h.Ticker || '');
-  let info = tiingoMap[baseT] || {};
-  let logo = logoMap[baseT] || "";
-  return {
-    fullTicker: h.Ticker,
-    baseTicker: baseT,
-    rank: h.Rank,
-    price: info.price || 0,
-    prevClose: info.prevClose || 0,
-    absReturn: info.absReturn || 0,
-    logo: logo
-  };
-});
-merged.sort((a, b) => a.rank - b.rank);
-merged = merged.map(item => ({
-  ...item,
-  rank: parseFloat(item.rank).toFixed(1)
-}));
-fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
-console.log('Final selection =>', merged);
-EOF
+          const fs = require('fs');
+          function stripCountry(t) {
+            return t.split(':')[0];
+          }
+          let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+          let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
+          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
+          let tiingoMap = {};
+          tiingoRaw.forEach(item => {
+            let price = (item.last == null) ? item.tngoLast : item.last;
+            let prev = item.prevClose || 0;
+            let ret = price - prev;
+            tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
+          });
+          let logoMap = {};
+          logos.forEach(l => {
+            let baseT = stripCountry(l.Ticker || '');
+            logoMap[baseT] = l.Logo;
+          });
+          let merged = holdings.map(h => {
+            let baseT = stripCountry(h.Ticker || '');
+            let info = tiingoMap[baseT] || {};
+            let logo = logoMap[baseT] || "";
+            return {
+              fullTicker: h.Ticker,
+              baseTicker: baseT,
+              rank: h.Rank,
+              price: info.price || 0,
+              prevClose: info.prevClose || 0,
+              absReturn: info.absReturn || 0,
+              logo: logo
+            };
+          });
+          merged.sort((a, b) => a.rank - b.rank);
+          merged = merged.map(item => ({
+            ...item,
+            rank: parseFloat(item.rank).toFixed(1)
+          }));
+          fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
+          console.log('Final selection =>', merged);
+          EOF
           node merge.js
           echo "===== FINAL data.json ====="
           cat data.json
