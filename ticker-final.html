@@ -5,9 +5,7 @@
   <title>My Final Holdings Ticker</title>
   <style>
     body {
-      margin: 0; 
-      padding: 0; 
-      font-family: sans-serif;
+      margin: 0; padding: 0; font-family: sans-serif;
     }
     #ticker-container {
       width: 100%;
@@ -46,28 +44,24 @@
       .then(resp => resp.json())
       .then(finalHoldings => {
         const items = finalHoldings.map(h => {
-          // Compute percentage change if prevClose is non-zero.
+          // Calculate percentage change if prevClose is nonzero.
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
-          // Format numbers: rank with one decimal; price with two; absReturn and pct with one decimal.
-          const rankStr = parseFloat(h.rank).toFixed(1);
-          const priceStr = parseFloat(h.price).toFixed(2);
-          const absRetStr = parseFloat(h.absReturn).toFixed(1);
-          const pctStr = parseFloat(pct).toFixed(1);
           const sign = (h.absReturn >= 0) ? "+" : "";
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
-
-          // Build the logo HTML if available.
+          const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
+          const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
+          // Rank is now already formatted as one decimal.
+          const rankStr = h.rank;
+          const priceStr = parseFloat(h.price).toFixed(2);
           let logoHtml = "";
           if (h.logo) {
             logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
           }
-          // Final output, e.g.:
-          // <img ...> RM (Rank: 98.5) $31.91 <span class="up">+1.1 (+3.4%)</span>
           return `
             <span class="ticker-item">
               ${logoHtml}
               ${h.baseTicker} (Rank: ${rankStr}) $${priceStr}
-              <span class="${retClass}">(${sign}${absRetStr} (${sign}${pctStr}%))</span>
+              <span class="${retClass}">(${absRet} (${pctStr}))</span>
             </span>
           `;
         });
