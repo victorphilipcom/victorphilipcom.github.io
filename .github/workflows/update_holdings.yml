@@ -17,57 +17,55 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq nodejs npm
 
-      - name: Fetch Logos from Airtable with Debug Logging
+      - name: Fetch RankingsTotal from Airtable with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          echo "Fetching logos from Airtable..."
-          curl -sSL -D headers_logos.txt \
+          echo "Fetching RankingsTotal from Airtable..."
+          curl -sSL -D headers_rankings.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=3000" \
-            -o logosRaw.json
-          echo "HTTP headers for logos:"
-          cat headers_logos.txt
-          echo "===== Logos Raw Response ====="
-          cat logosRaw.json
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tbl4Hy2kVNE16r5Ws?maxRecords=100" \
+            -o rankingsRaw.json
+          echo "HTTP headers for RankingsTotal:"
+          cat headers_rankings.txt
+          echo "===== RankingsTotal Raw Response ====="
+          cat rankingsRaw.json
 
-      - name: Verify Logos JSON and Debug
+      - name: Verify RankingsTotal JSON and Debug
         run: |
-          if ! jq -e '.records' logosRaw.json >/dev/null; then
-            echo "Error: logosRaw.json does not contain a 'records' field."
-            echo "Here is the contents of logosRaw.json:"
-            cat logosRaw.json
+          if ! jq -e '.records' rankingsRaw.json >/dev/null; then
+            echo "Error: rankingsRaw.json does not contain a 'records' field."
+            echo "Here is the contents of rankingsRaw.json:"
+            cat rankingsRaw.json
             exit 1
           fi
 
-      - name: Flatten Logos Data
+      - name: Flatten RankingsTotal Data
         run: |
-          echo "Flattening Logos Data..."
           jq '.records | map({
             "Ticker": .fields.Ticker,
-            "Logo": (.fields.Logo[0].url // "")
-          })' logosRaw.json > logosClean.json
-          echo "===== logosClean.json ====="
-          cat logosClean.json
+            "Rank": .fields.Rank,
+            "Logo": (.fields.Logo // "")
+          })' rankingsRaw.json > rankingsClean.json
+          echo "===== rankingsClean.json ====="
+          cat rankingsClean.json
 
-      - name: Prepare Ticker List
+      - name: Prepare Ticker List (10 Random + SPY)
         run: |2
           cat <<'EOF' > buildTickers.js
           const fs = require('fs');
-          // Read the logos data and extract base tickers
-          let logos = JSON.parse(fs.readFileSync('logosClean.json', 'utf8'));
+          let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
           function stripCountry(t) {
             return t.split(':')[0];
           }
-          let tickers = logos.map(l => stripCountry(l.Ticker));
-          // Remove duplicates
-          tickers = [...new Set(tickers)];
-          // Limit to 10 tickers (adjust selection logic as needed)
-          tickers = tickers.slice(0, 10);
-          // Append SPY ticker
+          // Shuffle the array randomly and pick 10 entries
+          rankings.sort(() => Math.random() - 0.5);
+          let selected = rankings.slice(0, 10);
+          // Extract base tickers and remove country suffixes
+          let tickers = selected.map(h => stripCountry(h.Ticker));
+          // Append SPY ticker (which will have no rank)
           tickers.push("SPY");
           fs.writeFileSync('tiingoTickers.txt', tickers.join(','), 'utf8');
-          console.log("Selected tickers:", tickers);
           EOF
           node buildTickers.js
           echo "==== TICKERS FOR TIINGO ===="
@@ -84,19 +82,18 @@ jobs:
           echo "===== tiingoRaw.json ====="
           cat tiingoRaw.json
 
-      - name: Merge & Pick Final Tickers
+      - name: Merge & Pick Final Selection
         run: |2
           cat <<'EOF' > merge.js
           const fs = require('fs');
-          // Helper to strip country code (e.g. "XYZ:USA" -> "XYZ")
           function stripCountry(t) {
             return t.split(':')[0];
           }
-          // Read the selected tickers list
-          const tickersList = fs.readFileSync('tiingoTickers.txt', 'utf8').split(',');
+          // Read the flattened Rankings data and Tiingo data
+          let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
+          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
           
-          // Read Tiingo data and build a map keyed by ticker
-          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json', 'utf8'));
+          // Build a map for Tiingo data keyed by base ticker.
           let tiingoMap = {};
           tiingoRaw.forEach(item => {
             let price = (item.last == null) ? item.tngoLast : item.last;
@@ -105,32 +102,38 @@ jobs:
             tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
           });
           
-          // Read logos data and build a map keyed by base ticker
-          let logos = JSON.parse(fs.readFileSync('logosClean.json', 'utf8'));
-          let logoMap = {};
-          logos.forEach(l => {
-            let baseT = stripCountry(l.Ticker || '');
-            logoMap[baseT] = l.Logo;
+          // Build final merged data from Rankings data.
+          let merged = rankings.map(h => {
+            let baseT = stripCountry(h.Ticker || '');
+            let info = tiingoMap[baseT] || {};
+            return {
+              fullTicker: h.Ticker,
+              baseTicker: baseT,
+              rank: h.Rank,
+              price: info.price || 0,
+              prevClose: info.prevClose || 0,
+              absReturn: info.absReturn || 0,
+              logo: h.Logo
+            };
           });
           
-          // Build final merged data for each ticker in our list.
-          let merged = tickersList.map(ticker => {
-            let info = tiingoMap[ticker] || { price: 0, prevClose: 0, absReturn: 0 };
-            let logo = "";
-            if (ticker === "SPY") {
-              // Use the local image for SPY.
-              logo = "sp500.png";
-            } else {
-              logo = logoMap[ticker] || "";
-            }
-            return {
-              fullTicker: ticker,
-              baseTicker: ticker,
-              price: info.price,
-              prevClose: info.prevClose,
-              absReturn: info.absReturn,
-              logo: logo
-            };
+          // Add SPY ticker (no rank, logo from local sp500.png)
+          let spyInfo = tiingoMap["SPY"] || {};
+          merged.push({
+            fullTicker: "SPY",
+            baseTicker: "SPY",
+            rank: "",
+            price: spyInfo.price || 0,
+            prevClose: spyInfo.prevClose || 0,
+            absReturn: spyInfo.absReturn || 0,
+            logo: "sp500.png"
+          });
+          
+          // Optionally, sort merged data by rank (placing SPY last)
+          merged = merged.sort((a, b) => {
+            if(a.baseTicker === "SPY") return 1;
+            if(b.baseTicker === "SPY") return -1;
+            return a.rank - b.rank;
           });
           
           fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
