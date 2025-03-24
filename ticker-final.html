@@ -5,7 +5,9 @@
   <title>My Final Holdings Ticker</title>
   <style>
     body {
-      margin: 0; padding: 0; font-family: sans-serif;
+      margin: 0; 
+      padding: 0; 
+      font-family: sans-serif;
     }
     #ticker-container {
       width: 100%;
@@ -50,7 +52,7 @@
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
-          const rankStr = h.rank; // Already formatted to one decimal.
+          const rankStr = h.rank;
           const priceStr = parseFloat(h.price).toFixed(2);
           let logoHtml = "";
           if (h.logo) {
@@ -61,15 +63,4 @@
               ${logoHtml}
               ${h.baseTicker} (Rank: ${rankStr}) $${priceStr}
               <span class="${retClass}">(${absRet} (${pctStr}))</span>
-            </span>
-          `;
-        });
-        document.getElementById('ticker-text').innerHTML = items.join(" | ");
-      })
-      .catch(err => {
-        console.error("Error loading final holdings:", err);
-        document.getElementById('ticker-text').textContent = "Error loading final holdings.";
-      });
-  </script>
-</body>
-</html>
+            </span
