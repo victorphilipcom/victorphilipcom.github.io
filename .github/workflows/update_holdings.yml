@@ -66,6 +66,7 @@ jobs:
       - name: Flatten Logos Data
         run: |
           if jq -e '.records' logosRaw.json >/dev/null; then
+            echo "Flattening Logos Data..."
             jq '.records | map({
               "Ticker": .fields.Ticker,
               "Logo": .fields.Logo
@@ -76,6 +77,7 @@ jobs:
             echo "Error: logosRaw.json does not contain a 'records' field."
             exit 1
           fi
+
 
       ######################################################
       # 2) BUILD TICKER LIST FOR TIINGO
