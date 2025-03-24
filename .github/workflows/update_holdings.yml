@@ -20,8 +20,14 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: "echo 'Fetching holdings from Airtable...'; curl -sSL -D headers_holdings.txt -H 'Authorization: Bearer ${AIRTABLE_PAT}' 'https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30' -o holdingsRaw.json; echo 'HTTP headers for holdings:'; cat headers_holdings.txt; echo '===== Holdings Raw Response ====='; cat holdingsRaw.json"
 
-      - name: Verify Holdings JSON
-        run: "jq -e '.records' holdingsRaw.json >/dev/null"
+      - name: Verify Holdings JSON and Debug
+        run: |
+          if ! jq -e '.records' holdingsRaw.json >/dev/null; then
+            echo "Error: holdingsRaw.json does not contain a 'records' field.";
+            echo "Here is the contents of holdingsRaw.json:";
+            cat holdingsRaw.json;
+            exit 1;
+          fi
 
       - name: Flatten Holdings Data
         run: "jq '.records | map({ \"Ticker\": .fields.Ticker, \"Rank\": ( .fields.Rank // 9999 ) })' holdingsRaw.json > holdingsClean.json && echo '===== holdingsClean.json =====' && cat holdingsClean.json"
@@ -31,8 +37,14 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: "echo 'Fetching logos from Airtable...'; curl -sSL -D headers_logos.txt -H 'Authorization: Bearer ${AIRTABLE_PAT}' 'https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80' -o logosRaw.json; echo 'HTTP headers for logos:'; cat headers_logos.txt; echo '===== Logos Raw Response ====='; cat logosRaw.json"
 
-      - name: Verify Logos JSON
-        run: "jq -e '.records' logosRaw.json >/dev/null"
+      - name: Verify Logos JSON and Debug
+        run: |
+          if ! jq -e '.records' logosRaw.json >/dev/null; then
+            echo "Error: logosRaw.json does not contain a 'records' field.";
+            echo "Here is the contents of logosRaw.json:";
+            cat logosRaw.json;
+            exit 1;
+          fi
 
       - name: Flatten Logos Data
         run: "echo 'Flattening Logos Data...'; jq '.records | map({ \"Ticker\": .fields.Ticker, \"Logo\": .fields.Logo })' logosRaw.json > logosClean.json && echo '===== logosClean.json =====' && cat logosClean.json"
