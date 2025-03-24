@@ -77,14 +77,18 @@ jobs:
       - name: Prepare Ticker List
         run: |2
           cat <<'EOF' > buildTickers.js
-            const fs = require('fs');
-            let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-            function stripCountry(t) {
-              return t.split(':')[0];
-            }
-            let baseTickers = holdings.map(h => stripCountry(h.Ticker));
-            baseTickers = [...new Set(baseTickers.filter(Boolean))];
-            fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');EOF
+const fs = require('fs');
+let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+function stripCountry(t) {
+  return t.split(':')[0];
+}
+let baseTickers = holdings.map(h => stripCountry(h.Ticker));
+baseTickers = [...new Set(baseTickers.filter(Boolean))];
+fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
+EOF
+        # The dedentation indicator "|2" above removes 2 spaces from each line.
+        # Verify that "buildTickers.js" now has its content flush left.
+        run: |
           node buildTickers.js
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
@@ -103,63 +107,65 @@ jobs:
       - name: Merge & Pick Final 8
         run: |2
           cat <<'EOF' > merge.js
-            const fs = require('fs');
-            
-            // Helper function to strip country codes (e.g. "SFM:USA" -> "SFM")
-            function stripCountry(t) {
-              return t.split(':')[0];
-            }
+const fs = require('fs');
 
-            // Read JSON files
-            let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-            let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
-            let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
+// Helper function to strip country codes (e.g. "SFM:USA" -> "SFM")
+function stripCountry(t) {
+  return t.split(':')[0];
+}
 
-            // Build a map for Tiingo data keyed by base ticker.
-            let tiingoMap = {};
-            tiingoRaw.forEach(item => {
-              let price = (item.last == null) ? item.tngoLast : item.last;
-              let prev = item.prevClose || 0;
-              let ret = price - prev;
-              tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
-            });
+// Read JSON files
+let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
+let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
 
-            // Build a map for logos using the 'Logo' attachment field.
-            let logoMap = {};
-            logos.forEach(l => {
-              let baseT = stripCountry(l.Ticker || '');
-              console.log('Processing logo for ticker:', l.Ticker, '-> base:', baseT, 'Logo field:', JSON.stringify(l.Logo));
-              let logoURL = "";
-              if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {
-                logoURL = l.Logo[0].url;
-              }
-              logoMap[baseT] = logoURL;
-            });
-            console.log('Logo Map:', JSON.stringify(logoMap, null, 2));
+// Build a map for Tiingo data keyed by base ticker.
+let tiingoMap = {};
+tiingoRaw.forEach(item => {
+  let price = (item.last == null) ? item.tngoLast : item.last;
+  let prev = item.prevClose || 0;
+  let ret = price - prev;
+  tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
+});
 
-            // Merge holdings with Tiingo data and logos.
-            let merged = holdings.map(h => {
-              let baseT = stripCountry(h.Ticker || '');
-              let info = tiingoMap[baseT] || {};
-              let logo = logoMap[baseT] || "";
-              return {
-                fullTicker: h.Ticker,
-                baseTicker: baseT,
-                rank: h.Rank,
-                price: info.price || 0,
-                prevClose: info.prevClose || 0,
-                absReturn: info.absReturn || 0,
-                logo: logo
-              };
-            });
-            merged.sort((a, b) => a.rank - b.rank);
-            merged = merged.map(item => ({
-              ...item,
-              rank: parseFloat(item.rank).toFixed(1)
-            }));
-            
-            fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
-            console.log('Final selection =>', merged);EOF
+// Build a map for logos using the 'Logo' attachment field.
+let logoMap = {};
+logos.forEach(l => {
+  let baseT = stripCountry(l.Ticker || '');
+  console.log('Processing logo for ticker:', l.Ticker, '-> base:', baseT, 'Logo field:', JSON.stringify(l.Logo));
+  let logoURL = "";
+  if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {
+    logoURL = l.Logo[0].url;
+  }
+  logoMap[baseT] = logoURL;
+});
+console.log('Logo Map:', JSON.stringify(logoMap, null, 2));
+
+// Merge holdings with Tiingo data and logos.
+let merged = holdings.map(h => {
+  let baseT = stripCountry(h.Ticker || '');
+  let info = tiingoMap[baseT] || {};
+  let logo = logoMap[baseT] || "";
+  return {
+    fullTicker: h.Ticker,
+    baseTicker: baseT,
+    rank: h.Rank,
+    price: info.price || 0,
+    prevClose: info.prevClose || 0,
+    absReturn: info.absReturn || 0,
+    logo: logo
+  };
+});
+merged.sort((a, b) => a.rank - b.rank);
+merged = merged.map(item => ({
+  ...item,
+  rank: parseFloat(item.rank).toFixed(1)
+}));
+
+fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
+console.log('Final selection =>', merged);
+EOF
+        run: |
           node merge.js
           echo "===== FINAL data.json ====="
           cat data.json
