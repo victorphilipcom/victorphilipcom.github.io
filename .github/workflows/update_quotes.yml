@@ -1,45 +1,259 @@
-name: Update Ticker Data
+name: Update Holdings & Quotes
 
 on:
+  # Runs every 5 minutes (adjust as you wish)
   schedule:
     - cron: '*/5 * * * *'
+  # Allows manual trigger in the Actions tab
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check out repository
+      - name: Check out repo
         uses: actions/checkout@v3
 
-      - name: Install jq
+      - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y jq
+          # We'll also need Node for custom script logic
+          sudo apt-get install -y nodejs npm
 
-      - name: Fetch quotes from Tiingo
+      ######################################################
+      # 1) FETCH AIRTABLE DATA (Algorithm1_holdings & Logos)
+      ######################################################
+      - name: Fetch Algorithm1_holdings
+        env:
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+        run: |
+          # Example: base ID = "appXYZ123"
+          # Table name = "Algorithm1_holdings"
+          curl -sSL \
+            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
+            "https://api.airtable.com/v0/appXYZ123/Algorithm1_holdings?maxRecords=30" \
+          > holdingsRaw.json
+
+          echo "===== Holdings Raw ====="
+          cat holdingsRaw.json
+
+      - name: Flatten Algorithm1_holdings
+        run: |
+          # Convert from Airtable format:
+          # {
+          #   "records": [
+          #     { "fields": {"Ticker":"AAPL:USA","Rank":1}, ... },
+          #     ...
+          #   ]
+          # }
+          # => [ { "Ticker":"AAPL:USA", "Rank":1 }, ... ]
+          jq '.records | map({
+               "Ticker": .fields.Ticker,
+               "Rank": ( .fields.Rank // 9999 ) 
+             })' holdingsRaw.json \
+          > holdingsClean.json
+
+          echo "===== holdingsClean.json ====="
+          cat holdingsClean.json
+
+      - name: Fetch Logos table
+        env:
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+        run: |
+          # Table name = "Logos"
+          curl -sSL \
+            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
+            "https://api.airtable.com/v0/appXYZ123/Logos?maxRecords=80" \
+          > logosRaw.json
+
+          echo "===== Logos Raw ====="
+          cat logosRaw.json
+
+      - name: Flatten Logos
+        run: |
+          # Suppose the Logos table has:
+          #   "Ticker" (like "AAPL:USA")
+          #   "Logo"   (a text or attachment URL)
+          # We'll produce:
+          #   [ { "Ticker":"AAPL:USA", "Logo":"https://...png" }, ... ]
+          jq '.records | map({
+               "Ticker": .fields.Ticker,
+               "Logo": .fields.Logo
+             })' logosRaw.json \
+          > logosClean.json
+
+          echo "===== logosClean.json ====="
+          cat logosClean.json
+
+      ######################################################
+      # 2) BUILD TICKER LIST FOR TIINGO
+      ######################################################
+      - name: Prepare Ticker List
+        run: |
+          echo "const fs = require('fs');
+
+          let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+          
+          // Example 'AAPL:USA' => 'AAPL'
+          function stripCountry(t) {
+            return t.split(':')[0];
+          }
+
+          // Collect all unique base tickers from holdings
+          let baseTickers = holdings.map(h => stripCountry(h.Ticker));
+          baseTickers = [...new Set(baseTickers.filter(Boolean))];
+
+          // Save them as a comma-separated list for Tiingo
+          fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
+          " > buildTickers.js
+
+          node buildTickers.js
+
+          echo "==== TICKERS FOR TIINGO ===="
+          cat tiingoTickers.txt
+
+      ######################################################
+      # 3) FETCH TIINGO QUOTES
+      ######################################################
+      - name: Fetch from Tiingo
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: |
-          # Either use -L or the slash in the URL
-          curl -sSL "https://api.tiingo.com/iex?tickers=AAPL,TSLA,MSFT,AMZN,GOOGL&token=${TIINGO_API_KEY}" > raw.json
-          # Or: curl -sS "https://api.tiingo.com/iex/?tickers=..." > raw.json
+          TICKERS=$(cat tiingoTickers.txt)
+          echo "Fetching Tiingo quotes for: $TICKERS"
+          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
+          > tiingoRaw.json
 
-          echo "===== raw.json ====="
-          cat raw.json
+          echo "===== tiingoRaw.json ====="
+          cat tiingoRaw.json
 
-          # Example jq transform (optional):
-          cat raw.json \
-            | jq 'map(. + {price: (if .last == null then .tngoLast else .last end)})' \
-            > data.json
+      ######################################################
+      # 4) MERGE + PICK 8 TICKERS IN A NODE SCRIPT
+      ######################################################
+      - name: Merge & Pick Final 8
+        run: |
+          echo "const fs = require('fs');
 
-          echo "===== data.json ====="
+          function stripCountry(t) {
+            return t.split(':')[0];
+          }
+
+          // Read holdings (Ticker + Rank)
+          let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+          // Read logos (Ticker + Logo)
+          let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
+          // Read Tiingo raw
+          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
+
+          // Build a map from baseTicker -> { price, prevClose, absReturn }
+          let tiingoMap = {};
+          tiingoRaw.forEach(item => {
+            let price = (item.last == null) ? item.tngoLast : item.last;
+            let prev = item.prevClose || 0;
+            let ret = price - prev; // daily absolute difference
+            tiingoMap[item.ticker] = {
+              ticker: item.ticker,
+              price: price,
+              prevClose: prev,
+              absReturn: ret
+            };
+          });
+
+          // Build a map from baseTicker -> logoURL
+          // If the user stored 'AAPL:USA' in Logos, we also strip the country part
+          let logoMap = {};
+          logos.forEach(l => {
+            let baseT = stripCountry(l.Ticker || '');
+            let logoURL = (typeof l.Logo === 'string') ? l.Logo : '';
+            // If 'Logo' is an attachment array or different structure,
+            // you'd parse accordingly. We'll assume it's a single text URL.
+            logoMap[baseT] = logoURL;
+          });
+
+          // Merge all 3 sets:
+          // Each holding => {fullTicker, baseTicker, rank, price, prevClose, absReturn, logo}
+          let merged = holdings.map(h => {
+            let baseT = stripCountry(h.Ticker || '');
+            let info = tiingoMap[baseT] || {};
+            let logo = logoMap[baseT] || '';
+            return {
+              fullTicker: h.Ticker,
+              baseTicker: baseT,
+              rank: h.Rank,
+              price: info.price || 0,
+              prevClose: info.prevClose || 0,
+              absReturn: info.absReturn || 0,
+              logo: logo
+            };
+          });
+
+          // Now we pick exactly 8, with the rule:
+          //  if >=6 have absReturn>0, pick top 6 positives (by rank) + fill 2 from leftover positives or negatives
+          //  else pick all positives, fill the rest with negatives
+          //  => That means if we have 5 positives, we pick all 5, plus 3 negatives.
+          //
+          // First, separate positives vs negatives
+          let positives = merged.filter(m => m.absReturn > 0);
+          let negatives = merged.filter(m => m.absReturn <= 0);
+
+          // Sort each group by rank ascending
+          positives.sort((a,b) => a.rank - b.rank);
+          negatives.sort((a,b) => a.rank - b.rank);
+
+          let finalSelection = [];
+
+          if(positives.length >= 6){
+            // top 6 positives
+            let topPos = positives.slice(0,6);
+            // fill leftover from leftover positives first
+            let leftoverPos = positives.slice(6);
+            let needed = 8 - 6;
+
+            let fromPos = leftoverPos.slice(0, needed); 
+            if(fromPos.length < needed){
+              // fill remainder from negatives
+              let stillNeeded = needed - fromPos.length;
+              let fromNeg = negatives.slice(0, stillNeeded);
+              finalSelection = [...topPos, ...fromPos, ...fromNeg];
+            } else {
+              // we got all from leftover positives
+              finalSelection = [...topPos, ...fromPos];
+            }
+          } else {
+            // fewer than 6 positives => pick them all
+            let topPos = positives;
+            let needed = 8 - topPos.length;
+            if(needed > 0){
+              let topNeg = negatives.slice(0, needed);
+              finalSelection = [...topPos, ...topNeg];
+            } else {
+              // if there's no needed (maybe we have exactly 8 positives?), or if we had 9 positives < 6?? 
+              // that can't happen if positives.length <6. So we can do:
+              finalSelection = topPos.slice(0,8);
+            }
+          }
+
+          // Sort final by rank
+          finalSelection.sort((a,b) => a.rank - b.rank);
+
+          fs.writeFileSync('data.json', JSON.stringify(finalSelection, null, 2), 'utf8');
+          console.log('Final selection =>', finalSelection);
+          " > merge.js
+
+          node merge.js
+
+          echo "===== FINAL data.json ====="
           cat data.json
 
+      ######################################################
+      # 5) COMMIT data.json
+      ######################################################
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "Update quotes" || exit 0
+          git commit -m "Update final ticker selection" || exit 0
           git push origin HEAD:main
