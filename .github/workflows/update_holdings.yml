@@ -28,9 +28,12 @@ jobs:
           - echo "===== Holdings Raw Response ====="
           - cat holdingsRaw.json
 
+      - name: Verify Holdings JSON
+        run:
+          - jq -e '.records' holdingsRaw.json >/dev/null
+
       - name: Flatten Holdings Data
         run:
-          - if ! jq -e '.records' holdingsRaw.json >/dev/null; then echo "Error: holdingsRaw.json does not contain a 'records' field." && exit 1; fi
           - jq '.records | map({ "Ticker": .fields.Ticker, "Rank": ( .fields.Rank // 9999 ) })' holdingsRaw.json > holdingsClean.json
           - echo "===== holdingsClean.json ====="
           - cat holdingsClean.json
@@ -46,9 +49,12 @@ jobs:
           - echo "===== Logos Raw Response ====="
           - cat logosRaw.json
 
+      - name: Verify Logos JSON
+        run:
+          - jq -e '.records' logosRaw.json >/dev/null
+
       - name: Flatten Logos Data
         run:
-          - if ! jq -e '.records' logosRaw.json >/dev/null; then echo "Error: logosRaw.json does not contain a 'records' field." && exit 1; fi
           - echo "Flattening Logos Data..."
           - jq '.records | map({ "Ticker": .fields.Ticker, "Logo": .fields.Logo })' logosRaw.json > logosClean.json
           - echo "===== logosClean.json ====="
