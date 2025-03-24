@@ -33,8 +33,9 @@
     .up   { color: green; }
     .down { color: red; }
     img.logo {
-      width: 80px;
-      height: 41px;
+      /* The image size here matches the requested thumbnail size */
+      width: 40px;
+      height: auto;
       vertical-align: middle;
       margin-right: 5px;
     }
@@ -54,27 +55,29 @@
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
           const sign = (h.absReturn >= 0) ? "+" : "";
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
-          // Format absolute return and percentage.
-          const absRet = ${sign}${parseFloat(h.absReturn).toFixed(1)};
-          const pctStr = ${sign}${parseFloat(pct).toFixed(1)}%;
+          const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
+          const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
           const rankStr = h.rank;
-          const logo = h.logo.thumpnails.small.url;
           const priceStr = parseFloat(h.price).toFixed(2);
-          // let logoHtml = "";
-          // if (h.logo) {
-          //   logoHtml = <img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">;
-          // } else {
-          //   // Uncomment the next line to use a placeholder image when no logo is available.
-          //   // logoHtml = <img class="logo" src="placeholder.png" alt="No logo available">;
-          // }
-          return 
+          
+          // Try to get a lower-quality (smaller) version of the logo:
+          let logoHtml = "";
+          if (h.logo && h.logo.length > 0 &&
+              h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
+              h.logo[0].thumbnails.small.url) {
+            // Append a query parameter to request a smaller image (adjust maxWidth as needed)
+            const logoUrl = h.logo[0].thumbnails.small.url + "?maxWidth=40";
+            logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
+          }
+          
+          return `
             <span class="ticker-item">
-              ${logo}
+              ${logoHtml}
               ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
               <span class="${retClass}">${absRet}</span> 
               <span class="${retClass}">(${pctStr})</span>
             </span>
-          ;
+          `;
         });
         document.getElementById('ticker-text').innerHTML = items.join(" | ");
       })
