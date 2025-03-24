@@ -19,12 +19,11 @@ jobs:
           sudo apt-get install -y jq
           sudo apt-get install -y nodejs npm
 
-      # Debug: Verify the Airtable PAT is being passed (should be ~82 characters)
+      # Debug: Print token length to ensure the PAT is complete (should be ~82 characters)
       - name: Debug AIRTABLE_PAT Length
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
-        run: |
-          echo "AIRTABLE_PAT length: ${#AIRTABLE_PAT}"
+        run: echo "AIRTABLE_PAT length: ${#AIRTABLE_PAT}"
 
       ######################################################
       # 1) FETCH AIRTABLE DATA (Holdings & Logos) using Table IDs
@@ -34,7 +33,7 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching holdings from Airtable..."
-          # Use Holdings table ID: tblW1gCMCcxFIuTDD
+          # Use the Holdings table ID
           curl -sSL -D headers_holdings.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" \
@@ -63,7 +62,7 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching logos from Airtable..."
-          # Use Logos table ID: tblfqaxUHA0XvxQgm
+          # Use the Logos table ID
           curl -sSL -D headers_logos.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
@@ -142,12 +141,7 @@ tiingoRaw.forEach(item => {
   let price = (item.last == null) ? item.tngoLast : item.last;
   let prev = item.prevClose || 0;
   let ret = price - prev;
-  tiingoMap[item.ticker] = {
-    ticker: item.ticker,
-    price: price,
-    prevClose: prev,
-    absReturn: ret
-  };
+  tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
 });
 
 // Build a map for logos using only the 'Logo' attachment field.
@@ -185,7 +179,7 @@ negatives.sort((a, b) => a.rank - b.rank);
 
 let finalSelection = [];
 if (positives.length >= 6) {
-  let topPos = positives.slice(0, 6);
+  let topPos = positives.slice(0,6);
   let leftoverPos = positives.slice(6);
   let needed = 8 - 6;
   let fromPos = leftoverPos.slice(0, needed);
