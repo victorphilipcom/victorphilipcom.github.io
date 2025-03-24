@@ -17,7 +17,8 @@
     }
     #ticker-text {
       display: inline-block;
-      /* The duplicated content will make the ticker continuous */
+      /* Start fully off-screen to the right */
+      transform: translateX(100%);
       animation: scroll-left 120s linear infinite;
       font-size: 16px;
       line-height: 40px;
@@ -27,13 +28,17 @@
       animation-play-state: paused;
     }
     @keyframes scroll-left {
-      0%   { transform: translate(0, 0); }
-      100% { transform: translate(-50%, 0); }
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        /* Move leftward by 50% of the total width (with duplicated content this produces a seamless loop) */
+        transform: translateX(-50%);
+      }
     }
     .up   { color: green; }
     .down { color: red; }
     img.logo {
-      /* Constrain the logo's height */
       height: 20px;
       width: auto;
       vertical-align: middle;
@@ -50,7 +55,7 @@
     fetch("data.json")
       .then(resp => resp.json())
       .then(finalHoldings => {
-        // Separate SPY from the others.
+        // Separate SPY from the others and sort the rest by rank.
         const spyItems = finalHoldings.filter(h => h.baseTicker === "SPY");
         const otherItems = finalHoldings.filter(h => h.baseTicker !== "SPY")
                             .sort((a, b) => parseFloat(a.rank) - parseFloat(b.rank));
@@ -71,15 +76,15 @@
           const rankText = (h.baseTicker === "SPY") ? "" : ` (Rank: ${parseFloat(h.rank).toFixed(1)})`;
 
           let logoHtml = "";
-          // If h.logo is a string (e.g. for SPY), use it directly.
+          // If h.logo is a string (for SPY), use it directly.
           if (typeof h.logo === "string" && h.logo.trim().length > 0) {
             logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
           }
           // Otherwise, if it's an array and has a thumbnail URL.
-          else if (Array.isArray(h.logo) && h.logo.length > 0 && 
-                   h.logo[0].thumbnails && h.logo[0].thumbnails.small && 
+          else if (Array.isArray(h.logo) && h.logo.length > 0 &&
+                   h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
                    h.logo[0].thumbnails.small.url) {
-            // Append a query parameter to limit the height (if supported by your image CDN).
+            // Append a query parameter to limit the height.
             const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
             logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
           }
@@ -94,7 +99,7 @@
           `;
         });
         
-        // Duplicate the ticker items to create a seamless loop.
+        // Duplicate the ticker items for a seamless loop.
         const tickerHTML = items.join(" | ");
         document.getElementById('ticker-text').innerHTML = tickerHTML + " | " + tickerHTML;
       })
