@@ -19,7 +19,7 @@ jobs:
           sudo apt-get install -y jq
           sudo apt-get install -y nodejs npm
 
-      # Debug: Print token length to verify the PAT is being passed (should be ~82 characters)
+      # Debug: Verify the Airtable PAT is being passed (should be ~82 characters)
       - name: Debug AIRTABLE_PAT Length
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
@@ -34,7 +34,7 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching holdings from Airtable..."
-          # Use the Holdings table ID: tblW1gCMCcxFIuTDD
+          # Use Holdings table ID: tblW1gCMCcxFIuTDD
           curl -sSL -D headers_holdings.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" \
@@ -63,7 +63,7 @@ jobs:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching logos from Airtable..."
-          # Use the Logos table ID: tblfqaxUHA0XvxQgm
+          # Use Logos table ID: tblfqaxUHA0XvxQgm
           curl -sSL -D headers_logos.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
@@ -76,7 +76,6 @@ jobs:
       - name: Flatten Logos Data
         run: |
           if jq -e '.records' logosRaw.json >/dev/null; then
-            # Extract only the "Logo" attachment array (ignore "Logo-url")
             jq '.records | map({
                "Ticker": .fields.Ticker,
                "Logo": .fields.Logo
@@ -93,17 +92,16 @@ jobs:
       ######################################################
       - name: Prepare Ticker List
         run: |
-          echo "const fs = require('fs');
-
-          let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-          function stripCountry(t) {
-            return t.split(':')[0];
-          }
-          let baseTickers = holdings.map(h => stripCountry(h.Ticker));
-          baseTickers = [...new Set(baseTickers.filter(Boolean))];
-          fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
-          " > buildTickers.js
-
+          cat << 'EOF' > buildTickers.js
+const fs = require('fs');
+let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+function stripCountry(t) {
+  return t.split(':')[0];
+}
+let baseTickers = holdings.map(h => stripCountry(h.Ticker));
+baseTickers = [...new Set(baseTickers.filter(Boolean))];
+fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
+EOF
           node buildTickers.js
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
@@ -127,95 +125,94 @@ jobs:
       ######################################################
       - name: Merge & Pick Final 8
         run: |
-          echo "const fs = require('fs');
+          cat << 'EOF' > merge.js
+const fs = require('fs');
 
-          function stripCountry(t) {
-            return t.split(':')[0];
-          }
+function stripCountry(t) {
+  return t.split(':')[0];
+}
 
-          // Read flattened holdings and logos data, and Tiingo quotes.
-          let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-          let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
-          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
+let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
+let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
 
-          // Build a map for Tiingo data keyed by base ticker.
-          let tiingoMap = {};
-          tiingoRaw.forEach(item => {
-            let price = (item.last == null) ? item.tngoLast : item.last;
-            let prev = item.prevClose || 0;
-            let ret = price - prev;
-            tiingoMap[item.ticker] = {
-              ticker: item.ticker,
-              price: price,
-              prevClose: prev,
-              absReturn: ret
-            };
-          });
+// Build a map for Tiingo data keyed by base ticker.
+let tiingoMap = {};
+tiingoRaw.forEach(item => {
+  let price = (item.last == null) ? item.tngoLast : item.last;
+  let prev = item.prevClose || 0;
+  let ret = price - prev;
+  tiingoMap[item.ticker] = {
+    ticker: item.ticker,
+    price: price,
+    prevClose: prev,
+    absReturn: ret
+  };
+});
 
-          // Build a map for logos using only the 'Logo' attachment field.
-          let logoMap = {};
-          logos.forEach(l => {
-            let baseT = stripCountry(l.Ticker || '');
-            let logoURL = "";
-            if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {
-              logoURL = l.Logo[0].url;
-            }
-            logoMap[baseT] = logoURL;
-          });
+// Build a map for logos using only the 'Logo' attachment field.
+let logoMap = {};
+logos.forEach(l => {
+  let baseT = stripCountry(l.Ticker || '');
+  let logoURL = "";
+  if (Array.isArray(l.Logo) && l.Logo.length > 0 && l.Logo[0].url) {
+    logoURL = l.Logo[0].url;
+  }
+  logoMap[baseT] = logoURL;
+});
 
-          // Merge holdings with Tiingo data and logos.
-          let merged = holdings.map(h => {
-            let baseT = stripCountry(h.Ticker || '');
-            let info = tiingoMap[baseT] || {};
-            let logo = logoMap[baseT] || "";
-            return {
-              fullTicker: h.Ticker,
-              baseTicker: baseT,
-              rank: h.Rank,
-              price: info.price || 0,
-              prevClose: info.prevClose || 0,
-              absReturn: info.absReturn || 0,
-              logo: logo
-            };
-          });
+// Merge holdings with Tiingo data and logos.
+let merged = holdings.map(h => {
+  let baseT = stripCountry(h.Ticker || '');
+  let info = tiingoMap[baseT] || {};
+  let logo = logoMap[baseT] || "";
+  return {
+    fullTicker: h.Ticker,
+    baseTicker: baseT,
+    rank: h.Rank,
+    price: info.price || 0,
+    prevClose: info.prevClose || 0,
+    absReturn: info.absReturn || 0,
+    logo: logo
+  };
+});
 
-          // Separate tickers by positive and non-positive returns.
-          let positives = merged.filter(m => m.absReturn > 0);
-          let negatives = merged.filter(m => m.absReturn <= 0);
-          positives.sort((a,b) => a.rank - b.rank);
-          negatives.sort((a,b) => a.rank - b.rank);
+// Separate tickers by positive and non-positive returns.
+let positives = merged.filter(m => m.absReturn > 0);
+let negatives = merged.filter(m => m.absReturn <= 0);
+positives.sort((a, b) => a.rank - b.rank);
+negatives.sort((a, b) => a.rank - b.rank);
 
-          let finalSelection = [];
-          if (positives.length >= 6) {
-            let topPos = positives.slice(0,6);
-            let leftoverPos = positives.slice(6);
-            let needed = 8 - 6;
-            let fromPos = leftoverPos.slice(0, needed);
-            if (fromPos.length < needed) {
-              let stillNeeded = needed - fromPos.length;
-              let fromNeg = negatives.slice(0, stillNeeded);
-              finalSelection = [...topPos, ...fromPos, ...fromNeg];
-            } else {
-              finalSelection = [...topPos, ...fromPos];
-            }
-          } else {
-            let topPos = positives;
-            let needed = 8 - topPos.length;
-            let topNeg = negatives.slice(0, needed);
-            finalSelection = [...topPos, ...topNeg];
-          }
-          finalSelection.sort((a,b) => a.rank - b.rank);
+let finalSelection = [];
+if (positives.length >= 6) {
+  let topPos = positives.slice(0, 6);
+  let leftoverPos = positives.slice(6);
+  let needed = 8 - 6;
+  let fromPos = leftoverPos.slice(0, needed);
+  if (fromPos.length < needed) {
+    let stillNeeded = needed - fromPos.length;
+    let fromNeg = negatives.slice(0, stillNeeded);
+    finalSelection = [...topPos, ...fromPos, ...fromNeg];
+  } else {
+    finalSelection = [...topPos, ...fromPos];
+  }
+} else {
+  let topPos = positives;
+  let needed = 8 - topPos.length;
+  let topNeg = negatives.slice(0, needed);
+  finalSelection = [...topPos, ...topNeg];
+}
+finalSelection.sort((a, b) => a.rank - b.rank);
 
-          // Format rank to one decimal.
-          finalSelection = finalSelection.map(item => ({
-            ...item,
-            rank: parseFloat(item.rank).toFixed(1)
-          }));
+// Format rank to one decimal.
+finalSelection = finalSelection.map(item => ({
+  ...item,
+  rank: parseFloat(item.rank).toFixed(1)
+}));
 
-          fs.writeFileSync('data.json', JSON.stringify(finalSelection, null, 2), 'utf8');
-          console.log('Final selection =>', finalSelection);
-          " > merge.js
-
+fs.writeFileSync('data.json', JSON.stringify(finalSelection, null, 2), 'utf8');
+console.log('Final selection =>', finalSelection);
+EOF
           node merge.js
           echo "===== FINAL data.json ====="
           cat data.json
