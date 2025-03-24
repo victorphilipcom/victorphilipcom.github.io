@@ -86,24 +86,24 @@ jobs:
           baseTickers = [...new Set(baseTickers.filter(Boolean))];
           fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
           EOF
-                    node buildTickers.js
-                    echo "==== TICKERS FOR TIINGO ===="
-                    cat tiingoTickers.txt
-          
-                - name: Fetch from Tiingo
-                  env:
-                    TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-                  run: |
-                    TICKERS=$(cat tiingoTickers.txt)
-                    echo "Fetching Tiingo quotes for: $TICKERS"
-                    curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
-                      -o tiingoRaw.json
-                    echo "===== tiingoRaw.json ====="
-                    cat tiingoRaw.json
-          
-                - name: Merge & Pick Final 8
-                  run: |
-                    cat <<'EOF' > merge.js
+          node buildTickers.js
+          echo "==== TICKERS FOR TIINGO ===="
+          cat tiingoTickers.txt
+    
+          - name: Fetch from Tiingo
+            env:
+              TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+            run: |
+              TICKERS=$(cat tiingoTickers.txt)
+              echo "Fetching Tiingo quotes for: $TICKERS"
+              curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
+                -o tiingoRaw.json
+              echo "===== tiingoRaw.json ====="
+              cat tiingoRaw.json
+    
+          - name: Merge & Pick Final 8
+            run: |
+              cat <<'EOF' > merge.js
           const fs = require('fs');
           
           // Helper function to strip country codes (e.g. "SFM:USA" -> "SFM")
