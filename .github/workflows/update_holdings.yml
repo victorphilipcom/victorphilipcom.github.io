@@ -1,4 +1,4 @@
-name: Update Holdings & Quotes
+name: "Update Holdings & Quotes"
 
 on:
   schedule:
