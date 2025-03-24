@@ -3,36 +3,36 @@
     "fullTicker": "RM:USA",
     "baseTicker": "RM",
     "rank": 98.4782,
-    "price": 31.915,
+    "price": 31.95,
     "prevClose": 30.84,
-    "absReturn": 1.0749999999999993,
+    "absReturn": 1.1099999999999994,
     "logo": ""
   },
   {
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": 98.5458,
-    "price": 15.75,
+    "price": 15.84,
     "prevClose": 15.36,
-    "absReturn": 0.39000000000000057,
+    "absReturn": 0.4800000000000004,
     "logo": ""
   },
   {
     "fullTicker": "KMDA:USA",
     "baseTicker": "KMDA",
     "rank": 98.7487,
-    "price": 7.035,
+    "price": 7.09,
     "prevClose": 6.72,
-    "absReturn": 0.3150000000000004,
+    "absReturn": 0.3700000000000001,
     "logo": ""
   },
   {
     "fullTicker": "NATH:USA",
     "baseTicker": "NATH",
     "rank": 98.9516,
-    "price": 94.23,
-    "prevClose": 93.59,
-    "absReturn": 0.6400000000000006,
+    "price": 94.5,
+    "prevClose": 94.23,
+    "absReturn": 0.269999999999996,
     "logo": ""
   },
   {
@@ -57,18 +57,18 @@
     "fullTicker": "CCLD:USA",
     "baseTicker": "CCLD",
     "rank": 99.2898,
-    "price": 1.61,
+    "price": 1.605,
     "prevClose": 1.51,
-    "absReturn": 0.10000000000000009,
+    "absReturn": 0.09499999999999997,
     "logo": ""
   },
   {
     "fullTicker": "SPNS:USA",
     "baseTicker": "SPNS",
     "rank": 99.3236,
-    "price": 27.34,
+    "price": 27.39,
     "prevClose": 27.03,
-    "absReturn": 0.3099999999999987,
+    "absReturn": 0.35999999999999943,
     "logo": ""
   }
 ]
