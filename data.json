@@ -12,18 +12,18 @@
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": "98.5",
-    "price": 16.015,
+    "price": 16.105,
     "prevClose": 15.36,
-    "absReturn": 0.6550000000000011,
+    "absReturn": 0.745000000000001,
     "logo": ""
   },
   {
     "fullTicker": "KMDA:USA",
     "baseTicker": "KMDA",
     "rank": "98.7",
-    "price": 7.095,
+    "price": 7.09,
     "prevClose": 6.72,
-    "absReturn": 0.375,
+    "absReturn": 0.3700000000000001,
     "logo": "https://v5.airtableusercontent.com/v3/u/39/39/1742839200000/5MI8yOW6N647WF-d4wCEdg/K0a_3uEq4RPvkqoZ6Y7O9rWA_2bdl5p4PRfLOzgDSqegVrjz3PKD62rTnyrs2LnM031juRK_SgQmslwMgSlGqZnAqQiT3K-bYyeduKlMZNeT2wWTDgmhj3gpWh_MFwNKoE9bkIRSmVdvWAkY0iHW_Q/SZm5r9ttmoo_Hm14g8Lrog9y8AZkK_VZFN53lw45n-s"
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "RIGL:USA",
     "baseTicker": "RIGL",
     "rank": "98.9",
-    "price": 20.62,
+    "price": 20.595,
     "prevClose": 20.2,
-    "absReturn": 0.4200000000000017,
+    "absReturn": 0.3949999999999996,
     "logo": ""
   },
   {
@@ -54,21 +54,21 @@
     "logo": ""
   },
   {
-    "fullTicker": "TIPT:USA",
-    "baseTicker": "TIPT",
-    "rank": "99.0",
-    "price": 23.13,
-    "prevClose": 23.08,
-    "absReturn": 0.05000000000000071,
-    "logo": ""
-  },
-  {
     "fullTicker": "BSEM:USA",
     "baseTicker": "BSEM",
     "rank": "99.2",
     "price": 10.82,
     "prevClose": 10.1,
     "absReturn": 0.7200000000000006,
+    "logo": ""
+  },
+  {
+    "fullTicker": "SNFCA:USA",
+    "baseTicker": "SNFCA",
+    "rank": "99.2",
+    "price": 12.89,
+    "prevClose": 12.82,
+    "absReturn": 0.07000000000000028,
     "logo": ""
   }
 ]
