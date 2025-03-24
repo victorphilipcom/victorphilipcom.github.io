@@ -25,7 +25,7 @@ jobs:
           curl -sSL -D headers_holdings.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" \
-          -o holdingsRaw.json
+            -o holdingsRaw.json
           echo "HTTP headers for holdings:"
           cat headers_holdings.txt
           echo "===== Holdings Raw Response ====="
@@ -53,7 +53,7 @@ jobs:
           curl -sSL -D headers_logos.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
-          -o logosRaw.json
+            -o logosRaw.json
           echo "HTTP headers for logos:"
           cat headers_logos.txt
           echo "===== Logos Raw Response ====="
@@ -97,7 +97,7 @@ jobs:
                     TICKERS=$(cat tiingoTickers.txt)
                     echo "Fetching Tiingo quotes for: $TICKERS"
                     curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
-                    -o tiingoRaw.json
+                      -o tiingoRaw.json
                     echo "===== tiingoRaw.json ====="
                     cat tiingoRaw.json
           
