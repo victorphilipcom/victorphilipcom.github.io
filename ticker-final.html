@@ -62,10 +62,15 @@
           const priceStr = parseFloat(h.price).toFixed(2);
           
           let logoHtml = "";
-          if (h.logo && h.logo.length > 0 &&
-              h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
-              h.logo[0].thumbnails.small.url) {
-            // Append query parameter to limit the height.
+          // Check if h.logo is a string (e.g. "sp500.png")
+          if (typeof h.logo === "string" && h.logo.trim().length > 0) {
+            logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
+          }
+          // Otherwise, if it's an array and has a thumbnail URL.
+          else if (Array.isArray(h.logo) && h.logo.length > 0 && 
+                   h.logo[0].thumbnails && h.logo[0].thumbnails.small && 
+                   h.logo[0].thumbnails.small.url) {
+            // Append a query parameter to limit the height (if supported by your image CDN).
             const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
             logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
           }
