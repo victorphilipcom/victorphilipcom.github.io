@@ -63,13 +63,15 @@
           if (h.logo) {
             logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
           } else {
-            // Optionally display a placeholder if no logo is provided.
+            // Uncomment the next line to use a placeholder image when no logo is available.
             // logoHtml = `<img class="logo" src="placeholder.png" alt="No logo available">`;
           }
           return `
             <span class="ticker-item">
               ${logoHtml}
-              ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} <span class="${retClass}">${absRet}</span> (${pctStr})
+              ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
+              <span class="${retClass}">${absRet}</span> 
+              <span class="${retClass}">(${pctStr})</span>
             </span>
           `;
         });
