@@ -44,13 +44,13 @@
       .then(resp => resp.json())
       .then(finalHoldings => {
         const items = finalHoldings.map(h => {
-          // Calculate percentage change if prevClose is nonzero.
+          // Calculate percentage change (if prevClose nonzero)
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
           const sign = (h.absReturn >= 0) ? "+" : "";
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
-          // Rank is now already formatted as one decimal.
+          // Rank is already formatted as one decimal.
           const rankStr = h.rank;
           const priceStr = parseFloat(h.price).toFixed(2);
           let logoHtml = "";
