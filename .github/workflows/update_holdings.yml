@@ -100,15 +100,6 @@ jobs:
             tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
           });
 
-          // Build a map for logos using the 'Logo' field (already flattened to a URL).
-          let logoMap = {};
-          logos.forEach(l => {
-            let baseT = stripCountry(l.Ticker || '');
-            console.log('Processing logo for ticker:', l.Ticker, '-> base:', baseT, 'Logo:', l.Logo);
-            logoMap[baseT] = l.Logo;
-          });
-          console.log('Logo Map:', JSON.stringify(logoMap, null, 2));
-
           // Merge holdings with Tiingo data and logos.
           let merged = holdings.map(h => {
             let baseT = stripCountry(h.Ticker || '');
