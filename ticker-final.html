@@ -32,11 +32,11 @@
         transform: translateX(100%);
       }
       100% {
-        /* Move leftward by 50% of the total width (with duplicated content this produces a seamless loop) */
+        /* With duplicated content, moving -50% creates a seamless loop */
         transform: translateX(-50%);
       }
     }
-    .up   { color: green; }
+    .up { color: green; }
     .down { color: red; }
     img.logo {
       height: 20px;
@@ -55,11 +55,11 @@
     fetch("data.json")
       .then(resp => resp.json())
       .then(finalHoldings => {
-        // Separate SPY from the others and sort the rest by rank.
+        // Separate SPY from others and sort the rest by rank.
         const spyItems = finalHoldings.filter(h => h.baseTicker === "SPY");
         const otherItems = finalHoldings.filter(h => h.baseTicker !== "SPY")
                             .sort((a, b) => parseFloat(a.rank) - parseFloat(b.rank));
-        // Put SPY at the beginning.
+        // Place SPY at the front.
         const orderedHoldings = spyItems.concat(otherItems);
 
         const items = orderedHoldings.map(h => {
@@ -84,19 +84,18 @@
           else if (Array.isArray(h.logo) && h.logo.length > 0 &&
                    h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
                    h.logo[0].thumbnails.small.url) {
-            // Append a query parameter to limit the height.
             const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
             logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
           }
           
-          return `
+          return (`
             <span class="ticker-item">
               ${logoHtml}
               ${h.baseTicker}${rankText} $${priceStr} 
               <span class="${retClass}">${absRet}</span> 
               <span class="${retClass}">(${pctStr})</span>
             </span>
-          `;
+          `);
         });
         
         // Duplicate the ticker items for a seamless loop.
