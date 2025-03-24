@@ -18,12 +18,15 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq nodejs npm
 
+      # Debug: Print token length to verify the PAT is complete (should be ~82 characters)
       - name: Debug AIRTABLE_PAT Length
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
-        run: |
-          echo "AIRTABLE_PAT length: ${#AIRTABLE_PAT}"
+        run: echo "AIRTABLE_PAT length: ${#AIRTABLE_PAT}"
 
+      ######################################################
+      # 1) FETCH AIRTABLE DATA (Holdings & Logos) using Table IDs
+      ######################################################
       - name: Fetch Holdings from Airtable with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
@@ -80,10 +83,12 @@ jobs:
             exit 1
           fi
 
-
+      ######################################################
+      # 2) BUILD TICKER LIST FOR TIINGO
+      ######################################################
       - name: Prepare Ticker List
         run: |
-          cat << 'EOF' > buildTickers.js
+          cat <<'EOF' > buildTickers.js
 const fs = require('fs');
 let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
 function stripCountry(t) {
@@ -97,6 +102,9 @@ EOF
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
 
+      ######################################################
+      # 3) FETCH TIINGO QUOTES
+      ######################################################
       - name: Fetch from Tiingo
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
@@ -108,9 +116,12 @@ EOF
           echo "===== tiingoRaw.json ====="
           cat tiingoRaw.json
 
+      ######################################################
+      # 4) MERGE & PICK 8 TICKERS IN A NODE SCRIPT
+      ######################################################
       - name: Merge & Pick Final 8
         run: |
-          cat << 'EOF' > merge.js
+          cat <<'EOF' > merge.js
 const fs = require('fs');
 
 function stripCountry(t) {
@@ -197,6 +208,9 @@ EOF
           echo "===== FINAL data.json ====="
           cat data.json
 
+      ######################################################
+      # 5) COMMIT data.json
+      ######################################################
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
