@@ -19,30 +19,30 @@ jobs:
           sudo apt-get install -y jq
           sudo apt-get install -y nodejs npm
 
-      # Debugging step to check token length
+      # Optional debugging: Check token length (do not print token)
       - name: Debug AIRTABLE_PAT Length
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          echo "Token length is: ${#AIRTABLE_PAT}"
+          echo "AIRTABLE_PAT length: ${#AIRTABLE_PAT}"
 
       ######################################################
-      # 1) FETCH AIRTABLE DATA (Algorithm1_holdings & Logos)
+      # 1) FETCH AIRTABLE DATA (Holdings & Logos) using Table IDs
       ######################################################
-      - name: Fetch Algorithm1_holdings with Debug Logging
+      - name: Fetch Holdings from Airtable with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching holdings from Airtable..."
           curl -sSL -w "\nHTTP_STATUS:%{http_code}\n" \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm1_holdings?maxRecords=30" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=30" \
           > holdingsRaw.json
 
           echo "===== Holdings Raw Response ====="
           cat holdingsRaw.json
 
-      - name: Flatten Algorithm1_holdings
+      - name: Flatten Holdings Data
         run: |
           if jq -e '.records' holdingsRaw.json >/dev/null; then
             jq '.records | map({
@@ -56,20 +56,20 @@ jobs:
             exit 1
           fi
 
-      - name: Fetch Logos table with Debug Logging
+      - name: Fetch Logos from Airtable with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
           echo "Fetching logos from Airtable..."
           curl -sSL -w "\nHTTP_STATUS:%{http_code}\n" \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Logos?maxRecords=80" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
           > logosRaw.json
 
           echo "===== Logos Raw Response ====="
           cat logosRaw.json
 
-      - name: Flatten Logos
+      - name: Flatten Logos Data
         run: |
           if jq -e '.records' logosRaw.json >/dev/null; then
             jq '.records | map({
@@ -91,15 +91,19 @@ jobs:
           echo "const fs = require('fs');
 
           let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
+          
           function stripCountry(t) {
             return t.split(':')[0];
           }
+          
           let baseTickers = holdings.map(h => stripCountry(h.Ticker));
           baseTickers = [...new Set(baseTickers.filter(Boolean))];
+          
           fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
           " > buildTickers.js
 
           node buildTickers.js
+
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
 
@@ -112,12 +116,14 @@ jobs:
         run: |
           TICKERS=$(cat tiingoTickers.txt)
           echo "Fetching Tiingo quotes for: $TICKERS"
-          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" > tiingoRaw.json
+          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
+          > tiingoRaw.json
+
           echo "===== tiingoRaw.json ====="
           cat tiingoRaw.json
 
       ######################################################
-      # 4) MERGE + PICK 8 TICKERS IN A NODE SCRIPT
+      # 4) MERGE & PICK 8 TICKERS IN A NODE SCRIPT
       ######################################################
       - name: Merge & Pick Final 8
         run: |
