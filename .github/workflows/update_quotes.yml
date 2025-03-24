@@ -29,13 +29,16 @@ jobs:
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          # Use your correct base id: appZEmpmx9gs4yATK
-          curl -sSL \
+          # Enable verbose logging for curl (without printing the token)
+          set -x
+          # Use curl's -w to print HTTP status code at the end, then output the result
+          curl -sSL -w "\nHTTP_STATUS:%{http_code}\n" \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm1_holdings?maxRecords=30" \
           > holdingsRaw.json
-
-          echo "===== Holdings Raw ====="
+          set +x
+      
+          echo "===== Holdings Raw Response ====="
           cat holdingsRaw.json
 
       - name: Flatten Algorithm1_holdings
