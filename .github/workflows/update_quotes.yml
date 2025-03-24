@@ -1,10 +1,8 @@
 name: Update Holdings & Quotes
 
 on:
-  # Runs every 5 minutes (adjust as you wish)
   schedule:
     - cron: '*/5 * * * *'
-  # Allows manual trigger in the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -19,62 +17,65 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y jq
-          # We'll also need Node for custom script logic
           sudo apt-get install -y nodejs npm
 
       ######################################################
       # 1) FETCH AIRTABLE DATA (Algorithm1_holdings & Logos)
       ######################################################
-      - name: Fetch Algorithm1_holdings
+      - name: Fetch Algorithm1_holdings with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          # Enable verbose logging for curl (without printing the token)
-          set -x
-          # Use curl's -w to print HTTP status code at the end, then output the result
+          echo "Fetching holdings from Airtable..."
           curl -sSL -w "\nHTTP_STATUS:%{http_code}\n" \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm1_holdings?maxRecords=30" \
           > holdingsRaw.json
-          set +x
-      
+
           echo "===== Holdings Raw Response ====="
           cat holdingsRaw.json
 
       - name: Flatten Algorithm1_holdings
         run: |
-          jq '.records | map({
+          # Process the JSON only if it contains the "records" field.
+          if jq -e '.records' holdingsRaw.json >/dev/null; then
+            jq '.records | map({
                "Ticker": .fields.Ticker,
-               "Rank": ( .fields.Rank // 9999 ) 
-             })' holdingsRaw.json \
-          > holdingsClean.json
+               "Rank": ( .fields.Rank // 9999 )
+             })' holdingsRaw.json > holdingsClean.json
+            echo "===== holdingsClean.json ====="
+            cat holdingsClean.json
+          else
+            echo "Error: holdingsRaw.json does not contain a 'records' field."
+            exit 1
+          fi
 
-          echo "===== holdingsClean.json ====="
-          cat holdingsClean.json
-
-      - name: Fetch Logos table
+      - name: Fetch Logos table with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          # Use the correct base id and table name "Logos"
-          curl -sSL \
+          echo "Fetching logos from Airtable..."
+          curl -sSL -w "\nHTTP_STATUS:%{http_code}\n" \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Logos?maxRecords=80" \
           > logosRaw.json
 
-          echo "===== Logos Raw ====="
+          echo "===== Logos Raw Response ====="
           cat logosRaw.json
 
       - name: Flatten Logos
         run: |
-          jq '.records | map({
+          if jq -e '.records' logosRaw.json >/dev/null; then
+            jq '.records | map({
                "Ticker": .fields.Ticker,
                "Logo": .fields.Logo
-             })' logosRaw.json \
-          > logosClean.json
-
-          echo "===== logosClean.json ====="
-          cat logosClean.json
+             })' logosRaw.json > logosClean.json
+            echo "===== logosClean.json ====="
+            cat logosClean.json
+          else
+            echo "Error: logosRaw.json does not contain a 'records' field."
+            exit 1
+          fi
 
       ######################################################
       # 2) BUILD TICKER LIST FOR TIINGO
@@ -84,20 +85,15 @@ jobs:
           echo "const fs = require('fs');
 
           let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-          
-          // Example: 'AAPL:USA' => 'AAPL'
           function stripCountry(t) {
             return t.split(':')[0];
           }
-
           let baseTickers = holdings.map(h => stripCountry(h.Ticker));
           baseTickers = [...new Set(baseTickers.filter(Boolean))];
-
           fs.writeFileSync('tiingoTickers.txt', baseTickers.join(','),'utf8');
           " > buildTickers.js
 
           node buildTickers.js
-
           echo "==== TICKERS FOR TIINGO ===="
           cat tiingoTickers.txt
 
@@ -110,9 +106,7 @@ jobs:
         run: |
           TICKERS=$(cat tiingoTickers.txt)
           echo "Fetching Tiingo quotes for: $TICKERS"
-          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
-          > tiingoRaw.json
-
+          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" > tiingoRaw.json
           echo "===== tiingoRaw.json ====="
           cat tiingoRaw.json
 
@@ -127,14 +121,10 @@ jobs:
             return t.split(':')[0];
           }
 
-          // Read holdings (Ticker + Rank)
           let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
-          // Read logos (Ticker + Logo)
           let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
-          // Read Tiingo raw
           let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
 
-          // Build a map from baseTicker -> { price, prevClose, absReturn }
           let tiingoMap = {};
           tiingoRaw.forEach(item => {
             let price = (item.last == null) ? item.tngoLast : item.last;
@@ -148,7 +138,6 @@ jobs:
             };
           });
 
-          // Build a map from baseTicker -> logoURL
           let logoMap = {};
           logos.forEach(l => {
             let baseT = stripCountry(l.Ticker || '');
@@ -156,7 +145,6 @@ jobs:
             logoMap[baseT] = logoURL;
           });
 
-          // Merge all data:
           let merged = holdings.map(h => {
             let baseT = stripCountry(h.Ticker || '');
             let info = tiingoMap[baseT] || {};
@@ -172,10 +160,8 @@ jobs:
             };
           });
 
-          // Separate positives vs. negatives
           let positives = merged.filter(m => m.absReturn > 0);
           let negatives = merged.filter(m => m.absReturn <= 0);
-
           positives.sort((a,b) => a.rank - b.rank);
           negatives.sort((a,b) => a.rank - b.rank);
 
@@ -198,14 +184,12 @@ jobs:
             let topNeg = negatives.slice(0, needed);
             finalSelection = [...topPos, ...topNeg];
           }
-
           finalSelection.sort((a,b) => a.rank - b.rank);
           fs.writeFileSync('data.json', JSON.stringify(finalSelection, null, 2), 'utf8');
           console.log('Final selection =>', finalSelection);
           " > merge.js
 
           node merge.js
-
           echo "===== FINAL data.json ====="
           cat data.json
 
