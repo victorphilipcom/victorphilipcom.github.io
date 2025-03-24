@@ -34,7 +34,7 @@
     .down { color: red; }
     img.logo {
       width: 80px;
-      height: auto;
+      height: 41px;
       vertical-align: middle;
       margin-right: 5px;
     }
@@ -55,24 +55,26 @@
           const sign = (h.absReturn >= 0) ? "+" : "";
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
           // Format absolute return and percentage.
-          const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
-          const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
+          const absRet = ${sign}${parseFloat(h.absReturn).toFixed(1)};
+          const pctStr = ${sign}${parseFloat(pct).toFixed(1)}%;
           const rankStr = h.rank;
+          const logo = h.logo.thumpnails.small.url
           const priceStr = parseFloat(h.price).toFixed(2);
-          // Attempt to get the small thumbnail from the logo field
-          let logoHtml = "";
-          if (h.logo && h.logo.length > 0 && h.logo[0].thumbnails && h.logo[0].thumbnails.small && h.logo[0].thumbnails.small.url) {
-            const logoUrl = h.logo[0].thumbnails.small.url;
-            logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
-          }
-          return `
+          // let logoHtml = "";
+          // if (h.logo) {
+          //   logoHtml = <img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">;
+          // } else {
+          //   // Uncomment the next line to use a placeholder image when no logo is available.
+          //   // logoHtml = <img class="logo" src="placeholder.png" alt="No logo available">;
+          // }
+          return 
             <span class="ticker-item">
-              ${logoHtml}
+              ${logo}
               ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
               <span class="${retClass}">${absRet}</span> 
               <span class="${retClass}">(${pctStr})</span>
             </span>
-          `;
+          ;
         });
         document.getElementById('ticker-text').innerHTML = items.join(" | ");
       })
