@@ -35,7 +35,7 @@ jobs:
         run: |
           if ! jq -e '.records' holdingsRaw.json >/dev/null; then
             echo "Error: holdingsRaw.json does not contain a 'records' field."
-            echo "Here is the contents of holdingsRaw.json:"
+            echo "Contents of holdingsRaw.json:"
             cat holdingsRaw.json
             exit 1
           fi
@@ -49,6 +49,18 @@ jobs:
           echo "===== holdingsClean.json ====="
           cat holdingsClean.json
 
+      - name: Build Logos Filter Formula
+        run: |
+          node -e "const fs = require('fs'); 
+                   const holdings = JSON.parse(fs.readFileSync('holdingsClean.json', 'utf8'));
+                   const tickers = holdings.map(h => h.Ticker);
+                   const formula = 'OR(' + tickers.map(t => `{Ticker}='${t}'`).join(',') + ')';
+                   const encoded = encodeURIComponent(formula);
+                   console.log('Filter formula:', formula);
+                   fs.writeFileSync('logosFilter.txt', encoded);"
+          echo "Encoded filter formula:"
+          cat logosFilter.txt
+
       - name: Fetch Logos from Airtable with Debug Logging
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
@@ -56,7 +68,7 @@ jobs:
           echo "Fetching logos from Airtable..."
           curl -sSL -D headers_logos.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=80" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblfqaxUHA0XvxQgm?maxRecords=100&filterByFormula=$(cat logosFilter.txt)" \
             -o logosRaw.json
           echo "HTTP headers for logos:"
           cat headers_logos.txt
@@ -67,7 +79,7 @@ jobs:
         run: |
           if ! jq -e '.records' logosRaw.json >/dev/null; then
             echo "Error: logosRaw.json does not contain a 'records' field."
-            echo "Here is the contents of logosRaw.json:"
+            echo "Contents of logosRaw.json:"
             cat logosRaw.json
             exit 1
           fi
@@ -101,7 +113,7 @@ jobs:
       - name: Fetch from Tiingo
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-        run: | 
+        run: |8
           TICKERS=$(cat tiingoTickers.txt)
           echo "Fetching Tiingo quotes for: $TICKERS"
           curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
@@ -113,18 +125,12 @@ jobs:
         run: |2
           cat <<'EOF' > merge.js
           const fs = require('fs');
-
-          // Helper function to strip country codes (e.g. "SFM:USA" -> "SFM")
           function stripCountry(t) {
             return t.split(':')[0];
           }
-
-          // Read JSON files
           let holdings = JSON.parse(fs.readFileSync('holdingsClean.json','utf8'));
           let logos = JSON.parse(fs.readFileSync('logosClean.json','utf8'));
           let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
-
-          // Build a map for Tiingo data keyed by base ticker.
           let tiingoMap = {};
           tiingoRaw.forEach(item => {
             let price = (item.last == null) ? item.tngoLast : item.last;
@@ -132,17 +138,11 @@ jobs:
             let ret = price - prev;
             tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
           });
-
-          // Build a map for logos using the 'Logo' field (already flattened to a URL).
           let logoMap = {};
           logos.forEach(l => {
             let baseT = stripCountry(l.Ticker || '');
-            console.log('Processing logo for ticker:', l.Ticker, '-> base:', baseT, 'Logo:', l.Logo);
             logoMap[baseT] = l.Logo;
           });
-          console.log('Logo Map:', JSON.stringify(logoMap, null, 2));
-
-          // Merge holdings with Tiingo data and logos.
           let merged = holdings.map(h => {
             let baseT = stripCountry(h.Ticker || '');
             let info = tiingoMap[baseT] || {};
@@ -162,7 +162,6 @@ jobs:
             ...item,
             rank: parseFloat(item.rank).toFixed(1)
           }));
-
           fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
           console.log('Final selection =>', merged);
           EOF
