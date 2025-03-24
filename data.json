@@ -3,18 +3,18 @@
     "fullTicker": "RM:USA",
     "baseTicker": "RM",
     "rank": "98.5",
-    "price": 31.515,
+    "price": 31.545,
     "prevClose": 30.84,
-    "absReturn": 0.6750000000000007,
+    "absReturn": 0.7050000000000018,
     "logo": ""
   },
   {
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": "98.5",
-    "price": 16.325,
+    "price": 16.29,
     "prevClose": 15.36,
-    "absReturn": 0.9649999999999999,
+    "absReturn": 0.9299999999999997,
     "logo": ""
   },
   {
@@ -30,27 +30,27 @@
     "fullTicker": "KMDA:USA",
     "baseTicker": "KMDA",
     "rank": "98.7",
-    "price": 7.06,
+    "price": 7.065,
     "prevClose": 6.72,
-    "absReturn": 0.33999999999999986,
+    "absReturn": 0.34500000000000064,
     "logo": "https://v5.airtableusercontent.com/v3/u/39/39/1742853600000/TvQv6mVTYdkGbLXxmKnNpw/f_zYBc9_76-8LQxVgSUk_9PFtsox0nWVhlplbMB1O6jbUgjLSnawmpscN8BOh4Qq7buao8LsThRX-pf-4dFWlAQCfk7jZ0VFdVjbpTJV_oYuBAPWdvsffE7fG6be68wlwJpebmgKF74T2Of_RBUKng/gsfWcEzJaO-TccuHkFs46foHUa3kX5PMU54tPVd4Rpw"
   },
   {
     "fullTicker": "CVU:USA",
     "baseTicker": "CVU",
     "rank": "98.8",
-    "price": 3.63,
+    "price": 3.62,
     "prevClose": 3.61,
-    "absReturn": 0.020000000000000018,
+    "absReturn": 0.010000000000000231,
     "logo": ""
   },
   {
     "fullTicker": "RIGL:USA",
     "baseTicker": "RIGL",
     "rank": "98.9",
-    "price": 20.32,
+    "price": 20.44,
     "prevClose": 20.2,
-    "absReturn": 0.120000000000001,
+    "absReturn": 0.240000000000002,
     "logo": ""
   },
   {
@@ -66,9 +66,9 @@
     "fullTicker": "TIPT:USA",
     "baseTicker": "TIPT",
     "rank": "99.0",
-    "price": 23.265,
+    "price": 23.28,
     "prevClose": 23.08,
-    "absReturn": 0.18500000000000227,
+    "absReturn": 0.20000000000000284,
     "logo": ""
   },
   {
@@ -84,153 +84,153 @@
     "fullTicker": "SNFCA:USA",
     "baseTicker": "SNFCA",
     "rank": "99.2",
-    "price": 12.62,
+    "price": 12.65,
     "prevClose": 12.82,
-    "absReturn": -0.20000000000000107,
+    "absReturn": -0.16999999999999993,
     "logo": ""
   },
   {
     "fullTicker": "CCLD:USA",
     "baseTicker": "CCLD",
     "rank": "99.3",
-    "price": 1.59,
+    "price": 1.545,
     "prevClose": 1.51,
-    "absReturn": 0.08000000000000007,
+    "absReturn": 0.03499999999999992,
     "logo": ""
   },
   {
     "fullTicker": "SPNS:USA",
     "baseTicker": "SPNS",
     "rank": "99.3",
-    "price": 27.43,
+    "price": 27.465,
     "prevClose": 27.03,
-    "absReturn": 0.3999999999999986,
+    "absReturn": 0.4349999999999987,
     "logo": ""
   },
   {
     "fullTicker": "RSSS:USA",
     "baseTicker": "RSSS",
     "rank": "99.4",
-    "price": 2.74,
+    "price": 2.67,
     "prevClose": 2.79,
-    "absReturn": -0.04999999999999982,
+    "absReturn": -0.1200000000000001,
     "logo": ""
   },
   {
     "fullTicker": "RLGT:USA",
     "baseTicker": "RLGT",
     "rank": "99.4",
-    "price": 6.21,
+    "price": 6.245,
     "prevClose": 6.18,
-    "absReturn": 0.03000000000000025,
+    "absReturn": 0.06500000000000039,
     "logo": ""
   },
   {
     "fullTicker": "NTCT:USA",
     "baseTicker": "NTCT",
     "rank": "99.5",
-    "price": 21.91,
+    "price": 21.83,
     "prevClose": 21.39,
-    "absReturn": 0.5199999999999996,
+    "absReturn": 0.4399999999999977,
     "logo": ""
   },
   {
     "fullTicker": "MG:USA",
     "baseTicker": "MG",
     "rank": "99.5",
-    "price": 10.73,
+    "price": 10.685,
     "prevClose": 10.58,
-    "absReturn": 0.15000000000000036,
+    "absReturn": 0.10500000000000043,
     "logo": ""
   },
   {
     "fullTicker": "ESP:USA",
     "baseTicker": "ESP",
     "rank": "99.5",
-    "price": 26.76,
+    "price": 26.845,
     "prevClose": 26.68,
-    "absReturn": 0.08000000000000185,
+    "absReturn": 0.16499999999999915,
     "logo": ""
   },
   {
     "fullTicker": "VLGEA:USA",
     "baseTicker": "VLGEA",
     "rank": "99.6",
-    "price": 34.89,
+    "price": 34.9,
     "prevClose": 34.96,
-    "absReturn": -0.07000000000000028,
+    "absReturn": -0.060000000000002274,
     "logo": ""
   },
   {
     "fullTicker": "PMTS:USA",
     "baseTicker": "PMTS",
     "rank": "99.6",
-    "price": 30.24,
+    "price": 30.26,
     "prevClose": 29.4,
-    "absReturn": 0.8399999999999999,
+    "absReturn": 0.860000000000003,
     "logo": ""
   },
   {
     "fullTicker": "NEXN:USA",
     "baseTicker": "NEXN",
     "rank": "99.6",
-    "price": 7.72,
+    "price": 7.7,
     "prevClose": 7.22,
-    "absReturn": 0.5,
+    "absReturn": 0.4800000000000004,
     "logo": ""
   },
   {
     "fullTicker": "IBEX:USA",
     "baseTicker": "IBEX",
     "rank": "99.7",
-    "price": 25.41,
+    "price": 25.455,
     "prevClose": 25.22,
-    "absReturn": 0.19000000000000128,
+    "absReturn": 0.23499999999999943,
     "logo": ""
   },
   {
     "fullTicker": "LXFR:USA",
     "baseTicker": "LXFR",
     "rank": "99.7",
-    "price": 11.825,
+    "price": 11.82,
     "prevClose": 11.58,
-    "absReturn": 0.24499999999999922,
+    "absReturn": 0.2400000000000002,
     "logo": ""
   },
   {
     "fullTicker": "LFVN:USA",
     "baseTicker": "LFVN",
     "rank": "99.7",
-    "price": 15.66,
+    "price": 15.48,
     "prevClose": 15.46,
-    "absReturn": 0.1999999999999993,
+    "absReturn": 0.019999999999999574,
     "logo": ""
   },
   {
     "fullTicker": "ITRN:USA",
     "baseTicker": "ITRN",
     "rank": "99.8",
-    "price": 37.61,
+    "price": 37.59,
     "prevClose": 36.98,
-    "absReturn": 0.6300000000000026,
+    "absReturn": 0.6100000000000065,
     "logo": ""
   },
   {
     "fullTicker": "STRT:USA",
     "baseTicker": "STRT",
     "rank": "99.8",
-    "price": 42.82,
+    "price": 43,
     "prevClose": 42.67,
-    "absReturn": 0.14999999999999858,
+    "absReturn": 0.3299999999999983,
     "logo": ""
   },
   {
     "fullTicker": "CHCI:USA",
     "baseTicker": "CHCI",
     "rank": "99.8",
-    "price": 8.86,
+    "price": 9.3,
     "prevClose": 7.74,
-    "absReturn": 1.1199999999999992,
+    "absReturn": 1.5600000000000005,
     "logo": ""
   },
   {
@@ -246,27 +246,27 @@
     "fullTicker": "OOMA:USA",
     "baseTicker": "OOMA",
     "rank": "99.9",
-    "price": 13.83,
+    "price": 13.865,
     "prevClose": 13.36,
-    "absReturn": 0.47000000000000064,
+    "absReturn": 0.5050000000000008,
     "logo": ""
   },
   {
     "fullTicker": "MGIC:USA",
     "baseTicker": "MGIC",
     "rank": "99.9",
-    "price": 13.205,
+    "price": 13.22,
     "prevClose": 13.49,
-    "absReturn": -0.28500000000000014,
+    "absReturn": -0.2699999999999996,
     "logo": ""
   },
   {
     "fullTicker": "INFU:USA",
     "baseTicker": "INFU",
     "rank": "100.0",
-    "price": 6.055,
+    "price": 6.065,
     "prevClose": 5.83,
-    "absReturn": 0.22499999999999964,
+    "absReturn": 0.23500000000000032,
     "logo": ""
   }
 ]
