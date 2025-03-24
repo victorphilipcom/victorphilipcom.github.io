@@ -17,9 +17,8 @@
     }
     #ticker-text {
       display: inline-block;
-      padding-left: 100%;
-      /* Changed duration from 60s to 120s */
-      animation: scroll-left 60s linear infinite;
+      /* The duplicated content will make the ticker continuous */
+      animation: scroll-left 120s linear infinite;
       font-size: 16px;
       line-height: 40px;
     }
@@ -29,7 +28,7 @@
     }
     @keyframes scroll-left {
       0%   { transform: translate(0, 0); }
-      100% { transform: translate(-100%, 0); }
+      100% { transform: translate(-50%, 0); }
     }
     .up   { color: green; }
     .down { color: red; }
@@ -51,7 +50,14 @@
     fetch("data.json")
       .then(resp => resp.json())
       .then(finalHoldings => {
-        const items = finalHoldings.map(h => {
+        // Separate SPY from the others.
+        const spyItems = finalHoldings.filter(h => h.baseTicker === "SPY");
+        const otherItems = finalHoldings.filter(h => h.baseTicker !== "SPY")
+                            .sort((a, b) => parseFloat(a.rank) - parseFloat(b.rank));
+        // Put SPY at the beginning.
+        const orderedHoldings = spyItems.concat(otherItems);
+
+        const items = orderedHoldings.map(h => {
           // Calculate percentage change if prevClose is nonzero.
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
           const sign = (h.absReturn >= 0) ? "+" : "";
@@ -59,12 +65,13 @@
           // Format absolute return and percentage.
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
-          // Round the ranking to one decimal.
-          const rankStr = parseFloat(h.rank).toFixed(1);
           const priceStr = parseFloat(h.price).toFixed(2);
           
+          // Only include the rank text if the ticker is not SPY.
+          const rankText = (h.baseTicker === "SPY") ? "" : ` (Rank: ${parseFloat(h.rank).toFixed(1)})`;
+
           let logoHtml = "";
-          // Check if h.logo is a string (e.g. "sp500.png")
+          // If h.logo is a string (e.g. for SPY), use it directly.
           if (typeof h.logo === "string" && h.logo.trim().length > 0) {
             logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
           }
@@ -80,13 +87,16 @@
           return `
             <span class="ticker-item">
               ${logoHtml}
-              ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
+              ${h.baseTicker}${rankText} $${priceStr} 
               <span class="${retClass}">${absRet}</span> 
               <span class="${retClass}">(${pctStr})</span>
             </span>
           `;
         });
-        document.getElementById('ticker-text').innerHTML = items.join(" | ");
+        
+        // Duplicate the ticker items to create a seamless loop.
+        const tickerHTML = items.join(" | ");
+        document.getElementById('ticker-text').innerHTML = tickerHTML + " | " + tickerHTML;
       })
       .catch(err => {
         console.error("Error loading final holdings:", err);
