@@ -39,9 +39,9 @@
     "fullTicker": "FLNG:USA",
     "baseTicker": "FLNG",
     "rank": 27.1897,
-    "price": 22.53,
-    "prevClose": 22.37,
-    "absReturn": 0.16000000000000014,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attEq0BK1SjdoVmG4",
@@ -111,9 +111,9 @@
     "fullTicker": "NNNN:USA",
     "baseTicker": "NNNN",
     "rank": 42.3064,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 7.52,
+    "prevClose": 7.56,
+    "absReturn": -0.040000000000000036,
     "logo": [
       {
         "id": "att8i4lBVJXiIbJ5A",
