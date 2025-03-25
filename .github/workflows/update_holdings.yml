@@ -2,38 +2,42 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Ensure the viewport is set for mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ranking Widget</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
-      overflow: hidden; /* Prevent scrollbars on the page */
       font-family: sans-serif;
     }
+
     #ticker-container {
       width: 100%;
-      height: 40px; /* Set an explicit height */
+      height: 40px;
       overflow: hidden;
       white-space: nowrap;
       border: 1px solid #ccc;
+      position: relative;
     }
+
     #ticker-text {
       display: inline-block;
       padding-left: 100%;
       animation: scroll-left 120s linear infinite;
       font-size: 16px;
       line-height: 40px;
-      will-change: transform;
-      -webkit-transform: translateZ(0); /* Force GPU acceleration */
+      transform: translateZ(0); /* This helps trigger proper rendering on some mobile devices */
+      opacity: 1;
     }
+
     @keyframes scroll-left {
       0% { transform: translateX(100%); }
       100% { transform: translateX(-100%); }
     }
+
     .up { color: green; }
     .down { color: red; }
+
     img.logo {
       height: 20px;
       width: auto;
@@ -48,29 +52,34 @@
   </div>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const tickerText = document.getElementById('ticker-text');
-      
-      // Fetch the data
+    document.addEventListener("DOMContentLoaded", () => {
+      const tickerText = document.getElementById("ticker-text");
+
+      // Fetch data and set up the ticker
       fetch("data.json")
         .then(resp => resp.json())
         .then(finalHoldings => {
-          // Combine the data into a single string for the ticker
-          const content = finalHoldings.map(h => {
-            const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100).toFixed(1) : "0.0";
-            const absReturn = h.absReturn.toFixed(1);
-            const price = h.price.toFixed(2);
+          // Combine holdings into a single line of ticker content
+          const tickerContent = finalHoldings.map(h => {
+            const absRet = parseFloat(h.absReturn).toFixed(1);
+            const pctRet = h.prevClose ? ((h.absReturn / h.prevClose) * 100).toFixed(1) : "0.0";
             const directionClass = h.absReturn > 0 ? "up" : h.absReturn < 0 ? "down" : "";
-            
+            const priceStr = parseFloat(h.price).toFixed(2);
+
+            let logoHtml = "";
+            if (h.logo) {
+              logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker}">`;
+            }
+
             return `
               <span>
-                <img class="logo" src="${h.logo || ''}" alt="${h.baseTicker}">
-                ${h.baseTicker} $${price} <span class="${directionClass}">${absReturn} (${pct}%)</span>
+                ${logoHtml}
+                ${h.baseTicker} $${priceStr} 
+                <span class="${directionClass}">${absRet} (${pctRet}%)</span>
               </span>`;
           }).join(" | ");
 
-          // Update the ticker content
-          tickerText.innerHTML = content;
+          tickerText.innerHTML = tickerContent;
         })
         .catch(err => {
           console.error("Error loading final holdings:", err);
