@@ -40,10 +40,9 @@
       font-size: 16px;
       line-height: 40px;
       will-change: transform;
-      -webkit-transform: translateZ(0);
-      /* Force GPU compositing – sometimes helps on iOS */
+      -webkit-transform: translateZ(0); /* Force GPU acceleration */
       backface-visibility: hidden;
-      opacity: 0.99; 
+      opacity: 0.99;
     }
     /* Pause on hover/active on devices that support hover */
     #ticker-container:hover #ticker-text,
@@ -84,6 +83,15 @@
     const now = Date.now() / 1000;
     const delay = -(now % duration);
     document.getElementById('ticker-text').style.animationDelay = delay + 's';
+
+    // Add a touchstart listener to force a reflow on iOS devices.
+    document.addEventListener("touchstart", function() {
+      const tickerText = document.getElementById('ticker-text');
+      tickerText.style.animation = 'none';
+      // Force reflow
+      void tickerText.offsetHeight;
+      tickerText.style.animation = '';
+    }, {passive: true});
 
     fetch("data.json")
       .then(resp => resp.json())
@@ -134,11 +142,10 @@
 
         const spyItems = spyHoldings.map(mapTicker).join(" | ");
         const otherItems = otherHoldings.map(mapTicker).join(" | ");
-        // Duplicate content for continuous scrolling.
+        // Duplicate the content for continuous scrolling.
         const tickerHtml = (spyItems + (otherItems ? " | " + otherItems : "")) + " | " +
                            (spyItems + (otherItems ? " | " + otherItems : ""));
         document.getElementById('ticker-text').innerHTML = tickerHtml;
-
         // Force a reflow to help trigger the animation on iOS
         document.getElementById('ticker-text').offsetHeight;
       })
