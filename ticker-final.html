@@ -14,12 +14,11 @@
       overflow: hidden;
       white-space: nowrap;
       border: 1px solid #ccc;
-      background-color: #f0f0f0; /* for debugging; remove if desired */
     }
     #ticker-text {
       display: inline-block;
-      /* Start off-screen to the right */
-      transform: translateX(100%);
+      padding-left: 100%;
+      /* Slower scrolling: 120s duration */
       animation: scroll-left 120s linear infinite;
       font-size: 16px;
       line-height: 40px;
@@ -29,8 +28,8 @@
       animation-play-state: paused;
     }
     @keyframes scroll-left {
-      from { transform: translateX(100%); }
-      to { transform: translateX(-100%); }
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
     }
     .up   { color: green; }
     .down { color: red; }
@@ -52,46 +51,62 @@
     fetch("data.json")
       .then(resp => resp.json())
       .then(finalHoldings => {
-        console.log("Fetched data:", finalHoldings);
-        // For each ticker, we calculate the percentage and format the text.
-        const items = finalHoldings.map(h => {
-          // Calculate percentage change if prevClose is available.
+        // Separate SPY from other tickers
+        const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
+        const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
+
+        // Mapping function for tickers
+        const mapTicker = h => {
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
-          const sign = h.absReturn >= 0 ? "+" : "";
-          const retClass = h.absReturn > 0 ? "up" : (h.absReturn < 0 ? "down" : "");
+          const sign = (h.absReturn >= 0) ? "+" : "";
+          const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
           const priceStr = parseFloat(h.price).toFixed(2);
-          // If h.rank exists, round to one decimal; otherwise, leave blank.
-          const rankStr = h.rank ? ` (Rank: ${parseFloat(h.rank).toFixed(1)})` : "";
           
-          // Build the logo HTML.
           let logoHtml = "";
-          // If logo is a string (for example, for SPY).
           if (typeof h.logo === "string" && h.logo.trim().length > 0) {
             logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
-          }
-          // Otherwise, if logo is an array with thumbnail information.
-          else if (Array.isArray(h.logo) && h.logo.length > 0 &&
-                   h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
-                   h.logo[0].thumbnails.small.url) {
-            const logoUrl = h.logo[0].thumbnails.small.url;
+          } else if (Array.isArray(h.logo) && h.logo.length > 0 &&
+                     h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
+                     h.logo[0].thumbnails.small.url) {
+            const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
             logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
           }
           
-          return `<span class="ticker-item">
-                    ${logoHtml} ${h.baseTicker}${rankStr} $${priceStr} 
-                    <span class="${retClass}">${absRet}</span> 
-                    <span class="${retClass}">(${pctStr})</span>
-                  </span>`;
-        });
-        const tickerHTML = items.join(" | ");
-        console.log("Ticker HTML:", tickerHTML);
-        document.getElementById("ticker-text").innerHTML = tickerHTML;
+          // For SPY, don't include the rank part.
+          if (h.baseTicker === "SPY") {
+            return `
+              <span class="ticker-item">
+                ${logoHtml}
+                ${h.baseTicker} $${priceStr} 
+                <span class="${retClass}">${absRet}</span> 
+                <span class="${retClass}">(${pctStr})</span>
+              </span>
+            `;
+          } else {
+            // Round the ranking to one decimal.
+            const rankStr = parseFloat(h.rank).toFixed(1);
+            return `
+              <span class="ticker-item">
+                ${logoHtml}
+                ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
+                <span class="${retClass}">${absRet}</span> 
+                <span class="${retClass}">(${pctStr})</span>
+              </span>
+            `;
+          }
+        };
+
+        // Map each group and put SPY first.
+        const spyItems = spyHoldings.map(mapTicker).join(" | ");
+        const otherItems = otherHoldings.map(mapTicker).join(" | ");
+        const tickerHtml = spyItems + (otherItems ? " | " + otherItems : "");
+        document.getElementById('ticker-text').innerHTML = tickerHtml;
       })
       .catch(err => {
         console.error("Error loading final holdings:", err);
-        document.getElementById("ticker-text").textContent = "Error loading final holdings.";
+        document.getElementById('ticker-text').textContent = "Error loading final holdings.";
       });
   </script>
 </body>
