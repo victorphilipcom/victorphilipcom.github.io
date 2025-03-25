@@ -14,6 +14,8 @@
       overflow: hidden;
       white-space: nowrap;
       border: 1px solid #ccc;
+      /* Temporary background for debugging */
+      background-color: #f0f0f0;
     }
     #ticker-text {
       display: inline-block;
@@ -23,21 +25,18 @@
       font-size: 16px;
       line-height: 40px;
     }
-    /* Pause animation on hover */
+    /* Pause the scroll when hovering */
     #ticker-container:hover #ticker-text {
       animation-play-state: paused;
     }
     @keyframes scroll-left {
-      0% {
-        transform: translateX(100%);
-      }
-      100% {
-        transform: translateX(-50%);
-      }
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-50%); }
     }
-    .up { color: green; }
+    .up   { color: green; }
     .down { color: red; }
     img.logo {
+      /* Constrain the logo's height */
       height: 20px;
       width: auto;
       vertical-align: middle;
@@ -64,13 +63,14 @@
         const orderedHoldings = spyItems.concat(otherItems);
 
         const items = orderedHoldings.map(h => {
+          // Calculate percentage change if prevClose is nonzero.
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
           const sign = (h.absReturn >= 0) ? "+" : "";
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
           const priceStr = parseFloat(h.price).toFixed(2);
-          // Only include rank if not SPY.
+          // For SPY, omit the rank text.
           const rankText = (h.baseTicker === "SPY") ? "" : ` (Rank: ${parseFloat(h.rank).toFixed(1)})`;
 
           let logoHtml = "";
@@ -95,9 +95,10 @@
             </span>
           `);
         });
-
+        
         // Duplicate the ticker items for a seamless loop.
         const tickerHTML = items.join(" | ");
+        console.log("Ticker HTML:", tickerHTML);
         document.getElementById('ticker-text').innerHTML = tickerHTML + " | " + tickerHTML;
       })
       .catch(err => {
