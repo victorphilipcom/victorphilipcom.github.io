@@ -1,152 +1,82 @@
-name: "Update Holdings & Quotes"
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Ensure the viewport is set for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking Widget</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* Prevent scrollbars on the page */
+      font-family: sans-serif;
+    }
+    #ticker-container {
+      width: 100%;
+      height: 40px; /* Set an explicit height */
+      overflow: hidden;
+      white-space: nowrap;
+      border: 1px solid #ccc;
+    }
+    #ticker-text {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 120s linear infinite;
+      font-size: 16px;
+      line-height: 40px;
+      will-change: transform;
+      -webkit-transform: translateZ(0); /* Force GPU acceleration */
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .up { color: green; }
+    .down { color: red; }
+    img.logo {
+      height: 20px;
+      width: auto;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="ticker-container">
+    <div id="ticker-text">Loading final holdings...</div>
+  </div>
 
-on:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tickerText = document.getElementById('ticker-text');
+      
+      // Fetch the data
+      fetch("data.json")
+        .then(resp => resp.json())
+        .then(finalHoldings => {
+          // Combine the data into a single string for the ticker
+          const content = finalHoldings.map(h => {
+            const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100).toFixed(1) : "0.0";
+            const absReturn = h.absReturn.toFixed(1);
+            const price = h.price.toFixed(2);
+            const directionClass = h.absReturn > 0 ? "up" : h.absReturn < 0 ? "down" : "";
+            
+            return `
+              <span>
+                <img class="logo" src="${h.logo || ''}" alt="${h.baseTicker}">
+                ${h.baseTicker} $${price} <span class="${directionClass}">${absReturn} (${pct}%)</span>
+              </span>`;
+          }).join(" | ");
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repo
-        uses: actions/checkout@v3
-
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq nodejs npm
-
-      - name: Fetch RankingsTotal from Airtable with Debug Logging
-        env:
-          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
-        run: |
-          echo "Fetching RankingsTotal from Airtable..."
-          curl -sSL -D headers_rankings.txt \
-            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tbl4Hy2kVNE16r5Ws?maxRecords=11" \
-            -o rankingsRaw.json
-          echo "HTTP headers for RankingsTotal:"
-          cat headers_rankings.txt
-          echo "===== RankingsTotal Raw Response ====="
-          cat rankingsRaw.json
-
-      - name: Verify RankingsTotal JSON and Debug
-        run: |
-          if ! jq -e '.records' rankingsRaw.json >/dev/null; then
-            echo "Error: rankingsRaw.json does not contain a 'records' field."
-            echo "Here is the contents of rankingsRaw.json:"
-            cat rankingsRaw.json
-            exit 1
-          fi
-
-      - name: Flatten RankingsTotal Data
-        run: |
-          jq '.records | map({
-            "Ticker": .fields.Ticker,
-            "Rank": .fields.Rank,
-            "Logo": (.fields.Logo // "")
-          })' rankingsRaw.json > rankingsClean.json
-          echo "===== rankingsClean.json ====="
-          cat rankingsClean.json
-
-      - name: Prepare Ticker List (10 Random + SPY)
-        run: |2
-          cat <<'EOF' > buildTickers.js
-          const fs = require('fs');
-          let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
-          function stripCountry(t) {
-            return t.split(':')[0];
-          }
-          // Shuffle the array randomly and pick 10 entries
-          rankings.sort(() => Math.random() - 0.5);
-          let selected = rankings.slice(0, 10);
-          // Extract base tickers and remove country suffixes
-          let tickers = selected.map(h => stripCountry(h.Ticker));
-          // Append SPY ticker (which will have no rank)
-          tickers.push("SPY");
-          fs.writeFileSync('tiingoTickers.txt', tickers.join(','), 'utf8');
-          EOF
-          node buildTickers.js
-          echo "==== TICKERS FOR TIINGO ===="
-          cat tiingoTickers.txt
-
-      - name: Fetch from Tiingo
-        env:
-          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-        run: | 
-          TICKERS=$(cat tiingoTickers.txt)
-          echo "Fetching Tiingo quotes for: $TICKERS"
-          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
-            -o tiingoRaw.json
-          echo "===== tiingoRaw.json ====="
-          cat tiingoRaw.json
-
-      - name: Merge & Pick Final Selection
-        run: |2
-          cat <<'EOF' > merge.js
-          const fs = require('fs');
-          function stripCountry(t) {
-            return t.split(':')[0];
-          }
-          // Read the flattened Rankings data and Tiingo data
-          let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
-          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
-          
-          // Build a map for Tiingo data keyed by base ticker.
-          let tiingoMap = {};
-          tiingoRaw.forEach(item => {
-            let price = (item.last == null) ? item.tngoLast : item.last;
-            let prev = item.prevClose || 0;
-            let ret = price - prev;
-            tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
-          });
-          
-          // Build final merged data from Rankings data.
-          let merged = rankings.map(h => {
-            let baseT = stripCountry(h.Ticker || '');
-            let info = tiingoMap[baseT] || {};
-            return {
-              fullTicker: h.Ticker,
-              baseTicker: baseT,
-              rank: h.Rank,
-              price: info.price || 0,
-              prevClose: info.prevClose || 0,
-              absReturn: info.absReturn || 0,
-              logo: h.Logo
-            };
-          });
-          
-          // Add SPY ticker (no rank, logo from local sp500.png)
-          let spyInfo = tiingoMap["SPY"] || {};
-          merged.push({
-            fullTicker: "SPY",
-            baseTicker: "SPY",
-            rank: "",
-            price: spyInfo.price || 0,
-            prevClose: spyInfo.prevClose || 0,
-            absReturn: spyInfo.absReturn || 0,
-            logo: "sp500.png"
-          });
-          
-          // Optionally, sort merged data by rank (placing SPY last)
-          merged = merged.sort((a, b) => {
-            if(a.baseTicker === "SPY") return 1;
-            if(b.baseTicker === "SPY") return -1;
-            return a.rank - b.rank;
-          });
-          
-          fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
-          console.log('Final selection =>', merged);
-          EOF
-          node merge.js
-          echo "===== FINAL data.json ====="
-          cat data.json
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          git commit -m "Update final ticker selection" || exit 0
-          git push origin HEAD:main
+          // Update the ticker content
+          tickerText.innerHTML = content;
+        })
+        .catch(err => {
+          console.error("Error loading final holdings:", err);
+          tickerText.textContent = "Error loading final holdings.";
+        });
+    });
+  </script>
+</body>
+</html>
