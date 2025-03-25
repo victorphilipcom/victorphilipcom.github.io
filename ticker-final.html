@@ -57,6 +57,7 @@
 
         // Mapping function for tickers
         const mapTicker = h => {
+          // Calculate percentage change if prevClose is nonzero.
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
           const sign = (h.absReturn >= 0) ? "+" : "";
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
@@ -65,16 +66,18 @@
           const priceStr = parseFloat(h.price).toFixed(2);
           
           let logoHtml = "";
+          // Check if h.logo is a string (e.g. "sp500.png")
           if (typeof h.logo === "string" && h.logo.trim().length > 0) {
             logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
-          } else if (Array.isArray(h.logo) && h.logo.length > 0 &&
-                     h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
-                     h.logo[0].thumbnails.small.url) {
+          }
+          // Otherwise, if it's an array and has a thumbnail URL.
+          else if (Array.isArray(h.logo) && h.logo.length > 0 &&
+                   h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
+                   h.logo[0].thumbnails.small.url) {
             const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
             logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
           }
           
-          // For SPY, don't include the rank part.
           if (h.baseTicker === "SPY") {
             return `
               <span class="ticker-item">
@@ -101,7 +104,9 @@
         // Map each group and put SPY first.
         const spyItems = spyHoldings.map(mapTicker).join(" | ");
         const otherItems = otherHoldings.map(mapTicker).join(" | ");
-        const tickerHtml = spyItems + (otherItems ? " | " + otherItems : "");
+        // Duplicate the content to ensure a seamless continuous scroll.
+        const tickerHtml = (spyItems + (otherItems ? " | " + otherItems : "")) + " | " +
+                           (spyItems + (otherItems ? " | " + otherItems : ""));
         document.getElementById('ticker-text').innerHTML = tickerHtml;
       })
       .catch(err => {
