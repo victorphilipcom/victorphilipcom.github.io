@@ -36,7 +36,8 @@
     #ticker-text {
       display: inline-block;
       padding-left: 100%;
-      animation: none; /* Start with no animation */
+      /* Start with no animation so that we can force a reflow later */
+      animation: none;
       font-size: 16px;
       line-height: 40px;
       will-change: transform;
@@ -66,24 +67,32 @@
   </div>
 
   <script>
+    // Function to start the animation
+    function startAnimation() {
+      const tickerText = document.getElementById('ticker-text');
+      tickerText.style.animation = 'scroll-left 120s linear infinite';
+    }
+    
+    // Function to force a reflow and then start the animation
+    function forceReflowAndStart() {
+      const tickerText = document.getElementById('ticker-text');
+      // Remove any animation, force reflow, then reapply animation.
+      tickerText.style.animation = 'none';
+      void tickerText.offsetHeight; // Trigger reflow
+      startAnimation();
+    }
+    
     // Set animation delay for continuity
     const duration = 120; // seconds
     const now = Date.now() / 1000;
     const delay = -(now % duration);
     document.getElementById('ticker-text').style.animationDelay = delay + 's';
 
-    // Add a touchstart listener to force a reflow on iOS devices.
-    document.addEventListener("touchstart", function() {
-      const tickerText = document.getElementById('ticker-text');
-      tickerText.style.animation = 'none';
-      // Force reflow
-      void tickerText.offsetHeight;
-      tickerText.style.animation = '';
-    }, {passive: true});
-
+    // Fetch data and build ticker content
     fetch("data.json")
       .then(resp => resp.json())
       .then(finalHoldings => {
+        // Function to create the HTML for one ticker item
         const mapTicker = h => {
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
           const sign = (h.absReturn >= 0) ? "+" : "";
@@ -91,34 +100,70 @@
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
           const priceStr = parseFloat(h.price).toFixed(2);
-          const logoHtml = h.logo ? `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">` : "";
           
-          return `
-            <span class="ticker-item">
-              ${logoHtml}
-              ${h.baseTicker} $${priceStr} 
-              <span class="${retClass}">${absRet}</span> 
-              <span class="${retClass}">(${pctStr})</span>
-            </span>
-          `;
+          // Build logo HTML
+          let logoHtml = "";
+          if (typeof h.logo === "string" && h.logo.trim().length > 0) {
+            logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
+          } else if (Array.isArray(h.logo) && h.logo.length > 0 &&
+                     h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
+                     h.logo[0].thumbnails.small.url) {
+            const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
+            logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
+          }
+          
+          // For SPY we remove the rank; for others we display it.
+          if (h.baseTicker === "SPY") {
+            return `
+              <span class="ticker-item">
+                ${logoHtml}
+                ${h.baseTicker} $${priceStr} 
+                <span class="${retClass}">${absRet}</span> 
+                <span class="${retClass}">(${pctStr})</span>
+              </span>
+            `;
+          } else {
+            const rankStr = parseFloat(h.rank).toFixed(1);
+            return `
+              <span class="ticker-item">
+                ${logoHtml}
+                ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
+                <span class="${retClass}">${absRet}</span> 
+                <span class="${retClass}">(${pctStr})</span>
+              </span>
+            `;
+          }
         };
 
-        const items = finalHoldings.map(mapTicker).join(" | ");
+        // Separate SPY tickers from the rest and then duplicate for continuous scrolling
+        const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
+        const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
+        const spyItems = spyHoldings.map(mapTicker).join(" | ");
+        const otherItems = otherHoldings.map(mapTicker).join(" | ");
+        const content = (spyItems + (otherItems ? " | " + otherItems : "")) + " | " +
+                        (spyItems + (otherItems ? " | " + otherItems : ""));
         const tickerText = document.getElementById('ticker-text');
-        tickerText.innerHTML = items;
+        tickerText.innerHTML = content;
 
-        // Force a reflow to help trigger the animation on iOS
-        tickerText.offsetHeight;
-
-        // Start the animation after setting content
-        setTimeout(() => {
-          tickerText.style.animation = `scroll-left 120s linear infinite`;
-        }, 100);
+        // Force a reflow and then start the animation
+        forceReflowAndStart();
       })
       .catch(err => {
         console.error("Error loading final holdings:", err);
         document.getElementById('ticker-text').textContent = "Error loading final holdings.";
       });
+
+    // Listen to the pageshow event (fires when a page is loaded from cache)
+    window.addEventListener("pageshow", () => {
+      forceReflowAndStart();
+    });
+    
+    // Also attempt to restart the animation shortly after load
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        forceReflowAndStart();
+      }, 200);
+    });
   </script>
 </body>
 </html>
