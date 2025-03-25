@@ -11,9 +11,13 @@
     }
     #ticker-container {
       width: 100%;
-      overflow: hidden;
+      overflow-x: hidden;  /* Prevent horizontal scrolling */
       white-space: nowrap;
       border: 1px solid #ccc;
+    }
+    /* Hide scroll bar for WebKit browsers */
+    #ticker-container::-webkit-scrollbar {
+      display: none;
     }
     /* The link now includes target="_top" so it replaces the whole page */
     #ticker-link {
@@ -58,7 +62,7 @@
     fetch("data.json")
       .then(resp => resp.json())
       .then(finalHoldings => {
-        // Separate SPY from other tickers.
+        // Separate SPY from other tickers and put SPY in front.
         const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
         const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
 
@@ -68,6 +72,7 @@
           const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
           const sign = (h.absReturn >= 0) ? "+" : "";
           const retClass = (h.absReturn > 0) ? "up" : (h.absReturn < 0) ? "down" : "";
+          // Format absolute return and percentage.
           const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
           const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
           const priceStr = parseFloat(h.price).toFixed(2);
@@ -82,6 +87,7 @@
             logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
           }
           
+          // For SPY, do not show the rank.
           if (h.baseTicker === "SPY") {
             return `
               <span class="ticker-item">
@@ -104,10 +110,10 @@
           }
         };
 
-        // Put SPY first, then the rest.
+        // Put SPY first, then the other tickers.
         const spyItems = spyHoldings.map(mapTicker).join(" | ");
         const otherItems = otherHoldings.map(mapTicker).join(" | ");
-        // Duplicate the content for continuous scrolling.
+        // Duplicate the content to enable continuous scrolling.
         const tickerHtml = (spyItems + (otherItems ? " | " + otherItems : "")) + " | " +
                            (spyItems + (otherItems ? " | " + otherItems : ""));
         document.getElementById('ticker-text').innerHTML = tickerHtml;
