@@ -147,9 +147,9 @@
     "fullTicker": "LYV:USA",
     "baseTicker": "LYV",
     "rank": 54.1089,
-    "price": 127.02,
-    "prevClose": 123.06,
-    "absReturn": 3.9599999999999937,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attXCXtFabLeMFAzf",
@@ -327,9 +327,9 @@
     "fullTicker": "SSD:USA",
     "baseTicker": "SSD",
     "rank": 78.0521,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 159.74,
+    "prevClose": 155.45,
+    "absReturn": 4.2900000000000205,
     "logo": [
       {
         "id": "attazK9ANx76Z3u2e",
