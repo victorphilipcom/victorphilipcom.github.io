@@ -39,9 +39,9 @@
     "fullTicker": "FLNG:USA",
     "baseTicker": "FLNG",
     "rank": 27.1897,
-    "price": 22.595,
-    "prevClose": 22.51,
-    "absReturn": 0.0849999999999973,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attEq0BK1SjdoVmG4",
@@ -255,9 +255,9 @@
     "fullTicker": "HAFN:USA",
     "baseTicker": "HAFN",
     "rank": 59.9594,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 4.385,
+    "prevClose": 4.4,
+    "absReturn": -0.015000000000000568,
     "logo": [
       {
         "id": "attydpVOXPxbdfHhi",
