@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Ensure the viewport is set for mobile -->
+  <!-- Set the viewport for mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ranking Widget</title>
   <style>
@@ -12,19 +12,19 @@
       overflow: hidden; /* Prevent page scrollbars */
       font-family: sans-serif;
     }
-    /* Ticker container: fixed height, flex centered, and hidden overflow */
+    /* Ticker container uses flex to vertically center content */
     #ticker-container {
       width: 100%;
       height: 40px; /* explicit height */
       display: flex;
-      align-items: center; /* vertically center children */
+      align-items: center; /* vertical centering */
       overflow: hidden;
       white-space: nowrap;
       border: 1px solid #ccc;
       -ms-overflow-style: none; /* IE and Edge */
       scrollbar-width: none;    /* Firefox */
     }
-    /* Hide scrollbars for Chrome/Safari/Opera */
+    /* Hide scrollbars for Chrome, Safari, Opera */
     #ticker-container::-webkit-scrollbar {
       display: none;
     }
@@ -35,17 +35,17 @@
       color: inherit;
       width: 100%;
     }
-    /* Ticker text container: content will be duplicated for continuous scrolling */
+    /* Ticker text container; its content will be duplicated */
     #ticker-text {
       display: inline-block;
       font-size: 16px;
-      /* Let flex centering do its job instead of fixed line-height */
+      /* No explicit line-height: we rely on flex alignment in container */
       white-space: nowrap;
       will-change: transform;
       transform: translate3d(0, 0, 0);
       backface-visibility: hidden;
       opacity: 0.99;
-      /* Animation will be set dynamically after content loads */
+      /* The animation is set dynamically after content loads */
     }
     /* Pause animation on desktop when hovering over container */
     #ticker-container:hover #ticker-text {
@@ -64,15 +64,14 @@
       padding: 0 5px;
       transition: background-color 0.2s;
     }
-    /* Highlight ticker item on hover */
     .ticker-item:hover {
       background-color: #eee;
       cursor: pointer;
     }
-    /* Colors for positive/negative values */
+    /* Color classes */
     .up { color: green; }
     .down { color: red; }
-    /* Logo image styling: ensure the logo’s bottom aligns with text bottom */
+    /* Ensure logo's bottom aligns with text bottom */
     img.logo {
       height: 20px;
       width: auto;
@@ -89,9 +88,9 @@
   </div>
 
   <script>
-    // --- STEP 1: Compute a persistent start time ---
+    // --- STEP 1: Compute a persistent start time for the ticker ---
     (function(){
-      // Try to retrieve a persistent ticker start time from localStorage.
+      const durationDefault = 120; // seconds (used as fallback)
       let tickerStart = localStorage.getItem("tickerStartTime");
       if (!tickerStart) {
         tickerStart = Date.now();
@@ -99,18 +98,20 @@
       } else {
         tickerStart = parseInt(tickerStart, 10);
       }
-      window.__tickerStartTime = tickerStart;
+      const elapsed = (Date.now() - tickerStart) / 1000;
+      // Compute negative delay such that the animation is offset by elapsed time mod duration
+      window.__tickerDelay = -(elapsed % durationDefault);
     })();
 
-    // --- STEP 2: iOS workaround: force reflow on touchstart ---
+    // --- STEP 2: iOS workaround: Force reflow on touchstart to trigger animation ---
     document.addEventListener("touchstart", function() {
-      const tickerText = document.getElementById("ticker-text");
+      const tickerText = document.getElementById('ticker-text');
       tickerText.style.animation = 'none';
       void tickerText.offsetHeight;
       tickerText.style.animation = tickerText.style.animation;
     }, {passive: true});
 
-    // --- STEP 3: Pause/resume animation on desktop using mouse events ---
+    // --- STEP 3: Pause/resume on desktop via mouse events ---
     const tickerContainer = document.getElementById("ticker-container");
     const tickerText = document.getElementById("ticker-text");
     tickerContainer.addEventListener("mouseenter", function(){
@@ -120,7 +121,7 @@
       tickerText.style.animationPlayState = "running";
     });
 
-    // --- STEP 4: Build a ticker item from a holding object ---
+    // --- STEP 4: Build ticker items ---
     function mapTicker(h) {
       const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
       const sign = h.absReturn >= 0 ? "+" : "";
@@ -158,32 +159,29 @@
       }
     }
 
-    // --- STEP 5: Fetch data, build ticker content, and set animation ---
+    // --- STEP 5: Fetch data and build the ticker content ---
     document.addEventListener("DOMContentLoaded", function(){
       fetch("data.json")
         .then(resp => resp.json())
         .then(finalHoldings => {
-          // Separate SPY tickers (they appear first)
+          // Separate SPY from other tickers (SPY goes first)
           const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
           const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
           const spyItems = spyHoldings.map(mapTicker).join(" | ");
           const otherItems = otherHoldings.map(mapTicker).join(" | ");
           const combined = spyItems + (otherItems ? " | " + otherItems : "");
-          // Duplicate content for continuous scrolling.
+          // Duplicate content for seamless, continuous scrolling
           const tickerContent = combined + " | " + combined;
           tickerText.innerHTML = tickerContent;
           
-          // After a short delay, measure width and compute the animation duration.
+          // After a short delay, measure width and set dynamic animation duration.
           setTimeout(function() {
             const fullWidth = tickerText.scrollWidth;
             const singleWidth = fullWidth / 2;
             const speed = 50; // pixels per second (adjust as desired)
             const duration = singleWidth / speed;
-            // Compute elapsed time (in seconds) since the persistent ticker start.
-            const elapsed = (Date.now() - window.__tickerStartTime) / 1000;
-            // Compute negative delay modulo the actual duration.
-            const delay = -(elapsed % duration);
-            // Create dynamic keyframes that scroll one copy of the content.
+            const delay = window.__tickerDelay; // computed earlier
+            // Create dynamic keyframes for scrolling one copy of the content.
             const keyframes = `
               @keyframes scroll-left {
                 0% { transform: translateX(0); }
@@ -193,7 +191,7 @@
             const styleEl = document.createElement('style');
             styleEl.innerHTML = keyframes;
             document.head.appendChild(styleEl);
-            // Set the animation with the computed duration and negative delay.
+            // Set the animation with computed duration and delay (all in one shorthand)
             tickerText.style.animation = `scroll-left ${duration}s linear infinite ${delay}s`;
           }, 100);
         })
