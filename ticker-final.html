@@ -39,13 +39,13 @@
     #ticker-text {
       display: inline-block;
       font-size: 16px;
-      /* No explicit line-height: we rely on flex alignment in container */
+      /* We do not set a line-height here because the individual ticker items will be full-height */
       white-space: nowrap;
       will-change: transform;
       transform: translate3d(0, 0, 0);
       backface-visibility: hidden;
       opacity: 0.99;
-      /* The animation is set dynamically after content loads */
+      /* Animation is set dynamically after content loads */
     }
     /* Pause animation on desktop when hovering over container */
     #ticker-container:hover #ticker-text {
@@ -57,10 +57,16 @@
         animation-play-state: running;
       }
     }
-    /* Style for individual ticker items */
+    /* Style for individual ticker items:
+       - Use inline-flex to let children align using flexbox.
+       - Set height to 40px so the background covers the full banner height.
+       - Align items to flex-end so that the text and logo line up at the bottom.
+    */
     .ticker-item {
       margin-right: 40px;
-      display: inline-block;
+      display: inline-flex;
+      align-items: flex-end;
+      height: 40px;
       padding: 0 5px;
       transition: background-color 0.2s;
     }
@@ -71,11 +77,10 @@
     /* Color classes */
     .up { color: green; }
     .down { color: red; }
-    /* Ensure logo's bottom aligns with text bottom */
+    /* Logo: No need for vertical-align here since flex alignment is used */
     img.logo {
       height: 20px;
       width: auto;
-      vertical-align: text-bottom;
       margin-right: 5px;
     }
   </style>
@@ -90,7 +95,7 @@
   <script>
     // --- STEP 1: Compute a persistent start time for the ticker ---
     (function(){
-      const durationDefault = 120; // seconds (used as fallback)
+      const durationDefault = 120; // seconds (fallback)
       let tickerStart = localStorage.getItem("tickerStartTime");
       if (!tickerStart) {
         tickerStart = Date.now();
@@ -99,7 +104,7 @@
         tickerStart = parseInt(tickerStart, 10);
       }
       const elapsed = (Date.now() - tickerStart) / 1000;
-      // Compute negative delay such that the animation is offset by elapsed time mod duration
+      // Compute negative delay so the animation appears continuous between page loads
       window.__tickerDelay = -(elapsed % durationDefault);
     })();
 
@@ -111,7 +116,7 @@
       tickerText.style.animation = tickerText.style.animation;
     }, {passive: true});
 
-    // --- STEP 3: Pause/resume on desktop via mouse events ---
+    // --- STEP 3: Pause/resume animation on desktop via mouse events ---
     const tickerContainer = document.getElementById("ticker-container");
     const tickerText = document.getElementById("ticker-text");
     tickerContainer.addEventListener("mouseenter", function(){
@@ -121,7 +126,7 @@
       tickerText.style.animationPlayState = "running";
     });
 
-    // --- STEP 4: Build ticker items ---
+    // --- STEP 4: Build a ticker item from a holding object ---
     function mapTicker(h) {
       const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
       const sign = h.absReturn >= 0 ? "+" : "";
@@ -170,7 +175,7 @@
           const spyItems = spyHoldings.map(mapTicker).join(" | ");
           const otherItems = otherHoldings.map(mapTicker).join(" | ");
           const combined = spyItems + (otherItems ? " | " + otherItems : "");
-          // Duplicate content for seamless, continuous scrolling
+          // Duplicate content for seamless continuous scrolling
           const tickerContent = combined + " | " + combined;
           tickerText.innerHTML = tickerContent;
           
@@ -178,7 +183,7 @@
           setTimeout(function() {
             const fullWidth = tickerText.scrollWidth;
             const singleWidth = fullWidth / 2;
-            const speed = 50; // pixels per second (adjust as desired)
+            const speed = 50; // pixels per second (adjust as needed)
             const duration = singleWidth / speed;
             const delay = window.__tickerDelay; // computed earlier
             // Create dynamic keyframes for scrolling one copy of the content.
@@ -191,7 +196,7 @@
             const styleEl = document.createElement('style');
             styleEl.innerHTML = keyframes;
             document.head.appendChild(styleEl);
-            // Set the animation with computed duration and delay (all in one shorthand)
+            // Set the animation with computed duration and persistent delay.
             tickerText.style.animation = `scroll-left ${duration}s linear infinite ${delay}s`;
           }, 100);
         })
