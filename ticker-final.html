@@ -1,29 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>
-      function updatePlanDescriptions() {
-          let descriptions = document.querySelectorAll(".portal--plan__description span:first-child");
-  
-      if (descriptions.length >= 3) {
-      descriptions[0].textContent = "Access to the free E-book"; // Free Plan
-      descriptions[1].textContent = "Monthly Membership"; // Monthly Plan
-      descriptions[2].textContent = "Yearly Membership"; // Yearly Plan
-      }
-  }
-  
-  // Use MutationObserver to detect when React renders the elements
-  const observer = new MutationObserver(() => {
-          updatePlanDescriptions();
-  });
-  
-      const targetNode = document.body;
-      const config = {childList: true, subtree: true };
-  
-      observer.observe(targetNode, config);
-      updatePlanDescriptions();
-  </script>
-  
   <meta charset="utf-8">
   <!-- Set the viewport for mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
