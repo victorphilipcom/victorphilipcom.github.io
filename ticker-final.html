@@ -2,21 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Set the viewport for mobile devices -->
+  <!-- Ensure the viewport is set for mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ranking Widget</title>
   <style>
-    /* Remove default margins/padding and hide scrollbars on the page */
     html, body {
       margin: 0;
       padding: 0;
-      overflow: hidden;
+      overflow: hidden; /* Prevent scrollbars */
       font-family: sans-serif;
     }
-    /* Ticker container with fixed height and no scrollbars */
+    /* Ticker container with fixed height, no scrollbars */
     #ticker-container {
       width: 100%;
-      height: 40px; /* fixed height */
+      height: 40px;
       overflow: hidden;
       white-space: nowrap;
       border: 1px solid #ccc;
@@ -33,11 +32,13 @@
       text-decoration: none;
       color: inherit;
     }
-    /* Ticker text with continuous scrolling */
+    /* Ticker text element */
     #ticker-text {
       display: inline-block;
       padding-left: 100%;
       animation: scroll-left 120s linear infinite;
+      /* Set the animation to running initially */
+      animation-play-state: running;
       font-size: 16px;
       line-height: 40px;
       will-change: transform;
@@ -45,15 +46,13 @@
       backface-visibility: hidden;
       opacity: 0.99;
     }
-    /* Keyframes for the scroll animation */
+    /* Keyframes: scroll from right (100%) to left (-100%) */
     @keyframes scroll-left {
       0%   { transform: translateX(100%); }
       100% { transform: translateX(-100%); }
     }
-    /* Simple classes for up and down values */
-    .up   { color: green; }
+    .up { color: green; }
     .down { color: red; }
-    /* Logo image styling */
     img.logo {
       height: 20px;
       width: auto;
@@ -70,25 +69,41 @@
   </div>
 
   <script>
-    // Initialize the ticker animation delay based on current time
-    function setAnimationDelay() {
+    // Function to force the animation to start
+    function forceAnimationStart() {
+      const tickerText = document.getElementById('ticker-text');
+      // Reset the animation play state to running and force a reflow.
+      tickerText.style.animationPlayState = 'running';
+      void tickerText.offsetHeight;
+    }
+
+    // Set animation delay based on current time for continuity.
+    (function setInitialDelay() {
       const duration = 120; // seconds
       const now = Date.now() / 1000;
       const delay = -(now % duration);
       document.getElementById('ticker-text').style.animationDelay = delay + 's';
-      // Force a reflow to start the animation
-      void document.getElementById('ticker-text').offsetHeight;
-    }
-    
-    // Build the ticker content from data.json
-    function buildTicker() {
+    })();
+
+    // On window load, use a timeout to force the animation start.
+    window.addEventListener("load", function() {
+      setTimeout(forceAnimationStart, 500);
+    });
+
+    // For mobile, also force a restart on the first touch (in case it hasn't started).
+    document.addEventListener("touchstart", function() {
+      forceAnimationStart();
+    }, {passive: true});
+
+    // Fetch data and build ticker content when DOM is ready.
+    document.addEventListener("DOMContentLoaded", function () {
       fetch("data.json")
         .then(resp => resp.json())
         .then(finalHoldings => {
-          // Separate SPY so that it appears first (SPY does not show rank)
+          // Separate SPY tickers (which omit rank) and others.
           const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
           const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
-          
+
           function mapTicker(h) {
             const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
             const sign = h.absReturn >= 0 ? "+" : "";
@@ -100,56 +115,48 @@
             if (typeof h.logo === "string" && h.logo.trim().length > 0) {
               logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
             } else if (Array.isArray(h.logo) && h.logo.length > 0 &&
-                       h.logo[0].thumbnails && h.logo[0].thumbnails.small && 
+                       h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
                        h.logo[0].thumbnails.small.url) {
               const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
               logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
             }
+            
             if (h.baseTicker === "SPY") {
-              return `<span class="ticker-item">
-                        ${logoHtml} ${h.baseTicker} $${priceStr} 
-                        <span class="${retClass}">${absRet}</span> 
-                        <span class="${retClass}">(${pctStr})</span>
-                      </span>`;
+              return `
+                <span class="ticker-item">
+                  ${logoHtml}
+                  ${h.baseTicker} $${priceStr} 
+                  <span class="${retClass}">${absRet}</span> 
+                  <span class="${retClass}">(${pctStr})</span>
+                </span>
+              `;
             } else {
               const rankStr = parseFloat(h.rank).toFixed(1);
-              return `<span class="ticker-item">
-                        ${logoHtml} ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
-                        <span class="${retClass}">${absRet}</span> 
-                        <span class="${retClass}">(${pctStr})</span>
-                      </span>`;
+              return `
+                <span class="ticker-item">
+                  ${logoHtml}
+                  ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
+                  <span class="${retClass}">${absRet}</span> 
+                  <span class="${retClass}">(${pctStr})</span>
+                </span>
+              `;
             }
           }
-          
+
           const spyItems = spyHoldings.map(mapTicker).join(" | ");
           const otherItems = otherHoldings.map(mapTicker).join(" | ");
           const combined = spyItems + (otherItems ? " | " + otherItems : "");
-          // Duplicate content to allow continuous scrolling
+          // Duplicate content to allow continuous scrolling.
           const tickerHtml = combined + " | " + combined;
           document.getElementById('ticker-text').innerHTML = tickerHtml;
-          // Force reflow to trigger the animation
+          // Force reflow
           void document.getElementById('ticker-text').offsetHeight;
         })
         .catch(err => {
           console.error("Error loading final holdings:", err);
           document.getElementById('ticker-text').textContent = "Error loading final holdings.";
         });
-    }
-    
-    // Initialize on DOMContentLoaded
-    document.addEventListener("DOMContentLoaded", function() {
-      setAnimationDelay();
-      buildTicker();
     });
-    
-    // For touch devices (mobile), force a restart of the animation on the first touch
-    document.addEventListener("touchstart", function() {
-      const tickerText = document.getElementById('ticker-text');
-      tickerText.style.animation = 'none';
-      // Force reflow
-      void tickerText.offsetHeight;
-      tickerText.style.animation = 'scroll-left 120s linear infinite';
-    }, {passive: true});
   </script>
 </body>
 </html>
