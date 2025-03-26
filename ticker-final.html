@@ -9,22 +9,16 @@
     html, body {
       margin: 0;
       padding: 0;
-      overflow: hidden; /* Prevent scrollbars */
+      overflow: hidden; /* Prevent page scrollbars */
       font-family: sans-serif;
     }
-    /* Ticker container with fixed height, no scrollbars */
+    /* Ticker container: fixed height and hidden overflow */
     #ticker-container {
       width: 100%;
       height: 40px;
       overflow: hidden;
       white-space: nowrap;
       border: 1px solid #ccc;
-      -ms-overflow-style: none; /* IE and Edge */
-      scrollbar-width: none; /* Firefox */
-    }
-    /* Hide scrollbars for WebKit browsers */
-    #ticker-container::-webkit-scrollbar {
-      display: none;
     }
     /* The clickable link wrapping the ticker */
     #ticker-link {
@@ -32,27 +26,22 @@
       text-decoration: none;
       color: inherit;
     }
-    /* Ticker text element */
+    /* Ticker text container (its content will be duplicated) */
     #ticker-text {
       display: inline-block;
-      padding-left: 100%;
-      animation: scroll-left 120s linear infinite;
-      /* Set the animation to running initially */
-      animation-play-state: running;
       font-size: 16px;
       line-height: 40px;
-      will-change: transform;
-      transform: translate3d(0, 0, 0);
-      backface-visibility: hidden;
-      opacity: 0.99;
+      white-space: nowrap;
+      /* The animation will be added dynamically */
     }
-    /* Keyframes: scroll from right (100%) to left (-100%) */
-    @keyframes scroll-left {
-      0%   { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
+    /* Spacing between ticker items */
+    .ticker-item {
+      margin-right: 40px;
     }
+    /* Colors for positive/negative values */
     .up { color: green; }
     .down { color: red; }
+    /* Logo images */
     img.logo {
       height: 20px;
       width: auto;
@@ -69,88 +58,86 @@
   </div>
 
   <script>
-    // Function to force the animation to start
-    function forceAnimationStart() {
-      const tickerText = document.getElementById('ticker-text');
-      // Reset the animation play state to running and force a reflow.
-      tickerText.style.animationPlayState = 'running';
-      void tickerText.offsetHeight;
-    }
-
-    // Set animation delay based on current time for continuity.
-    (function setInitialDelay() {
-      const duration = 120; // seconds
-      const now = Date.now() / 1000;
-      const delay = -(now % duration);
-      document.getElementById('ticker-text').style.animationDelay = delay + 's';
-    })();
-
-    // On window load, use a timeout to force the animation start.
-    window.addEventListener("load", function() {
-      setTimeout(forceAnimationStart, 500);
-    });
-
-    // For mobile, also force a restart on the first touch (in case it hasn't started).
-    document.addEventListener("touchstart", function() {
-      forceAnimationStart();
-    }, {passive: true});
-
-    // Fetch data and build ticker content when DOM is ready.
-    document.addEventListener("DOMContentLoaded", function () {
-      fetch("data.json")
-        .then(resp => resp.json())
-        .then(finalHoldings => {
-          // Separate SPY tickers (which omit rank) and others.
-          const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
-          const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
-
-          function mapTicker(h) {
-            const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
-            const sign = h.absReturn >= 0 ? "+" : "";
-            const retClass = h.absReturn > 0 ? "up" : h.absReturn < 0 ? "down" : "";
-            const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
-            const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
-            const priceStr = parseFloat(h.price).toFixed(2);
-            let logoHtml = "";
-            if (typeof h.logo === "string" && h.logo.trim().length > 0) {
-              logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
-            } else if (Array.isArray(h.logo) && h.logo.length > 0 &&
-                       h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
-                       h.logo[0].thumbnails.small.url) {
-              const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
-              logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
-            }
-            
-            if (h.baseTicker === "SPY") {
-              return `
-                <span class="ticker-item">
+    // Function to build a ticker item for each holding
+    function mapTicker(h) {
+      const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
+      const sign = h.absReturn >= 0 ? "+" : "";
+      const retClass = h.absReturn > 0 ? "up" : h.absReturn < 0 ? "down" : "";
+      const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
+      const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
+      const priceStr = parseFloat(h.price).toFixed(2);
+      let logoHtml = "";
+      // If h.logo is a string, use it directly.
+      if (typeof h.logo === "string" && h.logo.trim().length > 0) {
+        logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
+      } 
+      // Otherwise, if h.logo is an array with a thumbnail URL.
+      else if (Array.isArray(h.logo) && h.logo.length > 0 &&
+               h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
+               h.logo[0].thumbnails.small.url) {
+        const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
+        logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
+      }
+      
+      if (h.baseTicker === "SPY") {
+        // For SPY, omit the rank text.
+        return `<span class="ticker-item">
                   ${logoHtml}
                   ${h.baseTicker} $${priceStr} 
                   <span class="${retClass}">${absRet}</span> 
                   <span class="${retClass}">(${pctStr})</span>
-                </span>
-              `;
-            } else {
-              const rankStr = parseFloat(h.rank).toFixed(1);
-              return `
-                <span class="ticker-item">
+                </span>`;
+      } else {
+        const rankStr = parseFloat(h.rank).toFixed(1);
+        return `<span class="ticker-item">
                   ${logoHtml}
                   ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
                   <span class="${retClass}">${absRet}</span> 
                   <span class="${retClass}">(${pctStr})</span>
-                </span>
-              `;
-            }
-          }
+                </span>`;
+      }
+    }
+
+    // After the DOM loads, fetch the data and build the ticker.
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch("data.json")
+        .then(resp => resp.json())
+        .then(finalHoldings => {
+          // Separate SPY from other tickers (SPY items come first)
+          const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
+          const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
 
           const spyItems = spyHoldings.map(mapTicker).join(" | ");
           const otherItems = otherHoldings.map(mapTicker).join(" | ");
           const combined = spyItems + (otherItems ? " | " + otherItems : "");
-          // Duplicate content to allow continuous scrolling.
-          const tickerHtml = combined + " | " + combined;
-          document.getElementById('ticker-text').innerHTML = tickerHtml;
-          // Force reflow
-          void document.getElementById('ticker-text').offsetHeight;
+          // Duplicate the content for continuous scrolling
+          const tickerContent = combined + " | " + combined;
+          const tickerText = document.getElementById('ticker-text');
+          tickerText.innerHTML = tickerContent;
+
+          // Wait a tick for the content to be rendered
+          setTimeout(function() {
+            // Measure the full width of the tickerText container.
+            // Since we've duplicated the content, one copy is half the width.
+            const fullWidth = tickerText.scrollWidth;
+            const singleWidth = fullWidth / 2;
+            // Define a constant scrolling speed (in pixels per second)
+            const speed = 50; // Adjust this value as needed.
+            const duration = singleWidth / speed;
+            // Create dynamic keyframes that scroll from 0 to -singleWidth pixels.
+            const keyframes = `
+              @keyframes scroll-left {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-${singleWidth}px); }
+              }
+            `;
+            // Append the keyframes style to the document head.
+            const styleEl = document.createElement('style');
+            styleEl.innerHTML = keyframes;
+            document.head.appendChild(styleEl);
+            // Set the animation duration on the ticker text.
+            tickerText.style.animation = `scroll-left ${duration}s linear infinite`;
+          }, 100);
         })
         .catch(err => {
           console.error("Error loading final holdings:", err);
