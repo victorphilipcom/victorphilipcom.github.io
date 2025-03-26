@@ -207,5 +207,27 @@
         });
     });
   </script>
+  <script>
+      function updatePlanDescriptions() {
+          let descriptions = document.querySelectorAll(".portal--plan__description span:first-child");
+  
+      if (descriptions.length >= 3) {
+      descriptions[0].textContent = "Access to the free E-book"; // Free Plan
+      descriptions[1].textContent = "Access to Rankings & Algorithms"; // Monthly Plan
+      descriptions[2].textContent = "Access to Rankings & Algorithms for 1 year"; // Yearly Plan
+      }
+  }
+  
+  // Use MutationObserver to detect when React renders the elements
+  const observer = new MutationObserver(() => {
+          updatePlanDescriptions();
+  });
+  
+      const targetNode = document.body;
+      const config = {childList: true, subtree: true };
+  
+      observer.observe(targetNode, config);
+      updatePlanDescriptions();
+  </script>
 </body>
 </html>
