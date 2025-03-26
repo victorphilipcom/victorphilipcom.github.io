@@ -1,152 +1,207 @@
-name: "Update Holdings & Quotes"
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Ensure the viewport is set for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking Widget</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* Prevent page scrollbars */
+      font-family: sans-serif;
+    }
+    /* Ticker container: fixed height, flex centered, and hidden overflow */
+    #ticker-container {
+      width: 100%;
+      height: 40px; /* explicit height */
+      display: flex;
+      align-items: center; /* vertically center children */
+      overflow: hidden;
+      white-space: nowrap;
+      border: 1px solid #ccc;
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none;    /* Firefox */
+    }
+    /* Hide scrollbars for Chrome/Safari/Opera */
+    #ticker-container::-webkit-scrollbar {
+      display: none;
+    }
+    /* The clickable link wrapping the ticker */
+    #ticker-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      width: 100%;
+    }
+    /* Ticker text container: content will be duplicated for continuous scrolling */
+    #ticker-text {
+      display: inline-block;
+      font-size: 16px;
+      /* Let flex centering do its job instead of fixed line-height */
+      white-space: nowrap;
+      will-change: transform;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      opacity: 0.99;
+      /* Animation will be set dynamically after content loads */
+    }
+    /* Pause animation on desktop when hovering over container */
+    #ticker-container:hover #ticker-text {
+      animation-play-state: paused;
+    }
+    /* Disable pause behavior on touch devices */
+    @media (hover: none) and (pointer: coarse) {
+      #ticker-container:hover #ticker-text {
+        animation-play-state: running;
+      }
+    }
+    /* Style for individual ticker items */
+    .ticker-item {
+      margin-right: 40px;
+      display: inline-block;
+      padding: 0 5px;
+      transition: background-color 0.2s;
+    }
+    /* Highlight ticker item on hover */
+    .ticker-item:hover {
+      background-color: #eee;
+      cursor: pointer;
+    }
+    /* Colors for positive/negative values */
+    .up { color: green; }
+    .down { color: red; }
+    /* Logo image styling: ensure the logo’s bottom aligns with text bottom */
+    img.logo {
+      height: 20px;
+      width: auto;
+      vertical-align: text-bottom;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="ticker-container">
+    <a id="ticker-link" href="https://victorphilip.com/Rankings" target="_top">
+      <div id="ticker-text">Loading final holdings...</div>
+    </a>
+  </div>
 
-on:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+  <script>
+    // --- STEP 1: Compute a persistent start time ---
+    (function(){
+      // Try to retrieve a persistent ticker start time from localStorage.
+      let tickerStart = localStorage.getItem("tickerStartTime");
+      if (!tickerStart) {
+        tickerStart = Date.now();
+        localStorage.setItem("tickerStartTime", tickerStart);
+      } else {
+        tickerStart = parseInt(tickerStart, 10);
+      }
+      window.__tickerStartTime = tickerStart;
+    })();
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repo
-        uses: actions/checkout@v3
+    // --- STEP 2: iOS workaround: force reflow on touchstart ---
+    document.addEventListener("touchstart", function() {
+      const tickerText = document.getElementById("ticker-text");
+      tickerText.style.animation = 'none';
+      void tickerText.offsetHeight;
+      tickerText.style.animation = tickerText.style.animation;
+    }, {passive: true});
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq nodejs npm
+    // --- STEP 3: Pause/resume animation on desktop using mouse events ---
+    const tickerContainer = document.getElementById("ticker-container");
+    const tickerText = document.getElementById("ticker-text");
+    tickerContainer.addEventListener("mouseenter", function(){
+      tickerText.style.animationPlayState = "paused";
+    });
+    tickerContainer.addEventListener("mouseleave", function(){
+      tickerText.style.animationPlayState = "running";
+    });
 
-      - name: Fetch RankingsTotal from Airtable with Debug Logging
-        env:
-          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
-        run: |
-          echo "Fetching RankingsTotal from Airtable..."
-          curl -sSL -D headers_rankings.txt \
-            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tbl4Hy2kVNE16r5Ws?maxRecords=11" \
-            -o rankingsRaw.json
-          echo "HTTP headers for RankingsTotal:"
-          cat headers_rankings.txt
-          echo "===== RankingsTotal Raw Response ====="
-          cat rankingsRaw.json
+    // --- STEP 4: Build a ticker item from a holding object ---
+    function mapTicker(h) {
+      const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
+      const sign = h.absReturn >= 0 ? "+" : "";
+      const retClass = h.absReturn > 0 ? "up" : h.absReturn < 0 ? "down" : "";
+      const absRet = `${sign}${parseFloat(h.absReturn).toFixed(1)}`;
+      const pctStr = `${sign}${parseFloat(pct).toFixed(1)}%`;
+      const priceStr = parseFloat(h.price).toFixed(2);
+      
+      let logoHtml = "";
+      if (typeof h.logo === "string" && h.logo.trim().length > 0) {
+        logoHtml = `<img class="logo" src="${h.logo}" alt="${h.baseTicker} logo">`;
+      } else if (Array.isArray(h.logo) && h.logo.length > 0 &&
+                 h.logo[0].thumbnails && h.logo[0].thumbnails.small &&
+                 h.logo[0].thumbnails.small.url) {
+        const logoUrl = h.logo[0].thumbnails.small.url + "?maxHeight=20";
+        logoHtml = `<img class="logo" src="${logoUrl}" alt="${h.baseTicker} logo">`;
+      }
+      
+      if (h.baseTicker === "SPY") {
+        // For SPY, omit the rank.
+        return `<span class="ticker-item">
+                  ${logoHtml}
+                  ${h.baseTicker} $${priceStr} 
+                  <span class="${retClass}">${absRet}</span>
+                  <span class="${retClass}">(${pctStr})</span>
+                </span>`;
+      } else {
+        const rankStr = parseFloat(h.rank).toFixed(1);
+        return `<span class="ticker-item">
+                  ${logoHtml}
+                  ${h.baseTicker} (Rank: ${rankStr}) $${priceStr} 
+                  <span class="${retClass}">${absRet}</span>
+                  <span class="${retClass}">(${pctStr})</span>
+                </span>`;
+      }
+    }
 
-      - name: Verify RankingsTotal JSON and Debug
-        run: |
-          if ! jq -e '.records' rankingsRaw.json >/dev/null; then
-            echo "Error: rankingsRaw.json does not contain a 'records' field."
-            echo "Here is the contents of rankingsRaw.json:"
-            cat rankingsRaw.json
-            exit 1
-          fi
-
-      - name: Flatten RankingsTotal Data
-        run: |
-          jq '.records | map({
-            "Ticker": .fields.Ticker,
-            "Rank": .fields.Rank,
-            "Logo": (.fields.Logo // "")
-          })' rankingsRaw.json > rankingsClean.json
-          echo "===== rankingsClean.json ====="
-          cat rankingsClean.json
-
-      - name: Prepare Ticker List (10 Random + SPY)
-        run: |2
-          cat <<'EOF' > buildTickers.js
-          const fs = require('fs');
-          let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
-          function stripCountry(t) {
-            return t.split(':')[0];
-          }
-          // Shuffle the array randomly and pick 10 entries
-          rankings.sort(() => Math.random() - 0.5);
-          let selected = rankings.slice(0, 10);
-          // Extract base tickers and remove country suffixes
-          let tickers = selected.map(h => stripCountry(h.Ticker));
-          // Append SPY ticker (which will have no rank)
-          tickers.push("SPY");
-          fs.writeFileSync('tiingoTickers.txt', tickers.join(','), 'utf8');
-          EOF
-          node buildTickers.js
-          echo "==== TICKERS FOR TIINGO ===="
-          cat tiingoTickers.txt
-
-      - name: Fetch from Tiingo
-        env:
-          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-        run: | 
-          TICKERS=$(cat tiingoTickers.txt)
-          echo "Fetching Tiingo quotes for: $TICKERS"
-          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
-            -o tiingoRaw.json
-          echo "===== tiingoRaw.json ====="
-          cat tiingoRaw.json
-
-      - name: Merge & Pick Final Selection
-        run: |2
-          cat <<'EOF' > merge.js
-          const fs = require('fs');
-          function stripCountry(t) {
-            return t.split(':')[0];
-          }
-          // Read the flattened Rankings data and Tiingo data
-          let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
-          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
+    // --- STEP 5: Fetch data, build ticker content, and set animation ---
+    document.addEventListener("DOMContentLoaded", function(){
+      fetch("data.json")
+        .then(resp => resp.json())
+        .then(finalHoldings => {
+          // Separate SPY tickers (they appear first)
+          const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
+          const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
+          const spyItems = spyHoldings.map(mapTicker).join(" | ");
+          const otherItems = otherHoldings.map(mapTicker).join(" | ");
+          const combined = spyItems + (otherItems ? " | " + otherItems : "");
+          // Duplicate content for continuous scrolling.
+          const tickerContent = combined + " | " + combined;
+          tickerText.innerHTML = tickerContent;
           
-          // Build a map for Tiingo data keyed by base ticker.
-          let tiingoMap = {};
-          tiingoRaw.forEach(item => {
-            let price = (item.last == null) ? item.tngoLast : item.last;
-            let prev = item.prevClose || 0;
-            let ret = price - prev;
-            tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
-          });
-          
-          // Build final merged data from Rankings data.
-          let merged = rankings.map(h => {
-            let baseT = stripCountry(h.Ticker || '');
-            let info = tiingoMap[baseT] || {};
-            return {
-              fullTicker: h.Ticker,
-              baseTicker: baseT,
-              rank: h.Rank,
-              price: info.price || 0,
-              prevClose: info.prevClose || 0,
-              absReturn: info.absReturn || 0,
-              logo: h.Logo
-            };
-          });
-          
-          // Add SPY ticker (no rank, logo from local sp500.png)
-          let spyInfo = tiingoMap["SPY"] || {};
-          merged.push({
-            fullTicker: "SPY",
-            baseTicker: "SPY",
-            rank: "",
-            price: spyInfo.price || 0,
-            prevClose: spyInfo.prevClose || 0,
-            absReturn: spyInfo.absReturn || 0,
-            logo: "sp500.png"
-          });
-          
-          // Optionally, sort merged data by rank (placing SPY last)
-          merged = merged.sort((a, b) => {
-            if(a.baseTicker === "SPY") return 1;
-            if(b.baseTicker === "SPY") return -1;
-            return a.rank - b.rank;
-          });
-          
-          fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
-          console.log('Final selection =>', merged);
-          EOF
-          node merge.js
-          echo "===== FINAL data.json ====="
-          cat data.json
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          git commit -m "Update final ticker selection" || exit 0
-          git push origin HEAD:main
+          // After a short delay, measure width and compute the animation duration.
+          setTimeout(function() {
+            const fullWidth = tickerText.scrollWidth;
+            const singleWidth = fullWidth / 2;
+            const speed = 50; // pixels per second (adjust as desired)
+            const duration = singleWidth / speed;
+            // Compute elapsed time (in seconds) since the persistent ticker start.
+            const elapsed = (Date.now() - window.__tickerStartTime) / 1000;
+            // Compute negative delay modulo the actual duration.
+            const delay = -(elapsed % duration);
+            // Create dynamic keyframes that scroll one copy of the content.
+            const keyframes = `
+              @keyframes scroll-left {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-${singleWidth}px); }
+              }
+            `;
+            const styleEl = document.createElement('style');
+            styleEl.innerHTML = keyframes;
+            document.head.appendChild(styleEl);
+            // Set the animation with the computed duration and negative delay.
+            tickerText.style.animation = `scroll-left ${duration}s linear infinite ${delay}s`;
+          }, 100);
+        })
+        .catch(err => {
+          console.error("Error loading final holdings:", err);
+          tickerText.textContent = "Error loading final holdings.";
+        });
+    });
+  </script>
+</body>
+</html>
