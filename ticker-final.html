@@ -42,25 +42,30 @@
       transform: translate3d(0, 0, 0);
       backface-visibility: hidden;
       opacity: 0.99;
-      /* Animation will be set dynamically after content loads */
+      /* Animation is set dynamically after content loads */
     }
-    /* Pause ticker animation on desktop when hovering over the ticker container */
+    /* Pause ticker animation on desktop when hovering */
     #ticker-container:hover #ticker-text {
-      /* This will be enforced via JS event listeners */
+      animation-play-state: paused;
     }
-    /* Style for individual ticker items */
+    /* Disable pause behavior on touch devices */
+    @media (hover: none) and (pointer: coarse) {
+      #ticker-container:hover #ticker-text {
+        animation-play-state: running;
+      }
+    }
+    /* Styles for individual ticker items */
     .ticker-item {
       margin-right: 40px;
       display: inline-block;
       padding: 0 5px;
       transition: background-color 0.2s;
     }
-    /* Highlight background on hover for each ticker item */
     .ticker-item:hover {
-      background-color: #eee;
+      background-color: #eee;  /* light grey highlight */
       cursor: pointer;
     }
-    /* Color classes for positive/negative values */
+    /* Color classes for up/down values */
     .up { color: green; }
     .down { color: red; }
     /* Logo image styling */
@@ -69,6 +74,20 @@
       width: auto;
       vertical-align: middle;
       margin-right: 5px;
+    }
+    /* Media query for mobile: adjust height, font size, and spacing */
+    @media (max-width: 600px) {
+      #ticker-container {
+        height: 30px;
+      }
+      #ticker-text {
+        font-size: 14px;
+        line-height: 30px;
+      }
+      .ticker-item {
+        margin-right: 20px;
+        padding: 0 3px;
+      }
     }
   </style>
 </head>
@@ -80,32 +99,22 @@
   </div>
 
   <script>
-    // Set initial animation delay for continuity across pages.
+    // Set an animation delay based on the current time for continuity.
     (function(){
-      const durationDefault = 120; // fallback duration in seconds
+      const durationDefault = 120; // fallback duration (seconds)
       const now = Date.now() / 1000;
       const delay = -(now % durationDefault);
       document.getElementById('ticker-text').style.animationDelay = delay + 's';
     })();
-    
-    // For iOS: Force reflow on touchstart to help trigger animation
+
+    // For iOS: force reflow on touchstart to help trigger the animation.
     document.addEventListener("touchstart", function() {
       const tickerText = document.getElementById('ticker-text');
       tickerText.style.animation = 'none';
       void tickerText.offsetHeight;
       tickerText.style.animation = '';
     }, {passive: true});
-    
-    // Pause/resume animation on desktop using mouse events
-    const tickerContainer = document.getElementById("ticker-container");
-    const tickerText = document.getElementById("ticker-text");
-    tickerContainer.addEventListener("mouseenter", function(){
-      tickerText.style.animationPlayState = "paused";
-    });
-    tickerContainer.addEventListener("mouseleave", function(){
-      tickerText.style.animationPlayState = "running";
-    });
-    
+
     // Build a ticker item from a holding object.
     function mapTicker(h) {
       const pct = h.prevClose ? ((h.absReturn / h.prevClose) * 100) : 0;
@@ -126,7 +135,7 @@
       }
       
       if (h.baseTicker === "SPY") {
-        // For SPY, omit the rank.
+        // Omit the rank for SPY.
         return `<span class="ticker-item">
                   ${logoHtml}
                   ${h.baseTicker} $${priceStr} 
@@ -143,29 +152,29 @@
                 </span>`;
       }
     }
-    
-    // When DOM is ready, fetch the data and build the ticker.
+
+    // When DOM is loaded, fetch the data and build the ticker.
     document.addEventListener("DOMContentLoaded", function(){
       fetch("data.json")
         .then(resp => resp.json())
         .then(finalHoldings => {
-          // Separate SPY tickers (to place them first)
+          // Separate SPY tickers to place them first.
           const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
           const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
           const spyItems = spyHoldings.map(mapTicker).join(" | ");
           const otherItems = otherHoldings.map(mapTicker).join(" | ");
           const combined = spyItems + (otherItems ? " | " + otherItems : "");
-          // Duplicate the content for seamless, continuous scrolling.
+          // Duplicate content for continuous scrolling.
           const tickerContent = combined + " | " + combined;
+          const tickerText = document.getElementById('ticker-text');
           tickerText.innerHTML = tickerContent;
           
-          // After a short delay, measure width and set dynamic animation duration.
+          // After a short delay, measure content width and set animation duration.
           setTimeout(function() {
             const fullWidth = tickerText.scrollWidth;
             const singleWidth = fullWidth / 2;
-            const speed = 50; // pixels per second (adjust as desired)
+            const speed = 50; // pixels per second; adjust as needed.
             const duration = singleWidth / speed;
-            // Create dynamic keyframes for scrolling exactly one copy of the content.
             const keyframes = `
               @keyframes scroll-left {
                 0% { transform: translateX(0); }
@@ -180,7 +189,7 @@
         })
         .catch(err => {
           console.error("Error loading final holdings:", err);
-          tickerText.textContent = "Error loading final holdings.";
+          document.getElementById('ticker-text').textContent = "Error loading final holdings.";
         });
     });
   </script>
