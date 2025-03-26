@@ -219,9 +219,9 @@
     "fullTicker": "CYD:USA",
     "baseTicker": "CYD",
     "rank": 57.0849,
-    "price": 17.03,
-    "prevClose": 19.1,
-    "absReturn": -2.0700000000000003,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att27IjkeHGgXCtA9",
@@ -363,9 +363,9 @@
     "fullTicker": "GAMB:USA",
     "baseTicker": "GAMB",
     "rank": 87.9946,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 13.75,
+    "prevClose": 13.92,
+    "absReturn": -0.16999999999999993,
     "logo": [
       {
         "id": "attKoAcMpjzrZG1AN",
