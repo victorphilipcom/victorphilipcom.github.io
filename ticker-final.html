@@ -12,19 +12,18 @@
       overflow: hidden; /* Prevent page scrollbars */
       font-family: sans-serif;
     }
-    /* Ticker container uses flex to vertically center content */
+    /* The ticker container: fixed 40px height, centered content, hidden overflow */
     #ticker-container {
       width: 100%;
-      height: 40px; /* explicit height */
-      display: flex;
-      align-items: center; /* vertical centering */
+      height: 40px;
       overflow: hidden;
       white-space: nowrap;
       border: 1px solid #ccc;
-      -ms-overflow-style: none; /* IE and Edge */
-      scrollbar-width: none;    /* Firefox */
+      /* Hide scrollbars in IE/Edge and Firefox */
+      -ms-overflow-style: none;
+      scrollbar-width: none;
     }
-    /* Hide scrollbars for Chrome, Safari, Opera */
+    /* Hide scrollbars for WebKit browsers */
     #ticker-container::-webkit-scrollbar {
       display: none;
     }
@@ -35,19 +34,20 @@
       color: inherit;
       width: 100%;
     }
-    /* Ticker text container; its content will be duplicated */
+    /* Ticker text container – its content will be duplicated for seamless scrolling.
+       We don’t force a height here; instead, its children will use a 40px line-height. */
     #ticker-text {
       display: inline-block;
       font-size: 16px;
-      /* We do not set a line-height here because the individual ticker items will be full-height */
       white-space: nowrap;
+      line-height: 40px;  /* Ensures each ticker item occupies a 40px line box */
       will-change: transform;
       transform: translate3d(0, 0, 0);
       backface-visibility: hidden;
       opacity: 0.99;
-      /* Animation is set dynamically after content loads */
+      /* The scrolling animation will be applied here dynamically */
     }
-    /* Pause animation on desktop when hovering over container */
+    /* Pause animation on desktop when hovering over the container */
     #ticker-container:hover #ticker-text {
       animation-play-state: paused;
     }
@@ -57,16 +57,11 @@
         animation-play-state: running;
       }
     }
-    /* Style for individual ticker items:
-       - Use inline-flex to let children align using flexbox.
-       - Set height to 40px so the background covers the full banner height.
-       - Align items to flex-end so that the text and logo line up at the bottom.
-    */
+    /* Ticker items as inline-block with padding so the full 40px line box is used.
+       The line-height from #ticker-text ensures equal white space above and below the text.
+       On hover, the background covers the entire 40px height of the line box. */
     .ticker-item {
-      margin-right: 40px;
-      display: inline-flex;
-      align-items: flex-end;
-      height: 40px;
+      display: inline-block;
       padding: 0 5px;
       transition: background-color 0.2s;
     }
@@ -74,13 +69,19 @@
       background-color: #eee;
       cursor: pointer;
     }
-    /* Color classes */
+    /* Separator style (the "|" between items) */
+    .separator {
+      display: inline-block;
+      padding: 0 5px;
+    }
+    /* Color classes for positive/negative values */
     .up { color: green; }
     .down { color: red; }
-    /* Logo: No need for vertical-align here since flex alignment is used */
+    /* For images, use vertical-align: text-bottom so the bottom aligns with the text baseline */
     img.logo {
       height: 20px;
       width: auto;
+      vertical-align: text-bottom;
       margin-right: 5px;
     }
   </style>
@@ -95,7 +96,7 @@
   <script>
     // --- STEP 1: Compute a persistent start time for the ticker ---
     (function(){
-      const durationDefault = 120; // seconds (fallback)
+      const durationDefault = 120; // fallback duration (seconds)
       let tickerStart = localStorage.getItem("tickerStartTime");
       if (!tickerStart) {
         tickerStart = Date.now();
@@ -104,7 +105,7 @@
         tickerStart = parseInt(tickerStart, 10);
       }
       const elapsed = (Date.now() - tickerStart) / 1000;
-      // Compute negative delay so the animation appears continuous between page loads
+      // Compute negative delay so that the animation appears continuous between page loads.
       window.__tickerDelay = -(elapsed % durationDefault);
     })();
 
@@ -172,11 +173,11 @@
           // Separate SPY from other tickers (SPY goes first)
           const spyHoldings = finalHoldings.filter(h => h.baseTicker === "SPY");
           const otherHoldings = finalHoldings.filter(h => h.baseTicker !== "SPY");
-          const spyItems = spyHoldings.map(mapTicker).join(" | ");
-          const otherItems = otherHoldings.map(mapTicker).join(" | ");
-          const combined = spyItems + (otherItems ? " | " + otherItems : "");
-          // Duplicate content for seamless continuous scrolling
-          const tickerContent = combined + " | " + combined;
+          const spyItems = spyHoldings.map(mapTicker).join(' <span class="separator">|</span> ');
+          const otherItems = otherHoldings.map(mapTicker).join(' <span class="separator">|</span> ');
+          const combined = spyItems + (otherItems ? ' <span class="separator">|</span> ' + otherItems : '');
+          // Duplicate content for continuous scrolling
+          const tickerContent = combined + ' <span class="separator">|</span> ' + combined;
           tickerText.innerHTML = tickerContent;
           
           // After a short delay, measure width and set dynamic animation duration.
