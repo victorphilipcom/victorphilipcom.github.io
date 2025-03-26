@@ -255,9 +255,9 @@
     "fullTicker": "HAFN:USA",
     "baseTicker": "HAFN",
     "rank": 59.9594,
-    "price": 4.38,
-    "prevClose": 4.4,
-    "absReturn": -0.020000000000000462,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attydpVOXPxbdfHhi",
@@ -291,9 +291,9 @@
     "fullTicker": "ISRG:USA",
     "baseTicker": "ISRG",
     "rank": 71.3561,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 509.03,
+    "prevClose": 519.81,
+    "absReturn": -10.779999999999973,
     "logo": [
       {
         "id": "attVEswpsiI4tN9KK",
