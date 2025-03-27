@@ -3,9 +3,9 @@
     "fullTicker": "KSS:USA",
     "baseTicker": "KSS",
     "rank": 24.8225,
-    "price": 8.95,
-    "prevClose": 9.15,
-    "absReturn": -0.20000000000000107,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attgaqO97QVOEXtRj",
@@ -255,9 +255,9 @@
     "fullTicker": "HAFN:USA",
     "baseTicker": "HAFN",
     "rank": 59.9594,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 4.38,
+    "prevClose": 4.4,
+    "absReturn": -0.020000000000000462,
     "logo": [
       {
         "id": "attydpVOXPxbdfHhi",
