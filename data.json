@@ -39,9 +39,9 @@
     "fullTicker": "FLNG:USA",
     "baseTicker": "FLNG",
     "rank": 27.1897,
-    "price": 22.76,
-    "prevClose": 22.58,
-    "absReturn": 0.18000000000000327,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attEq0BK1SjdoVmG4",
@@ -219,9 +219,9 @@
     "fullTicker": "CYD:USA",
     "baseTicker": "CYD",
     "rank": 57.0849,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 18.15,
+    "prevClose": 18.22,
+    "absReturn": -0.07000000000000028,
     "logo": [
       {
         "id": "att27IjkeHGgXCtA9",
