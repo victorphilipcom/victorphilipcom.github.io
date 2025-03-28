@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Confetti Celebration</title>
+  <title>Dynamic Confetti Celebration</title>
   <style>
     body {
       margin: 0;
@@ -34,23 +34,64 @@
   <!-- Load the canvas-confetti library from a CDN -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
   <script>
-    // Fire confetti on page load
-    confetti({
-      particleCount: 100,
-      spread: 70,
-      origin: { y: 0.6 }
-    });
+    // Utility function to generate a random number within a range
+    function randomInRange(min, max) {
+      return Math.random() * (max - min) + min;
+    }
 
-    // Function to launch confetti when called
+    // Function to launch randomized confetti
     function launchConfetti() {
+      // Randomize particle count between 100 and 200
+      const particleCount = Math.floor(randomInRange(100, 200));
+
+      // Randomize angle between 0 and 360 degrees
+      const angle = randomInRange(0, 360);
+
+      // Randomize spread between 30 and 120 degrees
+      const spread = randomInRange(30, 120);
+
+      // Define several possible color sets
+      const colorSets = [
+        ['#bb0000', '#ffffff'],
+        ['#ff0000', '#00ff00', '#0000ff'],
+        ['#ffd700', '#ff8c00', '#ff69b4'],
+        ['#4b0082', '#ee82ee', '#00ffff'],
+        ['#00ff00', '#ff00ff', '#ffff00']
+      ];
+      // Choose a random color set
+      const colors = colorSets[Math.floor(Math.random() * colorSets.length)];
+
+      // Randomize origin so that confetti comes from a random horizontal position.
+      // origin.y is set to 0 (top) 50% of the time and 1 (bottom) 50% of the time.
+      const originX = randomInRange(0, 1);
+      const originY = Math.random() < 0.5 ? 0 : 1;
+
+      // Randomize additional parameters: start velocity, decay, and gravity.
+      const startVelocity = randomInRange(20, 40);
+      const decay = randomInRange(0.90, 0.97);
+      const gravity = randomInRange(0.8, 1.2);
+
+      // Launch the confetti with randomized settings
       confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { y: 0.6 }
+        particleCount,
+        angle,
+        spread,
+        startVelocity,
+        decay,
+        gravity,
+        colors,
+        origin: { x: originX, y: originY }
       });
     }
 
-    // Trigger confetti when the button is clicked
+    // Fire a burst of confetti on page load with a preset effect
+    confetti({
+      particleCount: 150,
+      spread: 100,
+      origin: { y: 0.6 }
+    });
+
+    // Attach event listener to trigger randomized confetti on button click
     document.getElementById('confettiButton').addEventListener('click', launchConfetti);
   </script>
 </body>
