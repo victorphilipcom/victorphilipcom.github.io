@@ -147,9 +147,9 @@
     "fullTicker": "LYV:USA",
     "baseTicker": "LYV",
     "rank": 54.1089,
-    "price": 128.08,
-    "prevClose": 126.75,
-    "absReturn": 1.3300000000000125,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attXCXtFabLeMFAzf",
@@ -183,9 +183,9 @@
     "fullTicker": "JUNE:USA",
     "baseTicker": "JUNE",
     "rank": 54.8529,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 8.8056,
+    "prevClose": 9.29,
+    "absReturn": -0.48439999999999905,
     "logo": [
       {
         "id": "attUZQRnC9qoKhwpA",
