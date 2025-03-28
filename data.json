@@ -111,9 +111,9 @@
     "fullTicker": "NNNN:USA",
     "baseTicker": "NNNN",
     "rank": 42.3064,
-    "price": 7.55,
-    "prevClose": 7.41,
-    "absReturn": 0.13999999999999968,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att8i4lBVJXiIbJ5A",
@@ -291,9 +291,9 @@
     "fullTicker": "ISRG:USA",
     "baseTicker": "ISRG",
     "rank": 71.3561,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 491.84,
+    "prevClose": 507.9,
+    "absReturn": -16.060000000000002,
     "logo": [
       {
         "id": "attVEswpsiI4tN9KK",
