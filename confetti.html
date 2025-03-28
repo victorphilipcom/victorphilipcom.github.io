@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dynamic Confetti Celebration</title>
+  <title>Directional Confetti Celebration</title>
   <style>
     body {
       margin: 0;
       padding: 0;
     }
-    /* Ensure the canvas covers the page */
+    /* Ensure the canvas covers the entire viewport */
     canvas {
       position: fixed;
       top: 0;
@@ -17,7 +17,7 @@
       height: 100%;
       pointer-events: none;
     }
-    /* Style for the button container */
+    /* Button container styling */
     .button-container {
       position: fixed;
       top: 20px;
@@ -31,26 +31,54 @@
     <button id="confettiButton">Celebrate!</button>
   </div>
 
-  <!-- Load the canvas-confetti library from a CDN -->
+  <!-- Include the canvas-confetti library from a CDN -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
   <script>
-    // Utility function to generate a random number within a range
+    // Utility function for generating a random number between min and max.
     function randomInRange(min, max) {
       return Math.random() * (max - min) + min;
     }
 
-    // Function to launch randomized confetti
+    // Launch confetti from bottom, left, or right directed toward center.
     function launchConfetti() {
-      // Randomize particle count between 100 and 200
-      const particleCount = Math.floor(randomInRange(100, 200));
+      // Randomly choose a source: "bottom", "left", or "right"
+      const sources = ['bottom', 'left', 'right'];
+      const sourceType = sources[Math.floor(Math.random() * sources.length)];
 
-      // Randomize angle between 0 and 360 degrees
-      const angle = randomInRange(0, 360);
+      let origin, angle;
+      // A small random offset for the angle variation
+      const randomOffset = () => randomInRange(-10, 10);
 
-      // Randomize spread between 30 and 120 degrees
-      const spread = randomInRange(30, 120);
+      if (sourceType === 'bottom') {
+        // From the bottom: origin.y is at the bottom edge.
+        // Randomize x along the bottom.
+        const x = randomInRange(0, 1);
+        origin = { x: x, y: 1 };
+        // Calculate angle so that if x is 0, the angle is ~60° (up-right),
+        // if x is 1, the angle is ~120° (up-left), with 90° when centered.
+        angle = 90 + (x - 0.5) * 60 + randomOffset();
+      } else if (sourceType === 'left') {
+        // From the left side: x is 0.
+        // Choose a y position in the lower-to-middle range.
+        origin = { x: 0, y: randomInRange(0.3, 0.8) };
+        // Set angle around 60° (up-right), adding a little randomness.
+        angle = 60 + randomOffset();
+      } else if (sourceType === 'right') {
+        // From the right side: x is 1.
+        // Choose a y position in the lower-to-middle range.
+        origin = { x: 1, y: randomInRange(0.3, 0.8) };
+        // Set angle around 120° (up-left), adding a little randomness.
+        angle = 120 + randomOffset();
+      }
 
-      // Define several possible color sets
+      // Additional randomized parameters for a varied effect.
+      const particleCount = Math.floor(randomInRange(150, 250));
+      const spread = randomInRange(30, 80);
+      const startVelocity = randomInRange(25, 40);
+      const decay = randomInRange(0.90, 0.96);
+      const gravity = randomInRange(0.9, 1.1);
+
+      // Define several color sets to choose from randomly.
       const colorSets = [
         ['#bb0000', '#ffffff'],
         ['#ff0000', '#00ff00', '#0000ff'],
@@ -58,40 +86,25 @@
         ['#4b0082', '#ee82ee', '#00ffff'],
         ['#00ff00', '#ff00ff', '#ffff00']
       ];
-      // Choose a random color set
       const colors = colorSets[Math.floor(Math.random() * colorSets.length)];
 
-      // Randomize origin so that confetti comes from a random horizontal position.
-      // origin.y is set to 0 (top) 50% of the time and 1 (bottom) 50% of the time.
-      const originX = randomInRange(0, 1);
-      const originY = Math.random() < 0.5 ? 0 : 1;
-
-      // Randomize additional parameters: start velocity, decay, and gravity.
-      const startVelocity = randomInRange(20, 40);
-      const decay = randomInRange(0.90, 0.97);
-      const gravity = randomInRange(0.8, 1.2);
-
-      // Launch the confetti with randomized settings
+      // Launch confetti with the computed settings.
       confetti({
         particleCount,
-        angle,
+        angle,       // Launch direction in degrees.
         spread,
         startVelocity,
         decay,
         gravity,
         colors,
-        origin: { x: originX, y: originY }
+        origin      // Starting point on the canvas.
       });
     }
 
-    // Fire a burst of confetti on page load with a preset effect
-    confetti({
-      particleCount: 150,
-      spread: 100,
-      origin: { y: 0.6 }
-    });
+    // Fire a confetti burst on page load.
+    launchConfetti();
 
-    // Attach event listener to trigger randomized confetti on button click
+    // Fire confetti on button click.
     document.getElementById('confettiButton').addEventListener('click', launchConfetti);
   </script>
 </body>
