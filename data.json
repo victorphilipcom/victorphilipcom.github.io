@@ -147,9 +147,9 @@
     "fullTicker": "LYV:USA",
     "baseTicker": "LYV",
     "rank": 54.1089,
-    "price": 125.03,
-    "prevClose": 128.08,
-    "absReturn": -3.0500000000000114,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attXCXtFabLeMFAzf",
@@ -363,9 +363,9 @@
     "fullTicker": "GAMB:USA",
     "baseTicker": "GAMB",
     "rank": 87.9946,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 12.67,
+    "prevClose": 13.35,
+    "absReturn": -0.6799999999999997,
     "logo": [
       {
         "id": "attKoAcMpjzrZG1AN",
