@@ -75,9 +75,9 @@
     "fullTicker": "THO:USA",
     "baseTicker": "THO",
     "rank": 33.3446,
-    "price": 77.08,
-    "prevClose": 80.83,
-    "absReturn": -3.75,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att26FzGhnbRHUthT",
@@ -255,9 +255,9 @@
     "fullTicker": "HAFN:USA",
     "baseTicker": "HAFN",
     "rank": 59.9594,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 4.23,
+    "prevClose": 4.22,
+    "absReturn": 0.010000000000000675,
     "logo": [
       {
         "id": "attydpVOXPxbdfHhi",
