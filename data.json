@@ -12,9 +12,9 @@
     "fullTicker": "SEA:CAN",
     "baseTicker": "SEA",
     "rank": 30.24,
-    "price": 12.52,
-    "prevClose": 12.6281,
-    "absReturn": -0.10810000000000031,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -66,9 +66,9 @@
     "fullTicker": "BBY:GBR",
     "baseTicker": "BBY",
     "rank": 76.0034,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 72.45,
+    "prevClose": 74.87,
+    "absReturn": -2.4200000000000017,
     "logo": ""
   },
   {
