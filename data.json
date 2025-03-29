@@ -1,155 +1,101 @@
 [
   {
-    "fullTicker": "ELF:CAN",
-    "baseTicker": "ELF",
-    "rank": 40.7305,
-    "price": 64.83,
-    "prevClose": 65.16,
+    "fullTicker": "MAG:CAN",
+    "baseTicker": "MAG",
+    "rank": 27.7978,
+    "price": 15.7,
+    "prevClose": 16.63,
+    "absReturn": -0.9299999999999997,
+    "logo": ""
+  },
+  {
+    "fullTicker": "MCW:USA",
+    "baseTicker": "MCW",
+    "rank": 28.2438,
+    "price": 7.91,
+    "prevClose": 8.18,
+    "absReturn": -0.2699999999999996,
+    "logo": ""
+  },
+  {
+    "fullTicker": "VIV:FRA",
+    "baseTicker": "VIV",
+    "rank": 29.072,
+    "price": 8.78,
+    "prevClose": 8.79,
+    "absReturn": -0.009999999999999787,
+    "logo": ""
+  },
+  {
+    "fullTicker": "ZV:ITA",
+    "baseTicker": "ZV",
+    "rank": 32.6609,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
+    "logo": ""
+  },
+  {
+    "fullTicker": "AMTM:USA",
+    "baseTicker": "AMTM",
+    "rank": 34.5933,
+    "price": 18.07,
+    "prevClose": 18.4,
     "absReturn": -0.3299999999999983,
     "logo": ""
   },
   {
-    "fullTicker": "DBM:CAN",
-    "baseTicker": "DBM",
-    "rank": 51.6458,
+    "fullTicker": "XRAY:USA",
+    "baseTicker": "XRAY",
+    "rank": 34.6783,
     "price": 0,
     "prevClose": 0,
     "absReturn": 0,
     "logo": ""
   },
   {
-    "fullTicker": "ELPE:GRC",
-    "baseTicker": "ELPE",
-    "rank": 61.0533,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "fullTicker": "XRX:USA",
+    "baseTicker": "XRX",
+    "rank": 42.302,
+    "price": 5.13,
+    "prevClose": 5.43,
+    "absReturn": -0.2999999999999998,
     "logo": ""
   },
   {
-    "fullTicker": "NVGS:USA",
-    "baseTicker": "NVGS",
-    "rank": 63.4317,
-    "price": 13.38,
-    "prevClose": 13.39,
-    "absReturn": -0.009999999999999787,
-    "logo": [
-      {
-        "id": "atttNycgt8ojLCARq",
-        "width": 80,
-        "height": 142,
-        "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743292800000/AHXnC5XNd1pXpc5XB2HN5g/awfk_8nEXbbrG8pgNeotYqn-GjX3sRSRyfVZpKvLrZvGGNWTgpD-Clum4fwKiG5eaaZon_AldMkjYStuUVbUWWE6LGlVRAJsDgdwdsLGRGNfQIp9Jf50SO_N_jTyWt6li8UtgmMJeG8ypwj7LAztoIVA7ZvG_vBJIOrvMP81_gjYT6E5wGDj-Gb0-EjaEwri/KTP1XkT7SnbonwfuGRFrFuuqFmd69GTqEBWY8bSkTHw",
-        "filename": "navigator-holdings-ltd-logo.png",
-        "size": 623,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743292800000/TSwnmNATfDOIE5LEUReVIw/AoVGPU6np4h_Lf0kt7ZvVnH1lWfl2Z4fIhM6nuLP_DepOi1cMJID3DaFbKyYbuNFk32W0HG_GbEh2dMQOdemYIFGDH-bpq8ihedTqEACTEcceaFOeD4Ox0eEjCcHvdPNHO8_FWHxWfqmqIhfm7QQDA/K_g5zFB17QfYsw8K01RnZ4FtyK7yopsB8lHkodHm5aE",
-            "width": 20,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743292800000/tLhwEh2qXmUr9tAtIdkm_w/ye04hPebFs4iy3xhZ_mO5co0I_EdJtWGyo3AuZYUFSFGCU9_8dbIblYtZwdYabo6gZqh-IH3iFUmcHGm_3mPzd_qXF4OFy1bbV1o_Fr5JFrV14xTDAN0so--SJ8vsqkRsQQSLtjkv1OYSUY1UhnvSw/qZ__Dnmp1XK-F0vX4sX1yiNyZEgOezNCPlrR2JnzGN4",
-            "width": 80,
-            "height": 142
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743292800000/Vz1lzswyy0Ejhf0ilkTjpw/i2_MRDVX-u5fcKCAqnA2okTAR8PP8s3FxiRnTiYJWUiJTRexn8xhj6jykQVsMCRDsjq96tysHag8kv68g0MkrJx4G4NYjsUHv_tdBLMUmrBK4uFM8s3HAJIvQ8Bl35vLUOJFnUQySNnCNtAXMcG7PA/Kov5oQ2SHpX_h9KIpk7APKDK3AI6hmrCevH6U-5Vwiw",
-            "width": 80,
-            "height": 142
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "PLNW:FRA",
-    "baseTicker": "PLNW",
-    "rank": 71.65,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "fullTicker": "AIRI:USA",
+    "baseTicker": "AIRI",
+    "rank": 49.501,
+    "price": 3.59,
+    "prevClose": 3.8129,
+    "absReturn": -0.2229000000000001,
     "logo": ""
   },
   {
-    "fullTicker": "NNIT:DNK",
-    "baseTicker": "NNIT",
-    "rank": 73.7736,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "fullTicker": "AHT:GBR",
+    "baseTicker": "AHT",
+    "rank": 51.4547,
+    "price": 7.26,
+    "prevClose": 7.28,
+    "absReturn": -0.020000000000000462,
     "logo": ""
   },
   {
-    "fullTicker": "CCA:CAN",
-    "baseTicker": "CCA",
-    "rank": 78.6367,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "fullTicker": "ADN:CAN",
+    "baseTicker": "ADN",
+    "rank": 51.667,
+    "price": 4.7266,
+    "prevClose": 4.8101,
+    "absReturn": -0.08349999999999991,
     "logo": ""
   },
   {
-    "fullTicker": "MORN:USA",
-    "baseTicker": "MORN",
-    "rank": 87.0036,
-    "price": 296.11,
-    "prevClose": 302.01,
-    "absReturn": -5.899999999999977,
-    "logo": [
-      {
-        "id": "attSwcKL0JqbuVbLo",
-        "width": 80,
-        "height": 27,
-        "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743292800000/_3aFBckDcALtOtESk4prXw/NNBsEC6IVe43X-PcBfK8ELJbY_mBpAiOjtL4f4G7PVFKRdGqsRbBG10IY7YNV4h0SEdWcQE1Fih03kr1G5NXRR9pm8m9XauylyOHcadrS-KpJhrP0quYfPD1Qe0BvSmoDjxePBT-UjR56RcpLEksUUVHB4GoVEjtECTOvTZzzAcETEQruJHS9SPQ8UiXvJCU/hFZtUIQ0Uj5u2xsySffA8cCfs6TiUloJS5R7V6NJxps",
-        "filename": "morningstar-inc-logo.png",
-        "size": 2233,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743292800000/Gywht2wG8d08Pc4BnhwoQA/fFnDZGauLV2iJBv8NlcFk9acOn-Eki4dj8CpZHM9O2Hyz57_sZAAtOnv33spYHXh-I411SU9Uy2drN7XaexbJXsncrckUSoM_MoC9_5Y2b571Pcan_KfqQiMxCaA6K60_NjPKNTQqi4fFd7iL-F7tA/j4gQYRvdQ9iiojhckpvgSWPxFukip8VQ16diBhc693A",
-            "width": 80,
-            "height": 27
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743292800000/kZ_bUPLj9GNpl_VdgZZx0A/AL2qlM1CUDsByU1Q5iRyXywnb0m_BwCc5OgUJn24IFPLGYKNoVjiSkyByZGTAx9iuFcYcoUYiWR7_IzGWfUV5kIL4j_8ON_C2yttd3_0fuGHbtXjhNtCy1w-PeC8J9lPrhYniyGOStsRtuXevEZhJA/BWdCUex7VZAO00zcH_wz6I0xY28_-cT6K40QNg7am74",
-            "width": 80,
-            "height": 27
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743292800000/31KphkePYBcvYok9TvRIuA/Z8zQpilJd16WTHSdWtzGg_fAFk1nQJ-UvyEWLCTO5D-MZXR6uZDblXsRdMNygDlxG2o8xdj7JFqbCFrAJS3R9Z16yxjXBYraQ1O46skJ0yupGIAQ_fFLBkLGYSd4jCUv9Tto6U4rSl9c9avpyobbSQ/c6f7QQHO33N0BvrYQJiRZ2rBIN_Sf16s-vABCXNGrxc",
-            "width": 80,
-            "height": 27
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "TRN:GBR",
-    "baseTicker": "TRN",
-    "rank": 91.0172,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
-    "logo": ""
-  },
-  {
-    "fullTicker": "SVM:CAN",
-    "baseTicker": "SVM",
-    "rank": 93.0134,
-    "price": 3.88,
-    "prevClose": 4.13,
-    "absReturn": -0.25,
-    "logo": ""
-  },
-  {
-    "fullTicker": "VIRI:FRA",
-    "baseTicker": "VIRI",
-    "rank": 97.303,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "fullTicker": "EBF:USA",
+    "baseTicker": "EBF",
+    "rank": 95.7103,
+    "price": 20.17,
+    "prevClose": 20.43,
+    "absReturn": -0.259999999999998,
     "logo": ""
   },
   {
