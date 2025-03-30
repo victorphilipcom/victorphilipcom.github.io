@@ -201,9 +201,9 @@
     "fullTicker": "APOG:USA",
     "baseTicker": "APOG",
     "rank": 73.0304,
-    "price": 46.67,
-    "prevClose": 47.54,
-    "absReturn": -0.8699999999999974,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attyF6rKOVnKmpYr1",
@@ -309,9 +309,9 @@
     "fullTicker": "UFCS:USA",
     "baseTicker": "UFCS",
     "rank": 98.11,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 29.66,
+    "prevClose": 29.72,
+    "absReturn": -0.05999999999999872,
     "logo": [
       {
         "id": "attAhgET4pWsHjHIF",
