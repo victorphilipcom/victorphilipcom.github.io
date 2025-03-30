@@ -201,9 +201,9 @@
     "fullTicker": "APOG:USA",
     "baseTicker": "APOG",
     "rank": 73.0304,
-    "price": 46.67,
-    "prevClose": 47.54,
-    "absReturn": -0.8699999999999974,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attyF6rKOVnKmpYr1",
@@ -237,9 +237,9 @@
     "fullTicker": "AVY:USA",
     "baseTicker": "AVY",
     "rank": 74.6018,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 175.77,
+    "prevClose": 177.99,
+    "absReturn": -2.219999999999999,
     "logo": [
       {
         "id": "attV5aO5YCn4hQg5M",
