@@ -156,9 +156,9 @@
     "fullTicker": "ICLR:USA",
     "baseTicker": "ICLR",
     "rank": 69.6751,
-    "price": 179.07,
-    "prevClose": 180.11,
-    "absReturn": -1.0400000000000205,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attWWhVUOUgqlzYa2",
@@ -192,9 +192,9 @@
     "fullTicker": "ELD:CAN",
     "baseTicker": "ELD",
     "rank": 72.2022,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 26.2156,
+    "prevClose": 26.2937,
+    "absReturn": -0.07810000000000272,
     "logo": ""
   },
   {
