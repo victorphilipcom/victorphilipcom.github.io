@@ -30,18 +30,18 @@
     "fullTicker": "ELAN:USA",
     "baseTicker": "ELAN",
     "rank": 49.6708,
-    "price": 10.41,
-    "prevClose": 10.81,
-    "absReturn": -0.40000000000000036,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "LFST:USA",
     "baseTicker": "LFST",
     "rank": 62.5611,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 6.7,
+    "prevClose": 6.77,
+    "absReturn": -0.0699999999999994,
     "logo": ""
   },
   {
