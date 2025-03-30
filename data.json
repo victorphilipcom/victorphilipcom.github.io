@@ -84,9 +84,9 @@
     "fullTicker": "TNK:USA",
     "baseTicker": "TNK",
     "rank": 41.856,
-    "price": 38.68,
-    "prevClose": 38.17,
-    "absReturn": 0.509999999999998,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attICZSChPAidBClq",
@@ -120,9 +120,9 @@
     "fullTicker": "ATER:USA",
     "baseTicker": "ATER",
     "rank": 59.1208,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 2.3,
+    "prevClose": 2.44,
+    "absReturn": -0.14000000000000012,
     "logo": [
       {
         "id": "attPz5gfpaSjTAFJe",
