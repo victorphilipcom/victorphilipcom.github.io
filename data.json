@@ -3,9 +3,9 @@
     "fullTicker": "PLSE:USA",
     "baseTicker": "PLSE",
     "rank": 2.0386,
-    "price": 16.6,
-    "prevClose": 15.66,
-    "absReturn": 0.9400000000000013,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attvEgjGZQsfkI24I",
@@ -156,9 +156,9 @@
     "fullTicker": "ICLR:USA",
     "baseTicker": "ICLR",
     "rank": 69.6751,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 179.07,
+    "prevClose": 180.11,
+    "absReturn": -1.0400000000000205,
     "logo": [
       {
         "id": "attWWhVUOUgqlzYa2",
