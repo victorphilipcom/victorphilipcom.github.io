@@ -39,9 +39,9 @@
     "fullTicker": "EP:USA",
     "baseTicker": "EP",
     "rank": 9.1315,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 6,
+    "prevClose": 6.3,
+    "absReturn": -0.2999999999999998,
     "logo": [
       {
         "id": "attCGTeMzT65sVdIq",
@@ -156,9 +156,9 @@
     "fullTicker": "ICLR:USA",
     "baseTicker": "ICLR",
     "rank": 69.6751,
-    "price": 179.07,
-    "prevClose": 180.11,
-    "absReturn": -1.0400000000000205,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attWWhVUOUgqlzYa2",
