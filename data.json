@@ -192,9 +192,9 @@
     "fullTicker": "ELD:CAN",
     "baseTicker": "ELD",
     "rank": 72.2022,
-    "price": 26.2156,
-    "prevClose": 26.2937,
-    "absReturn": -0.07810000000000272,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -237,9 +237,9 @@
     "fullTicker": "AVY:USA",
     "baseTicker": "AVY",
     "rank": 74.6018,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 175.77,
+    "prevClose": 177.99,
+    "absReturn": -2.219999999999999,
     "logo": [
       {
         "id": "attV5aO5YCn4hQg5M",
