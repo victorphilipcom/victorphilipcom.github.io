@@ -120,9 +120,9 @@
     "fullTicker": "ATER:USA",
     "baseTicker": "ATER",
     "rank": 59.1208,
-    "price": 2.3,
-    "prevClose": 2.44,
-    "absReturn": -0.14000000000000012,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attPz5gfpaSjTAFJe",
@@ -156,9 +156,9 @@
     "fullTicker": "ICLR:USA",
     "baseTicker": "ICLR",
     "rank": 69.6751,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 179.07,
+    "prevClose": 180.11,
+    "absReturn": -1.0400000000000205,
     "logo": [
       {
         "id": "attWWhVUOUgqlzYa2",
