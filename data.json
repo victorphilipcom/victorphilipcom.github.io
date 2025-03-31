@@ -3,9 +3,9 @@
     "fullTicker": "GPRE:USA",
     "baseTicker": "GPRE",
     "rank": 4.5673,
-    "price": 4.86,
-    "prevClose": 5.4,
-    "absReturn": -0.54,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -66,9 +66,9 @@
     "fullTicker": "HEI:USA",
     "baseTicker": "HEI",
     "rank": 49.98,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 266.06,
+    "prevClose": 268.63,
+    "absReturn": -2.569999999999993,
     "logo": ""
   },
   {
