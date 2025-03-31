@@ -12,18 +12,18 @@
     "fullTicker": "SDRL:USA",
     "baseTicker": "SDRL",
     "rank": 4.7075,
-    "price": 24.975,
+    "price": 25.055,
     "prevClose": 25.23,
-    "absReturn": -0.254999999999999,
+    "absReturn": -0.1750000000000007,
     "logo": ""
   },
   {
     "fullTicker": "TMDX:USA",
     "baseTicker": "TMDX",
     "rank": 16.4063,
-    "price": 67.18,
-    "prevClose": 68.58,
-    "absReturn": -1.3999999999999915,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "MVST:USA",
     "baseTicker": "MVST",
     "rank": 23.3974,
-    "price": 1.155,
+    "price": 1.165,
     "prevClose": 1.15,
-    "absReturn": 0.0050000000000001155,
+    "absReturn": 0.015000000000000124,
     "logo": ""
   },
   {
@@ -57,9 +57,9 @@
     "fullTicker": "BCC:USA",
     "baseTicker": "BCC",
     "rank": 44.4712,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 98.125,
+    "prevClose": 98.3,
+    "absReturn": -0.17499999999999716,
     "logo": ""
   },
   {
@@ -75,9 +75,9 @@
     "fullTicker": "PTON:USA",
     "baseTicker": "PTON",
     "rank": 65.3846,
-    "price": 6.295,
+    "price": 6.37,
     "prevClose": 6.3,
-    "absReturn": -0.004999999999999893,
+    "absReturn": 0.07000000000000028,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 553.58,
+    "price": 554.25,
     "prevClose": 555.66,
-    "absReturn": -2.0799999999999272,
+    "absReturn": -1.4099999999999682,
     "logo": "sp500.png"
   }
 ]
