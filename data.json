@@ -3,9 +3,9 @@
     "fullTicker": "GPRE:USA",
     "baseTicker": "GPRE",
     "rank": 4.5673,
-    "price": 4.85,
-    "prevClose": 4.86,
-    "absReturn": -0.010000000000000675,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -75,9 +75,9 @@
     "fullTicker": "PTON:USA",
     "baseTicker": "PTON",
     "rank": 65.3846,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 6.32,
+    "prevClose": 6.3,
+    "absReturn": 0.020000000000000462,
     "logo": ""
   },
   {
