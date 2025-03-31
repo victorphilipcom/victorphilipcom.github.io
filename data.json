@@ -84,9 +84,9 @@
     "fullTicker": "TNK:USA",
     "baseTicker": "TNK",
     "rank": 41.856,
-    "price": 38.68,
-    "prevClose": 38.17,
-    "absReturn": 0.509999999999998,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attICZSChPAidBClq",
@@ -309,9 +309,9 @@
     "fullTicker": "UFCS:USA",
     "baseTicker": "UFCS",
     "rank": 98.11,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 29.66,
+    "prevClose": 29.72,
+    "absReturn": -0.05999999999999872,
     "logo": [
       {
         "id": "attAhgET4pWsHjHIF",
