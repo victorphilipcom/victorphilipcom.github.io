@@ -3,27 +3,27 @@
     "fullTicker": "GPRE:USA",
     "baseTicker": "GPRE",
     "rank": 4.5673,
-    "price": 4.855,
+    "price": 4.845,
     "prevClose": 4.86,
-    "absReturn": -0.004999999999999893,
+    "absReturn": -0.015000000000000568,
     "logo": ""
   },
   {
     "fullTicker": "SDRL:USA",
     "baseTicker": "SDRL",
     "rank": 4.7075,
-    "price": 24.98,
+    "price": 24.945,
     "prevClose": 25.23,
-    "absReturn": -0.25,
+    "absReturn": -0.28500000000000014,
     "logo": ""
   },
   {
     "fullTicker": "TMDX:USA",
     "baseTicker": "TMDX",
     "rank": 16.4063,
-    "price": 67.15,
-    "prevClose": 68.58,
-    "absReturn": -1.4299999999999926,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "MVST:USA",
     "baseTicker": "MVST",
     "rank": 23.3974,
-    "price": 1.165,
+    "price": 1.155,
     "prevClose": 1.15,
-    "absReturn": 0.015000000000000124,
+    "absReturn": 0.0050000000000001155,
     "logo": ""
   },
   {
@@ -57,36 +57,36 @@
     "fullTicker": "BCC:USA",
     "baseTicker": "BCC",
     "rank": 44.4712,
-    "price": 98.015,
+    "price": 98.1,
     "prevClose": 98.3,
-    "absReturn": -0.2849999999999966,
+    "absReturn": -0.20000000000000284,
     "logo": ""
   },
   {
     "fullTicker": "HEI:USA",
     "baseTicker": "HEI",
     "rank": 49.98,
-    "price": 265.78,
+    "price": 265.895,
     "prevClose": 266.06,
-    "absReturn": -0.28000000000002956,
+    "absReturn": -0.16500000000002046,
     "logo": ""
   },
   {
     "fullTicker": "PTON:USA",
     "baseTicker": "PTON",
     "rank": 65.3846,
-    "price": 6.345,
+    "price": 6.34,
     "prevClose": 6.3,
-    "absReturn": 0.04499999999999993,
+    "absReturn": 0.040000000000000036,
     "logo": ""
   },
   {
     "fullTicker": "MFIN:USA",
     "baseTicker": "MFIN",
     "rank": 66.4063,
-    "price": 9.02,
+    "price": 8.905,
     "prevClose": 9.06,
-    "absReturn": -0.040000000000000924,
+    "absReturn": -0.15500000000000114,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 553.55,
+    "price": 552.91,
     "prevClose": 555.66,
-    "absReturn": -2.1100000000000136,
+    "absReturn": -2.75,
     "logo": "sp500.png"
   }
 ]
