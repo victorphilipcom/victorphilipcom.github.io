@@ -3,27 +3,27 @@
     "fullTicker": "GPRE:USA",
     "baseTicker": "GPRE",
     "rank": 4.5673,
-    "price": 4.66,
+    "price": 4.67,
     "prevClose": 4.86,
-    "absReturn": -0.20000000000000018,
+    "absReturn": -0.1900000000000004,
     "logo": ""
   },
   {
     "fullTicker": "SDRL:USA",
     "baseTicker": "SDRL",
     "rank": 4.7075,
-    "price": 25.23,
-    "prevClose": 25.41,
-    "absReturn": -0.17999999999999972,
+    "price": 24.63,
+    "prevClose": 25.23,
+    "absReturn": -0.6000000000000014,
     "logo": ""
   },
   {
     "fullTicker": "TMDX:USA",
     "baseTicker": "TMDX",
     "rank": 16.4063,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 66.495,
+    "prevClose": 68.58,
+    "absReturn": -2.0849999999999937,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "MVST:USA",
     "baseTicker": "MVST",
     "rank": 23.3974,
-    "price": 1.105,
+    "price": 1.095,
     "prevClose": 1.15,
-    "absReturn": -0.04499999999999993,
+    "absReturn": -0.05499999999999994,
     "logo": ""
   },
   {
@@ -57,27 +57,27 @@
     "fullTicker": "BCC:USA",
     "baseTicker": "BCC",
     "rank": 44.4712,
-    "price": 97.12,
+    "price": 95.83,
     "prevClose": 98.3,
-    "absReturn": -1.1799999999999926,
+    "absReturn": -2.469999999999999,
     "logo": ""
   },
   {
     "fullTicker": "HEI:USA",
     "baseTicker": "HEI",
     "rank": 49.98,
-    "price": 262.44,
+    "price": 261.625,
     "prevClose": 266.06,
-    "absReturn": -3.6200000000000045,
+    "absReturn": -4.435000000000002,
     "logo": ""
   },
   {
     "fullTicker": "PTON:USA",
     "baseTicker": "PTON",
     "rank": 65.3846,
-    "price": 6.075,
-    "prevClose": 6.3,
-    "absReturn": -0.22499999999999964,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 548.915,
+    "price": 548.305,
     "prevClose": 555.66,
-    "absReturn": -6.7450000000000045,
+    "absReturn": -7.355000000000018,
     "logo": "sp500.png"
   }
 ]
