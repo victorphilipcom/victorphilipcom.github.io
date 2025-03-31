@@ -3,9 +3,9 @@
     "fullTicker": "GPRE:USA",
     "baseTicker": "GPRE",
     "rank": 4.5673,
-    "price": 4.85,
-    "prevClose": 4.86,
-    "absReturn": -0.010000000000000675,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "MVST:USA",
     "baseTicker": "MVST",
     "rank": 23.3974,
-    "price": 1.165,
+    "price": 1.17,
     "prevClose": 1.15,
-    "absReturn": 0.015000000000000124,
+    "absReturn": 0.020000000000000018,
     "logo": ""
   },
   {
@@ -66,9 +66,9 @@
     "fullTicker": "HEI:USA",
     "baseTicker": "HEI",
     "rank": 49.98,
-    "price": 267.115,
+    "price": 267.19,
     "prevClose": 266.06,
-    "absReturn": 1.0550000000000068,
+    "absReturn": 1.1299999999999955,
     "logo": ""
   },
   {
@@ -84,9 +84,9 @@
     "fullTicker": "MFIN:USA",
     "baseTicker": "MFIN",
     "rank": 66.4063,
-    "price": 8.75,
+    "price": 8.71,
     "prevClose": 9.06,
-    "absReturn": -0.3100000000000005,
+    "absReturn": -0.34999999999999964,
     "logo": ""
   },
   {
