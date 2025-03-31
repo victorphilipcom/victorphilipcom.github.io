@@ -3,9 +3,9 @@
     "fullTicker": "PLSE:USA",
     "baseTicker": "PLSE",
     "rank": 2.0386,
-    "price": 16.6,
-    "prevClose": 15.66,
-    "absReturn": 0.9400000000000013,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attvEgjGZQsfkI24I",
@@ -192,9 +192,9 @@
     "fullTicker": "ELD:CAN",
     "baseTicker": "ELD",
     "rank": 72.2022,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 26.2156,
+    "prevClose": 26.2937,
+    "absReturn": -0.07810000000000272,
     "logo": ""
   },
   {
