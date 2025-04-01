@@ -3,9 +3,9 @@
     "fullTicker": "GPRE:USA",
     "baseTicker": "GPRE",
     "rank": 4.5673,
-    "price": 4.85,
-    "prevClose": 4.86,
-    "absReturn": -0.010000000000000675,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "MVST:USA",
     "baseTicker": "MVST",
     "rank": 23.3974,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 1.17,
+    "prevClose": 1.15,
+    "absReturn": 0.020000000000000018,
     "logo": ""
   },
   {
