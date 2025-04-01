@@ -39,9 +39,9 @@
     "fullTicker": "MVST:USA",
     "baseTicker": "MVST",
     "rank": 23.3974,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 1.17,
+    "prevClose": 1.15,
+    "absReturn": 0.020000000000000018,
     "logo": ""
   },
   {
@@ -84,9 +84,9 @@
     "fullTicker": "MFIN:USA",
     "baseTicker": "MFIN",
     "rank": 66.4063,
-    "price": 8.71,
-    "prevClose": 9.06,
-    "absReturn": -0.34999999999999964,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
