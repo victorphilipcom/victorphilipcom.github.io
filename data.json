@@ -30,9 +30,9 @@
     "fullTicker": "OPEN:USA",
     "baseTicker": "OPEN",
     "rank": 20.7332,
-    "price": 1,
-    "prevClose": 1.02,
-    "absReturn": -0.020000000000000018,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.26,
+    "price": 560.79,
     "prevClose": 559.39,
-    "absReturn": 0.8700000000000045,
+    "absReturn": 1.3999999999999773,
     "logo": "sp500.png"
   }
 ]
