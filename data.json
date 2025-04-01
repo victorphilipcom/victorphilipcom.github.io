@@ -66,18 +66,18 @@
     "fullTicker": "HEI:USA",
     "baseTicker": "HEI",
     "rank": 49.98,
-    "price": 267.19,
-    "prevClose": 266.06,
-    "absReturn": 1.1299999999999955,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "PTON:USA",
     "baseTicker": "PTON",
     "rank": 65.3846,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 6.32,
+    "prevClose": 6.3,
+    "absReturn": 0.020000000000000462,
     "logo": ""
   },
   {
