@@ -1,14 +1,5 @@
 [
   {
-    "fullTicker": "RNA:USA",
-    "baseTicker": "RNA",
-    "rank": 0.2204,
-    "price": 29.52,
-    "prevClose": 31.6,
-    "absReturn": -2.080000000000002,
-    "logo": ""
-  },
-  {
     "fullTicker": "AL:USA",
     "baseTicker": "AL",
     "rank": 16.1458,
@@ -18,54 +9,54 @@
     "logo": ""
   },
   {
-    "fullTicker": "PL:USA",
-    "baseTicker": "PL",
-    "rank": 16.6867,
-    "price": 3.38,
-    "prevClose": 3.46,
-    "absReturn": -0.08000000000000007,
+    "fullTicker": "EKT:DEU",
+    "baseTicker": "EKT",
+    "rank": 17.4479,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
+    "logo": ""
+  },
+  {
+    "fullTicker": "MRTN:USA",
+    "baseTicker": "MRTN",
+    "rank": 18.1891,
+    "price": 13.72,
+    "prevClose": 13.68,
+    "absReturn": 0.040000000000000924,
     "logo": ""
   },
   {
     "fullTicker": "OPEN:USA",
     "baseTicker": "OPEN",
     "rank": 20.7332,
-    "price": 1.02,
-    "prevClose": 1.13,
-    "absReturn": -0.10999999999999988,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
-    "fullTicker": "POLA:USA",
-    "baseTicker": "POLA",
-    "rank": 24.5994,
-    "price": 2.42,
-    "prevClose": 2.53,
-    "absReturn": -0.10999999999999988,
+    "fullTicker": "ABM:USA",
+    "baseTicker": "ABM",
+    "rank": 28.4856,
+    "price": 47.36,
+    "prevClose": 47.32,
+    "absReturn": 0.03999999999999915,
     "logo": ""
   },
   {
-    "fullTicker": "IREN:CHE",
-    "baseTicker": "IREN",
-    "rank": 36.3181,
-    "price": 6.09,
-    "prevClose": 6.07,
-    "absReturn": 0.019999999999999574,
+    "fullTicker": "DIS:ITA",
+    "baseTicker": "DIS",
+    "rank": 49.1587,
+    "price": 98.7,
+    "prevClose": 98.07,
+    "absReturn": 0.6300000000000097,
     "logo": ""
   },
   {
-    "fullTicker": "NTIC:USA",
-    "baseTicker": "NTIC",
-    "rank": 40.9054,
-    "price": 10.41,
-    "prevClose": 10.42,
-    "absReturn": -0.009999999999999787,
-    "logo": ""
-  },
-  {
-    "fullTicker": "PSTV:USA",
-    "baseTicker": "PSTV",
-    "rank": 43.2292,
+    "fullTicker": "SRC:GBR",
+    "baseTicker": "SRC",
+    "rank": 50.8213,
     "price": 0,
     "prevClose": 0,
     "absReturn": 0,
@@ -90,12 +81,21 @@
     "logo": ""
   },
   {
-    "fullTicker": "GLUE:USA",
-    "baseTicker": "GLUE",
-    "rank": 75.2604,
-    "price": 4.64,
-    "prevClose": 5.1,
-    "absReturn": -0.45999999999999996,
+    "fullTicker": "GRG:GBR",
+    "baseTicker": "GRG",
+    "rank": 65.024,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
+    "logo": ""
+  },
+  {
+    "fullTicker": "ANDR:AUT",
+    "baseTicker": "ANDR",
+    "rank": 91.1458,
+    "price": 0.000001,
+    "prevClose": 0.000001,
+    "absReturn": 0,
     "logo": ""
   },
   {
