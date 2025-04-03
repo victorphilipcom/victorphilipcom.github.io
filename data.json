@@ -30,9 +30,9 @@
     "fullTicker": "OPEN:USA",
     "baseTicker": "OPEN",
     "rank": 20.7332,
-    "price": 1.01,
-    "prevClose": 1.005,
-    "absReturn": 0.0050000000000001155,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -75,9 +75,9 @@
     "fullTicker": "PUMP:USA",
     "baseTicker": "PUMP",
     "rank": 59.5954,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 7.59,
+    "prevClose": 7.54,
+    "absReturn": 0.04999999999999982,
     "logo": ""
   },
   {
