@@ -48,9 +48,9 @@
     "fullTicker": "DIS:ITA",
     "baseTicker": "DIS",
     "rank": 49.1587,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 88.8,
+    "prevClose": 97.88,
+    "absReturn": -9.079999999999998,
     "logo": ""
   },
   {
@@ -93,18 +93,18 @@
     "fullTicker": "ANDR:AUT",
     "baseTicker": "ANDR",
     "rank": 91.1458,
-    "price": 0.0001,
-    "prevClose": 0.000001,
-    "absReturn": 0.00009900000000000001,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 535.87,
+    "price": 536.175,
     "prevClose": 564.52,
-    "absReturn": -28.649999999999977,
+    "absReturn": -28.345000000000027,
     "logo": "sp500.png"
   }
 ]
