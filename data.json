@@ -3,9 +3,9 @@
     "fullTicker": "AL:USA",
     "baseTicker": "AL",
     "rank": 16.1458,
-    "price": 46.645,
-    "prevClose": 49.96,
-    "absReturn": -3.3149999999999977,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -21,36 +21,36 @@
     "fullTicker": "MRTN:USA",
     "baseTicker": "MRTN",
     "rank": 18.1891,
-    "price": 13.33,
+    "price": 13.3,
     "prevClose": 13.91,
-    "absReturn": -0.5800000000000001,
+    "absReturn": -0.6099999999999994,
     "logo": ""
   },
   {
     "fullTicker": "OPEN:USA",
     "baseTicker": "OPEN",
     "rank": 20.7332,
-    "price": 1.005,
+    "price": 0.9974,
     "prevClose": 1.01,
-    "absReturn": -0.0050000000000001155,
+    "absReturn": -0.012600000000000056,
     "logo": ""
   },
   {
     "fullTicker": "ABM:USA",
     "baseTicker": "ABM",
     "rank": 28.4856,
-    "price": 47.84,
+    "price": 47.63,
     "prevClose": 49.2,
-    "absReturn": -1.3599999999999994,
+    "absReturn": -1.5700000000000003,
     "logo": ""
   },
   {
     "fullTicker": "DIS:ITA",
     "baseTicker": "DIS",
     "rank": 49.1587,
-    "price": 91.87,
+    "price": 91.64,
     "prevClose": 97.88,
-    "absReturn": -6.009999999999991,
+    "absReturn": -6.239999999999995,
     "logo": ""
   },
   {
@@ -75,9 +75,9 @@
     "fullTicker": "PUMP:USA",
     "baseTicker": "PUMP",
     "rank": 59.5954,
-    "price": 6.515,
+    "price": 6.545,
     "prevClose": 7.59,
-    "absReturn": -1.0750000000000002,
+    "absReturn": -1.045,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 544.785,
+    "price": 544.17,
     "prevClose": 564.52,
-    "absReturn": -19.735000000000014,
+    "absReturn": -20.350000000000023,
     "logo": "sp500.png"
   }
 ]
