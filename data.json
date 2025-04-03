@@ -21,18 +21,18 @@
     "fullTicker": "MRTN:USA",
     "baseTicker": "MRTN",
     "rank": 18.1891,
-    "price": 13.91,
-    "prevClose": 13.795,
-    "absReturn": 0.11500000000000021,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "OPEN:USA",
     "baseTicker": "OPEN",
     "rank": 20.7332,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 1.01,
+    "prevClose": 1.005,
+    "absReturn": 0.0050000000000001155,
     "logo": ""
   },
   {
