@@ -3,9 +3,9 @@
     "fullTicker": "AL:USA",
     "baseTicker": "AL",
     "rank": 16.1458,
-    "price": 49.96,
-    "prevClose": 48.45,
-    "absReturn": 1.509999999999998,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -21,9 +21,9 @@
     "fullTicker": "MRTN:USA",
     "baseTicker": "MRTN",
     "rank": 18.1891,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 13.91,
+    "prevClose": 13.795,
+    "absReturn": 0.11500000000000021,
     "logo": ""
   },
   {
