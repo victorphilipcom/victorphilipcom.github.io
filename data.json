@@ -30,18 +30,18 @@
     "fullTicker": "OPEN:USA",
     "baseTicker": "OPEN",
     "rank": 20.7332,
-    "price": 0.9645,
-    "prevClose": 1.01,
-    "absReturn": -0.045499999999999985,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "ABM:USA",
     "baseTicker": "ABM",
     "rank": 28.4856,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 46.53,
+    "prevClose": 48.9213804893685,
+    "absReturn": -2.391380489368501,
     "logo": ""
   },
   {
