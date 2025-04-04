@@ -3,9 +3,9 @@
     "fullTicker": "AL:USA",
     "baseTicker": "AL",
     "rank": 16.1458,
-    "price": 42.06,
-    "prevClose": 45.13,
-    "absReturn": -3.0700000000000003,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "ABM:USA",
     "baseTicker": "ABM",
     "rank": 28.4856,
-    "price": 45.3,
+    "price": 45.32,
     "prevClose": 46.53,
-    "absReturn": -1.230000000000004,
+    "absReturn": -1.2100000000000009,
     "logo": ""
   },
   {
