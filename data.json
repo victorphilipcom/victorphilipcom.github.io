@@ -21,9 +21,9 @@
     "fullTicker": "MRTN:USA",
     "baseTicker": "MRTN",
     "rank": 18.1891,
-    "price": 13.2,
-    "prevClose": 13.91,
-    "absReturn": -0.7100000000000009,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "ABM:USA",
     "baseTicker": "ABM",
     "rank": 28.4856,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 46.53,
+    "prevClose": 48.9213804893685,
+    "absReturn": -2.391380489368501,
     "logo": ""
   },
   {
