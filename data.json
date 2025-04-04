@@ -21,9 +21,9 @@
     "fullTicker": "MRTN:USA",
     "baseTicker": "MRTN",
     "rank": 18.1891,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 13.2,
+    "prevClose": 13.91,
+    "absReturn": -0.7100000000000009,
     "logo": ""
   },
   {
@@ -93,8 +93,8 @@
     "fullTicker": "ANDR:AUT",
     "baseTicker": "ANDR",
     "rank": 91.1458,
-    "price": 0.0001,
-    "prevClose": 0.0001,
+    "price": 0,
+    "prevClose": 0,
     "absReturn": 0,
     "logo": ""
   },
