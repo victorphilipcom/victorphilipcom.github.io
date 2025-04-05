@@ -1,101 +1,101 @@
 [
   {
-    "fullTicker": "AL:USA",
-    "baseTicker": "AL",
-    "rank": 16.1458,
-    "price": 42.05,
-    "prevClose": 45.13,
-    "absReturn": -3.0800000000000054,
+    "fullTicker": "LAKE:USA",
+    "baseTicker": "LAKE",
+    "rank": 11.0236,
+    "price": 17.85,
+    "prevClose": 18.55,
+    "absReturn": -0.6999999999999993,
     "logo": ""
   },
   {
-    "fullTicker": "EKT:DEU",
-    "baseTicker": "EKT",
-    "rank": 17.4479,
+    "fullTicker": "ECPG:USA",
+    "baseTicker": "ECPG",
+    "rank": 16.273,
     "price": 0,
     "prevClose": 0,
     "absReturn": 0,
     "logo": ""
   },
   {
-    "fullTicker": "MRTN:USA",
-    "baseTicker": "MRTN",
-    "rank": 18.1891,
-    "price": 13.2,
-    "prevClose": 13.2,
-    "absReturn": 0,
-    "logo": ""
-  },
-  {
-    "fullTicker": "OPEN:USA",
-    "baseTicker": "OPEN",
-    "rank": 20.7332,
-    "price": 0.988,
-    "prevClose": 0.9645,
-    "absReturn": 0.023499999999999965,
-    "logo": ""
-  },
-  {
-    "fullTicker": "ABM:USA",
-    "baseTicker": "ABM",
-    "rank": 28.4856,
-    "price": 45.32,
-    "prevClose": 46.53,
-    "absReturn": -1.2100000000000009,
-    "logo": ""
-  },
-  {
-    "fullTicker": "DIS:ITA",
-    "baseTicker": "DIS",
-    "rank": 49.1587,
+    "fullTicker": "CAST:SWE",
+    "baseTicker": "CAST",
+    "rank": 37.5126,
     "price": 0,
     "prevClose": 0,
     "absReturn": 0,
     "logo": ""
   },
   {
-    "fullTicker": "SRC:GBR",
-    "baseTicker": "SRC",
-    "rank": 50.8213,
+    "fullTicker": "M:USA",
+    "baseTicker": "M",
+    "rank": 41.4496,
+    "price": 11.38,
+    "prevClose": 11.41,
+    "absReturn": -0.02999999999999936,
+    "logo": ""
+  },
+  {
+    "fullTicker": "NEXTA:BEL",
+    "baseTicker": "NEXTA",
+    "rank": 46.275,
     "price": 0,
     "prevClose": 0,
     "absReturn": 0,
     "logo": ""
   },
   {
-    "fullTicker": "KGX:DEU",
-    "baseTicker": "KGX",
-    "rank": 51.9832,
+    "fullTicker": "ACA:USA",
+    "baseTicker": "ACA",
+    "rank": 46.5375,
+    "price": 72.39,
+    "prevClose": 75.44,
+    "absReturn": -3.049999999999997,
+    "logo": ""
+  },
+  {
+    "fullTicker": "VTRS:USA",
+    "baseTicker": "VTRS",
+    "rank": 49.6669,
+    "price": 7.62,
+    "prevClose": 8.16,
+    "absReturn": -0.54,
+    "logo": ""
+  },
+  {
+    "fullTicker": "CEVA:USA",
+    "baseTicker": "CEVA",
+    "rank": 71.492,
+    "price": 21.28,
+    "prevClose": 22.55,
+    "absReturn": -1.2699999999999996,
+    "logo": ""
+  },
+  {
+    "fullTicker": "ROO:GBR",
+    "baseTicker": "ROO",
+    "rank": 83.1213,
     "price": 0,
     "prevClose": 0,
     "absReturn": 0,
     "logo": ""
   },
   {
-    "fullTicker": "PUMP:USA",
-    "baseTicker": "PUMP",
-    "rank": 59.5954,
-    "price": 5.23,
-    "prevClose": 6.27,
-    "absReturn": -1.0399999999999991,
-    "logo": ""
-  },
-  {
-    "fullTicker": "GRG:GBR",
-    "baseTicker": "GRG",
-    "rank": 65.024,
+    "fullTicker": "AF:FRA",
+    "baseTicker": "AF",
+    "rank": 88.9966,
     "price": 0,
     "prevClose": 0,
     "absReturn": 0,
     "logo": ""
   },
   {
-    "fullTicker": "ANDR:AUT",
-    "baseTicker": "ANDR",
-    "rank": 91.1458,
-    "price": 0.0001,
-    "prevClose": 0.0001,
-    "absReturn": 0,
+    "fullTicker": "MAX:USA",
+    "baseTicker": "MAX",
+    "rank": 95.5381,
+    "price": 8.01,
+    "prevClose": 8.4,
+    "absReturn": -0.39000000000000057,
     "logo": ""
   },
   {
