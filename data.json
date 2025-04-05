@@ -75,9 +75,9 @@
     "fullTicker": "LSF:USA",
     "baseTicker": "LSF",
     "rank": 38.9663,
-    "price": 5,
-    "prevClose": 5.39,
-    "absReturn": -0.3899999999999997,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attPD6eqmlo0ulJ4K",
@@ -147,9 +147,9 @@
     "fullTicker": "ERIE:USA",
     "baseTicker": "ERIE",
     "rank": 58.833,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 396.57,
+    "prevClose": 421.56,
+    "absReturn": -24.99000000000001,
     "logo": [
       {
         "id": "att4bVYXwiMViGdAd",
