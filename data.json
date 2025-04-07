@@ -39,9 +39,9 @@
     "fullTicker": "IR:USA",
     "baseTicker": "IR",
     "rank": 20.9593,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 67.995,
+    "prevClose": 69.7,
+    "absReturn": -1.7049999999999983,
     "logo": [
       {
         "id": "attkIeejqPZ8ZfTLD",
@@ -399,9 +399,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 507.36,
+    "price": 506.45,
     "prevClose": 505.28,
-    "absReturn": 2.080000000000041,
+    "absReturn": 1.170000000000016,
     "logo": "sp500.png"
   }
 ]
