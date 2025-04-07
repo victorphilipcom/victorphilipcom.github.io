@@ -3,9 +3,9 @@
     "fullTicker": "ALAB:USA",
     "baseTicker": "ALAB",
     "rank": 9.5526,
-    "price": 54.61,
+    "price": 55,
     "prevClose": 52.94,
-    "absReturn": 1.6700000000000017,
+    "absReturn": 2.0600000000000023,
     "logo": [
       {
         "id": "attlhpKirw1p576wK",
@@ -39,9 +39,9 @@
     "fullTicker": "IR:USA",
     "baseTicker": "IR",
     "rank": 20.9593,
-    "price": 67.62,
+    "price": 67.35,
     "prevClose": 69.7,
-    "absReturn": -2.0799999999999983,
+    "absReturn": -2.3500000000000085,
     "logo": [
       {
         "id": "attkIeejqPZ8ZfTLD",
@@ -111,9 +111,9 @@
     "fullTicker": "HL:USA",
     "baseTicker": "HL",
     "rank": 41.4148,
-    "price": 4.795,
-    "prevClose": 4.72,
-    "absReturn": 0.07500000000000018,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att3FqPIi1afZWM20",
@@ -183,9 +183,9 @@
     "fullTicker": "PLOW:USA",
     "baseTicker": "PLOW",
     "rank": 74.5667,
-    "price": 22.89,
+    "price": 22.51,
     "prevClose": 22.41,
-    "absReturn": 0.4800000000000004,
+    "absReturn": 0.10000000000000142,
     "logo": [
       {
         "id": "att8qZRmTKwhjl7C9",
@@ -291,9 +291,9 @@
     "fullTicker": "MYPS:USA",
     "baseTicker": "MYPS",
     "rank": 81.5599,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 1.34,
+    "prevClose": 1.26,
+    "absReturn": 0.08000000000000007,
     "logo": [
       {
         "id": "attb2g2btWDYLW5m5",
@@ -399,9 +399,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 504.065,
+    "price": 501.99,
     "prevClose": 505.28,
-    "absReturn": -1.214999999999975,
+    "absReturn": -3.2899999999999636,
     "logo": "sp500.png"
   }
 ]
