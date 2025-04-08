@@ -75,9 +75,9 @@
     "fullTicker": "PSNL:USA",
     "baseTicker": "PSNL",
     "rank": 12.233,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 3.01,
+    "prevClose": 3.25,
+    "absReturn": -0.2400000000000002,
     "logo": [
       {
         "id": "attDhbDdN0svswUlV",
@@ -363,9 +363,9 @@
     "fullTicker": "FTLF:USA",
     "baseTicker": "FTLF",
     "rank": 91.6163,
-    "price": 10.75,
-    "prevClose": 10.47,
-    "absReturn": 0.27999999999999936,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attvpNd0dRBsJp8Y8",
@@ -399,9 +399,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 494.85,
+    "price": 495.975,
     "prevClose": 504.38,
-    "absReturn": -9.529999999999973,
+    "absReturn": -8.404999999999973,
     "logo": "sp500.png"
   }
 ]
