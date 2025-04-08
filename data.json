@@ -3,9 +3,9 @@
     "fullTicker": "CLF:USA",
     "baseTicker": "CLF",
     "rank": 0.2418,
-    "price": 7.435,
+    "price": 7.355,
     "prevClose": 7.34,
-    "absReturn": 0.09499999999999975,
+    "absReturn": 0.015000000000000568,
     "logo": ""
   },
   {
@@ -21,9 +21,9 @@
     "fullTicker": "PSNL:USA",
     "baseTicker": "PSNL",
     "rank": 12.233,
-    "price": 3.355,
+    "price": 3.275,
     "prevClose": 3.25,
-    "absReturn": 0.10499999999999998,
+    "absReturn": 0.02499999999999991,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "HYMC:USA",
     "baseTicker": "HYMC",
     "rank": 21.846,
-    "price": 2.79,
+    "price": 2.685,
     "prevClose": 2.68,
-    "absReturn": 0.10999999999999988,
+    "absReturn": 0.004999999999999893,
     "logo": ""
   },
   {
@@ -57,18 +57,18 @@
     "fullTicker": "LIF:USA",
     "baseTicker": "LIF",
     "rank": 50.8666,
-    "price": 33.71,
+    "price": 33.52,
     "prevClose": 32.19,
-    "absReturn": 1.5200000000000031,
+    "absReturn": 1.3300000000000054,
     "logo": ""
   },
   {
     "fullTicker": "BODI:USA",
     "baseTicker": "BODI",
     "rank": 59.4921,
-    "price": 5,
-    "prevClose": 5.45,
-    "absReturn": -0.4500000000000002,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 520.685,
+    "price": 522.045,
     "prevClose": 504.38,
-    "absReturn": 16.30499999999995,
+    "absReturn": 17.664999999999964,
     "logo": "sp500.png"
   }
 ]
