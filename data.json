@@ -147,9 +147,9 @@
     "fullTicker": "HYMC:USA",
     "baseTicker": "HYMC",
     "rank": 21.846,
-    "price": 2.46,
-    "prevClose": 2.68,
-    "absReturn": -0.2200000000000002,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attt8TRtTQJ2TGOpW",
@@ -363,9 +363,9 @@
     "fullTicker": "FTLF:USA",
     "baseTicker": "FTLF",
     "rank": 91.6163,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 10.95,
+    "prevClose": 10.47,
+    "absReturn": 0.47999999999999865,
     "logo": [
       {
         "id": "attvpNd0dRBsJp8Y8",
