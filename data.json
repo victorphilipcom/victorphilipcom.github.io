@@ -3,27 +3,27 @@
     "fullTicker": "CLF:USA",
     "baseTicker": "CLF",
     "rank": 0.2418,
-    "price": 7.285,
+    "price": 7.245,
     "prevClose": 7.34,
-    "absReturn": -0.054999999999999716,
+    "absReturn": -0.09499999999999975,
     "logo": ""
   },
   {
     "fullTicker": "RPID:USA",
     "baseTicker": "RPID",
     "rank": 7.8194,
-    "price": 2.08,
+    "price": 2.015,
     "prevClose": 2.05,
-    "absReturn": 0.03000000000000025,
+    "absReturn": -0.0349999999999997,
     "logo": ""
   },
   {
     "fullTicker": "PSNL:USA",
     "baseTicker": "PSNL",
     "rank": 12.233,
-    "price": 3.23,
-    "prevClose": 3.25,
-    "absReturn": -0.020000000000000018,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -39,9 +39,9 @@
     "fullTicker": "HYMC:USA",
     "baseTicker": "HYMC",
     "rank": 21.846,
-    "price": 2.685,
+    "price": 2.65,
     "prevClose": 2.68,
-    "absReturn": 0.004999999999999893,
+    "absReturn": -0.03000000000000025,
     "logo": ""
   },
   {
@@ -57,9 +57,9 @@
     "fullTicker": "LIF:USA",
     "baseTicker": "LIF",
     "rank": 50.8666,
-    "price": 33.35,
+    "price": 32.95,
     "prevClose": 32.19,
-    "absReturn": 1.1600000000000037,
+    "absReturn": 0.7600000000000051,
     "logo": ""
   },
   {
@@ -93,18 +93,18 @@
     "fullTicker": "FTLF:USA",
     "baseTicker": "FTLF",
     "rank": 91.6163,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 11.59,
+    "prevClose": 10.47,
+    "absReturn": 1.1199999999999992,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 519.95,
+    "price": 517.65,
     "prevClose": 504.38,
-    "absReturn": 15.57000000000005,
+    "absReturn": 13.269999999999982,
     "logo": "sp500.png"
   }
 ]
