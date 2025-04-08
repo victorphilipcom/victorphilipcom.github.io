@@ -363,9 +363,9 @@
     "fullTicker": "FTLF:USA",
     "baseTicker": "FTLF",
     "rank": 91.6163,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 10.75,
+    "prevClose": 10.47,
+    "absReturn": 0.27999999999999936,
     "logo": [
       {
         "id": "attvpNd0dRBsJp8Y8",
@@ -399,9 +399,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 495.975,
+    "price": 495.74,
     "prevClose": 504.38,
-    "absReturn": -8.404999999999973,
+    "absReturn": -8.639999999999986,
     "logo": "sp500.png"
   }
 ]
