@@ -111,9 +111,9 @@
     "fullTicker": "HL:USA",
     "baseTicker": "HL",
     "rank": 41.4148,
-    "price": 4.78,
-    "prevClose": 4.72,
-    "absReturn": 0.0600000000000005,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att3FqPIi1afZWM20",
@@ -183,9 +183,9 @@
     "fullTicker": "PLOW:USA",
     "baseTicker": "PLOW",
     "rank": 74.5667,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 22.38,
+    "prevClose": 22.41,
+    "absReturn": -0.030000000000001137,
     "logo": [
       {
         "id": "att8qZRmTKwhjl7C9",
