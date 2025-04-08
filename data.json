@@ -3,9 +3,9 @@
     "fullTicker": "CLF:USA",
     "baseTicker": "CLF",
     "rank": 0.2418,
-    "price": 6.975,
+    "price": 7.015,
     "prevClose": 7.34,
-    "absReturn": -0.3650000000000002,
+    "absReturn": -0.3250000000000002,
     "logo": [
       {
         "id": "attARHbqrDWiH878D",
@@ -75,9 +75,9 @@
     "fullTicker": "PSNL:USA",
     "baseTicker": "PSNL",
     "rank": 12.233,
-    "price": 3.11,
+    "price": 3.135,
     "prevClose": 3.25,
-    "absReturn": -0.14000000000000012,
+    "absReturn": -0.11500000000000021,
     "logo": [
       {
         "id": "attDhbDdN0svswUlV",
@@ -219,9 +219,9 @@
     "fullTicker": "LIF:USA",
     "baseTicker": "LIF",
     "rank": 50.8666,
-    "price": 31.71,
-    "prevClose": 32.19,
-    "absReturn": -0.4799999999999969,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attKQDRloKKBnN8k0",
@@ -255,9 +255,9 @@
     "fullTicker": "BODI:USA",
     "baseTicker": "BODI",
     "rank": 59.4921,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 5.39,
+    "prevClose": 5,
+    "absReturn": 0.3899999999999997,
     "logo": [
       {
         "id": "attBADwHgLKZWK8bE",
@@ -363,9 +363,9 @@
     "fullTicker": "FTLF:USA",
     "baseTicker": "FTLF",
     "rank": 91.6163,
-    "price": 11.59,
+    "price": 11.25,
     "prevClose": 10.47,
-    "absReturn": 1.1199999999999992,
+    "absReturn": 0.7799999999999994,
     "logo": [
       {
         "id": "attvpNd0dRBsJp8Y8",
@@ -399,9 +399,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 504,
+    "price": 505.04,
     "prevClose": 504.38,
-    "absReturn": -0.37999999999999545,
+    "absReturn": 0.660000000000025,
     "logo": "sp500.png"
   }
 ]
