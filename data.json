@@ -48,9 +48,9 @@
     "fullTicker": "HD:USA",
     "baseTicker": "HD",
     "rank": 45.3737,
-    "price": 335.24,
-    "prevClose": 341.51,
-    "absReturn": -6.269999999999982,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -93,9 +93,9 @@
     "fullTicker": "ARDT:USA",
     "baseTicker": "ARDT",
     "rank": 98.3838,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 11.88,
+    "prevClose": 12.06,
+    "absReturn": -0.17999999999999972,
     "logo": ""
   },
   {
