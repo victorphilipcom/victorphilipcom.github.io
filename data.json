@@ -21,9 +21,9 @@
     "fullTicker": "JRVR:USA",
     "baseTicker": "JRVR",
     "rank": 15.2929,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 4.1,
+    "prevClose": 3.96,
+    "absReturn": 0.13999999999999968,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 545.73,
+    "price": 545.88,
     "prevClose": 496.48,
-    "absReturn": 49.25,
+    "absReturn": 49.39999999999998,
     "logo": "sp500.png"
   }
 ]
