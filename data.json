@@ -75,9 +75,9 @@
     "fullTicker": "PSNL:USA",
     "baseTicker": "PSNL",
     "rank": 12.233,
-    "price": 3,
-    "prevClose": 3.25,
-    "absReturn": -0.25,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attDhbDdN0svswUlV",
@@ -219,9 +219,9 @@
     "fullTicker": "LIF:USA",
     "baseTicker": "LIF",
     "rank": 50.8666,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 31.62,
+    "prevClose": 32.19,
+    "absReturn": -0.5699999999999967,
     "logo": [
       {
         "id": "attKQDRloKKBnN8k0",
