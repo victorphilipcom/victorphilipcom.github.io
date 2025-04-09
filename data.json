@@ -12,18 +12,18 @@
     "fullTicker": "CLCO:NOR",
     "baseTicker": "CLCO",
     "rank": 13.0101,
-    "price": 4.65,
+    "price": 4.595,
     "prevClose": 4.62,
-    "absReturn": 0.03000000000000025,
+    "absReturn": -0.025000000000000355,
     "logo": ""
   },
   {
     "fullTicker": "JRVR:USA",
     "baseTicker": "JRVR",
     "rank": 15.2929,
-    "price": 4.015,
-    "prevClose": 3.96,
-    "absReturn": 0.054999999999999716,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -48,9 +48,9 @@
     "fullTicker": "HD:USA",
     "baseTicker": "HD",
     "rank": 45.3737,
-    "price": 331.47,
+    "price": 330.65,
     "prevClose": 335.24,
-    "absReturn": -3.769999999999982,
+    "absReturn": -4.590000000000032,
     "logo": ""
   },
   {
@@ -75,9 +75,9 @@
     "fullTicker": "WIX:USA",
     "baseTicker": "WIX",
     "rank": 80.8889,
-    "price": 147.265,
+    "price": 144.705,
     "prevClose": 149.6,
-    "absReturn": -2.335000000000008,
+    "absReturn": -4.894999999999982,
     "logo": ""
   },
   {
@@ -93,18 +93,18 @@
     "fullTicker": "ARDT:USA",
     "baseTicker": "ARDT",
     "rank": 98.3838,
-    "price": 11.875,
+    "price": 11.865,
     "prevClose": 11.88,
-    "absReturn": -0.005000000000000782,
+    "absReturn": -0.015000000000000568,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 498.92,
+    "price": 494.33,
     "prevClose": 496.48,
-    "absReturn": 2.4399999999999977,
+    "absReturn": -2.150000000000034,
     "logo": "sp500.png"
   }
 ]
