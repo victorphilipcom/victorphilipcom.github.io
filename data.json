@@ -21,9 +21,9 @@
     "fullTicker": "JRVR:USA",
     "baseTicker": "JRVR",
     "rank": 15.2929,
-    "price": 4.1,
-    "prevClose": 3.96,
-    "absReturn": 0.13999999999999968,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -66,9 +66,9 @@
     "fullTicker": "WILC:USA",
     "baseTicker": "WILC",
     "rank": 79.2929,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 14.62,
+    "prevClose": 14.3,
+    "absReturn": 0.3199999999999985,
     "logo": ""
   },
   {
