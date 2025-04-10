@@ -30,9 +30,9 @@
     "fullTicker": "BXC:USA",
     "baseTicker": "BXC",
     "rank": 33.0199,
-    "price": 71.01,
-    "prevClose": 74.28,
-    "absReturn": -3.269999999999996,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -93,9 +93,9 @@
     "fullTicker": "HCKT:USA",
     "baseTicker": "HCKT",
     "rank": 85.0111,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 26.34,
+    "prevClose": 26.9,
+    "absReturn": -0.5599999999999987,
     "logo": ""
   },
   {
