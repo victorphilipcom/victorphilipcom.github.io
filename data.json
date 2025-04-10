@@ -3,18 +3,18 @@
     "fullTicker": "LCID:USA",
     "baseTicker": "LCID",
     "rank": 0.1659,
-    "price": 2.49,
+    "price": 2.495,
     "prevClose": 2.55,
-    "absReturn": -0.05999999999999961,
+    "absReturn": -0.054999999999999716,
     "logo": ""
   },
   {
     "fullTicker": "MBX:USA",
     "baseTicker": "MBX",
     "rank": 11.8363,
-    "price": 6.22,
+    "price": 6.19,
     "prevClose": 6.4,
-    "absReturn": -0.1800000000000006,
+    "absReturn": -0.20999999999999996,
     "logo": ""
   },
   {
@@ -30,9 +30,9 @@
     "fullTicker": "BXC:USA",
     "baseTicker": "BXC",
     "rank": 33.0199,
-    "price": 70.73,
+    "price": 71.02,
     "prevClose": 74.28,
-    "absReturn": -3.549999999999997,
+    "absReturn": -3.260000000000005,
     "logo": ""
   },
   {
@@ -57,36 +57,36 @@
     "fullTicker": "KOP:USA",
     "baseTicker": "KOP",
     "rank": 63.4403,
-    "price": 24.235,
+    "price": 24.125,
     "prevClose": 25.61,
-    "absReturn": -1.375,
+    "absReturn": -1.4849999999999994,
     "logo": ""
   },
   {
     "fullTicker": "PPC:USA",
     "baseTicker": "PPC",
     "rank": 80.5494,
-    "price": 51.265,
+    "price": 50.905,
     "prevClose": 50.37,
-    "absReturn": 0.8950000000000031,
+    "absReturn": 0.5350000000000037,
     "logo": ""
   },
   {
     "fullTicker": "CNMD:USA",
     "baseTicker": "CNMD",
     "rank": 82.7434,
-    "price": 53.065,
+    "price": 52.54,
     "prevClose": 56.78,
-    "absReturn": -3.7150000000000034,
+    "absReturn": -4.240000000000002,
     "logo": ""
   },
   {
     "fullTicker": "PFE:USA",
     "baseTicker": "PFE",
     "rank": 84.8451,
-    "price": 21.395,
+    "price": 21.34,
     "prevClose": 22.49,
-    "absReturn": -1.0949999999999989,
+    "absReturn": -1.1499999999999986,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 519.615,
+    "price": 521.14,
     "prevClose": 548.62,
-    "absReturn": -29.004999999999995,
+    "absReturn": -27.480000000000018,
     "logo": "sp500.png"
   }
 ]
