@@ -3,9 +3,9 @@
     "fullTicker": "LCID:USA",
     "baseTicker": "LCID",
     "rank": 0.1659,
-    "price": 2.51,
-    "prevClose": 2.55,
-    "absReturn": -0.040000000000000036,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -66,9 +66,9 @@
     "fullTicker": "PPC:USA",
     "baseTicker": "PPC",
     "rank": 80.5494,
-    "price": 51.545,
+    "price": 51.53,
     "prevClose": 50.37,
-    "absReturn": 1.1750000000000043,
+    "absReturn": 1.1600000000000037,
     "logo": ""
   },
   {
@@ -93,18 +93,18 @@
     "fullTicker": "HCKT:USA",
     "baseTicker": "HCKT",
     "rank": 85.0111,
-    "price": 26.39,
+    "price": 26.34,
     "prevClose": 26.9,
-    "absReturn": -0.509999999999998,
+    "absReturn": -0.5599999999999987,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 524.31,
+    "price": 524.865,
     "prevClose": 548.62,
-    "absReturn": -24.31000000000006,
+    "absReturn": -23.754999999999995,
     "logo": "sp500.png"
   }
 ]
