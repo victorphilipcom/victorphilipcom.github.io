@@ -3,18 +3,18 @@
     "fullTicker": "LCID:USA",
     "baseTicker": "LCID",
     "rank": 0.1659,
-    "price": 2.495,
-    "prevClose": 2.55,
-    "absReturn": -0.054999999999999716,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "MBX:USA",
     "baseTicker": "MBX",
     "rank": 11.8363,
-    "price": 6.19,
+    "price": 6.235,
     "prevClose": 6.4,
-    "absReturn": -0.20999999999999996,
+    "absReturn": -0.16500000000000004,
     "logo": ""
   },
   {
@@ -57,54 +57,54 @@
     "fullTicker": "KOP:USA",
     "baseTicker": "KOP",
     "rank": 63.4403,
-    "price": 24.125,
+    "price": 24.365,
     "prevClose": 25.61,
-    "absReturn": -1.4849999999999994,
+    "absReturn": -1.245000000000001,
     "logo": ""
   },
   {
     "fullTicker": "PPC:USA",
     "baseTicker": "PPC",
     "rank": 80.5494,
-    "price": 50.905,
+    "price": 51.49,
     "prevClose": 50.37,
-    "absReturn": 0.5350000000000037,
+    "absReturn": 1.1200000000000045,
     "logo": ""
   },
   {
     "fullTicker": "CNMD:USA",
     "baseTicker": "CNMD",
     "rank": 82.7434,
-    "price": 52.54,
+    "price": 52.735,
     "prevClose": 56.78,
-    "absReturn": -4.240000000000002,
+    "absReturn": -4.045000000000002,
     "logo": ""
   },
   {
     "fullTicker": "PFE:USA",
     "baseTicker": "PFE",
     "rank": 84.8451,
-    "price": 21.34,
+    "price": 21.505,
     "prevClose": 22.49,
-    "absReturn": -1.1499999999999986,
+    "absReturn": -0.9849999999999994,
     "logo": ""
   },
   {
     "fullTicker": "HCKT:USA",
     "baseTicker": "HCKT",
     "rank": 85.0111,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 26.07,
+    "prevClose": 26.9,
+    "absReturn": -0.8299999999999983,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 521.14,
+    "price": 522.745,
     "prevClose": 548.62,
-    "absReturn": -27.480000000000018,
+    "absReturn": -25.875,
     "logo": "sp500.png"
   }
 ]
