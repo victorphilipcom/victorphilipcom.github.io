@@ -84,9 +84,9 @@
     "fullTicker": "PFE:USA",
     "baseTicker": "PFE",
     "rank": 84.8451,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 21.6,
+    "prevClose": 22.49,
+    "absReturn": -0.889999999999997,
     "logo": ""
   },
   {
@@ -102,9 +102,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 524.4,
+    "price": 524.31,
     "prevClose": 548.62,
-    "absReturn": -24.220000000000027,
+    "absReturn": -24.31000000000006,
     "logo": "sp500.png"
   }
 ]
