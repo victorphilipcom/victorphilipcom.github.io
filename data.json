@@ -30,9 +30,9 @@
     "fullTicker": "BXC:USA",
     "baseTicker": "BXC",
     "rank": 33.0199,
-    "price": 70.96,
+    "price": 71.01,
     "prevClose": 74.28,
-    "absReturn": -3.3200000000000074,
+    "absReturn": -3.269999999999996,
     "logo": ""
   },
   {
@@ -66,18 +66,18 @@
     "fullTicker": "PPC:USA",
     "baseTicker": "PPC",
     "rank": 80.5494,
-    "price": 51.53,
-    "prevClose": 50.37,
-    "absReturn": 1.1600000000000037,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "CNMD:USA",
     "baseTicker": "CNMD",
     "rank": 82.7434,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 52.29,
+    "prevClose": 56.78,
+    "absReturn": -4.490000000000002,
     "logo": ""
   },
   {
