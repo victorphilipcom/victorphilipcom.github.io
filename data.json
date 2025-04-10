@@ -21,9 +21,9 @@
     "fullTicker": "JRVR:USA",
     "baseTicker": "JRVR",
     "rank": 15.2929,
-    "price": 4.1,
-    "prevClose": 3.96,
-    "absReturn": 0.13999999999999968,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -93,9 +93,9 @@
     "fullTicker": "ARDT:USA",
     "baseTicker": "ARDT",
     "rank": 98.3838,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 12.67,
+    "prevClose": 11.88,
+    "absReturn": 0.7899999999999991,
     "logo": ""
   },
   {
