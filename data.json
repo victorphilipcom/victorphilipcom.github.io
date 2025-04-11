@@ -3,9 +3,9 @@
     "fullTicker": "NBIS:USA",
     "baseTicker": "NBIS",
     "rank": 2.1707,
-    "price": 21.52,
-    "prevClose": 21.04,
-    "absReturn": 0.4800000000000004,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att8FujtB5LEWnzJ1",
@@ -219,9 +219,9 @@
     "fullTicker": "AAPL:USA",
     "baseTicker": "AAPL",
     "rank": 58.9588,
-    "price": 197.65,
+    "price": 198.15,
     "prevClose": 190.42,
-    "absReturn": 7.230000000000018,
+    "absReturn": 7.730000000000018,
     "logo": [
       {
         "id": "att1njEuc8RwkzY7W",
@@ -255,9 +255,9 @@
     "fullTicker": "MTSI:USA",
     "baseTicker": "MTSI",
     "rank": 60.4857,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 97.82,
+    "prevClose": 99.27,
+    "absReturn": -1.4500000000000028,
     "logo": [
       {
         "id": "attwt6jjpLFtfChzp",
@@ -291,9 +291,9 @@
     "fullTicker": "IOSP:USA",
     "baseTicker": "IOSP",
     "rank": 61.0375,
-    "price": 87.39,
+    "price": 87.47,
     "prevClose": 86.52,
-    "absReturn": 0.8700000000000045,
+    "absReturn": 0.9500000000000028,
     "logo": [
       {
         "id": "attx4uF6HlIHzqJW3",
@@ -363,9 +363,9 @@
     "fullTicker": "LYTS:USA",
     "baseTicker": "LYTS",
     "rank": 89.22,
-    "price": 16.215,
+    "price": 16.23,
     "prevClose": 15.97,
-    "absReturn": 0.24499999999999922,
+    "absReturn": 0.2599999999999998,
     "logo": [
       {
         "id": "attcdBiIVroQP8dIN",
@@ -399,9 +399,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 534.36,
+    "price": 533.94,
     "prevClose": 524.58,
-    "absReturn": 9.779999999999973,
+    "absReturn": 9.360000000000014,
     "logo": "sp500.png"
   }
 ]
