@@ -3,9 +3,9 @@
     "fullTicker": "NBIS:USA",
     "baseTicker": "NBIS",
     "rank": 2.1707,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 21.51,
+    "prevClose": 21.04,
+    "absReturn": 0.4700000000000024,
     "logo": [
       {
         "id": "att8FujtB5LEWnzJ1",
@@ -75,9 +75,9 @@
     "fullTicker": "CMS:USA",
     "baseTicker": "CMS",
     "rank": 16.4459,
-    "price": 71.78,
-    "prevClose": 71.55,
-    "absReturn": 0.23000000000000398,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attsbM8m2sfDZ5vRe",
@@ -147,9 +147,9 @@
     "fullTicker": "FE:USA",
     "baseTicker": "FE",
     "rank": 44.2421,
-    "price": 40.595,
+    "price": 40.6,
     "prevClose": 40.09,
-    "absReturn": 0.5049999999999955,
+    "absReturn": 0.509999999999998,
     "logo": [
       {
         "id": "attkV4A0imnVIBL5z",
