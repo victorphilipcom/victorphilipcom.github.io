@@ -219,9 +219,9 @@
     "fullTicker": "AAPL:USA",
     "baseTicker": "AAPL",
     "rank": 58.9588,
-    "price": 197.65,
-    "prevClose": 190.42,
-    "absReturn": 7.230000000000018,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att1njEuc8RwkzY7W",
@@ -291,9 +291,9 @@
     "fullTicker": "IOSP:USA",
     "baseTicker": "IOSP",
     "rank": 61.0375,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 87.39,
+    "prevClose": 86.52,
+    "absReturn": 0.8700000000000045,
     "logo": [
       {
         "id": "attx4uF6HlIHzqJW3",
@@ -399,9 +399,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 534.46,
+    "price": 534.6,
     "prevClose": 524.58,
-    "absReturn": 9.879999999999995,
+    "absReturn": 10.019999999999982,
     "logo": "sp500.png"
   }
 ]
