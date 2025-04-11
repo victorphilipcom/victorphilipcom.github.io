@@ -3,31 +3,31 @@
     "fullTicker": "NBIS:USA",
     "baseTicker": "NBIS",
     "rank": 2.1707,
-    "price": 20.5,
+    "price": 20.655,
     "prevClose": 21.04,
-    "absReturn": -0.5399999999999991,
+    "absReturn": -0.384999999999998,
     "logo": [
       {
         "id": "att8FujtB5LEWnzJ1",
         "width": 80,
         "height": 80,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/FkthU9AfW7lB8iUbD142FA/DoEhIuiVMJY2aqqamZYaG5qQLlWdyxxKThNxDksoSUCgGmtiUPHSZ9aVzq6bWqwug8IXHNPX-z07SrikeHTp5S5ulD2s5Dp_WpFEYdMuhwpQqpryWwd6zgQDM8DL0_rElYTWR8w7qYAFTVoyn73p2yqJEYExSef2xPmyy9yCU4lbtWPnLyz_zsaRuCaqH1x9/8jB_mlNVN7IiGEC47cqWjP9xsgZHsjNJdAWqsRSJTnk",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/Gz7PKM9ub83v8Q7U1z0atg/hUPWW9kMYhbD344nkZQmbCp9k8DLlfZcPuFbiNeAoSvgQ_YZgtFTf5XQKOe6f0elVAEJQ3-KcaRL4tImNL8PFO1qdA91Ii8l8DED0iGO7DwgIne7KFcVKmtbP87Em_qj8Tpf6DrMjZyHY7n0_bgfHw5gP1x5xwwdWIFvxwtSUHtwaFffMA6yJr2UVwPN_XSh/ouG2s53fXGTLPsF5_mrRorhMz_rOXV6gp-Plwp6yS2o",
         "filename": "nebius-group-nv-logo.jpg",
         "size": 993,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/jL8R_NlapCOxa7zauYaZtg/VqlpTe6M9kK1Ex3audIogLGP3ovEVeock6wQwb5i-x4vCtMde4bpzDOt86_6ynclzSQBxTlHs_5xS3IfBVh5KKVN345gyJr8kc1938J_gkL6_m0H7LfcZv4AVGshRNmdF3wsB40VlSm6SJFxEqRbfQ/2arN-cfJaaEn9c2DBvA5oXmO8Z2e0tTE1CIkpXOmg1o",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/UgDYGqjXWAud_aqJ5oi8Yg/H13VscLWznnLMCfuPciR3GS-enwiKWSftqs055bwQ41wz1qscbb3oAjezNW_VDqUKoLEZYnH2rrokZhBK3V27FtIBRLYjaLPefqxiajWisM5BWv85QpnYDYCEUBOwzWeWH8VF45hOKTdPi2Vq6mp7g/vZCytsXuGlure0hdsKFe4RV2tmNBvFTA-oAjOrYChYo",
             "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/0kMPmvzF-UQrx5QK6kIjqA/p6NYKvoTwc9y0F69Oc-Gp33f7kueT1slBMMD1lLtvttuUSS46YYH_bKEzBo1XuTTDYzLI7rrp2ZgSxJjShbCUwhoV36IaHA9NPhf68K6KSXwMHvOqkcZ7Ou4SSfVLNmOEaPRzW12FbCztUN6z3W3sg/nCclaQ0fmv_3bGtYUVnzrkDEBnIUFTzL74YeffKyMSA",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/tCLk_4p4aXlLWKhO2jXTRg/8rkWUj9-MDZ114ljxIOqS4eKUKYzeEJfEYts6F27AHigsGtMEJVws1Cn7kN11Ke2Ax20mycjqMPtk4AE7BJ_UThWLKh_QixhFnEJxE0Iw1pI0CToVXKiKnj38ug_202ghScbjjVRRrMcPy-hX8wFQQ/Ic4oKUy8g7da9aCjY3399ctLdT0XdwOJKYhWfPkuu_Q",
             "width": 80,
             "height": 80
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/mVYCxGvPArZjqehpkic38g/rTRu-N8n9NXj8tbxG0jk9mWxBoifqMj_EUK69nEH-GcZXgZqocmvPsQ1Vmv8pLaZrEPG0uLKeM_NbbAVKXt4v0H8i0vY2xY8Bzq2Jna0j4UhqVkjauLEBJCLj9cgqek6dzh_ZRYMRdPThhQ5415aeg/wcyfqc7UBY5pGS45cqLQkTcwDwCngwQTbw5lcDU-RXc",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/dIUMrRdyJxsvgoN7D8wjNg/inQzCmSYKYjxLOhebwSb43r72msoD8y2xhYC_4iOEx5AA7eljg-XYi0_4Erb7C9dFqc36r0zIem2xAOZf6nZJwPEhn0y5Azm6yBFiaqFJooTl3lEDETz9F1xS_JbHk5SIaXeUWk68crLyShvqQcOjg/GsWcX51krWKSzxSFhvmHzyN5Txresmm-5BhZbqLv3Dc",
             "width": 80,
             "height": 80
           }
@@ -39,31 +39,31 @@
     "fullTicker": "WGO:USA",
     "baseTicker": "WGO",
     "rank": 9.6946,
-    "price": 30.425,
+    "price": 30.385,
     "prevClose": 31.24,
-    "absReturn": -0.8149999999999977,
+    "absReturn": -0.8549999999999969,
     "logo": [
       {
         "id": "attEf4YydXOvDcrpR",
         "width": 80,
         "height": 8,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/NVT3T4hfLSNbq-T1dUVQTw/vy7alTdmmOPWFw4Z45ksiOK4vMPNMuSP_2-3OuY3ChzH4r-YXFLmr1SrBeNrJDuSRc3I0WjnGMM8YACd80XuFmWRP7kK1RPsReC9nsiAjMKganhDpSt1Xx-p1tSsiSRCLY5LCXLHAX-XB9forZQnvBmhNzMuKHrLzofl9xXPpfymbxNoonxM6MHu-Ef2jHwu/bc7JQrCXluBfLOwTEozxPU03irOkFWONphEdzVFrFjU",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/D8bj3vaXcy5i-njHSsFBVw/EpBEbFrQXiwospa_e9FNVj84X9KOFzyeMIguIMXY7suN7yI1H5H_TqcLaYYwgCYaIUS47_7S5CGxv0DpMZBWUjmwf0mbfndpucjuW9BzJSZ5wQ7LUZC1RV-S_HI0HeaGao6rlj5SGdBsrLg1u2hl0U3Wpox8NZDvIcEE6H6Jb5Mtb_td2WeVwrv6Wc2Fjv9_/hhDXKITTFxaW1bkMBGDO9nt7V2i6aTrDh8IZwzE1beM",
         "filename": "winnebago-industries-inc-logo.png",
         "size": 1203,
         "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/RrLA3YGTBuQgOl4J3skPXw/cwiQ3XlE_YoS8QFbqDu8DmYlPiA9dBkVuLSiZDfpvOu5U7sqUzgKmkvQHXGReGPw1lQR7lH1yDle9f7Y9A12buBgy96KNKIHjBIN5X7SMTT3Q36k1R7qdWzyqWKPhMCnbFrs9N56E6xgOeOPetDLbw/goHJ-pAKZed91WmOrVlB3vlj8p3jMobPenHvN-spcI4",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/4GIiT49sAwSWHG6bnTp4kw/17zKo4Fki83X03woIPX6jMLE9KSLjl4Z3RJW4THaNVlaVgSx6aKKkC9ElKVQGH2_WPo-en3GJguMlep-L1tnOeWeq_JI9f8Ci3El3TpyfsFgy8t9YkNzvpKrNqodU2QEFP7-F502Q16ado-gRYuWwQ/KByY2V7XaK2-SaCAOgdf51KAhc8vBX7DJMeE2afo79k",
             "width": 80,
             "height": 8
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/Oqn52pIiI709oFdGO9uatg/-YeyuP-JDSlFCCS2U4I1mlN21mhkxXEp9bmqdAsprr6Ozmu20IOPnK9oKYwRJeGyQmU48A5Qhau-7ojciqJ1azWKP3hO6X23aPoh-Wi1cF2c6GtlWwuj0Pst0ggA42tDae9HHXMzkEczeCcdIqtKSQ/GGbO0JPRaJhewH6e9G2yTGRuPo8UgO4xkio7gb0sBV4",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/qDNQvI5L2tenzYvD7n2iag/TmxUOdNsfrDI_3CGNzZ1UBxcWAzXwOdnek70070VMVQ7OSAbnH7-yxNFY8nz0FNAjff8i56YZlp3PJhGl4kX0lA9rVrOevwrYhC4DX7JRQR78YJhuDwPKyp3Yrh0WycV-pa8unFfMx72PMvc9iCPIw/4ZcIYSaXk72EIC_ITQOC77eVPhoq0rSzJ61VuCj0TqE",
             "width": 80,
             "height": 8
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/m2DUVX_Kr742TXVDtLtSEg/g0ceJEk6qDUF1C18GqPatZ8RsTcgARKuwnXBcV5goi2tEESRz0q8IztCvmB8HGQqAVkFVdNAUaPchkbDHAFl4rMv1v7gpeQjsg07pn-pRrpLZEmlQTu7iBkLH2Akp1EQt18P8neo863FTtr5XusWFA/nji7oCxJawsWIr_Ep4URipmA_DvD24qPFY4J1h8Ajd4",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/fvExB7GIET3ITz-0rv6S_A/vYR24hSeP_fuKdspzQSLQMtG-cY_hSK1f1MXOdkduFw5cMfNMmlNDVGtTOe7fJiFljilGFfOvyqo8ym-QX9_PLERwgNHOQjkVzQoXqTxx1mLbhhgfR3YJrZnc4gL3lQDI8o2mK-7UuALg9xOgLW2cw/zrmQFQVoRrNYRPLtbreYK0aqEQxL_hB7U3pA6Ck7FoU",
             "width": 80,
             "height": 8
           }
@@ -75,31 +75,31 @@
     "fullTicker": "CMS:USA",
     "baseTicker": "CMS",
     "rank": 16.4459,
-    "price": 70.915,
+    "price": 71.24,
     "prevClose": 71.55,
-    "absReturn": -0.6349999999999909,
+    "absReturn": -0.3100000000000023,
     "logo": [
       {
         "id": "attsbM8m2sfDZ5vRe",
         "width": 80,
         "height": 22,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/jfQUpdRthk_UV5EmbtPdEg/XSjur6y3xSUWysK9zg3vsf4HKrBw-Rqt6vvArXVVouj_2K5GthefK1OrGVfXeRZ7EcqlRP7LnV1yDozl-OEHetJEX_YkTlR_rKwx5QTRis5Hf1Kgh06ECGrT3mSiRDC80xeXB1CjTtena16Wr2y-5XIVgmpHr1KX0H74bk_Td_g/SPOny-XAuC5eScCJHkX-obgQQStf4y6C_ICtRgaZTy8",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/sNanCBSeN199oc7vsz4d8g/B85ye8G6d3EwcDc3llr2FS4XBKBHLE66QJRqN8pqpLr2ERX0i1jX0RmjpbAhw4RTdbHTFyxdMJxMLUfhbjn9rt33pjaxayCsU9ntt89m-G8rdhUpJ3GCc-rvm3D8DJQOH4A5P65Tg91We0sZYn440VJj8FsZ0yxHkwoJPjKNKco/Jp0ouojJN_J_p1vOwx2CL4Ou6tU6I8aK3VTB1x_cWUc",
         "filename": "cms-energy-co-logo.png",
         "size": 2517,
         "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/KBR4Wq32ivcNE0PhOqWmCg/WU99jBzFBeqx47E2Aps1t6OEQ0XBjMCzu9TICgVbepZbB50UyvoGJbcZM-JWJhjjBuu9ApdwsqVicUl3g-H6WfdJskGXizNYzvWGbnuYZktuPnlW2aT3C6_JFeRxpe9b9INkBZotT2Xe6FeAAGMuUg/lveqCbhVvUxwDmURjuAXQ3af1mgjMOmPxYhL5LfnwTQ",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/n19DGpbR2PVed9v0gTjK0Q/u7AQDnRCz7-FOUz0HP5MGQ_VN_4WFdWmQFpq3FgKwuqeer5DM1D-Rbj7cpXu46mpFSjQzNBM3HhCMabJkUpHxvvfbyOUXElPnUmGz8JAGyGDJVU1SbmTOS4Ji7PpjarlnEshFKocLb64Ixn1ob9keg/rqtiSWEImGV5CyFxe9rkm-2g97uPq5c_01jZSQd_oWc",
             "width": 80,
             "height": 22
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/63wioa2fDvGjTgVLggfYwQ/cd5fdfkbvqk9SaQYhptlt3dfh41ZVtddRM1gM5jTiEv9oWCtgvTdgPdtNONfsFSpT5sHtiOuYi3V54043RGuHPZb_7u3hdVTi54hoFzHybSJB7iB5NdwnO0zcsOiJ__3rzIKGeXClSbPwy-yHbnHLg/sMp0rcUP2ZNyBPTL6WfnS58nBR82Y-uWqDmGzA2rpC4",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/9i-4cwcOlPl43VFK7omKHg/DJBJOqBc1L5HgHoGgqS2c88I5_YYSjGglQTyEmeJAnjr78f6WWz1c_80vPgoIJSBMIWCnLM33up0ynOHG1Fr9rHfMvNolRCTaFG_LR0bAd6NztfzScywNc73R-qwpy05OZkFgJ7imnlfWBJ4fAN1oQ/-b-0GolIEyoM9Wn4TQJ_FkTYcQcx4Gk-i-rHAf4r-II",
             "width": 80,
             "height": 22
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/TxFaOByorRHw02qGpYeWlA/zFvrBoitnUJa7MDF1NHlwKN9G8NlvS0mvdjTqLyUd2ZhdUlCcwByaqkxpmts5EQPoQMuZ1jZZtnIfqC0hhHTndgjacCtfYVpBfkitWZYmS5JBup47jbeJGhiJXk9MBtKhD_SadME2GPLzaKqtKAwYQ/Tl3t9d3sTtVzaNCgF4HET_sp3x29zK93JSdR8XcVJx8",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/gk1h0OL5H_9PNHZEsY_pMQ/hvBqPD2QAJ_L_VyYvZIi4yLpugBvQZPt0OivOX5CMg_oM3vNB_kTiu3J2_5l2dYfHQRlfvDSCTKG8P7kWJudIR2uAuUvKIB2q10nxaD5uyyfI_ejELcGpfILiBz72agaHYSH8MsY5ruHrf4lDKOGBw/jJwvSEMZvXsRecCs1kgZUfjp5IQ-NWle6ZmbB3UFWXE",
             "width": 80,
             "height": 22
           }
@@ -119,23 +119,23 @@
         "id": "att074rBnHXfs8lA8",
         "width": 200,
         "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/wIjBS_isumw1FpN4UtkBFQ/7CbSNEzkLkvOKDqKL41ejW9O5o8bpUZouu-VyxMaqRlSpiTfwSf60eksoVN3dP4CGrkd47lLoUQFyBYvP4dYOJs4zefLdzl2qAlf2BOCwPQqibZRifCUO48kgx2zADVAlcWdjPhjVdQIMggWBhxDo0GM4i-wm8fzx7xZoIMYNZA/UK62m2547W4U_fXlXrLhoTKogws8-2B5w8q6TOfMNgE",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/lVZzytVZTnkPYYk2XopUvQ/7bsyQ8lsO47yysv8YaN0AJLd2FqP5tuu4PIrIkMh8ngeLb5c_Zu5WylqxOYFIyFD5BXQU0lTaJaNsaWvelaGVCX69b6DJQhvOF_Cr8YekShCNlX4HCs3iZkoZlSlwplrnad2MeQwxjFhy-saezJgokzZ0HrShLFrT7g-WZW_SgQ/sPDiNv_RxJljJztvR0FOxQrvs0cRnu3kYeGuvbYV-Yg",
         "filename": "www.arise.se",
         "size": 2640,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/shB0cOY64qL3EQxlble5Ig/fZ401en1g5X6lhxcCYQZ3Rcdb1JR4y28M23UCVKqed_D5mLN-vvq1MufTzFvodaOjULfhZy0dsUtjoCqpj9SYieEC9F1BW1T3GCMs6_ISgs4mYXx9pPr2y-lycqvRUsk7kJ3e7tUiisyJpkBanQy1Q/LwYtDG6nFtQ8kXuBGE31vMEZglvgQz0zicoYBdor9o0",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/9JMNg-Y94BD-Xm7JVUVScQ/bxjHg3Hq_c2TGwtIF4MYAw62kRkzRflLZ9oogXfDqpYqlxziAIcKJgrTkspAqrH2bMLSFTU372BLXsGvKKkQ5v7RvoutALZA5KYDEtHutDrvw-mOXXr8FbsB4GEDiaC74HeO_XID52lLi8N7VlAOng/TSO844ORN-AfEmzlpTEqzFhmBVXXJ0bEEDZQY22zz7U",
             "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/rtwIL3_lvmXGPq34KzGhPQ/OU4AAA8JUDLrZamUBKV7hpe2O2tu7vazZT4ddTkmQvAez2ZB1_7P_L4DjPYRfaGqx0MAUO8t7MiB3MNU0fYJm4siwrPBtPcTCnjyqorzH1m3rTdtnF1PQ1PmnQ07pmfeMVjV-a8G13PDxN8t6DW0ig/TI3A-IKfHG3H15U48mt9hXSVLkBruL46HlpikFCCJK0",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/_YsbCzfnRXVqrLHXy6kxkw/mA8_WclvQI-Dk_5Yhb53duTBPiMDG6hnshvJU2Ft-zVShR_JZ6HAdt2ht4Oyti_TbVEIF9iFGLrWYEEW7iPzw36CvW7dSiKpTPKJ8jVbj4WctagR2tN4V3N2SFGOvFCJ8pSm27dhDzmNaWcw2ZvrDA/M5xlKm6B7Sp0PX4xiJPUk2oP1uDOFZ-2BEgXhJ3W2WY",
             "width": 200,
             "height": 200
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/wRDzlFT-ttTGM4lE2zDfWQ/xM5UyCEF69olYw5YvgQv0ez2qbQm_QQneapm-93ZPqMdnhrwv1Am1-kUkVEeWdN0rGKV0niKV36ShOTVI5GTLkmygANQq1bL_1jI4eAvTM2IWP5QaDTJoyzvaxw45gSG9HV4E_tk_125Bxvtru1sMQ/0Z1IG6aL7INIkpcUi3IJF38gBeNJ7QCFZhBV7MzG18c",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/0jUcJ4P3NTtJ-qg8VC574g/Gi0i3NATHS2efWxN045DIuT-uLsPTa5D5aJ3rxmhaE1ogJiWpAjoMaOC4s4OBuxKxaRdJrTIMk1-SXvr8q9CM8c9fgckM6SVneNPUb5a8yutv4JhpoH2XTGiMHwkxJL4Eo0FOt6DOaO81J4AjTX_Hg/CA6tBaI-Al7_VPomIytr9ZdLrZQuIBrNRCknjliQ4Mw",
             "width": 200,
             "height": 200
           }
@@ -147,31 +147,31 @@
     "fullTicker": "FE:USA",
     "baseTicker": "FE",
     "rank": 44.2421,
-    "price": 40.275,
+    "price": 40.345,
     "prevClose": 40.09,
-    "absReturn": 0.18499999999999517,
+    "absReturn": 0.25499999999999545,
     "logo": [
       {
         "id": "attkV4A0imnVIBL5z",
         "width": 80,
         "height": 20,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/RVTMPyryV6FLXrYeNSZuSQ/4uJHIWhaABZ-fLgXfs_0lkWkM8_pCqs5vNzK-uUlRMlgaVmul9XjBmSzxgEbYLoLS3VEUpxE0CDsyagzytf9rGxD0Ib2UZ24TWoFkjjEmrIPfjmxLoij1jAla9YH1mLqLOmZqRRe0yd8r57ofufVYI9gMavTlwhHDZFJB7k72vfnNy6dBzIh9rjWfsY45he-/RYW12tFw4TZ82fJvGeMmzIMZAZQkpemEY2VbnecBMhI",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/7sM9CdWN3cGb8rZW32MJKg/Ptq2B6jna7VGTDFt-DkZL-thQTUsbJPj2Q5AeMqil36iknm8DOstlh8XZAhcHhcJ-cO2HDCToEEvFyKIGTjv1Bqgw-GhZCenwb2sR44ZJjaUaS7tIYAhed0zH8gbhw0AU5du4Fa5-JoK_70af3d9Z9Ivkogb1sR4OEuHseVCLkRASeMvlzefA2sCr5paV0FG/BT1xV0uRSxiaj_ZKLJtvrChjeT8HtihHMSe3gnM2acs",
         "filename": "firstenergy-corp-logo.JPG",
         "size": 987,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/hJvznSIGt8xxDfxmYg_CIg/ebIZz5VS1RN_bb6LUzTEs_G74v-s6D1g7HcjgrW0JV-XmRRbwE10mm8IqAkE-ZR0WL-svBC1gy6ZbqPBUW_bNm1knm8nQU8edNRFkFIEBQbgnW8mV7fM8-wB91Yy5Ao67R2jA32DHOXhenUiN0igUQ/uRVCtZ1egSnLMhMQqPLoS0oU3XpTd36J38bCREO2DAQ",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/xI1YTnWgDNXVVpHIavVrBQ/KijWN6aLGLZ93iVSBRRSqdeg_ZjzDjantXnYtceFGxjUGH_Y9W8erj2mUQviBp7sQQPD9TkNLf8vs3w4aZYOqmVdpymnXp310N3TJqq7aZ4Avd-2ogrV0-WOI_ro0G__bcPZhEy8C5eSG-J0H1bKqQ/u22xfvaNjP9y_4HwuZ4xTiPpaWM1-hBW1bovgL2puKU",
             "width": 80,
             "height": 20
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/U0cIpZFtLQj9b2pY1--mKQ/xbsEdw9LI-rgqjM7L4TU1aiNXEzO6tKYtpivHUWxYuoUaSp4iNN9j0pD66N1VrOj_02B42pF4e_xRJlWMXQJeHviqNysD6fE6W4SvoIR4d-Xz-Qqnn_OmCZ4W7IUf5gcbdj50Mw2WFAbPOSZ5-hzfA/pOsGM5aJ5XBFL-p8MCI7BGyKToWWvU2gSJ-FGIxjv04",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/YTemGVB98B4NwU4NaRxfpw/PPRGEU6MThlBCnrU-Di_jQkJuA73N9n9vTODu08HJ9LjRw7gaaDdhzo1bvMxDhDFSNDjCJHAeEOBfw9M6ThPgdJqmWVdAXd9_cr_IaBs3E1YQ-LoWLYgFxH8LNh51vKlswdovKHlLQO9xtR4SxeI1Q/hC6CfS8DQZJwwhfTINcRRGRjFqraVmAXT2zKQxmN-TQ",
             "width": 80,
             "height": 20
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/_NObeLjtARGYzEpxbRWwDA/Jnt_TEGCeg_E8ey4Sr454G6Vu7FmxrTJgd6v-jEH0AL43xqIfN2DDZn03YR5Ot0MjAHSdPNZ2PWiwL5wO_jcTK0b-3PKuRlZpzKvPZMccDgNpmuvK-CrgeW8YlPX1YRIGHuBxoVLS6ttyjdnHECUVg/mRh5Mc_jzpKv_4-UDJORx1fjr1l8IgWmw8oPrP1-H40",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/DEtaDOs1PYNwHIpA7Lj39Q/gW5gvF5PNsKMV1Qx1x-7geMNJ2LbB0LW8Ug7Ra1tdW-5hZ_XzUzSxMjHflrqY2fPgb-bYc69aOU5OiV3_jjwq53-cgCDYUliVyhg4UyC8E65MlQlVALGPD_ewxbUg08Lb7APq8Z0L3E265QQFJDyNA/A1Cokv_v_Rz-Fuqoj1vP_IFhZdoSNrPt3QcETf6wCd0",
             "width": 80,
             "height": 20
           }
@@ -191,23 +191,23 @@
         "id": "attcHq4kcQWDhp9Dw",
         "width": 200,
         "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/0tdT4WdU7KBo4CkLK_7Wuw/GHPtkfVsnWs0svKuV1CrxKRvbRz8PPMduFjHvgePGWcGKXiMCD4XK7LgnwAXOQrayps7d-C8gU737GXt9vZtPxPNyt1BacVpfwdSW6bFuj2T6-Sw-nsLkpMSGIBjvGWHn4hqVtKAHD155ChRy34kiqPpKwqDTKtJMV1Ot2P-Xfs/wEUEx4pkT_gy8vaJluB9mk4BSbhN0XRqLkWEICFK-Uk",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/hNHjkyuejpltvb-h_TPmsw/tbBnILp1GqRGipT-R8nK5RxBPMSpHz--tYc-Za_UJQVBj9LxxkMusGlJ89kIi9l3b2W-qRALVmTe7Q_ZDHwC3kRAUay-bCQNai2QABf8CMI8rSMnglzD-9BYqFI1tDoo40KlQEcZQqCeOrf2dgwjbU0C1kcD6BOmZHKqvj-LvYc/GlBtaaoHqeeV599x9NULP70br9xxI726_enVP4L7aeQ",
         "filename": "www.deutz.com",
         "size": 7192,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/zxsUyXba_2kn1ch00qCv2w/WpPXKiQcxIpVYAYwxThqE4BCuA2tYR_xzO3TA22M9z8JPM9NU_96NYyrAgsn6oMPBLRvhlIjzqoPbg4KVwEeq68fEcAmNyP8E1kQ98FjoOv792cpE5QQ6qKrsA9O2YNXUOkcrwaiw1rd6-vb-MPCiA/Y6Nn-R0WdQjB2B_6M8whSeWYwA4ufgF-jcLsdwp-pjc",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/m7YQ4WzZiUtAdDwC9j9UAw/EJEgqb50YF26G2WLrEumDXqo_FY4Kcgo45-Y56aB6Wskm01v3JavsIw590hjOosrGXqNTt7kps0DjDNmrFGemLGEvI8vkzEEZ4nWO7MNcKJV64c39MPcJXNEyQeWcd1B24zlOZJes7nhy6IvgrcycA/uVMZHZk-IitbwPEswCrxHoNGHT37iCwlUb30RO_18H0",
             "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/X85RJ-HJdWqmLdIFgPK8TA/YjWzkVEz-Tma6IM_Qu432KviG5KHInHQBJMz19sOPFPVd95dok_ue2YSlyjo6eItiCNEMb1nESTICc3vDpN-4nRGUfNkCOL-rP-3ONzoVHcetKnXViqySzDCLNkP6oL-AOomZGWI1aWas0_BFohxvw/6vMdbEQZffUBUeLkFbuizQDE6kh1J_FtWCJrCUCxRTA",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/N_HmY_Ghre65zhhIK-CBLg/g5TEjfjr6loSraHwnbVk_4Va7ww3i8Ieguc5MpLlHX7Aqseqc-08isDvoDTSqxN1vMn7F6TYlODu5mKkhYjgV827JElgME7ughvbJ-Liisu076dvkyoDdxHIJCwNGQREHUHZQfZMEX0JVZ0qh2AUPw/1SS5X_FsOJy6XTzU93jRlwsNqXEG2YYPqK0ydoWFgwM",
             "width": 200,
             "height": 200
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/N4P1bVYJoBn4kXAHnAa3EA/IAidfm6iaqV-lOjqsmd-zeGgLe2F6eARGXIjAp8NrdKVFqlte3lwP4-gMrXC7y5NxK0GfJXd56MsfbJaRZ4cJ_ngvqSe4nm0iJG4A3mnjlRMWNqCia0a0z0rRNWUnonvJuB22jBtea7Wa1o2KhY8Zw/j9To0iA06iPR5OYDyZh0iebMsIOMTOvRluGld9PE5OU",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/URewuzWXTVKeuTp1aUo8MA/ZYukYSc8uyAy5v6ZfGFWRz4h0vUjwns_bBhVr7uVt7SWZM2pWHwk9AGlteY5GAh2Vab06XKPG4-s_5PZpv5GmlPkbn5eWYS_9yHblAi4kG7_q_6Mb2GR3KeUDirf_-ogrrrIcZ65POyhab7aXsOG5w/hYRmI4NzldXRfmlUtnnJy32RY2_V75cn4AKqVqU1UK4",
             "width": 200,
             "height": 200
           }
@@ -219,31 +219,31 @@
     "fullTicker": "AAPL:USA",
     "baseTicker": "AAPL",
     "rank": 58.9588,
-    "price": 194.825,
+    "price": 195.455,
     "prevClose": 190.42,
-    "absReturn": 4.405000000000001,
+    "absReturn": 5.035000000000025,
     "logo": [
       {
         "id": "att1njEuc8RwkzY7W",
         "width": 80,
         "height": 53,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/P4q5427YjuJ6f0KcJpyJbQ/WtT_IhWtwWqd0y_nTgBHIJDJATB_hVxNa16ojdPy0S62zpl7Cs4Uzpfd4MA8YINYda_BB1q0xK5MFlGX66pk6akpoiDCpLOpNGGwrx4gfHUbTyQrl_0I8d4fMeVXOQTpaMgLtNSjGP4bsXU1_sHiW0Tjm_cObtEMpRQYbuvHDVA/0gYY1X2i89Bb0SeJ1HUk-NKnov2n1Z6CLRjmm4QSam4",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/7JU4ymngA_9t2hp3ruRoDA/qqxT41J5jCyqM66EnmvFMkoSgZNOEI5R_4WWWjsLUKD81K_logtdWRt9VTDBWKnnku98Bs4nenot2-lwT2oqfAuHp6lqoUL41SvlzsRnJ-XBzrVivAHCf4m6vbAfSn4C1Dys_lR8WJbaA-C6w5PxoYebvVCFfvCQthZ0i8mo9Xc/rt6R5W0A_cxFxYXS_9jryrd-aHkbsQbR8tfZreuUFV4",
         "filename": "apple-inc-logo.png",
         "size": 477,
         "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/z5y1Vu-g03H3eHnC52m5Aw/6ZzScT-3YBmcg240pBrj5PJyOB1Z7led-5IVJuAS3pBBQSyHNxjizey_gvtxAcXcJr_pti1z9XceH09qi8y9S22D4f9svdQAS6SEzZU-JphCqQVcxDKKYZKSQ1z9yGsVLgls572KFgkVCRrasR5IhQ/GW9AOfhKp5J3djPmkhMw0kCqUgiaRDRAszyuiCMvqgE",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/9nE2LVnF58lbMbLwano4nA/3SCCf3CKBuoBINmEb2x1DfgDTi2eb4YA3wASdfl56rcJ4I5huEeJnMp2jzT0J8gshB1GcuCC9NL4FY6pDGvxAocikJRvcDR1zIwiLdO8CZOOJw3Ly6bdM6JVEm4vKPOP9ElxzuHzO5p_gkeDqBxikw/NuaGN5Z_vXZwr8sP8-5_2Hhh-lqB13-EIlnV7gh33OA",
             "width": 54,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/vmqONEug3ry-Hx6SPN_Pbg/AV0UI1Ppo9gaouhvkSnT1sRak5uin-r4EMYVmimqH_i3TFkTw-n1Uh4MafXtCgpEogJ3n-_ba4NmJqs4EfHA7jW53bmkZsKsMICIUPhUQZZ-oPh_RdLLZA9QQXKjkoulEEfzdEkfT5YFa7ysr9pPAw/JZGrMCYcz3HT6D4dSbma5wGQ9KQWPEzEI3ZylTPM9us",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/oIlYCwMqJ9FDANmXoKpdpA/DjhgPwXRyOawTefga1qEGJxErVBEmdgEASW59EQwiv9Cs8IP9F2mrYeTtvjR5Lnu1B0vvew22WthluZZas-RO01rrETK6aDiibEsGjV1z-hlRW-hVVIWsG0EExi5w3Qe_w6SVTpKwGNbgTz77spr6g/u2YtSjwWivA7hiwraQsnlEvNmTvGcQbnJ0juPWzZeqU",
             "width": 80,
             "height": 53
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/jO2wkrfKzXlD2LcSsDBVvw/vHCt3nC-8ZNEjeXjmzXxGZ4gi_IW3QxEp1zOJgjmHhuqKeCQNnUB-i1wbuUvMNp7wjF2o9R0qL6G__RsAQaIfWlMEN8BQCS1Ls_lkgdWgmFaz7pY_fYEbSlfRsxGqXiqZgqH-U_Zy7eUK_oo9sGkMg/fUNkDCnrR6whBurVbtS6vYE58p1UyfRRoMB3hNkOjno",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/ZMJ6CyH51zTALf_u_X10dg/ySe7G6KKGtJ3jqWxpTHOwGI7wVgz7XvrMFAG14whrUd6ipzeFS6DNa-7oMIe5vrb1cHu8d1lttBfeg0XdYw1K_fYglIqfHwTGf44XVNKEmkh97mL27KL6fG8-y1G2Dcck34WRp4s0CR1gobtVpqqwA/_k1EPci_U7dURYCjfDL2XNpNqAKlRmF1WF0LXkS_owY",
             "width": 80,
             "height": 53
           }
@@ -263,23 +263,23 @@
         "id": "attwt6jjpLFtfChzp",
         "width": 80,
         "height": 21,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/Ns0yKV5UZfJQLSt0wjC8GQ/7B5t7UomE7vvSIWDEXJ4dNW6GPQMv8W04SLbY30gXVcFNOEgB0ZieS6pTUsXY7jJ_fDWgdOTDrx3lYI0lJ_STWvY7n4PLnRlTN9_y9wWwFBSEqc9XDmEd3HddUvr5AvLAgh7pBpXvfUbbM4KL8j1Y-xCt7kNdf4xFMmPxlimk0o1h8gXwa3L5KW4ApmQFLZia2HcpYcpU9PJ7OM6ACrjjQ/pKA2hmUptLQr7tIPtihR407RACU2YiWYGl4FkhvAoyU",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/P0k-6PrCLj2AnZisy-CpFA/9aqIx4Sf8XF_iEE3xjydrHNEWeTNhUf21I8TZrILnUca6XVKMgB77sAKJ9T9wBVccFVut7vtoPAf3roq2ls-Im1F_ZUI394ZLGXVT7AOJRvQiOvr-ARD8Yx4GU7nnE6QeTJsvkExzWygadTb-E2d0uq41eGEJbRk3wMC6K15ccBu5B8t8og0tW3Kp1dQS29gf84FsRdjYZ3P-pD8YZShFw/CNwNeZ4gQmmmJxYbl-aOu2PQd2qX_LeMysru3wfguTo",
         "filename": "macom-technology-solutions-holdings-inc-logo.png",
         "size": 2796,
         "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/LgbAc1pPfoPY8b-qEj5Yqw/cj3dLZdvW9sdq5Xre9TPXdaU_t35u4HG2D4IwWhF1_RWhEJLqn3FMyUfnLwY5h1VgrCdeb0-HpfQTulNiW39kL51SagTC_-5NQs5EGCdtNCiXMITHYmW72wIYch3USdqMeBH_AjheHDQMWeRLgPBYw/zQrgpqquxxX_kEmwHZ6eZYtQjqZ9bQo8nr3z65zVKNA",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/DkZo9FGJnmfhq_d_GOY9Gw/GyIIR2ifUiVkfNZk_UiM_244taGlfr29BYsUYGllk12OJggLdYr_MKMrlTkOnc3FmwGlbBSm3FSY8EVdXZAQ38KVKQ2_Hs-FvBbQKYXJGsbhIA_wic2FFRveMPPwBwlQT0u1XDaqUZYJCf4-2EnQJQ/vLYwaQ9T6vrV-yzTYfB_K4saqfYbk2fwhtZYwesJS-o",
             "width": 80,
             "height": 21
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/jw62ZaosV4ceLEqSKHlhMw/ngPJJpKjXEoN-WLGNA7T3tlVBrnw0nLxaFnUiK36Smk-dtJpqrF0Cg9ZJfZUdb77VVekE8fUMRF_Z9CDba4odK0ZmSXO7RHFHp5ZZpu76HhpcZ5EDl3uKKqXNeECwz18P_nwZNPQJPnbcae6OO2A-A/DlOAXJjb4BfH7DbPuKPuNKyL4d2TXV-yH7CyIrj49V4",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/e7l64k-xOcx15LncDJa_Ow/o2pqKGOQFM0JzywbVXwNiIMOk9rnpKSBCCIuxT9XW4mY3Mco_WkZVbWeUnKY1MwGqBYCTHzIKA-KRAcWCnMOBzIKQ-tBOLagmXCIzrt8qfw54TIWCoB-bCxDg3893D0-B6Chppldl69f2S_ogb10Kg/hWdDBldL3eRjtX9M95kUAnVO3bZ6nb9ayGjREGtipZw",
             "width": 80,
             "height": 21
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/IkAxowCKo5l1oWqIGD7JvA/Sx5gfDndiZmfD81WS6ViRxLw8SqTLGlTARUkikHcK5jdjtJCdbH-esl9BHPvd-zTXTpsOn3dKBuRhMBANCfU_qX2akSFVCJSifbxBkkaOjrLdR_9vdCh-tQvr41X6atTGglgeXv7_bMByfhyRnt7Pw/sULT7M5YKNb_uq6ZbGBnaSj8XWazDvK3JZi9pQXB1as",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/-Douo6V0OnX_visgC09xyg/aaSxKvUKR4diEPM1DskfAd-m6zQaLjAruiLW4Y7NQIokARnYshaaGRGWT431BANMEIjEjYUetXNzqIUwOJnsqSzfZ6PqqOTjs94Ho4L0Vw_-akgWd297ESo9U4YjWfd8AvB5avGgfPvriqY-buHjMA/a5LEyGGEk5ray53wJcGJp4_KhGbgwZybnNifNecHiyY",
             "width": 80,
             "height": 21
           }
@@ -291,31 +291,31 @@
     "fullTicker": "IOSP:USA",
     "baseTicker": "IOSP",
     "rank": 61.0375,
-    "price": 85.93,
+    "price": 85.71,
     "prevClose": 86.52,
-    "absReturn": -0.5899999999999892,
+    "absReturn": -0.8100000000000023,
     "logo": [
       {
         "id": "attx4uF6HlIHzqJW3",
         "width": 80,
         "height": 68,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/LclsrozJehXU1anlsnt7cg/n-jphpsdfOEPvG15SAkMSf-BRCrgv7E3V-RpPI-KrlH2jXHyeUg2UlUMFHnFeI4Uxxj9-cKsdAgtM-1cIpN2MqQHYjb-pc7LcdfOIk8DKGoHkYL3wMq3_ptb8NOxm19Ar6AP6OKwNtEzXQp31hZKX90YsmIcClcKOxGGfZTLT8Q/qR-mhOJcWAKN1kIDDKyOAaCKxIdYCdU6UCl3plivM2o",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/cjrpEzcdBJBN_0IK6SYnog/zhe0q_uSizAbkCQEow_cQKuqfT8HuhGR6cwpPprh5gyfGQ-DOXiMmJH_daWTxn64tmZnf_Ja9IHO-BLWMMy1_XPaUeKMbNHIS5P-Z8D1whDEE-k8TpwEqInJLSJHkzfMOggrE9vwIXjjufmETvDcJK9Z7Qv_HQMpbqLxGor9-vg/8KEERTUcP1uR1Zk7jolx-tR4rqo6LirtWG75UT9v6ig",
         "filename": "innospec-inc-logo.jpg",
         "size": 1064,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/iDQ4RmrH10s5r60YIJ4bbQ/PNArYJ7VAabLJZEo2ECnZVJFeeDmiq47N-qdCEW0m68-tdpKRI1HjQ_TU5AvK9xMHIJi_nONJbDqHUwY5ttI9We-X3NB-HUQX4qYwoVu7FiFiBXN53Ny8D2K4SmzOqCtWg9DSqDSqPrOup5nq4rUEQ/loi2YXCLM8O629dkprWmawkwPqO9_moXMqVbTskNSEQ",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/N3aYwUeCwoCWAFF515YKRA/c_BCJkU_0t3i2oCGe4LzrtdMhNk5pzOsEA4B3uu9JHi_uFZt_bVtoR_DQ5eXBE7XOLlWdKMNqMF23qrIhs2gQtISCQ-n2deY9fcIw9PKPFmzzpcj1QB2HzG0x5qQYr2LQdpDEtMAxIs8NmbzfWkWQQ/AWxIUXEBUZxzPvSt9ZnaGxbOruiDNk-MAIhEEC5Frds",
             "width": 42,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/xyEuvWtfCsw8g2h9CIwuZg/w8lQm0nHWPWOcI9V9Dver58_hNhLgA8oFtUW-ycLhWn6nJHcEyB9LNoJnbF4-PgGLJb-qtE7TMEJICojJdFQ2-2DNhh7Oaq_wMwZA0QFZB9LOugE1Y5Azs14vrSTAfr173J2iMa7Uch4KOEJehmJHA/EFWxpJjvdlHSRAm8s_TCtc8ohOfbMPbTSjiWiFQH72g",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/qFARVLm4phhcqeZLZ0K34Q/yEkgT58FaOQg1-jqCz9XF6HQLx5-WmENVPPoif2iLBYVVS5DHtqwWgM4My7SX_Xw6T7XTADj3huxtps0A9cgXkQ_ertOa338bfqha60kE3BsIZt8DVz1TJnzWQ_l8rSTbMALt7DHawNX6QNTzdZ9lw/yEmtWKL_yMxCMmEoIp5LFN0WJRiLN8iYzBaw9NfK6y0",
             "width": 80,
             "height": 68
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/MtHDwRp2MckYtCXfevG1CQ/oo6LXeuTVm_HBkbeAdIt8US7ta7WPJv2kuEuLu2r8uTVDHebInf9Cav-AYAyXEknJiTVLy_OjIPbY7cPFX0w3xSor9vbDNBjA2IjNhwDGlFcyF-jYe7XYeSr-Qdjsa4lJKkr1cX5f_MhOz9y12C1Dg/evgRSQWO5O36p_D8FwvJ14drmsheXPLzfyPzbHhLOQI",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/fiLKBdgUKH-JBtcHw8W4YQ/FB34wK8J_BJPXMGsGE1XCNL1piFjvU3FT0yb9xy48l8wRdxtB33VNG1GuO3TJ17ppELo20XS4ofWTohQ88e7GgcdW2G7isc_pNGYor29HFiwDJTL_a_H57ATBrKuLgfv5bF1c4yvVFuCVSQ6aSz1og/dwghWGw_vGq5fnzteG_v1cBcZTwNpKWKfYSGjO24C9k",
             "width": 80,
             "height": 68
           }
@@ -335,23 +335,23 @@
         "id": "attnpAsWmw74iJoYP",
         "width": 200,
         "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/WuQR5q6rJ1BOK-nR2VKnow/arSqx0MPv8ei4GeR8hNOs4irZhn6FvaLKh4d1HddG_ThHnGEzU5dvbXiLmPwNf5avcMIALoX_YZnTsFmjJa2gZ5c544-h8X7cdh6sYLkbYhfvbtYa4cmfCT60joohMSXnN121btAXc9Leayqll_4XDz97Lle2PGIllz2uqzI2Zc/xhjDgIzG-EEg4fheq3965Gg8_e1KOfRWwuGtqfEaFuE",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/Mmw7aiRsn1rKnMlo8YnkEg/J41OdCvyIA6dgZqPlubthIRR2qhiLbHVdqbLBu1AYYf6B1FXvQfTJ7A-eKHQfWEri3DtAXIFCmgoTrNoQKkX__3Iz7Z6kKr7RZyAZ0UJgmixfupiPrWG7optjFMTWYyQt4fQT-aG3WPT_iNmKnvX2C9zwdlzCCT-RLVdnhiy1iM/EM0iTRqf_PDg43u4Rp4LGlxx7B9SQ_HsMrUB9jAXnR8",
         "filename": "www.derichebourg.com",
         "size": 3046,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/hcqYvST0vOMdkmPydQJSRQ/1vGBpzngWnLpZsgUU04EAUDrM8T25UUK68FA3TpT06s5B5PZQCzb8ZNj3FPrxqvpYkyumOPx-aBbU7MunRkNllGY5hwOE1KSGttODhY1wW8FKLZSSpmxDoIZ9nlQFynCnSDu-U2GIa9kfDnGUnm3gQ/V90ytgSGxQOSUjXxUxVY8_LDxIhFKEOXsQRjaIWcRTQ",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/FOFvL3ntFFTt1eV1NLgjbA/CuiuBFFP8zfNGicaiMNQ-j31pBPYootoSxba4bGzXJhXxXcm0lP5j6AQeuF7CTKiANusNfuHJ88OAHXpJuNlkZEjqNiE-kFjcDeEd3W9NniAW7_KQX6ByDJYYkcUP-opiKHLnNdxuNdTZFOKuySCjw/qBJVTKz3K4kTBvThlp_Mf1M3cPy1n1HlGQtjSUFFkYU",
             "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/pkNoELcORN4sh2OiPfGLUg/V9wW3-jKEhgsGHfTQl-z568iPAC5aSSe8fGUP4mVw7ueTQCLngfzW0YO6gSEs1077IMUOHvs2NC5L-bZLXs0CtgHIXV-8iguTdDdHA_PWfVNqUQCtC_julcFKrknPwrn130THvBP3dG6eP-QURLa7A/kpNYPllfGSKcZJZW3B95J4LLXRCKBkYv31DFcB0rYIk",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/nEblR_2OqHyH3YkTDUt42g/Ae5pPN-iqTU3BjUl17cLGSNrvxB8__OxP1U8ErvDNtH2JXKbLeyiORWlIKLBPgDYO-vrm1ZREkNKMBScdGjVX6a1myWTY2klvN2JzyrgxEKZjAOul5DlvvMy_8qYbAbZb7OoB7--MA8TyIXM_BzEiA/AbYWaedB-IfSkclpL1-mGXzI0RaqG-NlCK02Qfi628E",
             "width": 200,
             "height": 200
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/HjO4JE68rSwbTWHBSMVdXA/zLLR4Sezlpvn2i2NeQVMYciQhxcxuUNVDeyVjvGXi3DZh28ePns28qDvrXtzpRHEV8ThK-lNGPDJI5y8nAEMDTvKxNerpMbGNNv1-VA5gqmWNBUsmSEmT9QpS0_Ub67J77hIJVskU_KniyjXmC7UIg/UhwwjzIwGPgBBOcFRFmmsw9ESgRLeIZ_bfFcHllG5pU",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/1Gzw1XuF6-IhXW9O9_M3Fg/-rnqwesUlkc-e_6S_pKfJvjGHyfZFJF5-ppKhmVKJ0zRe0n9iZvPyvdR9WlX1I01KTBdNhgIx6fnlt2_qCxoDE4Eei_3njzxgD7O1GMINfLWtNLFwVdQTWPBgDsOBOClerzwRjv3qzghR-luqQoaBw/Q8e8FgGNGdMEF50A36EPtAJuSXTuOjX3IdQmPj7aI1c",
             "width": 200,
             "height": 200
           }
@@ -371,23 +371,23 @@
         "id": "attcdBiIVroQP8dIN",
         "width": 80,
         "height": 80,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/Mq1C_oWaXsYv9O1BYrurWA/keNKthUzyLeraOZ87jSNrHlBPamQJCF7H5mCdqa9CV6HmxJIbvGtwz2LUJcI-wSPPlj8DN0f06LTEjKtceVudecPELTliswj-z-Bunb91VHf959Oil5y3TnNfpYM26eZe8s5mvjto2L1OsO9ipFEI7boI_1bGLOEtnh8-g7ICoCuw3LyyqglhNdZ7ueku9dc/JqlI2kvJ-3ywAOy-U_j_mFNvLSKfdKoeh0nsSBSOXj0",
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/Q28CJIWx2tA76m0XZcu7JQ/0Hf8-YNt_pDVI8dRhUP6xd-D9J2RttcaN2dQSAvizzqAlAOYCHXJqrOw1SzFzftJwGbHd9lKTVdbxfp443E5_p4Q-um-1XaGpMrhmce83bcHnAb4nGlhyiYxONSN3sJida1uhadPXL30qftK_LPtsd4WaH7bRIQvMA6QgmJEULt7qnwQa0TwPLeLs2xnRBa1/QGNKMgkseOaS0tttAq_9OvrrMZdG4oS0p6Y5UtAj4lg",
         "filename": "lsi-industries-inc-logo.png",
         "size": 5464,
         "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/zTzJKOUEmDzpnM0yGhFR-A/fiCbS07TmOdXqLOY-JhcKsuNh982rK2SG_0Jfr1bm-fOhTtZ-rUHd1CxLVBxbuGFFTnPkRDMHmWAT70bSHTFWBhKyATWCktl0atZIqDOuJyC0Rqt9XL6umm9w3eI6nTvK5-gIQXLZLOkX8J6r62GNA/wE--yNHTRFha321XuPWs2ku8545a1S77wroDFlj-Wi0",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/Jn_yEgTJH0WkHrBGF6ApZQ/cLbAS8zSiI5L-03zJ542N9knDGs7ba_VSCVqTiQ5o23AjDJBfSe4R2KvuvLFVnbh1qOWOeV2IzBQ3Fkqe4C5W0c63M_E9ny_KEvQh6OQwXGqa14-OFLntb8dgzBkNkP0i2fw7zAA_3wrtv1im2UisQ/3oF_oNCkodbRb63nclvqrGZtOFqS5bP6e7NkIOsmZH0",
             "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/ds4CzW_sY9jgWubvmFZalw/eZswkafTIz_cUXO5nqC1TV4LjzOaSijo9AgWALwnrclKgJ99EHkoyqjBDKw5V4i7-2QStD8F0T8FqLaw9I6iiz0K1K7yTUNp6_JX3DkvUDSxgoOnhsVIq00s91XxSbcLOUmiwBTGPND_XSMfs85slw/hnh885TxFhDnUZGQ37_af58u-Y9avR9GnlP_BX7N-Aw",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/C2D4dI2b4pEc3lBGSGvglw/vAtnWM36yiMjMquQGobBhYKWPVEeQH8HTiPddZuyrXSj6T35LoQlMP28SPjd1ctb0KvZS_8alJ-ATTWsL2OEzLzcTL0bNz3aR7mxNWktJ4RlZvXqtxMvQxAo_shAOxeAW_8hssv1FDzox6bd0Khiww/pOYQwdE-V435-SXQKR9wtOuRdusgZd-HZ30-BobwRSU",
             "width": 80,
             "height": 80
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744394400000/SvPIdfVr5V4GFerMgMeRLw/7Ujqd1-N71UHhf7MYcgCVBG_gw8p3oZpC6NwjyTMR7Y_WIVsyiHseEHsOd_D4JzlFf5oe8HUOEbHFeqTu6nh26Jm11QI9yBySAcs6dcGQEosheF6hLvcEgCpsfP7HC4J7qrDuHve1nC6AesJZigfYQ/BKkk3dTCobiXekDOQzpiaLzQP2c8u8k-P09VCH6ER2I",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1744401600000/hDoTC8SHeqvjdCUYvMThXw/cnNH9_nniARIlFdfelV0icbur4HVGJKmZNjagHwkY2s8gx_b-UohD7JgaIi41fHUzKOv7hwi_vYgOel7n-IwHcyZQ0IWKmVdkoZEeUToEIVPytBuxY86a4QnXWBH7mK9QjS7BeccxmkIJdk62RjWDQ/TjUqjzH6FyqwFqoCpn-ISoRidfbdnUnCTaXQSK5VtfQ",
             "width": 80,
             "height": 80
           }
@@ -399,9 +399,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 525.595,
+    "price": 526.86,
     "prevClose": 524.58,
-    "absReturn": 1.0149999999999864,
+    "absReturn": 2.2799999999999727,
     "logo": "sp500.png"
   }
 ]
