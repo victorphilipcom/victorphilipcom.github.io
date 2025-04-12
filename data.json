@@ -21,9 +21,9 @@
     "fullTicker": "CMS:USA",
     "baseTicker": "CMS",
     "rank": 16.4459,
-    "price": 71.82,
-    "prevClose": 71.55,
-    "absReturn": 0.269999999999996,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": ""
   },
   {
@@ -93,9 +93,9 @@
     "fullTicker": "LYTS:USA",
     "baseTicker": "LYTS",
     "rank": 89.22,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 16.23,
+    "prevClose": 15.97,
+    "absReturn": 0.2599999999999998,
     "logo": ""
   },
   {
