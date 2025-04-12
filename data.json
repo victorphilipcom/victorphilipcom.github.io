@@ -39,9 +39,9 @@
     "fullTicker": "WGO:USA",
     "baseTicker": "WGO",
     "rank": 9.6946,
-    "price": 31.12,
-    "prevClose": 31.24,
-    "absReturn": -0.11999999999999744,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attEf4YydXOvDcrpR",
@@ -219,9 +219,9 @@
     "fullTicker": "AAPL:USA",
     "baseTicker": "AAPL",
     "rank": 58.9588,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 198.15,
+    "prevClose": 190.42,
+    "absReturn": 7.730000000000018,
     "logo": [
       {
         "id": "att1njEuc8RwkzY7W",
