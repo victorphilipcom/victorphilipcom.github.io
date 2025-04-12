@@ -111,9 +111,9 @@
     "fullTicker": "ES:USA",
     "baseTicker": "ES",
     "rank": 45.5213,
-    "price": 56.32,
-    "prevClose": 55.69,
-    "absReturn": 0.6300000000000026,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "atthUSCkYGp19oh7F",
@@ -147,9 +147,9 @@
     "fullTicker": "MKSI:USA",
     "baseTicker": "MKSI",
     "rank": 51.395,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 65.53,
+    "prevClose": 64.24,
+    "absReturn": 1.2900000000000063,
     "logo": [
       {
         "id": "attR6aZER1hpy8Rbp",
