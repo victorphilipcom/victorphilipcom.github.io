@@ -183,9 +183,9 @@
     "fullTicker": "CMG:USA",
     "baseTicker": "CMG",
     "rank": 54.3502,
-    "price": 49.76,
-    "prevClose": 50.27,
-    "absReturn": -0.5100000000000051,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attkcfJJTpU1WrLPX",
@@ -255,9 +255,9 @@
     "fullTicker": "DFIN:USA",
     "baseTicker": "DFIN",
     "rank": 68.9427,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 40.17,
+    "prevClose": 40.68,
+    "absReturn": -0.509999999999998,
     "logo": [
       {
         "id": "attqXMqFXh8mIBO8V",
