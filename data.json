@@ -3,9 +3,9 @@
     "fullTicker": "NCNO:USA",
     "baseTicker": "NCNO",
     "rank": 4.5338,
-    "price": 23.86,
-    "prevClose": 23.4,
-    "absReturn": 0.46000000000000085,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attNSUHTyPtgM9jir",
@@ -219,9 +219,9 @@
     "fullTicker": "TNDM:USA",
     "baseTicker": "TNDM",
     "rank": 54.8458,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 17.06,
+    "prevClose": 17.04,
+    "absReturn": 0.019999999999999574,
     "logo": [
       {
         "id": "attYcO67PEIpCkNVQ",
