@@ -39,9 +39,9 @@
     "fullTicker": "LYB:USA",
     "baseTicker": "LYB",
     "rank": 21.4574,
-    "price": 57.45,
-    "prevClose": 56.89,
-    "absReturn": 0.5600000000000023,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attC3LcCbYhmyrZRm",
@@ -147,9 +147,9 @@
     "fullTicker": "MKSI:USA",
     "baseTicker": "MKSI",
     "rank": 51.395,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 68.48,
+    "prevClose": 65.53,
+    "absReturn": 2.950000000000003,
     "logo": [
       {
         "id": "attEDgeVHGqFMHT56",
