@@ -183,9 +183,9 @@
     "fullTicker": "CMG:USA",
     "baseTicker": "CMG",
     "rank": 54.3502,
-    "price": 49.46,
-    "prevClose": 49.76,
-    "absReturn": -0.29999999999999716,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "atthybAWQfFGDO8Pq",
@@ -219,9 +219,9 @@
     "fullTicker": "TNDM:USA",
     "baseTicker": "TNDM",
     "rank": 54.8458,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 17.03,
+    "prevClose": 17.06,
+    "absReturn": -0.029999999999997584,
     "logo": [
       {
         "id": "attp58UsWMYfRMTiZ",
