@@ -39,9 +39,9 @@
     "fullTicker": "LYB:USA",
     "baseTicker": "LYB",
     "rank": 21.4574,
-    "price": 57.45,
-    "prevClose": 56.89,
-    "absReturn": 0.5600000000000023,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attC3LcCbYhmyrZRm",
@@ -291,9 +291,9 @@
     "fullTicker": "CRBN:NLD",
     "baseTicker": "CRBN",
     "rank": 74.0088,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 185.2996,
+    "prevClose": 183.6231,
+    "absReturn": 1.6765000000000043,
     "logo": [
       {
         "id": "atta9rX8UvjRAkwHH",
