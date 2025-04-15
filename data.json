@@ -183,9 +183,9 @@
     "fullTicker": "CMG:USA",
     "baseTicker": "CMG",
     "rank": 54.3502,
-    "price": 48.795,
+    "price": 48.8,
     "prevClose": 49.46,
-    "absReturn": -0.6649999999999991,
+    "absReturn": -0.6600000000000037,
     "logo": [
       {
         "id": "atthybAWQfFGDO8Pq",
@@ -255,9 +255,9 @@
     "fullTicker": "DFIN:USA",
     "baseTicker": "DFIN",
     "rank": 68.9427,
-    "price": 40.31,
-    "prevClose": 41.15,
-    "absReturn": -0.8399999999999963,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att3RJzYo1hQQq3fS",
@@ -291,9 +291,9 @@
     "fullTicker": "CRBN:NLD",
     "baseTicker": "CRBN",
     "rank": 74.0088,
-    "price": 185.85,
+    "price": 185.5043,
     "prevClose": 185.2996,
-    "absReturn": 0.5503999999999962,
+    "absReturn": 0.20470000000000255,
     "logo": [
       {
         "id": "atta9rX8UvjRAkwHH",
