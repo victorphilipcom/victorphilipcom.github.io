@@ -255,9 +255,9 @@
     "fullTicker": "DFIN:USA",
     "baseTicker": "DFIN",
     "rank": 68.9427,
-    "price": 40.31,
-    "prevClose": 41.15,
-    "absReturn": -0.8399999999999963,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "att3RJzYo1hQQq3fS",
@@ -291,9 +291,9 @@
     "fullTicker": "CRBN:NLD",
     "baseTicker": "CRBN",
     "rank": 74.0088,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 185.85,
+    "prevClose": 185.2996,
+    "absReturn": 0.5503999999999962,
     "logo": [
       {
         "id": "atta9rX8UvjRAkwHH",
@@ -372,9 +372,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 537.36,
+    "price": 537.23,
     "prevClose": 539.12,
-    "absReturn": -1.759999999999991,
+    "absReturn": -1.8899999999999864,
     "logo": "sp500.png"
   }
 ]
