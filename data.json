@@ -75,9 +75,9 @@
     "fullTicker": "ARE:CAN",
     "baseTicker": "ARE",
     "rank": 22.8891,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 79.12,
+    "prevClose": 79.7,
+    "absReturn": -0.5799999999999983,
     "logo": [
       {
         "id": "attmwvMud50kOFTcE",
@@ -372,9 +372,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 537.3,
+    "price": 537.61,
     "prevClose": 539.12,
-    "absReturn": -1.82000000000005,
+    "absReturn": -1.509999999999991,
     "logo": "sp500.png"
   }
 ]
