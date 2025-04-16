@@ -3,9 +3,9 @@
     "fullTicker": "NCNO:USA",
     "baseTicker": "NCNO",
     "rank": 4.5338,
-    "price": 23.555,
+    "price": 23.595,
     "prevClose": 24.02,
-    "absReturn": -0.46499999999999986,
+    "absReturn": -0.4250000000000007,
     "logo": [
       {
         "id": "attAbcIklRK1G8uWB",
@@ -39,9 +39,9 @@
     "fullTicker": "LYB:USA",
     "baseTicker": "LYB",
     "rank": 21.4574,
-    "price": 56.08,
+    "price": 55.7,
     "prevClose": 56.7,
-    "absReturn": -0.6200000000000045,
+    "absReturn": -1,
     "logo": [
       {
         "id": "attC3LcCbYhmyrZRm",
@@ -75,9 +75,9 @@
     "fullTicker": "ARE:CAN",
     "baseTicker": "ARE",
     "rank": 22.8891,
-    "price": 77.58,
+    "price": 76.99,
     "prevClose": 79.12,
-    "absReturn": -1.5400000000000063,
+    "absReturn": -2.1300000000000097,
     "logo": [
       {
         "id": "attmwvMud50kOFTcE",
@@ -111,9 +111,9 @@
     "fullTicker": "ES:USA",
     "baseTicker": "ES",
     "rank": 45.5213,
-    "price": 58.5,
+    "price": 58.235,
     "prevClose": 57.98,
-    "absReturn": 0.5200000000000031,
+    "absReturn": 0.25500000000000256,
     "logo": [
       {
         "id": "atth75pk5CRIPcSkc",
@@ -147,9 +147,9 @@
     "fullTicker": "MKSI:USA",
     "baseTicker": "MKSI",
     "rank": 51.395,
-    "price": 61.895,
+    "price": 60.93,
     "prevClose": 67.18,
-    "absReturn": -5.285000000000004,
+    "absReturn": -6.250000000000007,
     "logo": [
       {
         "id": "attEDgeVHGqFMHT56",
@@ -183,9 +183,9 @@
     "fullTicker": "CMG:USA",
     "baseTicker": "CMG",
     "rank": 54.3502,
-    "price": 48.045,
+    "price": 47.76,
     "prevClose": 48.8,
-    "absReturn": -0.7549999999999955,
+    "absReturn": -1.0399999999999991,
     "logo": [
       {
         "id": "atthybAWQfFGDO8Pq",
@@ -219,9 +219,9 @@
     "fullTicker": "TNDM:USA",
     "baseTicker": "TNDM",
     "rank": 54.8458,
-    "price": 17,
+    "price": 16.93,
     "prevClose": 17.71,
-    "absReturn": -0.7100000000000009,
+    "absReturn": -0.7800000000000011,
     "logo": [
       {
         "id": "attp58UsWMYfRMTiZ",
@@ -255,9 +255,9 @@
     "fullTicker": "DFIN:USA",
     "baseTicker": "DFIN",
     "rank": 68.9427,
-    "price": 40.35,
+    "price": 40.39,
     "prevClose": 40.29,
-    "absReturn": 0.060000000000002274,
+    "absReturn": 0.10000000000000142,
     "logo": [
       {
         "id": "att3RJzYo1hQQq3fS",
@@ -291,9 +291,9 @@
     "fullTicker": "CRBN:NLD",
     "baseTicker": "CRBN",
     "rank": 74.0088,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 185.5043,
+    "prevClose": 185.2996,
+    "absReturn": 0.20470000000000255,
     "logo": [
       {
         "id": "atta9rX8UvjRAkwHH",
@@ -372,9 +372,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 523.51,
+    "price": 521.085,
     "prevClose": 537.61,
-    "absReturn": -14.100000000000023,
+    "absReturn": -16.524999999999977,
     "logo": "sp500.png"
   }
 ]
