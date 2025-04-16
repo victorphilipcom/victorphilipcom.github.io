@@ -219,9 +219,9 @@
     "fullTicker": "TNDM:USA",
     "baseTicker": "TNDM",
     "rank": 54.8458,
-    "price": 17.71,
-    "prevClose": 17.03,
-    "absReturn": 0.6799999999999997,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attp58UsWMYfRMTiZ",
@@ -255,9 +255,9 @@
     "fullTicker": "DFIN:USA",
     "baseTicker": "DFIN",
     "rank": 68.9427,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 40.29,
+    "prevClose": 41.15,
+    "absReturn": -0.8599999999999994,
     "logo": [
       {
         "id": "att3RJzYo1hQQq3fS",
