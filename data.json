@@ -75,9 +75,9 @@
     "fullTicker": "ARE:CAN",
     "baseTicker": "ARE",
     "rank": 22.8891,
-    "price": 77.83,
-    "prevClose": 77.12,
-    "absReturn": 0.7099999999999937,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attmwvMud50kOFTcE",
@@ -147,8 +147,8 @@
     "fullTicker": "MKSI:USA",
     "baseTicker": "MKSI",
     "rank": 51.395,
-    "price": 0,
-    "prevClose": 0,
+    "price": 63.69,
+    "prevClose": 63.69,
     "absReturn": 0,
     "logo": [
       {
@@ -372,9 +372,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 527.015,
+    "price": 527.55,
     "prevClose": 525.66,
-    "absReturn": 1.3550000000000182,
+    "absReturn": 1.8899999999999864,
     "logo": "sp500.png"
   }
 ]
