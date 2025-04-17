@@ -147,9 +147,9 @@
     "fullTicker": "MKSI:USA",
     "baseTicker": "MKSI",
     "rank": 51.395,
-    "price": 63.69,
-    "prevClose": 67.18,
-    "absReturn": -3.490000000000009,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attEDgeVHGqFMHT56",
@@ -219,9 +219,9 @@
     "fullTicker": "TNDM:USA",
     "baseTicker": "TNDM",
     "rank": 54.8458,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 17.26,
+    "prevClose": 17.71,
+    "absReturn": -0.4499999999999993,
     "logo": [
       {
         "id": "attp58UsWMYfRMTiZ",
