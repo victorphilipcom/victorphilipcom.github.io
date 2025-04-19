@@ -111,9 +111,9 @@
     "fullTicker": "ES:USA",
     "baseTicker": "ES",
     "rank": 45.5213,
-    "price": 57.44,
-    "prevClose": 58.06,
-    "absReturn": -0.6200000000000045,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "atth75pk5CRIPcSkc",
@@ -183,9 +183,9 @@
     "fullTicker": "CMG:USA",
     "baseTicker": "CMG",
     "rank": 54.3502,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 48.17,
+    "prevClose": 48.08,
+    "absReturn": 0.09000000000000341,
     "logo": [
       {
         "id": "atthybAWQfFGDO8Pq",
