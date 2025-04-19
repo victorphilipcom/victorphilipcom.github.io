@@ -183,9 +183,9 @@
     "fullTicker": "CMG:USA",
     "baseTicker": "CMG",
     "rank": 54.3502,
-    "price": 48.17,
-    "prevClose": 48.08,
-    "absReturn": 0.09000000000000341,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "atthybAWQfFGDO8Pq",
@@ -291,9 +291,9 @@
     "fullTicker": "CRBN:NLD",
     "baseTicker": "CRBN",
     "rank": 74.0088,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 183.388,
+    "prevClose": 182.6099,
+    "absReturn": 0.7780999999999949,
     "logo": [
       {
         "id": "atta9rX8UvjRAkwHH",
