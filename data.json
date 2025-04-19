@@ -3,9 +3,9 @@
     "fullTicker": "NCNO:USA",
     "baseTicker": "NCNO",
     "rank": 4.5338,
-    "price": 23.95,
-    "prevClose": 23.92,
-    "absReturn": 0.029999999999997584,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attAbcIklRK1G8uWB",
@@ -255,9 +255,9 @@
     "fullTicker": "DFIN:USA",
     "baseTicker": "DFIN",
     "rank": 68.9427,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 41.93,
+    "prevClose": 40.67,
+    "absReturn": 1.259999999999998,
     "logo": [
       {
         "id": "att3RJzYo1hQQq3fS",
