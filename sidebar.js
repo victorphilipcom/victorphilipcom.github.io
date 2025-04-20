@@ -1,26 +1,24 @@
 // sidebar.js
 (function() {
   function initSidebar() {
-    // Get current script element
-    const currentScript = document.currentScript || (function() {
+    // Identify script element
+    const currentScript = document.currentScript || (() => {
       const scripts = document.getElementsByTagName('script');
       return scripts[scripts.length - 1];
     })();
 
-    // Derive base URL from script src
+    // Base URL for JSON
     const baseUrl = currentScript.src
-      ? currentScript.src.substring(0, currentScript.src.lastIndexOf('/') + 1)
+      ? currentScript.src.slice(0, currentScript.src.lastIndexOf('/') + 1)
       : '';
+    const dataUrl = currentScript.dataset.jsonUrl || baseUrl + 'example_holding.json';
 
-    // Allow overriding JSON URL via data attribute
-    const dataUrl = currentScript.dataset.jsonUrl || (baseUrl + 'example_holding.json');
-
-    // Inject styles with initial hidden state and positioned at 70vh
+    // Inject full styles
     const style = document.createElement('style');
     style.textContent = `
       #top-pick-sidebar {
         position: fixed;
-        top: 70vh;          /* Start at 70% of viewport height */
+        top: 70vh;
         right: 0;
         width: 280px;
         background: #fafafa;
@@ -32,7 +30,7 @@
         max-height: calc(100vh - 40px);
         overflow-y: auto;
         font-family: sans-serif;
-        visibility: hidden; /* hidden until scroll threshold */
+        visibility: hidden;
         opacity: 0;
         transition: opacity 0.3s ease, visibility 0.3s ease;
       }
@@ -40,10 +38,32 @@
         visibility: visible;
         opacity: 1;
       }
+      #top-pick-sidebar h2 { margin-top: 0; font-size: 18px; color: #333; }
+      #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
+      #top-pick-sidebar .company-name { font-weight: bold; font-size: 16px; }
+      #top-pick-sidebar .full-name { font-size: 14px; color: #666; }
+      #top-pick-sidebar .rank { color: #555; margin: 10px 0; }
+      #top-pick-sidebar .description { font-size: 14px; color: #444; margin: 0; }
+      #top-pick-sidebar .custom-description { font-size: 13px; color: #444; margin: 10px 0 0; }
+      .cta-button {
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 600;
+        color: #fff;
+        background-color: #87cefa;
+        border-radius: 4px;
+        text-decoration: none;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        transition: background-color 0.2s ease;
+      }
+      .cta-button:hover { background-color: #000; }
     `;
     document.head.appendChild(style);
 
-    // Create sidebar element
+    // Build sidebar DOM
     const sidebar = document.createElement('aside');
     sidebar.id = 'top-pick-sidebar';
     sidebar.innerHTML = `
@@ -60,42 +80,41 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Show sidebar when scrolled past 30% of scrollable height
+    // Show sidebar based on scroll
     function checkScroll() {
       const scrollTop = window.scrollY;
-      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
-      if (scrollable > 0 && scrollTop >= scrollable * 0.3) {
+      const docHeight = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      const winHeight = window.innerHeight;
+      const scrollable = docHeight - winHeight;
+      if (scrollable <= 0 || scrollTop >= scrollable * 0.3) {
         sidebar.classList.add('visible');
       } else {
         sidebar.classList.remove('visible');
       }
     }
-    // Listen and initial check
     window.addEventListener('scroll', checkScroll);
     checkScroll();
 
-    // Fetch and populate
+    // Fetch data
     fetch(dataUrl)
       .then(res => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
       })
       .then(data => {
-        if (!Array.isArray(data) || !data.length) throw new Error('No holdings data');
-        const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
+        if (!Array.isArray(data) || data.length === 0) throw new Error('No holdings');
+        const top = data.reduce((best, cand) => cand.rank < best.rank ? cand : best, data[0]);
         const ticker = top.baseTicker.split(':')[0];
-
-        // Resolve logo URL
-        let logoUrl = '';
-        if (typeof top.logo === 'string' && top.logo) {
-          logoUrl = top.logo;
-        } else if (Array.isArray(top.logo) && top.logo[0]) {
+        let logo = '';
+        if (typeof top.logo === 'string') logo = top.logo;
+        else if (Array.isArray(top.logo) && top.logo[0]) {
           const f = top.logo[0];
-          logoUrl = f.thumbnails?.small?.url || f.url || '';
+          logo = f.thumbnails?.small?.url || f.url || '';
         }
-
-        // Populate
-        sidebar.querySelector('.logo').src = logoUrl;
+        sidebar.querySelector('.logo').src = logo;
         sidebar.querySelector('.logo').alt = `${ticker} logo`;
         sidebar.querySelector('.company-name').textContent = ticker;
         sidebar.querySelector('.full-name').textContent = top.name || '';
@@ -103,23 +122,18 @@
         sidebar.querySelector('.description').textContent =
           `At Victor Philip, we believe in evaluating companies from ALL sides. ${top.name || ticker} ` +
           `scores high on stable growth, valuation, ROIC, balance‐sheet strength, cash‐flow, sentiment and momentum.`;
-
-        // Truncate description
-        const words = (top.description || '').split(/\s+/);
+        const descWords = (top.description || '').split(/\s+/);
         sidebar.querySelector('.custom-description').textContent =
-          words.slice(0, Math.ceil(words.length / 2)).join(' ') + '…';
+          descWords.slice(0, Math.ceil(descWords.length/2)).join(' ') + '…';
       })
       .catch(err => {
-        console.error('❌ Sidebar error:', err);
+        console.error('Sidebar error:', err);
         sidebar.querySelector('.description').textContent = 'Unable to load top pick.';
         sidebar.querySelector('.custom-description').textContent = '';
       });
   }
 
-  // Initialize after DOM ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initSidebar);
-  } else {
-    initSidebar();
-  }
+  } else initSidebar();
 })();
