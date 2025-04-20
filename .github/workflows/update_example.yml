@@ -44,7 +44,7 @@ jobs:
           jq '.records | map({
             baseTicker: (.fields.Ticker // ""),
             rank:      (.fields.Rank   // 0),
-            logo:      (.fields.Logo   // "")
+            logo:      (.fields.Logo   // ""),
             name:         (.fields.Name       // ""),
             description:  (.fields.Description// "")
           })' algo1Raw.json > example_holding.json
