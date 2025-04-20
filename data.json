@@ -75,9 +75,9 @@
     "fullTicker": "ARE:CAN",
     "baseTicker": "ARE",
     "rank": 22.8891,
-    "price": 77.84,
-    "prevClose": 77.12,
-    "absReturn": 0.7199999999999989,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attmwvMud50kOFTcE",
@@ -219,9 +219,9 @@
     "fullTicker": "TNDM:USA",
     "baseTicker": "TNDM",
     "rank": 54.8458,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 16.86,
+    "prevClose": 17.26,
+    "absReturn": -0.40000000000000213,
     "logo": [
       {
         "id": "attp58UsWMYfRMTiZ",
