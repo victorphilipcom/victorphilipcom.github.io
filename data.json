@@ -147,9 +147,9 @@
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
-    "price": 31.38,
-    "prevClose": 32.7,
-    "absReturn": -1.3200000000000038,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attNZ6bVwMsQ3SUIx",
@@ -219,9 +219,9 @@
     "fullTicker": "CRL:USA",
     "baseTicker": "CRL",
     "rank": 44.2438,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 106.05,
+    "prevClose": 104.25,
+    "absReturn": 1.7999999999999972,
     "logo": [
       {
         "id": "att0BPhEduY4t4DqU",
