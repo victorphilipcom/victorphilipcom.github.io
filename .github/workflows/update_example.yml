@@ -45,6 +45,8 @@ jobs:
             baseTicker: (.fields.Ticker // ""),
             rank:      (.fields.Rank   // 0),
             logo:      (.fields.Logo   // "")
+            name:         (.fields.Name       // ""),
+            description:  (.fields.Description// "")
           })' algo1Raw.json > example_holding.json
           echo "===== example_holding.json ====="
           cat example_holding.json
