@@ -111,9 +111,9 @@
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
-    "price": 26.35,
-    "prevClose": 27.58,
-    "absReturn": -1.2299999999999969,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attuvqXc6S0Ea8ukB",
@@ -363,9 +363,9 @@
     "fullTicker": "MGIC:USA",
     "baseTicker": "MGIC",
     "rank": 99.854,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 13.3,
+    "prevClose": 13.24,
+    "absReturn": 0.0600000000000005,
     "logo": [
       {
         "id": "atttujlIaJs7qz82O",
