@@ -14,12 +14,12 @@
   // Allow overriding JSON URL via data attribute
   const dataUrl = currentScript.dataset.jsonUrl || (baseUrl + 'example_holding.json');
 
-  // Inject styles
+  // Inject styles with initial hidden state and positioned at 70vh
   const style = document.createElement('style');
   style.textContent = `
     #top-pick-sidebar {
       position: fixed;
-      top: 20px;
+      top: 70vh;          /* Start at 70% of viewport height */
       right: 0;
       width: 280px;
       background: #fafafa;
@@ -31,6 +31,13 @@
       max-height: calc(100vh - 40px);
       overflow-y: auto;
       font-family: sans-serif;
+      visibility: hidden; /* hidden until scroll threshold */
+      opacity: 0;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    #top-pick-sidebar.visible {
+      visibility: visible;
+      opacity: 1;
     }
     #top-pick-sidebar h2 { margin:0 0 10px; font-size:18px; color:#333; }
     #top-pick-sidebar .logo { display:block; max-height:40px; margin-bottom:10px; }
@@ -73,6 +80,20 @@
     </a>
   `;
   document.body.appendChild(sidebar);
+
+  // Show sidebar when scrolled past 30% of page height
+  function checkScroll() {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    if (docHeight > 0 && scrollTop / docHeight >= 0.3) {
+      sidebar.classList.add('visible');
+    } else {
+      sidebar.classList.remove('visible');
+    }
+  }
+  window.addEventListener('scroll', checkScroll);
+  // initial check in case starting scrolled
+  checkScroll();
 
   // Fetch and populate
   fetch(dataUrl)
