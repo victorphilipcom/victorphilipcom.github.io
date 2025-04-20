@@ -39,9 +39,9 @@
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
-    "price": 0,
-    "prevClose": 0,
-    "absReturn": 0,
+    "price": 10.15,
+    "prevClose": 10.02,
+    "absReturn": 0.13000000000000078,
     "logo": [
       {
         "id": "att3IpPCDbErkHC4N",
@@ -111,9 +111,9 @@
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
-    "price": 26.35,
-    "prevClose": 27.58,
-    "absReturn": -1.2299999999999969,
+    "price": 0,
+    "prevClose": 0,
+    "absReturn": 0,
     "logo": [
       {
         "id": "attuvqXc6S0Ea8ukB",
