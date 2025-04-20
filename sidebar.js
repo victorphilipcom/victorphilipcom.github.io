@@ -1,6 +1,17 @@
 // sidebar.js
 (function() {
-  // Create and inject styles
+  // Derive base URL from the script's src, so JSON is fetched from same directory
+  const currentScript = document.currentScript || (
+    function() {
+      const scripts = document.getElementsByTagName('script');
+      return scripts[scripts.length - 1];
+    }
+  )();
+  const baseUrl = currentScript.src
+    ? currentScript.src.substring(0, currentScript.src.lastIndexOf('/') + 1)
+    : '';
+
+  // Inject styles
   const style = document.createElement('style');
   style.textContent = `
     #top-pick-sidebar {
@@ -43,7 +54,7 @@
   `;
   document.head.appendChild(style);
 
-  // Create sidebar markup
+  // Create and inject sidebar
   const sidebar = document.createElement('aside');
   sidebar.id = 'top-pick-sidebar';
   sidebar.innerHTML = `
@@ -52,7 +63,7 @@
     <div class="company-name"></div>
     <div class="full-name"></div>
     <div class="rank"></div>
-    <p class="description"></p>
+    <p class="description">Loading...</p>
     <p class="custom-description"></p>
     <a id="more-link" href="https://victorphilip.com/Rankings" class="cta-button" target="_top" rel="noopener noreferrer">
       Want more…?
@@ -61,12 +72,18 @@
   document.body.appendChild(sidebar);
 
   // Fetch and populate data
-  fetch('example_holding.json')
-    .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
+  const dataUrl = baseUrl + 'example_holding.json';
+  fetch(dataUrl)
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    })
     .then(data => {
       if (!Array.isArray(data) || !data.length) throw new Error('No holdings data');
       const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
       const ticker = top.baseTicker.split(':')[0];
+
+      // Resolve logo URL
       let logoUrl = '';
       if (typeof top.logo === 'string' && top.logo) {
         logoUrl = top.logo;
@@ -74,6 +91,7 @@
         const f = top.logo[0];
         logoUrl = f.thumbnails?.small?.url || f.url || '';
       }
+
       sidebar.querySelector('img.logo').src = logoUrl;
       sidebar.querySelector('img.logo').alt = `${ticker} logo`;
       sidebar.querySelector('.company-name').textContent = ticker;
@@ -82,13 +100,17 @@
       sidebar.querySelector('.description').textContent =
         `At Victor Philip, we believe in evaluating companies from ALL sides. ${top.name || ticker} ` +
         `scores high on stable growth, valuation, ROIC, balance‐sheet strength, cash‐flow, sentiment and momentum.`;
+
+      // Truncate custom description
       const fullDesc = top.description || '';
       const words = fullDesc.split(/\s+/);
-      const truncated = words.slice(0, Math.ceil(words.length/2)).join(' ');
+      const halfCount = Math.ceil(words.length/2);
+      const truncated = words.slice(0, halfCount).join(' ');
       sidebar.querySelector('.custom-description').textContent = truncated + '…';
     })
     .catch(err => {
       console.error('❌ Sidebar error:', err);
-      sidebar.innerHTML = '<p>Unable to load top pick at this time.</p>';
+      sidebar.querySelector('.description').textContent = 'Unable to load top pick at this time.';
+      sidebar.querySelector('.custom-description').textContent = '';
     });
 })();
