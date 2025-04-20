@@ -1,15 +1,18 @@
 // sidebar.js
 (function() {
-  // Derive base URL from the script's src, so JSON is fetched from same directory
-  const currentScript = document.currentScript || (
-    function() {
-      const scripts = document.getElementsByTagName('script');
-      return scripts[scripts.length - 1];
-    }
-  )();
+  // Get current script element
+  const currentScript = document.currentScript || (function() {
+    const scripts = document.getElementsByTagName('script');
+    return scripts[scripts.length - 1];
+  })();
+
+  // Derive base URL from script src
   const baseUrl = currentScript.src
     ? currentScript.src.substring(0, currentScript.src.lastIndexOf('/') + 1)
     : '';
+
+  // Allow overriding JSON URL via data attribute
+  const dataUrl = currentScript.dataset.jsonUrl || (baseUrl + 'example_holding.json');
 
   // Inject styles
   const style = document.createElement('style');
@@ -29,32 +32,32 @@
       overflow-y: auto;
       font-family: sans-serif;
     }
-    #top-pick-sidebar h2 { margin-top: 0; font-size: 18px; color: #333; }
-    #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
-    #top-pick-sidebar .company-name { font-weight: bold; font-size: 16px; }
-    #top-pick-sidebar .full-name { font-size: 14px; color: #666; }
-    #top-pick-sidebar .rank { color: #555; margin: 10px 0; }
-    #top-pick-sidebar .description { font-size: 14px; color: #444; }
-    #top-pick-sidebar .custom-description { font-size: 13px; color: #444; margin-top: 10px; }
+    #top-pick-sidebar h2 { margin:0 0 10px; font-size:18px; color:#333; }
+    #top-pick-sidebar .logo { display:block; max-height:40px; margin-bottom:10px; }
+    #top-pick-sidebar .company-name { font-weight:bold; font-size:16px; }
+    #top-pick-sidebar .full-name { font-size:14px; color:#666; }
+    #top-pick-sidebar .rank { color:#555; margin:10px 0; }
+    #top-pick-sidebar .description { font-size:14px; color:#444; margin:0; }
+    #top-pick-sidebar .custom-description { font-size:13px; color:#444; margin:10px 0 0; }
     .cta-button {
-      display: block;
-      width: 100%;
-      padding: 12px 0;
-      margin-top: 10px;
-      text-align: center;
-      font-weight: 600;
-      color: #fff;
-      background-color: #87cefa;
-      border-radius: 4px;
-      text-decoration: none;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-      transition: background-color 0.2s ease;
+      display:block;
+      width:100%;
+      padding:12px 0;
+      margin-top:12px;
+      text-align:center;
+      font-weight:600;
+      color:#fff;
+      background-color:#87cefa;
+      border-radius:4px;
+      text-decoration:none;
+      box-shadow:0 2px 4px rgba(0,0,0,0.15);
+      transition:background-color 0.2s ease;
     }
-    .cta-button:hover { background-color: #000; }
+    .cta-button:hover { background-color:#000; }
   `;
   document.head.appendChild(style);
 
-  // Create and inject sidebar
+  // Create sidebar element
   const sidebar = document.createElement('aside');
   sidebar.id = 'top-pick-sidebar';
   sidebar.innerHTML = `
@@ -71,8 +74,7 @@
   `;
   document.body.appendChild(sidebar);
 
-  // Fetch and populate data
-  const dataUrl = baseUrl + 'example_holding.json';
+  // Fetch and populate
   fetch(dataUrl)
     .then(res => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -83,7 +85,6 @@
       const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
       const ticker = top.baseTicker.split(':')[0];
 
-      // Resolve logo URL
       let logoUrl = '';
       if (typeof top.logo === 'string' && top.logo) {
         logoUrl = top.logo;
@@ -92,6 +93,7 @@
         logoUrl = f.thumbnails?.small?.url || f.url || '';
       }
 
+      // Populate
       sidebar.querySelector('img.logo').src = logoUrl;
       sidebar.querySelector('img.logo').alt = `${ticker} logo`;
       sidebar.querySelector('.company-name').textContent = ticker;
@@ -101,16 +103,14 @@
         `At Victor Philip, we believe in evaluating companies from ALL sides. ${top.name || ticker} ` +
         `scores high on stable growth, valuation, ROIC, balance‐sheet strength, cash‐flow, sentiment and momentum.`;
 
-      // Truncate custom description
-      const fullDesc = top.description || '';
-      const words = fullDesc.split(/\s+/);
-      const halfCount = Math.ceil(words.length/2);
-      const truncated = words.slice(0, halfCount).join(' ');
-      sidebar.querySelector('.custom-description').textContent = truncated + '…';
+      // Truncate description
+      const words = (top.description || '').split(/\s+/);
+      sidebar.querySelector('.custom-description').textContent =
+        words.slice(0, Math.ceil(words.length/2)).join(' ') + '…';
     })
     .catch(err => {
       console.error('❌ Sidebar error:', err);
-      sidebar.querySelector('.description').textContent = 'Unable to load top pick at this time.';
+      sidebar.querySelector('.description').textContent = 'Unable to load top pick.';
       sidebar.querySelector('.custom-description').textContent = '';
     });
 })();
