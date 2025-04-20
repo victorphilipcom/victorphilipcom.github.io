@@ -5,35 +5,32 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Algorithm 1 Top Pick Sidebar</title>
   <style>
-    html, body { margin:0; padding:0; font-family:sans-serif; }
+    html, body { margin:0; padding:0; font-family:sans-serif }
     #top-pick-sidebar {
-      position: fixed;
-      top: 20px;
-      right: 0;
-      width: 280px;
-      background: #fafafa;
-      border-left: 1px solid #ddd;
-      padding: 15px;
-      box-shadow: -2px 0 5px rgba(0,0,0,0.1);
-      line-height: 1.5;
+      position: fixed; top:20px; right:0;
+      width:280px; background:#fafafa;
+      border-left:1px solid #ddd; padding:15px;
+      box-shadow:-2px 0 5px rgba(0,0,0,0.1);
+      line-height:1.5;
     }
-    #top-pick-sidebar h2 { margin-top:0; font-size:18px; color:#333; }
-    #top-pick-sidebar .logo { display:block; max-height:40px; margin-bottom:10px; }
-    #top-pick-sidebar .company-name { font-weight:bold; font-size:16px; margin-bottom:5px; }
-    #top-pick-sidebar .rank { color:#555; margin-bottom:15px; }
+    #top-pick-sidebar h2 { margin-top:0; font-size:18px; color:#333 }
+    #top-pick-sidebar .logo { display:block; max-height:40px; margin-bottom:10px }
+    #top-pick-sidebar .company-name { font-weight:bold; font-size:16px; }
+    #top-pick-sidebar .full-name { font-size:14px; color:#666; }
+    #top-pick-sidebar .rank { color:#555; margin:10px 0; }
     #top-pick-sidebar .description { font-size:14px; color:#444; }
+    #top-pick-sidebar .custom-description { font-size:13px; color:#444; margin-top:10px }
   </style>
 </head>
 <body>
-
   <aside id="top-pick-sidebar">
     <h2>One Top Pick For You</h2>
     <img class="logo" src="" alt="Company logo">
     <div class="company-name"></div>
+    <div class="full-name"></div>
     <div class="rank"></div>
-    <p class="description">
-      At Victor Philip, we believe in evaluating companies from ALL sides. Stable and accelerating growth, a valuation that is not too high, a quality return on invested capital, a robust balance sheet and cash flow stream, a positive sentiment score (we don't want a company with a CEO in jail), an industry that is in momentum and preferably the company being under the radar. <span class="company-name-inline"></span> scores high on all these characteristics. Hence, it is one of our top picks of the week!
-    </p>
+    <p class="description"></p>
+    <p class="custom-description"></p>
   </aside>
 
   <script>
@@ -45,37 +42,33 @@
           return res.json();
         })
         .then(data => {
-          if (!Array.isArray(data) || data.length === 0) {
-            throw new Error("No holdings data in JSON");
+          if (!Array.isArray(data) || !data.length) {
+            throw new Error("No holdings data");
           }
-
-          // Pick the smallest rank value
-          let top = data.reduce((best, curr) => curr.rank < best.rank ? curr : best, data[0]);
-
-          // Strip off any country code suffix (e.g. "FAA:DEU" → "FAA")
-          const rawTicker = top.baseTicker || "";
-          const ticker = rawTicker.split(":")[0];
-
-          // Resolve logo URL, prefer thumbnails.small, else the main file url
+          // pick lowest rank
+          let top = data.reduce((best,c) => c.rank < best.rank ? c : best, data[0]);
+          const rawTicker = top.baseTicker.split(":")[0];
+          const ticker = rawTicker;
+          // logo resolution
           let logoUrl = "";
-          if (typeof top.logo === "string" && top.logo.trim()) {
+          if (typeof top.logo==="string" && top.logo) {
             logoUrl = top.logo;
-          } else if (Array.isArray(top.logo) && top.logo.length > 0) {
-            const file = top.logo[0];
-            logoUrl = (file.thumbnails?.small?.url) || file.url || "";
+          } else if (Array.isArray(top.logo) && top.logo[0]) {
+            const f = top.logo[0];
+            logoUrl = f.thumbnails?.small?.url || f.url || "";
           }
-
-          if (!logoUrl) {
-            console.warn("⚠️ No logo URL found for", ticker);
-          }
-
-          const sidebar = document.getElementById("top-pick-sidebar");
-          sidebar.querySelector("img.logo").src = logoUrl;
-          sidebar.querySelector("img.logo").alt = ticker + " logo";
-          sidebar.querySelector(".company-name").textContent = ticker;
-          sidebar.querySelector(".company-name-inline").textContent = ticker;
-          sidebar.querySelector(".rank").textContent =
+          const sb = document.getElementById("top-pick-sidebar");
+          sb.querySelector("img.logo").src = logoUrl;
+          sb.querySelector("img.logo").alt = ticker + " logo";
+          sb.querySelector(".company-name").textContent = ticker;
+          sb.querySelector(".full-name").textContent = top.name || "";
+          sb.querySelector(".rank").textContent = 
             "Overall Rank: " + parseFloat(top.rank).toFixed(1);
+          sb.querySelector(".description").textContent = 
+            `At Victor Philip, we believe in evaluating companies from ALL sides. `
+            + `${top.name || ticker} scores high on stable growth, valuation, ROIC, `
+            + `balance‐sheet strength, cash‐flow, sentiment and momentum.`;
+          sb.querySelector(".custom-description").textContent = top.description || "";
         })
         .catch(err => {
           console.error("❌ Sidebar error:", err);
@@ -84,6 +77,5 @@
         });
     });
   </script>
-
 </body>
 </html>
