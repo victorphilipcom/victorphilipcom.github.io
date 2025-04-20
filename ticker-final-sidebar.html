@@ -1,61 +1,99 @@
-name: "Fetch Algorithm1 Holdings"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorithm 1 Top Pick Sidebar</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    #top-pick-sidebar {
+      position: fixed;
+      top: 20px;          /* adjust as needed */
+      right: 0;
+      width: 280px;
+      background: #fafafa;
+      border-left: 1px solid #ddd;
+      padding: 15px;
+      box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+      line-height: 1.5;
+    }
+    #top-pick-sidebar h2 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #333;
+    }
+    #top-pick-sidebar .logo {
+      display: block;
+      max-height: 40px;
+      margin-bottom: 10px;
+    }
+    #top-pick-sidebar .company-name {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    #top-pick-sidebar .rank {
+      color: #555;
+      margin-bottom: 15px;
+    }
+    #top-pick-sidebar .description {
+      font-size: 14px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
 
-on:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+  <aside id="top-pick-sidebar">
+    <h2>One Top Pick For You</h2>
+    <img class="logo" src="" alt="Company logo">
+    <div class="company-name"></div>
+    <div class="rank"></div>
+    <p class="description">
+      At Victor Philip, we believe in evaluating companies from ALL sides. Stable and accelerating growth, a valuation that is not too high, a quality return on invested capital, a robust balance sheet and cash flow stream, a positive sentiment score (we don't want a company with a CEO in jail), an industry that is in momentum and preferably the company being under the radar. <span class="company-name-inline"></span> scores high on all these characteristics. Hence, it is one of our top picks of the week!
+    </p>
+  </aside>
 
-jobs:
-  update_algo1:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repo
-        uses: actions/checkout@v3
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Fetch from your Algorithm1_holdings data source
+      fetch("algorithm1_holdings.json")
+        .then(res => res.json())
+        .then(data => {
+          // Pick the top entry by rank (ascending)
+          const top = Array.isArray(data)
+            ? data.slice().sort((a, b) => a.rank - b.rank)[0]
+            : null;
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq curl
+          if (!top) throw new Error("No holdings data");
 
-      - name: Fetch Algorithm1_holdings from Airtable
-        env:
-          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
-        run: |
-          API_URL="https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=100"
-          echo "Fetching Algorithm1_holdings from Airtable..."
-          HTTP_STATUS=$(curl -sSL -w "%{http_code}" -D headers_algo1.txt \
-            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "$API_URL" \
-            -o algo1Raw.json)
-          echo "HTTP status: $HTTP_STATUS"
-          if [ "$HTTP_STATUS" -ne 200 ]; then
-            echo "Error fetching Algorithm1_holdings (HTTP $HTTP_STATUS):"
-            cat algo1Raw.json
-            exit 1
-          fi
+          // Resolve logo URL
+          let logoUrl = "";
+          if (typeof top.logo === "string" && top.logo.trim()) {
+            logoUrl = top.logo;
+          } else if (Array.isArray(top.logo) && top.logo[0]?.thumbnails?.small?.url) {
+            logoUrl = top.logo[0].thumbnails.small.url + "?maxHeight=40";
+          }
 
-      - name: Verify Algorithm1_holdings JSON
-        run: |
-          if ! jq -e '.records' algo1Raw.json >/dev/null; then
-            echo "Error: algo1Raw.json does not contain a 'records' field."
-            cat algo1Raw.json
-            exit 1
-          fi
+          // Populate sidebar
+          const sidebar = document.getElementById("top-pick-sidebar");
+          sidebar.querySelector("img.logo").src = logoUrl;
+          sidebar.querySelector("img.logo").alt = top.baseTicker + " logo";
+          sidebar.querySelector(".company-name").textContent = top.baseTicker;
+          sidebar.querySelector(".company-name-inline").textContent = top.baseTicker;
+          sidebar.querySelector(".rank").textContent = "Overall Rank: " + parseFloat(top.rank).toFixed(1);
+        })
+        .catch(err => {
+          console.error("Error loading Algorithm1 holdings:", err);
+          const sidebar = document.getElementById("top-pick-sidebar");
+          sidebar.innerHTML = "<p>Unable to load top pick at this time.</p>";
+        });
+    });
+  </script>
 
-      - name: Flatten Algorithm1_holdings Data
-        run: |
-          jq '.records | map({
-            baseTicker: (.fields.Ticker // ""),
-            rank:      (.fields.Rank   // 0),
-            logo:      (.fields.Logo   // "")
-          })' algo1Raw.json > example_holding.json
-          echo "===== example_holding.json ====="
-          cat example_holding.json
-
-      - name: Commit example_holding.json
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add example_holding.json
-          git commit -m "Update Algorithm1 holdings snapshot" || exit 0
-          git push origin HEAD:main
+</body>
+</html>
