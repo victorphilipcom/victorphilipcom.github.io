@@ -40,28 +40,6 @@
         visibility: visible;
         opacity: 1;
       }
-      #top-pick-sidebar h2 { margin:0 0 10px; font-size:18px; color:#333; }
-      #top-pick-sidebar .logo { display:block; max-height:40px; margin-bottom:10px; }
-      #top-pick-sidebar .company-name { font-weight:bold; font-size:16px; }
-      #top-pick-sidebar .full-name { font-size:14px; color:#666; }
-      #top-pick-sidebar .rank { color:#555; margin:10px 0; }
-      #top-pick-sidebar .description { font-size:14px; color:#444; margin:0; }
-      #top-pick-sidebar .custom-description { font-size:13px; color:#444; margin:10px 0 0; }
-      .cta-button {
-        display:block;
-        width:100%;
-        padding:12px 0;
-        margin-top:12px;
-        text-align:center;
-        font-weight:600;
-        color:#fff;
-        background-color:#87cefa;
-        border-radius:4px;
-        text-decoration:none;
-        box-shadow:0 2px 4px rgba(0,0,0,0.15);
-        transition:background-color 0.2s ease;
-      }
-      .cta-button:hover { background-color:#000; }
     `;
     document.head.appendChild(style);
 
@@ -82,17 +60,19 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Show sidebar when scrolled past 30% of total page height
+    // Show sidebar when scrolled past 30% of scrollable height
     function checkScroll() {
       const scrollTop = window.scrollY;
-      const totalHeight = document.documentElement.scrollHeight;
-      if (scrollTop >= totalHeight * 0.3) {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollable > 0 && scrollTop >= scrollable * 0.3) {
         sidebar.classList.add('visible');
       } else {
         sidebar.classList.remove('visible');
       }
     }
+    // Listen and initial check
     window.addEventListener('scroll', checkScroll);
+    checkScroll();
 
     // Fetch and populate
     fetch(dataUrl)
@@ -105,6 +85,7 @@
         const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
         const ticker = top.baseTicker.split(':')[0];
 
+        // Resolve logo URL
         let logoUrl = '';
         if (typeof top.logo === 'string' && top.logo) {
           logoUrl = top.logo;
@@ -114,8 +95,8 @@
         }
 
         // Populate
-        sidebar.querySelector('img.logo').src = logoUrl;
-        sidebar.querySelector('img.logo').alt = `${ticker} logo`;
+        sidebar.querySelector('.logo').src = logoUrl;
+        sidebar.querySelector('.logo').alt = `${ticker} logo`;
         sidebar.querySelector('.company-name').textContent = ticker;
         sidebar.querySelector('.full-name').textContent = top.name || '';
         sidebar.querySelector('.rank').textContent = `Overall Rank: ${parseFloat(top.rank).toFixed(1)}`;
@@ -126,7 +107,7 @@
         // Truncate description
         const words = (top.description || '').split(/\s+/);
         sidebar.querySelector('.custom-description').textContent =
-          words.slice(0, Math.ceil(words.length/2)).join(' ') + '…';
+          words.slice(0, Math.ceil(words.length / 2)).join(' ') + '…';
       })
       .catch(err => {
         console.error('❌ Sidebar error:', err);
