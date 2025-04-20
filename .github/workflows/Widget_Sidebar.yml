@@ -1,0 +1,58 @@
+name: "Fetch Algorithm1 Holdings"
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update_algo1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Fetch Algorithm1_holdings from Airtable
+        env:
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+        run: |
+          echo "Fetching Algorithm1_holdings from Airtable..."
+          curl -sSL -D headers_algo1.txt \
+            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblYourAlgo1TableID?maxRecords=100" \
+            -o algo1Raw.json
+          echo "HTTP headers for Algorithm1_holdings:"
+          cat headers_algo1.txt
+          echo "===== Raw Algorithm1_holdings ====="
+          cat algo1Raw.json
+
+      - name: Verify Algorithm1_holdings JSON
+        run: |
+          if ! jq -e '.records' algo1Raw.json >/dev/null; then
+            echo "Error: algo1Raw.json does not contain a 'records' field."
+            cat algo1Raw.json
+            exit 1
+          fi
+
+      - name: Flatten Algorithm1_holdings Data
+        run: |
+          jq '.records | map({
+            baseTicker: (.fields.Ticker // ""),
+            rank:      (.fields.Rank   // 0),
+            logo:      (.fields.Logo   // "")
+          })' algo1Raw.json > example_holding.json
+          echo "===== example_holding.json ====="
+          cat example_holding.json
+
+      - name: Commit example_holding.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add example_holding.json
+          git commit -m "Update Algorithm1 holdings snapshot" || exit 0
+          git push origin HEAD:main
