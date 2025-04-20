@@ -24,7 +24,7 @@ jobs:
           echo "Fetching Algorithm1_holdings from Airtable..."
           curl -sSL -D headers_algo1.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=100&view=viwxkr5KoTtXqyC8r" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=1&view=viwxkr5KoTtXqyC8r" \
             -o algo1Raw.json
           echo "HTTP headers for Algorithm1_holdings:"
           cat headers_algo1.txt
