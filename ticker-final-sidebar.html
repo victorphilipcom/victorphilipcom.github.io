@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Algorithm 1 Top Pick Sidebar</title>
   <style>
-    html, body { margin:0; padding:0; font-family:sans-serif }
-    /* Reserve space for sidebar to avoid overlapping content */
-    body { margin-right: 300px; }
+    html, body { margin: 0; padding: 0; font-family: sans-serif; }
+    /* Sidebar will overlay content without reserving space */
 
     #top-pick-sidebar {
       position: fixed;        /* Fixes sidebar to viewport */
@@ -19,18 +18,18 @@
       padding: 15px;
       box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
       line-height: 1.5;
-      z-index: 9999;          /* Ensures it stays above other content */
+      z-index: 10000;         /* Higher to stay above all content */
       max-height: calc(100vh - 40px);
       overflow-y: auto;       /* Scroll within sidebar if content grows */
     }
 
-    #top-pick-sidebar h2 { margin-top: 0; font-size: 18px; color: #333 }
-    #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px }
+    #top-pick-sidebar h2 { margin-top: 0; font-size: 18px; color: #333; }
+    #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
     #top-pick-sidebar .company-name { font-weight: bold; font-size: 16px; }
     #top-pick-sidebar .full-name { font-size: 14px; color: #666; }
     #top-pick-sidebar .rank { color: #555; margin: 10px 0; }
     #top-pick-sidebar .description { font-size: 14px; color: #444; }
-    #top-pick-sidebar .custom-description { font-size: 13px; color: #444; margin-top: 10px }
+    #top-pick-sidebar .custom-description { font-size: 13px; color: #444; margin-top: 10px; }
 
     .cta-button {
       display: block;
@@ -92,7 +91,7 @@
           sb.querySelector(".full-name").textContent = top.name || "";
           sb.querySelector(".rank").textContent = `Overall Rank: ${parseFloat(top.rank).toFixed(1)}`;
           sb.querySelector(".description").textContent =
-            `At Victor Philip, we believe in evaluating companies from ALL possible perspectives. You wouldn't buy a house based on its price alone, it might have a crumbling foundation. It's the same for companies!  ${top.name || ticker} scores high on stable growth, low valuation, high return on capital, great balance‐sheet strength, a stable cash‐flow, positive sentiment and high industry momentum.`;
+            `At Victor Philip, we believe in evaluating companies from ALL possible perspectives. You wouldn't buy a house based on its price alone, it might have a crumbling foundation. It's the same for companies! ${top.name || ticker} scores high on stable growth, low valuation, high return on capital, great balance‐sheet strength, a stable cash‐flow, positive sentiment and high industry momentum.`;
 
           const fullDesc = top.description || "";
           const words = fullDesc.split(/\s+/);
