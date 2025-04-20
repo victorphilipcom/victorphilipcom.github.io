@@ -21,7 +21,7 @@ jobs:
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          API_URL="https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblYourAlgo1TableID?maxRecords=100"
+          API_URL="https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblW1gCMCcxFIuTDD?maxRecords=100"
           echo "Fetching Algorithm1_holdings from Airtable..."
           HTTP_STATUS=$(curl -sSL -w "%{http_code}" -D headers_algo1.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
