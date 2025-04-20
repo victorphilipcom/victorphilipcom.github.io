@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Set the viewport for mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking Widget with Sidebar</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    /* === TICKER STYLES (unchanged) === */
+    #ticker-container {
+      width: 100%;
+      height: 40px;
+      overflow: hidden;
+      white-space: nowrap;
+      border-bottom: 1px solid #ccc;
+    }
+    /* … your existing ticker CSS … */
+
+    /* === SIDEBAR STYLES === */
+    #top-pick-sidebar {
+      position: fixed;
+      top: 60px;              /* below the ticker */
+      right: 0;
+      width: 300px;
+      max-width: 80%;
+      height: auto;
+      background: #fafafa;
+      border-left: 1px solid #ddd;
+      padding: 20px;
+      box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    #top-pick-sidebar h2 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #333;
+    }
+    #top-pick-sidebar .logo {
+      display: block;
+      max-height: 40px;
+      margin-bottom: 10px;
+    }
+    #top-pick-sidebar .company-name {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    #top-pick-sidebar .rank {
+      color: #555;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Your existing ticker -->
+  <div id="ticker-container">
+    <a id="ticker-link" href="https://victorphilip.com/Rankings" target="_top">
+      <div id="ticker-text">Loading final holdings...</div>
+    </a>
+  </div>
+
+  <!-- NEW: Top Pick Sidebar -->
+  <aside id="top-pick-sidebar">
+    <h2>One Top Pick For You</h2>
+    <img class="logo" src="" alt="Company logo">
+    <div class="company-name"></div>
+    <div class="rank"></div>
+    <p class="description">
+      At Victor Philip, we believe in evaluating companies from ALL sides. Stable and accelerating growth, a valuation that is not too high, a quality return on invested capital, a robust balance sheet and cash flow stream, a positive sentiment score (we don't want a company with a CEO in jail), an industry that is in momentum and preferably the company being under the radar. <span class="company-name-inline"></span> scores high on all these characteristics. Hence, it is one of our top picks of the week!
+    </p>
+  </aside>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      fetch("data.json")
+        .then(resp => resp.json())
+        .then(finalHoldings => {
+          // --- Build the ticker as before ---
+          // (your existing ticker-code here…)
+
+          // --- NEW: Pick the top-ranked holding ---
+          // Assume lower rank number is better
+          const sorted = finalHoldings.slice().sort((a,b) => a.rank - b.rank);
+          const top = sorted[0];
+
+          // Resolve logo URL the same way your mapTicker does
+          let logoUrl = "";
+          if (typeof top.logo === "string" && top.logo.trim()) {
+            logoUrl = top.logo;
+          } else if (Array.isArray(top.logo) && top.logo[0]?.thumbnails?.small?.url) {
+            logoUrl = top.logo[0].thumbnails.small.url + "?maxHeight=40";
+          }
+
+          // Fill sidebar elements
+          const sidebar = document.getElementById("top-pick-sidebar");
+          sidebar.querySelector("img.logo").src = logoUrl;
+          sidebar.querySelector("img.logo").alt = top.baseTicker + " logo";
+          sidebar.querySelector(".company-name").textContent = top.baseTicker;
+          sidebar.querySelector(".company-name-inline").textContent = top.baseTicker;
+          sidebar.querySelector(".rank").textContent = "Overall Rank: " + parseFloat(top.rank).toFixed(1);
+        })
+        .catch(err => {
+          console.error("Error loading final holdings:", err);
+          document.getElementById("top-pick-sidebar")
+                  .querySelector(".description")
+                  .textContent = "Unable to load top pick at this time.";
+        });
+    });
+  </script>
+
+</body>
+</html>
