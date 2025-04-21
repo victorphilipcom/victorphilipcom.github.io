@@ -19,8 +19,11 @@
       @keyframes slideIn {
         from { opacity: 0; transform: translateX(100%) translateY(-50%); }
         to   { opacity: 1; transform: translateX(0) translateY(-50%); }
-      } to { opacity: 1; transform: translateX(0); } }
-      @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+      }
 
       #top-pick-sidebar, #top-pick-toggle { font-family: sans-serif; z-index: 10000; }
       #top-pick-sidebar {
@@ -34,24 +37,27 @@
         box-shadow: -3px 0 8px rgba(0,0,0,0.2);
         line-height: 1.5;
         display: none;
-        /* center vertically */
         transform: translateY(-50%);
         animation: slideIn 0.4s ease forwards;
-      }
       }
       #top-pick-sidebar.show { display: block; }
       #top-pick-sidebar .close-btn {
         position: absolute;
-        top: 8px; right: 8px;
-        background: transparent; border: none;
-        font-size: 20px; cursor: pointer; color: #666;
+        top: 8px;
+        right: 8px;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        color: #666;
       }
       #top-pick-sidebar h2 { margin: 0 0 10px; font-size: 20px; color: #333; }
       #top-pick-sidebar .logo { display: block; max-height: 50px; margin-bottom: 10px; }
       #top-pick-sidebar .company-name { font-weight: bold; font-size: 18px; }
       #top-pick-sidebar .full-name { font-size: 15px; color: #555; margin-bottom: 8px; }
       #top-pick-sidebar .rank { color: #333; margin: 10px 0; font-weight: 600; }
-      #top-pick-sidebar .description, #top-pick-sidebar .custom-description {
+      #top-pick-sidebar .description,
+      #top-pick-sidebar .custom-description {
         font-size: 14px; color: #444; margin-bottom: 10px;
       }
       #top-pick-sidebar .custom-description { margin-top: 5px; font-size: 13px; }
@@ -59,20 +65,32 @@
         font-size: 12px; color: #888; text-align: right; margin-top: 8px;
       }
       .cta-button {
-        display: block; width: 100%; padding: 12px 0; margin-top: 12px;
-        text-align: center; font-weight: 600; color: #fff;
-        background-color: #87cefa; border-radius: 4px;
-        text-decoration: none; box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+        margin-top: 12px;
+        text-align: center;
+        font-weight: 600;
+        color: #fff;
+        background-color: #87cefa;
+        border-radius: 4px;
+        text-decoration: none;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         animation: pulse 2s infinite;
       }
       .cta-button:hover { background-color: #000; animation-play-state: paused; }
       #top-pick-toggle {
         position: fixed;
-        top: 50%; transform: translateY(-50%);
-        right: 0; background: #87cefa;
-        color: #fff; padding: 10px 14px;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background: #87cefa;
+        color: #fff;
+        padding: 10px 14px;
         border-radius: 4px 0 0 4px;
-        cursor: pointer; display: none; font-size: 14px;
+        cursor: pointer;
+        display: none;
+        font-size: 14px;
       }
       #top-pick-toggle.show { display: block; }
     `;
@@ -101,26 +119,31 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Generate realistic timestamp: 10-60 minutes ago
+    // Generate realistic timestamp
     const stampEl = sidebar.querySelector('.timestamp');
     const now = new Date();
-    const offsetMinutes = Math.floor(Math.random() * 51) + 10; // 10-60
+    const offsetMinutes = Math.floor(Math.random() * 51) + 10;
     const ts = new Date(now.getTime() - offsetMinutes * 60000);
     stampEl.textContent = `Updated: ${ts.toLocaleDateString()} ${ts.toLocaleTimeString()}`;
 
     // Manual toggle
     toggle.addEventListener('click', () => {
-      sidebar.classList.add('show'); toggle.classList.remove('show'); manuallyClosed = false;
+      sidebar.classList.add('show');
+      toggle.classList.remove('show');
+      manuallyClosed = false;
     });
     sidebar.querySelector('.close-btn').addEventListener('click', () => {
-      sidebar.classList.remove('show'); toggle.classList.add('show'); manuallyClosed = true;
+      sidebar.classList.remove('show');
+      toggle.classList.add('show');
+      manuallyClosed = true;
     });
 
     // Scroll trigger
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (ratio >= 0.15 && !manuallyClosed) {
-        sidebar.classList.add('show'); toggle.classList.remove('show');
+      if (ratio >= 0.3 && !manuallyClosed) {
+        sidebar.classList.add('show');
+        toggle.classList.remove('show');
       }
     }
     window.addEventListener('scroll', checkScroll);
@@ -136,7 +159,8 @@
         let logoUrl = '';
         if (typeof top.logo === 'string') logoUrl = top.logo;
         else if (Array.isArray(top.logo) && top.logo[0]) {
-          const f = top.logo[0]; logoUrl = f.thumbnails?.small?.url || f.url || '';
+          const f = top.logo[0];
+          logoUrl = f.thumbnails?.small?.url || f.url || '';
         }
         sidebar.querySelector('.logo').src = logoUrl;
         sidebar.querySelector('.logo').alt = `${ticker} logo`;
