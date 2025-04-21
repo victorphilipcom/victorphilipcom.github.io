@@ -48,7 +48,16 @@
         Want more…?
       </a>
     `;
-    document.body.appendChild(sidebar);
+    try {
+      document.body.appendChild(sidebar);
+    } catch (e) {
+      console.error('Append sidebar to body failed, trying document.documentElement:', e);
+      try {
+        document.documentElement.appendChild(sidebar);
+      } catch (e2) {
+        console.error('Append sidebar to documentElement failed:', e2);
+      }
+    }
     // Debug: sidebar appended
     alert('🆕 Sidebar element appended with id: ' + sidebar.id);
 
