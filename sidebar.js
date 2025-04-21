@@ -168,7 +168,7 @@
         sidebar.querySelector('.full-name').textContent = top.name || '';
         sidebar.querySelector('.rank').textContent = `Rank: ${parseFloat(top.rank).toFixed(1)}`;
         sidebar.querySelector('.description').textContent =
-          `We constantly monitor market leaders. ${top.name || ticker} stands out in growth, valuation, ROIC, and momentum.`;
+          `We constantly monitor and rank potential market leaders that are still under the radar. ${top.name || ticker} stands out in stable growth, valuation, return on capital, sentiment and industry momentum.`;
         const words = (top.description || '').split(/\s+/);
         sidebar.querySelector('.custom-description').textContent = words.slice(0, Math.ceil(words.length/2)).join(' ') + '…';
       })
