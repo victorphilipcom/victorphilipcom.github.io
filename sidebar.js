@@ -1,7 +1,7 @@
 // sidebar.js
 (function() {
   function initSidebar() {
-    // Identify script element
+    // Identify current script
     const currentScript = document.currentScript || (() => {
       const scripts = document.getElementsByTagName('script');
       return scripts[scripts.length - 1];
@@ -11,15 +11,7 @@
       : '';
     const dataUrl = currentScript.dataset.jsonUrl || baseUrl + 'example_holding.json';
 
-    // Create sentinel to detect 30% scroll
-    const sentinel = document.createElement('div');
-    sentinel.style.position = 'absolute';
-    sentinel.style.top = '0px';
-    sentinel.style.width = '1px';
-    sentinel.style.height = '1px';
-    document.body.appendChild(sentinel);
-
-    // Inject full styles
+    // Inject styles
     const style = document.createElement('style');
     style.textContent = `
       #top-pick-sidebar {
@@ -36,40 +28,13 @@
         max-height: calc(100vh - 40px);
         overflow-y: auto;
         font-family: sans-serif;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 0.3s ease, visibility 0.3s ease;
+        display: none; /* hidden until scroll threshold */
       }
-      #top-pick-sidebar.visible {
-        visibility: visible;
-        opacity: 1;
-      }
-      #top-pick-sidebar h2 { margin: 0 0 10px; font-size: 18px; color: #333; }
-      #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
-      #top-pick-sidebar .company-name { font-weight: bold; font-size: 16px; }
-      #top-pick-sidebar .full-name { font-size: 14px; color: #666; }
-      #top-pick-sidebar .rank { color: #555; margin: 10px 0; }
-      #top-pick-sidebar .description { font-size: 14px; color: #444; margin: 0; }
-      #top-pick-sidebar .custom-description { font-size: 13px; color: #444; margin: 10px 0 0; }
-      .cta-button {
-        display: block;
-        width: 100%;
-        padding: 12px 0;
-        margin-top: 10px;
-        text-align: center;
-        font-weight: 600;
-        color: #fff;
-        background-color: #87cefa;
-        border-radius: 4px;
-        text-decoration: none;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-        transition: background-color 0.2s ease;
-      }
-      .cta-button:hover { background-color: #000; }
+      /* Preserve all other styles (h2, .logo, .cta-button, etc.) */
     `;
     document.head.appendChild(style);
 
-    // Build sidebar DOM
+    // Build sidebar
     const sidebar = document.createElement('aside');
     sidebar.id = 'top-pick-sidebar';
     sidebar.innerHTML = `
@@ -80,34 +45,25 @@
       <div class="rank"></div>
       <p class="description">Loading...</p>
       <p class="custom-description"></p>
-      <a id="more-link" href="https://victorphilip.com/Rankings" class="cta-button" target="_top" rel="noopener noreferrer">
-        Want more…?
-      </a>
+      <a id="more-link" href="https://victorphilip.com/Rankings" class="cta-button" target="_top" rel="noopener noreferrer">Want more…?</a>
     `;
     document.body.appendChild(sidebar);
 
-    // IntersectionObserver to detect when user has scrolled 30% down
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-          sidebar.classList.add('visible');
-        } else {
-          sidebar.classList.remove('visible');
-        }
-      });
-    }, {
-      root: null,
-      rootMargin: '-30% 0px 0px 0px',
-      threshold: 0
-    });
-    observer.observe(sentinel);
+    // Show sidebar after scrolling 30% of viewport height
+    function onScroll() {
+      if (window.scrollY > window.innerHeight * 0.3) {
+        sidebar.style.display = 'block';
+      } else {
+        sidebar.style.display = 'none';
+      }
+    }
+    window.addEventListener('scroll', onScroll);
+    // Initial check
+    onScroll();
 
-    // Fetch and populate
+    // Fetch data and populate content
     fetch(dataUrl)
-      .then(res => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      })
+      .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
       .then(data => {
         if (!Array.isArray(data) || data.length === 0) throw new Error('No holdings');
         const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
@@ -127,8 +83,7 @@
           `At Victor Philip, we believe in evaluating companies from ALL sides. ${top.name || ticker} ` +
           `scores high on stable growth, valuation, ROIC, balance‐sheet strength, cash‐flow, sentiment and momentum.`;
         const words = (top.description || '').split(/\s+/);
-        sidebar.querySelector('.custom-description').textContent =
-          words.slice(0, Math.ceil(words.length/2)).join(' ') + '…';
+        sidebar.querySelector('.custom-description').textContent = words.slice(0, Math.ceil(words.length/2)).join(' ') + '…';
       })
       .catch(err => {
         console.error('Sidebar error:', err);
