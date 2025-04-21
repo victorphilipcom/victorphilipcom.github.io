@@ -11,12 +11,12 @@
       : '';
     const dataUrl = currentScript.dataset.jsonUrl || (baseUrl + 'example_holding.json');
 
-    // Inject styles (static, always visible at top)
+    // Inject styles (initially hidden, positioned at 70% viewport height)
     const style = document.createElement('style');
     style.textContent = `
       #top-pick-sidebar {
         position: fixed;
-        top: 20px;
+        top: 70vh;
         right: 0;
         width: 280px;
         background: #fafafa;
@@ -25,6 +25,7 @@
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
         line-height: 1.5;
         font-family: sans-serif;
+        display: none; /* hidden until scroll threshold */
       }
       #top-pick-sidebar h2 { margin-top: 0; font-size: 18px; color: #333; }
       #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
@@ -67,6 +68,19 @@
       </a>
     `;
     document.body.appendChild(sidebar);
+
+    // Show sidebar after scrolling past 30% of page height
+    function checkScroll() {
+      const scrollTop = window.scrollY;
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollable > 0 && scrollTop / scrollable >= 0.3) {
+        sidebar.style.display = 'block';
+      } else {
+        sidebar.style.display = 'none';
+      }
+    }
+    window.addEventListener('scroll', checkScroll);
+    checkScroll();
 
     // Fetch and populate data
     fetch(dataUrl)
