@@ -3,9 +3,9 @@
     "fullTicker": "IONQ:USA",
     "baseTicker": "IONQ",
     "rank": 0.1095,
-    "price": 23.93,
+    "price": 24.06,
     "prevClose": 25.74,
-    "absReturn": -1.8099999999999987,
+    "absReturn": -1.6799999999999997,
     "logo": [
       {
         "id": "att8FHj77cNQD3pb7",
@@ -39,9 +39,9 @@
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
-    "price": 10.115,
+    "price": 10.085,
     "prevClose": 10.15,
-    "absReturn": -0.03500000000000014,
+    "absReturn": -0.0649999999999995,
     "logo": [
       {
         "id": "att3IpPCDbErkHC4N",
@@ -75,9 +75,9 @@
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
-    "price": 7.205,
+    "price": 7.2,
     "prevClose": 6.84,
-    "absReturn": 0.3650000000000002,
+    "absReturn": 0.3600000000000003,
     "logo": [
       {
         "id": "atth9YbtDIOMFdzon",
@@ -108,12 +108,48 @@
     ]
   },
   {
+    "fullTicker": "MP:USA",
+    "baseTicker": "MP",
+    "rank": 2.536,
+    "price": 23.205,
+    "prevClose": 26.35,
+    "absReturn": -3.145000000000003,
+    "logo": [
+      {
+        "id": "attuvqXc6S0Ea8ukB",
+        "width": 80,
+        "height": 23,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/q31c83ZABX1k1I6Ve0pvEg/qygY0wIKKsVvpI-80Hn39oi9QCxuLrUnubOmcLK3T8D90OmJLtNNLXEVzdnVksrJKYcf85VoJY6VOeErsM57UjKdYyk0immUfBGJgCWFqfE82aQJvMUIRT-wdFoH2umF4rHnsOh5RrDXc-Nm4sN2U9ITmAJ4fRU2-Pl_SxZdBH_D4SASV1iCD-IBQCChdDJn/0HkCpqEVbqjpmZN_gG-JBViHu_IEx_7LO6VqlOV3-9g",
+        "filename": "mp-materials-corp-logo.png",
+        "size": 1962,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/b8liW6In_A0bly88XctueQ/im64ZPhxSeXT_tIN3EZ5ANItY6JvaLjtGXdV48apYtLsfgvPlIsSrrhwJrSeX_bBIIK1urUOk7gN3Elw_VIHvZc3CUT4Sg4AHNYAG3psuN475Brdw4AUNym3s8Zc0ZGc0er_O4ebR4styzE69zisTQ/89DRfNTlDS4yF4wH24ijEKQ1KnhIs38E2lEteikHpXg",
+            "width": 80,
+            "height": 23
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/NKQiVomnb5iMYETvyIw7Rw/qtmW3pmCn1FURYMVxMI5wTr6r7Qf2uLmI-Ml1PN9aU4EW8QrmNRSnpLqnDiPjx81la0UqVvFPQ8iz7-xZKCStzvuBwPZkvZVKBEQMAHQy-EF5BesbA5lr1e-5Gi0pNWuMv5T4EkJlvh9CO9rK6QGMQ/EDj3ueADC0Fke07S_2oLs1SinUeJ_catcwJluGCDtEY",
+            "width": 80,
+            "height": 23
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/GcD5KenI4lL41cG6EwdXtA/0kZdbNnTUZxuHz9f1Z493wG3MgxSXh43Oq3ykolTQ76u6vp_hMbILq79hXc-d8r8Wks3OI9mIPORZCZkMjYyuVL5TlyOZ-1RtHuLiY1HOfWvBSqO8tJcCKcIRucvTrer5n2w8_Ync6Y8h3wzELS14A/C3CDBAERBMrQ3wvQle_jQLwWhnKmGH35ol1eUDCf1Z4",
+            "width": 80,
+            "height": 23
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
-    "price": 29.61,
+    "price": 29.625,
     "prevClose": 31.38,
-    "absReturn": -1.7699999999999996,
+    "absReturn": -1.754999999999999,
     "logo": [
       {
         "id": "attNZ6bVwMsQ3SUIx",
@@ -144,48 +180,12 @@
     ]
   },
   {
-    "fullTicker": "CRL:USA",
-    "baseTicker": "CRL",
-    "rank": 44.2438,
-    "price": 101.8,
-    "prevClose": 106.05,
-    "absReturn": -4.25,
-    "logo": [
-      {
-        "id": "att0BPhEduY4t4DqU",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/O9T7XXvf92F8bOiHbG700A/6ewjt-Bt3odhwzTfWmXJVnxg1CWks1Pe9k-DaQ2TRTUZ2fldY8_ofSzqntiRujgM5AlRIUHz11h9fmSUvWponCnPOhniLt9QM9G8mInlAJzoVvMaLsPiQuT6XAy2RIEwETx4fiEA-AjtzJ9AI0qxc_R5WpHev7dP21ttQ9Jwt2YF0s8QQ_3fObrTFztPo5NhCFmrc3VCfdlSkeKh0RmQIg/hWotMVyMM3uXHRTRHX2YoCBUvfpw2ygOq8A8KNbNE88",
-        "filename": "charles-river-laboratories-international-inc-logo.png",
-        "size": 1765,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/8y0ErKuFdZo31ybxiLH0fA/jOysY3DaUakQDI1WpqIexJ6dbTPbfTKTOt3JMi3Y8tVkqnbeDnzzw2N1l7HNi28UpF4Gk9d1btmlE87HfVqQps3rN1H6ThIcbY8WNxVM_9YBC4rxJMryM5SV6XbOOXAJTqIt7W8xjTRACRITaBGe5A/VIOcHPhLnrTXRuWaLCsVlTWg93ls-e_Kd8xt9YvxRD0",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/Ea9Z1KjkVIKk5pHPftMXzA/KEMNEXpwakNYpe4SJVtWHybAcBPJRQdAJHmIdQe8rinmcjx_LTrvJ80fbsfbC3LQFr5iUNCZFuyLFNs3PNHIX-RTuCnXT3bRaTk3lkIJNxJkDzJJedfAKooSCtPngLZQNU03ltfI4wOjMSfJesna3w/nsEWA6t7SGVWXMPfHOzd5653LHeoU30aOtH_299jDEc",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/ADXmtvA7U3kvK_-_nF7Mew/qHrwnMukbcklSQBpsRMqz9qNVY2WgNcASDg7ZC4V72t2Prws9yh7n1x3LXwJpLgkd4kAWeBbZ_ImRknBpSl4H43GmNaIuWguS--g7UC7zvVINc-JdR7BkBrQECDv8SIpPO-A9q4Ko2T9I46Is8Zbrw/Yh4MR9y223phNRL8GIFgEJXvsfdc70cH-OJHJFpWaXg",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
-    "price": 50.505,
+    "price": 50.625,
     "prevClose": 51.53,
-    "absReturn": -1.0249999999999986,
+    "absReturn": -0.9050000000000011,
     "logo": [
       {
         "id": "attw38jFXTtzhxJRD",
@@ -219,9 +219,9 @@
     "fullTicker": "SBH:USA",
     "baseTicker": "SBH",
     "rank": 86.6083,
-    "price": 7.895,
+    "price": 7.955,
     "prevClose": 8.1,
-    "absReturn": -0.20500000000000007,
+    "absReturn": -0.14499999999999957,
     "logo": [
       {
         "id": "attqVPKupg5wJf6EE",
@@ -255,9 +255,9 @@
     "fullTicker": "FET:USA",
     "baseTicker": "FET",
     "rank": 93.888,
-    "price": 14.68,
+    "price": 14.75,
     "prevClose": 15.45,
-    "absReturn": -0.7699999999999996,
+    "absReturn": -0.6999999999999993,
     "logo": [
       {
         "id": "att1Afc0dnnqt0yve",
@@ -291,9 +291,9 @@
     "fullTicker": "MGIC:USA",
     "baseTicker": "MGIC",
     "rank": 99.854,
-    "price": 13.105,
+    "price": 13.06,
     "prevClose": 13.3,
-    "absReturn": -0.19500000000000028,
+    "absReturn": -0.2400000000000002,
     "logo": [
       {
         "id": "atttujlIaJs7qz82O",
@@ -327,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 509.35,
+    "price": 510.82,
     "prevClose": 526.41,
-    "absReturn": -17.059999999999945,
+    "absReturn": -15.589999999999975,
     "logo": "sp500.png"
   }
 ]
