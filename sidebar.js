@@ -99,7 +99,7 @@
     // Create toggle button
     const toggle = document.createElement('button');
     toggle.id = 'top-pick-toggle';
-    toggle.textContent = 'Top Pick';
+    toggle.textContent = '🔥 Top Pick';
     document.body.appendChild(toggle);
 
     // Create sidebar container
