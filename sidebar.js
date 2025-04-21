@@ -1,6 +1,7 @@
 // sidebar.js
 (function() {
   function initSidebar() {
+    // Identify script element
     const currentScript = document.currentScript || (() => {
       const scripts = document.getElementsByTagName('script');
       return scripts[scripts.length - 1];
@@ -10,7 +11,15 @@
       : '';
     const dataUrl = currentScript.dataset.jsonUrl || baseUrl + 'example_holding.json';
 
-    // Styles
+    // Create sentinel to detect 30% scroll
+    const sentinel = document.createElement('div');
+    sentinel.style.position = 'absolute';
+    sentinel.style.top = '0px';
+    sentinel.style.width = '1px';
+    sentinel.style.height = '1px';
+    document.body.appendChild(sentinel);
+
+    // Inject full styles
     const style = document.createElement('style');
     style.textContent = `
       #top-pick-sidebar {
@@ -35,11 +44,32 @@
         visibility: visible;
         opacity: 1;
       }
-      /* Additional styling preserved... */
+      #top-pick-sidebar h2 { margin: 0 0 10px; font-size: 18px; color: #333; }
+      #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
+      #top-pick-sidebar .company-name { font-weight: bold; font-size: 16px; }
+      #top-pick-sidebar .full-name { font-size: 14px; color: #666; }
+      #top-pick-sidebar .rank { color: #555; margin: 10px 0; }
+      #top-pick-sidebar .description { font-size: 14px; color: #444; margin: 0; }
+      #top-pick-sidebar .custom-description { font-size: 13px; color: #444; margin: 10px 0 0; }
+      .cta-button {
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 600;
+        color: #fff;
+        background-color: #87cefa;
+        border-radius: 4px;
+        text-decoration: none;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        transition: background-color 0.2s ease;
+      }
+      .cta-button:hover { background-color: #000; }
     `;
     document.head.appendChild(style);
 
-    // Sidebar element
+    // Build sidebar DOM
     const sidebar = document.createElement('aside');
     sidebar.id = 'top-pick-sidebar';
     sidebar.innerHTML = `
@@ -56,16 +86,21 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Show after scrolling 30% of initial viewport height
-    function checkScroll() {
-      if (window.scrollY >= window.innerHeight * 0.3) {
-        sidebar.classList.add('visible');
-      } else {
-        sidebar.classList.remove('visible');
-      }
-    }
-    window.addEventListener('scroll', checkScroll);
-    checkScroll();
+    // IntersectionObserver to detect when user has scrolled 30% down
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+          sidebar.classList.add('visible');
+        } else {
+          sidebar.classList.remove('visible');
+        }
+      });
+    }, {
+      root: null,
+      rootMargin: '-30% 0px 0px 0px',
+      threshold: 0
+    });
+    observer.observe(sentinel);
 
     // Fetch and populate
     fetch(dataUrl)
@@ -74,7 +109,7 @@
         return res.json();
       })
       .then(data => {
-        if (!Array.isArray(data) || !data.length) throw new Error('No holdings');
+        if (!Array.isArray(data) || data.length === 0) throw new Error('No holdings');
         const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
         const ticker = top.baseTicker.split(':')[0];
         let logo = '';
