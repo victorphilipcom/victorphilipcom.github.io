@@ -16,13 +16,16 @@
     // Inject styles
     const style = document.createElement('style');
     style.textContent = `
-      @keyframes slideIn { from { opacity: 0; transform: translateX(100%); } to { opacity: 1; transform: translateX(0); } }
+      @keyframes slideIn {
+        from { opacity: 0; transform: translateX(100%) translateY(-50%); }
+        to   { opacity: 1; transform: translateX(0) translateY(-50%); }
+      } to { opacity: 1; transform: translateX(0); } }
       @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
 
       #top-pick-sidebar, #top-pick-toggle { font-family: sans-serif; z-index: 10000; }
       #top-pick-sidebar {
         position: fixed;
-        top: 50%; transform: translateY(-50%);
+        top: 50%;
         right: 0;
         width: 320px;
         background: #fafafa;
@@ -31,7 +34,10 @@
         box-shadow: -3px 0 8px rgba(0,0,0,0.2);
         line-height: 1.5;
         display: none;
+        /* center vertically */
+        transform: translateY(-50%);
         animation: slideIn 0.4s ease forwards;
+      }
       }
       #top-pick-sidebar.show { display: block; }
       #top-pick-sidebar .close-btn {
@@ -113,7 +119,7 @@
     // Scroll trigger
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (ratio >= 0.15 && !manuallyClosed) {
+      if (ratio >= 0.3 && !manuallyClosed) {
         sidebar.classList.add('show'); toggle.classList.remove('show');
       }
     }
