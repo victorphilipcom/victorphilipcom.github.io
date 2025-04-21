@@ -38,7 +38,7 @@
         visibility: visible;
         opacity: 1;
       }
-      #top-pick-sidebar h2 { margin-top: 0; font-size: 18px; color: #333; }
+      #top-pick-sidebar h2 { margin: 0 0 10px; font-size: 18px; color: #333; }
       #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
       #top-pick-sidebar .company-name { font-weight: bold; font-size: 16px; }
       #top-pick-sidebar .full-name { font-size: 14px; color: #666; }
@@ -80,16 +80,18 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Show sidebar based on scroll
+    // Show sidebar based on scroll: either 30% of viewport or 30% of page
     function checkScroll() {
       const scrollTop = window.scrollY;
+      const winHeight = window.innerHeight;
       const docHeight = Math.max(
         document.body.scrollHeight,
         document.documentElement.scrollHeight
       );
-      const winHeight = window.innerHeight;
       const scrollable = docHeight - winHeight;
-      if (scrollable <= 0 || scrollTop >= scrollable * 0.3) {
+      const scrolledPage = scrollable > 0 ? scrollTop / scrollable : 1;
+      const scrolledView = scrollTop / winHeight;
+      if (scrolledPage >= 0.3 || scrolledView >= 0.3) {
         sidebar.classList.add('visible');
       } else {
         sidebar.classList.remove('visible');
