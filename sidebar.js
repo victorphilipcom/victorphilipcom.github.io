@@ -119,7 +119,7 @@
     // Scroll trigger
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (ratio >= 0.3 && !manuallyClosed) {
+      if (ratio >= 0.15 && !manuallyClosed) {
         sidebar.classList.add('show'); toggle.classList.remove('show');
       }
     }
