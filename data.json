@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "DAWN:USA",
+    "baseTicker": "DAWN",
+    "rank": 2.4448,
+    "price": 7.14,
+    "prevClose": 6.84,
+    "absReturn": 0.2999999999999998,
+    "logo": [
+      {
+        "id": "atth9YbtDIOMFdzon",
+        "width": 80,
+        "height": 35,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745280000000/m_MHTVf-NwJ0PEtXyI6rYg/pBkIYxg7XOmnCRWCfNiNjH0IPuoLJrCktcm-_XYhuwsCBbVTXXQUNCbNE1wpr9c5dE9HB02GvBr1OW-NHZwvMX6KydKuWd0A8X5w3HIePm9dXadn4Wj9QWdJDB4feuDyOkOZwXqNTVnVGRCFnZM2TwxNeG4Av8zJ6nyKy6cll_ZaudjemyJGXQCI69mQSusP-fo-eEZGxsMVgxXHflnSYw/WHXDrEg0KtfzNWw7gy56EanntewbdiFTOnZM9rvkyr8",
+        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
+        "size": 2171,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745280000000/hQ83z7MS9xnC68lnMUl-6Q/V9rfxJSPuWmM3mV1hDRTmcFjAAq9YT8BRlSqNznDT9_2Vhkv0FfPGBm9abwWhubtRBCsIMlDpe72hUMrRklC0JPfpqa8jHOvG6LBk_N6K08pVK5dcDU91hkuzNHm6Vn8gVYTdTqLGxJ7tm44IS52Xg/VRzAzUyX3s0y3MyvakFzPbBJlciTuVMk6Liqidx5mz4",
+            "width": 80,
+            "height": 35
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745280000000/nHYC77KdLxejBaxYz_rkqA/yTMjHzvgcbUjwCu198qaAIvtY-96MebhbybizNJ-DybbHkF9_AIHDtBevFBGadWRwYRym3FOH2WPIaMETUTXO4DRrqdQKmhlgVeMObG6INOYxLnI86tjLTNXlvY6te5B4uJYNR2f4BPO-Tr5X07vTw/XHrkw9QxblO4NtM8DTSN5_J9Gmq2icz6OuFDQEsy-_Y",
+            "width": 80,
+            "height": 35
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745280000000/e-CHEbY8boNmjcBEUIhdsQ/gMI2RWBZxPhG57VBwc4eBBly9mMbYC5zLIgnHbA1KP--myhIEx1YrdzkFWU7QdR0Ftqg7y0PeoGOgEYO9je-FST9ZW07TKtcLvfhFY0hrszn01IFelDl39D6Jh-3GkvllXOnAiaw-E0HX99WNhuTNQ/LlNLNxsCy0eW_0FTJI0RMYRt0A4qbqr4THjblcYHMuM",
+            "width": 80,
+            "height": 35
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
@@ -108,48 +144,12 @@
     ]
   },
   {
-    "fullTicker": "ASTH:USA",
-    "baseTicker": "ASTH",
-    "rank": 10.8557,
-    "price": 29.555,
-    "prevClose": 31.38,
-    "absReturn": -1.8249999999999993,
-    "logo": [
-      {
-        "id": "attNZ6bVwMsQ3SUIx",
-        "width": 80,
-        "height": 42,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745280000000/ymgSfWQcSAkrWYxeb-_GCg/9-Z6txxU-JdQU71aKjHqqQArXh8488psmzCdsVtCKfLhTk4__aIdHnvzrHzoiw8OAtF1sweMAAnAhSj0Ln8ntugXOrZeWmSldyIzMfD2A_VsBNPci0XUJCutEImppSNHdyudXL1eRpdOADBYib4EM9uf74DrqfF4KJqF1CMarskdlPfxFSOPSFJukK7NaPLH/7007JZFkbu0VdxeKqbP52lSpW3FJBc8mC5qDKwq3lsI",
-        "filename": "astrana-health-logo.jpg",
-        "size": 908,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745280000000/LhUDT7SSkpxvCrUpIghgCg/7x8ZLiputNbbQT2T-ZGyWEQZxLzZ9gdk6hlzv8rpociIeeEU-d8tL7DUnWBPKiMp9hx8qEgmAm04x419CrQoEytSr5oyo0eJqbZq4uepreHwn6F6Bg_H2nc4Z3-xriWErxcd2M4xUZOUTZWrXTb0Dw/Wj3YcbgM_07c_UvzI274V5znxJVXcMcEO3FJm64P9Q4",
-            "width": 69,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745280000000/w0EMPHyi3Vw_vKuUUS6HvQ/VvsmpOuRRzlGU1ZbmSjKp19_fHL3YFHyx1JBn5RMK6-qk8ftb17K7E1uQj09WU8mb_Pca7-SCr18Ddh19XYrxU6RcWLxGtULyGkfSXEUgLDo-3CXOSSWQGR5TbteQx2YLvNKvzth5TEZcesh7g3chg/-bKUWBiPcY2F7JRpZu1bScVwErKiKrCUo_-UVerD6dU",
-            "width": 80,
-            "height": 42
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745280000000/UBZlNfFNZjiGRmJcNwR9uw/qL5D5GCEWPEg__NbF9mikvTCpdb3KSDtgwpuH5njhYKPKZCzQF7h_VYd4DdHJoyyln88KjyxrDtteEGazMv8kvlbONFGS7dO04LcnNhOYBOvD7riTItVZZFl_AMOL6aTxmXIOyB-WsqIf3PdPA_aJw/cxL5XIKrOZUw449g6ltgjMajkr7E3Hau_d_ULrTBRFY",
-            "width": 80,
-            "height": 42
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "CRL:USA",
     "baseTicker": "CRL",
     "rank": 44.2438,
-    "price": 102.68,
+    "price": 102.67,
     "prevClose": 106.05,
-    "absReturn": -3.3699999999999903,
+    "absReturn": -3.3799999999999955,
     "logo": [
       {
         "id": "att0BPhEduY4t4DqU",
@@ -183,9 +183,9 @@
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
-    "price": 50.9,
+    "price": 50.92,
     "prevClose": 51.53,
-    "absReturn": -0.6300000000000026,
+    "absReturn": -0.6099999999999994,
     "logo": [
       {
         "id": "attw38jFXTtzhxJRD",
@@ -255,9 +255,9 @@
     "fullTicker": "FET:USA",
     "baseTicker": "FET",
     "rank": 93.888,
-    "price": 14.755,
+    "price": 14.7,
     "prevClose": 15.45,
-    "absReturn": -0.6949999999999985,
+    "absReturn": -0.75,
     "logo": [
       {
         "id": "att1Afc0dnnqt0yve",
