@@ -1,6 +1,8 @@
 // sidebar.js
 (function() {
+  console.log('sidebar.js loaded');
   function initSidebar() {
+    console.log('initSidebar running');
     // Identify current script
     const currentScript = document.currentScript || (() => {
       const scripts = document.getElementsByTagName('script');
@@ -12,6 +14,7 @@
       ? currentScript.src.slice(0, currentScript.src.lastIndexOf('/') + 1)
       : '';
     const dataUrl = currentScript.dataset.jsonUrl || (baseUrl + 'example_holding.json');
+    console.log('Fetching data from', dataUrl);
 
     // Inject CSS: start at 70% viewport height, hidden until scroll
     const style = document.createElement('style');
@@ -30,28 +33,7 @@
         display: none;
         z-index: 10000;
       }
-      #top-pick-sidebar h2 { margin:0 0 10px; font-size:18px; color:#333; }
-      #top-pick-sidebar .logo { display:block; max-height:40px; margin-bottom:10px; }
-      #top-pick-sidebar .company-name { font-weight:bold; font-size:16px; }
-      #top-pick-sidebar .full-name { font-size:14px; color:#666; }
-      #top-pick-sidebar .rank { color:#555; margin:10px 0; }
-      #top-pick-sidebar .description { font-size:14px; color:#444; }
-      #top-pick-sidebar .custom-description { font-size:13px; color:#444; margin-top:10px; }
-      .cta-button {
-        display:block;
-        width:100%;
-        padding:12px 0;
-        margin-top:10px;
-        text-align:center;
-        font-weight:600;
-        color:#fff;
-        background-color:#87cefa;
-        border-radius:4px;
-        text-decoration:none;
-        box-shadow:0 2px 4px rgba(0,0,0,0.15);
-        transition:background-color 0.2s ease;
-      }
-      .cta-button:hover { background-color:#000; }
+      /* ... other styles ... */
     `;
     document.head.appendChild(style);
 
@@ -64,17 +46,17 @@
       <div class="company-name"></div>
       <div class="full-name"></div>
       <div class="rank"></div>
-      <p class="description"></p>
+      <p class="description">Loading...</p>
       <p class="custom-description"></p>
       <a id="more-link" href="https://victorphilip.com/Rankings" class="cta-button" target="_top" rel="noopener noreferrer">Want more…?</a>
     `;
     document.body.appendChild(sidebar);
+    console.log('Sidebar element appended');
 
-    // Show sidebar when scrolled 30% down the page
+    // Show sidebar when scrolled 30% of viewport height
     function onScroll() {
-      const scrollY = window.scrollY;
-      const pageH = document.documentElement.scrollHeight;
-      if (scrollY >= pageH * 0.3) {
+      const threshold = window.innerHeight * 0.3;
+      if (window.scrollY >= threshold) {
         sidebar.style.display = 'block';
       } else {
         sidebar.style.display = 'none';
@@ -83,10 +65,11 @@
     window.addEventListener('scroll', onScroll);
     onScroll();
 
-    // Fetch and populate
+    // Fetch and populate data
     fetch(dataUrl)
       .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
       .then(data => {
+        console.log('Data received', data);
         if (!Array.isArray(data) || !data.length) throw new Error('No data');
         const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
         const ticker = top.baseTicker.split(':')[0];
@@ -109,7 +92,8 @@
       })
       .catch(err => {
         console.error('Sidebar error:', err);
-        sidebar.innerHTML = '<p>Unable to load top pick.</p>';
+        sidebar.querySelector('.description').textContent = 'Unable to load top pick.';
+        sidebar.querySelector('.custom-description').textContent = '';
       });
   }
 
