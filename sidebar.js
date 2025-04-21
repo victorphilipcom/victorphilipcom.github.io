@@ -112,7 +112,7 @@
     // Scroll trigger: show toggle after 30% scroll, sidebar remains closed
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (ratio >= 0.3) toggle.classList.add('show');
+      if (ratio >= 0.2) toggle.classList.add('show');
       else toggle.classList.remove('show');
     }
     window.addEventListener('scroll', checkScroll);
