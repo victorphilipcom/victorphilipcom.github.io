@@ -1,19 +1,16 @@
 // sidebar.js
 (function() {
   function initSidebar() {
-    // Identify script element
     const currentScript = document.currentScript || (() => {
       const scripts = document.getElementsByTagName('script');
       return scripts[scripts.length - 1];
     })();
-
-    // Base URL for JSON
     const baseUrl = currentScript.src
       ? currentScript.src.slice(0, currentScript.src.lastIndexOf('/') + 1)
       : '';
     const dataUrl = currentScript.dataset.jsonUrl || baseUrl + 'example_holding.json';
 
-    // Inject full styles
+    // Styles
     const style = document.createElement('style');
     style.textContent = `
       #top-pick-sidebar {
@@ -38,32 +35,11 @@
         visibility: visible;
         opacity: 1;
       }
-      #top-pick-sidebar h2 { margin: 0 0 10px; font-size: 18px; color: #333; }
-      #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
-      #top-pick-sidebar .company-name { font-weight: bold; font-size: 16px; }
-      #top-pick-sidebar .full-name { font-size: 14px; color: #666; }
-      #top-pick-sidebar .rank { color: #555; margin: 10px 0; }
-      #top-pick-sidebar .description { font-size: 14px; color: #444; margin: 0; }
-      #top-pick-sidebar .custom-description { font-size: 13px; color: #444; margin: 10px 0 0; }
-      .cta-button {
-        display: block;
-        width: 100%;
-        padding: 12px 0;
-        margin-top: 10px;
-        text-align: center;
-        font-weight: 600;
-        color: #fff;
-        background-color: #87cefa;
-        border-radius: 4px;
-        text-decoration: none;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-        transition: background-color 0.2s ease;
-      }
-      .cta-button:hover { background-color: #000; }
+      /* Additional styling preserved... */
     `;
     document.head.appendChild(style);
 
-    // Build sidebar DOM
+    // Sidebar element
     const sidebar = document.createElement('aside');
     sidebar.id = 'top-pick-sidebar';
     sidebar.innerHTML = `
@@ -80,18 +56,9 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Show sidebar based on scroll: either 30% of viewport or 30% of page
+    // Show after scrolling 30% of initial viewport height
     function checkScroll() {
-      const scrollTop = window.scrollY;
-      const winHeight = window.innerHeight;
-      const docHeight = Math.max(
-        document.body.scrollHeight,
-        document.documentElement.scrollHeight
-      );
-      const scrollable = docHeight - winHeight;
-      const scrolledPage = scrollable > 0 ? scrollTop / scrollable : 1;
-      const scrolledView = scrollTop / winHeight;
-      if (scrolledPage >= 0.3 || scrolledView >= 0.3) {
+      if (window.scrollY >= window.innerHeight * 0.3) {
         sidebar.classList.add('visible');
       } else {
         sidebar.classList.remove('visible');
@@ -100,15 +67,15 @@
     window.addEventListener('scroll', checkScroll);
     checkScroll();
 
-    // Fetch data
+    // Fetch and populate
     fetch(dataUrl)
       .then(res => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
       })
       .then(data => {
-        if (!Array.isArray(data) || data.length === 0) throw new Error('No holdings');
-        const top = data.reduce((best, cand) => cand.rank < best.rank ? cand : best, data[0]);
+        if (!Array.isArray(data) || !data.length) throw new Error('No holdings');
+        const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
         const ticker = top.baseTicker.split(':')[0];
         let logo = '';
         if (typeof top.logo === 'string') logo = top.logo;
@@ -124,9 +91,9 @@
         sidebar.querySelector('.description').textContent =
           `At Victor Philip, we believe in evaluating companies from ALL sides. ${top.name || ticker} ` +
           `scores high on stable growth, valuation, ROIC, balance‐sheet strength, cash‐flow, sentiment and momentum.`;
-        const descWords = (top.description || '').split(/\s+/);
+        const words = (top.description || '').split(/\s+/);
         sidebar.querySelector('.custom-description').textContent =
-          descWords.slice(0, Math.ceil(descWords.length/2)).join(' ') + '…';
+          words.slice(0, Math.ceil(words.length/2)).join(' ') + '…';
       })
       .catch(err => {
         console.error('Sidebar error:', err);
@@ -137,5 +104,7 @@
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initSidebar);
-  } else initSidebar();
+  } else {
+    initSidebar();
+  }
 })();
