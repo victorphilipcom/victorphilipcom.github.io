@@ -11,6 +11,9 @@
       : '';
     const dataUrl = currentScript.dataset.jsonUrl || baseUrl + 'example_holding.json';
 
+    // State to track if user manually closed the sidebar
+    let manuallyClosed = false;
+
     // Inject styles
     const style = document.createElement('style');
     style.textContent = `
@@ -99,23 +102,25 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Toggle behavior
+    // Manual toggle: open on toggle click
     toggle.addEventListener('click', () => {
       sidebar.classList.add('show');
       toggle.classList.remove('show');
+      manuallyClosed = false;
     });
+    // Manual close: hide sidebar
     sidebar.querySelector('.close-btn').addEventListener('click', () => {
       sidebar.classList.remove('show');
       toggle.classList.add('show');
+      manuallyClosed = true;  // prevent auto reopen
     });
 
-    // Scroll trigger: show sidebar automatically at 30% scroll
+    // Scroll trigger: show sidebar automatically at 30% scroll unless manually closed
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (ratio >= 0.2) {
+      if (ratio >= 0.3 && !manuallyClosed) {
         sidebar.classList.add('show');
-      } else {
-        sidebar.classList.remove('show');
+        toggle.classList.remove('show');
       }
     }
     window.addEventListener('scroll', checkScroll);
@@ -143,7 +148,7 @@
           `At Victor Philip, we believe in evaluating companies from ALL sides. ${top.name || ticker} ` +
           `scores high on stable growth, valuation, ROIC, balance‐sheet strength, cash‐flow, sentiment and momentum.`;
         const words = (top.description || '').split(/\s+/);
-        sidebar.querySelector('.custom-description').textContent = words.slice(0, Math.ceil(words.length/2)).join(' ') + '…';
+        sidebar.querySelector('.custom-description').textContent = words.slice(0, Math.ceil(words.length/2)).join(' ')+ '…';
       })
       .catch(err => {
         console.error('Sidebar error:', err);
