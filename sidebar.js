@@ -118,7 +118,7 @@
     // Scroll trigger: show sidebar automatically at 30% scroll unless manually closed
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (ratio >= 0.3 && !manuallyClosed) {
+      if (ratio >= 0.25 && !manuallyClosed) {
         sidebar.classList.add('show');
         toggle.classList.remove('show');
       }
