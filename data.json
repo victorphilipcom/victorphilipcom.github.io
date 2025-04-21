@@ -3,9 +3,9 @@
     "fullTicker": "IONQ:USA",
     "baseTicker": "IONQ",
     "rank": 0.1095,
-    "price": 24.135,
+    "price": 24.05,
     "prevClose": 25.74,
-    "absReturn": -1.6049999999999969,
+    "absReturn": -1.6899999999999977,
     "logo": [
       {
         "id": "att8FHj77cNQD3pb7",
@@ -39,9 +39,9 @@
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
-    "price": 10.115,
+    "price": 10.045,
     "prevClose": 10.15,
-    "absReturn": -0.03500000000000014,
+    "absReturn": -0.10500000000000043,
     "logo": [
       {
         "id": "att3IpPCDbErkHC4N",
@@ -75,9 +75,9 @@
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
-    "price": 7.265,
+    "price": 7.205,
     "prevClose": 6.84,
-    "absReturn": 0.4249999999999998,
+    "absReturn": 0.3650000000000002,
     "logo": [
       {
         "id": "atth9YbtDIOMFdzon",
@@ -111,9 +111,9 @@
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
-    "price": 23.085,
+    "price": 23.13,
     "prevClose": 26.35,
-    "absReturn": -3.2650000000000006,
+    "absReturn": -3.2200000000000024,
     "logo": [
       {
         "id": "attuvqXc6S0Ea8ukB",
@@ -147,9 +147,9 @@
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
-    "price": 29.63,
+    "price": 29.59,
     "prevClose": 31.38,
-    "absReturn": -1.75,
+    "absReturn": -1.7899999999999991,
     "logo": [
       {
         "id": "attNZ6bVwMsQ3SUIx",
@@ -216,36 +216,36 @@
     ]
   },
   {
-    "fullTicker": "FSTA:GBR",
-    "baseTicker": "FSTA",
-    "rank": 65.572,
-    "price": 50.705,
-    "prevClose": 51.53,
-    "absReturn": -0.8250000000000028,
+    "fullTicker": "SBH:USA",
+    "baseTicker": "SBH",
+    "rank": 86.6083,
+    "price": 7.955,
+    "prevClose": 8.1,
+    "absReturn": -0.14499999999999957,
     "logo": [
       {
-        "id": "attw38jFXTtzhxJRD",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/1-bgdrecmVzr4HSP51rhpw/tAHtdBC9Cxe9THHp8QQVny_ICrd3kGEZkbrSSvOIGWfNQnNsTU7BBygTrnCJCsyjvOy3Pqaw7WsKSOm-pSrH4kkfPbZnFZ5_ROIv2w6JjNBxpcrVJJPFITOWg8FzBhnnUX6PKFbVCoAZWttlDNpR1_7QDS9vkJUAT8XUhw3vIhY/vB9Qw1jVzz6Noqhf7ThkV-jSyqNpbHtsdjDO3xEZswI",
-        "filename": "www.fullers.co.uk",
-        "size": 4478,
+        "id": "attqVPKupg5wJf6EE",
+        "width": 80,
+        "height": 13,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/IEN2gYsWlOh_Mqz97h9VDA/064hTunC2ouJnuj8K_LtwR2PolYR79GU5G5OJ5ey8hpKYhnDYD7ACdmSYTYk2AVOnAFBZA8jlX7KblM22JZmJAz7sCDLAz_pyxSSo7xLmJn0p1acVPNhWfvjrM5Gx98QoXYhsNx2tg_54U0qTm8-q3zpE8DGHz-YnB7IDAtamzqQDLmMaS5WPKJHlAk9N4XG/JdJK5ZWB5y2UTO_8CieszItrEaXQGMOCuASbKc1TjRU",
+        "filename": "sally-beauty-holdings-inc-logo.jpg",
+        "size": 925,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/xfUqe4XLt_um-bIDstEE6A/zhiX6FmTNwG0zUexyqd_hd7-ggr7rNdTMz3-Ya1FcRYPhhcjNvENQxAemmSJTf9G45SlqERHGI-OzGatQHa_WWmxu6q9P8FWwmCdNIfdzSEHSdRMqWJ8jlP1BalA4_1RHMjR-0dILril8lAMZrq-Pw/CUUg5jb3_4_bvfOZNqro6R7lJ3KM51OWWG7IaJOtwHc",
-            "width": 36,
-            "height": 36
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/MghNFEL68WvkuhELbd2WSA/S3OuxBohxPZUBqr_EO0Nr5nMdIAQT-HlUET9BpBo5btVZYfpTLrbmUWZEQ9KYmY-CARbzSNm8CpHTk-F6UCNAkiS4iJSjgN4EemE5BtT-6WoL-8K8DOPue2dNbVbHWFNtbBauL_3HOxgdY_xtwBLtA/QND7hJt6z_ywBHiyPFlDjnXLLOL1mNEG5LlyR1t1lMA",
+            "width": 80,
+            "height": 13
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/rsoh5Vc-g13y99X5_DmDYA/nYl8pFl1xk7fVA9D4FCZd2eikFnGS1p3zLJnTFhxtvA9ZmNeJmkvoG7zo3Q4zO5UTD7qT1BSeh4urAtLa5LvprbNks2atTZ_TG7DrFgG250Qt3PdX1ihKXx8oL86Ib3A-ludr2zn9vLxEj8YVM016w/v-RnB37cEgwXQmWVZFKXrbZj2XLlI31ApT836O_7-t0",
-            "width": 200,
-            "height": 200
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/MHoIzqFH4QnLSaUBb3UIog/2ZJG4AmuWagV-gHHmjGYfabKdyXZht7Y2-fTIlpnk6ik-8vDfq8ZmVyxFin3S9zioLPdDNDnBmI1hC7JVZunNCXb-RlQ8VoTTZP4rlPr43EMaBDiRH6lPGPwwCQLtTsgkjxmoMHYJDZiEXYSNrJb8A/_h9RTYuOxBOpQC-WyJSbpwvxy0f3Irm9_6fwUkQ8b3A",
+            "width": 80,
+            "height": 13
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/xviB_PDzQXS99-COMd9IYA/gFEIOAI5Y8qJUWsXz4fOWKWAY0tBHF66lQ-MPJ0YqYI-6htb6uEbkHT2ahWgCOefVeytGsx84ki1czSV95WA5yJ2qg8VMXk6KVa7gwcuUW0tHYE6JJafE0UaCQMV_Mt5WR1enOgyxc0nexf7clI1OQ/TDLdmTH5StJjdUIT1KWc-ok2ZvIi9JItqOEjfnsEHn4",
-            "width": 200,
-            "height": 200
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745272800000/bsnjwatva6Z7BTrphlvD3A/LPRz8moxhUF9ThS9QshXrD7ER62z-Y-yrG_93dVvc7LmPjPdyQjaqEgS1VnThAIhef0sxVlDHmDwKFxv9yTlz8dkgipySpwXHlUB14DV74L-LymFVfy00Dsq2wetv09tV0p70_bFbTMd85iCWsC32w/uILB7z-QsNVlOgtAmCO9mbkaUdtoJknmdtyNwD7AJSo",
+            "width": 80,
+            "height": 13
           }
         }
       }
@@ -291,9 +291,9 @@
     "fullTicker": "MGIC:USA",
     "baseTicker": "MGIC",
     "rank": 99.854,
-    "price": 13.16,
+    "price": 13.155,
     "prevClose": 13.3,
-    "absReturn": -0.14000000000000057,
+    "absReturn": -0.14500000000000135,
     "logo": [
       {
         "id": "atttujlIaJs7qz82O",
@@ -327,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 512.01,
+    "price": 512.79,
     "prevClose": 526.41,
-    "absReturn": -14.399999999999977,
+    "absReturn": -13.620000000000005,
     "logo": "sp500.png"
   }
 ]
