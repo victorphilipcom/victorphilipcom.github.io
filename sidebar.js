@@ -60,7 +60,7 @@
       #top-pick-sidebar .custom-description {
         font-size: 14px; color: #444; margin-bottom: 10px;
       }
-      #top-pick-sidebar .custom-description { margin-top: 5px; font-size: 13px; }
+      #top-pick-sidebar .custom-description { margin-top: 5px; font-size: 14px; }
       #top-pick-sidebar .timestamp {
         font-size: 12px; color: #888; text-align: right; margin-top: 8px;
       }
