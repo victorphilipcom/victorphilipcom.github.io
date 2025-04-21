@@ -1,8 +1,8 @@
 // sidebar.js
 (function() {
   function initSidebar() {
-    // Determine JSON URL
-    const currentScript = document.currentScript || (() => {
+    // Determine JSON URL from script data attribute or same dir
+    const currentScript = document.currentScript || (function() {
       const scripts = document.getElementsByTagName('script');
       return scripts[scripts.length - 1];
     })();
@@ -11,7 +11,7 @@
       : '';
     const dataUrl = currentScript.dataset.jsonUrl || (baseUrl + 'example_holding.json');
 
-    // Inject styles (initially hidden, positioned at 70% viewport height)
+    // Inject styles: position at 70% viewport, hidden by default
     const style = document.createElement('style');
     style.textContent = `
       #top-pick-sidebar {
@@ -25,7 +25,7 @@
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
         line-height: 1.5;
         font-family: sans-serif;
-        display: none; /* hidden until scroll threshold */
+        display: none; /* hide until scroll threshold */
       }
       #top-pick-sidebar h2 { margin-top: 0; font-size: 18px; color: #333; }
       #top-pick-sidebar .logo { display: block; max-height: 40px; margin-bottom: 10px; }
@@ -52,7 +52,7 @@
     `;
     document.head.appendChild(style);
 
-    // Build sidebar element
+    // Create sidebar element
     const sidebar = document.createElement('aside');
     sidebar.id = 'top-pick-sidebar';
     sidebar.innerHTML = `
@@ -69,17 +69,20 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Show sidebar after scrolling past 30% of page height
+    // Show sidebar once user scrolls 30% down the total page height
     function checkScroll() {
       const scrollTop = window.scrollY;
-      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
-      if (scrollable > 0 && scrollTop / scrollable >= 0.3) {
+      const pageHeight = document.documentElement.scrollHeight;
+      const viewHeight = window.innerHeight;
+      const scrollable = pageHeight - viewHeight;
+      if (scrollable > 0 && scrollTop >= scrollable * 0.3) {
         sidebar.style.display = 'block';
       } else {
         sidebar.style.display = 'none';
       }
     }
     window.addEventListener('scroll', checkScroll);
+    // initial check in case already scrolled
     checkScroll();
 
     // Fetch and populate data
@@ -89,41 +92,27 @@
         return response.json();
       })
       .then(data => {
-        if (!Array.isArray(data) || data.length === 0) {
-          throw new Error('No holdings data');
-        }
-        // Pick lowest rank
+        if (!Array.isArray(data) || data.length === 0) throw new Error('No holdings');
         const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
         const ticker = top.baseTicker.split(':')[0];
-
-        // Resolve logo URL
         let logoUrl = '';
-        if (typeof top.logo === 'string' && top.logo) {
+        if (typeof top.logo === 'string') {
           logoUrl = top.logo;
         } else if (Array.isArray(top.logo) && top.logo[0]) {
           const f = top.logo[0];
           logoUrl = f.thumbnails?.small?.url || f.url || '';
         }
-
-        // Populate fields
         sidebar.querySelector('img.logo').src = logoUrl;
         sidebar.querySelector('img.logo').alt = `${ticker} logo`;
         sidebar.querySelector('.company-name').textContent = ticker;
         sidebar.querySelector('.full-name').textContent = top.name || '';
-        sidebar.querySelector('.rank').textContent =
-          `Overall Rank: ${parseFloat(top.rank).toFixed(1)}`;
+        sidebar.querySelector('.rank').textContent = `Overall Rank: ${parseFloat(top.rank).toFixed(1)}`;
         sidebar.querySelector('.description').textContent =
           `At Victor Philip, we believe in evaluating companies from ALL possible perspectives. ` +
-          `You wouldn't buy a house based on its price alone, it might have a crumbling foundation. ` +
-          `It's the same for companies! ${top.name || ticker} scores high on stable growth, low valuation, ` +
-          `high return on capital, great balance‐sheet strength, a stable cash‐flow, positive sentiment and high industry momentum.`;
-
-        // Truncate custom description to half length
-        const fullDesc = top.description || '';
-        const words = fullDesc.split(/\s+/);
-        const halfCount = Math.ceil(words.length / 2);
-        const truncated = words.slice(0, halfCount).join(' ');
-        sidebar.querySelector('.custom-description').textContent = truncated + '…';
+          `${top.name || ticker} scores high on stable growth, valuation, ROIC, balance‐sheet strength, cash‐flow, sentiment and momentum.`;
+        const words = (top.description || '').split(/\s+/);
+        const half = Math.ceil(words.length/2);
+        sidebar.querySelector('.custom-description').textContent = words.slice(0, half).join(' ') + '…';
       })
       .catch(err => {
         console.error('❌ Sidebar error:', err);
