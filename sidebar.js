@@ -14,10 +14,7 @@
     // Inject styles
     const style = document.createElement('style');
     style.textContent = `
-      #top-pick-sidebar, #top-pick-toggle {
-        font-family: sans-serif;
-        z-index: 10000;
-      }
+      #top-pick-sidebar, #top-pick-toggle { font-family: sans-serif; z-index: 10000; }
       #top-pick-sidebar {
         position: fixed;
         top: 70vh;
@@ -30,9 +27,7 @@
         line-height: 1.5;
         display: none;
       }
-      #top-pick-sidebar.show {
-        display: block;
-      }
+      #top-pick-sidebar.show { display: block; }
       #top-pick-sidebar .close-btn {
         position: absolute;
         top: 8px;
@@ -79,9 +74,7 @@
         cursor: pointer;
         display: none;
       }
-      #top-pick-toggle.show {
-        display: block;
-      }
+      #top-pick-toggle.show { display: block; transform: translateX(0); }
     `;
     document.head.appendChild(style);
 
@@ -108,20 +101,23 @@
     document.body.appendChild(sidebar);
 
     // Toggle behavior
-    function showSidebar() {
-      sidebar.classList.add('show'); toggle.classList.remove('show');
-    }
-    function hideSidebar() {
-      sidebar.classList.remove('show'); toggle.classList.add('show');
-    }
-    toggle.addEventListener('click', showSidebar);
-    sidebar.querySelector('.close-btn').addEventListener('click', hideSidebar);
-
-    // Scroll trigger: show toggle after 30% scroll
-    window.addEventListener('scroll', () => {
-      const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (ratio >= 0.3) toggle.classList.add('show'); else toggle.classList.remove('show');
+    toggle.addEventListener('click', () => {
+      sidebar.classList.add('show');
+      toggle.classList.remove('show');
     });
+    sidebar.querySelector('.close-btn').addEventListener('click', () => {
+      sidebar.classList.remove('show');
+      toggle.classList.add('show');
+    });
+
+    // Scroll trigger: show/hide toggle
+    function checkScroll() {
+      const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+      if (ratio >= 0.3) toggle.classList.add('show');
+      else toggle.classList.remove('show');
+    }
+    window.addEventListener('scroll', checkScroll);
+    checkScroll(); // initial check
 
     // Fetch and populate
     fetch(dataUrl)
@@ -155,5 +151,7 @@
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initSidebar);
-  } else initSidebar();
+  } else {
+    initSidebar();
+  }
 })();
