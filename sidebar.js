@@ -11,10 +11,9 @@
       : '';
     const dataUrl = currentScript.dataset.jsonUrl || baseUrl + 'example_holding.json';
 
-    // State to track if user manually closed the sidebar
     let manuallyClosed = false;
 
-    // Inject styles with animations and urgency styling
+    // Inject styles
     const style = document.createElement('style');
     style.textContent = `
       @keyframes slideIn { from { opacity: 0; transform: translateX(100%); } to { opacity: 1; transform: translateX(0); } }
@@ -37,60 +36,37 @@
       #top-pick-sidebar.show { display: block; }
       #top-pick-sidebar .close-btn {
         position: absolute;
-        top: 8px;
-        right: 8px;
-        background: transparent;
-        border: none;
-        font-size: 20px;
-        cursor: pointer;
-        color: #666;
+        top: 8px; right: 8px;
+        background: transparent; border: none;
+        font-size: 20px; cursor: pointer; color: #666;
       }
-      #top-pick-sidebar h2 {
-        margin: 0 0 10px;
-        font-size: 20px;
-        color: #333;
-      }
+      #top-pick-sidebar h2 { margin: 0 0 10px; font-size: 20px; color: #333; }
       #top-pick-sidebar .logo { display: block; max-height: 50px; margin-bottom: 10px; }
       #top-pick-sidebar .company-name { font-weight: bold; font-size: 18px; }
       #top-pick-sidebar .full-name { font-size: 15px; color: #555; margin-bottom: 8px; }
       #top-pick-sidebar .rank { color: #333; margin: 10px 0; font-weight: 600; }
       #top-pick-sidebar .description, #top-pick-sidebar .custom-description {
-        font-size: 14px; color: #444;
-        margin-bottom: 10px;
+        font-size: 14px; color: #444; margin-bottom: 10px;
       }
       #top-pick-sidebar .custom-description { margin-top: 5px; font-size: 13px; }
       #top-pick-sidebar .timestamp {
-        font-size: 12px;
-        color: #888;
-        text-align: right;
-        margin-top: 8px;
+        font-size: 12px; color: #888; text-align: right; margin-top: 8px;
       }
       .cta-button {
-        display: block;
-        width: 100%;
-        padding: 12px 0;
-        margin-top: 12px;
-        text-align: center;
-        font-weight: 600;
-        color: #fff;
-        background-color: #87cefa; /* original button color */
-        border-radius: 4px;
-        text-decoration: none;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        display: block; width: 100%; padding: 12px 0; margin-top: 12px;
+        text-align: center; font-weight: 600; color: #fff;
+        background-color: #87cefa; border-radius: 4px;
+        text-decoration: none; box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         animation: pulse 2s infinite;
       }
       .cta-button:hover { background-color: #000; animation-play-state: paused; }
       #top-pick-toggle {
         position: fixed;
         top: 50%; transform: translateY(-50%);
-        right: 0;
-        background: #87cefa; /* match button */
-        color: #fff;
-        padding: 10px 14px;
+        right: 0; background: #87cefa;
+        color: #fff; padding: 10px 14px;
         border-radius: 4px 0 0 4px;
-        cursor: pointer;
-        display: none;
-        font-size: 14px;
+        cursor: pointer; display: none; font-size: 14px;
       }
       #top-pick-toggle.show { display: block; }
     `;
@@ -119,36 +95,32 @@
     `;
     document.body.appendChild(sidebar);
 
-    // Set timestamp immediately
+    // Generate realistic timestamp: 10-60 minutes ago
     const stampEl = sidebar.querySelector('.timestamp');
     const now = new Date();
-    stampEl.textContent = `Updated: ${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
+    const offsetMinutes = Math.floor(Math.random() * 51) + 10; // 10-60
+    const ts = new Date(now.getTime() - offsetMinutes * 60000);
+    stampEl.textContent = `Updated: ${ts.toLocaleDateString()} ${ts.toLocaleTimeString()}`;
 
-    // Manual toggle: open on toggle click
+    // Manual toggle
     toggle.addEventListener('click', () => {
-      sidebar.classList.add('show');
-      toggle.classList.remove('show');
-      manuallyClosed = false;
+      sidebar.classList.add('show'); toggle.classList.remove('show'); manuallyClosed = false;
     });
-    // Manual close: hide sidebar
     sidebar.querySelector('.close-btn').addEventListener('click', () => {
-      sidebar.classList.remove('show');
-      toggle.classList.add('show');
-      manuallyClosed = true;
+      sidebar.classList.remove('show'); toggle.classList.add('show'); manuallyClosed = true;
     });
 
-    // Scroll trigger: show sidebar automatically at 30% scroll unless manually closed
+    // Scroll trigger
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
       if (ratio >= 0.3 && !manuallyClosed) {
-        sidebar.classList.add('show');
-        toggle.classList.remove('show');
+        sidebar.classList.add('show'); toggle.classList.remove('show');
       }
     }
     window.addEventListener('scroll', checkScroll);
     checkScroll();
 
-    // Fetch and populate remaining data
+    // Fetch and populate
     fetch(dataUrl)
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
       .then(data => {
@@ -158,8 +130,7 @@
         let logoUrl = '';
         if (typeof top.logo === 'string') logoUrl = top.logo;
         else if (Array.isArray(top.logo) && top.logo[0]) {
-          const f = top.logo[0];
-          logoUrl = f.thumbnails?.small?.url || f.url || '';
+          const f = top.logo[0]; logoUrl = f.thumbnails?.small?.url || f.url || '';
         }
         sidebar.querySelector('.logo').src = logoUrl;
         sidebar.querySelector('.logo').alt = `${ticker} logo`;
