@@ -17,7 +17,7 @@
       #top-pick-sidebar, #top-pick-toggle { font-family: sans-serif; z-index: 10000; }
       #top-pick-sidebar {
         position: fixed;
-        top: 70vh;
+        top: 50%; transform: translateY(-50%);
         right: 0;
         width: 280px;
         background: #fafafa;
@@ -99,6 +99,9 @@
       <a id="more-link" href="https://victorphilip.com/Rankings" class="cta-button" target="_top" rel="noopener noreferrer">Want more…?</a>
     `;
     document.body.appendChild(sidebar);
+    // Open by default and hide toggle
+    sidebar.classList.add('show');
+    toggle.classList.remove('show');
 
     // Toggle behavior
     toggle.addEventListener('click', () => {
