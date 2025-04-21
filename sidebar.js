@@ -26,8 +26,8 @@
         top: 50%; transform: translateY(-50%);
         right: 0;
         width: 320px;
-        background: #fff;
-        border-left: 2px solid #007BFF;
+        background: #fafafa;
+        border-left: 1px solid #ddd;
         padding: 20px;
         box-shadow: -3px 0 8px rgba(0,0,0,0.2);
         line-height: 1.5;
@@ -43,12 +43,12 @@
         border: none;
         font-size: 20px;
         cursor: pointer;
-        color: #999;
+        color: #666;
       }
       #top-pick-sidebar h2 {
         margin: 0 0 10px;
         font-size: 20px;
-        color: #007BFF;
+        color: #333;
       }
       #top-pick-sidebar .logo { display: block; max-height: 50px; margin-bottom: 10px; }
       #top-pick-sidebar .company-name { font-weight: bold; font-size: 18px; }
@@ -58,6 +58,7 @@
         font-size: 14px; color: #444;
         margin-bottom: 10px;
       }
+      #top-pick-sidebar .custom-description { margin-top: 5px; font-size: 13px; }
       #top-pick-sidebar .timestamp {
         font-size: 12px;
         color: #888;
@@ -67,23 +68,23 @@
       .cta-button {
         display: block;
         width: 100%;
-        padding: 14px 0;
+        padding: 12px 0;
         margin-top: 12px;
         text-align: center;
         font-weight: 600;
         color: #fff;
-        background-color: #007BFF;
+        background-color: #87cefa; /* original button color */
         border-radius: 4px;
         text-decoration: none;
-        box-shadow: 0 2px 6px rgba(0,123,255,0.4);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         animation: pulse 2s infinite;
       }
-      .cta-button:hover { background-color: #0056b3; animation-play-state: paused; }
+      .cta-button:hover { background-color: #000; animation-play-state: paused; }
       #top-pick-toggle {
         position: fixed;
         top: 50%; transform: translateY(-50%);
         right: 0;
-        background: #007BFF;
+        background: #87cefa; /* match button */
         color: #fff;
         padding: 10px 14px;
         border-radius: 4px 0 0 4px;
@@ -114,9 +115,14 @@
       <p class="description"></p>
       <p class="custom-description"></p>
       <a id="more-link" href="https://victorphilip.com/Rankings" class="cta-button" target="_top" rel="noopener noreferrer">Unlock Full Analysis</a>
-      <div class="timestamp"></div>
+      <div class="timestamp">Updated: --</div>
     `;
     document.body.appendChild(sidebar);
+
+    // Set timestamp immediately
+    const stampEl = sidebar.querySelector('.timestamp');
+    const now = new Date();
+    stampEl.textContent = `Updated: ${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
 
     // Manual toggle: open on toggle click
     toggle.addEventListener('click', () => {
@@ -142,12 +148,10 @@
     window.addEventListener('scroll', checkScroll);
     checkScroll();
 
-    // Fetch and populate
+    // Fetch and populate remaining data
     fetch(dataUrl)
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
       .then(data => {
-        const now = new Date();
-        sidebar.querySelector('.timestamp').textContent = `Updated: ${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
         if (!Array.isArray(data) || !data.length) throw new Error('No data');
         const top = data.reduce((best, c) => c.rank < best.rank ? c : best, data[0]);
         const ticker = top.baseTicker.split(':')[0];
