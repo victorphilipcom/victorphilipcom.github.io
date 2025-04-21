@@ -51,19 +51,14 @@ jobs:
           cat rankingsClean.json
 
       - name: Prepare Ticker List (10 Random + SPY)
-        run: |2
+        run: |
           cat <<'EOF' > buildTickers.js
           const fs = require('fs');
           let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
-          function stripCountry(t) {
-            return t.split(':')[0];
-          }
-          // Shuffle the array randomly and pick 10 entries
+          function stripCountry(t) { return t.split(':')[0]; }
           rankings.sort(() => Math.random() - 0.5);
           let selected = rankings.slice(0, 10);
-          // Extract base tickers and remove country suffixes
           let tickers = selected.map(h => stripCountry(h.Ticker));
-          // Append SPY ticker (which will have no rank)
           tickers.push("SPY");
           fs.writeFileSync('tiingoTickers.txt', tickers.join(','), 'utf8');
           EOF
@@ -74,7 +69,7 @@ jobs:
       - name: Fetch from Tiingo
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-        run: | 
+        run: |
           TICKERS=$(cat tiingoTickers.txt)
           echo "Fetching Tiingo quotes for: $TICKERS"
           curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
@@ -83,62 +78,72 @@ jobs:
           cat tiingoRaw.json
 
       - name: Merge & Pick Final Selection
-        run: |2
+        run: |
           cat <<'EOF' > merge.js
+          // merge.js
           const fs = require('fs');
+
           function stripCountry(t) {
             return t.split(':')[0];
           }
+
           // Read the flattened Rankings data and Tiingo data
-          let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
-          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
-          
+          let rankings  = JSON.parse(fs.readFileSync('rankingsClean.json', 'utf8'));
+          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json', 'utf8'));
+
           // Build a map for Tiingo data keyed by base ticker.
           let tiingoMap = {};
           tiingoRaw.forEach(item => {
-            let price = (item.last == null) ? item.tngoLast : item.last;
-            let prev = item.prevClose || 0;
-            let ret = price - prev;
-            tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: ret };
-          });
-          
-          // Build final merged data from Rankings data.
-          let merged = rankings.map(h => {
-            let baseT = stripCountry(h.Ticker || '');
-            let info = tiingoMap[baseT] || {};
-            return {
-              fullTicker: h.Ticker,
-              baseTicker: baseT,
-              rank: h.Rank,
-              price: info.price || 0,
-              prevClose: info.prevClose || 0,
-              absReturn: info.absReturn || 0,
-              logo: h.Logo
+            const price = item.last != null ? item.last : item.tngoLast;
+            const prev  = item.prevClose || 0;
+            tiingoMap[item.ticker] = {
+              price,
+              prevClose: prev,
+              absReturn: price - prev
             };
           });
-          
-          // Add SPY ticker (no rank, logo from local sp500.png)
-          let spyInfo = tiingoMap["SPY"] || {};
+
+          // Merge and filter: only keep entries with valid US price (>0)
+          let merged = rankings
+            .map(h => {
+              const baseT = stripCountry(h.Ticker || '');
+              const info  = tiingoMap[baseT] || {};
+              return {
+                fullTicker: h.Ticker,
+                baseTicker: baseT,
+                rank:        h.Rank,
+                price:       info.price || 0,
+                prevClose:   info.prevClose || 0,
+                absReturn:   info.absReturn || 0,
+                logo:        h.Logo
+              };
+            })
+            .filter(item => item.price > 0);
+
+          // Add SPY ticker (no rank, with SP500 logo)
+          let spyInfo = tiingoMap['SPY'] || {};
           merged.push({
-            fullTicker: "SPY",
-            baseTicker: "SPY",
-            rank: "",
-            price: spyInfo.price || 0,
-            prevClose: spyInfo.prevClose || 0,
-            absReturn: spyInfo.absReturn || 0,
-            logo: "sp500.png"
+            fullTicker: 'SPY',
+            baseTicker: 'SPY',
+            rank:       '',
+            price:      spyInfo.price || 0,
+            prevClose:  spyInfo.prevClose || 0,
+            absReturn:  spyInfo.absReturn || 0,
+            logo:       'sp500.png'
           });
-          
-          // Optionally, sort merged data by rank (placing SPY last)
+
+          // Sort by rank (SPY ends up last)
           merged = merged.sort((a, b) => {
-            if(a.baseTicker === "SPY") return 1;
-            if(b.baseTicker === "SPY") return -1;
+            if (a.baseTicker === 'SPY') return 1;
+            if (b.baseTicker === 'SPY') return -1;
             return a.rank - b.rank;
           });
-          
+
+          // Write final output
           fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
           console.log('Final selection =>', merged);
           EOF
+
           node merge.js
           echo "===== FINAL data.json ====="
           cat data.json
