@@ -30,7 +30,6 @@
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
         line-height: 1.5;
         font-family: sans-serif;
-        display: none;
         z-index: 10000;
       }
       /* ... other styles ... */
