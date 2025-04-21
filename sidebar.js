@@ -85,7 +85,6 @@
 
     // Create sidebar container
     const sidebar = document.createElement('aside');
-    const sidebar = document.createElement('aside');
     sidebar.id = 'top-pick-sidebar';
     sidebar.innerHTML = `
       <button class="close-btn" aria-label="Close sidebar">×</button>
@@ -110,14 +109,17 @@
       toggle.classList.add('show');
     });
 
-    // Scroll trigger: show toggle after 30% scroll, sidebar remains closed
+    // Scroll trigger: show sidebar automatically at 30% scroll
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (ratio >= 0.3) toggle.classList.add('show');
-      else toggle.classList.remove('show');
+      if (ratio >= 0.3) {
+        sidebar.classList.add('show');
+      } else {
+        sidebar.classList.remove('show');
+      }
     }
     window.addEventListener('scroll', checkScroll);
-    checkScroll();
+    checkScroll(); // initial check
 
     // Fetch and populate
     fetch(dataUrl)
