@@ -1,0 +1,157 @@
+name: "Update Holdings & Quotes"
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq nodejs npm
+
+      - name: Fetch RankingsTotal from Airtable with Debug Logging
+        env:
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+        run: |
+          echo "Fetching RankingsTotal from Airtable..."
+          curl -sSL -D headers_rankings.txt \
+            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tbl4Hy2kVNE16r5Ws?maxRecords=11" \
+            -o rankingsRaw.json
+          echo "HTTP headers for RankingsTotal:"
+          cat headers_rankings.txt
+          echo "===== RankingsTotal Raw Response ====="
+          cat rankingsRaw.json
+
+      - name: Verify RankingsTotal JSON and Debug
+        run: |
+          if ! jq -e '.records' rankingsRaw.json >/dev/null; then
+            echo "Error: rankingsRaw.json does not contain a 'records' field."
+            echo "Here is the contents of rankingsRaw.json:"
+            cat rankingsRaw.json
+            exit 1
+          fi
+
+      - name: Flatten RankingsTotal Data
+        run: |
+          jq '.records | map({
+            "Ticker": .fields.Ticker,
+            "Rank": .fields.Rank,
+            "Logo": (.fields.Logo // "")
+          })' rankingsRaw.json > rankingsClean.json
+          echo "===== rankingsClean.json ====="
+          cat rankingsClean.json
+
+      - name: Prepare Ticker List (10 Random + SPY)
+        run: |
+          cat <<'EOF' > buildTickers.js
+          const fs = require('fs');
+          let rankings = JSON.parse(fs.readFileSync('rankingsClean.json','utf8'));
+          function stripCountry(t) { return t.split(':')[0]; }
+          rankings.sort(() => Math.random() - 0.5);
+          let selected = rankings.slice(0, 10);
+          let tickers = selected.map(h => stripCountry(h.Ticker));
+          tickers.push("SPY");
+          fs.writeFileSync('tiingoTickers.txt', tickers.join(','), 'utf8');
+          EOF
+          node buildTickers.js
+          echo "==== TICKERS FOR TIINGO ===="
+          cat tiingoTickers.txt
+
+      - name: Fetch from Tiingo
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+        run: |
+          TICKERS=$(cat tiingoTickers.txt)
+          echo "Fetching Tiingo quotes for: $TICKERS"
+          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
+            -o tiingoRaw.json
+          echo "===== tiingoRaw.json ====="
+          cat tiingoRaw.json
+
+      - name: Merge & Pick Final Selection
+        run: |
+          cat <<'EOF' > merge.js
+          // merge.js
+          const fs = require('fs');
+
+          function stripCountry(t) {
+            return t.split(':')[0];
+          }
+
+          // Read the flattened Rankings data and Tiingo data
+          let rankings  = JSON.parse(fs.readFileSync('rankingsClean.json', 'utf8'));
+          let tiingoRaw = JSON.parse(fs.readFileSync('tiingoRaw.json', 'utf8'));
+
+          // Build a map for Tiingo data keyed by base ticker.
+          let tiingoMap = {};
+          tiingoRaw.forEach(item => {
+            const price = item.last != null ? item.last : item.tngoLast;
+            const prev  = item.prevClose || 0;
+            tiingoMap[item.ticker] = {
+              price,
+              prevClose: prev,
+              absReturn: price - prev
+            };
+          });
+
+          // Merge and filter: only keep entries with valid US price (>0)
+          let merged = rankings
+            .map(h => {
+              const baseT = stripCountry(h.Ticker || '');
+              const info  = tiingoMap[baseT] || {};
+              return {
+                fullTicker: h.Ticker,
+                baseTicker: baseT,
+                rank:        h.Rank,
+                price:       info.price || 0,
+                prevClose:   info.prevClose || 0,
+                absReturn:   info.absReturn || 0,
+                logo:        h.Logo
+              };
+            })
+            .filter(item => item.price > 0);
+
+          // Add SPY ticker (no rank, with SP500 logo)
+          let spyInfo = tiingoMap['SPY'] || {};
+          merged.push({
+            fullTicker: 'SPY',
+            baseTicker: 'SPY',
+            rank:       '',
+            price:      spyInfo.price || 0,
+            prevClose:  spyInfo.prevClose || 0,
+            absReturn:  spyInfo.absReturn || 0,
+            logo:       'sp500.png'
+          });
+
+          // Sort by rank (SPY ends up last)
+          merged = merged.sort((a, b) => {
+            if (a.baseTicker === 'SPY') return 1;
+            if (b.baseTicker === 'SPY') return -1;
+            return a.rank - b.rank;
+          });
+
+          // Write final output
+          fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
+          console.log('Final selection =>', merged);
+          EOF
+
+          node merge.js
+          echo "===== FINAL data.json ====="
+          cat data.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "Update final ticker selection" || exit 0
+          git push origin HEAD:main
