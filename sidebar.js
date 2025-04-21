@@ -64,9 +64,8 @@
       .cta-button:hover { background-color: #000; }
       #top-pick-toggle {
         position: fixed;
-        top: 70vh;
+        top: 50%; transform: translateY(-50%);
         right: 0;
-        transform: translateX(100%);
         background: #87cefa;
         color: #fff;
         padding: 8px 12px;
@@ -74,7 +73,7 @@
         cursor: pointer;
         display: none;
       }
-      #top-pick-toggle.show { display: block; transform: translateX(0); }
+      #top-pick-toggle.show { display: block; }
     `;
     document.head.appendChild(style);
 
@@ -99,9 +98,6 @@
       <a id="more-link" href="https://victorphilip.com/Rankings" class="cta-button" target="_top" rel="noopener noreferrer">Want more…?</a>
     `;
     document.body.appendChild(sidebar);
-    // Open by default and hide toggle
-    sidebar.classList.add('show');
-    toggle.classList.remove('show');
 
     // Toggle behavior
     toggle.addEventListener('click', () => {
@@ -113,14 +109,14 @@
       toggle.classList.add('show');
     });
 
-    // Scroll trigger: show/hide toggle
+    // Scroll trigger: show toggle after 30% scroll, sidebar remains closed
     function checkScroll() {
       const ratio = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
       if (ratio >= 0.3) toggle.classList.add('show');
       else toggle.classList.remove('show');
     }
     window.addEventListener('scroll', checkScroll);
-    checkScroll(); // initial check
+    checkScroll();
 
     // Fetch and populate
     fetch(dataUrl)
