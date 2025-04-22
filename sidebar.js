@@ -11,7 +11,6 @@
     const dataUrl = currentScript.dataset.jsonUrl || baseUrl + 'example_holding.json';
 
     let manuallyClosed = false;
-    let toggleCollapsed = false;
 
     // Inject CSS
     const style = document.createElement('style');
@@ -25,7 +24,8 @@
       }
 
       /* Sidebar */
-      #top-pick-sidebar { position: fixed; top:50%; right:0; width:320px;
+      #top-pick-sidebar {
+        position: fixed; top:50%; right:0; width:320px;
         background:#fafafa; border-left:1px solid #ddd; padding:20px;
         box-shadow:-3px 0 8px rgba(0,0,0,0.2); line-height:1.5;
         display:none; transform:translateY(-50%);
@@ -33,7 +33,8 @@
         font-family:sans-serif; z-index:10000;
       }
       #top-pick-sidebar.show { display:block; }
-      #top-pick-sidebar .close-btn { position:absolute; top:8px; right:8px;
+      #top-pick-sidebar .close-btn {
+        position:absolute; top:8px; right:8px;
         background:transparent; border:none; font-size:20px;
         cursor:pointer; color:#666;
       }
@@ -42,17 +43,18 @@
       #top-pick-sidebar .company-name { font-weight:bold; font-size:18px; }
       #top-pick-sidebar .full-name { font-size:15px; color:#555; margin-bottom:8px; }
       #top-pick-sidebar .rank { color:#333; margin:10px 0; font-weight:600; }
-      #top-pick-sidebar .description,
+      #top-pick-sidebar .description, 
       #top-pick-sidebar .custom-description {
         font-size:14px; color:#444; margin-bottom:10px;
       }
       #top-pick-sidebar .custom-description { margin-top:5px; }
-      #top-pick-sidebar .timestamp { font-size:12px; color:#888;
-        text-align:right; margin-top:8px;
+      #top-pick-sidebar .timestamp {
+        font-size:12px; color:#888; text-align:right; margin-top:8px;
       }
-      .cta-button { display:block; width:100%; padding:12px 0;
-        margin-top:12px; text-align:center; font-weight:600;
-        color:#fff; background-color:#87cefa; border-radius:4px;
+      .cta-button {
+        display:block; width:100%; padding:12px 0; margin-top:12px;
+        text-align:center; font-weight:600; color:#fff;
+        background-color:#87cefa; border-radius:4px;
         text-decoration:none; box-shadow:0 2px 6px rgba(0,0,0,0.15);
         animation:pulse 2s infinite;
       }
@@ -60,33 +62,21 @@
 
       /* Toggle */
       #top-pick-toggle {
-        position:fixed; top:50%; right:0; transform:translateY(-50%);
+        position:fixed; top:50%; right:0;
+        transform:translateY(-50%);
         background:#87cefa; color:#fff; cursor:pointer;
-        display:none; font-size:14px; z-index:10000;
-        transition:width .3s, padding .3s;
-        padding:10px 14px; font-family:sans-serif;
+        display:none; font-size:18px; line-height:1;
+        padding:10px; border:none; border-radius:4px 0 0 4px;
+        font-family:sans-serif; z-index:10000;
       }
       #top-pick-toggle.show { display:block; }
-      /* collapsed: only fire icon via ::before, hide text */
-      #top-pick-toggle.collapsed {
-        width:32px !important;
-        padding:6px 0 !important;
-        text-indent:-9999px;
-      }
-      #top-pick-toggle.collapsed::before {
-        content:'🔥'; position:absolute;
-        left:50%; top:50%; transform:translate(-50%,-50%);
-        font-size:18px;
-      }
-      /* remove collapse hint arrow */
-      #top-pick-toggle:not(.collapsed)::after { content: ''; }
     `;
     document.head.appendChild(style);
 
-    // Create toggle button
+    // Create toggle button (just the fire emoji)
     const toggle = document.createElement('button');
     toggle.id = 'top-pick-toggle';
-    toggle.textContent = '🔥 Top Pick';
+    toggle.textContent = '🔥';
     document.body.appendChild(toggle);
 
     // Create sidebar
@@ -109,49 +99,38 @@
     `;
     document.body.appendChild(sidebar);
 
-    // realistic timestamp
+    // Realistic timestamp
     const stampEl = sidebar.querySelector('.timestamp');
     const now = Date.now();
-    const ago = (Math.floor(Math.random()*51)+10)*60000;
-    const ts = new Date(now - ago);
-    stampEl.textContent = `Updated: ${ts.toLocaleTimeString()}`;
+    const ago = (Math.floor(Math.random() * 51) + 10) * 60000;
+    stampEl.textContent = `Updated: ${new Date(now - ago).toLocaleTimeString()}`;
 
-    // Toggle click
-    toggle.addEventListener('click', e => {
-      if (!sidebar.classList.contains('show') && !toggleCollapsed && e.offsetX < 32) {
-        toggleCollapsed = true;
-        manuallyClosed = true;
-        toggle.classList.add('collapsed');
-        return;
-      }
-      // open
+    // Toggle click to open
+    toggle.addEventListener('click', () => {
       sidebar.classList.add('show');
-      toggle.classList.remove('show', 'collapsed');
-      toggleCollapsed = false;
+      toggle.classList.remove('show');
       manuallyClosed = false;
     });
-    // close click
+    // Close click
     sidebar.querySelector('.close-btn').addEventListener('click', () => {
       sidebar.classList.remove('show');
       toggle.classList.add('show');
-      toggleCollapsed = false;
       manuallyClosed = true;
     });
 
-    // scroll trigger
+    // Scroll trigger (30%)
     function checkScroll() {
       const ratio = window.scrollY /
         (document.documentElement.scrollHeight - window.innerHeight);
       if (ratio >= 0.3 && !manuallyClosed) {
         sidebar.classList.add('show');
-        toggle.classList.remove('show', 'collapsed');
-        toggleCollapsed = false;
+        toggle.classList.remove('show');
       }
     }
     window.addEventListener('scroll', checkScroll);
     checkScroll();
 
-    // fetch & populate
+    // Fetch & populate
     fetch(dataUrl)
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
       .then(data => {
@@ -161,7 +140,8 @@
         let logoUrl = '';
         if (typeof top.logo === 'string') logoUrl = top.logo;
         else if (Array.isArray(top.logo) && top.logo[0]) {
-          const f = top.logo[0]; logoUrl = f.thumbnails?.small?.url || f.url || '';
+          const f = top.logo[0];
+          logoUrl = f.thumbnails?.small?.url || f.url || '';
         }
         sidebar.querySelector('.logo').src = logoUrl;
         sidebar.querySelector('.logo').alt = `${ticker} logo`;
@@ -171,7 +151,8 @@
         sidebar.querySelector('.description').textContent =
           `We constantly monitor and rank potential market leaders. ${top.name || ticker} stands out in stable growth, valuation, return on capital, sentiment and industry momentum.`;
         const words = (top.description || '').split(/\s+/);
-        sidebar.querySelector('.custom-description').textContent = words.slice(0, Math.ceil(words.length/2)).join(' ') + '…';
+        sidebar.querySelector('.custom-description').textContent =
+          words.slice(0, Math.ceil(words.length / 2)).join(' ') + '…';
       })
       .catch(err => {
         console.error('Sidebar error:', err);
