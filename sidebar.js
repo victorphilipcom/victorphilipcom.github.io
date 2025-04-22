@@ -93,7 +93,7 @@
       <p class="custom-description"></p>
       <a id="more-link" href="https://victorphilip.com/Rankings"
          class="cta-button" target="_top" rel="noopener noreferrer">
-        Unlock Full Analysis
+        Unlock Full Rank Analysis
       </a>
       <div class="timestamp">Updated: --</div>
     `;
