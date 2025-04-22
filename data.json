@@ -180,6 +180,42 @@
     ]
   },
   {
+    "fullTicker": "CRL:USA",
+    "baseTicker": "CRL",
+    "rank": 44.2438,
+    "price": 106.89,
+    "prevClose": 102.67,
+    "absReturn": 4.219999999999999,
+    "logo": [
+      {
+        "id": "att0BPhEduY4t4DqU",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/3iG5fv9AEMBLI7ZAUu7Uww/8w68lSugJ9wy6wNGht9QzieCUjPBuSl92hycuI1Y4TjGmaPpDAJvFtvhn6auZ5a6owOGqxpRLX_cr_qjeNa5_9Kb01Pzc29V1joWmwJt7aHR3p6J3jf9a69XAV-CfRVNbO4d-qOyUlKYeuWK0QI-8avXJv-5Sdaj0D6LACNHRU9G-YTLsR5OVU9fCcbULCSptU2sUe62oQKQpXlf6R9ZXA/Z0MZJLY3wbakbcX8rMBHSmfz7JhdqBXBIQreCrA3gdc",
+        "filename": "charles-river-laboratories-international-inc-logo.png",
+        "size": 1765,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/b7-_CsrNpnlLSkj3uhSpEQ/JxQ0d4qqK4aSHXkWgqUMIOrOmANw0p6QIANy8rCnfT2LNQKbhUbjyGpXe6jmPL_NKVcfO1-ojXt41oUqsZXN51v2WYhl7K1o8TOP45oznSJ5kndoaDRBc19MZuY-ZGbXZmturJ7qq13MiBHsv2ks_g/yb04L3ekYnSkf-SdJJpTYguJqobbYVV8pYJ9p9uAfhk",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/69cMq1kCS3xcSajYx1naxg/JRa5bSgzfB65FnOgNQSrNlZLtvYPMn0GxVrscLTxbJ0efHQf7nqy8P9iYBH-bbFnBHf6P22NponQVjDwJZUuWpwPXcCYzXK-wGukaO7QYXFuyGxHc4aM9QcndpFcMgf5pqcKb100SH27sYGN2eYABQ/0e3X5h2REkx7rVt6pEEH0M1OqxCU445xVthXV4450gY",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/ztVidjvBVT3u2dFEeGk9Bg/fpdxbrAGSdmqp5D2pfHCop3yHvGgVkWvnUHFok4p_B1PKR5WBNwAjsXA7Ry2qNK2nlCv0AG_xkZlshuuaJ5DfELjCO4l8ajyQTsBOivup43mt3mRYfGR6MA6Sl2KgH1xnjcW0rC5n5wRRjGGE_P8kg/7CE9QDZfiqqhBur2qi6bIVmaGlD1rTx-BJEa24gixjc",
+            "width": 80,
+            "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
@@ -210,42 +246,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/R2X5iScQLOCODkcY9YmVuw/0_K3lvwh4U7jtV0HjoqF_tso1lGWyBbWRv4pQcmJp9E69Mz0V9kHFBTNRLYKot_y22s_hmi5FQySfy7JUtNoaiylY19GUBmnDLUD1sEahHjoUedu3vfCcxFZSpFlyCnOQxvKYktAcJJfxYvYsTR1lA/NbSOJTzNPJh-YtdL6PGEt15-Y7nw2kryviXCt5ThUjo",
             "width": 200,
             "height": 200
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "SBH:USA",
-    "baseTicker": "SBH",
-    "rank": 86.6083,
-    "price": 8.09,
-    "prevClose": 7.95,
-    "absReturn": 0.13999999999999968,
-    "logo": [
-      {
-        "id": "attqVPKupg5wJf6EE",
-        "width": 80,
-        "height": 13,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/Ni23KNe3OUrk_uYcNznkow/5aJYZu0OX8ywq6SGPIedZx2Fhl_aiQmCFmIEASGBNqGUW1Y61aY4A1IX8ewOGhh-KlD9FFqUBrpz1zWTn0XH_frcGkIJcK1_5F4mEn5qmOhTGhFG_JR7zWREGMoDonf4YW369_wRb4CvbYLYpiCZKST_AmEYB6QR0bp3dn3MjC_D69Fo0RlhVSsyJGHW_mjr/eT5eKGP5JKGV84PAJUfLU8zG0MWnEY5768i0zi7nvPU",
-        "filename": "sally-beauty-holdings-inc-logo.jpg",
-        "size": 925,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/WnC-LPEPjirXsUZWHYxXoA/TZzq9HuEvoMF__bOHNjgCmSf5f9VwmX0MSZSM-CBy5hWKzoOrVWTEuMkL9zF-MqwzyawNtxOrgjCqqj6klLmHlUhKzmd9FCC8jSPXHNtc1woaH4jYw9yQ_CE7K-NrpWUaPIOstSw54_KwmVmvNe0iQ/JDSp87L0z_tDDDpq8QsaLP4eWKCCAYDpIaobV7DLdec",
-            "width": 80,
-            "height": 13
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/2e-e1hlMhiJLX5kBfn9wWg/3aYDO-9aROM6gwFf98sz7cvRGhzTIdKJVeif1dIwMwOvzUETZi45Q4BPL5yRcEBu-pmwV9h1IZXrzZ9tPOAjYHbK8pUwDxtiZ-rq2Xyjpqmw7t6PF_6W85WOZBTI17W5bqfySSd5YwkT24JGAuLzlA/u8NNdBfEsfSO8LnWNlUB2NrH8vWyjd9fmglKSEGYm-g",
-            "width": 80,
-            "height": 13
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745373600000/zVMEFpIzhPEMmui0Hld3Rg/rSUgv4EfILQO4tsMV6aae9ilhlq54T8iZDpvnlC3RRC0ltuCcJqkEUSd-xoQFsze-R9jcBX1GLfFGgAg4RYTOp60DH_O0KqSz5EgNM2_uCFYzB2VetpLxWJUlq0MJZfg9YEq29QXLjY6WghJChRUDg/UKgFzZFDGvqWzhnQj8nuTAF2SJ2458o1kd5MaaJB1P4",
-            "width": 80,
-            "height": 13
           }
         }
       }
