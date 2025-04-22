@@ -3,9 +3,9 @@
     "fullTicker": "IONQ:USA",
     "baseTicker": "IONQ",
     "rank": 0.1095,
-    "price": 25.425,
+    "price": 25.435,
     "prevClose": 24.03,
-    "absReturn": 1.3949999999999996,
+    "absReturn": 1.4049999999999976,
     "logo": [
       {
         "id": "att8FHj77cNQD3pb7",
@@ -39,9 +39,9 @@
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
-    "price": 10.395,
+    "price": 10.425,
     "prevClose": 10.04,
-    "absReturn": 0.3550000000000004,
+    "absReturn": 0.38500000000000156,
     "logo": [
       {
         "id": "att3IpPCDbErkHC4N",
@@ -75,9 +75,9 @@
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
-    "price": 7.3,
+    "price": 7.33,
     "prevClose": 7.14,
-    "absReturn": 0.16000000000000014,
+    "absReturn": 0.1900000000000004,
     "logo": [
       {
         "id": "atth9YbtDIOMFdzon",
@@ -111,9 +111,9 @@
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
-    "price": 22.46,
+    "price": 22.325,
     "prevClose": 23.19,
-    "absReturn": -0.7300000000000004,
+    "absReturn": -0.865000000000002,
     "logo": [
       {
         "id": "attuvqXc6S0Ea8ukB",
@@ -147,9 +147,9 @@
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
-    "price": 30.03,
+    "price": 30.07,
     "prevClose": 29.56,
-    "absReturn": 0.4700000000000024,
+    "absReturn": 0.5100000000000016,
     "logo": [
       {
         "id": "attNZ6bVwMsQ3SUIx",
@@ -180,12 +180,48 @@
     ]
   },
   {
+    "fullTicker": "CRL:USA",
+    "baseTicker": "CRL",
+    "rank": 44.2438,
+    "price": 106.15,
+    "prevClose": 102.67,
+    "absReturn": 3.480000000000004,
+    "logo": [
+      {
+        "id": "att0BPhEduY4t4DqU",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745359200000/9Vd2eNJbgGRvENzGjXycfA/LwHqnyAngaMGUfjRCIVy7jgShi50m1NGEZY4ejS6hKGYtkZFWtz2Srdu6d0ODySig8uDTj8sx4T4L66yQqffsHfvr7-bMO8tBsEaj-l5UiUkw6NddIy-BeVOU0R3NNXcY52p8m5XY81k6GNxqQMqY2Cdoq3VDV8KVWAa1WC3N95N2N09E1E_OUUxX3Q2gp0iAnLhLDbVG7yzqYPPWPHblg/AKKnhxLCw_1J6bbFkrWKEOQjtObuzj35y_ALRMQEyEg",
+        "filename": "charles-river-laboratories-international-inc-logo.png",
+        "size": 1765,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745359200000/BYa-RfzABay-YVFYTSCoxA/3tkRYwtsrQFg7BHMurJKKgd0xna6hSFshgjQoF2IlA6J44e4d4P5bypqdjf0oj0MZnSyNdeHmyocEK_zin-jaQAFi0b8-Qw5ECGXyaFNo8tZ9p-8J-41Tx75RA2_OYbPtOlbZCTrGdyRjURqhaxSUA/wawOw4x9aCZm73SG8AoUoKVvWEfckxyXRDTz6gMwITw",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745359200000/pzDDbQyMoZeR8ZtsgIxEtg/1amgFuwVgEb7-sFlg_y512MVI_XQVxih3-QDzLmBNAyoBpqfECW1NxoaR_LSjSbW0X_e8g17PWdXdMrlVEXzbGh5qF8aICz3nUn2IgxaY4u7qkFhlEkjNIQxMHHvLZReDKXDLXiz8GllZisji19gwQ/-OlATwP39YunsTV13o-OwTCwASrBHQCOgTSJg2mbQf4",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745359200000/LHeUIVJu_ZxivI2dhngmXA/9UKkuMp4KvU4gyWqkFlslgzWCGqhLJUopGitNai0j4vrLoGmpAmbNOIpp39YFeJ_Uab-nJJy52Zp_l_rKhIc9jqUQCC-4188zPJ_ey6tqJBlsZ5pfn__1QtyWehq5G4_7Mh-q4A0y0XqON7hbJLERw/c26B4y9-37-P5Ang1Rh92du3ZzCp3glbl60-FqC9Q_g",
+            "width": 80,
+            "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
-    "price": 51.625,
+    "price": 51.615,
     "prevClose": 50.92,
-    "absReturn": 0.7049999999999983,
+    "absReturn": 0.6950000000000003,
     "logo": [
       {
         "id": "attw38jFXTtzhxJRD",
@@ -216,48 +252,12 @@
     ]
   },
   {
-    "fullTicker": "SBH:USA",
-    "baseTicker": "SBH",
-    "rank": 86.6083,
-    "price": 8.065,
-    "prevClose": 7.95,
-    "absReturn": 0.11499999999999932,
-    "logo": [
-      {
-        "id": "attqVPKupg5wJf6EE",
-        "width": 80,
-        "height": 13,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745359200000/Rs74SdcxP_XcKY8LVIfd8A/jsRWnSOkG6nn7p63L1G4mLngrbU-6Amxs8bwJL7vlcf6g_xEvG1Ifbg9457T4xDIajGWwj_TwxlWGx3jN2NjbsCOc8zdYmsBWEwthOGkdCmTfJRsr9kCVz_Y9WU1LyrdGhZgt8EIbQDNXUfKJE2Ro_ZDODYht606b8OlKth5L5NGIaB_mPQSAkmKW8tFkM8-/2WTTesJ6C_OekNqW_Ml7Gms_liEcXkC_KeOAyyaUva0",
-        "filename": "sally-beauty-holdings-inc-logo.jpg",
-        "size": 925,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745359200000/A-DIe51whqMQhA89SwLqFQ/ms0Oypy3atO9hnnG2Ym4bpO1vKMzj5HzEJdRES_ojOD6e7HCNSxxfQFL24fX_hyOjGTPIzhPLQTf0PdBb_3lB7A7hALwXf9qVt_ZPSqQSNx2UQv4zgm_X-vfNq7vC_NpkUMAu6Gt_Dq5b9RYr6adYQ/ozk1ssNPyE_QUHB9Su0-yYPHIrTsA0AdtQuSIvUtS4M",
-            "width": 80,
-            "height": 13
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745359200000/NUCV0zOkZTiuiyyaAGo8NQ/AuLJIzUoMt-9SJz33VMVA2tDn82MfOLpMvmvhV2Sro3HfLjLMPb2U_56wxJpGGCndZO3K_1GEfVW38ssuDKr9obe_TfkpGVl9OjDx7hAg86cUFSqhGfm2N-d3MpS7aTpDYYtjPOPRZ6g2eoZo-V1cA/_qQ6VlUUFKEk_YP7T05USuBouw5Gs653mQAeGhmS9E4",
-            "width": 80,
-            "height": 13
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745359200000/3AElFH0jmcyBJjorzRLMJg/CxB0EbyWXauw1s_9quOmeG5N98c0SmHPFEbCSzF0K0yFfqQc1ypafIpCrRIz3RmUN15iZL-VRBNgy7j83OArwA2gGZbeS5ZgIqnqINXFoEpqykMPm5lWfcr0EYYY3phYgM4cEIqjMi1rUfocVncGxg/TOM1nhIOrnFdMiZSLia33FTbcQDdfKgmpal9Cy0eA1g",
-            "width": 80,
-            "height": 13
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "FET:USA",
     "baseTicker": "FET",
     "rank": 93.888,
-    "price": 14.975,
+    "price": 14.97,
     "prevClose": 14.7,
-    "absReturn": 0.27500000000000036,
+    "absReturn": 0.27000000000000135,
     "logo": [
       {
         "id": "att1Afc0dnnqt0yve",
@@ -327,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 524.78,
+    "price": 524.505,
     "prevClose": 513.88,
-    "absReturn": 10.899999999999977,
+    "absReturn": 10.625,
     "logo": "sp500.png"
   }
 ]
