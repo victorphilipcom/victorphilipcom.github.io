@@ -3,9 +3,9 @@
     "fullTicker": "IONQ:USA",
     "baseTicker": "IONQ",
     "rank": 0.1095,
-    "price": 26.79,
+    "price": 26.8,
     "prevClose": 25.56,
-    "absReturn": 1.2300000000000004,
+    "absReturn": 1.240000000000002,
     "logo": [
       {
         "id": "att8FHj77cNQD3pb7",
@@ -219,9 +219,9 @@
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
-    "price": 51.515,
+    "price": 51.6,
     "prevClose": 51.73,
-    "absReturn": -0.2149999999999963,
+    "absReturn": -0.12999999999999545,
     "logo": [
       {
         "id": "attw38jFXTtzhxJRD",
@@ -288,36 +288,36 @@
     ]
   },
   {
-    "fullTicker": "FET:USA",
-    "baseTicker": "FET",
-    "rank": 93.888,
-    "price": 14.45,
-    "prevClose": 15.06,
-    "absReturn": -0.6100000000000012,
+    "fullTicker": "MGIC:USA",
+    "baseTicker": "MGIC",
+    "rank": 99.854,
+    "price": 13.72,
+    "prevClose": 13.34,
+    "absReturn": 0.3800000000000008,
     "logo": [
       {
-        "id": "att1Afc0dnnqt0yve",
+        "id": "atttujlIaJs7qz82O",
         "width": 80,
-        "height": 38,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/b1gjcuheNOLMe_gEAkHuvQ/8yCtXmhrR0ZXHzCGmyheY-XQ-wZ9XWV1ImCI4E2v_1UD1GWBF_JmjI2Am-34Qo1NU_R1gZyo5Dl19wESkHuEuinwHxMVE9uLwhozFIHCq77nSd9IIh10hJWeY30Do5yI5YSuDqHky4dPV4u8G4wu838SN1zfJAZ1PrJNSFkHDWj5AtxT_B8dbIS2Vmg_jnzU/b97w82IiKQRA2XDSLm9OZfZLgaRrsvgsnEten2D7usA",
-        "filename": "forum-energy-technologies-inc-logo.png",
-        "size": 1533,
-        "type": "image/png",
+        "height": 80,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/JWW-zMIIPB2cOolomZSSCw/YIbo6QKGxV4B8MMiISYfH0E-RSdmvw49WrgTNAGufODJQeX4-Kgg6DMP9dpsuRcBdZMQGr4e22WuKF35ww5l3yOHwszOlbsyjwbe6ZHfPZRGmHQ5DQ3iwHPyvd_x08pxB3YCP-MtGrkBKXFcFBeJMh_7qm7P07mIOBnKfOXwsfjqHonVz7zFEUNJ0SKXopiy1U3BjUJ95aau04gl-tVavg/b4997FtiCKkTxOiSGwio18O7Wwdj8PF4rpTDgcc3Tvo",
+        "filename": "magic-software-enterprises-ltd-logo.jpg",
+        "size": 1824,
+        "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/Y4JV8-tWLS0bo54gC-lJYA/IkX8ddx7QaaTsUL3pptAGbH5kTECRJW5gjH9E8TxmDQ01R_-PEINHAO8-NmL2Vt5Zs29K9M-bacuFpUyTsxYI-zn10tNVxV2g4fUJJvONA4dLOPIc29jfO93TfJDTxDD28dN8fILvdLCX6l6lQJegA/JQFQYIgsqw98afGfTaUZyewSJo5W6-CWGmfidP_E0-c",
-            "width": 76,
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/viut_M3-FX1vaboO1xjLHQ/yV46xhuoRFvLN0yGh5jquuaXGf8NNc6E2sCBvgTGYVmpEnDoJkRjL0DNvcRveClsy0tXfKQzLbVPZ5Gr7mYMEOsFIgdeFEmg5_P5bLZFvbVmM9Homw4QuHVvKeTf1_rL2XijZWRivp9V0F_uIBdCrg/EeUIKBVc6kREWQi4D-nlE_5LJrYUrChMsSBLRKAwE_c",
+            "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/DmHtvYd3B4rBYc9_UAelhw/CptpL7cqMaTuly4aEWPpPGy3XlKXGPDtiwqQ2HkQr7dBJRkL5U6zq_9Xg5Thf48PCZsOtFGeRDuWvMcVfDlVcO5ySRwJd52P6R-rOQ7dqYvilU0mtmIdqALz-_8XFQBts4F-G96nim8lbhS3K2PEXw/Ovihxwa2WQNDkDk7Mx8aK6Zzp3RVqGl6AQVaLY8y36c",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/HwZTtFlKlV6RxrgLhrUNzA/UURvuin9rFcLo1KXxUwuL0Ifw5FT5sXnVTrO1_QYfOV1J6SbF6RM54PEE3FdRK0O_H8B_R2u3FM4I41sQM6F2D2bCGoPdFm6kxmSXRFzFJsauF-GZy1qlyjEBSOT_W_84cwc-DukImotJ5FEhpGSjg/hs4rMM4g7CCOPXSEYYdJ-fp2NFAU-UGNWncEECSsIag",
             "width": 80,
-            "height": 38
+            "height": 80
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/lrb3akifmbbBUkObYYg_iQ/c-5xCijgwqmWzEfMVZvvv6g5F1K9jPcZKmjhBAfcQMVzLZn-W2OMaUKThfK142OGhMhjLpMXTcaj3ame4tQmHnilCj_c_R-k26JW5bcsoVbCs4x2FYuaAB34NfZhKUtpOX__8XERYaR7xsaT2kfZHw/YDtX1xMVLDHyBEKVtRfVtQc5s05NallXa7ShWx6NHKE",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/At60wSe_G1IgKPk7hw01JQ/pF7PZyopxG-Cqeu5i_JtMT9BDWjk3ZEpq_YGb1tx2VmI3W2EPp288vUC75YyI6Xjx3SZvZgkKyMYUBf3JHUNdMMU8FLT_EGUJaB_f9uDhtY6LIy7x3cWVeCSd97FQ41PjLoy4bK6M-5CT-6gj0MrYQ/FZNJ5AqfvpxLW54tNxhBEjHsP5itHOBfGSWhGlN3r0w",
             "width": 80,
-            "height": 38
+            "height": 80
           }
         }
       }
