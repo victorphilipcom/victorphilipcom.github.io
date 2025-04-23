@@ -72,42 +72,6 @@
     ]
   },
   {
-    "fullTicker": "DAWN:USA",
-    "baseTicker": "DAWN",
-    "rank": 2.4448,
-    "price": 7.44,
-    "prevClose": 7.33,
-    "absReturn": 0.11000000000000032,
-    "logo": [
-      {
-        "id": "atth9YbtDIOMFdzon",
-        "width": 80,
-        "height": 35,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/sxby921bLCvqfCVl-PZKEw/w42Q08DtDDgOu2Nrxo-N4A2W2PQXu3-FGLVIQTCzq3kGIn9Rn4dc27DVhhL_dO8csomKNAsBr6DO4Pal-6w4CrswODcUbrHfAfQJ5ArS8yYpCbbop0lYazAknjgEyZp52YZQo7miP_HACvR390jIJa8E5EczbP95M507GEUdC8pNNwSk21aEDiNt719RScProwxKYAr942gzPafjv58Cpw/EucvTAw-ww04lOyb0ItHDkcNrBwnKYiBtcQBaP9X27k",
-        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
-        "size": 2171,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/PxBxomeq3CnAz-9pAYdIRQ/9-cPrawWs_I6-T6aAsBgba6YRLm50jidO96NNGpmuCBxxijiJDBb7lqY5_WPWRMHZipL-tWIsT8BmbGa_cgGSYPCJFISdHydjff0eSGrCT2wUZSxHhRMfPpVSy8bnh57LPkEXJMZKF2IQY8qmfH4dg/V5o12tjyJYbAfcMe_NcTL1BdueFnXJt49_5Wm7WP7Nw",
-            "width": 80,
-            "height": 35
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/y4c8rsmrr0-zUQP4sL2goA/E5WulhTYaAxq0nCehHVw8mmHN-sKHcOvDRnZXMcBx_duARD-G_t8i7LH2yzmf1Y4D1pMWfDBL_pL0aVC52C8pXbSctGhA8ZbDYoK1l3paJiUDhRDzS_ZW7O0m1xk80c5KWq2HQojNQygozeOX9vb7Q/YZZrnZsx-DNRBBfl_du_uzazm0XRDI_PD7gQ-dPfbMY",
-            "width": 80,
-            "height": 35
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/uI8c2Y9wbVGAAZQ7Ihkvfg/S-EPGPOxR1WI4FP0Qz9Dm5jife6uiKdH0uMRPJ27GdJV59RxthfxI873-y11iJmdROVCDDfC92yX67zIuu2ZH4U4et8Y6zCiWBBhs_m1-_a9Ndze-3WQhrRyTYbFU0gDH2J57B-Rxe35EaW2Y-mpEw/hJg1A4YehgeJRukexb9K8RhWIw5s5wAts_MYFOWdurk",
-            "width": 80,
-            "height": 35
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
@@ -138,6 +102,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/wA_xOVG5aPoC7nrTdAnr3w/2i-xdnZsCej_SZ_fbly2HNEewiNns800uUDNYDGJlTwj7hDNoNtE9T3dXK1zqdeevg0aWx4NjMzX06pfA403wkr9oP3h0xQY78nC1ukScZ8nvqvdTMU59qa77E4n0jCJVzA7i-dsee4jwB1VSriWjg/rtSW7xrWvQmZHWHX4M_5fG-1I_ni6w4nPpbsNq5qvYs",
             "width": 80,
             "height": 23
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "ASTH:USA",
+    "baseTicker": "ASTH",
+    "rank": 10.8557,
+    "price": 30.9,
+    "prevClose": 30.39,
+    "absReturn": 0.509999999999998,
+    "logo": [
+      {
+        "id": "attNZ6bVwMsQ3SUIx",
+        "width": 80,
+        "height": 42,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/-6qnv0eIWYXy2pZsxSGcqg/xEv_JHE0v5oTRsc24TftKB-igMC2oNxPj-dXz8CS0x2FjV9aU_WFUtDOjqxpah_e-hk9Q1ZncIlobfZ1MF_pM4OezYQ9AFx_oOWaBW2XrxFqrmO9v_F3tIdTNayvtcgSFZ76sXMClITeUpyIujJPt0Tlk2kpVd5kk4UM06hR1jvYx3xhx89jQlf-BFlr7tJa/BEZR9Tu5Aq1Mq73P2ShCZnhPSD54vO3quPfGsydeeuw",
+        "filename": "astrana-health-logo.jpg",
+        "size": 908,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/AujpRSs7SBbzdxUW9pBBzg/uWtSrCbzE2a3JRQAC-FAQiIejScxEcvYvY4y8DGsvdpcz5Hz_PRQy9VRDAkOKOWsgSFwYQCrUbmOLQFCjkivQf1u_x6-z14rhivHTyjzPYNJkrPdkINjPA4yLFrY2pNSeZ3w9bEnXoHbUCuGUDZL-Q/tE7BPfo3t3k_tklv2CItEhXFJ_iHl2PF1esdXVbXYM8",
+            "width": 69,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/QJ0BkqaR8vbJp-3nvB6E8w/eFX3QQEJJgs6Iwc-HVFduTBULyjtPnwsvAaBNDBfkPeuJ1ksZZR5JbwqmmluAqno_ibVUlUjuoY52-NZc7ibgNRnDBiArWB7sBggbLf34rLDF9dGXSOViN2jROGdLWzWLzZXwcv4qksR-jWNnYsOMw/A6_WAlnSn5P-p1YWNmKYtxKCMRtR1gk6a5_b9iFTp0E",
+            "width": 80,
+            "height": 42
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/ZtzJ2JQpC89NIFAtPtFDXA/ES6LTkbK6t-rWUDT8fZSkowxX3Ol4NDkRM6DhXt43ius5p08xECrQevVnyJ-dzhgVbqSCmElyuFJsM7sI1SZmFsFvDgeq3D-oqAKWWHXWdBw3sGbph5YhY7LfvDMWLVH08EShEB9wUW4_OiOH0rpHg/uKlOmU881w3JsSTKN9uaGXLSib0Mq67lREiPuqcRVWw",
+            "width": 80,
+            "height": 42
           }
         }
       }
