@@ -144,42 +144,6 @@
     ]
   },
   {
-    "fullTicker": "ASTH:USA",
-    "baseTicker": "ASTH",
-    "rank": 10.8557,
-    "price": 30.865,
-    "prevClose": 30.39,
-    "absReturn": 0.47499999999999787,
-    "logo": [
-      {
-        "id": "attNZ6bVwMsQ3SUIx",
-        "width": 80,
-        "height": 42,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/ZeruHjMT98qOAOZQicSR-g/bekVoXbvbHPEdsKnp3IGy1bI9fKD02y0hQysegzmvG2nNRDqztUMzTCdjrnf3bzTciSS9dqOR6y4AiwI-nHUASuxeFybISxvbl2rhf8-hY4ACEqwzYjkA_tbs5l87BvWh8wxPmoANu06EQjS3ScCg_BPGZnzTnVvbVp-khY1uqc0zaxSMg6xjClgS-zBTY8d/neFvuqnSg50rr9YIzI7oPRFXuJxCt65DzWtlsDDv_U8",
-        "filename": "astrana-health-logo.jpg",
-        "size": 908,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/iRBy-poHWO9yZ9B5OLKRwA/zZ38gq0uA-IeasVQtxP_6FqSjXuWouDoo5gpX1hw-GMSOrlF2D4RXsU1Kc_RnGHreMqalgTgnUiZ0gmztkj_t5Gk_0Ekov7KZaCFjaKonyU5kcRz6pkjA_Vru39GbKTDDVdKUYhnG8wmroVtX3ew2A/nGnoz3MCK9ic3YOezb2ZDP_sAozDJ356kLZosBPTPGc",
-            "width": 69,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/FuPkXRm51yMS-tXZ5WI4GQ/wGelE4WpLcT-iRj_Pq41mg6BWCwwZ510D4gfkQXbA_x8OUUaI6zMel7r5G1qJeFa3myCRIVU_x1TrLGpigQo1tc1QK-WRAd0JERJwbkxNjsr7AQZa2JgdYE_sd2z90DNNFExJ_Dz4HDiXLY98qTzNA/5h45Nc_Z-VMRtGurdoA8VuBhiuA2XlPlSWmpdLrZ6_c",
-            "width": 80,
-            "height": 42
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/Nt-hHeXPFpwlI7FOX1yexA/XvOSYyfSZzWr193Yp_tiX6ITfRS17yLN1YcCLk6T1qqgK8K12CK1xLiIAGcp-Hk8rIVv27X87-izWdzjIC38COUkaQ99fVBhSwhTzX4nYCAc86RNmJy5WhQrKs78VKkuUHL3y_nkkjn9FOUHdpGFzQ/Uw0tawwJtJ5cW6kqNYx49dgwLEVf8BY_NvyiSFMRXM0",
-            "width": 80,
-            "height": 42
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "CRL:USA",
     "baseTicker": "CRL",
     "rank": 44.2438,
@@ -288,6 +252,42 @@
     ]
   },
   {
+    "fullTicker": "FET:USA",
+    "baseTicker": "FET",
+    "rank": 93.888,
+    "price": 14.45,
+    "prevClose": 15.06,
+    "absReturn": -0.6100000000000012,
+    "logo": [
+      {
+        "id": "att1Afc0dnnqt0yve",
+        "width": 80,
+        "height": 38,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/b1gjcuheNOLMe_gEAkHuvQ/8yCtXmhrR0ZXHzCGmyheY-XQ-wZ9XWV1ImCI4E2v_1UD1GWBF_JmjI2Am-34Qo1NU_R1gZyo5Dl19wESkHuEuinwHxMVE9uLwhozFIHCq77nSd9IIh10hJWeY30Do5yI5YSuDqHky4dPV4u8G4wu838SN1zfJAZ1PrJNSFkHDWj5AtxT_B8dbIS2Vmg_jnzU/b97w82IiKQRA2XDSLm9OZfZLgaRrsvgsnEten2D7usA",
+        "filename": "forum-energy-technologies-inc-logo.png",
+        "size": 1533,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/Y4JV8-tWLS0bo54gC-lJYA/IkX8ddx7QaaTsUL3pptAGbH5kTECRJW5gjH9E8TxmDQ01R_-PEINHAO8-NmL2Vt5Zs29K9M-bacuFpUyTsxYI-zn10tNVxV2g4fUJJvONA4dLOPIc29jfO93TfJDTxDD28dN8fILvdLCX6l6lQJegA/JQFQYIgsqw98afGfTaUZyewSJo5W6-CWGmfidP_E0-c",
+            "width": 76,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/DmHtvYd3B4rBYc9_UAelhw/CptpL7cqMaTuly4aEWPpPGy3XlKXGPDtiwqQ2HkQr7dBJRkL5U6zq_9Xg5Thf48PCZsOtFGeRDuWvMcVfDlVcO5ySRwJd52P6R-rOQ7dqYvilU0mtmIdqALz-_8XFQBts4F-G96nim8lbhS3K2PEXw/Ovihxwa2WQNDkDk7Mx8aK6Zzp3RVqGl6AQVaLY8y36c",
+            "width": 80,
+            "height": 38
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745452800000/lrb3akifmbbBUkObYYg_iQ/c-5xCijgwqmWzEfMVZvvv6g5F1K9jPcZKmjhBAfcQMVzLZn-W2OMaUKThfK142OGhMhjLpMXTcaj3ame4tQmHnilCj_c_R-k26JW5bcsoVbCs4x2FYuaAB34NfZhKUtpOX__8XERYaR7xsaT2kfZHw/YDtX1xMVLDHyBEKVtRfVtQc5s05NallXa7ShWx6NHKE",
+            "width": 80,
+            "height": 38
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "MGIC:USA",
     "baseTicker": "MGIC",
     "rank": 99.854,
@@ -327,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 537.03,
+    "price": 535.42,
     "prevClose": 527.25,
-    "absReturn": 9.779999999999973,
+    "absReturn": 8.169999999999959,
     "logo": "sp500.png"
   }
 ]
