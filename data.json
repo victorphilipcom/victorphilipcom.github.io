@@ -36,6 +36,42 @@
     ]
   },
   {
+    "fullTicker": "ROIV:USA",
+    "baseTicker": "ROIV",
+    "rank": 1.2224,
+    "price": 10.74,
+    "prevClose": 10.42,
+    "absReturn": 0.3200000000000003,
+    "logo": [
+      {
+        "id": "att3IpPCDbErkHC4N",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/xR4y9bTt-qZA6fQ9jNpBbA/0O-B_7_4Am0RhVwv2ZtPNef4fsqXkU0fo--H-3-XSmrv_vwdRlMVzEes5J8D8aNpdPyoRgthNVTnRKvxz1KiYGpCGYPPQa34zDo9dTfNJ-1GDnJgT2C1U_BLO_xiNR0RHKc8UCGKbnNs39tCF6_0gmk2dD_p6SrHXZKZv1CmIQkaLky6SGiCGOGqDXfUNArh/iP5JYz72nKqeGBhMBOjpUD7tKKblwpFyKXLoNKNeJQI",
+        "filename": "roivant-sciences-ltd-logo.jpg",
+        "size": 1069,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/ct2zxbaWLcIVi4z8qjdYgg/hlNk9kwXhpZ2gnRHeifS6ep6MYZTV9iRvHEVHZd1HcR_mezIILEFuktfAn1P8PTC2fARUn960-vECCLp7FSL_uY8Q9J8mMLcJ8iX1_UKtrlYlluSBLCgJf3cNdh5RLpIX2RDIv6uzOz5PSaFKKG3xA/x_2bmHmLfRyCKdkndgCwhqMUS91ySLmlOaJrCYWNa40",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/g5wJHYCMbbF2g2h8XTM5XQ/M54kZ2Fm7QlbLTKyeCLC7O7P48rUjo4L6r7dqyhScOBr6A6WeTd3DigGPyr23DXfCqbRUMBQXIkMNlolJ0E0Dd24TyClYO0qu0uZrzF3RRCOOOFuYYwDBvEJSRV34hHc6HYtODjzCXNohKB_XH_7Mw/ryE_VEbrDs45t4GplGK5X_CF6DICJZa0jDANXkeq1Mk",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/UlpcSn1IWyw8a5JGLVI6NA/DdniotCefUQFL9n2zApBlD8Q0N5qvaGyOxtG7SfjqhxBkPk_rO8jj-nkv1UCC00aPXSc4NckR87VsAjVllwJoKZrMqZYukMqO0TVPQRVlf_6VJjcAxJu4gdaX9P4rgg4oMUrg6OZTspL9QUKAGl2jA/YIoiVQQAUKPfTcCs4CM0GuCBwd2-6GC5sUr6H8LGYJA",
+            "width": 80,
+            "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
@@ -282,42 +318,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/ftPrX-8yLKcuacC0wT5OGg/q9AdvkJm_deiBCR6KvLMdjZaRxoXftLkvhzBZ-TzXt6Nf-PlUwb6Zd4SlzjyW5cM_mm9tJhWYets3VqhiFzpbVVV4aVDmKUBiUDQCvQjO6dxOhxJ6zZs_aVyOLWrtYtw8ScgeaaDHlqZquZcpoVqoQ/rmuZqy9IhyMJdKUJh1dyYjTCzNXl3UZ3CY1tfWQzOyw",
             "width": 80,
             "height": 38
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "MGIC:USA",
-    "baseTicker": "MGIC",
-    "rank": 99.854,
-    "price": 13.72,
-    "prevClose": 13.34,
-    "absReturn": 0.3800000000000008,
-    "logo": [
-      {
-        "id": "atttujlIaJs7qz82O",
-        "width": 80,
-        "height": 80,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/Jj1Vanvb__ygtWe_bj0Nyw/mhkxsAOtqXuCOpRw_fK4LnYmdKvIIY2JaJpKcN0KYewCj3kWyR8XTA5ef-DHw9bQ6k0EJj4Cu56tlAvnrP4YtLuEtQUcxQDFVaBtZU_tUnpHs--9K66Iwr0LKvLeUO_yRmgxOI0geO6yHTQ9qVAqXod3jfv2BaZCxjDbGQC7XvZ4d6J8EUbpd6UmjkuaIP1lBbEgqoXAhm_7iLZrj2o35Q/uMDoGYEwwQMK7XUC-gn_vA9mRFxbjVpseEjQJ-j4gTM",
-        "filename": "magic-software-enterprises-ltd-logo.jpg",
-        "size": 1824,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/FF9btPQCXhc1cJqzTzRlyw/9M24n-HpC5cVrq19WQ3D2kFmp0tOXQwbhFPXo9J9bmEaeH81Q91goCAAAjEMlBh8a5W-mxC589MT1m0a0-m7jLEuEuUb1v5vlKOm7e7BIQQhRLZPVJmgCvObNqzg-PerV8jORunIs0bCv8228hiDvA/GuWDzS6De42gQ2oqMV5mLJHE9Ul9G9F5hSAXrjq3Nxg",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/_maRlpycJ3S7LXw5P3pTpA/332OA1uoBqfVy22HddDIo_Fy24EDZSrWFESRqVhCx_eZAqEIOvmhHKh8VE8JFOtijXe8JWBFjxDKgOe81b30sdGKNOW320fzKpP0FlTncZBWkMJuLCxfqqJ8ls4KF3Yb-a8pi8emanydrHPi1rCc9Q/KhG5lzJG-tv_D4_FRct-fnJ8GgXnjGw0IpLuDVhKdKA",
-            "width": 80,
-            "height": 80
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745460000000/J3UpxHISR5Ts9V6iQTT3ww/M-uFiS45XcNWVW_9QJPoxqQ77wQHTjv2X82iFmcbsDumgbSdXhbiDzbdKRTWLFGX9aaVXxp7aMuroFmpFIvNbpQsa-i6FmHCeQPhxoHiFF8yyqSTeJ5dHulli4A9VQFrjF2zrpkv7FtKWa0OJ0r0vA/1WOn_xhDW2ohwX714aQHh5BDSoOqQORrokhUfPSC0hA",
-            "width": 80,
-            "height": 80
           }
         }
       }
