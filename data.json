@@ -108,42 +108,6 @@
     ]
   },
   {
-    "fullTicker": "MP:USA",
-    "baseTicker": "MP",
-    "rank": 2.536,
-    "price": 22.89,
-    "prevClose": 22.85,
-    "absReturn": 0.03999999999999915,
-    "logo": [
-      {
-        "id": "attuvqXc6S0Ea8ukB",
-        "width": 80,
-        "height": 23,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/02lgenYXwH6KLz0PVHN4PQ/3wipVGrCRYFIX69Hn0loJfWMvXx0Tp31st1DJNzhhJZE9UFKZit8zD8TUJMDgDSAWHpB2l3GJ0IXt3Ob-N2PdfS88ZWHONgx7Fe3ydLFgS8qpvh3gTMgviunsOGdemCBARl6F7q8inIb3UVwUJog6rBU43EcWaW0VdEVAZStuqna09OIiAaU2a9TaWDU2YJQ/upmnYdiUVO-J4Xe1rtVfC4c3xs07o2nMawAo_xajIGQ",
-        "filename": "mp-materials-corp-logo.png",
-        "size": 1962,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/c8jpsMJwLeUSvB0tRd4w3A/Ye7C90UF67I24mlrFkd3M0lmmzap2bhwW6mA3JYJIDPOqNU4BOxSDLCFAVDnMgc3oCtoVn3LXqtI-Cc78LEsH8XF2ehpz7RMLrHbndsMo6r09bqqba616n0zgfvFUg5ATYoE3VXrGaGDX_BbJo_bAw/1wcjR9umC60ul_soCbVP4xnhOCCYxf9QNqlJrRx0UOI",
-            "width": 80,
-            "height": 23
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/5NrOB0fX8-NfOIzB6l8Ghg/HaZONtpFW024io2jERJfauF8YwS1awhMAh1piHVFzWPlXRRY0tgihZXnYJ0f6W70aOZPBP9hYabPMzNbPgAiG5lBL-ytZ9-obx4ubecl2wXVHpNYRpTGfYfPVvnU90uDdey38db8ubt937VSh24zBw/BPLcpgGF3i5p2UNgSheFILOGTj2JI1NNWV0DCAotWiA",
-            "width": 80,
-            "height": 23
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/tkCTwkryYx_08WIMHSe9Mw/puR3uENKC9mHrQ1AXa7sERtPbBngqMJ5a-7b5bBcjdzDuru5A3axn4hxs0cO95TV5ibSVZ7tQdL5HE94Vb27NK4HIPeknY949tereQjzZkR725_zAzl8HSM74al168TGwUj_XAMz4Ei_LPWhfuFWNA/-9NB47qW9BkmbIXR8vqzJP7DBwkBrOfIi3WGS8KFeX8",
-            "width": 80,
-            "height": 23
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
@@ -246,6 +210,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/TPYJB2bt-5rGnWtDBv2WEg/Bqw5wNLF_7w_HiOrWkEGyrv5DaPe9D_nmgRJN_UZA9lLGu4Ziwc3TX1RA97xkZ7b_36qrfzktAQmA5iXkRNQiWS7Q29jzRz2BcNpeycf7GIch8jI_tCkA6nQAA854gctQVoVuq5TeozoDTad4fAeyg/lWu4vJCtzo93jZ3FkJdFG9Bz6QxPQS_URRs_i5UDhUU",
             "width": 200,
             "height": 200
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "SBH:USA",
+    "baseTicker": "SBH",
+    "rank": 86.6083,
+    "price": 7.93,
+    "prevClose": 8.09,
+    "absReturn": -0.16000000000000014,
+    "logo": [
+      {
+        "id": "attqVPKupg5wJf6EE",
+        "width": 80,
+        "height": 13,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/VPff9r-rFRpLGXPDV3pZoA/rdXVH08ntAFrv17MYpuvu3IvXxtSLK33q0SE7Ql-GtjakvmnYh2a95oRLNQhHMNWRGMWhcneYbwSoDKDDM1nouCOIOzkVKlBXnPF3adWdpbU8Awm4EKUbBxaGE6KC0CA_TVhFpJ2XCOqYem8mtbHBxfWlhgzDpWxZcAgHFDrra7KV-7-c5rCxsDLNaRtlKji/P8E4PvSBvWj1hDWQriXOXXLVFdLPOi6L-8BqGen2px0",
+        "filename": "sally-beauty-holdings-inc-logo.jpg",
+        "size": 925,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/yxK6PRp1RGL5WahkY4v-SA/BxD4U1y0MfcagUU9Iu5sX0Kr7Uv-kIKVDfoMEfivW0vreiECUriQT_aVxJjuFv_sTCrtbpFac5of-GuOoDNmaw9jqxSTvGSJKCnEQVaV5QS3sQrS2vDmE1ByKckWESSrijx2BE4KjJjZZgleSqMXoA/3Pu8EzrEJb3irJ-26weSfgTixLckCtBqIFZOwtmqSME",
+            "width": 80,
+            "height": 13
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/Nr9JDwnSe2MVDx_04xAEkA/ri5jhbsasrvgkrbKZAJxhqDM4hEBLQU65bYAS_KDpoHPgDef0tOT5KGuBjk7jaGkGHVhVmPIZ6IK1fwRaHTU1owcFyYYpqgAXZNTBEjnPN7x37qgQiE3F7l4gckXqV9g2uy0LdNL0Ur9hCP5YsOB4A/boZkcu1xRKx8C-__5-YNf36rfZASOVIvlJA7RzoQVpI",
+            "width": 80,
+            "height": 13
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745503200000/bUQ9JGsBLXtMV1sO4JDu2g/80zEm228ouk533nL1wKru09MTR0X4JQlT9fYnEoKJXfdhPKirwAbOIbzusVgO6t--aQXt-FGRyzNLpM_rOgzgFbZJwFCsV2boq26qRpFTXAG1tNaiBAUJVzjb4riSO7-nPXLofhJufU5Akssp9qnoQ/Wv-jzHutFg5IpfhZzqJesWK5ARb2RTgIrWyn1de_Q5Q",
+            "width": 80,
+            "height": 13
           }
         }
       }
