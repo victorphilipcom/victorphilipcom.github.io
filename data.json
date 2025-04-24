@@ -1,41 +1,5 @@
 [
   {
-    "fullTicker": "IONQ:USA",
-    "baseTicker": "IONQ",
-    "rank": 0.1095,
-    "price": 28.39,
-    "prevClose": 26.8,
-    "absReturn": 1.5899999999999999,
-    "logo": [
-      {
-        "id": "att8FHj77cNQD3pb7",
-        "width": 80,
-        "height": 28,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/FJ025snOuV4aV0_DUsx9uA/i3c-yPYbugWf0KYpqpDF1ssShYaN2gzAJRAWG8tHKN1uiTR6opROvdztch36CmH69MJkSJnuu90SUroG3ISlNUd5CjhZemsa_ktsWSxntKrvjIdIaGPOdB3Esfv1Ink_Ku9ugiqpEAQzJuN1_IPo59D3MmB39lXlZ68YqDz3bd0/-pv1KNs9QyDgMCmM7crs0uJXSDjCeik0Pdr_2ICWvE8",
-        "filename": "ionq-inc-logo.png",
-        "size": 2631,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/CHzuh7zIuMTdNpBeUg0hIQ/IfHi9IGxHh44fiCOnpYHePJZnq0dBotDYcFCeQuE-gNaCGGFYA9KMIqag4bSY42YOY1JLlT6d2aqK0I7WPwRen1Ka2WVlhY3i14we9MJKgdO68oNRukAAzNxTqvZB15myt13kEO60AMmMB00ot4j7g/AQ-V6B0M6YxpO8ecd0ywGsi3wHDYDtg7koVRx9H4DwI",
-            "width": 80,
-            "height": 28
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/sJWdjfUnMzCJshp1Kie7nA/q2IXe1zS453OQ4wo7kUsu-pq5077ilmTQQ0L2wHo-Nh6luRMYYii4odoPumosfvOu6DtuVfwFHSSWClyzKzqIyb0vpPYLGn3njXbZSBc6oXGeNSEp20UTSgu5Hu5RfhURdHBdUqX1WVOGEq8dH6taQ/C8kgWiN3h35FoG6oBbMQTMj7TZ_u5dn2ZNNkDsQ3HD0",
-            "width": 80,
-            "height": 28
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/gRHTSxP7dqJ9D6lbTlq8Pg/hOE6kiMpBde0QZ5WdO5yetO3DJFqA3K6LYqUYZwVSjmfVPa_I36L_xHY8_-ZOGN7f4_ayW1OXwV_JuJl_NMsEV6F1Oyq1V6r9bNE8LvkuhXljRTOgqdIa6hsXaCiaFIvLgKp5njuik1vWxhf6fBRYQ/7crZQwkD6sV-eA8MtVYRRuVG4x_Orm1oKMj5s7rWOx4",
-            "width": 80,
-            "height": 28
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
@@ -174,6 +138,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/z-GZ_VKwTyd-PFvuMQJelg/Y9PR-YigvZdicT_y9EJ3gmShHuJK9v6RUnK8k01Ri4OEpBbKXPeQtY41pbO_K9uGp5_KG7SL6gMA2EKE7VAMYeuZ4xeEEbNJV3w1NXK51UFsRas3AKgRyO7-GGlRivZv247vQ6EssdJGfTF7NWV-lw/tLVlaCKxynvMhLXAdCiqc0S_jHke7pFNBSu2gUkTne8",
             "width": 80,
             "height": 42
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "CRL:USA",
+    "baseTicker": "CRL",
+    "rank": 44.2438,
+    "price": 115.76,
+    "prevClose": 109,
+    "absReturn": 6.760000000000005,
+    "logo": [
+      {
+        "id": "att0BPhEduY4t4DqU",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/_R9CKwp2Equ4xyTylL-yyQ/DE8erzgg0N3C3gCrZpgrFDE7jdDq0PMKwgn1FdUce8izSsHWaZVhmNhrGXeaFm9cxrkXYb8xZRvGsophy13xPZ3krYaBg5MQ0vEX8dw1JN8OVRl2pISWUxvqJ8RHSYrAdqyr7r7O8BIeJZ16x3ivgrrniYJLUWSdTOJvLsBHs6qHwM-DdfERlxWXRoaMVyQG56aKw1ueP5bHwYaYfG-GsA/i207aolS3U2QPdbx6B0diZLvJtCxHdUlCA8JlqRLwbI",
+        "filename": "charles-river-laboratories-international-inc-logo.png",
+        "size": 1765,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/j6mvyZ9YEXJcaH30gJkTIQ/ZM2zH5NqYwjwy8oVAC_fs0DhoiMuw8zHs5D0S5zPsX--sYY6uZuuq1NxM4Dya8bKMSckUt6hI1ntl8YTHC_nkEVybioPKFXLUhCWrCp7_DFVFrvSs9RT59Ux2NhFtTIS9GzQiMAsQkuie_WlmePgiA/jBevgBk9UC0xfE1Mjm3VDDKwHKOFCh-ehIvg2Rt3xk8",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/AEwV7_Cm3NCnJU7ItUtlTA/7F-k5NEp_3q17Z_Al9GyBDhC6KQGV4gaPWu2cUfT9OWyu-glRZGICBzeEfS0s-z4Usnkfof2_uH9x7fppW7VL45q8iETIF19_Kkyr9khIpU6Lag7Hd0slBhRKQUWBcYZj_tQgxQxwmQsCgXKMlLfKQ/NIaFHLlN1szhAck-AEn2X6CUVYS6PR118VeTtngkkis",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/LJk7bajAx2LSiM9La8ttfg/w2K5897B0sAU9h2ZrzUoBE3Ejgpn_VtqWyxSHwrsukR19Mgdn2qTdLR9SA8eCTUL5nQ42Q3JRC20LlFvJVNYbUfwIh3Zxi2NZ6esAcYWkYtIRECqBPrgjG-LZX543ZBgeKKfgEGZbxK9uDFiAyebNQ/LZ8zIytJdBWT1Lio92QHSdz8CnBZ180BeQbNbi9yjmI",
+            "width": 80,
+            "height": 41
           }
         }
       }
