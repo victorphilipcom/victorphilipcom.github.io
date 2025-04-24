@@ -180,42 +180,6 @@
     ]
   },
   {
-    "fullTicker": "CRL:USA",
-    "baseTicker": "CRL",
-    "rank": 44.2438,
-    "price": 115.76,
-    "prevClose": 109,
-    "absReturn": 6.760000000000005,
-    "logo": [
-      {
-        "id": "att0BPhEduY4t4DqU",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/_R9CKwp2Equ4xyTylL-yyQ/DE8erzgg0N3C3gCrZpgrFDE7jdDq0PMKwgn1FdUce8izSsHWaZVhmNhrGXeaFm9cxrkXYb8xZRvGsophy13xPZ3krYaBg5MQ0vEX8dw1JN8OVRl2pISWUxvqJ8RHSYrAdqyr7r7O8BIeJZ16x3ivgrrniYJLUWSdTOJvLsBHs6qHwM-DdfERlxWXRoaMVyQG56aKw1ueP5bHwYaYfG-GsA/i207aolS3U2QPdbx6B0diZLvJtCxHdUlCA8JlqRLwbI",
-        "filename": "charles-river-laboratories-international-inc-logo.png",
-        "size": 1765,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/j6mvyZ9YEXJcaH30gJkTIQ/ZM2zH5NqYwjwy8oVAC_fs0DhoiMuw8zHs5D0S5zPsX--sYY6uZuuq1NxM4Dya8bKMSckUt6hI1ntl8YTHC_nkEVybioPKFXLUhCWrCp7_DFVFrvSs9RT59Ux2NhFtTIS9GzQiMAsQkuie_WlmePgiA/jBevgBk9UC0xfE1Mjm3VDDKwHKOFCh-ehIvg2Rt3xk8",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/AEwV7_Cm3NCnJU7ItUtlTA/7F-k5NEp_3q17Z_Al9GyBDhC6KQGV4gaPWu2cUfT9OWyu-glRZGICBzeEfS0s-z4Usnkfof2_uH9x7fppW7VL45q8iETIF19_Kkyr9khIpU6Lag7Hd0slBhRKQUWBcYZj_tQgxQxwmQsCgXKMlLfKQ/NIaFHLlN1szhAck-AEn2X6CUVYS6PR118VeTtngkkis",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745539200000/LJk7bajAx2LSiM9La8ttfg/w2K5897B0sAU9h2ZrzUoBE3Ejgpn_VtqWyxSHwrsukR19Mgdn2qTdLR9SA8eCTUL5nQ42Q3JRC20LlFvJVNYbUfwIh3Zxi2NZ6esAcYWkYtIRECqBPrgjG-LZX543ZBgeKKfgEGZbxK9uDFiAyebNQ/LZ8zIytJdBWT1Lio92QHSdz8CnBZ180BeQbNbi9yjmI",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
@@ -363,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 547.285,
+    "price": 546.69,
     "prevClose": 535.42,
-    "absReturn": 11.865000000000009,
+    "absReturn": 11.270000000000095,
     "logo": "sp500.png"
   }
 ]
