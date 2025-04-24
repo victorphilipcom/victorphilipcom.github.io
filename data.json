@@ -3,9 +3,9 @@
     "fullTicker": "IONQ:USA",
     "baseTicker": "IONQ",
     "rank": 0.1095,
-    "price": 28.35,
+    "price": 28.36,
     "prevClose": 26.8,
-    "absReturn": 1.5500000000000007,
+    "absReturn": 1.5599999999999987,
     "logo": [
       {
         "id": "att8FHj77cNQD3pb7",
@@ -75,9 +75,9 @@
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
-    "price": 7.765,
+    "price": 7.83,
     "prevClose": 7.44,
-    "absReturn": 0.3249999999999993,
+    "absReturn": 0.3899999999999997,
     "logo": [
       {
         "id": "atth9YbtDIOMFdzon",
@@ -111,9 +111,9 @@
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
-    "price": 26.09,
+    "price": 26.12,
     "prevClose": 22.89,
-    "absReturn": 3.1999999999999993,
+    "absReturn": 3.2300000000000004,
     "logo": [
       {
         "id": "attuvqXc6S0Ea8ukB",
@@ -147,9 +147,9 @@
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
-    "price": 31.19,
+    "price": 31.26,
     "prevClose": 30.9,
-    "absReturn": 0.2900000000000027,
+    "absReturn": 0.360000000000003,
     "logo": [
       {
         "id": "attNZ6bVwMsQ3SUIx",
@@ -183,9 +183,9 @@
     "fullTicker": "CRL:USA",
     "baseTicker": "CRL",
     "rank": 44.2438,
-    "price": 114.53,
+    "price": 115.19,
     "prevClose": 109,
-    "absReturn": 5.530000000000001,
+    "absReturn": 6.189999999999998,
     "logo": [
       {
         "id": "att0BPhEduY4t4DqU",
@@ -216,48 +216,12 @@
     ]
   },
   {
-    "fullTicker": "FSTA:GBR",
-    "baseTicker": "FSTA",
-    "rank": 65.572,
-    "price": 51.06,
-    "prevClose": 51.6,
-    "absReturn": -0.5399999999999991,
-    "logo": [
-      {
-        "id": "attw38jFXTtzhxJRD",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745532000000/33yyviWEAW9ICX_tFsV-Cg/xnoPi-v8g27m9TTyUebV5Vb8b-KDwJospr8YJtNAbH46zlE-n1FLoYNIIqF6Kx9UkL0Pvzgc_BjY4_v0_3lKevF59wpxYdwdyqO5EJLtt-p4_F13aDqDrbrJ9joYW_YAHr3_lir6Bsdq1yTt8jEMuFqZFFIVB1yDo8HnSq912Cs/JIHtPrs2iPaLpiCRq2GsuWxutCM46LAvHqcmJXWvMgA",
-        "filename": "www.fullers.co.uk",
-        "size": 4478,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745532000000/RTseHractV4TZ4m2jU1VTQ/Xkv-tdtOlFKBsLe9IkYK73neSXtw14gJtKBOn1yDAoLfnQqHH2wSSsML5w3_jgkuOCYxX4CcSrPBtKrptgnycEhbiZ9568dNm77VGrjfSmq6l4XvkC3HYcTG-GJHBoDrw1KqcZkF6KDeZ0r_mC0mcw/Nulgtr4LfX0AQyokYFi5qJC-8mJGcEmiVT2uKrOuOVo",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745532000000/ZDBJfhE_ixw4eE1FQgKfhA/LQvvxobGWNJEFYlly2tmnLNm6O1IDL7Cbm7_p_kinfrmfs7i0yes7K1pxuxbGfy9YuMeQgPZwleuttezq4g2O_TTiQqg0MujGZ6KHuQUzAq6pNwvzPRJzhdYqElDwz17MPITbrUj-c3td9Q-nsys5A/aN9-EXes290pd9WopyB-_9KH_gd6AFfs4e3AclBAhiU",
-            "width": 200,
-            "height": 200
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745532000000/-_2Rg_f7tOPjOCV5Pne-rg/gONABTfn_feWa06AY8M8yFH8yVqLp_3lh4jEIuDxYy_B12PEreq6ieFRRf27hZSodjHoQQ9wAuXDKrbDIyoyq4v4fa-DGMMxkKdj5td-VX63xOyCLq99OGM4Teww3yOi7tq1Q-NeMHORQ8u2DBuJUw/LiaviZvPZCTuKVXBAIBmtgbgqlAjy0hez5DCZcsc4KQ",
-            "width": 200,
-            "height": 200
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "SBH:USA",
     "baseTicker": "SBH",
     "rank": 86.6083,
-    "price": 7.995,
+    "price": 8.015,
     "prevClose": 7.93,
-    "absReturn": 0.06500000000000039,
+    "absReturn": 0.08500000000000085,
     "logo": [
       {
         "id": "attqVPKupg5wJf6EE",
@@ -288,12 +252,48 @@
     ]
   },
   {
+    "fullTicker": "FET:USA",
+    "baseTicker": "FET",
+    "rank": 93.888,
+    "price": 15.08,
+    "prevClose": 14.45,
+    "absReturn": 0.6300000000000008,
+    "logo": [
+      {
+        "id": "att1Afc0dnnqt0yve",
+        "width": 80,
+        "height": 38,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745532000000/zo_0ex_lDK37qj5VctObXQ/8Tf2PEPSLrw_yfIvFSfkfjssQICJHSZkFf4GUBlKOBz6E9uYhTwgzUwD-ndC4NzgT3BULH94YSzqtvyAZM1byDnQPB5CaAODZRlFmQvO9IHelsFPaYamTe_J7d5CeELrJN_SghpHasaW8pYxNKimrBW3lGYeZ9gcevMRmTJ8hsBQd6q7JfooaR9P8bQgCGjZ/SFSL8zklIq_lAChwvfGvO5Tf75xPujvVgjKnMFQ5vbc",
+        "filename": "forum-energy-technologies-inc-logo.png",
+        "size": 1533,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745532000000/3JQYQi643r_wxZNgyi07fg/kvkRXox1EzOX4HHvwY89Zf9uInroYr-U5XkECg_g-bFfCfVWrdmvJ6N9asJ6cO1G-pOZ4liyS-WL7IwUctwnrgVNqhx57Pzg7DeTeXhI0POX50IsKAwzGx6-4dSDSo72D42L0xp6eALjceMXF2eueA/g8Gd4Qc4wi9GyV9f9eabK0wFI_TEGOCXfiazbzfkA4Q",
+            "width": 76,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745532000000/7dl65tw_FwwNaOvMvPsvSA/pzGYLnNcvuSR2rUHzZj30FNBKk1Yi11qrjK7glWymRGM4cV_Rfjw_u_aHkFQ4Wu7RmwlaNSlHFjpatJkh9FoxYOu6GwRyAV9Whx3IP__vdl8loh_o-brztHQKsMwj4wuNUB5BqH5xz7zKM2RlwEzUg/zwUeHXZKA3u59EyvWWIQafyHf0UeEM-bo0cYOqRaspU",
+            "width": 80,
+            "height": 38
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745532000000/DFaHYwmJBiC1LMbhW4cniQ/kEv8-laSOFMJFZfgq14IdvmGprK1KiUBCTHja0Eslze0GclYbOi6pcPHXmrAPQ9M0NBy7y69P_MeMqDgW0ISq3-YvXi-8QrpLHqdCWDZjynr2cBiRP7Dl4eT-o6spP8APyW9DiN0KIFtM9WvXJgXXg/RMnuR0yoF_nbeQGp6wLjA42GrxTy97VKfj3C9mnJtW0",
+            "width": 80,
+            "height": 38
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "MGIC:USA",
     "baseTicker": "MGIC",
     "rank": 99.854,
-    "price": 13.685,
+    "price": 13.69,
     "prevClose": 13.72,
-    "absReturn": -0.03500000000000014,
+    "absReturn": -0.030000000000001137,
     "logo": [
       {
         "id": "atttujlIaJs7qz82O",
@@ -327,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 545.28,
+    "price": 546.35,
     "prevClose": 535.42,
-    "absReturn": 9.860000000000014,
+    "absReturn": 10.930000000000064,
     "logo": "sp500.png"
   }
 ]
