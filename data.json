@@ -1,5 +1,41 @@
 [
   {
+    "fullTicker": "IONQ:USA",
+    "baseTicker": "IONQ",
+    "rank": 0.1095,
+    "price": 26.8,
+    "prevClose": 25.56,
+    "absReturn": 1.240000000000002,
+    "logo": [
+      {
+        "id": "att8FHj77cNQD3pb7",
+        "width": 80,
+        "height": 28,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745496000000/z-1zgJdeyNOF39uvempufw/H5yEsZHHHhJOwFzA18eEZ4_7qkP2gGlnl-9O00vl6QTeqs4PBYppG050JnWwUz2k_82X34uyOSgb4ReLeT-BLM7RantuDXx2tq2Iy_pAbM25_AIN6yXuKd4UfAm_xvwUrM6DLWCm7nr4Xdl0o74-xYbZCrOQCJNFBwShEI5Q5UU/-qs1_mX1EMAXbGW_KtMBfrlP9jVgG_G6mD684rBnVIA",
+        "filename": "ionq-inc-logo.png",
+        "size": 2631,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745496000000/qfnJwRqJ9MFGZHwf5Rbb7w/Nxiisb6MU_rZ0XZG9rdSAOTJZLatUOvUV3yFYVmC8Pv0dWNXTPTEDDKlq_e_Jzra54ySuyKStF48dJ1mFFJhUI81b6x8Os9yzJEbm6ycoGNIlvzaZTkBN_lxvT97b1I-7uGbRWQnlBTlzY_GjOmJuQ/LIH1lreC1e_M-7pdYChJ-dOtUHr579jXyNwQmUJZYQY",
+            "width": 80,
+            "height": 28
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745496000000/nCuMYlM2-eiE4WDGK6SQ3Q/zcIvSjNPbdFG71ThOkd_zGwZ6DnRU_izpiQIsSorDXYubduN2XSoRX7ah7JlceFTAiwNktClxJfpzZDyzRI1bxQwa53dbSq8TOO6aOylHeIRngIBrI33Y1SEW8i0Vx8p7yNpWBQWvVrBDoXZDmVX0Q/7hLiXWw1CcMnr4f6GUCrOM_XN-8SpFQRVpwowclLTfo",
+            "width": 80,
+            "height": 28
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745496000000/JZ3My2jWMrrPIlplGp61gw/RumatAHHD7DL_hVEKnVyGJOQgeA3vMNOs_5-yjj6v58BySFlRez7Ve5CED8RaVlrBpCWEg2s5YrXNNZRov2oii1tWDEnxvw73oM0NkTRTSkj_j02mTnIzjvaffiV_Au6a8BD73DcmhrJi9J4tMNZzw/G4zozgb9zNgzsnLWa65wtb4n6zp99NhK9hyhnUMlMZs",
+            "width": 80,
+            "height": 28
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
