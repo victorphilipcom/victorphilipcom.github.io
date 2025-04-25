@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ROIV:USA",
-    "baseTicker": "ROIV",
-    "rank": 1.2224,
-    "price": 11,
-    "prevClose": 10.74,
-    "absReturn": 0.2599999999999998,
-    "logo": [
-      {
-        "id": "att3IpPCDbErkHC4N",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/jaSd-_mkWp2hchIrnVmN7Q/KX0swXi4R1jikKXxUd8nh_mfIjkGqz2RqHLJpKsG962AVpWWmurHqQyh5PS8a3EYqpWnKHmWrIT0lxwD_Nx5HntK3CHnmm8vQrHSKLjufXi_wCPRU98IR-uUe1T2p5lHgkSehyc2EIjVqVw3G0dZzgCiaOjMmcxWcIS_XLRXZqmOPrF-xpKzwvU5zfPHDIxM/0aJJt50BfePkBSisPTTR5sjQqr5OMKiWGYDnShZzdvk",
-        "filename": "roivant-sciences-ltd-logo.jpg",
-        "size": 1069,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/y54_ptFcmqbePvH9RPCo8g/68IHPcNUDn1SzCWf9MjrhByQwaAvYIiORLUbU5c-cSyv97OGAr6iDbzvltSGxnn6H-6utB601nvNh7iZ3JdWLa6nO2eQ2HTTF-99r_iGcvXWE7a1jbO4H1rBcZtaPFEMd2Jt4--bNpuVlp-iERYKZQ/L8QV8zv8AqcrwSYEPKavoNPN_byJWEd1zIy-TKHAGr4",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/qs5LsS6QPA5DDmoS_XkE_g/nWhioAECEu1Sq5Fr_YH2NIbAVAzsR4BiBhqiJesHVxT7qmBv-m4zy1c_XhCtLpPoEwEqgEYeQ93Ga3KCcdD-Z9QEzJSt-ioYy4eYExUTF7u_lzi_4lr4vNmaOEyvIcEahO0FyW1KaETEnW6B5SQWEw/FM3n45IqxoA_qe8L5ZAAbQSMReXxovMjw60IBguxE4Y",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/_bqRQuszdyu1KlfKY70Ekg/ZQjx105I5ajeMc2tuv-f2f4cQkxsjOnEax9Bx619pbUayMn7rwy_ZXNnp9khZdr2JB-RJn5H3lT-Z2My4KnFKzLGnGGo2vqOcTU250aPcgaJyRfvF2-n6gSuNegeRTFBuyqdpR_imvUKVC_HhyAqYQ/GDjOVZGKsv3hvCxfdi9ejX1GBqJNk_qfHGWIKOYiLWY",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
@@ -318,6 +282,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/js6E9IzDXj2V03uf9ifpug/dKMXAcSWjnY2NaPmw6rmZW4sh5-LD7htYcSeGcr4ahEtitTGCuE8WIBMuSybYtMl_JDh3TzOvIjap90_i4DFh3JTH14sFbTIH_3NSi3UqKiORnyXFCUy9zbQXKr2qbPaNJAq2NNjZ9Pd3ZTGZyZVDA/7PX1UffuKqxUMZwN7kKbPmLAkE7jIvvIaUH5tX-YYCo",
             "width": 80,
             "height": 38
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "MGIC:USA",
+    "baseTicker": "MGIC",
+    "rank": 99.854,
+    "price": 13.67,
+    "prevClose": 13.72,
+    "absReturn": -0.05000000000000071,
+    "logo": [
+      {
+        "id": "atttujlIaJs7qz82O",
+        "width": 80,
+        "height": 80,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/sm-DSbBCqqCnzbZacgGxqA/lfN3oqIsrurQRIZmZjhpd9nE1em-yJb4MosnLwHTS8Euq3Q1GWjWFnjKcYls90c6FCsG5IOYbabUNe4vkMU3dCS8wrbniNNHJiFYi1WWNyEqoLRElgtzTQnShmWq5wwhjTdzfQTMB7NTvPD4RuWzELsmjKV7NCcGV14wP8NpJfhqs_1tng7Ad0cna6ELHBMKCr6Jmf1vSkf6EeY07Qijrg/Fb5WmvMu3q9EfvZ1yGaFf_rQLBMe74Qosy1eZv5nlBY",
+        "filename": "magic-software-enterprises-ltd-logo.jpg",
+        "size": 1824,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/2L7j7RPqeaAW1UPEtBlqHA/YWXwnvAxEO_ye2Cbo1h4S4vLDw4s4bncThqx1mghzVyKh85K5Jk915ngByRNXUTKfSKd3pXxHtX4xe5IadzPL59I82WsIoL5BEDhiWtyGV3YuuwPkKkNE_GOAr64hAM-XjtakxYSxnWxAeQV3kzpwg/APD7OIMZOI8jNjY2crtcTrQ5LeRSZe4D2iCI1Pjqu1k",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/xh2YIJDTCDgeU7mvsJgX5A/4qEuBUospoUySqh7gm4x8lkTHI8fp2C4Lr7ZOvhp4BLOIvttoDGjXM7SOMW4fmvEB904GhuLWpoKnRHF3yyK40bUKJuvgN7QhZ50JUdz1iUZq-UQ2O6Tly8DpQIwDPv1tOSaO6IUhrA8qi77GS-hCw/qTfGWVUgcuAERotQouYY9uW2nVfYvneEhr4ubwkwDUI",
+            "width": 80,
+            "height": 80
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745582400000/ApsKK_wjdcVUOkTwc_29VA/XdQpC0Y_zwWb0jaRXcmb2Kk47P8a3BNqywCvDcUUecr7xTz-ORgNRUJLDTwZjlghmFDVSaBdscUm0MQ7YK3R5l2K63KQUjypfV_Ez1vsQhs0eS9QjIee8PEOafzsvQDDiTO1H3poy5IYUZl4FicYyg/GQhDN_xNaL1wA1-6iI643jFJoz1ktsSsytYtfEdUOao",
+            "width": 80,
+            "height": 80
           }
         }
       }
