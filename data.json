@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ROIV:USA",
-    "baseTicker": "ROIV",
-    "rank": 1.2224,
-    "price": 11,
-    "prevClose": 10.74,
-    "absReturn": 0.2599999999999998,
-    "logo": [
-      {
-        "id": "att3IpPCDbErkHC4N",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/ke6A7JlLV_P5KQGwqwsY7Q/IU9VdX6stkMlF4lc80q_XePakvIjMlk0OPlUyANFqShgupJGSw4b-2quJ7qwZ5IZMcGyY6QjFK8vaICQ5OD6ZjujWI0-H8sYQW4T8uWtzCBSs04gI2XSLYknNc4B1gUNt1Bx5618ylZCGluJxS1NgOkAVXHRtq_vA6oKAB8KpF4Yb1YFud7cL4DEwO8MCzP1/cXLLZ1RHcNijK4Nia903LW2rBseipcCZnVIhuKVogZE",
-        "filename": "roivant-sciences-ltd-logo.jpg",
-        "size": 1069,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/u7jICmiCHsosPJ0hUIEMxA/JHiVzuNuA40BSedBdzei_SOTBobWT6ywHk-cKje_iBB5v8z3PK8dA0J0MozwwrBevIBYb0L5zoEM8UV1-J3RH5xAR6h7Wt37AQj7Lk_BKxBfE6hUcjQHok75nbXxK8dCjgyxn81NwJuv9HhiIsUDdw/WvAPptqzASlHo5v2Aqlbe2I7Rz8Sv3nvx2CXChnsaNE",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/MdQkDX1iwRl3PeQW5KjElA/mWlLCMsoXV6MrRO4upnDQPsjOYRW0jKSALLtLB6EajBXYr3llZWZg4aYS6JmYaJWOBMisyvObDpGwFLpe6wsdfbnqBcQZc7AF44g2lSw8oUiuJs3SFyG9AzIMJsQMYxecHkPs3zvGm69EePU7lLwZQ/v8_08CLko9MwFXsZ03P7H_RmMVZ0N1H20WRiHk1FTrQ",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/_fvFmW7t1OA75BwmrlDr-w/RIEHEtzAy7SNHsRK7mBeTli636upaCRvegfFXUz4zY5lPjfi5chcTnfqGYrI5t0YQQ8ORw-EwsSMR4WhgoW02Ci4RkPxQqI_YgBtqYbgu9HFHfI0ZvCUHjtBVJDqFg7slht6rIbOLqroNGJ7KPoDuw/P8SlR1aY8B9b6AVCYtk8V5i8gwNeq0qLMAqzoYSXmUU",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
@@ -210,6 +174,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/JpporpLHDlq6O1FMyfLMGQ/TeRDo0ft5qu8thw4QxPseK9tVuHkjvWTCNSMt01BkKgOhiySNwGg0mK-DVOTjM4X-f_BYXIs2LprF0h7fpPEPkq-txGUpRtVjL_RkcMofzv99CYkDC1pcDKwerQXXbLR5i5GPNNYCCR15t3qoscNOQ/HH1CNU3z0amLYBUXJBV_lNGAgvSxQ7i7NFDWFPxbDk8",
             "width": 80,
             "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "FSTA:GBR",
+    "baseTicker": "FSTA",
+    "rank": 65.572,
+    "price": 51.07,
+    "prevClose": 51.6,
+    "absReturn": -0.5300000000000011,
+    "logo": [
+      {
+        "id": "attw38jFXTtzhxJRD",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/GSmhJU6KnK3BhbFJnTpNUA/jUtjOlDWVF3MRC-gWiYROI7jV4Mub75uwSgJZVmmWUmn-T-Ky0Mis2aH-b-Y8f4MfoOfRS-okWBra8CmDLGomDV8zL7Zo5e7Gno_O_XI5uBuTXM-wjOEM_WVslHS2iQKWJ03aasj-EIGYGltnhRpWe-vUnZMebfMnqvK-qoYW-M/0pehg-cSSnCYxjB-wtyH_iVEOWvw0sRQ4TMIlSWUvWU",
+        "filename": "www.fullers.co.uk",
+        "size": 4478,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/92DHtSo6MAvzaxHCGtmw4A/52qOBxDAWJ_a63--Ep2vNdgi6ygxMaPwuBDWhNRk2Hy6IYFeWD9Yx3dXXCU4Pb7Y5m2vwjQ-vt_i-tF0s4WHlkuX49QQC-b7mdFJ2YM3VQfFeY_2_3ywXxrbZwqsWGNIpxPlVLH0TROQ2fsweZmdFw/QhYPADdMnI3obB28PEpAaPo8LkIHURhts9z6q4_uTxI",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/YP2bQx8yNKgSmsEbB2wo3A/1-eiNLl3NKfsZ8Yv1OSm2Hue9iEXurKjlP63RB1ZoBetsjoJ-tnIfeC2M0J05k-MDJ3bJvnAL3RXEArKmnaFa_4k2_rQAH351orfWPJh8_wiOvWI1cODQI-JUH5vwSTjwEtUMcXqemoaIVzlgfTu0Q/iOjm5o_e_Fsz6ZlQHvRgdbn4VnRo6OgIvc1KS_meSFw",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745560800000/Y6jUZZxqIThCkBXABZNB0w/mkm_wFImAQ8Q6TeYUBIgNc2Vr9LzG_TZBD1-gMtj7JYKGdWS4Mn9FVTIky7KWOasokToTQNmB7svx2UuRNXpt7oZWiaTjlqb1fZBUy-Jfp1WzHPZCPsfAQHtsR4EJNhEpPo-udAP2vqvIL9tsAzsGQ/pdeWPJ4C3bX6qZSE07w-MvXWZaaLK6yRHGcnEhvP5P8",
+            "width": 200,
+            "height": 200
           }
         }
       }
