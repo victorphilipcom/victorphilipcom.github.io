@@ -252,36 +252,36 @@
     ]
   },
   {
-    "fullTicker": "SBH:USA",
-    "baseTicker": "SBH",
-    "rank": 86.6083,
-    "price": 7.98,
-    "prevClose": 7.93,
-    "absReturn": 0.05000000000000071,
+    "fullTicker": "FET:USA",
+    "baseTicker": "FET",
+    "rank": 93.888,
+    "price": 15.16,
+    "prevClose": 14.45,
+    "absReturn": 0.7100000000000009,
     "logo": [
       {
-        "id": "attqVPKupg5wJf6EE",
+        "id": "att1Afc0dnnqt0yve",
         "width": 80,
-        "height": 13,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/RGWAu7onWsCZHq9hhHdB7Q/5u01qTMI_zOyHkoTq-yG2DvM2uLcGz95px9B_m0mU_9d6DOi2-XqRoRggDuizy-tSLbrMv36IyNKtvJlWM8k-Paewk1NYtK4UJe3MNzzbNuPjeIJlhT5kGwZ7MMN_NEPL5yTIC5szelorVAj8ScHRgFgyDs1xOjuCGaSveeQV8YyRdEfav_sKB0asAelI5UQ/3KGjoaOmIheLS2zbua4IUo6eo30cwxlIUgIDJl59V8k",
-        "filename": "sally-beauty-holdings-inc-logo.jpg",
-        "size": 925,
-        "type": "image/jpeg",
+        "height": 38,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/RNPNFFuKx-Yx60ZyuEkarA/aX6aKpGV_Nx2fX6F7ffiNtsZuZpwaEVtIKzbXkT2C1g-urLMUgZ2vIo9AxQa3Iex-Vtu6DjXn2_4M0MdBC-P4Yrm148wBfBbPH7Aj3FMt5mdTruSdNs8zPD30GrcSCJeh_b_oKfsgXviC8b8AZOTOF02u0GufIuqI5U0duSQMUwQHdBw6wDxxd6mdrxYag1G/UWFMgpiBfkrlD-kFdH4LYu0LEdWnlc3db6lrUEO1XTU",
+        "filename": "forum-energy-technologies-inc-logo.png",
+        "size": 1533,
+        "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/XS7nb_QHg0ciqhcvpYK_XQ/7R55COzGXMH1tKYU-ztWmAqcgR6geOoQ_C7VPwA6ys4v-CWokI6cz95N6K7Gzy2iw0mRukrQBb7U3nEjxgfissgCWrO9TmlW4kf_Xn8VJ2rplQ9dlZKjY402pu5nuLeNMdkkcTWYCG43XBfpS5i2Hw/hH2aeHEL1TcBJrLsZ9_abSaxBuL0GKsDWUfVyt8TlNQ",
-            "width": 80,
-            "height": 13
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/44QOHG89STX0iXAf5dlD_w/w-PatQ7JV9GgRFrwlaDjgLL8BUrFiaiL6ZVCT6jFnfo54jjyK5GYFBGBnALwZ05xwepCT8bKs49YDVcpmTsmB67i5gSqUa4v4qZZAhlcRChDmND2Sw9ciMv8IMQWfLw6rom_DNS_I8dLaY4m5Kp3Nw/krGHPedRjExIKaSRJoQw4jjF2lYAoiMKuzeQZe31EK4",
+            "width": 76,
+            "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/B8v_j4LRVU7CnU4cRBuHgQ/Fev6OAsapGtHsTLL4XkSerfjalIQIrk0qgDy5zuNvDMQf6tE_7uJ1AEWXWls8H0U3iCvFuXlEe-uDE7Iem90Ai9M4REstTR8ubHUIfY_-4oYbzUsV1esQUfAEc17AXQIAZxsk9Gze4rKPKIenwiR_g/Mm3E01A9rh00MY1u_w6IOESf_UvcN8-Bt5B_ac1aKIM",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/lwgaBOERncxhMocFFMj5AA/dfl0SUmfU1ysutFFST7GepY3MdtUmF5TsfbFzGea560cC2cJMxjZTI5arQlxTPcJSQTE6Kb3qG_WTNJFTf0XZldEdHf6pudFw9VY4js2hP8V9YCd0mehte2NBbx6tC4lyDkaLyypnIDXQ4f7iAnQCw/yQAkWHUogD2UKjAFX-2nzVrPo_g9iZAkSqD-gmi26Tg",
             "width": 80,
-            "height": 13
+            "height": 38
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/Oof6kG4duSdPMV5aMX7g1g/_Urb9NiJHuqBE5QQNqu1fKwgbZgk5MKpj6pYjBgMM6woehAL19sRYgiZtR6_ZQd1-MMgtQ9-6aXC2R0VVuC7Qqs3sSy5O7StqwrDxiZ08UfeAIaVqRaJ6bI0B5ZhZw5mkAb5kpGhZSKLDtpqp8ePig/IdzPskOC8KELUp37Lz-Ncxm9nZzGxpQmTBYOFK1Ofyw",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/w6oiPZLjAAnTqbXsllmihA/Bk9y5_RWwOOfp8E8AGzUK8_8FUcKxlOQxIX4GmGoSQzJCXfjb_nkQwdxm5iyBEzmp_uBNb4XbtHczZXItFL7-3dWOrEUzBXkQ0ZtPRWfuHWrAaVd3gfUKfBVYxKdQYUCphtAo0uzSeBwUplEzBS71A/xgEDzpumBOpyU42fvbNghXyfbeCPGgnX4Y5psBIGz24",
             "width": 80,
-            "height": 13
+            "height": 38
           }
         }
       }
