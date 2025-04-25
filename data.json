@@ -144,6 +144,42 @@
     ]
   },
   {
+    "fullTicker": "ASTH:USA",
+    "baseTicker": "ASTH",
+    "rank": 10.8557,
+    "price": 31.4,
+    "prevClose": 30.9,
+    "absReturn": 0.5,
+    "logo": [
+      {
+        "id": "attNZ6bVwMsQ3SUIx",
+        "width": 80,
+        "height": 42,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745589600000/yoTSRRWx5wySWDdBaljbLg/kyelEm-OXhVmqVJXfhhZ943zAZUJhnM_hWKmoD6km4rMgeZX77RXt4ob8OSPHpMYzloWjxiaHB8J1VusDCBu-Hxtt2brwo9F2jCjMvC4svYWjZ3NNDC9a7oBbvNPOfW0cpSZaBGX2BzTouVAy6Lvok2GOCTjSzkU_63OU49A5pDgYEihsa6xC6rzAcThQk_i/NNhNeH1AqeamFOQcCn2CJWA__DVlgjHXI9vwXzZ0NfM",
+        "filename": "astrana-health-logo.jpg",
+        "size": 908,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745589600000/5DgFj8RUJi2twhnr9FZ8rw/Rylx0p8B7Hs12o_4ZuCY0gfKUqg5Dn7Z5ttk18dIYle79Oj-EkXgHAbDV7Ysx1CVY2N-h1LjG1mfVwPeBcR6khBRwMckocH2krjrMmlIB7VawGn2fGsR0PtPD561PE-fhYwESYvieXqPiKrIjfYerg/Mz2GwK1nh9xCP4_yO14_6Wxf77VTzlLwAvI_s15DdqM",
+            "width": 69,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745589600000/F7Jbb-ZAsREO9Yp4QkKXBg/1fYKSXO1BOphIlHUsvw6ppGVNrBVqUA06aXDEZ7vKfC6FP2QrEtpOzwQbnP37QLwfxW6LST3rCI8g-rxBf7Votaf2nIfwvBBX4j_Esoz7JivahSNFvteIpQn9tTQPLr6ASqXTgIqcERIIY1y717UUQ/ACAgKeTu68IkAHEyoo6ZxU6twA47aQNqn8wtywPwl0M",
+            "width": 80,
+            "height": 42
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745589600000/DuE6RrODyOAVqS_7mB5I_w/b3x_Eap7lznR__rjorf3XPtTb9U8GdDB7syv2rmX12wnX74VttFAvBim1kPwlJW_w4AWkY9dU4EXwH2p6D6YQdu5XiancN_gebldRpqURJAqg0IFfyC1zGgLmuZY4f50LWfUULp9gCYuIhbcYPNftg/0z_5RTTyYnBs34eiXZ81TeMYeImr9N1o4LFMacUK7DI",
+            "width": 80,
+            "height": 42
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "CRL:USA",
     "baseTicker": "CRL",
     "rank": 44.2438,
