@@ -252,42 +252,6 @@
     ]
   },
   {
-    "fullTicker": "SBH:USA",
-    "baseTicker": "SBH",
-    "rank": 86.6083,
-    "price": 7.98,
-    "prevClose": 7.93,
-    "absReturn": 0.05000000000000071,
-    "logo": [
-      {
-        "id": "attqVPKupg5wJf6EE",
-        "width": 80,
-        "height": 13,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745589600000/MAr5o2AoW6lPRbZENTEkIw/slnX61CAbWlPQX-O8mQLueGR8zztqZVjftgYvJ6pnxor7srW8Axs31iecJFVYrASmU5cEx6zvGiu023ncfyKIJmUMZeZkeGkTSkMHZnCCPA7W2oeQUxwWGHbs-s3mAH9IVJinFjgk2Qomoj5Wzf8J7GJCrCAT5NTPRaY_4fC-eDCxbI1qXI2WoJ3bfnUUYIp/HgffyPHxYXh1ZOj4QAG2oCRDpBDOIp6oT2pRWfSB3hM",
-        "filename": "sally-beauty-holdings-inc-logo.jpg",
-        "size": 925,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745589600000/HM9T4tSKkmijon4HHn4n-w/1WzH8Zw8h5oLcRIMaikNQz87d_98iUTBlvCT6SycUAbD1SVpx85mZZ_Ft6QNtPGKYD5J3KbM9fjLCCa8sGRI3m208Qm5tVq_EcgtOqSVtmxMW6V66dtN6slz9K7VeQSFUu7BsFg-peGIrdRldJqdfA/L_GEkUv2Cn3c2oP6WDF_77uCxOm8ojbIXf4f8I0kmoc",
-            "width": 80,
-            "height": 13
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745589600000/-M7k-7E_ZxNSMbDhWkvAbw/NKheKRUvXTvW7j8fU6CMQ8N3zUo1vNVPLHKHmX3g5RmfFxxWDUbWE7s_XVtEZqDqcv2XeGP83b5sgwU72_pFhOEm9mEZN-c4IfabUTGdbG2D5ey0EknBA1qZH3khHZtILtV_O1y_1-4_HhHhmYhNBg/Kw3VvqPZ0gSdAWJEcX2-6YLoMC9uMP0wWY14-0OaYH8",
-            "width": 80,
-            "height": 13
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745589600000/oLLNGOlap8AryXIv4btraA/Qgi20EAH1o-zN-axw1bUviBllQdeV3b83g_aYnNgc91Hxhay9NI9zQXnV6n_8PU5lUCIMU-DbMwilamolqXm1WidsV-oNLZgBQpIRYh23g8kRJjkWo-BF8Yd3kQt7XnuO6CZpM7LSYhZL7kRQNgGZQ/xXVeDn6Ey2mO6TeICCXlLcbX2csrCdqE2cpdgcfr7nc",
-            "width": 80,
-            "height": 13
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "FET:USA",
     "baseTicker": "FET",
     "rank": 93.888,
