@@ -180,42 +180,6 @@
     ]
   },
   {
-    "fullTicker": "CRL:USA",
-    "baseTicker": "CRL",
-    "rank": 44.2438,
-    "price": 115.76,
-    "prevClose": 109,
-    "absReturn": 6.760000000000005,
-    "logo": [
-      {
-        "id": "att0BPhEduY4t4DqU",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/BgHBwunNsxNQdu4c2xQEig/5tYorZKhBfnAbat-KXq1o4L2pAn97WZirA-oE-CKtlrJNMK5_ALpU6MxVJFdBGsFmgSVjLexnpUE9WL2r2sUOJ8lMhswcJ9TjZPSSjRpDHFaOAALRkoiXBDt42dCgQDNvv9LRKQUdFlKAAvJBv9Y3fAp3j5Osp6AABm4qE7FiZK9IcX9BhRGGlo27yzamtfe4kEWYbdFDey_YGi2N9WxJw/r09TPMtHu9RRfl1tYYZMNcV6OdssKIxkVwImwlzQ5y0",
-        "filename": "charles-river-laboratories-international-inc-logo.png",
-        "size": 1765,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/xDV_UGy4U_mVZ4PBFkzCfQ/vrmvhBChrfmP6qERRu0Eki4tfXjUtZsrS7JaJsCytp-YRKcErBLkmQkoBFfVyy1BEKQ3nbn9ni4rbG2Nn-QUJECjH2zEvGffHfwlddnoZ13d-Kb_1S7sVjf01Fkdx_lqbIjumHJcjSNbDVVU_Wp0RA/5r0i2tAF0WQs_GeSQCUlI_3KG6fFONVbHh9vRDFMFmI",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/xnyE8x6TklrR-i_9jV6XBQ/4TeOpSnQSv9-RTOp-3X5MKmuSKZRDRjc42qqLC4rTUSAAotmyG3mDVtrSSzncOtGvvXu6XHL09KSAAyHkhnaJD5iyiInLRZ-pXVjJ_AFXNvCbx6fwA5gVURkqPoglLQSnWthG0_PL0pP1BZ80l5V1g/opyXW22wOUNGCbvg3coRPPD6IDbwrG-v07i8N3wemPQ",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/4rzHLFUu3xl010V6FmpgMw/FV_cxY967ZU4lAuCYnCMh0uO3y67kSHxXeNW-CwM2J6av6qz4-O9Rlia1lRRVmjJMLSI3Bl0_7VWnV1-vnsdmXt6hI4i55vFjSivuuePeFzjjOs_-Qil064W2F9BAC7q8mksIO357fXKw6p650H9Iw/9DQGaRm8DfTgWf_Dbgwa_54_57xmHkA5uqNGi_zPAL0",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
@@ -282,6 +246,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/XIn0WaWWPQnC02pbbfVN6w/suIAp1Z7t9CgXp0o0RRkwWtCf37BDRG2MLc1FqmTtBnpJ9ZooBie3L-wNYW9PGqv6N0RK0-b_o_C9200jz5dntYScPDsJa46-dymmZIpZZNdFJiLXfTHvXE9X_erzrxmBdBQoRGvcZ8aejEnuj6hgQ/7ra_LISjuJ0WXfC4hJQtSHJ9w5VnMn7HxfdavhNvD1c",
             "width": 80,
             "height": 13
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "FET:USA",
+    "baseTicker": "FET",
+    "rank": 93.888,
+    "price": 15.16,
+    "prevClose": 14.45,
+    "absReturn": 0.7100000000000009,
+    "logo": [
+      {
+        "id": "att1Afc0dnnqt0yve",
+        "width": 80,
+        "height": 38,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/IPaE94f1DTpe06xyKt-GfQ/STPr82VK9P7e_ewig7zCZ-KE70NYeoKVMG1uwV01XhB5P0gYCuMXpHs-XVCHM3qVOFE-UUQ3XHtHCJdwHSI-JptxNaBERC0sfFSo3nnXUrrzCS84cu5aQAobmffuqCBrnF_s7P694tCD0Pm2b-BJfOmCXlqGbJid9dowHwlTneP9IKg8N7w-T6kcyupLGsPz/FTzQagqgKn3EWtMykde5LVYJApaTQSz8yRk0jx2UVkw",
+        "filename": "forum-energy-technologies-inc-logo.png",
+        "size": 1533,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/QLQzVPb_sZ3RzEq9CPbrXQ/4VsjnQuyYoqRTF7QeLLoNTzOOv7-ovshzRHtqwIANE-R0PG5-KAFtnZmj7L18G_MSQHwxHAEvpxc7g7SXV2YdFi8fqhZVZypOMy3U4devCKpdmDuP44LCzITRNR2Clx3JvmeMCzHBycDm-vHh6THDQ/N7BgA_LOzQnrDd3hFPzYD7y1rFiGcyM9XgU3oKoas0o",
+            "width": 76,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/zsa2ZyFafas0NrXZ_U_AbQ/0xEcMM9Ld5NHJ4GrpRHknj8JHycTwn8CKmqNcvwbbm2imAcd61StuRvpmmphMe1J6X5REk4u07d3U6GZTbp2K3e93yRHUsuPHku9iYs7wU2mT_eKH9fNUA0kxf9CKeCZBXaJjFnBYHOXccA0I5mlRA/UXLgtlsDAh9MS5cqLU9WS5TodBRqjiDhM6jG4_B1ekM",
+            "width": 80,
+            "height": 38
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745568000000/efQSVyVmL1gMO7X13DVOzw/OZ88su06tN_mOOKKkUxeHpEenmgbtfZcG9c9pWMU9lByKadt-QfHbItN59Fj7mob56phYgBjWlENLMAFW5pTMIDam9nrN91sNCsF4Rq3QrLqAdAKyIdg4ss0FM-BCKGshnbHQYrHUu8M_a_rYwjd3Q/xyVyY5ioFTXdnQXOjqoiND20hPIpmxzGmPIY1xLeXp4",
+            "width": 80,
+            "height": 38
           }
         }
       }
