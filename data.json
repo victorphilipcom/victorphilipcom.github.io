@@ -1,41 +1,5 @@
 [
   {
-    "fullTicker": "IONQ:USA",
-    "baseTicker": "IONQ",
-    "rank": 0.1095,
-    "price": 28.9,
-    "prevClose": 28.39,
-    "absReturn": 0.509999999999998,
-    "logo": [
-      {
-        "id": "att8FHj77cNQD3pb7",
-        "width": 80,
-        "height": 28,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/8hTW_VhLSO-Eb_aSsZMTRg/iJjZGutrrfkMyP0b4wXpEVYqZohAtjpXBdIKFkDzsx6XV8KT7bCKWz1jpPK7nFpyn-Vd9Qlv_mJNqRtcolpF7kih7pVAAtnL-of974Zr_rXOQ9Kb_KbvLWAc1WBeR9I2XtsHhJ4cMKeS-i8dlPBxb2EFl6frBuoPXh1FBXL9Iu4/4fC0xXD58ghES0KlY5hyt5wd8zQF-Zq0mLES4S2qtYw",
-        "filename": "ionq-inc-logo.png",
-        "size": 2631,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/EF91eZiApiIRDx8vD2AsdQ/vI-4PQLyRyj6n3mhF8qphM2hKjizqgKnDh06yI2Kg5HDshiUsFcLm0aFyNNRIpC_RqNdVi3w6RlJ-Ub5sPZLtdmy_A_avLuzU1BWezha56LxbtNjPvYABL-XbJSh2qyQOF9MkfLZ-sc_bS6c4RaEDw/noBTl_hGA9s3PsVPepfo1lRCwloT8QmC53-s3KRpa0c",
-            "width": 80,
-            "height": 28
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/ATNQnvongC4QJNMgvS1Z3g/qOZeYlnsiMmXyvdcqALaIHIv1M4c-6GwtIilrxBxVSG9-XpujYAlZIQ62NMaMlkDtwfKyhVGyldOUqp0yiqLy3--iOYjD-NeZ3kgHiaUS9Rqn83COj1WVdbK9FMe26HGY71f1OlkbNHLRdpFs7iXlA/_-AZIrquvTEGehaptTm6to6IXwnXUEQoh4OorT288_8",
-            "width": 80,
-            "height": 28
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/eqIGbTxqqIGGP7f9MLzHAw/s1FvQZsl44X7HbMSmFAxx6JmgEeo2ihQ6Euv8zyl05iMgJfuu4lIFIG1pf9anmv7TDZBsabZDNvrwis5rfKlS6KfXf7aQHHau9uwdb6IM_y6aQxAgoarUlxzsnLI-wX6nzXddvKvYrVnF6UwxTUceQ/7NQCZ_kCHwUfWtTiZ4k1iWXqCGanBeQRx0ng2lGyen0",
-            "width": 80,
-            "height": 28
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
@@ -66,6 +30,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/Ch-U9tZ6mjfmLNaK87WOdA/EkMSxZjcr1n-lyFVUhuOWTkn8Upo1L4d9Rid7YpVm01otqDSQWetJ4wL_tRrZAptqyhKJa1o2UhLh089KKeY94p6okvrszxOaKZLjPqqA4SSlsFluoKlLjV071yZKzi1z77fMxZXp9vOp4_6XDVfGA/H91aL0OSX2VSHxve15yU1NnrywwBs0miIAfm5oUN4Ns",
             "width": 80,
             "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "DAWN:USA",
+    "baseTicker": "DAWN",
+    "rank": 2.4448,
+    "price": 7.74,
+    "prevClose": 7.9,
+    "absReturn": -0.16000000000000014,
+    "logo": [
+      {
+        "id": "atth9YbtDIOMFdzon",
+        "width": 80,
+        "height": 35,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/-j3EtdBEkmSTOoms_CAKOg/iRxY3sq2e_4fEO3y39UpEjwUlBuWkt2ZbxrtyCvI1igv46WT9QZMaJM9ahAupSXFbdTQMcnr2iazxVYlhIaGMT0iTWZyi3BMz8-lE0YO65xadxi35vcXdCj3L1OlGIBcQt6Ke5snJhbEdKckzgfmmiHaQ8x2fQWcFSi3Q0e_h2N8RbSOOWszqbKWHVzoazEs7gEmHNWRWd_iHYKT96zd3w/vqicG701kCT7BmVYq4oLHrcHctL4VngTL7Q5oB2Zvno",
+        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
+        "size": 2171,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/X5chyodX0_QKCmymE3moeQ/kb9UTegcRnvHuXRDLinI3v9_ikWuKaFAtxfQSxLvEeAX22dcYBsGqMwzTLetaUmpUrsu0dLvtAm2TOzVD6_g-wptl__0SCIomiO-m9WgLBJOP-pStBHb3WOog1pPVbSxAqEkowFnFNdGSEYZMRFGcw/W7Cs1zM-riEDPrqsjs5eKQJcgF84Exa2dSj6Pzkq7Gw",
+            "width": 80,
+            "height": 35
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/HGVf5sJpVVU_XPS98EeiSQ/MtRT9tzRcBuWFx4u9iSi4lSHjAnAl-g6y9xVB1TSnkYCLQxtb-n0KauagKEFxfsbCmJ0a2ddix1V1WuZm3xVtCFqQFpHs4nlbAnmbEKjBa1Y6BJlbotLu-LlmZxQ6gFX9adppz3qiA2mn5EyjM6avQ/jP1tjx2aTa-v0XY_sPFz0habQQABXY7GGjnIY3Xxs74",
+            "width": 80,
+            "height": 35
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745632800000/6fzwRHZSLuRqB3A0oboqLw/NZRt9lV7ubpPrWmS0UdrdH8tG4ff3XIDTuv7iASyrIFr5Cr_AK9S6x7OtnIo4pBKbrrrnFhJ7Gh9QB5uEsA-FS09bT0bP6M1YglmOLBEQ2L1kaH-qeWYbQ8ofg0PHA6283vSWdDBbqb1PD_SdOQjYQ/-9xoPCdaOb2RGRb0xGsvi1iBUq770sTUl1mr8G7fa88",
+            "width": 80,
+            "height": 35
           }
         }
       }
