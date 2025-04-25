@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "DAWN:USA",
+    "baseTicker": "DAWN",
+    "rank": 2.4448,
+    "price": 7.9,
+    "prevClose": 7.44,
+    "absReturn": 0.45999999999999996,
+    "logo": [
+      {
+        "id": "atth9YbtDIOMFdzon",
+        "width": 80,
+        "height": 35,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/Qx6UCh-NnDEnB_5WG8cwMg/q-93eUk6D9nSH1sLg6Kl1SFKXWANQ2Px_4wBSmkfHjpvPs6cNeXqsafDq5n22Ta-gCxKOBMvpn3RyoHf2H4lqaxzrtf0HzvvBBaMA_yUjZrerkFwt1h-1fM6S_35qOuSygRbvvnDoykUIPi4hEp-y5Z7rt3bXN4YMErPbUMlTkVHj1_kD829kjJcZ2VHRz6UxOkrdx8XcjjnYbMXlbaEeQ/IXtrZuxhyi8KpFd4-tch5y01O_LjpNAQhrocGfkclCM",
+        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
+        "size": 2171,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/-gQ5c7-wMrO7m_XWJHgoZg/FIhYqgsbcA2-arX1v7bIufisDpg_Q4zHcwTOh4Sc5jSkRN1s6V8tpP4WTZphsIw05LSwGjXne49ctUeJVa_8VfbVUax8OvgYvkF5tuiZbz8lWjlTkRlXuwI5SegGYxnExXPogGRqYR9RJ1cAOQnZtg/jmUInyW2YZ_FqfIB6Nl9QOFfm1_S8MTSLHMPljT1IIE",
+            "width": 80,
+            "height": 35
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/PT6LTJnUcQ1rmvGFDhusrw/7UHmoQVeaUQqtDbljUIukLuriQwQtBSx6GNamHLT5IKD16NWcTBxfh24a5UTOO9WQL4f-JLO_6AthJzKHxkZZ-cOJoCTgwP0yJbS6NNunUrzBD2RJZ6iTic7fXlI2FrFHln-FcH2wPF_gbS6t765Cg/EmFdr0OEbqCz24QxHbZoBoR7ftS77eG5Oeu59_quYUw",
+            "width": 80,
+            "height": 35
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/3HPFpuVmiLsSXbq-HwIrsA/QqQrv6QHRkGdGU6cvpbE8eNzsKkgCdZRxDMXIPbzBeQGnitjdjI6UndyR4M8ICKt-Fms953ut35_XAb_Ns6M8i3VSX3H-GLe2s5riSXEJx9qDzoFHk88ZApxXC80taMOWloVYp_SwE8Onh6p3dlBRA/XZFcB1OlO9cTSAEjLz6KgBNiZ_n20iTAsno2idLwCmY",
+            "width": 80,
+            "height": 35
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
