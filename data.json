@@ -75,9 +75,9 @@
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
-    "price": 7.73,
+    "price": 7.74,
     "prevClose": 7.9,
-    "absReturn": -0.16999999999999993,
+    "absReturn": -0.16000000000000014,
     "logo": [
       {
         "id": "atth9YbtDIOMFdzon",
@@ -174,6 +174,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/GPPau5LzeQQsPJswtLHLpw/IHptMD5DWC3rgc7SOkuuR7nz6XPJ4cRycY1HEqDL8XQ2oHV3My_-ya2AOe-sCtdZUxgsAOQ5PoH3hT1xVZFvPZIRuOT2QwS0i8Z-f89C-KYBtQQbVtmJxkRwu0Uv8_NjPT4AivV_VEsB_XBaF2AqTg/iQK2KPdja07uqRzphZK504sLYeMWWaJGh3TzLbgj_XA",
             "width": 80,
             "height": 42
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "CRL:USA",
+    "baseTicker": "CRL",
+    "rank": 44.2438,
+    "price": 114.66,
+    "prevClose": 115.76,
+    "absReturn": -1.1000000000000085,
+    "logo": [
+      {
+        "id": "att0BPhEduY4t4DqU",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/_fa0zZpErcOlyL53w_lQFQ/0V7f92WYGHxA711NMtq3hcOFqCweI1-fyLkdTrKMuFbwYxR5ByMllq1GMXmBHtliM7N_H9pFbP88KKN6_WsIi8dqiNbiMT2ou4kbUVilp8yYV7AN35epFHAq_spDj85mr3Un2vcSc6p1dtY7xDzeC2a0vYciiDfxZxo8_HtaDdbQ2hMygagl15Z9VJ2WRbJ5xgvAz1s6s6UT-v0FCcPw-w/bYrDAzyM10GSvXabJ4FPqyvieY7V_coHw53ltAzKtFE",
+        "filename": "charles-river-laboratories-international-inc-logo.png",
+        "size": 1765,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/5QE7PY8-NM4U6E63NkXF2w/rI60AdcNZCAbglD4BGgU0jySqrU2R78vUsS3IpuzeN2_donZcMqaHbtkMB-Bnvs6eJLnIi5-lQjyXPzoE2Qh6Kq8xjCAWZLxFFG6XdVV5Lr56kMw2cjptf3GCIKl6Fw8XCBK6CqNjRo8-fosI68Xzw/v_HmX3luR02vaKP0JOTj4rAk7ImhOAS6mBCqReg_jrE",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/zocfN5oTAd_CHiGCdXRrMQ/Cd5Hl_pmwyBhEdn5wGl2chIcTxxE008T0EmFgK2w1kC3JLjXa-Go-cLh98ZzQC-0iCyIBzDr3eMf38nk1_wkBQFNEVIeDMHgd6OuIJziSJyoi1PSPE0EoJC_7jt-790ZYJDIWBoeOitRHLCJ6nzbhw/D-h0W8lWdZ2hupggLWuHm8oCxA1AES3SHs3eQtFO-W0",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/Gf0CwqBOxyXGjw5wFAfdHQ/vtVIQz_wXl5cw8tb_8dvxcMNhTPNU4SVAEUAhkQp7BvqjnM2YIoIFcNYqKyvkthL3F3t_4saRExT-zryEX9Z_dQHO0Bs3RAprCtrSFR4wDq9PnoB2FGMYYZOfMMgPgGn8wZ4g6BFmEqgzZvB-JPOkg/OGHa1nUdjWKc5X6DZGXNHVxghKpYPL0BSFtnLtU5r-k",
+            "width": 80,
+            "height": 41
           }
         }
       }
@@ -288,48 +324,12 @@
     ]
   },
   {
-    "fullTicker": "MGIC:USA",
-    "baseTicker": "MGIC",
-    "rank": 99.854,
-    "price": 13.88,
-    "prevClose": 13.67,
-    "absReturn": 0.21000000000000085,
-    "logo": [
-      {
-        "id": "atttujlIaJs7qz82O",
-        "width": 80,
-        "height": 80,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/wM4LNZtDNE0muW1KNg2gvA/pFjjxYRfRzsQ-kG5twtjVinFuZRMOKmrrjoa6nifXmOxLth8WeSbT337BX9uOAzrkUTglm3zc2oav_f84vTiAzqjnetA5h2X-kaWoYLfOgCs87Eq9TRoW3-3U54JP9SFqNfx_7trwZbDc6vmOpRDeJSDsn-CaMcKYyBzud9Mkv821t3gLhwTPa21nLeG1HeOMCLxeSR_wmJQ8Wq8PCLTtw/KbtaQspwJz6SBe_7S1oqs0uSG3ead5fW6aF2ZkrWL48",
-        "filename": "magic-software-enterprises-ltd-logo.jpg",
-        "size": 1824,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/u-g60-Q2vYVZabV1otpAuA/IvsEvoxLLTsQ0Iw_ip-327rkQ-sN7-4xRzRN0SgLVfxbUtT4LgUD058eBCbMLTpkbV6pUeVug2NhQnGTJx_yO93H0-7TDYYJJckYyaXw8UlPllKD5N_a63rATcC5Kv3IYD9AVNKI2lMUREQI66W6BQ/xeBVFsoqZqGLX4tsc5gfaW_gxmOjTaFjUN2tzWBKKIE",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/s0emDHgY-DoBhy9sBHgI1A/Kn3ylrAYGQ4raK_sbfMdVzCPptBphF1RTDqHzrlcb_f_-0mMwcsMpko92ff6RE7zIJ_gRAap5tN8ziOqHu7h-RAnVySWdIiXid_Kbzz6Vu6CLQfBChdV9DFfiaUARhyVDl-wos_UoEcOsBLZqvEhQg/hK4jiWexMlpGqMFcN85MqTLMAHHfHpJDLwnwaxTGsu4",
-            "width": 80,
-            "height": 80
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745625600000/XfFC4ppFWx3qlaJ3j3uwvA/HvzZQin6oVph7pyGCAICtw9xfmcPdoFreKeXLBaCJ1-HeqPsZKC6MkrNx69sg6GZW42RRal3KHVAtBU3SRHn9a4C2FvA8TnHEqU0rCjtOg4WkaqNOqz74u3TxvHvwoFEDvPRzmrwHo0ZBx2AVHdzLg/BY7P0NkZhCilrxpXDknx2S1r1xNaBJpgAbe2oCh-Vrg",
-            "width": 80,
-            "height": 80
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 550.9,
+    "price": 550.64,
     "prevClose": 546.69,
-    "absReturn": 4.209999999999923,
+    "absReturn": 3.949999999999932,
     "logo": "sp500.png"
   }
 ]
