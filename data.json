@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ROIV:USA",
-    "baseTicker": "ROIV",
-    "rank": 1.2224,
-    "price": 11,
-    "prevClose": 10.74,
-    "absReturn": 0.2599999999999998,
-    "logo": [
-      {
-        "id": "att3IpPCDbErkHC4N",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/-hUVPt8rcU3hW3otIwjV-w/LpJj-ioVhY62KEnSgx6HQ88nm7yg8eynZXh3hQ5csI2zDqAQ9JVaXjMrqpIlGpT-aylsZkrjyWxoCMQmxgKgHOEFxLkmnjeYIxQmzBfbgwcPIuzoGuewF1cVYDlqGtPZjKDA3OLspoXWNUKzQPZKPZhTnEi1jIaooy0QFAWEvwYhWBE_3aDCRfKxx-nIQP2S/nVIJMV7T1IuAlI2e_mtsWBpR2ssKagVu_vKXbD-RNfs",
-        "filename": "roivant-sciences-ltd-logo.jpg",
-        "size": 1069,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/0tBb7JG_u0rtewLRSLLp5Q/IbHF3GxFxdYkVwFKTEhHLK7rwZgc4AkGROFCPi2ulvJ4j0DB3k2DS9iJZTWzfiHzJPgkzBwTsY26z1hmNCFv0EIAxmlYAD1YdNriaVFCU3LndrZBDNEWAt64j5woDFJtROSObVjZg46hLHy9Uc2slQ/46d5Et_whM_WIFCdOWfLcJ0iqTOVFXlSu9hJ_Bn8PxE",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/kV897rI1xseRWeRC5PZwHw/ulW0kD76ynAWiEE_9xzQIKujUIZtEtQGJe3QWXMpM14d8Vfb1mhnOUyg6GYG0LEDc7y9eMKZIfpLdJsGCssymX9jK0TrSTc3vZJuLx-ISeJSHiOUUxesf5BYB6UblGMqL1wbefzQ7AoKAsSbOcahow/F2u1bRw_m-ficwEg3M8ZdqoBq80IBvO0_tor3fyAqy8",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745575200000/DkaLzo3dPUckA_T8Mq8Luw/lFpsxErpiQQz8dhVgo0jFYvDmmS7Z3N5ZaVH2w0_OJR3-QSYidsCAJN_qXV7uRVp49N_RGTNoJztcv6ibV4CEiSj1GHsjYhe8qrA8C6D3_li43s_O8cIVEynrd7TPYOEht67cwQKL274fyQgGwg6Kw/yVi4h7jQdJztqcatoMSuwMy6xLVpUkJOMwEsY1ie86U",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
