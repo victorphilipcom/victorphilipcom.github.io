@@ -216,42 +216,6 @@
     ]
   },
   {
-    "fullTicker": "FSTA:GBR",
-    "baseTicker": "FSTA",
-    "rank": 65.572,
-    "price": 50.94,
-    "prevClose": 51.07,
-    "absReturn": -0.13000000000000256,
-    "logo": [
-      {
-        "id": "attw38jFXTtzhxJRD",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/frNbfjKZvcrH10JxTMkWpA/Rgg5VxwFyQ5B0iLQRHV05Ohvmaa0l5KpIBY1G7RitOPS6k1r3aDkNU-FB1xGEbCwDHTY9rwh6X91aT4mP_1UPGCQYcDUxUq4AlEXUyKe5gqGaaKvDw9OJtoFY53ZfZg4FmJeqrEFH-3ZsvAT6u_GYdcXRhXqO5oXcnjqlVz2l2w/T4fWBjmdh0wx6inj4kXuWi8MOkWKN2cVVRCIsAU20qY",
-        "filename": "www.fullers.co.uk",
-        "size": 4478,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/DxpgbDlA5Ya9N2yuosUu4Q/TgNfpfUQo6l6fBEgDa3QOu7EXpib1tnITb70aIDntAwlYKIjz4o3mGdhTwzFvocKxaUw9yyDHTG5HjyBNtc6mWPLzsnbyckcmiaCEkXSyccM8PrKgeS5tqnwR8m0c15YoiYAx0y_GLFiJHgf0MZ7qg/Mmgp_nmRZJTfF1FmKCOaUGMuMYndJfvroLbBBG2KT5w",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/-Cp3cwOtZrQmOxyUF1FPww/XeucWNAuY2tj4zRIU7O-nfK5pGlYrvYS3z1fUYY2fOpJY23BURtkoCuIW44mDSlWFQ_ebgl6ahXylGWlnzjLSNQ8LOYMkZt18-ypMuVkVY9vY7l2uBnjCIrwxqq9CdiMpZS9LTUjf-rZxOrJUl_xQw/byT2tMoOIHdmeJLj4kKjdMR2O4M5G-DkEyi4vV7DMxs",
-            "width": 200,
-            "height": 200
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/EFy0iWa964g-8BtfQQj3tQ/KyeO_fGXnw6gReZ5IY4-2OJq9rXL4419fkP8vW2FozHT5F6lERgKqaFESznQUzpNzKHT7KvBSN-wNhfG7QztZ9t5wHW0qWwI1tEv_lYbvuPRkn8tKLNntKLAQV0sjmlBguT2pghdiScINaNsA-a6TA/ZOGHbVP8NFo56B1m4V1DuX6VuokOCwvpwK0imYcLpRY",
-            "width": 200,
-            "height": 200
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "SBH:USA",
     "baseTicker": "SBH",
     "rank": 86.6083,
@@ -318,6 +282,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/sIFd_PyUVfEvPhNjbo9QVg/dO8Kln9rAjXDBOV7uHt6wB7kpJ4Xi0j91wCsV584RLFfT5sh62hiT-HstUygKxi8JL_oj-0fbvd9BhzJX37vVv1kQStA61usgfv1PAt0Elktn8DZDslZ5wwZbgnA6kXKpkF0z0qts2jA5h9xR9zr8A/O3EnMczgyjiYxJV1qU6Gq7T6ta5_6VzhPeDX07XoXFU",
             "width": 80,
             "height": 38
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "MGIC:USA",
+    "baseTicker": "MGIC",
+    "rank": 99.854,
+    "price": 13.88,
+    "prevClose": 13.67,
+    "absReturn": 0.21000000000000085,
+    "logo": [
+      {
+        "id": "atttujlIaJs7qz82O",
+        "width": 80,
+        "height": 80,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/XkqxY4J0hEa7-q8pRv1oIw/wcODAel9CRczaBx_S5bp01rjWzyq067z02pXJyNHdb_8bqsY1LZ_U19QDv7rLOftmeSsWJwU-wU_os-zIOOTFDJGYGkW9aur05myGyOCgO4GrngTwL632SNrcbcyl33bivY4VVFceblTU30ultexQCqiAxdoXGQD39YFTuDKafqW_DpPwSaGvtYl3Yk347HyeOqGoikRe11ntyRQiLRICA/yzmaW4orAn8s0n8PDkhTuBTEnJ_iSvDpOte5wPl6DQk",
+        "filename": "magic-software-enterprises-ltd-logo.jpg",
+        "size": 1824,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/TGggN1jJxVP5HPxUq3Wa0g/iLvmW3349brWw85mtK8X5u0QGLtPE6hWV6h9wJTOPD0Q3St9rfNnDyDpXfZYbqP3RVHzzAQ6-udjMfKOmWxO5awHQyulyP1LRA00-tJWKByYL3WtJgSq4I3hNrpxILdjuzyHgYqg64ORjLFuyDiM0g/tSkNO-CY9kYG9I5YgrIDRy713B-Y7JCfqs_yrucyAkQ",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/Px0-skt2-w_kWlMoAOgY4A/K53gx6dM-e_Qz3SbZJynC4UZmfB-EGLJmpqmZgt3kINtqmdNqm2YRNwMNpfxzeV5awRK2E1auRliPIJJnJnvOE2NUoA7ww-WFyqTweW5G8VJ0NrO51KCSJinwS38DZNUrv7LOnzXrVNLQ_FtgVGY2Q/zxe96Qqn0IbDZm5esAuOG-cxLl1XyzIO4Z4JpgA1C1Q",
+            "width": 80,
+            "height": 80
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745654400000/3K09Qj8Dk4Mc4qoHlSpkeg/nkaHQayE5jXUn26vucfztgB48hDNgNSOSQqkufFr2DZwj9X402Mn4MwtYZfy089CwKmw14hOG9dlT19qaWxn6SqaMRHS5yaj9EvlooyfTDmVlE4Am_7uwINFzpPupgwBw1zGgaDWiryyrpd_lwF9Yg/HjlabgXW11gmM0rqwFgDcCcEUf0viI28HYPu0IQmJks",
+            "width": 80,
+            "height": 80
           }
         }
       }
