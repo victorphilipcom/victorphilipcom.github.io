@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "DAWN:USA",
+    "baseTicker": "DAWN",
+    "rank": 2.4448,
+    "price": 7.74,
+    "prevClose": 7.9,
+    "absReturn": -0.16000000000000014,
+    "logo": [
+      {
+        "id": "atth9YbtDIOMFdzon",
+        "width": 80,
+        "height": 35,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/2FFJskqe-zHEfmDbrG9ikw/Q0UV69cNMElpqLu0VwcseYEJ8W-nLVuqk5DVai5vhY5XFe_MGTxtmv7faAeWiAIn0Uds9czLLrUOxMDYQ2bjqtYn_ksv4QEckRpH9Epr0hdh3P_866PwBzaxrN5FoDSFwrBnslXcq3MpByTECqMPLbm8ejPkYFeEpTkgIFy8_gSW2KhANfDY1_wg_HsSyXotda_XjootmeiTI7JgJuZhjA/bLEX_D81yEurhj6BU1TLnluLL-UGqV8YzvNjNzx-YkI",
+        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
+        "size": 2171,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/kx4828AXLX2mgA_I4LrsYw/bZRUP7RN5Lcit6r0Tos0lN33dCEZRW2QILvbDrN0JMuA48p4x2i38oTL3f0LkKKEkJCnyulzJy8wO81g8lat40O2BJa97CiaVYfUbdjFdXq5LIsBGvrlJspXuNiVk-1ZObfXFmou7ul41XIgiTXcFQ/Y4M8wZwiQx7AuBtXo6JGXlJ3HBNiUt-xil-kS-T96Pw",
+            "width": 80,
+            "height": 35
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/tg3xrxWcSIbsWaFSyaT_sg/ll9NGlFF4pbJHIj-OGmBUNp4ewbxMO5Gno0mbhaHkKQXfQkE6kfCbE5DKWH6-kMOpodwP0YFg1j8Ka6IZ645oHTMvR8wFZTgjZGNjsXp3PxkJhhXCT4__4jTKcr82e5hz6vGY3aW2P89_KKRtc_hgw/Ylu4vuMyhtYmhAcPep-qduTa_cxE67nzl1xQYjIYMpA",
+            "width": 80,
+            "height": 35
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/oFPuesmNKq9ShGhRRroZGw/yCmO3k1w9VCgADgJ7CQSJQp7AKUq3qBRGOx56uif0Q5YpRwySrB1FeP0zOd7GF9KPdTk27-1bRyx1XiZMjYMP98twvySJKRDSkTDWrvRo8NDvpjVwPbwiNZxHUnXkrqgaivklBGELHpTSOacMoezrw/HVP4Rvi6QHBjdLZrgBvfWCBV5rHMWXHqakWC6jhV20c",
+            "width": 80,
+            "height": 35
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
@@ -210,42 +246,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/9pNX_mE_J4ld8eCYeX5qdw/4jqtsh8dvBxuYYR_6PEoDRZS_GyLyy_m3NAqgwIAcq_RRHIJ61XOfPoLO-BqprDKCagwqVrOQ94g0919fTgt2NWFyTO7CnUIzuHk-gyfivOMnnuxziAD--lGMNnEAxO1kMPU6vhdFo8fCtB5256nGw/cVdV02jsMGjbUytmNvG4HK70pGSTMNGMSUs53KNBbRA",
             "width": 200,
             "height": 200
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "SBH:USA",
-    "baseTicker": "SBH",
-    "rank": 86.6083,
-    "price": 7.79,
-    "prevClose": 7.98,
-    "absReturn": -0.1900000000000004,
-    "logo": [
-      {
-        "id": "attqVPKupg5wJf6EE",
-        "width": 80,
-        "height": 13,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/zrxYkfygnH1BK0sICiFTzQ/d2_Ooq0Mo7FkjgBipuOgVD_K3ms_foorpaCs1LPQ1Rx3xC6M39BwpNlafn4kGa7o-pt-7joanrAqgJOJRdFk3O7LqwCBon5nP3jKovPB4JTGkhXwi1zB2WB_UqSVYvIjNSs_f-sJAh5faFI92R9vzqeqg54SySFOCmLVhvw8Du1jA5E4TSbzYvzFPWDI8QHX/ANcQ7nqXh9IJlMdrxdpyLE9jHNArQHx_YCGtdl_izAw",
-        "filename": "sally-beauty-holdings-inc-logo.jpg",
-        "size": 925,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/kstHq7HqwVGcBMlo-LvHvw/MEEah5QS3RynSrvRjxCpYgCmY--L8yb3sYnEXo4CQoApfZ0ZtOfgwHm4Np00IGD1sQY3CJl00yw3I92LjV1OJ6pb1M18Vzcld7Ut1mTVUSMd38lpUk2Oe-l6UX4n8o3TeZtyuWkduRiwmlo4XCudpg/OG058VgfHNBEn4ZDEesELz3v38iq3tWQE_k7mTyt-IM",
-            "width": 80,
-            "height": 13
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/GoRHYFaEBMmFlNYD-_4s-A/fYVS5qW_en0jx9vuIGAiz_OWKXX4gTKsJCiMt_XBJ6tbwnuJvXYkeUJVpKWrEmZjAozaDL1z-5F5rOChSoOtXepjvt33ZGC9OeobAHWR7DrGQJxTStpigmICiE7OKoZNcIwW8h3dhwV9fBsl0F-lcA/_7hqSjKcO8pMYqdvsO57jsGzrhPabjLnfMNhR-3oj_E",
-            "width": 80,
-            "height": 13
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745712000000/rMHGIe26uzAYBRfnqYm__Q/D_3wIBDECLr_zTBevtOho9HLKCz38gfd1T-HT93dJeiJeZwafZf4vVZslQSFGmHjZZAtcf5mp8fKnMQdT74LGFT-It7B2vdsIRHMc-tnjnEEVyapiciKErysBnO5vssBFLYrkx1zgig5wD5iKQEuWg/9PWOFyvW1tfdscjNd4bpq7SIWhTyB8tdyTY-enU3rA0",
-            "width": 80,
-            "height": 13
           }
         }
       }
