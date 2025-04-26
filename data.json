@@ -216,36 +216,36 @@
     ]
   },
   {
-    "fullTicker": "FSTA:GBR",
-    "baseTicker": "FSTA",
-    "rank": 65.572,
-    "price": 50.94,
-    "prevClose": 51.07,
-    "absReturn": -0.13000000000000256,
+    "fullTicker": "SBH:USA",
+    "baseTicker": "SBH",
+    "rank": 86.6083,
+    "price": 7.79,
+    "prevClose": 7.98,
+    "absReturn": -0.1900000000000004,
     "logo": [
       {
-        "id": "attw38jFXTtzhxJRD",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745697600000/6dU-ws7QgcxXLmHExcvqfg/2UVNf_5m98eXwYDf2DTjsKec_C_vwSnLKA8SVjAXAu3mlBEY7-up6kBJTHK-_JTMsfihOOTX7AxWONxPsnl0IE1PJwGv_kImEbaTmTzRSRP4ZG0BKEMHnpA0BhplP-t-LWDMllaUFtv3xonAAaLDLco1nVvuWOLiiqUYT7UA_UI/o-nvx3lHul0S0BIOaG21EriVRiwn6CoS9ldExmmTT4A",
-        "filename": "www.fullers.co.uk",
-        "size": 4478,
+        "id": "attqVPKupg5wJf6EE",
+        "width": 80,
+        "height": 13,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745697600000/HoTVc0PkKZAyzGn7BZ5WRQ/BV7A47zm00GTW60MyFr_K2kz9Df8H8kbw3JqvhimhEp7yPa8sk1bSsIFLmhTxM28Lozx7RaVdHQ94Iuo9MRsVtuv8JFrNxd7-3BWYUOuUplj9qqQS5vWaajmYYXT2bvLdvHteqiIVjjrQvm2uYgUN3Xg90ddI1PpKH0qQR7WZUYIZ0tFcAAKOpI_wxBWtCWr/YObfNCZTVHWy21FwRxuzqEbPEwesQ0vmJoltBD3hqm0",
+        "filename": "sally-beauty-holdings-inc-logo.jpg",
+        "size": 925,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745697600000/Ykoj2sLNh5lm9tcfvBqo4w/fya0QH_AdoU6LcueV5OjbpxwrHW74DksvvF3wR1n4QJvgOjYEnvdoRWoLuu5SGDDA7sfInSQsn_t2tsss-SiXrUNeZGi9arMYvzfjugsz7QPXhTZZ-K93kNM3UnS6gBSxU8tBfqhVQpdXbm27lucCA/ea47ruhcmos6PNkWPdb0ZOh4l3CDfIxyWqQ0xwqCKCY",
-            "width": 36,
-            "height": 36
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745697600000/WOnF5KBY5-P6YWezpos4hg/iir3de4vC5ulGAuEljvqbpDIZHjZvaAOjEEAYjiklhC8XBYo-Gd08hUPVdZtKUAh_HhXw6W5aWAGg6NPjXBAWEOWvytHDZ5W8xkEo6vBwn2svdFqJhj3Oqk0grgK5jjb1EwItrX949VYb8vRrdGuYA/vcCM-I85YuN_aEGXVvsnsla-DJjaAoqxxpLmYMRRrok",
+            "width": 80,
+            "height": 13
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745697600000/7wtDZldFvqtwElu4I-c4DA/Slk4DX5nBPOIlHNvcf7F_SNwnjkg6TQRTHW-YlaQWty8OUahTHNMfiqWgUIGxgjhpXoOW0HmKHhlHCs6YsQCG5XHfv5RvKhSi6bC9pv3LojcPvAAy_xLJqXlfqeSH43SEgeCHWsdI0GoafqFQsfBQw/h52peugvZAJ4cD-30RZfIhXamER_SE8NP2HqMeAABes",
-            "width": 200,
-            "height": 200
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745697600000/jA_2os_mam-W-2F0BQT13A/rk_O1bhczwWqmsA0SUJoArwi7yrmHUPyKTds_rkodr9ZRqDXlczzoA1d4bCfpqYjrXuB1gjgOuBmmx4viS8jP9P9tBkFqcKWibHEpEtyfRCfma_FL9I52wjbj7j73ojOuWJf5XmaDjj3_A8qQ6r5fA/d-xRfq1VfRnIghJe2l2xsTvIkfWhrWR-LVgD7m9b-b4",
+            "width": 80,
+            "height": 13
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745697600000/Wxl4XiwEsED13knEmlLJIw/b6q_ajQNbASftHH2X6gjoYbIA3bODi-H9XnziRF7UvY7VoRC2_c7mRqvdqxFstSLarmiYdQu5eYo9wqBoYsdl6e4-49p_l0zBKUHVfwR9svjt7kUDoapSe7mNT8nxnvtnF7RQ98RCfnjQhRwX-PWpw/DkbLmoXm5-Ue2cpPe92honxqkFsHgX2yFs4VgzWbH_w",
-            "width": 200,
-            "height": 200
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745697600000/RIJF5dZTTlPa8CWWhPIwKQ/1QihdsU6HQ0tjvF7W5R1-fWYNk-LepjK5MW2iYjfo6OEhELer7Nskdrm1QS4hMilshJM07boqr-Ig4U03HRVat3KG0qTgu_KTJR0iwklNdTGM-TLke9AtJASgkmVxaMbIV9yOBjiBmzCnP0ren0MAg/0O0H94n9ErxQFs-I_17n09wNuYqBELyUxyvC3xtCryA",
+            "width": 80,
+            "height": 13
           }
         }
       }
