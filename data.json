@@ -108,36 +108,36 @@
     ]
   },
   {
-    "fullTicker": "ASTH:USA",
-    "baseTicker": "ASTH",
-    "rank": 10.8557,
-    "price": 30.6,
-    "prevClose": 31.4,
-    "absReturn": -0.7999999999999972,
+    "fullTicker": "MP:USA",
+    "baseTicker": "MP",
+    "rank": 2.536,
+    "price": 24.41,
+    "prevClose": 26.01,
+    "absReturn": -1.6000000000000014,
     "logo": [
       {
-        "id": "attNZ6bVwMsQ3SUIx",
+        "id": "attuvqXc6S0Ea8ukB",
         "width": 80,
-        "height": 42,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745683200000/HxAwO6_ta_Z9Uf17I3pQMg/HoOapaVoHbAEDmkwgjGIIZw_E_pamWqbAafCrlh6GXQH7-2EbgVHCtaiDNxsHLUBG48qSB-FXBzl1GuL8H2F3DWIkhyk6CAfJ2QrmdkWdeDEYT-HhgD3W5bYJiUeYv6U3L0212jtGS46mqgPiFOEb2YPG31YUKl7dt8jEiusUUtnO9gg5NONOZ4Q7ktv1ElD/4L5ekbdc5RYNb1QEGFRs79ZeQd5z3vbTkLTBvbeuCUE",
-        "filename": "astrana-health-logo.jpg",
-        "size": 908,
-        "type": "image/jpeg",
+        "height": 23,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745683200000/U6i07JaMyHh5ykCVF6ftzg/dS0iSBlYf2TKH9G1WpmJJKBwQCoxU-h6o0-MMSfpQf17p39fokFdVAA0EHREQ6Hd-Vh85BssEyR2cIs0PvrS5OgbXtcu3jwUg_PIyrsikE3IZEdOh7DOcByptmKHWOtS93TAAJScEH1r8KNHMsgIS4xxJ9vgTVtm6rH3KKr1FJPOf8MWdKMfHPPb5WrjKJmt/XNezet4_MFMrLs__AwkPCBHJ0BfMmnTRqUItmg-CfiA",
+        "filename": "mp-materials-corp-logo.png",
+        "size": 1962,
+        "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745683200000/c8e2d03pjVf3HWaIjqQf6w/CsyQIAfeIJAdNyEDMrujHsXCYtptX0Is00miP08b2mTcYV_lNUUbUvAd_-xCboH1SxCMZXe6O2H4hAB9D8oqpa5Kwoio2UqJRFoe-SCUtH9NfuaZP6UAalVcU9yDnsTqKi_Lzuim6aW7tQywvJZGUw/86y4LEsFeye2SYNQrHAgrxWt78_BwoN40sA_wRZNhE4",
-            "width": 69,
-            "height": 36
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745683200000/caGFEAzF7C8tOPzUrwdmYQ/UdYw-quw-OAXLoaZdzR2wvbwUEndWRgjWNSwb7lR6Mrjd_uY7S2lajuggOjGAdXCzQ6sbdfb7Qma_GqcWGuJhbLJp3aQNKgvbPJkRnDues_TGbrExxXaJ5sZxwQqqQleMo4K-ctYThfmlh6SQEWVRg/ruDXDbrWcSlW6vXCH30PhWd65N8oOHUwWiwcF6Ry-JI",
+            "width": 80,
+            "height": 23
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745683200000/U2YPNADlYeBihFN5pqaFCQ/qq6aTAtGjnO7B6XkhZ_T_WQxm0MV4Q5l2mv9nXbfvwpxPQPsraL8DBIDtnWGe-v84C8A08l5QW6i8lxilG6mOgNSHRjv0XHih9BDLppLeALWT8PhFnws6LJLRWZWGgT1XxTVUdKkFantFOKJ_YPZHw/WvcsqyCD3h-3i33I6zifSCuzR5qAuEjHXPITcoZCehg",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745683200000/9_a30DAW29iNVxcijDr-UA/wAgOyfPhbbIZ9kL4kaBJsBiV70CQXzrMyJEzUXBb75IRZjxTLgEEEvxMP8had2hMKJ78FIQeSjDzVnp5qM59iTen106TvrWcF4cI2Pkv3KFF9JGtp_UqQFyDm0RSLjQcupzzFbZ_aOntPTnxJ5s6qQ/hJyiuF01bDdYGJ2wTUN5qcSYksxjnizYVewXiafiKbg",
             "width": 80,
-            "height": 42
+            "height": 23
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745683200000/SDu6-wBykFpHWu7aC7PiXA/OqaC7NNzwcbR-wBWkxURseT-_eGhGvsRTmGSJFEEAAijGGKM722Rx2har775iTqFiBxCb1fRN1LXCgw9k6Sdv6x-uU4jYzdoy1c0eS9gCtNdUuBrxOtnP0INxK8feS1tG6qHoVpaZYxFt-X9zR_Yrw/qjQspo9CE5B4YGQkF8ZItDD91mdEJ7utcrNLWv8SrGY",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745683200000/tiJ_OR0VaZOXIGWc2iq11w/bADysNoT0kArupH7-Tr-29jtDNEA-E0KdLvVPcDblinteg2jEoOA76-SnOB4rLnvEdsXILQ3URbyK6LnyubX8VhXuOTyd9cjSnL-TIM3l9aJSy9Ne8Hq2ELiusuwloyrLjmSKibgR_KPReWkqzoxkw/rdKbRKlLHDT03GxcbRnyTOAFw7WxsfkAd1fA14XEwDY",
             "width": 80,
-            "height": 42
+            "height": 23
           }
         }
       }
