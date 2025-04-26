@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ROIV:USA",
-    "baseTicker": "ROIV",
-    "rank": 1.2224,
-    "price": 11.01,
-    "prevClose": 11,
-    "absReturn": 0.009999999999999787,
-    "logo": [
-      {
-        "id": "att3IpPCDbErkHC4N",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/yWyD436x216CZJ2UymjJ-w/jiyDTwLJdI8-1lB8jCpiCNMFRWm_iKDo6ahQrYCLa9abgh-EZ7aYmHlWhT8G69Jv9fSEzYeBQKjFj5uVChRp6qiDIfjKX7LK8BQxd-nSWpKoSlEn7cLK5Cd-c765T_QkZSDkzQ0l_7AhbLgYMKkPmg9WvXlkGpaIfd0hgSnQJMV9CV6f1tvqrgs766peIYGp/oGJx0digYaaWwz3PU2X5RRhOt9XWUbXe_YZZ-uDQekc",
-        "filename": "roivant-sciences-ltd-logo.jpg",
-        "size": 1069,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/lg2d8VTEbgAFKJR-Pkrq9w/-SFKdrctiOeUoJiVJFGW_MH1tawdctBsaGZIGYH-iZw8PQO20-KPy0QfHuON1wCjyZ7C6jbLFRIg_NR8nX0LGnNukXvyUVWndDlCIW34sGOaypKvwseqFupa3XOD3JbVWe5g0IaWqoeSqK7emzj6mw/tSoMBS67t01vhY1xHvevHAiPkhMSJHdDvV8z7YNBa6U",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/_nidQs_kZ6H4GUi9iKQfhQ/wfLVHrS3x28-TD8KwwLzEJDYkze5sR7Z9H2dAJ1_UwBNVdXjSASt1pG6bYTy7oZui60ACrsUnv2CVTvQNRxp_pW27rP-JDZKgojnF9Xnh4krR7Bl91bsAWxt0yf4F9KS9yz4BLmBlCJ0EK4BBsc3GQ/NuLV_rWZF85URIGuj9hCiB0ou5mwWpEkoN0Xz5U0fYE",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/ArSLeQ5ECmRoQLZr1s-lLQ/Trzup-Yns5Q7cG4pgl1aNDebo2El3JVMYdWL3FJ_kYDgwJ0JV8JKLqYO3ixNEEaZwlc6i2db45r56ZQ6FKidQmmiPLrY1Gg5qTG0cUd4g9cTb6w0qq4BlOfVo1riBnuOmEgGUaL9xUcncmmzoQE0zQ/Bk8sJPoYSSDNvnXWtBkOXEUx6i5Ds-82rHxF2A6K1-w",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
@@ -174,6 +138,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/tAREaXnLGCg9FHxiuEM6fQ/V4jMf69WcPJvFW0cxgko_c9XBoKuPFLO4yopgPTGJWHTS5IV5GYA91m1naxHBZkhwDtiRMR41Vv9g3QTOOidTQ3_O3xH4CW-1qNj48ZrnY3T_x_dtMUp27-mf-iTua8FQXcGb8A_ipsh-PEAg_w9PQ/3SptsQwXpr_B2dbqYtaIhf5XGujRZyS2raD_X3fYA8g",
             "width": 80,
             "height": 42
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "CRL:USA",
+    "baseTicker": "CRL",
+    "rank": 44.2438,
+    "price": 114.66,
+    "prevClose": 115.76,
+    "absReturn": -1.1000000000000085,
+    "logo": [
+      {
+        "id": "att0BPhEduY4t4DqU",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/h6RHTB8deJw1JsCv1urzsA/PaIMyjbHDb6wug2LgBcUGweh3EaPUw348ePide0Jlv93gq7I3Ot4xy6tkGeEyCzoP7autdluhzorWv-gkixYBhNTMq8-sG32KZy9Zf5eVOhVgokEbJS5ahw-4zg4sqUQ1Umdh5o-epVrQQ1sBnT9_bNM5Kq1ujdGET8XJpuPFdJHnhtUGfiXuwophJDoq3wqy7R4LIBpQV0Qtk7t5XxEaQ/dlz_OIHwUNeshlFI3flgXpCMywb3Aht2Zns_lWRhXWc",
+        "filename": "charles-river-laboratories-international-inc-logo.png",
+        "size": 1765,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/jcOGerYErWvxUVQxXz4Siw/J3dWyPGBabKn7HhOt85XttP3I1ofLdI_1yBjWGxtLXTAgI6wwPUbDZ1j2X_uE26LSHR38hgcp3wvfRRRHmFTBEvEwlF7gfjsQ9VrElJp2OuKd0COBxPhLvBHD5BAzaNuAE-WttwHIEWmg6MKx97fHQ/D5ICnC40IQeG7FqbwF0coQcmPNzXl8vsXk8s6-mD0y8",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/DXpHAePbwOvXsYwHo7zqtA/3qCvhbwuXgBDrbPCviUAU6QQOOCkrmTzlwR31Mq7WDXH2L5dZo_tFSrMbCyw10llS3R8oE3RZdGMNoUgN1hGz1QbbBQUMGQHsM4ipBnKpsVHe1_h7jXyju1CVVz0rsx-1GN7erOesquB90iGET1HuQ/kjpIIjK5IxKrenSUB_qAbKgSaGA7BAHJh298JqcUHN8",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745676000000/JS2k9QYs-RinldqPnQ54qQ/Sl2wKN7bBjwysaVrgA8-txCS1-Su9hlP7_ljHTQQC_Xs6GmYro1ZjiNeS3eNhQFm-U5VDgHNL9nmbwGI5ZNnZ_yDGekBJ8odLkD37z4I7MghTIg32ksdZ_T_Sim5JQvDV59sZ4I9gj9ZELTag0D4Lw/CvJd0NAR-3NNGGGCkDJ75Yd3tprpy3GFnGDOFr4J1Fk",
+            "width": 80,
+            "height": 41
           }
         }
       }
