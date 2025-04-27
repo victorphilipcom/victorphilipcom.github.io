@@ -216,6 +216,42 @@
     ]
   },
   {
+    "fullTicker": "FSTA:GBR",
+    "baseTicker": "FSTA",
+    "rank": 65.572,
+    "price": 50.94,
+    "prevClose": 51.07,
+    "absReturn": -0.13000000000000256,
+    "logo": [
+      {
+        "id": "attw38jFXTtzhxJRD",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/SFL3_QtRheNvc5ABfWUbrw/ywH_aCo7Dlmguanf6wfhotXAc3a7r8wPodUyf2buPxI7yT5ofCd6f8XBzG_gDqXKHkq3KzxY5rIW5cClnEGbqvW3P_FJTeZpr9z6G3zuOrHsTgPeiINqRUktuZOiLeXmQmcVPumcHjZtOFudmLJVkcbV3-uQiz9SKGze3ehZaRM/VPa39Hit1K7J3D8G-YUekJpkilRI-5sbUrYMqZnarF8",
+        "filename": "www.fullers.co.uk",
+        "size": 4478,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/sdAwAC7IDTU4nlPdRN4Exw/rpq8lhwYAAVWVNFKDpaWvG_OQRjPQYgGpNfmveRNgQjVrJ7KpDuE10ON8Ji8-Kgyu_sJKpaJ53_i9sWWXyheqH3seTubCSzaC8sXeq37mxjrOMxbBkP8G0TYbOSxikYngYdedv91MBPNLdpQzSis-g/x-OLf_o-9YFBuRDlDoSi1dSFLWGi7WTgtdgd3Pyrj2g",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/29XrSS30yotJXr60riPRrg/0Jaww5meTli0lXaNzQsRNzKXssUoN5RVJkXTmlo6BEvi-hmX0_5zNOUXerpznSEEbhhyqAKlWqZTS2-ewneaV8HXnInufPsIUp9j2yoyXXOALD-UX5ioomywjhT0RxEGeBRKRbHwTv_GRgl3ORfPEw/SwS7gJfOrK2CcvY8JBg_c1-whLJgJBJsBShLFNblKAA",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/E6sK9xHaC09wgUMx29qZmA/w_gN_UuGHi7BC25939JZN6PLPB5AtlzC_N8gj3LQQL52Qm91LUfl9cKtQ61QhFECpZx0QZbqpN5xq_gR_V0UqjoOS817BNFenj9vmD-79umXLRe9uUkMMdODBFUeUq0f8lSjNDUNsbWoOKKP0wBJdQ/pDj_iUmIC3X_Sp2f6s49ai5U1IE3dqKFPLHZDrno3gA",
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "SBH:USA",
     "baseTicker": "SBH",
     "rank": 86.6083,
@@ -246,42 +282,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/EheRNUc9cbVL1B3tinTz5A/m2l7Qee8GcLXKvLROdVtn67pSlzmfwnk_i_rkeBof0fimEmp8cLuACTgtJwo-QUaoK3Y2cCr-_123g4veusXvSPy2KAreejwNyaVHdwMHrIn-ScJEx9phWewTdPwJQ4VCMpWX14BUAhhFwhVVam2DQ/nANRyXkUVCL9smB5psgcKMH9LTzKY_vZPoyvd6GT0dY",
             "width": 80,
             "height": 13
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "FET:USA",
-    "baseTicker": "FET",
-    "rank": 93.888,
-    "price": 14.92,
-    "prevClose": 15.16,
-    "absReturn": -0.2400000000000002,
-    "logo": [
-      {
-        "id": "att1Afc0dnnqt0yve",
-        "width": 80,
-        "height": 38,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/fRyiAfukgIzrbBSQWFpNcA/rkOnvwWS09RPivL4GYvOhQqBDnTBfXTge0eKlugVq1if6Ty1FY2Nw5SHS7tCFIvCpe8s9bm1CooY04jsv43OYgKtI-Ah9kX2l7QI62_RWi47kDxVZKi2UTE9161UIlM3mHVUcbJOa4LSM-46up_qY0o4UGkSdjjnzEgCIsBashigXjjORh8mEgPJlWGUbEdL/UxFy17UPXaZcCp_OmePM2sWfeG88C7qMjpuLhby__N0",
-        "filename": "forum-energy-technologies-inc-logo.png",
-        "size": 1533,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/IRa2y6E36hp9ypr83n34bg/rngOS-35qPFkMQdHgsf6-0s8kBy2WfXzWJdIbqshuig6ujATLvJW4ewO0SAPLIX7eMwLvt7Xyky7rE8t7B8gdABT0NAe34ZpwYo7-ToAkHo_Itl5hxv8td_ixFe2sK33_ghF2h6EuOuaZnWVANGWDw/xwyvvVIB7eg3-LPC8nF6bAD0wRqGWIe_lOYPTX-58XQ",
-            "width": 76,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/MYudROFmmiPoBgPFOkASaA/Ry4yQd_aGEk0qEN3BpQAVyBbHerUsPcJgevsm_3sZl3-06bmrS_7DLQTpbZ3rfz1tcMhC1_7HAjWnA2FbjP7o5eWfHPTkLikewBzJ4EM4ezAV7_tl-GzcVw5ls1OUvgfFpIoRKI7pUMPGJi4hHPQNg/a1X-HoVmf6sAGEf4EgyAs0I88ZY86w5t-f54L1HaTNo",
-            "width": 80,
-            "height": 38
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745798400000/693LtAcvleJZzQoFEAQZQg/atL4_b4fu7cXIKvnBlaTanSt4Hy-knEX9-qDMfP3i5abd52heK466081lc8apSaTQs7NX08097mm-3Zkn_VsydZ_Zwc4C13YqvgkU6bOLazdBCRp-_mBi5u2JrhEu9a4TqKbzw0TuswUZnVAFq9WCQ/lOPR4XqWmKV0MZLWXjXaYtWA6Qh_SM9GX_VkkxbIN0M",
-            "width": 80,
-            "height": 38
           }
         }
       }
