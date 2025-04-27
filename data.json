@@ -1,41 +1,5 @@
 [
   {
-    "fullTicker": "IONQ:USA",
-    "baseTicker": "IONQ",
-    "rank": 0.1095,
-    "price": 28.9,
-    "prevClose": 28.39,
-    "absReturn": 0.509999999999998,
-    "logo": [
-      {
-        "id": "att8FHj77cNQD3pb7",
-        "width": 80,
-        "height": 28,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/v3GocDU_8JqW7Kri0Xqfpg/YexHk96eqLVatT7A8FowyoOVLYvE2cBfrMof1JviYnEfd6TB-pteBM4SluQKywhQ-_ng_pAJ3QAPitAM3lUPNPAYWcudmCUHW7NuCm2BB2tFkMfK7zDL28gMVMYU35I2pjayZhdlvXIAPJw6XeZtdnFhtGq0x9iGWZbkFaJlRnY/6c79IrW3_uuIesNlA2upd5_vjPCoVvoEFWnFvGIKgoU",
-        "filename": "ionq-inc-logo.png",
-        "size": 2631,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/zShRT_qxBgV5eYW9mQPOiQ/Tb03MoXCyuAUnWQrSZ_e14Hu0YkfA3PteWmYrgkWikRB8kDd9IsT02JMpNkBpyJUmWZxYn1bvwdhogDbV5spPDkLfnjfVVDGsK1P6Fo7z0k7TuOprdq0-ssHrjpx4q8i-LzfovZYykNcVYt3WkzaPA/-QynqUd79AVf7QWiIqpEaAB6DPR-qkBkz0veYt-MI2s",
-            "width": 80,
-            "height": 28
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/T5Hlbhu3B2H3geW33BfC2w/jZ9I6lOwjgWYoBDOKTnYBAH8D1aCpQAqZJAoh6boGqZgwfMKeng_yc5Al4x9fd0ia4o7QuOYazwQ5c9r4vxOWIeibeb0DtEwFVbV3LhDVSJd24uvO1Hlv5AyG_ikbxHbQUUIt_sPZXSElyqxzzOuFw/9Vcul1wPAev4CiUrBZ0xjDxDaJ3CWyDr5Swl0vt-cL4",
-            "width": 80,
-            "height": 28
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/lUZIIzGrlK-EzL20T_E-mg/dHuuURzgI3tVLd3UpYsIPJsMu6AOyy6n_u9U-EExWfvTB1-rOw1vPNzLm8XS4jwxwCAQXXyjI97SJwkO4FzkNIO51NUo8mXtTYX0NopLEMw_dDDf1DZlULe6cgjCISw2T8YYNgQLyatRBXJP-cRUyQ/k0KtUYsC9YSGA1GbvN4KhBb6NY_NjdT-OUBDWeDsuEQ",
-            "width": 80,
-            "height": 28
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
@@ -138,6 +102,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/8kpk63Vt4gfXpC9aciLBFA/knTLodLsh_v3ipYbAV40Oe8O-LOM8rURnpYYt85P467biFwOgVavoSFseJarl77EqALkAZqz_ldgAAZ4N4sRN47CIg_l1pImmyoB3LbzQYojb0F2NtjEYndQbgzX1kvSu4-B0ChFiueXmSh6VET5lg/Ao-d5oNnUwCxSelyJ-rblzGcAvzBs1dZxK0fNXgWk5g",
             "width": 80,
             "height": 23
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "ASTH:USA",
+    "baseTicker": "ASTH",
+    "rank": 10.8557,
+    "price": 30.6,
+    "prevClose": 31.4,
+    "absReturn": -0.7999999999999972,
+    "logo": [
+      {
+        "id": "attNZ6bVwMsQ3SUIx",
+        "width": 80,
+        "height": 42,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/583WGRZUuAcZT_h3Kp_oGw/ye-bMYWt6axayxwcrA-QgRT-TxRjqK_w1F8-s8zlHrrutiCS9Q7uCW_5fndYndJEVvhpNowUM5MM027m3KMv_mjHYlC5MHptdaTM5Tkuzdo3fxmJw3vW_gVSwDN_YZFPKf4RxjDAg6eTSC0s4bA-WuZhAO2hVGFh7X5LxMPiGHUENPSv2s8R9nXsfbu5NvrN/79SlnMCR4EBFdtDujaPnbDzDDvYLX5DZxuixabMhzbw",
+        "filename": "astrana-health-logo.jpg",
+        "size": 908,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/k8PwMVLCBy1neNmRPSNfZQ/BvOz-lIGkzK4mDCRmvCNG_dZjpeCpd8-c8SZh1fG_hpNcUmnOcfL08iUsJg9xIkGCMhqp9ItA5VZtYIMtL6q3SCSnURKkjUmrvDdM05DoVdrL7hGR1IyFzC8Y10QA9OvABHJGyXoIYRP0IIT0XjsbQ/_aWMu6nNWSMvnIenGpTOLyh5qtx6ZDd0mb2Bcd4ERVw",
+            "width": 69,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/GQ_cup5h5MoJYGK8w89Lxg/-Ej809kmwvcbIZh5-sGtAV6Dx5pBTgsTSbILpqRy_s39mzR7BqPvXX65qxvEjSTyf4ZpWYvw3NIPXncOVrwOaXOX2CqQU8EapuwfLogWBXF6V85PftjHebsz4utZuEw3zky-1WitoBn86P3RYcRLVQ/At25OxKMMnmSA0iaDqLddJ031jP2EgVZIs4Qhew2Mhk",
+            "width": 80,
+            "height": 42
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/ikye4QPB4rzHu90_AGXBmQ/t0VRiC0w0QYIHJxjqoi10yvVP47BRUCJjawvO7LoZYtmllmv1tECW3PyjZNl7fBNUBFqlvilyd0LikFlIlXUdY2KZfbYS17aKEruqK2dWaBd2a_v7_zW31pIpjcgyzj3cpv9gmrjYlYe8a8OTZ1EgA/m7vc2ON6vVI05DAbenqEeNB_q8dzngGWfoPy6yEWstI",
+            "width": 80,
+            "height": 42
           }
         }
       }
