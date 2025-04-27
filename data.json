@@ -144,36 +144,36 @@
     ]
   },
   {
-    "fullTicker": "CRL:USA",
-    "baseTicker": "CRL",
-    "rank": 44.2438,
-    "price": 114.66,
-    "prevClose": 115.76,
-    "absReturn": -1.1000000000000085,
+    "fullTicker": "ASTH:USA",
+    "baseTicker": "ASTH",
+    "rank": 10.8557,
+    "price": 30.6,
+    "prevClose": 31.4,
+    "absReturn": -0.7999999999999972,
     "logo": [
       {
-        "id": "att0BPhEduY4t4DqU",
+        "id": "attNZ6bVwMsQ3SUIx",
         "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745776800000/gSVhpva5G6O2Cesp7s8brA/sMgXOLEOahtQU4MEBFFDVa7Ev4mck_cCTjRFtvevhZJOfZcui21clOskIbU34LTEVIXU5NgmHYoreKW264zcx4mXByvlrojVWkKubkkQtE-vSklmsPDljFNiuHfFxcG7NcnUxLQKYpvAqkyWOEu6GKkkITqpoaqGwOyGHxO4r_NfstSQ8BwDx5mwfwI7CwSglmlg8ENYKjMeQkxzAKgzfQ/S--jpxFm8aJinYV0FZPHw9zqy1yjHD5JdjBuT0jV1Dg",
-        "filename": "charles-river-laboratories-international-inc-logo.png",
-        "size": 1765,
-        "type": "image/png",
+        "height": 42,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745776800000/WkADdsYwYujdSXBs-ullzg/GKQQ_Hhr9oY1VVyY_sy1EK9A76cuQduJzGw4HDC_4cVj9Yh_1tPmDd56AmIUi1mv0FTlF7dBQDwyKAeBoDBiTnS66pB02tFXaiMmnmL6PQtElARfpxc4TrQkOrqfnrf9A-YlImbPWSKjbnZ3rn0E_UNKsWI98vkeWEENXEP724d322K91NNdPFDqJ0p29e3l/2sBbOFosc2ZsJNWQONhfdPqDxaLbWQoXb6VbUn9c0DM",
+        "filename": "astrana-health-logo.jpg",
+        "size": 908,
+        "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745776800000/ompw8KOwzU-kIrED2rMEcA/uGlPK4GlsHmX7alcxjzqqBCmDKRTUl5LF9QcXZ03qpXNnDnas_5uc2mZh3Ei5QAQ8EAnfzJgUNMvEVFgn2RpTXmbxSO2qGNJYKd1v4UZbIcxZzHrZtADPWACSUIawTVisIJ1igPBo04Mwf0wknEwGQ/ROiddHb2ReejMShT7L8NYz1T90LvtfLrFAQbYk5KTjE",
-            "width": 70,
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745776800000/Rwy0wUfa4cmyl12s5Hms3g/sLYnoobfGCbk-1p4ePMI4YEvqA7qboEPlLv9bCMFsDMiDTmYOpDW4oXFofqLNXSwYyxxcbRctjpxAjy8Y5oyqhKT6HF7VXsRANsQcZrtJDJ219-FS-Ph4GaRRtEYWf8roYp4B3X7_qGf_9le2lr2Tg/rXJZhvI5enEXHklZWTbhNNUkhdboA0p-8YEzmD2R-9A",
+            "width": 69,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745776800000/vg2IIMbdSm4a6Gnjh4Yrng/agXujOzMsNdK2jBVRSY9y7pu2lpTw7l_UG0yzwrfe6gfDtz7QjV_PABRUYHshhRl86GSGjVKe6-eEdwzMNBknlKHffDM_JnJD1fGhJM-jmMSbW0Hca6URuiSHlhT445NU_4pxtfQU86vyNtLm6hzGA/oIdad9407-LOvQOrFGx02FzSB4zGcTIzxuGdMq-GukU",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745776800000/Uoa_Bf8WCAm1Qh-8hRDUvA/RYnqpyxhd4rEm7r7C1KZ-tz-mrXNaUgYgTtIGxgRXt9EyxDPXf2waOPcUp4y6tpz7Lv6oniOlVZKqvcnWPUvZ-pzpAZzj2u07olxc_b_rQCpNcyVb0LkqgN14Ejyb3WfZax9k_Lt9FoAkcILBUgMRA/SC1E3gi1qdwtC4JVKpmH8EMOnisl_wUnrVtgHPZFkZ0",
             "width": 80,
-            "height": 41
+            "height": 42
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745776800000/QeiOS7tQMcinfYQl2xfOkA/reeOIn-_3sYWapzWxTnRv-VJwvJ5G4HKT_ZGbjC1L2x7cNdomZxuTyA4HdOlOxjwfceQeSILMUPcaoXj12kU2CF7sjs5QR_dIesPRRQuXqH5ojBGoX0OcSvyIydu6TXhmdj1PV45CWg3MSrPQHu-ag/yydMwQMGQYsK96GHPeMX1d2l3zwhAUrmybbx8TjYdk0",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745776800000/HdHGhAJNUdHnS8KhmFBD4Q/04wt588DSa0f0bcdaVNQrWKGUhKLl8dBYhGBGg0qybxCRNulwuho3D-AwKWfQsXmHSaW43n1L7m9vM7ORpa-nebRcZ9HhYbnkvQGIGoyaoqCzW6Ug8kFELQ9k7D0DVY_FGumyIxDko08etjoYLq3EA/8fsUHv2cF8bvvxhp7-9MfI5OK6HumaKphfnFAvFaDvM",
             "width": 80,
-            "height": 41
+            "height": 42
           }
         }
       }
