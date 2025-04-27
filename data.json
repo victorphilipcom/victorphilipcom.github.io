@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ROIV:USA",
-    "baseTicker": "ROIV",
-    "rank": 1.2224,
-    "price": 11.01,
-    "prevClose": 11,
-    "absReturn": 0.009999999999999787,
-    "logo": [
-      {
-        "id": "att3IpPCDbErkHC4N",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/-5xtpcQ_HFOuAiulEWHNvA/MTrWLJ-60EIXspssIHeG82AphsXkm7dwHUpGVY5KIkuqDKYkWnJEGLWZ4jmfe8sOY8zhxigHnBQYuAmMsaI5YBA-t4Bv7LE9xx2yJS7XnnFByDRzjegKYWJpangQSlNfQl80uQY7cumBles2l0OmM9B9QFTufehJqnnSohRNws0WjT49y_B66eCLtxAxeO2V/uDm4vwFPF4Jw_-gv3cSlxyqiExoKFIRgYjQ3LgMzhjw",
-        "filename": "roivant-sciences-ltd-logo.jpg",
-        "size": 1069,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/JHfwnPGtF5he6SjSB6v4oA/T8e5uanNdJLyyySCCmVE4WqCF6Rp6t2znUdMmK5_dc5FfeAVA6hlJ1aS4nfufFGVAc7jEj0L3eL9jCw4fDbY9I5SUcx_MGo5wjNckgPCX7EDUqoCRf6ErDAGlHxLo1ANPBxBhvxvLqEJLSCy5mzlpQ/V9lyE74-dfL3MMZ1s5JqDQgFts8PtjTtuXyYVNKDnos",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/VxcvqjAC9k1ViqLN3mSj4g/IWcs7i2dFdOL14CrTaTzea6xvcQpOJx5qGEhH_ruz4P-n0ZTA7ASTFJa6ZSBv-affyhBNHDPnz94emNN-EzdVNPsqhMrvAzygdtBWhIzIw4bQ4duRXwQlcfVDZR_7xnY2r5oZLd7zRMHjsM5sflB2Q/ZosUbXyh7oJ-1nayvZDt651-wTdzcwhX3Vhm50_bNAY",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/aDVBirv47F8lCe5xBOS5Tw/f74K2zUj5PdV6AOf8IdvhspmQ5Qn6AlAReZUKfFaOCLorrwp2S-l6NmjPtyjeTNRUK7DrVRVyFMphNwy7W8Y27Tx5l-BNS7qAnlFdHye0VdBTePKccawHFhh24eMKhlJxl6dU4yXBmcTIJuWuWMU5w/pQ0yQxFsAWH1UeTKc1NCuFo4tpj13eLP8a6w1-sgVEY",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
@@ -282,6 +246,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/mEg7szP1aIYNrIv5BDAKQA/mRKzsUxRX4J1p5Wwm62npWQqNHuveAMttRezZMS0vqbmxG1pO2hDT7zi4jnux1dJw3dOuGZjQe9srIqr7KUeeUh7NlryOm3XpTrGTEPmLOexBwkii4_JMjF1HFcNgNL2uhZ20ZDeCuC2taZ2hnJbPA/ejAhbLrANX0DXp9u7RlVUo5zXJgNJ5orXW_eK7SgdUA",
             "width": 80,
             "height": 13
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "FET:USA",
+    "baseTicker": "FET",
+    "rank": 93.888,
+    "price": 14.92,
+    "prevClose": 15.16,
+    "absReturn": -0.2400000000000002,
+    "logo": [
+      {
+        "id": "att1Afc0dnnqt0yve",
+        "width": 80,
+        "height": 38,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/kPNtXPHqZvnaW-n10tuHoQ/nwLRVlVlc_LDISWZYnF2ldIvOMZ04XLwdn1yTTr7u4f5Iu7_Zk3rTbtZ7_uGFw7b2MUJ-b0d8FVdv2dBCSh2Mukwmg2NeNVsMVqCWYESCRkOI4WxJdKtxzDz_uwmqIl3z_443G7D2Ysa7rRT03kLt6YeBimCFSg2YLXtFtlWcbVDdkYmbVA3i-KtC7iUM_1O/NKEucF8laHMjkEFL_JIYl2xyjMYMbP8QYbeFeG7Gh0o",
+        "filename": "forum-energy-technologies-inc-logo.png",
+        "size": 1533,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/CHkdOptg12tzSqu3AJfCDg/BHY5eKm1TXT-VOLPrOODe_CRMyQ9k-Q7FRa9I2cbXnCqC1R8Yv6WqZKHtYmqOfH42erb5_NcPqDzSoptAAZt3vyHlRvO_9SmbZvqJOsby2A5qzaJuNHHkAHfqpd5U1vxF9NwJKBrfLM7UBGNgDf_7A/XWnn0KIcNrx31vCu5cm2dRKYOLAW2QfLHp3luNZoZT0",
+            "width": 76,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/u_TiW8Jq61rlU9kUaaKlhg/GR_jjx_gTUGC0N5hWQWig0dueQQXpTGxoGmHj-wgV6Y6Uc1-jIXPFEocw73Xs43aXUgfeJksQBNGIOY9QbvLRoCeH1tuNVaUov4z9wvMwzbnkyJJGHkttgs2KksnkFtQ7cqOMNqFsutw3D_-JBBtLw/6LtAacPmkYRKQyBzuilHDnBmib9IDujFvGTz1XSZloc",
+            "width": 80,
+            "height": 38
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745805600000/Hc8JSw_x346Tj7-JzFHbWw/vsISDpnzG67W5nOuK4e6fHywhfCXNLKyLR1K7e3HSVtZ_NDIdA23vkgHu15tBkK3EjrCmzsYlQ9OD0miPRS7rcK6WyF50LErEdhC2RxzPgHFTrvw3T7r-9s6XZ1lzzGxBbolX6RKGd4tkaqUYNBnpg/NiSRDB7kALIjRLoWrdJwbRv4nY2_7emCq6qIJSFlkuY",
+            "width": 80,
+            "height": 38
           }
         }
       }
