@@ -144,42 +144,6 @@
     ]
   },
   {
-    "fullTicker": "ASTH:USA",
-    "baseTicker": "ASTH",
-    "rank": 10.8557,
-    "price": 30.6,
-    "prevClose": 31.4,
-    "absReturn": -0.7999999999999972,
-    "logo": [
-      {
-        "id": "attNZ6bVwMsQ3SUIx",
-        "width": 80,
-        "height": 42,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/583WGRZUuAcZT_h3Kp_oGw/ye-bMYWt6axayxwcrA-QgRT-TxRjqK_w1F8-s8zlHrrutiCS9Q7uCW_5fndYndJEVvhpNowUM5MM027m3KMv_mjHYlC5MHptdaTM5Tkuzdo3fxmJw3vW_gVSwDN_YZFPKf4RxjDAg6eTSC0s4bA-WuZhAO2hVGFh7X5LxMPiGHUENPSv2s8R9nXsfbu5NvrN/79SlnMCR4EBFdtDujaPnbDzDDvYLX5DZxuixabMhzbw",
-        "filename": "astrana-health-logo.jpg",
-        "size": 908,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/k8PwMVLCBy1neNmRPSNfZQ/BvOz-lIGkzK4mDCRmvCNG_dZjpeCpd8-c8SZh1fG_hpNcUmnOcfL08iUsJg9xIkGCMhqp9ItA5VZtYIMtL6q3SCSnURKkjUmrvDdM05DoVdrL7hGR1IyFzC8Y10QA9OvABHJGyXoIYRP0IIT0XjsbQ/_aWMu6nNWSMvnIenGpTOLyh5qtx6ZDd0mb2Bcd4ERVw",
-            "width": 69,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/GQ_cup5h5MoJYGK8w89Lxg/-Ej809kmwvcbIZh5-sGtAV6Dx5pBTgsTSbILpqRy_s39mzR7BqPvXX65qxvEjSTyf4ZpWYvw3NIPXncOVrwOaXOX2CqQU8EapuwfLogWBXF6V85PftjHebsz4utZuEw3zky-1WitoBn86P3RYcRLVQ/At25OxKMMnmSA0iaDqLddJ031jP2EgVZIs4Qhew2Mhk",
-            "width": 80,
-            "height": 42
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/ikye4QPB4rzHu90_AGXBmQ/t0VRiC0w0QYIHJxjqoi10yvVP47BRUCJjawvO7LoZYtmllmv1tECW3PyjZNl7fBNUBFqlvilyd0LikFlIlXUdY2KZfbYS17aKEruqK2dWaBd2a_v7_zW31pIpjcgyzj3cpv9gmrjYlYe8a8OTZ1EgA/m7vc2ON6vVI05DAbenqEeNB_q8dzngGWfoPy6yEWstI",
-            "width": 80,
-            "height": 42
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "CRL:USA",
     "baseTicker": "CRL",
     "rank": 44.2438,
@@ -318,6 +282,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/9-GCKhqSdEp97NunFT21jA/13O8Wyy2DJ-STl8onWXg_3OUSN4Z2gfU9RY_9fQAICdNKF31WRwl-PjQgycJswIn1w1p1CQgZd35ne7A-hlYa5-CuwNB9qYLZVgZVd3wXUNjycs2s4_EaxNn4iFtKWFElvro9KPz__XQAIwjbNUelA/gjzOZ0hFAe65-UfPuBai8qLgXdOoEgKRRENxyCHinqU",
             "width": 80,
             "height": 38
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "MGIC:USA",
+    "baseTicker": "MGIC",
+    "rank": 99.854,
+    "price": 13.88,
+    "prevClose": 13.67,
+    "absReturn": 0.21000000000000085,
+    "logo": [
+      {
+        "id": "atttujlIaJs7qz82O",
+        "width": 80,
+        "height": 80,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/nX0bg9hvXzRgVA3ehhvhdA/Jtip-wQFR5C1UnPW0UMTIyGrHjuKqrJpQwtn4-pVDwVt3FSrs9IXr2M0etyawe-Ui2LF2un3NWhVg6gEjcGIuMDndybOm3DnkrWOPly5oceFau_Qr_F11yWK_rXYEj-uZPpgzJlsQqmCa3mvK_QGdA1fSGePyqzYEKgKWdiVxM8I5Pn6nI_s0qvdCHszdAh-BCesK95JG2TDqs38s6VwtQ/7ub5C4cOAUg6QVLgnw2XJ7x_VgsnvrzbmSo5GSfUujs",
+        "filename": "magic-software-enterprises-ltd-logo.jpg",
+        "size": 1824,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/uG7ZkLptl5tTz7YxMHED9w/YQhX6zVuUQDehfqdGLixxg_GC8E_HXJYsaODu95Ks-hsGxVzZwDDcuv0wLtg2ayIcMnG1MR9gl2Lk0f7pEuCR9K-Tr8mz0xYJLDUHVYWDwKwh4ed7g49pK-Zsh95iUmwmuMl80LBlkh7D603iHykTg/N9b8xpPKHRmG2jPAQX4NhcoXQltpIrHGII_6QGWBgwE",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/LgY-MiK3oiakGQgNS56tag/qLclcYz1_QVEQPmeWtOSCLuc6MTDycFUTviqu4-kkE-ulJGdsHnrvryiNo6grjR0iAnAU7qeb40_tJNcKZj2cGmq_6CMOZ2w1BBJdyBrPbC4AjXR_R9J_hPzrfXBNtmMU9EC1wuzqsAomlYrwkbXBQ/chyKNsOSa1nqHVO9oT_W34JLRt3aY2cGiD-VBm905NI",
+            "width": 80,
+            "height": 80
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745762400000/T136h2ISDUyyLiER44d1uA/ZDi9Jd99WlsqJbx4VQGwK22_ugvmTTg4EZO3oeQfHIQcxv5gRizSGdz-BPNV7BZKwlJh3GqJE1oIgm1vL6QAbsZqo0smrTzG65x-dvILmqQ2Hhk4pH7Ef38NUc7-yXP9WYFT1Vx9uK009qeftmCUVg/zQ6c-OaE0_tBGXg-V5FuE3ALpQ-qTPkf5BzwJSEyXEY",
+            "width": 80,
+            "height": 80
           }
         }
       }
