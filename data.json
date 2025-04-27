@@ -108,42 +108,6 @@
     ]
   },
   {
-    "fullTicker": "MP:USA",
-    "baseTicker": "MP",
-    "rank": 2.536,
-    "price": 24.41,
-    "prevClose": 26.01,
-    "absReturn": -1.6000000000000014,
-    "logo": [
-      {
-        "id": "attuvqXc6S0Ea8ukB",
-        "width": 80,
-        "height": 23,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745740800000/Cv28ttA69rg2EY-JLldCYA/7lW74cJYEPy1zChUmmRYKysxZidNxkj0IF02CBNgRbzP9trVrSzha1lQtM42QcJw6UxejLS19hOS69jDVTDKomaLOEl9u9aG11MoDW7Bp1D89czuMgxiFKFelZJ0V5giG1dhnloabO9cYL6y-lPkAoSAjbAtiCL7vWb_a4OcPlTpDK5_1Nk59u70o0VuUmAF/8CENnEtR3Kbyvv5tPDCnhsoswKA6MfMz5du_S8mGqwk",
-        "filename": "mp-materials-corp-logo.png",
-        "size": 1962,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745740800000/RFS3EaeTqV-7snK_M5DMhw/bHOpGJ0dM1p6OykZpIuq9JPirJMevtvH_Ry6r9uyZxgWvu2B7rhTBe9c3XKD6IYfWvfGT-0qHEqLGUfEhtkM69zdPz0Zm_zrEzcnlq1-7EuhYz-C-snJtPqANzjcFiqJ9fwNh6BbD7uqZd52AAu-Cg/re0_ZmOBLhZV9ptEY3LovPV7Do7mmtHJAv1nnRVYY5E",
-            "width": 80,
-            "height": 23
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745740800000/ySFy1vd2qCSbz7AiPVL1tg/Xw6Q-OvyFOd2SiL_RrcL1yWBi5oknqiPnE-0GAz5QZ5tOK3FSO-_nDbfFU2adoUk8mXHtYzJi_TpXY4hShZLmLpxM63DPNIVR2h6249ovhwrAXe3FSMSGmCZ7eU22PZ5gYgymdqv0Qa04LI0_RSz7Q/8byBhgpzwhx06q5wp9Xd-e077VTVai3ON1r7pXFWuAA",
-            "width": 80,
-            "height": 23
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745740800000/Mw7VO04BN3nPPDcQhUQggg/fK_AflpPVzjFsH5JR6VSblTp-i6fhjqB2zYO2g_3672RY-fQ4Iv5ZkLq8U_UYcNmSs6RFZKeoslH5erP6vIhjjQvqs0pzqqywAyaO_UGQIMXNdFm1MEgmG0Tp2jkAZIcNbfUZ-_haWBPBrE_U8CHPQ/vKt6p4YiCn9hxzgWneigYRPEBny9uwjPduLS9iZm4DQ",
-            "width": 80,
-            "height": 23
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
