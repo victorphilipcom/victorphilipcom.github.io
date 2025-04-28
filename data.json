@@ -3,9 +3,9 @@
     "fullTicker": "IONQ:USA",
     "baseTicker": "IONQ",
     "rank": 0.1095,
-    "price": 28.86,
+    "price": 29.385,
     "prevClose": 28.9,
-    "absReturn": -0.03999999999999915,
+    "absReturn": 0.485000000000003,
     "logo": [
       {
         "id": "att8FHj77cNQD3pb7",
@@ -39,9 +39,9 @@
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
-    "price": 11.01,
-    "prevClose": 11,
-    "absReturn": 0.009999999999999787,
+    "price": 11.145,
+    "prevClose": 11.01,
+    "absReturn": 0.1349999999999998,
     "logo": [
       {
         "id": "att3IpPCDbErkHC4N",
@@ -72,48 +72,12 @@
     ]
   },
   {
-    "fullTicker": "DAWN:USA",
-    "baseTicker": "DAWN",
-    "rank": 2.4448,
-    "price": 7.74,
-    "prevClose": 7.9,
-    "absReturn": -0.16000000000000014,
-    "logo": [
-      {
-        "id": "atth9YbtDIOMFdzon",
-        "width": 80,
-        "height": 35,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745856000000/xE3Kym5mOGq-7PLEk3eotw/Y6s9YciQWU5DFWdFgUh0yBynvNoHu67u_ZQYZuJzPRZzwUW2Yre_vmQ4sA-CP1ysrYtAalPC6lwB2Vw11Gh2KcQXCr6OCPh8Z40GOD1NbRsN6pOrnfAUmw8uPltMWut0orVgxznz5P9-E8fBsohk6UwZHvzLaFNCHscYevAlRg5tNDGnNCQ1El2ydrlMkIKom7W7Z_vDwXBB48ha-VCM0w/oi0_RvMJ4--Rv7biuUzRCt5NPsYSWYwUNL2iTSQcf9Y",
-        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
-        "size": 2171,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745856000000/Jj85Pe9Mp6NmGvjdZM5Z3g/24FeK2njbSW7PQ45zgkuzwDFKUB6ZTa93wE8lRKAWnem4HWeBinXGJwkBLAnJpUhLRM7Wjy5w2v3Y_Q4Rr9nsnpS5FZqj6XuaTQbG4shFscnDBCBdCenX0rP4jf3nSv-WwsbJsU0iGD60WKblXCWog/pkVQmAIMfPmVhxKVOkxqmak05911Ij9pTNbc7p1dOls",
-            "width": 80,
-            "height": 35
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745856000000/6AH_qvbUV-GRSMvPfhJN_g/2wyC6H_QBD0N3DYjFy7JP7vNdNjYOaxcptC06-io84N3UcMdZEsvoCgKje9raE7N94-P8yl29XnilRacFif5ACezNSaIs5Bmec228HTkJVnBI4ZyU-neExxgCUzwbTIA08uddix2dWzLmg6dsW1DQA/eCiYg3d1TbwSVqK5VIBEJSgGfUgJzI530xczCUd6D1U",
-            "width": 80,
-            "height": 35
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745856000000/IkTb0c8dJ3GxCWJBQrAlQQ/-kN_r-DlqhrTIdnxNABTm7MNOYsBUoY1zgEk9HB_YlieT5mMEoO7GK8BpBdRjxLVd7t-QGz1wmNl5XeXqEELr9QH3KpAp2MuMHtGfpL1X4rApt1cQfCpx4p6_wxrEMjGV2A9JLv9wCrYS80WF7syPw/Y1nf0ojNCX4TrFztjOVOsLyqNd3G2OpFE59CYkBKrGA",
-            "width": 80,
-            "height": 35
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
-    "price": 24.41,
-    "prevClose": 26.01,
-    "absReturn": -1.6000000000000014,
+    "price": 25.37,
+    "prevClose": 24.41,
+    "absReturn": 0.9600000000000009,
     "logo": [
       {
         "id": "attuvqXc6S0Ea8ukB",
@@ -144,12 +108,48 @@
     ]
   },
   {
+    "fullTicker": "ASTH:USA",
+    "baseTicker": "ASTH",
+    "rank": 10.8557,
+    "price": 30.875,
+    "prevClose": 30.6,
+    "absReturn": 0.2749999999999986,
+    "logo": [
+      {
+        "id": "attNZ6bVwMsQ3SUIx",
+        "width": 80,
+        "height": 42,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745856000000/pOKH2dpfwThSUo0P8vPKKQ/-97l0YGhPMwJduGnnZpUZZpgIat8i07U4K65e26oM9xwe_CeM7OU4hlCupfO5CF9k4DKU0cH0JJudBu42gScD_MTv5dngQtHtgr5iCt0HQ_qgq5VEaoFED3XKBRYatYbSvhAzcrJtqAigD1RhaRlQAf727H8D_h_PtlmOdV4SpmaB39HrpSTjzQD-yX0ADFP/ZkQqirNSIMktOB1dQyQEeZMXd26wUTSmtRC0w-yExnM",
+        "filename": "astrana-health-logo.jpg",
+        "size": 908,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745856000000/Trd0EjYD7uTwJmI2yF1XeQ/vo30E8ptWHa44cewjd_TsejBkkI71DyLwsKnGESDUncKYvKJ7pk4U5TSRHJMCIR8sO3TTkbYfKgFjedWA5lfW7wQwr1fX_A7WRdpyyZlLv-dS7X1Ntgw0tKQVZsJO92qYDKWYUt0RcWca8kWbRf2Tg/Zo0aYulsobWqazhQc1iNkmZdA2hcaUkkkBn4u1zcyuU",
+            "width": 69,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745856000000/Gjg-innFpkB4aqHtAL7W_g/YGjB-f0gp9BObnBq42wTvE2cNu7xggTOOQsO6h2BcPHlZUW_THM7Mqu9f2z00Irv7jIJBPjaeXQdlJjGY2BwhHpFfKaVD_UWafQU0BvNreds8uHYH893hPBvV5aEAyhgS1T7yVCTHQ3UxnOlCMuCzw/mnK--Ozya-7hUxi9W3mfGij9ik1gwM0dWtncCwXQ8hM",
+            "width": 80,
+            "height": 42
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745856000000/GEX9ZpswHP9fT811HIjF0A/qvRwgrJmxJibR9Q4oWZxFF4orbbI1erKKWcr5mJ02meO_GNaEk6znq5Y2EONH9afCs6ZboLImZ3Gu7jwQIobLAZ28V5BtqyVVQSFpBOii-lVT9RU1oQFvX89mWLuONJZfU4SvMtE3eli4VLVgRdbsw/6kG3oW3r4rc_w0BW5c8Y24boP9AKIhDlOZ9_UEvVHIQ",
+            "width": 80,
+            "height": 42
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "CRL:USA",
     "baseTicker": "CRL",
     "rank": 44.2438,
-    "price": 114.66,
-    "prevClose": 115.76,
-    "absReturn": -1.1000000000000085,
+    "price": 116.605,
+    "prevClose": 114.66,
+    "absReturn": 1.9450000000000074,
     "logo": [
       {
         "id": "att0BPhEduY4t4DqU",
@@ -183,9 +183,9 @@
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
-    "price": 50.94,
-    "prevClose": 51.07,
-    "absReturn": -0.13000000000000256,
+    "price": 51.01,
+    "prevClose": 50.94,
+    "absReturn": 0.07000000000000028,
     "logo": [
       {
         "id": "attw38jFXTtzhxJRD",
@@ -219,9 +219,9 @@
     "fullTicker": "SBH:USA",
     "baseTicker": "SBH",
     "rank": 86.6083,
-    "price": 7.79,
-    "prevClose": 7.98,
-    "absReturn": -0.1900000000000004,
+    "price": 8.005,
+    "prevClose": 7.79,
+    "absReturn": 0.21500000000000075,
     "logo": [
       {
         "id": "attqVPKupg5wJf6EE",
@@ -327,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 551.135,
+    "price": 553.285,
     "prevClose": 550.64,
-    "absReturn": 0.49500000000000455,
+    "absReturn": 2.644999999999982,
     "logo": "sp500.png"
   }
 ]
