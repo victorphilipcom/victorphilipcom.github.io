@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "DAWN:USA",
+    "baseTicker": "DAWN",
+    "rank": 2.4448,
+    "price": 7.725,
+    "prevClose": 7.74,
+    "absReturn": -0.015000000000000568,
+    "logo": [
+      {
+        "id": "atth9YbtDIOMFdzon",
+        "width": 80,
+        "height": 35,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/LLkBlexD5Shx1TCpN7vIQg/ooW0gS4M2SPzNV-6kzDnQnx4LGlOkmmN8koiJArUIDfPRDgiE30Ys7u8L4y6eWoN2KHVdqeRmkd4dnqbfnppqyBpXgq3102YnFePSpOJSOOqrohZyGw76mZttdNGnYHGXEVZu5VdgmfEUVF1f8xj-6bJKnZ208kAcP75L3NpCXIBrChLMZbOYKfYdaWTF12gxLSuf9s1xToamL5mYlA97w/K1DRYpb95VNM4t479J_X-NFbjOIl9e0knLTxLodpk3c",
+        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
+        "size": 2171,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/Ue5QZLK-9gwl2vOBu1nnRw/w_Vkbq2Y7OQTnMuP5aD4R0rj37cvmuOwPaMgqllfqDZKjkLlRXS0e-PnYQqp5HotMBAoLgp7hdS4d1ES_TMr2GKGSd4uLGHw9LkAXN4W9f3cFwM00Ar4_WBIE3a4ekGi0KUbg66U_sEYtYAT0Rq76w/eQ4N9623buYCHpO4zZ5Wq8CzWcHMZIwH6mtM2Tzah-g",
+            "width": 80,
+            "height": 35
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/CSHYymARHNodABNRIuiBQQ/4D1rSI-t5F2oFBhW6SWAEzIGzckBRcuD2FUAZqMs-HdllmR4CUr3EIFgkeHE9IgJGltKgJN9dZgJSuaR3G4G0SFDvqFdjYfc46lTKTzXpVIZbvLHgRw7y7UWYI6bKHYn37wwPNWYgWMZDUl_SyCrzw/oVnOOEezCpGi5aqCEvqbu24f5BYRrvZgpK3I4iFyBrc",
+            "width": 80,
+            "height": 35
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/Hb-KEKr4SFc2HkmTOtniGQ/mVry13-Fv_k2FTFFw007VJVlGTFaEEejdE1tto5SaTtzHuRe574weCFT83s8Rbf5cUWClHvW_nbj-qg4UUph-44ut21D5A79FvaykLJS9fboNSMA-rXvoqSSNB1KIGKM85uRllBYvxDwb-0w0UCcfg/_jOR98De7QT9QZTvq67Go5BFFyn0dfnPGqQ4ir-sAY0",
+            "width": 80,
+            "height": 35
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
@@ -210,42 +246,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/xtDBeTFmJB_HTGNAHjn8ng/VYthKhHWwgx0ikz9f6V1mG7tMB-PN8MeBQY5ue6Y16OP9884rYvNDsOU7iCYL7rZc5JBsfbTiq709puX5W1TvmpBC5Lis34NzTO286TyciKu-M17Rh-2au-NdkZ3TD1Q23wB9XOb2-K3cBksH9rYqA/JmjlT_YnuvUG6QHm2wNMK4-32dnI0HvkOsIWVJVP9jM",
             "width": 200,
             "height": 200
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "SBH:USA",
-    "baseTicker": "SBH",
-    "rank": 86.6083,
-    "price": 8.05,
-    "prevClose": 7.79,
-    "absReturn": 0.2600000000000007,
-    "logo": [
-      {
-        "id": "attqVPKupg5wJf6EE",
-        "width": 80,
-        "height": 13,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/LgdSqJNZ3vljUajKoC0MPg/Fd6JPMM6YbP5Kh-OWgI6kH5reSYpKb35jwIZOOUlBu0hiOVspUDm61ubRi0Kd6IZTf7dGSz4O5_Uh9pX9IIgNU0c8bXi8sKXhrGeuKGkqbcqWT1E3rw9YGIzt3ytmkMSJvxDTevQP8_TyqHLzw5JpXv0fHqVHDelgH_Bj9V-7QzN2sbW5RwrMkEnCxXpyygG/wis4mkgcD2L0MTnvzvMbkyzLVkL4i7Lmy9OOxm81lAw",
-        "filename": "sally-beauty-holdings-inc-logo.jpg",
-        "size": 925,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/h5kiY3pkNOBUPmIuinSDyw/ZwixMrayjMXdOeuY5d-cE7P8jgq8RPqfND4LyGm6ZiD1FUKlcXLI_JNF_hKIrVw9TXtkvem6t6mmuu50IExhhW_3OP2zcmflgyD4ItTZKuPGoDhzrof4EQp4A1qYeHsMEx8pVA6h3d0KL9Ci3xDKyg/V_pkvXEw1WqdrjBnZCYTCAhjZLyQtrnHxUM2iucfaeI",
-            "width": 80,
-            "height": 13
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/oJ938hwXYJYz_4Gv-Y65LQ/xWvhYIyKCavd0UtfBs8L__UxOb0AmfnKwlqvzwFRrEhInr72zrB5ZTJuAOXlxMMwrLxzuF0fyF6LcE2_kMdg4yKOnKVCu2mUD2QQKkAA-cCvODIFEj3j8fbJbKXGiOiu0VczHy9aJu6gUdddIKwkWA/1Vx-3kixUhNqYUpL5pwZD04S_Ei-FUuG7IZ_95KZ8JM",
-            "width": 80,
-            "height": 13
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/x48g_V_UgVDRUUN0vM2FJQ/FZYsF-8m_EHERY99BSmjStdIl_7Yf9Y-TYCUVP_OK8GOIpg7ePIzpvF8M93NH73GctKi1zhhPDre5y7QOFUYhU60GDtSmC8QLtdMmXVdSwwkF2jd_C7rXxgOynWTrfG_RI53lPLJpoO6jkOyN1g7dw/WFQl0oGp5I8lPzFuntI497X7_z2M1L5_q6kdpxSXKpQ",
-            "width": 80,
-            "height": 13
           }
         }
       }
