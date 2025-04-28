@@ -72,42 +72,6 @@
     ]
   },
   {
-    "fullTicker": "DAWN:USA",
-    "baseTicker": "DAWN",
-    "rank": 2.4448,
-    "price": 7.725,
-    "prevClose": 7.74,
-    "absReturn": -0.015000000000000568,
-    "logo": [
-      {
-        "id": "atth9YbtDIOMFdzon",
-        "width": 80,
-        "height": 35,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/LLkBlexD5Shx1TCpN7vIQg/ooW0gS4M2SPzNV-6kzDnQnx4LGlOkmmN8koiJArUIDfPRDgiE30Ys7u8L4y6eWoN2KHVdqeRmkd4dnqbfnppqyBpXgq3102YnFePSpOJSOOqrohZyGw76mZttdNGnYHGXEVZu5VdgmfEUVF1f8xj-6bJKnZ208kAcP75L3NpCXIBrChLMZbOYKfYdaWTF12gxLSuf9s1xToamL5mYlA97w/K1DRYpb95VNM4t479J_X-NFbjOIl9e0knLTxLodpk3c",
-        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
-        "size": 2171,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/Ue5QZLK-9gwl2vOBu1nnRw/w_Vkbq2Y7OQTnMuP5aD4R0rj37cvmuOwPaMgqllfqDZKjkLlRXS0e-PnYQqp5HotMBAoLgp7hdS4d1ES_TMr2GKGSd4uLGHw9LkAXN4W9f3cFwM00Ar4_WBIE3a4ekGi0KUbg66U_sEYtYAT0Rq76w/eQ4N9623buYCHpO4zZ5Wq8CzWcHMZIwH6mtM2Tzah-g",
-            "width": 80,
-            "height": 35
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/CSHYymARHNodABNRIuiBQQ/4D1rSI-t5F2oFBhW6SWAEzIGzckBRcuD2FUAZqMs-HdllmR4CUr3EIFgkeHE9IgJGltKgJN9dZgJSuaR3G4G0SFDvqFdjYfc46lTKTzXpVIZbvLHgRw7y7UWYI6bKHYn37wwPNWYgWMZDUl_SyCrzw/oVnOOEezCpGi5aqCEvqbu24f5BYRrvZgpK3I4iFyBrc",
-            "width": 80,
-            "height": 35
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/Hb-KEKr4SFc2HkmTOtniGQ/mVry13-Fv_k2FTFFw007VJVlGTFaEEejdE1tto5SaTtzHuRe574weCFT83s8Rbf5cUWClHvW_nbj-qg4UUph-44ut21D5A79FvaykLJS9fboNSMA-rXvoqSSNB1KIGKM85uRllBYvxDwb-0w0UCcfg/_jOR98De7QT9QZTvq67Go5BFFyn0dfnPGqQ4ir-sAY0",
-            "width": 80,
-            "height": 35
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
@@ -216,6 +180,42 @@
     ]
   },
   {
+    "fullTicker": "FSTA:GBR",
+    "baseTicker": "FSTA",
+    "rank": 65.572,
+    "price": 50.85,
+    "prevClose": 50.94,
+    "absReturn": -0.0899999999999963,
+    "logo": [
+      {
+        "id": "attw38jFXTtzhxJRD",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/aAalPijLCKTvXPlIE_wGew/_Ywq89YFiP6atZz27yM6TNVNPbdhxo1EeF5nv4V-HFYzi5dhfH909ePyymYUd4efiT0g9mlcNjwra2tDz84ApjbDY6tMDQu7dUfRmR170wuPZsu5AVKM-_7_GCD8GQYzimJzWhER2VHDt0qcHYwnjPa4qhV4GA5aM6PT7Faz2v4/yFQ2ZnBMK2nCQJeZ9fxDqzyiablPojuDedH2pjjreUc",
+        "filename": "www.fullers.co.uk",
+        "size": 4478,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/t2pyjV06LTCaiYsccRkVfQ/Hy922JtUj7dmHCYUuqFSYKXe-qQbnlto8p44tVPO8tE0QKNJCqbgJmzksUqj3TrnzcVCl24nuJXBiTEDXcHOarGFw8xeVOkNHtAS2oxsnEUFo1u7qWJs4GpnKRiMMiuKUXYO9KLLkHrLWhxoW-qhQQ/Ff-s3irWU8YpafrB5MdTMaJGh2ZXybsuyBPsWGZsbfw",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/jS-aO2Vh28B71L6bi64cfQ/AX9ynAxUh8zKJtHs-MZnChi40QOa0UMgxooDsJIgCZ8cPWknvSJbQFFbbMoMNrG1Etat2yDi4pnTqz1APGoej0KBDyaIhN-DAF3hqMCBM0a3m7-0fGpEnzHjaB12X__hAoKVlgDr5CwVoS49E-Q7-Q/PLUU03Ll6U_cWEenXQ7oGLxikEIGvjCq9N-AlhCJsuE",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745884800000/xtDBeTFmJB_HTGNAHjn8ng/VYthKhHWwgx0ikz9f6V1mG7tMB-PN8MeBQY5ue6Y16OP9884rYvNDsOU7iCYL7rZc5JBsfbTiq709puX5W1TvmpBC5Lis34NzTO286TyciKu-M17Rh-2au-NdkZ3TD1Q23wB9XOb2-K3cBksH9rYqA/JmjlT_YnuvUG6QHm2wNMK4-32dnI0HvkOsIWVJVP9jM",
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "SBH:USA",
     "baseTicker": "SBH",
     "rank": 86.6083,
@@ -255,9 +255,9 @@
     "fullTicker": "FET:USA",
     "baseTicker": "FET",
     "rank": 93.888,
-    "price": 15.165,
+    "price": 15.13,
     "prevClose": 14.92,
-    "absReturn": 0.24499999999999922,
+    "absReturn": 0.21000000000000085,
     "logo": [
       {
         "id": "att1Afc0dnnqt0yve",
