@@ -36,36 +36,36 @@
     ]
   },
   {
-    "fullTicker": "DAWN:USA",
-    "baseTicker": "DAWN",
-    "rank": 2.4448,
-    "price": 7.74,
-    "prevClose": 7.9,
-    "absReturn": -0.16000000000000014,
+    "fullTicker": "ROIV:USA",
+    "baseTicker": "ROIV",
+    "rank": 1.2224,
+    "price": 11.01,
+    "prevClose": 11,
+    "absReturn": 0.009999999999999787,
     "logo": [
       {
-        "id": "atth9YbtDIOMFdzon",
+        "id": "att3IpPCDbErkHC4N",
         "width": 80,
-        "height": 35,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745848800000/029W2a36eaBQWoxDhe7MXg/s75TQxsr42ke3VY3z3nalVojOWGEpbJvILoHCw0ZQNkFEU2DCNRmZbhyByZpyNgpfIVNt_gxr7zhsUJeFDrxT3ZwqaWxkVObJyJc6tNeBEJzcr53tgyTwT1OSArijioKB1g_ACXha3Gh5LgdqlGp2TQzNW360GtEkdF9DtzOk5UqFPpV597HZRALh0vmn0SgS-yE-t4bCwAQaN6h4S2zew/pwF-2SbBN-pfmBVMGyNb230JxF-4xZMnYYjttIA89hY",
-        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
-        "size": 2171,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745848800000/gzrZSx-r11nJuY-CwezzVg/db5xamC-0-SyawvlAd1LCBvErp724txG-atbEl03JnLPGIf0fSAtoJbdpf4ivI_ZjqOVICHqTFtSYPY-OIM6HMScNUMrX8Jxwj4IieLybAz-G0-ukdKmZdj-aDcnwwxowAyxd8_FrZXtmjS9S35bpf-yoyIHWcrWf0d8YKN1T8ZNj_uPArC-EjbDamB6qjA1/0D7mxu-K8EqaH0GYc_T9C4TZidu0z8W2nw7bf04Cua0",
+        "filename": "roivant-sciences-ltd-logo.jpg",
+        "size": 1069,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745848800000/90DU7VXRy6ACRZEKUPIfZQ/vB5jVbuiZTKEtn0lVgetX4EUpNktsbM-14gzDecYjhVAPWCBvEvczdRN5aC4Zr-aodCylpAwpD0rHGf94gKlp0-DyXNw4pfkX88lA6wId29bJVTrBRY2v_3ERxbrCtdl82iO4nOKhaohR3ZkNwaCTw/gAUa_NmUTOKXm4KyN47MGL2sutLBqH1xH1JfX3NjKRQ",
-            "width": 80,
-            "height": 35
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745848800000/vds_SOS7M48IIyUV-P-Z6Q/gdJYDM1fjdAHO6b0PwvvMMuAdFCll_IedpYRBQ4csBZm8Aw9M9N1Gbc2RdQ1cNrQ9ausCl5QUWcnaTy7Nyu9V0ltAdjIK1uO4sqRgBiw4ZmXyukymFzjpOl7c_RYLApxcBU_as0A0PfK7ujGBQz4Ig/wGktIQRGz4I0bkI5gnL154MG4gIU2tl0Don6ZS-MQI0",
+            "width": 70,
+            "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745848800000/-tdOKwI0T0k2ccxu80yfhg/nbCbSPpUnbjI8gD-SvcP4K-_zObTj1dSz8_0Ds-gQ8R6Le3QVL3A0mWEagg3ExN3EgzOd-Kk_Ut4VkG0lPoxGlXLGqnyKrytzONAH-Wxs_0K1esRd6QvS1CGgYyjPYbAy5-S2ffXVkq3Ph63EELJSw/AqqjliKyEBC5vU1bm6f0VxEQXqIkn7F1-mHdOmM_1bk",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745848800000/9PTq8pLU4ZYrfjAUVzHH-w/o4rJ_QA-IF-ut714SmdPoHkeXwIrSc16-mNg25IXnO6J-yN0uEs3eKu4-oO1qO8NC9hoGJBQJBUfHSwzq5Yv9mrqUzhG6Zrk6PYjYPWMCWxifl4_oGINdr_aXcWdtfOEYb180M27OA13oyC5hWJDaw/YSpA6TEW73FQFYj5N8IF5f7NZroRSTrK4eRle_emHwU",
             "width": 80,
-            "height": 35
+            "height": 41
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745848800000/EtWMJF_c2VZW3AnvT7JRiQ/I5BdWmRDPma6722Q0ZgrQvM4KZY4zWh0sEjJ5kb2pQ6iqXihNSitqcuY7wvaXEiEeH7fnBHPH7sJij-bFedpf1hP9P0dGfYD1d5OKmDEFK8qBRGB9KceDmYIGlF6AO_i0jzo-Rj-a-OA7R_zRvq3Ww/Lmz-E2XEI6ObB0AsIwkPBMqh6szDG9oPjZ_bpk3SW1s",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745848800000/SvI1X5u8hQazBK7Qel3fFQ/kfwua1lWdwjg825q_SIcdhJCP75GvwmvoAJWGe8yWQmPgzbTRBhq860EQ1XMuvyCbfjW-1e0704qel4QZ_VnmCLgsk5S__0kpKp3H73iU5IkHybRHpp3JD02Oqx3eJxcZEATauD9CTM0aYF46P16jg/jV992JvkdmYjMTqvIfvM6hC9361UoCn1ICQGn4l9Z_8",
             "width": 80,
-            "height": 35
+            "height": 41
           }
         }
       }
