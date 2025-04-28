@@ -3,9 +3,9 @@
     "fullTicker": "IONQ:USA",
     "baseTicker": "IONQ",
     "rank": 0.1095,
-    "price": 27.77,
+    "price": 27.615,
     "prevClose": 28.9,
-    "absReturn": -1.129999999999999,
+    "absReturn": -1.2850000000000001,
     "logo": [
       {
         "id": "att8FHj77cNQD3pb7",
@@ -39,9 +39,9 @@
     "fullTicker": "ROIV:USA",
     "baseTicker": "ROIV",
     "rank": 1.2224,
-    "price": 11.105,
+    "price": 11.065,
     "prevClose": 11.01,
-    "absReturn": 0.09500000000000064,
+    "absReturn": 0.054999999999999716,
     "logo": [
       {
         "id": "att3IpPCDbErkHC4N",
@@ -75,9 +75,9 @@
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
-    "price": 7.63,
+    "price": 7.615,
     "prevClose": 7.74,
-    "absReturn": -0.11000000000000032,
+    "absReturn": -0.125,
     "logo": [
       {
         "id": "atth9YbtDIOMFdzon",
@@ -111,9 +111,9 @@
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
-    "price": 24.54,
+    "price": 24.405,
     "prevClose": 24.41,
-    "absReturn": 0.129999999999999,
+    "absReturn": -0.004999999999999005,
     "logo": [
       {
         "id": "attuvqXc6S0Ea8ukB",
@@ -147,9 +147,9 @@
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
-    "price": 30.8,
+    "price": 30.79,
     "prevClose": 30.6,
-    "absReturn": 0.1999999999999993,
+    "absReturn": 0.18999999999999773,
     "logo": [
       {
         "id": "attNZ6bVwMsQ3SUIx",
@@ -180,12 +180,48 @@
     ]
   },
   {
+    "fullTicker": "CRL:USA",
+    "baseTicker": "CRL",
+    "rank": 44.2438,
+    "price": 114.795,
+    "prevClose": 114.66,
+    "absReturn": 0.13500000000000512,
+    "logo": [
+      {
+        "id": "att0BPhEduY4t4DqU",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745863200000/uSYvS16cXXs5dFZVkBntaA/v22FKkS-kwGgJvk1vzHWoNb2kLVW0dk7kw4aFMOKC3e14lgmYtZWUnXiJ7VtHHtK0ILcPVawPVA6Hz6o3C482xzxuqMIyxxhFfwC6cfV2Uwbfam_pxGOUEoEt-xUIJUYa12jqGB9QB6IGAzaU7-asAaXD0yrRVXqC1XGE62gMh7JwYA4oNkeoddmVTsNdxCf1g_Xe2cerWlje_f4VB4dRQ/MXWqZj2rLOmF36wFAIy3XBwJUg2qbVAKB4kkdsofo84",
+        "filename": "charles-river-laboratories-international-inc-logo.png",
+        "size": 1765,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745863200000/O2rFft3Yon6NcFkKr0w-EA/yamyskF-9p0B1Gi50JTVzERSpNhqUkrYGFdfkkxzQe1BJlvSWxEjvCPg3Py8GpeyW-oKGVCNKrxW2q9Hx2_oamKCiMOmIxF-YpllBy3VD0WTdRMmQoQNFX1x3wuDo7hhbVvHuZlgq84_ze6SdygR4w/Ug3XRIu6niv0JAOfUw3uvmgYPSrG6JZ1jV-Hhai92SA",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745863200000/Unq-xy5zzbHpzSx8ZNyj4w/KsHRmOMefUGE8GbFtg8RLd6Kp1s-wTri8p8lyAw2PH6ANnankVMqY1fzBtuYSEBc7SVojh6kKsZEDF9QaSVC9Rf-V4oRbTkki8VzOvaHHcsZ6HSd1EjwaswM31Bfh_9ifLR6mZ7usgyR21CaKCi-NQ/Vo5Bzn3_PP4kiXopOLm2oh9GJeR9euJjd2PtbqDmCPU",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745863200000/9EIvtNUscLV4lAGOcBf1aA/dT7YqopMKzM_xFhz4DdoBURPiK3yQT5WylkOmD5AzluohONAqkedrtcZRm4QwB958jPHeIKa0Lx2gvTXwCpXkXOo2_MKeQlmGh9l4PJf967SD2hceasL3bo8LMOMGH6sm8rk6JTMaSZPFkxYMJADwQ/golsJD8VfVosD1Y8USSL9xn_PHOHqpWJZb_rmvDpwDY",
+            "width": 80,
+            "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "FSTA:GBR",
     "baseTicker": "FSTA",
     "rank": 65.572,
-    "price": 50.95,
+    "price": 50.905,
     "prevClose": 50.94,
-    "absReturn": 0.010000000000005116,
+    "absReturn": -0.03499999999999659,
     "logo": [
       {
         "id": "attw38jFXTtzhxJRD",
@@ -252,42 +288,6 @@
     ]
   },
   {
-    "fullTicker": "FET:USA",
-    "baseTicker": "FET",
-    "rank": 93.888,
-    "price": 15.085,
-    "prevClose": 14.92,
-    "absReturn": 0.16500000000000092,
-    "logo": [
-      {
-        "id": "att1Afc0dnnqt0yve",
-        "width": 80,
-        "height": 38,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745863200000/j_V6JvgkDoNNheCa3qshUw/VMDBKx8Iix1JwwNAZt4WjBQUAZOQmJh8dbWPcnwxF-q-80_dJ64X4KJMOMUPVGLaumPTurHjr1Qqagq6ppiV_iBEbe858UZhKRUCLjaASJZ1w80ltj748NxVrbc8gKMzoLW6_h59TvXpK0UvfPHiXvnBzVdJYHwmr5ub7FYNADEVKxieoa1Ydr5ovKhEoO7o/SvIy3loFbqLjyf9JKuNdRbfOYFGJ8p61fz5XmYzNsW8",
-        "filename": "forum-energy-technologies-inc-logo.png",
-        "size": 1533,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745863200000/WXXKWx4JDZXSXAXuNELSEA/yAJVnjnTeTO97hc6SbHUpX2-PGNzfWOKe5ZUWer-b8_aONQXHmmLEZtYLwNTfiK73ujEmCb941coxp-BHdEnt3W0SWGsEWCv2iCTW4vesizAWNj-VV8LdVFcPxRVn9w3il_dCuAO-qnU7pBHchgP5w/d3Ad5Vb8uyZjHTlczQJPPOwistB8flfdtHHOF9JqU3U",
-            "width": 76,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745863200000/tROnEwfhAB0-EyO4J3CjTw/BOFRKFIo9VU-ZPsQx3OGMCY2NH6Of9Oi4935AZy6qBlFOoR9NZlaRRCKpx94PsDv4AHaT5omPMaATq5iOba3iO_aUR6RCIktyHBJ79xt4Z7awwEDrH3FA-IPhpA9w-7Fbh9WSjXVWMAphC89RIp2lQ/SWQvOD7bsUg80VRCTJrq0YqMLD2364MgxRFLpEivaVA",
-            "width": 80,
-            "height": 38
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745863200000/-jY01OQTg0qwjjstCj3lrg/pZgLbqKicID098XP2AIT1_eXpbUY2LoiWIKoYjiOkDAwRVhCu5goP-E9ipUV4PAdiy6IUaYNoKnKIhw28AM_RelXDb3nRj8ltcdFBVzggNPzG4Lu5ZcbsosCAX7agDxaLy_xFAjPDasTiFG0NdP3AQ/N6wSZ-nMQdin6Ir_uTLnCTuq7TkfN92MvHrWtzAYDBA",
-            "width": 80,
-            "height": 38
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "MGIC:USA",
     "baseTicker": "MGIC",
     "rank": 99.854,
@@ -327,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 547.825,
+    "price": 547.52,
     "prevClose": 550.64,
-    "absReturn": -2.814999999999941,
+    "absReturn": -3.1200000000000045,
     "logo": "sp500.png"
   }
 ]
