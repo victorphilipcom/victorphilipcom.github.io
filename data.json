@@ -147,9 +147,9 @@
     "fullTicker": "ASTH:USA",
     "baseTicker": "ASTH",
     "rank": 10.8557,
-    "price": 30.71,
+    "price": 30.74,
     "prevClose": 30.6,
-    "absReturn": 0.10999999999999943,
+    "absReturn": 0.13999999999999702,
     "logo": [
       {
         "id": "attNZ6bVwMsQ3SUIx",
@@ -183,9 +183,9 @@
     "fullTicker": "CRL:USA",
     "baseTicker": "CRL",
     "rank": 44.2438,
-    "price": 115.12,
+    "price": 115.08,
     "prevClose": 114.66,
-    "absReturn": 0.46000000000000796,
+    "absReturn": 0.4200000000000017,
     "logo": [
       {
         "id": "att0BPhEduY4t4DqU",
@@ -327,9 +327,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 550.11,
+    "price": 550.85,
     "prevClose": 550.64,
-    "absReturn": -0.5299999999999727,
+    "absReturn": 0.21000000000003638,
     "logo": "sp500.png"
   }
 ]
