@@ -1,47 +1,11 @@
 [
   {
-    "fullTicker": "SAVA:USA",
-    "baseTicker": "SAVA",
-    "rank": 5.7024,
-    "price": 1.57,
-    "prevClose": 1.59,
-    "absReturn": -0.020000000000000018,
-    "logo": [
-      {
-        "id": "attc4htx3wJpDcDeE",
-        "width": 80,
-        "height": 21,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745971200000/s8-X6A7bxIShpWLYGyn5HQ/iYwmYfOsAKNUD26im3R2n27lxMty43sKIuj7w95NTuf_Rhz68Y5gN-WAO5Z_W4QLNaWwW7RdYSPCIs3MDC3cXuopw8tUtq2Lf2DTh9eEbKUpNxXJP7qovLKAJsEVK2Hd1Jn0BQuGcDtLJzAoZCD4AtemZ5C8FSTDa1uBoHuGlDmnqgiRh2-YJ-3btQVeEKcO/C4bBSji2WWGRG4dvjs2F7LjV_XE43pI3XaEvtCvp2vU",
-        "filename": "cassava-sciences-inc-logo.PNG",
-        "size": 2653,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745971200000/vitrByoz1Ko_Zj5urpHzvQ/rgQbQOdzU4jHbtMcCMIRwZjU-CnbMz7zS-5faP0NwEml-459wcHO74zBJd0t0Bkr47L-VZsMR7CKtQYh5Dn_lNwoMhWmTtJhSGHqZBWMiciIkPzIyDlgTZvo2sDRe8sennGE2rVsByCpk3apf4aUdw/3GefauX22qVR3bqyTwkLNJrxyQgyf3GLaZpuoE-VRTQ",
-            "width": 80,
-            "height": 21
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745971200000/Wc12GFvo5CIpwrL0kVLcOQ/E7mMTlFG0cLSVqWRPMaJWcl5zJb85NnPK5peMZf4hXb23UjKyfnFHgz1nAu9H48R59n5-M4rMXeb9EQxqLf0EEIb_zcjOr1DkOQ8-RHElpdUXIekIkMJ8aJr2kZ0BOMEUlpExecdvYL2xZX_5qRtpg/AItlR8bsKxdcsc0tOChUPsm5iT-H0cDZ0QWDzCWgLwg",
-            "width": 80,
-            "height": 21
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745971200000/9nQZxsw80aBVTbRFn3aSrQ/t8fB0odAlTJyDBHCnISOzPfHxr0wZMg1TiuqmkBk_V6TvzEPXO6EaxAym5gi26l4ZBF5w4mBZQscZloKUm8eTlLEryHcOxPjiMuMQhchbvhZih9frCy25bMUIQ1_GBQQNWpwB_Z56nrG2m8cyB_wQg/4w8p0beulXc1CKBLOZ9FFL19W2z0t6hW-ABBwDfbJx4",
-            "width": 80,
-            "height": 21
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
-    "price": 207.58,
+    "price": 207.55,
     "prevClose": 203.03,
-    "absReturn": 4.550000000000011,
+    "absReturn": 4.52000000000001,
     "logo": [
       {
         "id": "attmtrgiOfWvk94Zo",
@@ -75,9 +39,9 @@
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
-    "price": 19.36,
+    "price": 19.35,
     "prevClose": 19.49,
-    "absReturn": -0.129999999999999,
+    "absReturn": -0.13999999999999702,
     "logo": [
       {
         "id": "attCrr7Di8w5hXh83",
@@ -111,9 +75,9 @@
     "fullTicker": "DXLG:USA",
     "baseTicker": "DXLG",
     "rank": 33.1644,
-    "price": 0.9527,
+    "price": 0.9518,
     "prevClose": 0.9504,
-    "absReturn": 0.0022999999999999687,
+    "absReturn": 0.0013999999999999568,
     "logo": [
       {
         "id": "attF15uekPXVO3ucB",
@@ -219,9 +183,9 @@
     "fullTicker": "DCGO:USA",
     "baseTicker": "DCGO",
     "rank": 80.9558,
-    "price": 2.285,
+    "price": 2.28,
     "prevClose": 2.24,
-    "absReturn": 0.04499999999999993,
+    "absReturn": 0.03999999999999959,
     "logo": [
       {
         "id": "attcz4c2bIv4qthBB",
@@ -291,9 +255,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 554.02,
+    "price": 554.32,
     "prevClose": 550.85,
-    "absReturn": 3.169999999999959,
+    "absReturn": 3.4700000000000273,
     "logo": "sp500.png"
   }
 ]
