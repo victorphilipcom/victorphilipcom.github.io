@@ -1,5 +1,14 @@
 [
   {
+    "fullTicker": "HPE:USA",
+    "baseTicker": "HPE",
+    "rank": 15.6408,
+    "price": 16.49,
+    "prevClose": 16.24,
+    "absReturn": 0.25,
+    "logo": ""
+  },
+  {
     "fullTicker": "SLF:CAN",
     "baseTicker": "SLF",
     "rank": 27.9508,
