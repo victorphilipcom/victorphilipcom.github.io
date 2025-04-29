@@ -180,6 +180,42 @@
     ]
   },
   {
+    "fullTicker": "WEAV:USA",
+    "baseTicker": "WEAV",
+    "rank": 68.5735,
+    "price": 10.555,
+    "prevClose": 10.36,
+    "absReturn": 0.19500000000000028,
+    "logo": [
+      {
+        "id": "attfAokhrwDskX725",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745971200000/1F5eDd9UTVn0KnDLki-GlQ/UjTUDUfeV_OHByO930nKeRtniedwz-x2v7GRSlMbBZHwlRNOj-vzY9n0iG-wBUzVqT6kYMK6I7bYxMqs-KQ1HNolgRwJ9xWucq4yhiGP-rdhsuPGIvuq2OrZi5uZlOAm65Rtn2e11KAipDRq9tFQHhxQeWXVdLPQOKVA6ye-yUWQo-h0dfpeyBzbCag_hh79/XJ7aRoRPw9VbIJMOYSW7al4OeWKf3NY-2n8Rvj_ZkNg",
+        "filename": "weave-communications-inc-logo.png",
+        "size": 2497,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745971200000/YHX2wm8MMmOXkKk4_Yt4-Q/2HE41b-cJdcVBwhcCgGZl61FenYOn4W4PAJ2Aog2ZN1oSwwlpzCi_90gV17lE0ae6EDZP7yXx0HM-KiQWG783u1pPncJ3ifTNV4eBxNSzKmubVHb_M2dwY_3CK5I7sBFs7T53JUxe9FC5e0AaNaOIQ/Q328JOmlx86A4FONf5nJUkR5bJH9_ywHKd6O7uiyUNI",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745971200000/A7H1BtGu14Mu-ITFQ-gitA/p8-PuEJ2fuqI-pdX_9t5h_cslrTaCgSHF4AMDjiwrisDaOVhx-8QhOjstpQufu9IV0RbIecKAGmufE8-4IwvPB5gTzBjy0390a-FtY06MCSP-ODv7bdIxdkut2095b4nd_yeIsvNgUZdo8ngBIN0LA/pVw5mA4S1fo-Jw5UzbYnicN5DcBeBMpz5MPa9WGE9QM",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745971200000/SWFq9wBanzv5o_vrrbf2hg/tSQR4iIExMLrkAAVw0qTg0SopPnhfKLeEoeVbnG0YOeWd6Ui9EyQcvOi81ct3MkiPgflgA7-D5X25rYv1BXz8SQUcZhaoG7vjkLyDte8hSFaXltQ_2-ObNXcWRlws36AfXHpjTKIXcANgXf8Sf4eYw/ELe84o9jTOEKWRToVeFd8Wz9gsi9_33C3ZF3gUbKs0M",
+            "width": 80,
+            "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "DCGO:USA",
     "baseTicker": "DCGO",
     "rank": 80.9558,
