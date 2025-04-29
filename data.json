@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ROIV:USA",
-    "baseTicker": "ROIV",
-    "rank": 1.2224,
-    "price": 11.19,
-    "prevClose": 11.01,
-    "absReturn": 0.17999999999999972,
-    "logo": [
-      {
-        "id": "att3IpPCDbErkHC4N",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/1hAPYzJ15pLgRbZziFPslQ/YSYFyN9rZh-vYZeosijk7gV52Ot4_cBd_50MgWJ1p2QTUh_Jqkb4VynXqt7DH51Z40kTPecGCv3Ti_LMGKwTfITJ6FZhEeN1BS0ZAvArEv42IxaAfVT5iQMuf5GKN9Bxv5srHTL6L1PX19ZupIba7lcwzbd5X8q8pqyNjGqAhzbGJ28LPzEDqr0hgOK5TbNx/8KvO-4NbsfWKE8U7JEKL0cZq3JBKif0YzbMKuXfYBMc",
-        "filename": "roivant-sciences-ltd-logo.jpg",
-        "size": 1069,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/NuDcYx-TmlThnZal26El8Q/ES3UgXN58ESODQ4DF0TcnRZ5-og34JxPpGsDmv4ar4drGIewNNqNJKcOpZ4NKxneodh4N6a0_TyFS8uPcMLeu48AaFdU8FEz-0vUDspFoZsW9TmDHL8MRi7-JidmRBnwjEn9LSq9VsHI3cxSEiMB0Q/RHUdqRLjLOCBVfWnuwbqkv9-g8PXOLtrfCO1jUTCRK0",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/f5WFmYA6Kac6h_8LEORpqg/-d35z61FdWkXvveGu4BcUJmkIHWI3mvQ_Z_c9e6LEH0emxY9KCB8THNPRknLfn5pDA21PIYGvYU3zF2nekSwmqZ5ixJNntRM5Iq2QvxkG_Y1_2Ym1Kb-gaLPcnFWW1bQLT9JbAg1R754Wy12rNNo0Q/8GTkQOe7_gM2xffRUvMg-WF2795qiuT9dCn7NejxX5g",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/io-gAFM412Al3VMhyODkLw/EO15OQXoC5a_dZ8nDIrdfvnG9h1SrtWHpBVq_9fKX-QzaUS4lnvvKsup7_ncpVmRQgNPYRDq3m_tgYlDpTPbfANPd4OT4-9WbDNKje1N7OLEbGWvHomhUrh-gJOfRlSK-MIr0Yjh_gGgy_I9DFWqbg/XIeIQ3emrYrDOxytOyxYA5rmulXBSegItTTfzgzsICY",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DAWN:USA",
     "baseTicker": "DAWN",
     "rank": 2.4448,
@@ -210,6 +174,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/eRPp19-bhwSfx--GaGnpog/U092sOcIFOcdKlN_PhEghSZMTDvbkt-eMOiD5Io5u4k7NNDMTVSN5HCMFgGH6chRZgX18OA9yLQXWJmLt2EIbFomZ-lFVs5KZggyh6NK4cxPIG7eRWjFdOXcsr-n7sgVJ6uaBCeQJWIo_PTkT2p_BA/xRFPzzrMgIgzwIXFGOwk3wTimUluKkvQFHKIwiTmyRo",
             "width": 80,
             "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "FSTA:GBR",
+    "baseTicker": "FSTA",
+    "rank": 65.572,
+    "price": 50.85,
+    "prevClose": 50.94,
+    "absReturn": -0.0899999999999963,
+    "logo": [
+      {
+        "id": "attw38jFXTtzhxJRD",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/RB62eDcvFiKmspW0I4GQ9A/WUWxe5RemkUjKq2RRGhB4L0XoP5BrKjDP3mE6bbY7Z5awANn0i3vuCbMEKvD5Stp_2WC2qptsP9s7kriJHTMFBHL92NE4gct4KD2kxHWkLHwu_Liow7M7ChBvcF9DVXF0Sn8YgLsGDWz44Jdwe8mnAPlGZJKn9-L4PF8_kP7D6Y/9YIbCH9mpGJj7VSSscOlK6pI1-rubx4DNv-qoRHbkOA",
+        "filename": "www.fullers.co.uk",
+        "size": 4478,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/tEL6-lXmPrDncvgY1QtkuQ/1esmIY97dLW6e6pwBcyJhxJ0OltGGTI6hrwle-gKBGjIawQWWmydXjsiJdcKn9HV9kT4-dWVwu4y7bVX8GMZBu42nNwWOETXaca6o7h-Vy6AG7obMIjlC5TIejldjAwxJGu7ueJ01QfP3qOf9MqdtA/eahsqXYkYv8j_5GNLtcCvV_kyaooFHIyeJAtRlCgM2Q",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/1hz5qXQrxRF8QoFi94LIaQ/1x5beomCq7xe-20nUt8L_KO54V4R0QEljfzfs8SU-pIh07hbqLeUXSEwV1HNU2SkfbsnEQWqFgB-KLM8P3-cxc5FmU_NBMJzi6jcqBZ6ElZMdZHLkoT-2zYQZZlgwAGSHmfoVxletSVrlUiTm-PEaQ/eBrEyNUOMrpeGaEXYqDlmeVwpYFo9Udu2MinkARK-_8",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745928000000/en72rX9muwiPc7KHx4MZ1g/ZiQaj3u3uHf4sxRjIjp8gDDCAIe9kKkcTo27JyM346zd4WTo3MkjF0aInwU6uZUE-j4IELEHUSOSsly1nvsvHu1DS_diN_s80lzsliKHh-4_T7ZqZu0Y2M2G4cObuo2Buep3LqPTm3TEiLWAntra1A/iy0GI41d_aFs10R_CER1htnwt7vwxvDdHz2jTuNRP44",
+            "width": 200,
+            "height": 200
           }
         }
       }
