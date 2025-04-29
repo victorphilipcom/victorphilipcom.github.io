@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "FN:CAN",
-    "baseTicker": "FN",
-    "rank": 16.2744,
-    "price": 207.55,
-    "prevClose": 203.03,
-    "absReturn": 4.52000000000001,
-    "logo": [
-      {
-        "id": "attmtrgiOfWvk94Zo",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745978400000/AUYD_HxjpnkHOIH2T44-3Q/v59mThRtrqPQ9yPj3JBJBdduZT57aBrb1qwQFftPqvjNgQRIGOJbsewyuVvUuZhR4QBDUdhR26vYsGOfCEeCvezU-_0QKUjNt50oU1CjK4DHJQyeXe1UgwhC1tg4vjESWI1jvaAtCOS892l_QxH32KJ6-vH5_FD0txuFfn1Fib0/VTYuu3TgZExlK-ouazuTYuiSqKOIkYUM0ByEvzoNKks",
-        "filename": "www.firstnational.ca",
-        "size": 2477,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745978400000/_Y90fJA7VYavsJpE9MX6Ew/M_NphFupuNh7f3LVad6a6LMAGjFiSwCDU05QdpNOGWMF1nJCPx8xfyr_z5axWmh7jgWan9mERCPzhRepBquHm3JLSoV-xeENuelVc5mRslkzkEtrlcfo8YNU-sip1hD-Nkpxbrx8dRlJrzY7rYmXxg/ZVTg5do6XvLe01fZsqwy-yicRJMdXmlO5VU4LndXLhI",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745978400000/TaB3SWopk2bQcZIndJUnEg/t9iNp3bTmKm3ZC1UuCMe4U5ciCxGXl2U5GU6lEQ751-aC-6DbKRr68zfC5LC85JJgTgwRPnA3SdCv2uqAHi7AoD_X77ETX7e2gIWVsH59BQAe2NNC-GxqlHHmjgRG3goDfD1hrrTPAcRri66qzb2Cw/R689JuO_mmnRsS82DbrqXQg16S8VI_fIgXgLb2-4V_c",
-            "width": 200,
-            "height": 200
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745978400000/X5CyoK3j6mm1cG1loUqq-A/lqVRLEvOg_LI20MCVRXLf5lJVR7deXKYfMj66-MiejrRTJHrF7cGlxwKtPN2kSiNz2uuh1WmTIQf3ZAFmWdPpVX6X96zjDu1aX4CeA1Dd-P3cR8iNL78YQaKdmMHNz8gEd-ukoesMl-vFk3F1cQvwg/7vSpDVBPIUOWLj0M3GZ2LNF1RH7EIkWm3zytLHPYfz8",
-            "width": 200,
-            "height": 200
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
