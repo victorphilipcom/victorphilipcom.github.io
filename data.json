@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "DAWN:USA",
+    "baseTicker": "DAWN",
+    "rank": 2.4448,
+    "price": 7.74,
+    "prevClose": 7.74,
+    "absReturn": 0,
+    "logo": [
+      {
+        "id": "atth9YbtDIOMFdzon",
+        "width": 80,
+        "height": 35,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/Wwfs284eBgdBESChxecKXg/JGfBBRabUGE7-C-lY9tqQCFnUHP8aIa9u7j0piG1GXpKfDaRklALH3eWnjmZNzEVxo9bkQ0wNuB5uM9VjLybuPI_pTC_5_EIErWZYQguhOsUefJpzHOYLO9dwyUC-4mXnzbTe3XSxUOJMHCrv9cYL85_steV3o0yBNV0cYriO1QCSgIS1DGgzanohC2dG3XFYblsKvcMMBn4Yp-oo-Uhrw/UaTlDB-zxb4GiD13-6cmVgOEKD7lQD45c9USB8calJc",
+        "filename": "day-one-biopharmaceuticals-inc-logo.jpg",
+        "size": 2171,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/-UCBTFPQK8FZqkBF2VORRg/r1R7CKP98s_uJJop-FOfP9eWA8eGtdTqN2Nkdm7acHp3XRpXrB-zdBGnIRJe3oajrhfZJBMSe0rym76TLHYQ1NGfL9a3JYgk8ljzo9hzmaTGyfMsV22hXWv4tkLHcUZJdH8mJFFrhtXVT2ZjMs2YXA/fdVk2rfLViCCnVMpnnlyd4lavi334Qgdu-InHLRH2qU",
+            "width": 80,
+            "height": 35
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/26p1I3jhBUErSlUrPePSzw/H9pU_lePO9N_hpBeGjQF0YR8lM_dq7XsSzKtxHm6NtMPKKvlDQTJSAXzCl5czetVzC5WP8Tw1EvjpjKHSgsMM4vx3-s8KOmk56csqo2Cpq3B7FeCsQ0OGD28mnwCU8Ilfs-QOd1dqUQjXjUp9ttBVQ/X_xNMokX7X-Alu2xhNfXGV-aKHtLqkqtppY1Kl-dr_c",
+            "width": 80,
+            "height": 35
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/vZXyEYK67433Da-HIUcsCw/-sJzHJBsAFnoRQJ0wbLlo6XZkNplaGxHn6hQ60GK6_4Z7le4_jimAmDnQp5o8zMsxiGV50NGRa4sEMO9PrEkN0rJVup3B_elBzMQQcsTQEp9kZ-S9r4AsxkTqrO-DOCntpx7VkzYmFssHFt8vCK5nQ/jk7yZ7TF8CE1ozHJOqUE9YO5SRqcIMQ6MpcTX9F_r3k",
+            "width": 80,
+            "height": 35
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "MP:USA",
     "baseTicker": "MP",
     "rank": 2.536,
@@ -246,42 +282,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/Rt3wfltN0KQlgzC1Plxdzg/HZDxWhqgN8d7-tWSEbNxZs7lb-auQ7hejbMwePmw8BJWa3rPkcJeQYsnuE_1ac5kjU9kEYe8qEN0XJOQBxPFGVl-pdwJkA87g6rIMmWIwd7DV-UExXQqKuhG6dfGB__iN-G4eG5qgj7RrTTuPWwTyQ/UzifPGXlsSqisbom_ut0QgEDKbyPKX8Ax-8wKgNVcvY",
             "width": 80,
             "height": 13
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "FET:USA",
-    "baseTicker": "FET",
-    "rank": 93.888,
-    "price": 15.13,
-    "prevClose": 14.92,
-    "absReturn": 0.21000000000000085,
-    "logo": [
-      {
-        "id": "att1Afc0dnnqt0yve",
-        "width": 80,
-        "height": 38,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/pUjyOAF3T3GwCIX275rq8Q/KHDNbtOQ60GMBYvp_aTcVPrQHGP_yuAZwnirpnkAfYKOU_UyQ52hnDV14ZeLyFIugEUvJM7QmEAsCQXkWV8lOXoo0frDN1nkj2HcKyDRqabU7vOGYmNTkMeVwK1kO4Y862rMBtZL3HuGSPlEmMGrshVw_cxYYXSrL9ExggTqqHt5bc0opJ3DnOn7dIOQ9nZB/0jzCCSvknfLwWllXtf3VRtGxHFPJa2MkOMX0X5zTU-w",
-        "filename": "forum-energy-technologies-inc-logo.png",
-        "size": 1533,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/C8rDSG1Toxr189IJwM9XRQ/o_QLeNuVIuvJr3xQlpK-rj0HtL2ozA7nJvp3NksNGW0rY__opN9PLpwscU6_yBgrhsrq2GXSXcRO_NkYylUqrgVkLUra8cmUe2W3KSVJuQuCBuh_QchL5fnPMBCJyB04yAPEYJY_W8isRO6FAizkvg/0j_0YkM_bgsCalgycuXC88dtVPl0BmNEKNlRgXC1PpA",
-            "width": 76,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/9zBQV_ZavMC_x37MFGJ-Ug/aRHJ784uB3KqjiFj0JDvvUTnJWY0fJUUuqppyhRecODgGdm6_6LxK3OMxQoCdXLEmMMLriorbNgWSdzY21YMk7pJJ_h57RDBjomHel7NHvOwMb9gyGilqzVmEhsuPchMRJDYoUatpUFqWb8iPElEKg/_ldusyqC-u7Uyvt_ROv7U_UKX58mpoozlVJBk6F5oKA",
-            "width": 80,
-            "height": 38
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1745920800000/vLFFVwIU_2cWWlYSc0fxBQ/bL5p0Mlq9ELg1_tmO-IdzaiMVMCTUs8Dke-cCVkH85jEEtGnD4QDTfpVIkpMHVGb3WbzcJUy51tgpERBxRtcbOnzXeI-1h_IT5my-7b5nN9tPzxxTJ3ev33Vz-JwDp6-ynaFMZiobI3QO8GDmMOp3Q/nB0563F3zNhgKKTLPEI6gbh2Ccut6NI5InGc-BEstko",
-            "width": 80,
-            "height": 38
           }
         }
       }
