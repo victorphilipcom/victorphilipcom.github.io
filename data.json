@@ -1,14 +1,5 @@
 [
   {
-    "fullTicker": "HPE:USA",
-    "baseTicker": "HPE",
-    "rank": 15.6408,
-    "price": 16.49,
-    "prevClose": 16.24,
-    "absReturn": 0.25,
-    "logo": ""
-  },
-  {
     "fullTicker": "SLF:CAN",
     "baseTicker": "SLF",
     "rank": 27.9508,
@@ -69,6 +60,15 @@
     "price": 549.74,
     "prevClose": 547.27,
     "absReturn": 2.4700000000000273,
+    "logo": ""
+  },
+  {
+    "fullTicker": "UNF:USA",
+    "baseTicker": "UNF",
+    "rank": 83.2006,
+    "price": 178.39,
+    "prevClose": 177.39,
+    "absReturn": 1,
     "logo": ""
   },
   {
