@@ -1,5 +1,41 @@
 [
   {
+    "fullTicker": "SAVA:USA",
+    "baseTicker": "SAVA",
+    "rank": 5.7024,
+    "price": 1.55,
+    "prevClose": 1.56,
+    "absReturn": -0.010000000000000009,
+    "logo": [
+      {
+        "id": "attc4htx3wJpDcDeE",
+        "width": 80,
+        "height": 21,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746057600000/UFjjxmG-p59GYq22N1corA/79HLdfEHuYXgU3BOWAnZ-UHKM9PDmTZ22NkCZGz3reuv5neR7wLntk6JxZfi6zip7-bVB6UtRz71ZUMxXpbamPnPCFPieyo3E8kgX5m6ivJtuzlldvfzBp6tBREyRvw33PxeBxxrwQYV0pg-ldPQnbwf8XfrhhrpfjIK57LTYJK2_McjjxxiVTa7DmJkiihI/Ip9UY4JYTFQ1ESg3wYBQjZO8gZzjW197joOA0Gdhetc",
+        "filename": "cassava-sciences-inc-logo.PNG",
+        "size": 2653,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746057600000/d-VyxR7YzlhtKalqgMEpvQ/6zhEf06pEplGKwtujw5o7pMIEci1vsc62hndJkuM6AJrugNz6Asj6L98WXeFyyAgIPaaq8a0fic1J2Dd58ijM4FfFwEtW_Rdo8X6Bv-LWsZgVy6QNvlJ_7Bcg21BgX8c582YXtoC0jq8FPclXbX4jw/WAzlpp7W9vBEtvTt6tAggOi6gvJ6GEQCwPt9i7pQc_A",
+            "width": 80,
+            "height": 21
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746057600000/Mtm6s59qME3viHaulwSxJw/3xWRMtQ0X7PVHIMRA3ThYmosuIfBkcN19vC9KnKK4yzKJHBmrgkyjpmvGJuh3bXTeaUIgEPltZHEFai1rYAjZH_qwc5FW_StZHSWyny7dUnnFSdWKRupAM7opxDxMC2d9W3xp9ARjJKCxy4izv8NOg/V9kJf935c_l1NSlMmNAsASvXKyD7jxzyQed2PJPw9fI",
+            "width": 80,
+            "height": 21
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746057600000/k26J1yFj89ZUXit5ijs2Aw/6JD4C3sSZgsC65KlOC6kg852JKOtoJfWq4BcoCwyLvgXFhXBX40ZWS70UGEz3VkDKgrkex0_kB6oTrSJZfcwLYpSSe92iH0_vS6ZN302rBeAy4dFapT97OXa-boqFyhOiAN2jYyGKZvNd1tpHunu0w/djHJ6Jd-KaG4_Ao4U4dH7-AqgbmHFRaAONH-6pxlLes",
+            "width": 80,
+            "height": 21
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
@@ -216,48 +252,12 @@
     ]
   },
   {
-    "fullTicker": "KINS:USA",
-    "baseTicker": "KINS",
-    "rank": 97.3932,
-    "price": 17.005,
-    "prevClose": 20.12,
-    "absReturn": -3.115000000000002,
-    "logo": [
-      {
-        "id": "attFGEEPDdqZ96Tng",
-        "width": 80,
-        "height": 24,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746057600000/MBvp4THWjBhueWQE56WO0g/_AZ_5-I4-b9ss0BdZJtyKy91O1SJVeSVhAFzK6bA1W_Sxg180TX8EY4ecUegC0tnVwSBMtDLk_cF_Y3mXoYOU8LnRxpMd5LRkTUkJHj4acqipPrrajR0VUl5hXNYzsRB2kN5LzpohtvkRRS_CYtTgG5wZQe1LKK9b0w8hsFnbT6ekW0f-kK5SCnSfdG5c8zp/iSHkoKnPeXg9qBdP0X0KjBj8kKkiir0xYijto2XI0gs",
-        "filename": "kingstone-companies-inc-logo.png",
-        "size": 2167,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746057600000/Fx-8Q3Gzg--43YrUJYA0ZA/gRo5HLEmXtJRg8i8Qu1N218drBtpzDF3FCKIk4eR8p-KS-roY8Q2WWb3BDnTI9AzY_K5go9qp17wiZDJxZh5nu2S4kpp_HSbivHcw-5VQg9yl6w2FfeLBwNPNIQk7sr_XrVwdvFJT2nAkUrTIUI5EQ/YucVSPaUm5CnYT4FgUn_Q0k0IWBcEpBSjyMUvSooscI",
-            "width": 80,
-            "height": 24
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746057600000/7MHzcGAJgyzNLcStUF2Nmg/vchrD8NQhnco4NSgQwnl1SBP74qzQqgzx58QS27j1iX2rQAzypkH_3CYr1oYfABn-AHZwTPDH9DDEgCiteeE_E3vIef0YaoEwVPJpunggBkdGVS23_VMbHGY85xeMIKqqjKxzHt4w_OaqyPX_JmPhA/iFB9_lF2ybn3svI5CYrqB11-FSbLP92bKaRAs8sXHwU",
-            "width": 80,
-            "height": 24
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746057600000/wTeGfvRRTAy4oMojMZPWoQ/9VXxy7KFqY1Obzz8-wMJaaHYeXeJYsy4b9wO_lem-CBB-PDNsRcui2I7i5PZBjM-ib8VN_rCArBpIQnPfb_hbpMGdvxzokqzrWSKWrbZX2DmqbHQFGqSSzx_dr1e9sPBF2uHNtEDE15yOzaPfnejYw/yuXd2SXY3699ZP08YEza9nZgWyia4DQrhhObfj8Q0NE",
-            "width": 80,
-            "height": 24
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 558.15,
+    "price": 556.545,
     "prevClose": 554.32,
-    "absReturn": 3.8299999999999272,
+    "absReturn": 2.224999999999909,
     "logo": "sp500.png"
   }
 ]
