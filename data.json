@@ -1,47 +1,11 @@
 [
   {
-    "fullTicker": "SAVA:USA",
-    "baseTicker": "SAVA",
-    "rank": 5.7024,
-    "price": 1.56,
-    "prevClose": 1.56,
-    "absReturn": 0,
-    "logo": [
-      {
-        "id": "attc4htx3wJpDcDeE",
-        "width": 80,
-        "height": 21,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/gNXVVMbcPTYhAHqTGOG0_w/0-1WJepPzewgSJ3k_ndA6M799_HGSmE_fqRDqyr_RB0_fn-q4A156oiICvp5jLM6pC0Ry3OzpYa7682-5jYScDy7VDo6a3eKzHpI5HGyXJYJiGIKYkTKtXKKQhBu3c978FxE10Hy-bhqjv3x4LI-biEIv8QA8XtfhlB5Mvv4Bm808wykQUXfWmA8N-kOPW5E/kHEFsa6FXhzb9M3VJVczE829AltnYO7Kzfz0v3eeSrY",
-        "filename": "cassava-sciences-inc-logo.PNG",
-        "size": 2653,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/OKO4eAX-GmyjCpBlY-eA2Q/oUi34oxjwhoxqef8i0u9sfVgffvDGtmOipzXvBwBNBE-YHTsPVKp-To1VFJlXSrzHDYBMuIQbuyT6OEJkNmWw5yuAAosv3ccI9FhYh7_yB-M9DYmxb4qqlKK9YE6o8i6ye2zLr15lY99RgwCw-p9Rw/HHltq3KKv0yNlVoKhKf5bZqLYbSguaLmd1fwZcTs9OE",
-            "width": 80,
-            "height": 21
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/0kCjRjVFcFvuIJ7u_R1npg/8KVkQn6ncGRjkPv_0E6F9O3Ke1bTQ9VfsgcGbVj_goqTZJJqd6W_iRksLLvWrOo-7CI2z8V7LcMk2_mm3zY3xzQMDwg-y5-epx2pfD-qRYaP3oTkp7pIPiHGSYKTmXkiT76ayYVIX62-vQcUL8Mk1g/tHumuZ9Qr9oSviVXDBMIxLQRwA0gwz7PVlOHY_KF0lA",
-            "width": 80,
-            "height": 21
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/Y1Y0Mv8P3MLW2-ZwMDztdQ/53cBYH1GNntMRjzkwLbVPiuieyRRJTcBnaefLo2y8Tl8f9-5HnJVO0Ii31MjVhkQ92wxsDWYxMYJY9MsrSOrYbS3aw9buxLsgFT9Fdwo7rR6IzXUew6urDUYKBPLVbLRohKqgqWDG250oxhOucohLQ/MJ7JzKuZKv1XfMFbt-Ljmu4YDEvh4aXs5HQUaI0zUsQ",
-            "width": 80,
-            "height": 21
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
-    "price": 203.505,
+    "price": 203.6,
     "prevClose": 207.55,
-    "absReturn": -4.045000000000016,
+    "absReturn": -3.950000000000017,
     "logo": [
       {
         "id": "attmtrgiOfWvk94Zo",
@@ -75,9 +39,9 @@
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
-    "price": 19.505,
+    "price": 19.42,
     "prevClose": 19.35,
-    "absReturn": 0.15499999999999758,
+    "absReturn": 0.07000000000000028,
     "logo": [
       {
         "id": "attCrr7Di8w5hXh83",
@@ -111,9 +75,9 @@
     "fullTicker": "DXLG:USA",
     "baseTicker": "DXLG",
     "rank": 33.1644,
-    "price": 1.03,
+    "price": 1.015,
     "prevClose": 0.9518,
-    "absReturn": 0.07820000000000005,
+    "absReturn": 0.06319999999999992,
     "logo": [
       {
         "id": "attF15uekPXVO3ucB",
@@ -147,9 +111,9 @@
     "fullTicker": "TYL:USA",
     "baseTicker": "TYL",
     "rank": 61.4048,
-    "price": 537.16,
+    "price": 536.555,
     "prevClose": 534.15,
-    "absReturn": 3.009999999999991,
+    "absReturn": 2.4049999999999727,
     "logo": [
       {
         "id": "attthLVlwqccgAJxU",
@@ -183,9 +147,9 @@
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
-    "price": 10.555,
+    "price": 10.545,
     "prevClose": 10.56,
-    "absReturn": -0.005000000000000782,
+    "absReturn": -0.015000000000000568,
     "logo": [
       {
         "id": "attfAokhrwDskX725",
@@ -216,12 +180,48 @@
     ]
   },
   {
+    "fullTicker": "DCGO:USA",
+    "baseTicker": "DCGO",
+    "rank": 80.9558,
+    "price": 2.245,
+    "prevClose": 2.28,
+    "absReturn": -0.0349999999999997,
+    "logo": [
+      {
+        "id": "attcz4c2bIv4qthBB",
+        "width": 80,
+        "height": 18,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/vqJeZ-lA0hteztK_tFsXwA/dOzogf7RYWUITYwX_8MtB8AqP8WwZ6LyV5ZiRCq7g-ipBsD3pL4Dkz0tKNiWWydJTjUdOQyPxsF7oQSY4nIfqTPfjlhMJIgGIQDtKrQyK705Ynj893yzHWuxyBmGlyMaTj_KASKPGZ6H9RCLX0p1mRM0xOmLF_yJetmmNXoaK18/DfbKCJ3FqllOTb-EFHQC6-l7JOgF_dd7GJ6koVuS0pY",
+        "filename": "docgo-inc-logo.png",
+        "size": 2519,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/sbwyJ8S1kUXvKYE2hEp8tQ/FpzTGlIp49ftl1nwxrjXbjszmh7kYU4sN2hXsDBc89LEjnpDG4yN1Vkj3PpcinmbkYaJZAqscGfIp1FqGVEkF_pC6CK6E-x-9gxCPqWMCNzimMNTQCGVJr5L_TJ-0x-6CVbAZRgVJl127Fou_UF-Ow/9l5lpgooSbm3cE5IzUIS1Sptg6K_Ke1her9nDbYvmLQ",
+            "width": 80,
+            "height": 18
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/8ncBWN8wuq0bS7oNpssHuw/tB87vxmROoR4OytyYY8KLfpkS61CY_1O-_v7JtQ3w058cTBmmgCBXNakkgH6oocl-ydySKvz--FP6BpESb6H5fWjvBDekBGEAGOYG4-Xx_DR_0VNywu5ZzvwFm6ZoN_IhwgAP993GAvgpK_2b74Bog/y1TJlKwMEhhBMCZdchT8iUpO-y897Z3B2Pn9REe95jc",
+            "width": 80,
+            "height": 18
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/tAFvPlsxQBnPIqjMK_ywzg/XZYXG8NE0t_lN1qUpJPrLgyt2bmRXSCG_ToMEANPcIIGw1Yeg49hZOBcdfCKob5zkvaBFPknBed84G46c49brw0RwcLlfGTIciZJlL5g_qRX498lOXxIseRfy7dz8yv3LrAajhuh1nEITuAUHRZYeg/R2zT4p4sg_vn-y4cIhWsLycXGGu7XI4qhlY6NQc67ko",
+            "width": 80,
+            "height": 18
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": 97.3932,
-    "price": 17.455,
+    "price": 17.285,
     "prevClose": 20.12,
-    "absReturn": -2.6650000000000027,
+    "absReturn": -2.835000000000001,
     "logo": [
       {
         "id": "attFGEEPDdqZ96Tng",
@@ -255,9 +255,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 550.71,
+    "price": 549.96,
     "prevClose": 554.32,
-    "absReturn": -3.6100000000000136,
+    "absReturn": -4.360000000000014,
     "logo": "sp500.png"
   }
 ]
