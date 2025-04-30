@@ -1,11 +1,47 @@
 [
   {
+    "fullTicker": "SAVA:USA",
+    "baseTicker": "SAVA",
+    "rank": 5.7024,
+    "price": 1.555,
+    "prevClose": 1.56,
+    "absReturn": -0.0050000000000001155,
+    "logo": [
+      {
+        "id": "attc4htx3wJpDcDeE",
+        "width": 80,
+        "height": 21,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/gNXVVMbcPTYhAHqTGOG0_w/0-1WJepPzewgSJ3k_ndA6M799_HGSmE_fqRDqyr_RB0_fn-q4A156oiICvp5jLM6pC0Ry3OzpYa7682-5jYScDy7VDo6a3eKzHpI5HGyXJYJiGIKYkTKtXKKQhBu3c978FxE10Hy-bhqjv3x4LI-biEIv8QA8XtfhlB5Mvv4Bm808wykQUXfWmA8N-kOPW5E/kHEFsa6FXhzb9M3VJVczE829AltnYO7Kzfz0v3eeSrY",
+        "filename": "cassava-sciences-inc-logo.PNG",
+        "size": 2653,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/OKO4eAX-GmyjCpBlY-eA2Q/oUi34oxjwhoxqef8i0u9sfVgffvDGtmOipzXvBwBNBE-YHTsPVKp-To1VFJlXSrzHDYBMuIQbuyT6OEJkNmWw5yuAAosv3ccI9FhYh7_yB-M9DYmxb4qqlKK9YE6o8i6ye2zLr15lY99RgwCw-p9Rw/HHltq3KKv0yNlVoKhKf5bZqLYbSguaLmd1fwZcTs9OE",
+            "width": 80,
+            "height": 21
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/0kCjRjVFcFvuIJ7u_R1npg/8KVkQn6ncGRjkPv_0E6F9O3Ke1bTQ9VfsgcGbVj_goqTZJJqd6W_iRksLLvWrOo-7CI2z8V7LcMk2_mm3zY3xzQMDwg-y5-epx2pfD-qRYaP3oTkp7pIPiHGSYKTmXkiT76ayYVIX62-vQcUL8Mk1g/tHumuZ9Qr9oSviVXDBMIxLQRwA0gwz7PVlOHY_KF0lA",
+            "width": 80,
+            "height": 21
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/Y1Y0Mv8P3MLW2-ZwMDztdQ/53cBYH1GNntMRjzkwLbVPiuieyRRJTcBnaefLo2y8Tl8f9-5HnJVO0Ii31MjVhkQ92wxsDWYxMYJY9MsrSOrYbS3aw9buxLsgFT9Fdwo7rR6IzXUew6urDUYKBPLVbLRohKqgqWDG250oxhOucohLQ/MJ7JzKuZKv1XfMFbt-Ljmu4YDEvh4aXs5HQUaI0zUsQ",
+            "width": 80,
+            "height": 21
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
-    "price": 203.75,
+    "price": 203.785,
     "prevClose": 207.55,
-    "absReturn": -3.8000000000000114,
+    "absReturn": -3.765000000000015,
     "logo": [
       {
         "id": "attmtrgiOfWvk94Zo",
@@ -39,9 +75,9 @@
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
-    "price": 19.495,
+    "price": 19.48,
     "prevClose": 19.35,
-    "absReturn": 0.14499999999999957,
+    "absReturn": 0.129999999999999,
     "logo": [
       {
         "id": "attCrr7Di8w5hXh83",
@@ -75,9 +111,9 @@
     "fullTicker": "DXLG:USA",
     "baseTicker": "DXLG",
     "rank": 33.1644,
-    "price": 1.035,
+    "price": 1.005,
     "prevClose": 0.9518,
-    "absReturn": 0.08319999999999994,
+    "absReturn": 0.053199999999999914,
     "logo": [
       {
         "id": "attF15uekPXVO3ucB",
@@ -108,48 +144,12 @@
     ]
   },
   {
-    "fullTicker": "TYL:USA",
-    "baseTicker": "TYL",
-    "rank": 61.4048,
-    "price": 538.75,
-    "prevClose": 534.15,
-    "absReturn": 4.600000000000023,
-    "logo": [
-      {
-        "id": "attthLVlwqccgAJxU",
-        "width": 80,
-        "height": 79,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/uxTaQn3A1G-fUlzcsa1AYA/YXHTRdgEZY42N6R4B_KPprUbj1qgUgBrsAatmE51duQeqi3PFpjUoiGlBKwJjW3crbCHh2j8mrGAtdPncGH5F7RG1fAfeoMZtkoPjQHhmDmdoKdB7t4MotfJvERwd3hKg_hww2ZA7s7iTqN73U8sepCIyhLlj8GJDawA_eX0BKFC8X2XsaEgf3451mkCzFvv/Ch0y_gE7H2tXlWLhpo48ic363vzlME2k2HHxSbv5FZU",
-        "filename": "tyler-technologies-inc-logo.png",
-        "size": 3411,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/E7csoovNQ43p0zEecm-Fnw/QiJ2akg_avjgL3IHpAofRL2m2JrKeuYua4LEXehrU67x9TUUCzkO5bpW_8y9Bo-M4k-b5z4Jg6rgIEM6-kctW8rW-N3CDh5moK1crjMgtxDNFmfR550eUNukS1zljM5QftaLGpEHVZCvEdDI9Gnr9g/R3gTTlT6gESQuEUtoYfQNmDS0eTQDb7EF7Xog6FHh2E",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/lMCVY8lGgIGIHqziW9kj3A/v0j2yWamhVdbnxv4qL8UmhT1a2KUN-F36j-INR0R60fEkxrkLI6546tkP5ZquH3gPZFrFQFRQ93MWzqJFvWNatrSx0XxIL25eJhgZY0Hh9ewVGxRPyXJ8y_HClubW5QsRnOLG9Yy3E6jQ1aPAJ2v4g/0mFPeTZhW7HeaBrinAXKAV7gF0U1edcyM8A08kLqQ7U",
-            "width": 80,
-            "height": 79
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746050400000/_JTLOvH13o3MDvTnEWIKbg/D__izXoaEuImkHVLoRDrdtYF3UepxHmZJC8r7GH3gVNWr_KnJ6RyJrOKRQ70n_tfrKOQkYhhCgvfFgr59IefqQyPqPLU4KZd59WaWA_zNfFZYuBCxU3ti39Y1_DycCMqPyIfY2pjTmxGreNlrkPxqw/qvpIazGqgi1zVzqD8bpZ8Ib0kjrEKryDv6_7dcAQ-Sc",
-            "width": 80,
-            "height": 79
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
-    "price": 10.57,
+    "price": 10.605,
     "prevClose": 10.56,
-    "absReturn": 0.009999999999999787,
+    "absReturn": 0.04499999999999993,
     "logo": [
       {
         "id": "attfAokhrwDskX725",
@@ -183,9 +183,9 @@
     "fullTicker": "DCGO:USA",
     "baseTicker": "DCGO",
     "rank": 80.9558,
-    "price": 2.25,
+    "price": 2.255,
     "prevClose": 2.28,
-    "absReturn": -0.029999999999999805,
+    "absReturn": -0.02499999999999991,
     "logo": [
       {
         "id": "attcz4c2bIv4qthBB",
@@ -219,9 +219,9 @@
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": 97.3932,
-    "price": 17.53,
+    "price": 17.46,
     "prevClose": 20.12,
-    "absReturn": -2.59,
+    "absReturn": -2.66,
     "logo": [
       {
         "id": "attFGEEPDdqZ96Tng",
@@ -255,9 +255,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 549.975,
+    "price": 550.445,
     "prevClose": 554.32,
-    "absReturn": -4.345000000000027,
+    "absReturn": -3.875,
     "logo": "sp500.png"
   }
 ]
