@@ -36,6 +36,42 @@
     ]
   },
   {
+    "fullTicker": "FN:CAN",
+    "baseTicker": "FN",
+    "rank": 16.2744,
+    "price": 207.55,
+    "prevClose": 203.03,
+    "absReturn": 4.52000000000001,
+    "logo": [
+      {
+        "id": "attmtrgiOfWvk94Zo",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/u6gS8qdU9s9DZQ96RooHgg/QObZWZrucIgRBqnV4iiGCtelNyR9qakMNvMqmQTCltsKygRQKP40h7uks-Z3F0EnNu2We_J5ZHLj5Fx9siooEJMPc5pZKmO5pQjYaNo2iW9pVdA6WZbkbHlQoo0nzp8uDab9Wx1jq134MOEwOsUVSLPaqYFuVUpqp1F8DY24eTM/j8ppIkov5H3gNgqE_zPXsQTyDSXCq7LnLQXR1L-hSA0",
+        "filename": "www.firstnational.ca",
+        "size": 2477,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/s7bZlGQ1sFfdlEgImQP7KQ/H9fXok3NaHQoXupFqm2sricqvB6iqJ6pqBHGlnFQP0Z048IACYSHXcBLMA04-n12w5WYWzkUQTgTj03EuhtYQNFx3ijeranLY6lhkL7J9UyOuqHtpJFcH5C1wmm1RYeC7fX8Q-mUgSSDcMMIaSI3ug/BidaEJmGbi-WTLobYb0UlhAGDprna-PN9v_OzygSgJM",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/mZVpVq2OIoouEj2ufVEfXw/YbljOOyjVV3BB3_yRE2hUJ0ZzRROwgPwTtNE_3pHh1O8OORWQst9vY8PnoWJR8ued9C6ztYzcZiIKL-ytIYm45u8deFimRgJ1zxEg02jPJb4ceJ-lV5YLl5RzeG4zH_3s8PiQ08vhIIumu9CbOFHMA/j0aEBNDuX8syxPmj2Fp0P8dHs3xhlTbRwGo9lPf6ayI",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/5ES7ypNGnX0C3WX4f8sSGg/KxQKCFvDRxyi39w42hqnTNqf0L_3o7buZvbOWlK9fG3JeS-7gM2kQG30zvuDkr1nhIBdT8WjQM2eRTyZW7C1JJot2AEB1arHkD-2fWmzpLUtc8696KgPTrgvF-1sV_CRflD8B2NBEDfersm22ewk_A/Nq2qZSZU4fwqdfyl4_3-JpAVh7ixLnR1fYlVhnwecVA",
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
@@ -138,42 +174,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/Ic2bR-KNQUqVcJK4rkCU-Q/4WCkDNX40FCdYvRQHUygtCkbl7dh6VXcfA26Ar-3kAzp2bMy1Y6Auc2ToWWlJhcKyPGylJeITlKGf1VNv-9K-Pr2Cy0-7IUi8O8Li32xw_afc_Oay3QYWPWathjKfiVokhz_IwLBoRWp0gep3xxKpQ/gcy3cKeOXln8INkb1Me5fQfQumrSg7-Rb2uATIvdgSc",
             "width": 80,
             "height": 79
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "WEAV:USA",
-    "baseTicker": "WEAV",
-    "rank": 68.5735,
-    "price": 10.56,
-    "prevClose": 10.36,
-    "absReturn": 0.20000000000000107,
-    "logo": [
-      {
-        "id": "attfAokhrwDskX725",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/5ks12J2XrRLL3hr-5B-PEw/Y4BPRyhYA5zgRva33GNtrWfznqEIl3mJyrGE6z_ZA8ZuW7LnXbpVbH34PEciwvFok6dYq5UJ9yJrNW1X5VLqsqkVWz0wHlMdTAmcQBSEqs26oOmFy_WF04Q2iX9M40wErbWbXoJFHUFrV3hojfGrmC9ACaeQ85-9ayXZoH2pJ5JjmX9ww94jx5nGA6-rAZ2Y/pw-17Wa-HvokXUGT1wxf8HXj3YR7x1VH1cfHMxV_MPE",
-        "filename": "weave-communications-inc-logo.png",
-        "size": 2497,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/bc6OKAfaiGtoElqus19NFQ/-kniYUc3v6VawgtNkzRpFR-5fuYRGHKclRxQU6NwsN21qEFE77kAQWAnjO3dT53yGFWsiR5m_RkoPIwPSTDBLLXpjNPCKj4O7VLWuRrpaZj00ZUfH1AaQh_M9L0cJ3rclIkGIKKRbVHXDoUDlTrwWA/0BAG5AcME_NmYqoeynN-IjUBuwtcwOZG3wlahu6zzZo",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/AkjOpKtvpiGy0-g3f_5IpQ/hNQ-auDK_iZa8AQ49NhuHtjooBCdbedLR3JJbebbPFqsOlOT89mS_JTOURQa7c-kYzmC3bFZngGJQ2FOwVQnzRvhtyGw7rqqzuQoF0wyhJYt8LVDMeYXM9SnzLFrZH3iJyynIgwMxVEAHl2DhLhFdA/CkjTtMmhbxNDjR0qAmApkuNYF2xJDIXS1F1lArXL5so",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746021600000/K0ObVB9_o-qpAfAo5rT29g/Aj49NQh2MEL1wd0XdjieDO_8tz7lNj3G0oVCxBsr7Ts2jW0eZ6XgRsykBAQf5Wae9mHbHTaLyNx-gcDd3OdrBjvcbgaKMI0g1tJHaFCTgAu9sVZn9PYSO4hdvWvkYn-aU8TJybG_eMoF9HeKFjx9-A/WsLFijMIl6Fazn7wi8O909Llthc0DI5vh-nN2EAcwJc",
-            "width": 80,
-            "height": 41
           }
         }
       }
