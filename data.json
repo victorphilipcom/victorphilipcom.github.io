@@ -3,9 +3,9 @@
     "fullTicker": "SAVA:USA",
     "baseTicker": "SAVA",
     "rank": 5.7024,
-    "price": 1.56,
-    "prevClose": 1.59,
-    "absReturn": -0.030000000000000027,
+    "price": 1.535,
+    "prevClose": 1.56,
+    "absReturn": -0.025000000000000133,
     "logo": [
       {
         "id": "attc4htx3wJpDcDeE",
@@ -39,9 +39,9 @@
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
-    "price": 207.55,
-    "prevClose": 203.03,
-    "absReturn": 4.52000000000001,
+    "price": 200.265,
+    "prevClose": 207.55,
+    "absReturn": -7.285000000000025,
     "logo": [
       {
         "id": "attmtrgiOfWvk94Zo",
@@ -75,9 +75,9 @@
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
-    "price": 19.35,
-    "prevClose": 19.49,
-    "absReturn": -0.13999999999999702,
+    "price": 18.905,
+    "prevClose": 19.35,
+    "absReturn": -0.4450000000000003,
     "logo": [
       {
         "id": "attCrr7Di8w5hXh83",
@@ -147,9 +147,9 @@
     "fullTicker": "TYL:USA",
     "baseTicker": "TYL",
     "rank": 61.4048,
-    "price": 534.15,
-    "prevClose": 521.72,
-    "absReturn": 12.42999999999995,
+    "price": 529.795,
+    "prevClose": 534.15,
+    "absReturn": -4.355000000000018,
     "logo": [
       {
         "id": "attthLVlwqccgAJxU",
@@ -183,9 +183,9 @@
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
-    "price": 10.56,
-    "prevClose": 10.36,
-    "absReturn": 0.20000000000000107,
+    "price": 10.35,
+    "prevClose": 10.56,
+    "absReturn": -0.21000000000000085,
     "logo": [
       {
         "id": "attfAokhrwDskX725",
@@ -216,48 +216,12 @@
     ]
   },
   {
-    "fullTicker": "DCGO:USA",
-    "baseTicker": "DCGO",
-    "rank": 80.9558,
-    "price": 2.28,
-    "prevClose": 2.24,
-    "absReturn": 0.03999999999999959,
-    "logo": [
-      {
-        "id": "attcz4c2bIv4qthBB",
-        "width": 80,
-        "height": 18,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746028800000/R67wGH7Ou_yRNNCYuDezOA/uUwzMoaRH5u367NFSr-TrW69k_KVn7pLIxkU5sg68P25cHaR8NZkfucDDp4gDz4rxf7rwC64dfCnQD3FA6Rk_fabFanjX6W-rKdnS8wEd51D1x3R69pu1QAqFKRLBQww48PAiZGRyaeIJzWEvlpvxc5cOskNFUySbGqhFH0CbhY/BBNsyFDqZ44YeYjztSKvCDmrlPbALtfytfmhSG44BoI",
-        "filename": "docgo-inc-logo.png",
-        "size": 2519,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746028800000/itRSaH6F4rlW2qU9Ob-g5g/6wiYCpW7eMzY2dkMuM8eAEJycnsEW0cnovD_easwBa1Y0zKw7mo-BkSpFi1AT4SY2w80CNDQ-iFXtQo1pY54vNfnPGqW2Vz5cXHhSFStcXxzgrlbllfBaLMiRxbOqrmHbBT1XVZ_egGOh-AbrHQ6Wg/JEWe_2TJV3YV8labjBl74yi0Xp7AR0wv94xWVe5hwDs",
-            "width": 80,
-            "height": 18
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746028800000/Bo9wgL55iXAPhjdHntyEXw/HLI1udlLxVtC_gSkuSZd0ddSiS2_URQ9Su-RoqhnV17xtArrkvoVcU_5bzlsJ1kLVSkwW71LZc9JX2xmQGlvHM4Fjf6qmg6nFDcXQNZGT5GbugmucDBOJemfbhKO2-mwKrKjrOKQTFkyk5j3y6Xm5w/7d4z1sAmy8d4sPEht_XrFI9QW-efllaF4dgVDD5JTqk",
-            "width": 80,
-            "height": 18
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746028800000/7aQttndheKTM7JigJXnR6Q/ws6wKSM_QoopZHHQOJf0zIwT5RQPH1o-pOJsQzAOwYOocZdr8HkX2f1s8JjogjGydvMtF3N8ROnUqzriFYZsRB2l_uWp-MXLIRMFQoKOrMeuWVA5E3BeQNwPdVy1OnBsfoCqwLHraNi46cGJ8aZT2w/n7qsTm4pFSqN0Vg00L7yq87zzIVvbpituoflqxXjOG0",
-            "width": 80,
-            "height": 18
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": 97.3932,
-    "price": 20.12,
-    "prevClose": 18.32,
-    "absReturn": 1.8000000000000007,
+    "price": 18.78,
+    "prevClose": 20.12,
+    "absReturn": -1.3399999999999999,
     "logo": [
       {
         "id": "attFGEEPDdqZ96Tng",
@@ -291,9 +255,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 546.62,
+    "price": 545.28,
     "prevClose": 554.32,
-    "absReturn": -7.7000000000000455,
+    "absReturn": -9.040000000000077,
     "logo": "sp500.png"
   }
 ]
