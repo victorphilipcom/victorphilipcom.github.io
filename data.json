@@ -252,6 +252,42 @@
     ]
   },
   {
+    "fullTicker": "KINS:USA",
+    "baseTicker": "KINS",
+    "rank": 97.3932,
+    "price": 17,
+    "prevClose": 20.12,
+    "absReturn": -3.120000000000001,
+    "logo": [
+      {
+        "id": "attFGEEPDdqZ96Tng",
+        "width": 80,
+        "height": 24,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746086400000/3w8NDmvCY9uplr8MkFQ7vQ/QQUh9GuR3bibpzhZlXgCR6qIF6PfdEVTLEL91aSdIdADEWnAR5eg3UxwQ2WD_4-AUfu_t8xHJ6fw8Hq5RKiy2C7dBY0pxQJOKRhhBtgsho8gs1N_P6Cr1VWCM22n1rCqQzGI3RJlffPG3s66AkyY55Mxech9AjEPgA0bi7xjkuGc4NGLs1--optCqEroR0Kk/JChZRXB0W4insCizV11HX9m1rsrEr2HF_t_7w1Rm_ls",
+        "filename": "kingstone-companies-inc-logo.png",
+        "size": 2167,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746086400000/wo2h6Pq2H0wSbZNpTVWGbg/uGjmS0WbLt-A62vxepSOTmOo1_oaH1JWD4e4yayayMQpDVIl3gVQcMNzKstoUn5UNDFqJrmj__-1ccobiDIcJOMhWoVjEnuNnfNtt5w7gJkuTR698YUO-gf9SH0sJqKRdWZTIAj8-7nP4GQ0ovQhdA/TPdQPzJwANNbt39I8aCrSpyWO70QEt8ulRJTevJwvko",
+            "width": 80,
+            "height": 24
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746086400000/TAj0c__0CZHtbo6_H1CoQg/117SwIgyaUQZQ-lQHSPLTXI5h1MxTBagotmrtyUDsDgk9iU1qyypTjkLvJooHx3eOtqTJW1UmwCX9rDKbfTubyTViyefymHq0x_s_7gkVnEadpIxTtXVeLVjM4_xNFz73yq_XgwHsfd2fuGT3ZuE-g/jWd1RpNISxno-kqf6g4pVQym4ZBXgWUXMlutd48z2D0",
+            "width": 80,
+            "height": 24
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746086400000/jEZ5cqU-CvmcjR4dObb34w/8ymhBjbIHyGU8V83dJFtO1DMFuNAXBtLgXu4n6dZuCjfgGqlStB1vHLeE2iGsmWB2gZs93OQ_SKNNhOJqJlIjXgZIDR8HJ9uhgCTloxqS2HZ4zPpcGzyc9YFCx4vNouFVrcHxErYEeRGq-0I-VfzZg/oI_PnN85es4s0VhkdCJGHxcDe6nOJdLRJNPIh6ImE7M",
+            "width": 80,
+            "height": 24
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
