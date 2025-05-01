@@ -144,6 +144,42 @@
     ]
   },
   {
+    "fullTicker": "TYL:USA",
+    "baseTicker": "TYL",
+    "rank": 61.4048,
+    "price": 539.85,
+    "prevClose": 543.3,
+    "absReturn": -3.449999999999932,
+    "logo": [
+      {
+        "id": "attthLVlwqccgAJxU",
+        "width": 80,
+        "height": 79,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746144000000/fa44FYuN3wrN_xJbd7NkGA/_vbfSbFqTr_WXwX7HQuHYlF_bMuXVxe9w5Z5XB836rfE7wUIWAgXOYXOYdcKE50RIg9WapZMjSl0RfOPt5MrescmM8L9ob8qhbgagRKVQRbupNUgPuizVjQwuQUmfblaIOrSbQ0szbF_HFtJ9EZksXjMpXuTfIm03tIfF0V27v-vm5RZVapOC76b6S2EYuKq/Wl6KYv5I85eqlHDxicU03CFyMy240wXEWLFRivt6Hjo",
+        "filename": "tyler-technologies-inc-logo.png",
+        "size": 3411,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746144000000/S1JRcXHXMBilUF78SZXk2g/SWA4OW_GLO7f70h5d9zaH6nrf0NTWP0wDRCUg-2ohPAlhACZaSM1lqJnXq9K8y26W8-WuPTdtljZFnWGKMY5doD6PIDemMmRbWO4Ls2QlUPVqRUMVxJHSzJvo7kP6CW8I0SmI-QSBWDPkVH0is6yxg/lNa-S89CqTcW13KRCdExFk6_qJSXDz0X32dzRDxZeBE",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746144000000/Xmrag-_sAtf7FaNFpyr1dQ/T_U5IOYD88Nw2Dh6wJcCHKJtnpfhlkx3MiSEMes5YcdwwUXCO7i_Pbnn8M6k8EdHEhTRyUNU_UfLeZAoEM3YcfImP0iOwxL2BvAwOHHyoWPBzjaRe42PpqJhQ38XVLGzjdXlDGX0rps4SJaHxzZdrw/EsSUiJ1jc-LgDt-pOZUvNx6UzTaHukWq3I2tC2VUtvE",
+            "width": 80,
+            "height": 79
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746144000000/Id1omxoqDLBWrd4ndlJBOA/dfIOMO22LZq2XdozjboZtXudcmvl9XZIYzvFj1v1i-rT3jTFMnN7YbbzhEGqY4EIGMplYjOmwG0SUfCT6_IEn49SKIs_Gf5dbSQv-eCXNJqoD4XGT0l54CvN8CxtXv1ajFQOCuBaFnwIciq1s_PUpA/glTAA8hJr0z1L9-m-6s1wFEtdBrb0P1EVhz5wvc7DR4",
+            "width": 80,
+            "height": 79
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
@@ -255,9 +291,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 556.62,
+    "price": 558.13,
     "prevClose": 554.54,
-    "absReturn": 2.080000000000041,
+    "absReturn": 3.590000000000032,
     "logo": "sp500.png"
   }
 ]
