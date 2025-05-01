@@ -3,9 +3,9 @@
     "fullTicker": "SAVA:USA",
     "baseTicker": "SAVA",
     "rank": 5.7024,
-    "price": 1.56,
+    "price": 1.545,
     "prevClose": 1.56,
-    "absReturn": 0,
+    "absReturn": -0.015000000000000124,
     "logo": [
       {
         "id": "attc4htx3wJpDcDeE",
@@ -39,9 +39,9 @@
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
-    "price": 205.06,
-    "prevClose": 207.55,
-    "absReturn": -2.490000000000009,
+    "price": 212.53,
+    "prevClose": 205.06,
+    "absReturn": 7.469999999999999,
     "logo": [
       {
         "id": "attmtrgiOfWvk94Zo",
@@ -75,9 +75,9 @@
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
-    "price": 19.56,
-    "prevClose": 19.35,
-    "absReturn": 0.2099999999999973,
+    "price": 19.67,
+    "prevClose": 19.56,
+    "absReturn": 0.11000000000000298,
     "logo": [
       {
         "id": "attCrr7Di8w5hXh83",
@@ -111,9 +111,9 @@
     "fullTicker": "DXLG:USA",
     "baseTicker": "DXLG",
     "rank": 33.1644,
-    "price": 0.9896,
-    "prevClose": 0.9518,
-    "absReturn": 0.037800000000000056,
+    "price": 0.995,
+    "prevClose": 0.9896,
+    "absReturn": 0.00539999999999996,
     "logo": [
       {
         "id": "attF15uekPXVO3ucB",
@@ -147,9 +147,9 @@
     "fullTicker": "TYL:USA",
     "baseTicker": "TYL",
     "rank": 61.4048,
-    "price": 543.3,
-    "prevClose": 534.15,
-    "absReturn": 9.149999999999977,
+    "price": 534.92,
+    "prevClose": 543.3,
+    "absReturn": -8.379999999999995,
     "logo": [
       {
         "id": "attthLVlwqccgAJxU",
@@ -183,9 +183,9 @@
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
-    "price": 10.6,
-    "prevClose": 10.56,
-    "absReturn": 0.03999999999999915,
+    "price": 10.595,
+    "prevClose": 10.6,
+    "absReturn": -0.004999999999999005,
     "logo": [
       {
         "id": "attfAokhrwDskX725",
@@ -216,48 +216,12 @@
     ]
   },
   {
-    "fullTicker": "DCGO:USA",
-    "baseTicker": "DCGO",
-    "rank": 80.9558,
-    "price": 2.23,
-    "prevClose": 2.28,
-    "absReturn": -0.04999999999999982,
-    "logo": [
-      {
-        "id": "attcz4c2bIv4qthBB",
-        "width": 80,
-        "height": 18,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746115200000/kMnhPIIc_Ep1a11ug3LjFQ/LTMqI2Ok0ET-FQRzXgD7ZUeeMWXpQRiMNyZUBpkfgAWG4sEIiqcH4vE08OvRvUJKf-klzq1F66JcrJYLDPFf3rZ-dA9NzKR4l1_HpeCE3kkLAS3ULSyL9Vc8g3kyoLAxzB95Jf3Wcxvj3Ic3BYzmTK8F7C3DmMSYj209pfohrac/oyiZhM9AYzJXfzQMA15aRZ-9pGB-wsJJPEdRhu3kKX8",
-        "filename": "docgo-inc-logo.png",
-        "size": 2519,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746115200000/Pm02U5YVbo77G1gJYAPNjQ/e9BXTSKP_lZZ01bHOypLdJbO5Nj1QqpRFsQPuvCiJbfBPE20sXLxmDFHVW89sobLBmquq9V3qwSTzM1_nUvEa5SK3Rm_ZmNMILp2QMj3HkKnYP7UKusORaBvoIurjYATNshcSNbr6G8dlRKfczhNTQ/v45ovJpMgwy_Mk1VGB03qfr4RQu1dMqZETYSH729Cic",
-            "width": 80,
-            "height": 18
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746115200000/CgJ0hZJ2lPGmpmbm4HI_Tw/p1VASSvjmdadcBoeGaCS7gdmvE3ttF8vWYCdppsAX2UPp2tQ8cbBf6lTjDaIHp9P5IVOTusD_ZXnKy7Kv09Y2cZVwt6ATtIcHM6gSWgHdGRRUzT3lyMuXSqlsdtCgfHyDu6O_A_jbQhElYUnuOrMRg/lF-uSs_9eXdTdfHpJA7fE80Ub78wsfnd9d-Wvxs086E",
-            "width": 80,
-            "height": 18
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746115200000/sAXNYIJ4mL9AFLa-RuPMww/3kHEYRdKyQ7RUB19gjy-8zLP232wcB2rTOGWzlhYLUvkw1G9xAEW2s15DBOU0ZVkmtrkTMNldIpas-IXTyQbgvotVrga2nIopLERSAUA6u7g0v_VnXOeddEGVcOxsD1fVkHylBesFotRzkZCFoKPQA/FvNAphpuxNXgFFsr9Kj0vW4jSqHmntYa-1l9ACBVgQY",
-            "width": 80,
-            "height": 18
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": 97.3932,
-    "price": 17,
-    "prevClose": 20.12,
-    "absReturn": -3.120000000000001,
+    "price": 16.69,
+    "prevClose": 17,
+    "absReturn": -0.3099999999999987,
     "logo": [
       {
         "id": "attFGEEPDdqZ96Tng",
@@ -291,9 +255,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.19,
+    "price": 559.395,
     "prevClose": 554.54,
-    "absReturn": 5.650000000000091,
+    "absReturn": 4.855000000000018,
     "logo": "sp500.png"
   }
 ]
