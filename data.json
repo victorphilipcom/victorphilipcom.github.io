@@ -39,9 +39,9 @@
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
-    "price": 218.8,
+    "price": 217.66,
     "prevClose": 210.76,
-    "absReturn": 8.04000000000002,
+    "absReturn": 6.900000000000006,
     "logo": [
       {
         "id": "attmtrgiOfWvk94Zo",
@@ -75,9 +75,9 @@
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
-    "price": 21.25,
+    "price": 21.285,
     "prevClose": 19.53,
-    "absReturn": 1.7199999999999989,
+    "absReturn": 1.754999999999999,
     "logo": [
       {
         "id": "attCrr7Di8w5hXh83",
@@ -147,9 +147,9 @@
     "fullTicker": "TYL:USA",
     "baseTicker": "TYL",
     "rank": 61.4048,
-    "price": 550.37,
+    "price": 549.99,
     "prevClose": 539.6,
-    "absReturn": 10.769999999999982,
+    "absReturn": 10.389999999999986,
     "logo": [
       {
         "id": "attthLVlwqccgAJxU",
@@ -183,9 +183,9 @@
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
-    "price": 10.8,
+    "price": 10.78,
     "prevClose": 10.68,
-    "absReturn": 0.120000000000001,
+    "absReturn": 0.09999999999999964,
     "logo": [
       {
         "id": "attfAokhrwDskX725",
@@ -255,9 +255,9 @@
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": 97.3932,
-    "price": 17.94,
+    "price": 17.875,
     "prevClose": 17.66,
-    "absReturn": 0.28000000000000114,
+    "absReturn": 0.21499999999999986,
     "logo": [
       {
         "id": "attFGEEPDdqZ96Tng",
@@ -291,9 +291,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 567.81,
+    "price": 567.065,
     "prevClose": 558.47,
-    "absReturn": 9.339999999999918,
+    "absReturn": 8.595000000000027,
     "logo": "sp500.png"
   }
 ]
