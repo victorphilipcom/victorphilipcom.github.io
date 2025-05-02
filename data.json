@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "BZH:USA",
+    "baseTicker": "BZH",
+    "rank": 20.4743,
+    "price": 19.53,
+    "prevClose": 19.56,
+    "absReturn": -0.029999999999997584,
+    "logo": [
+      {
+        "id": "attCrr7Di8w5hXh83",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/BMr-lk1OSiuPcX5I1HCEhA/LGpNcE4kdrVyLOuGkaPkzwfDEW2uIHtK9Ld8fgcbREMLnUgfcXu8a5ZFQTDryS_EcLGWezR9UB0TQ0A498OKLRwO5xUR8ovS_4JPcFQrNYG6JTFEXPMMsQC-GJa9ohGP4XXOsCkMrEvK7-9VQnqxD5uvPdcr4_IkLMxMCv9-Av13prKxMDuBAXyqjp8o_35e/jXJ_rT3RYT4YEyx2B1nV_CkPOmUkArG9wGeGaNzm7ls",
+        "filename": "beazer-homes-usa-inc-logo.jpg",
+        "size": 2364,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/P3Nhbq3d7T-A0OUw9n4tYg/Rn3nYzJObp4UK-hvUHfyn2c4Q9FY1QZMhpPF0Eo4teY5T_AcRb5_ogUVml5Plwh7P8F2Gw0uug6fOFwt9x_RXBD5AN1SOHSqnyElYnuNFxILHHJoSajnLlmoq5lxd5mX_wpWzcHiYbMfKZBw2JJJ-w/4m1eu4tWePpeEQ1mutTZIdH5k8aYLUheXXvHwpQdhVQ",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/E_zLhSiE0Ii3C4F1R6JX8g/cW04jd-Mlp0-UxyAGEs5nLahIUQjU08eY6WHt_CqVfuAuFePMdHENPC5g4ruQkbtX7DaKQtJ92eURZ01WppZbpqP3T3rX5pSgr6_9JRMrCCdvW6IuvXPH-DBCk5vfirv15q3vRBWE7g3EQVg75kMkA/5Fq6UjHvag24b2NFNLCw8enhSrRK01yEqTAlNScHAj8",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/Kqs45F82sMFgl-RXgT2zwg/8T3dd18mqCS2z62PS_qXMjHx8GzJU7CdJFzoSEUmEBxUEpbj7KPV6bG8P9YpyLydguGO1paPoi15NrLpS4ho8El0QDG4EiQ72CanrEvVvFCRisM0jpzNy5NxguMaBwas-gsWx718vs4MxblB0_yz3Q/BT7alz_HkRyYbApNH1VxHOOT3dySHRd4TkYCyixe0Nk",
+            "width": 80,
+            "height": 55
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "DXLG:USA",
     "baseTicker": "DXLG",
     "rank": 33.1644,
@@ -102,42 +138,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/PCvCZ3IdE_DerUlj4432wg/HGR_I0Z1OFcU8CEnOSbrKH8ip3cmitMbYjEAx5gt2eicnryORI6APo9nql_8XbcwaTZ7MlgwuCgNrc6cr9sKctWTtaZgfyIWg7n55gel4uO0tvIG4BbmAQucfrGj3J5U82vmSKOPbQAnxvZlgXUQXQ/MbxRTPCG6_Rzft0PmoNrVwEKAq6kvia7vwSFhzbNszE",
             "width": 80,
             "height": 44
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "TYL:USA",
-    "baseTicker": "TYL",
-    "rank": 61.4048,
-    "price": 539.6,
-    "prevClose": 543.3,
-    "absReturn": -3.699999999999932,
-    "logo": [
-      {
-        "id": "attthLVlwqccgAJxU",
-        "width": 80,
-        "height": 79,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/cdT2OnYXPbCzJLhpuhajXA/Jt5gFMKaip9Bp-UMOTL7kXzvQPkBSr-zYBiOET4HXkAJCmUaWBwPx0yLjEVb6GfeC9VwqIFKeLQUz5GVjqIIRcX-0PNodUpF3mXm-TTW1un6F4vKCYmJmP2hZUXTJWJi2wGDBL-WCnWE1UL8qisxrKOPNN1kmspNWRhw_c_z48wOgRJUJ5pWtar62CJIypE0/Kyo62ocXuC6cqq4Tp5kgf0HyeWgNz94EubMbqMju7NU",
-        "filename": "tyler-technologies-inc-logo.png",
-        "size": 3411,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/8rXZkK3cQqfyUv7Fges5mQ/eCpqBqvCeob1vybNGxkUAwabwCq8TXU9NdOlaDCBiMuc0m6vod2YTO2NsoiYpLU6jkDGxaKnMCU1UiF8ZKkgbWYxUj4LT0TuiZ5KRzPETeXC12O1HX-0FPHKz6WUAQH2dV68-NStt-ByKtQa4v1teA/KxDEkML5NRN35cHQoJvP0AeCNX2YEPDm7IQhsF8Bt-U",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/B5IyITzEH4oT0EzNJwMYFg/y-QhBZK_55udyHVWrZnsZ51ZciHjvp1Gnv8vnWtHeN8QOlXWxEfKVJDJyDzCrPhXmm75bgPi4o0oewt5wP9sPIvKIIFPL4SrPUU0w0S2VYCVZYuETJbhur66Ac8T_oElusW04CQkfN977EpNhqBNYQ/Cm9rls5HyBJ1klc6M5NS-XKdnPpOEsZya7r_3517QnE",
-            "width": 80,
-            "height": 79
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746187200000/wIqjKRolV_8hQ5O4yp1SFQ/jRd2cf4Q33Tf_JuRuC_K2_YDr2LG3EVtJcoR5bwJvoAfxCJyTBE21nTdcV25kLR3SZnlvEmhr40VyuJv-Xldk9naZnFZiCOudnRgyYxMclzSnMO7-JSAX7TxJyz_DCQPSMZvgQRciv2KiPGhi7DGUQ/nHcx7rVJGJPJJ-CeTVLmdpV_GDV7nMTl4eC5GDqGgDQ",
-            "width": 80,
-            "height": 79
           }
         }
       }
