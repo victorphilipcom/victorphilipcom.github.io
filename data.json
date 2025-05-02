@@ -36,6 +36,42 @@
     ]
   },
   {
+    "fullTicker": "FN:CAN",
+    "baseTicker": "FN",
+    "rank": 16.2744,
+    "price": 218.26,
+    "prevClose": 210.76,
+    "absReturn": 7.5,
+    "logo": [
+      {
+        "id": "attmtrgiOfWvk94Zo",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/9jqqxl47-ZR7Yp5ksB0Qhg/KZ23_u5Ixm4-baUG6W8k5OhWlzx156-PWkS99cSKA0K58Gm7qhvepGSyWMeLRN2qtl29x17vRznlkeiq3aEAgu-M4KW101Il3HUnv7q-sStMRqDRjsfVdsJ7JWylbID1okNk30RpExJPzuMdvMl0uIoEWRgY6vh5nQb8ZaSLdys/Zy8hWQzMDW5lGM8tcUFICxtS30Y3oeX94-Yu_D_SykA",
+        "filename": "www.firstnational.ca",
+        "size": 2477,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/GjZY-gTBjzjtiFGeXjMKzw/KQEnojabrO9eCvGeckSX82UBjuG1OklS8tdd5cDBiZWn0cTuyYVKGMpAQtZaHZAxhBeTvHN1J0-iiVTlG14PPU6rjsjSA8nG3RxZzXXt4k5CkaUx8S9s2iDMnFGJpVQZRt8DS1CWNgmgyIso1tRiqw/6redohcskspbgl__wi_hMnWz2Nd9lczYqCx8ahyBHCc",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/p8Ht8uOMiDxkwuotZHzgbw/eKlqXtFfDHmNfnGOIDRSQ6byiRczJD_Okp_jiFaHHaGmgrdTALHNdbUVllx2nahFwkWunULCxP8WEQxcvGQ3bkBg82ksapHtEomH9xPzdSejoqndP6k51Kr9If-ox7ROcPVZuW4NyLZoZMxVeasTvA/gJxequ6zindWOGkLrQ0V3xJRKrIcamNxkYnBHzEHFTM",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/1t6pSnabSGI5Ih43IWGYiA/0sXqpZ3DuDxN3vzlMVKcQhlxcFW_Sh3uNPKBpFgpm9WpsqNimXV93Rg2t7YwVINKXO3emUMtQKrVFZzEyw_JLFI7QZLoGCDFP4e4-8-J0cO71c7VKZjzEQJFNUcOuJkaUPL_J7qdWETcuD0-k2jRyA/A6urzq5JWfgx3rCflOsn-HigsQ_apUrYTHk3G17G7Bg",
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
@@ -102,42 +138,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/czBXBlShit0Hee78jRr_ZA/SyHaFca_PTmaVL56eIzkSecV41b3RtQ8hR9gfaCY6PEL6LU7wbaVRD1J35p4O-Ynn3GziQ2nPjO8D2EfqfkSSAeWGp0dqlEKeqGc96ZZWJREUWGm7kIyE0qbx5FvTXYG15zvKszaPsInkMiPdiDPZw/_Zkz3hq3BwcZDn77-T9nx0UlmV1wB3JYLg7D6YkMjJQ",
             "width": 80,
             "height": 44
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "TYL:USA",
-    "baseTicker": "TYL",
-    "rank": 61.4048,
-    "price": 550.335,
-    "prevClose": 539.6,
-    "absReturn": 10.735000000000014,
-    "logo": [
-      {
-        "id": "attthLVlwqccgAJxU",
-        "width": 80,
-        "height": 79,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/s7K7HWtwM-ZSobQxPq2oVA/Q5oGmCI315p6Pa1dUHakxuyboFeqD96kz4MB0JNptL3rIpmnQoMw4sI8dInetj7zmDzNoqKGbMy_iFFeop6yxRz9m_s9GLX_O8EMl6WowqPekyNriCmCPp_KXrWsAZntGMQkwwpxDTaJQ87hVlk2UptQeE6g6_z2vEeyLJhb7MNraTCJUlbJ5xaIclM9uBrT/n_lc9ILi56pqHdCYq0i7Vb29Knr-GPZ8ywMwRJetnB8",
-        "filename": "tyler-technologies-inc-logo.png",
-        "size": 3411,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/tQHu2AG9f2xR6HXX5rOU3Q/efs99hbM-qDUZjLi-_e6jty65PSzLflNzYfIAdnrJVI-n77gJ04pCuO_NtlcNGsWMS76tL_dRphGF_Vmgta4kF1BMXacRJlXZelYn6OC3m9VD3G9m0kjB_yf_6PysQilP19xgoiPKVCyroPPDGO_YQ/ZL8KGvXUOiLjQq6IaNkHn2DA8pljn1ywJTSFPfRDWTA",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/8eGP0JrurljfuIcd9qf9cw/DeAUmGgvCL_iMrJ9fllpcMK5TQG2qer5GA6LW2mHpkGyvri6a-2-FYoy-YT20sTx8ZFGQLI8NH4Xl4a9uYWhCvN-gqC2Vt6es4GVRVsvJ_6Vc9eqoL3sVxAOjfPsl3RLsZe4KTSEEyvkZxi-UhxSSg/eKGyYzc6j-__rI3CZ4SgqOhNIE_39dUzogSGWPDPdbM",
-            "width": 80,
-            "height": 79
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/hKt4OWNR5SKnlxf0x6NH9A/5gpF7YtAgSv_u0CSRoTA3gkbg6wXE-HxRISbjIdBN5A9-AW4qDW1QoO0iRLM-ztI9ZUx6TdZlrOSe-1ctJbxEiXJGmmnAa5qHY1n_c-cET9WMEC0hS_6eD8grRrNvj5vrmkOXLSQJLXJTAfUPnc8jw/u2Hw2G-c5HV07JS6e64__kKQUjPscnDBdhmR0ixmu1c",
-            "width": 80,
-            "height": 79
           }
         }
       }
@@ -219,9 +219,9 @@
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": 97.3932,
-    "price": 17.93,
+    "price": 17.87,
     "prevClose": 17.66,
-    "absReturn": 0.2699999999999996,
+    "absReturn": 0.21000000000000085,
     "logo": [
       {
         "id": "attFGEEPDdqZ96Tng",
