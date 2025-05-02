@@ -144,42 +144,6 @@
     ]
   },
   {
-    "fullTicker": "TYL:USA",
-    "baseTicker": "TYL",
-    "rank": 61.4048,
-    "price": 539.6,
-    "prevClose": 543.3,
-    "absReturn": -3.699999999999932,
-    "logo": [
-      {
-        "id": "attthLVlwqccgAJxU",
-        "width": 80,
-        "height": 79,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746165600000/PTqMaWt75AJXv-WCOu0hmg/c19hBlfidRsS_B4WvWeWv-jWNsBpvPalH_WrJGUu8zYgSrysAH_83UJezFPbnQlxLQSyI00P3MyX1pVgbG3sej0VZNudmHmyLazajKQ_aIghPJI5xkylKyLJMl8pjYj1Y1eVM6yTXZYLgZucYSw3wFH-QRTUVrk7Ibzd-T8YB_6me_A6Kx-L843NAroEYLyi/X2ecxpBYlAL5172WdWzDDh4VQOec-FmX_iag8hh1AVE",
-        "filename": "tyler-technologies-inc-logo.png",
-        "size": 3411,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746165600000/nxxHrFLXLfC-y91k0s-aLA/m-708i0Ii4RhFKbc7kkodENcPsoHeeQbh2faGlNqs-8_VRIUg0-PbZ4OGVuX_aALm-mVlLcGG_ypc7wTvqhynE8jEXunbroEICHubipcopkttWJHt7ZcbJ5xZeJxjNFQN1MfQXLQlnUAcOAtm2cQ0g/5v_bJbV5gAXaCnB6A0m2FxxhwXPWrYNbFHVgOVwh_6U",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746165600000/EAj3F42s-YS4kodY379k-g/yA_nZxvpVaKqulS8ogpeBiLoP9eJnZFBJbA_e1AEWJJ2XyAlV-ACBvFuqMb1EIJpFCferEf81op8aPpiS4GNMgkL_EEQDG6A8nd6tC1c1mowne71756JiLXr-svIpF9bSoJF2S92-zOr7e8zI95D3w/2bw0Xg_M1hNJ5yUMsbYC9_HK_-oUA1uf8I7AGDccx44",
-            "width": 80,
-            "height": 79
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746165600000/fk9LhY-xdxzMQ7E9N_CMug/50PcZy6xGM5U1cI7PI8UiREHzxzo_T75uDtYRAxXnz5FBZUp5ngWlhVdWshrjxwR_Gxjlo6rf7EBfpiiX6NBDzQzzHseTcLGaVLx5VeCdIrDnWWfy2KMzWMkXU_5Og8etUq90JDLnOCBeqjrJ180CQ/vSlVXIlPnfgnnEx7c4_uqnXNrEL3gnPsfnqJFRkIEdU",
-            "width": 80,
-            "height": 79
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
