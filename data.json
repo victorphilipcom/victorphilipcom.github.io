@@ -180,42 +180,6 @@
     ]
   },
   {
-    "fullTicker": "WEAV:USA",
-    "baseTicker": "WEAV",
-    "rank": 68.5735,
-    "price": 10.785,
-    "prevClose": 10.68,
-    "absReturn": 0.10500000000000043,
-    "logo": [
-      {
-        "id": "attfAokhrwDskX725",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/5NTfRGOyNT_GsuhCkKA9ug/dRA7qiKct7Y3JYQwaWj9f1Ymmc6gaV-GGw8P-3NOteZ9CXtAAxebtaO_beV_Zw2ZyHWKNKzb1mFqbroDzaeo38b073IL04L5OIeLy9bUVwdqeZsuSR6kKWP6y1lDqCiR8V4X3g3FiMztXjn0qAyJlMvV78dYEDElHjekPClL9tWCIDOAmVuRPuqTYRIjD9JR/NlYDVVKVU_6Y7WUp1TT_4HOaBY5TFGNKf0tRJ_eT0gc",
-        "filename": "weave-communications-inc-logo.png",
-        "size": 2497,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/Y6kKNkp8NXCLMygSYqF07w/yypNPNI58wo2n5mIofPvuzEZ0bauhob9STaLqNM8TmQn23GLyiEJzUZCvVts2CWgKuakXG0vL98nKeXg4wfeLnJ4U1opOhXN8na3J9CJKvm0yhmn6Na9R9W_OugDQtY8QdWAD-qSShx2QbB0P-ieGw/sJSpJiN3r1JBhbX1Sto5D_91TVnbqb5rR7jcbxrqI0U",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/2Blv9bo-ih5Y97vSQd0Gng/xBLcW0HSmRWZS_gmzybnCiqCnj2K5Um8HDLgFSABTIuFrNGPzndAjq4-XBKhPFqND5YKDoejUfgZ0jg8M8W35OnNMll-Hg0n6rpA3U8HIhGgYAjOaRmI9HaeAoZYlo2hC0ogDGUKt1Wj12z30d0W0Q/_-2DH5UkxcrsCACpQXZhkDVOKclV0tH8zPylEGNVfdE",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746230400000/mpTqhCr9QcQtZrTFP7Q0JA/yKPu94xQIDRafjCj4Cz8KbStyJE6t1vbio964wfI17ice9FDR-w1kPr9UocsdT0YglZu_SMMaHE9MWMUvi5jzfqCO71JbpaPVDhtkV22N6U8doUcryfP6VDSWCQIzmtLAZWToXurQGWRcnzMRVUyGQ/iIjteXmTUkKf0bhrEeaWc69Co9SlS4RyjEwyk1ZwPjw",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DCGO:USA",
     "baseTicker": "DCGO",
     "rank": 80.9558,
@@ -291,9 +255,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 567.05,
+    "price": 566.91,
     "prevClose": 558.47,
-    "absReturn": 8.579999999999927,
+    "absReturn": 8.43999999999994,
     "logo": "sp500.png"
   }
 ]
