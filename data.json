@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "FN:CAN",
-    "baseTicker": "FN",
-    "rank": 16.2744,
-    "price": 218.26,
-    "prevClose": 210.76,
-    "absReturn": 7.5,
-    "logo": [
-      {
-        "id": "attmtrgiOfWvk94Zo",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/isRZGABUOQbX1J5Zypgwig/Rcg5hqqZKXHw-xJzjnefJdGam77D61CCg4tMOPPe9tHRwvTTeNCbCNxHYDq3t1P6gIuMZq7UZM-q0aGwKL7YcTX3OjlpoHx1QpiV6tWI9KFc8zZHqM81w-UGHkrLL_nNrjiy4v6vuaawIQvjcmQH6fczPOoU3aT4vGhcgWViHJ4/B33mwElCr0lwzQcilIme_ROrufZzaj00pDN_Yx1ajUM",
-        "filename": "www.firstnational.ca",
-        "size": 2477,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/E27PF6P9QxmeetXD5TlnSQ/yYXyBryf0GvwKsYyK-Oho_XCC41lx6qDj_Rcn851CGLUSC0FVR8kzsaPeR05tPJV8EsSeoC5QiB5k_Um2XYSQ2E5czIr8UOANs_LPZYkYb23sfdHOgMBhiPa0_a0aQGD8p8inu-NUDjoYwrGhxdPKA/sOmhoz_cy2zx1un_3suXr4ETjmiajIIpKhvzwp3jba4",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/W_hq5F6KA6XwI7E1lzp5rQ/X7iKycaNQN_W0F5oV4JSllDREHabD2YxggyYTAMTEQ6ROvUv7NOR0hkCyqghKFzgpjF0OTDFPJREu9JB_5PFzwh5FE_3QDKlwp_rX0iRAXJyqj0YFVCL6MR_Q2_3PJ47kRxV0sFHzCdb0LUg_VK5KQ/n7vAzQXis-ztw8s_wtDqdx_39jAfPFIIrcyaZI9g7-0",
-            "width": 200,
-            "height": 200
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/KUswtlDFHDoGUCEJCHY5Hg/Oz-PREyT1UvL0ToA4Jr-3l8kCV4H_-riUuYgJ563ojM7nGj9Oxg6QANIQP7aH8mqk1N4Wj6bBTgl6oxqWXpJ5hJNUTH9dTtwQKrz6kESBlAS-P8tetbQDRHOnXZ7emlQUCt7fG8U69qa8DXhZvODnw/fmi5C9BzElJiidXQunR9fLsy3geZZtR0usWefchR9jY",
-            "width": 200,
-            "height": 200
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "BZH:USA",
     "baseTicker": "BZH",
     "rank": 20.4743,
@@ -138,6 +102,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/iYuAuWZ8GULi4An3vs694Q/Z82qX_KLBrbZg9XBO7-ypo_e1ro3NyyrUfU-zf2Tp__mxQCvjtPbHTYbidkqRFtmt6pxeq9e7Kqn3jmAhd0Kl-IkXIsz_gjsf4SrkvER0BREo9oLi34pUWWJTTpDOQSCyjmXP6BNgnLGAO-ry2bpsg/7OwuyjVQRvaQm4h1zhFxiHS74ZcwDTh6EKF7kiOIHBM",
             "width": 80,
             "height": 44
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "TYL:USA",
+    "baseTicker": "TYL",
+    "rank": 61.4048,
+    "price": 550,
+    "prevClose": 539.6,
+    "absReturn": 10.399999999999977,
+    "logo": [
+      {
+        "id": "attthLVlwqccgAJxU",
+        "width": 80,
+        "height": 79,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/wT3CGjp4KR3jnP7J11PbOA/M5XrxSoiGYForlpbvNj1TojZTXGcDxqLMZOdYub8TBMRo3VgfnN8awT1VRnmTv9Iudi5O_PbUw4ttk-9i6JXldlgAdYlvByYu_JE8yR-kthhzK1Hiz8puzXjf1CXjoKvVnpMqpt-cNfxgNnzPsI2iKrW-zBd07iXYfzOAdVN2bwESeOmf3mchZAGvZsLhvDS/6eui2SDaqeV5lJRf4nigdlj5NP6vmbVOHl6XbuKMyWk",
+        "filename": "tyler-technologies-inc-logo.png",
+        "size": 3411,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/ufraPnNovz92kKeL1HQPlg/BjEQaoK1OT1HR-3PX-wk0Sbk6tXeIEHutSpVipnhJHY5lRXaO9hgabkDIBnoR9FJ90mjIJMAcvvz2b6qT2roNkxO1g6QdhorgPYx7wzk724fkTj_iI_ggfeJB26-tLXCmTybioQOMpuTxG3nYGVPfg/UnFt94nnk_AAatAI6gBKlebwpmwlNoFiM594QzyVffo",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/gxpthJFm8ETqeqnN_LHLPQ/bs5m3vT86k4_Ic-s75Yw7VOjdfZ7bLSiXh1SixB4Mn_17n8V5Z0ovXS7EZ75CfGEjh-CUmd73Sii6jHu_OYUBZGtoKLtBWUGkkwRTk2q7WqE8rN0rL3FCawV3nxc3XIgvt3oxfohYHTBsU60EdGaug/j4dq8D5waxPfwQNfBx78wCSGMR-xU5NAcvh0ioGyUYE",
+            "width": 80,
+            "height": 79
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746259200000/z4YM06pCyTeanm8XecQPAA/Il3Iy6te5dNdui-7kj4ZhiDVvPEMor4OIrec2isDXa1XJv2CL4wScoj1A6F94kiLITEsJeXT7wq6r4gPwVLyEAMkwPFjVZtzw91vj4uC9jz9xlWpkJu3Nfepr-wsRXc7TnXW2ASvTfuHXJCKXALSsg/C28YKP4fssRVDa22swVGLT4nhke-hfMIz20XpFwM0H0",
+            "width": 80,
+            "height": 79
           }
         }
       }
