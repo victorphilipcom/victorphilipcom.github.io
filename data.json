@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "BZH:USA",
+    "baseTicker": "BZH",
+    "rank": 20.4743,
+    "price": 21.25,
+    "prevClose": 19.53,
+    "absReturn": 1.7199999999999989,
+    "logo": [
+      {
+        "id": "attCrr7Di8w5hXh83",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/fcp68dBOSl-UzE3d-3JkxQ/ilpWNpz9_fLr3TwGZMyRrToqPTzHyb46isjyAkFdRpRHmoB7zFvLd22Dy9PQcIBeQyqcnjxNcumAJf_3nOivLT3HVZ3487UMKSgg4NGZdkPs6Dbpk4Rbq1dIm9jo8MgV_pYyC3Q2klacWbTPoh8-x2VVpDnYYMG6rZP_lRdIN1yiSy43ck6FHKlAqsE3M8In/ZwJwkuCPIGWhUVIfkGnb_a12_Gxin60cXX7D0PIWxeg",
+        "filename": "beazer-homes-usa-inc-logo.jpg",
+        "size": 2364,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/b30vvy72iTV4eLYyfk7esA/lrdTpwDA6uVPdMAPZ1u7TYxeeFu8GXh0aO1qeB1TPqRBFZvHWzvHsr3lleDoFrpqpguaRkztijcqRhts9dncO4AInD_eQsEWiUrq4tze3JwOdkCMqSPzm9OQw-qY6n1iBZbkQXSN0MhI63cf7_VRlA/f3xlZy_e9h39f0Ab_aRxFy2uH1HrlWb5jTGIKU_fBjA",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/yW7Xz2yfY6poV9bO2k7WOw/zL4Bnq8lofGXbmvHC5osJiorF0qe2tDzSqEjSJZIaFDyVsnqEhcddGU-40THrkWUBTivmL7o4QXnyvmzkrz4ndy5obnz5riI7wkbsvd702ZnDx0xDG8na7ss40U9ZJiL25QFtubBsF-rnehqn1IrMg/alvq1tT9ILE2RKBKPpGnW4NHc8QugPtYvfSkq18Ragc",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/1cMKZcl_UbrcNEO7uC21jQ/OZHdiyXZqyb4ZYBkckNr4iBH7W_qAyZrWO_CcCD3iAA0ZkFsjhqEiY_YlHn-5XaegR-PIDeOh_4ueidaZPvpvATu85LwvWQ6w7D2ZuWLCKI8ipOecrjzTwtcthGrBIKa5RBRqg2BLajQZrlWY_ewXA/SF60gQ5uYFvEPaO9Wrp-EnpOkZI5EomhLv64xaodEp4",
+            "width": 80,
+            "height": 55
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "DXLG:USA",
     "baseTicker": "DXLG",
     "rank": 33.1644,
@@ -210,42 +246,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/ZUGb-_lVsIe6Ja8n1QyOoQ/QHXo2tjnNbruwBKy7rJqn4Vj0MTps4iQLL5BNmisAGslzFDpy-lugi3LFz9uhwj66zL26JgG3js-Ve0S-JkL-jAoOwY8b4LEWbbdtzdjWzUDWhmI_mYtG8Mp_wiey7_R9yEK1AUlzcRxSdpzo0GIoQ/bFyZQJdW4F5CyMTpyiiR28Am-Lzb0MbKnkbLxp19zUw",
             "width": 80,
             "height": 18
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "KINS:USA",
-    "baseTicker": "KINS",
-    "rank": 97.3932,
-    "price": 17.87,
-    "prevClose": 17.66,
-    "absReturn": 0.21000000000000085,
-    "logo": [
-      {
-        "id": "attFGEEPDdqZ96Tng",
-        "width": 80,
-        "height": 24,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/lqnvla-bdUImdF6sNvKW-g/u8dwFHeZKb_UkQQwLfA1Y5JKFEsAODKoRAE9qdrTLtQgHQ_40jrla4ssXE0uSBZjwmDnhMJtLv1JDv5PdyBvB-R018OZLbWth4RT-NoPJosP8O8LhSI6vlfPjyzuHpnB4pd9qK5LI0RiLD8qkRsadOHcmVWYk6eKGT_pE3fB-UytSxX51YnrrWT-TBF8SyjT/AfxQy4aCxmwc0VF1iLgjc08YXIT111VnSdXjXZ1qxYU",
-        "filename": "kingstone-companies-inc-logo.png",
-        "size": 2167,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/l59XPutrn8LAkIvtwjE3Qg/nwCnbY6iLGcV5Y28e6vqSSan2Ty6DWA2plvX7IYhUpiKWH-GGnPdUXAe8rxSHeu5AfOQV2K3scGAbKRduGfGEppCHBJQsas1C9FaLm0GhpJw7F1Y_q2IFOArKsrdrFggQUs7BhpV7T2Qj1Y7Xteyyw/OpYC7MhkU7sn8MmvjdykTVGBzOhB7E8LQYYdU3HX7dE",
-            "width": 80,
-            "height": 24
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/zjZppNOJ-IpCvwMZqcZgtg/FUmx7Z3mmyMtl1IMbljYnNWiOeWy2JgPgac2fE3j1mvGiyNJaebRJh1wHAzuMA-TsYA9D_gezePwwg-gsW3UoHlWp49u4IgH_vRcIhz3B-A9sGWjlpwHrWGZSdmNn1SdP8F0OvmfZDXlgAXx1sa2zw/3E9WueRUsFyd5usRAGmrwiCMIhSNjlcuW3Lk-QVw47I",
-            "width": 80,
-            "height": 24
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/CuMe8uYDoUHsvmS9rjnXeA/HWRgalIGissAKusgVlbhljv5knLqcto8ONTuloTDmLwN_qqS9sfZ567NhtDe6-YMjXdpjHafzy6Rxg8_ycNGMcIptWMPsqcdXvN7tpjArPqNMVKXeBtzMx465Pbb-2X9dgrAzVio7vbDkJOraW7b1w/8jL3X66kteudXcNwwlewbwPyZBLROlJwdzgbsIsx3mY",
-            "width": 80,
-            "height": 24
           }
         }
       }
