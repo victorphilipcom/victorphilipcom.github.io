@@ -1,5 +1,41 @@
 [
   {
+    "fullTicker": "SAVA:USA",
+    "baseTicker": "SAVA",
+    "rank": 5.7024,
+    "price": 1.61,
+    "prevClose": 1.62,
+    "absReturn": -0.010000000000000009,
+    "logo": [
+      {
+        "id": "attc4htx3wJpDcDeE",
+        "width": 80,
+        "height": 21,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746302400000/mjIXO4JZbOD_aALs2Z0fYg/a8rya6XpLpzewIrSffEGH9Gz1X-mTWptByo_tmE2Oxz9sSHYXB34kZStWgvDQOYNWedwtTUxWrhrb25JBWzJiLCS0qtQRjsO9aO67T8TAbQqZ6YZ-UdaNZdOcEDP-41ebFnGkW5DCNgD7vQs8_9RQMPmroJoQAhY1kJBCaKhImcZu7E44EkvAaG2aeWAGE2J/JO3_TeWGhvHCCXAHGsiqudTuFQxFMwPq9JdxFn31SQY",
+        "filename": "cassava-sciences-inc-logo.PNG",
+        "size": 2653,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746302400000/3gIlGWbd49jB1WRaOkaPVg/EFPWebk03QTwDBQHE4OGu_N3L7KhYrT6YTP-2nwK-R99WE6V_VlKTYcdtRDxSXaettwNU1OPvHqdsz_8Vc-sF6Q8DCr8JV4N_YHVgH_87D_fbX11sxM7OxmaNCII6vYBSv6UQvBHcig9WKdQKC_vJw/PPdTRhUR-j9h1wivHyRjA2oxEnL39zZ2QkrdFBUPIsw",
+            "width": 80,
+            "height": 21
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746302400000/pFkiXUsc78p6f6rXVS0tOA/kTdvh2Y7shXrPLuPNHGn2n3cPrgtenYBbw5oKrSwnPrUOQSNZHdfy2nBL2ocLheUznUC5lmMkS6mvrqWGv7h99r70oFkjMOY-9BUsH21lW9AzwZryRqi5nt0AScfOnyKULsDMJY9aNlYQX3QTo9tEw/Xsc3EdB9w5KR7TwRqVLp6JgQhSman9bXuZ4QSV9jwI0",
+            "width": 80,
+            "height": 21
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746302400000/bGxKD9mxlKdZUYVASj6e6w/Jwmq1KNKUQYMqsx7Qi80CB-B1pm7JlDalQyYxcea7QFMnWGyCe5uzjkNg7wFUF3_X7ts2W4AQkfD7vkobOxTyOugn0ClkUZBEy_a98soWulcu4Xm7unTBskLOPtRicBbK_mGB9zM8Jvaqt7VNUuYIA/mlDLdcXmNWoX2JbkyJFrad4FWf4JAn0OeAju54nlUSI",
+            "width": 80,
+            "height": 21
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
