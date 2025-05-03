@@ -1,35 +1,35 @@
 [
   {
-    "fullTicker": "FN:CAN",
-    "baseTicker": "FN",
-    "rank": 16.2744,
-    "price": 218.26,
-    "prevClose": 210.76,
-    "absReturn": 7.5,
+    "fullTicker": "SAVA:USA",
+    "baseTicker": "SAVA",
+    "rank": 5.7024,
+    "price": 1.61,
+    "prevClose": 1.62,
+    "absReturn": -0.010000000000000009,
     "logo": [
       {
-        "id": "attmtrgiOfWvk94Zo",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746295200000/HdW2sDI0oIKM0W9lG-mysA/irS2FYn_GtlPeG6nL-T0KV2vtLPJFN8Q38PtaBDFen5IKulnVGczG_rULjyG-UDRghpHvwOVI00WQfRmLlYv3kwWd7xmH4fU81V1TVR_UICONNp4SH4VO6YANiUw7FcnqP-gDBlyNR2oYjBAb2SVZhKkzXPKoNTb9Egzx2FsCpo/s7XCOghqzaS-5hvy8l-wG8J0I0_gpcEN46GdGM9g-eQ",
-        "filename": "www.firstnational.ca",
-        "size": 2477,
-        "type": "image/jpeg",
+        "id": "attc4htx3wJpDcDeE",
+        "width": 80,
+        "height": 21,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746295200000/JEKqY7Z9PCrX1jYT8Y1Vcw/jxxwPjINdW8yfSXrW5hnWWq1Fng-RPrIXbNJD2q2os-Lps5iIxSWesLsvD_RJ0DT4WBIcAQOk0SVoBAaJeji4qPYxKVRSS7M5cwBBMC4Um2y6s6_1QKAJ8TyQeGlvqcw3MlsUqo4XSt43MRekNlau2CncsvL4sZNQObUpnocaQ_HxVgB7Fo4QRB_XyztQFgk/uTh3yz9n5MpaqpXhegmT1fmViaPM50fsduKXREdf7iE",
+        "filename": "cassava-sciences-inc-logo.PNG",
+        "size": 2653,
+        "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746295200000/VNX344Qe4p0aHp_NIqluQw/U6lgp58koJSHZRW23ft3to5dGQ4AvCfubK2vjADO-3xfFiEMMWfWJeJWerde0MaDBc-eTMuBFKrXEKmfbMfLJM2yLs9kn0AMoxFvrF1BgAp4KZcqtRYwTQ4ycBYr_AQkXuOZB5H8Cw44bswheNc7_Q/DAS0m7PPHf5MBVgANi8a_LOXPmvfXEWgjdx4XiLbvuY",
-            "width": 36,
-            "height": 36
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746295200000/qfPlvmlI7hVHiClw17UnAw/5e4JtMug3pGhvWHbHeY8yml0m3ldI27TgFR7q_dWwBEd0WkoAM3J2TpzvnPefH26Nw_TQBvEnrwGtG6moyStM-9plgiFA3F7VyEQS9qSYnqFRX6KZrDTSGxnYksNQBNKfPkyEJGI_9WlExaZYqghLg/Q4F2HFYNLWwYeuJnsh39uBQ9PZpQXsKY-RljeK4Z8pY",
+            "width": 80,
+            "height": 21
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746295200000/e6AFG6td4QE0eIKPHSu-5g/AJHWv6-24cjzWGWlE3pXAdKGmIicbhb7QoC1mraFUTP57wz45yx4W34jqFRRDFiQ0ABdi6v-piBkoKlpCfCXBJTze2QDOj9eInCBStAdA6CBWPkXpEWU341tnm2ALW5jXy8YLG2Mz3_W3KrAErQM9g/XViLRwpekrEJ6Bj42Y5b2b2TmaltHTjy0gyylqLEHm4",
-            "width": 200,
-            "height": 200
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746295200000/AckTb4d0jESCCxa2bu2YPg/9H6TlAXMq3Ew_ut6v7NYnu9O25fggrxS1U5z4Kra5XMvpy5f1F0FcDgD2T-DkAbL8kE5C31rVNE0r6S_4QghxFktKE26jp7zpFJPGvjFwBkzs2m6_hw7DfISfsvd8-kmQeiukSBykC-7pGBirWmgcw/gUFiIcBQa7V5T7EzpaXZaAtNYvrsSOWUOblOzYPbYMs",
+            "width": 80,
+            "height": 21
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746295200000/3sHqDYghxw2lcYa15adEHg/1iorrpRXPW9TrqkJad5izsk4RUd2JoJaN4gmRqRZa2XMxIqYVIMHbKPu8f4vlTPl9007_cEhZEOEwl2TL-f9xqP9ExdHH6zBQ1anD5eAqg0v5c6qSsNX36FmHydlwHTqJfEiskc2z88y9KrZj4ze4Q/BkTB6hLrsuSVHFSr2HPpzhgmEVw-V32rSouMydxB54M",
-            "width": 200,
-            "height": 200
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746295200000/yOZLcf2iqYmCoO0hNwkjLg/O5MkvLODdd4vYLDLkcjXrsYUJhNEhCq_hi90Jp5W7QUPvYWILJ5lm1m7c0mHfrSTYB6Cejb7TrKLY8cGHbLn_AepUNpnwg2bDJaj3uhOVe3zKnOmYOHfMwfGsQhEJ17S2_aEch7wrbEFBvH9Nvhthg/btN0FuQ__E7Ik5TkJpelaEZXMumdsBoj3450o5ulXYs",
+            "width": 80,
+            "height": 21
           }
         }
       }
