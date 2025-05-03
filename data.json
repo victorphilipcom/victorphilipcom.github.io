@@ -144,42 +144,6 @@
     ]
   },
   {
-    "fullTicker": "TYL:USA",
-    "baseTicker": "TYL",
-    "rank": 61.4048,
-    "price": 550,
-    "prevClose": 539.6,
-    "absReturn": 10.399999999999977,
-    "logo": [
-      {
-        "id": "attthLVlwqccgAJxU",
-        "width": 80,
-        "height": 79,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746316800000/8_MLn9yq36mBADwLn9puiA/tV2ZZX8N6GEhLyaLCg0A-TE8Un5E6Fdnhj56fx0WTvM-ja6yS1YEFqV4kAKUWu4zwh2hrGFYIulio__2SCFO0waeojf4LV3hink-yiOzD315DjZTmnjS4mGpYouvjKRNRRlO5MBYrnupQPP5eMOf8hXuu_ZuG5_mw31fvzB4uZdY9OZ-h9AUI2DvXItBf1AU/Jul8eUcX1sVnKvaYtKpBpWxnlvZDLZcPjJNndICn1PA",
-        "filename": "tyler-technologies-inc-logo.png",
-        "size": 3411,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746316800000/uekePllgSDTr1HIHfG4W-w/XI1exCL9Wx8EvxDTqAMiKPJa39-wTQqpBSITbfw_x4wQJj8mr042whpxJzsKFDoQF6b4fD65ZIeHjtxAg-UQY9cbHWvurOBzsaWDbGWUG6tAdSCehsCy7XcJFFjKG8g2uhoXf_SU3LDhiWGGBNHzGA/7u01GJ-xM8ZZx1YR-t2fq-CdFJswjKdBK8rXNJA3WvY",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746316800000/hEqC-vztPM6i8ce02Gim_w/U5IqnNSrrcHY5IYy3FVplNDvyRy88LDBSLFm2erIS-ZnDu2Abcewz3YkfqSJVjlsmTFQgSTMg6RBgHeXV3jPnaY4rOt8I28e08P18wNuxpatt7Wq0v9hXHUJuet08DZ5VfnCF1EgArvKrO6EIg4e9Q/R0nJB1GhD4ZeeQcHVQy4eQOe8EyubLoP35DZPGcz9Hc",
-            "width": 80,
-            "height": 79
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746316800000/0dIQlc3ztqA9B1oMXfrz-g/2_DiZ5dYSIVJndiCGpYglgmPsRtpyhrFUBZ195biEBJn75QKJAKYU5GfTqPBgTsj9uI_2ULZScaUYAlc4Nrn-kEj1e8_Wz3UEeB9eHrB9i1v2MPb8aTFPx2vQ8lJPjmyDUag7IFsDixqRhFURw840A/gD4429T5RAg7S8YUDzqLXiG1NjDRYe0AovTIYYVZkVI",
-            "width": 80,
-            "height": 79
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
