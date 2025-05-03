@@ -1,5 +1,41 @@
 [
   {
+    "fullTicker": "SAVA:USA",
+    "baseTicker": "SAVA",
+    "rank": 5.7024,
+    "price": 1.61,
+    "prevClose": 1.62,
+    "absReturn": -0.010000000000000009,
+    "logo": [
+      {
+        "id": "attc4htx3wJpDcDeE",
+        "width": 80,
+        "height": 21,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/49sB-SmLLsd2keDtZA0EbA/ZmFDjEf7Q_qc176JR11vNY6klVU9XDTCLtWBBIsd2aIcnAGA-tOtXgvMv3cRgvHRx6H-yn7I1AiBAqEIU4rFBQpekE_kDaCSLNpb4qDO5PHIXF0K49Znmkc60KJWTwzKSEU-WhDfOQFYqmBMer8HyjIzlsRmYNfPJSX72FgT4WQKnQQI1XA292fkxpQWC9e_/KXzM5ebIBJ5YtjfSbZdvT__MP_nlrShCHZNIk2-mzck",
+        "filename": "cassava-sciences-inc-logo.PNG",
+        "size": 2653,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/jNL3P04gGk1Ble7iQ3aJXQ/0ogM8GZ0EfsDhe-VVp43DaFTaybeCR5mTKv8-TyIjacYlPnILxu2kn9HggBbKN9pGMu9noRaXK7oOCIbxZzOyMBbeW4bFDP3Q37I71tOmBAP2EPuhxY3a7cfjoxoznZYo85uOKremqr0LyOlSa_Z9A/b0dK1twUZ5Xr53K6spxRFu35I4VF-hthib_pK-os1KI",
+            "width": 80,
+            "height": 21
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/O57dSFIao64vKVqDVfSP7Q/ZI-bULlE2S2ceRLUgm00tHfsW4uFrchTMPWlkGSI3Sj_2ZbuKt0hK-pQRI08swvL9nRtAv_1G95fH1BisV1cxU5F-gPrvGbwlF2HMGFjHjDjpHYD0XB61blPWmPTwXRmS2WGruJ_3kl0lMME5V6X0g/ge8tILuQdpYDkgmffxYrLHbGdB03qF1xDyRx-uKP0sY",
+            "width": 80,
+            "height": 21
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/4iA2V_jAxag7l2W7DfOH6g/UdQEiPKhuzFT_e-nPzJS3S5Q8c4ky84s4rdfv0d9vri_wmcvpGysg3-yb7eHhDg_SQckdefTwKBrJfAdlQYSvzVMc2NGC18pqmQMyVOiOZ3MUs5TsmHxIXU27L6ztg4sYcwGAhzHs1CuO850tqcXXQ/Pj5TkZ5Jj8B7DgM0ZenmwxaqQ5TxktKyPjwAt_hAcwU",
+            "width": 80,
+            "height": 21
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
@@ -102,42 +138,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/lJECNNxo8_9DuZinNS2wYw/5p7DKIt373VjxekJiiOcjtJ9dORQbkUfbc71Q_IU4xX--65yGepzyquu_RsQk4XtEfOoBsxuYs3ZFXEuy-D19C3QZci6mlY2ez6ddpHXgKrUX4pYCZZWfiOVbg6an-156xO7PUuuwSDDfYtt2aKLLA/S2O4pOwajchGYl_M-jyrAUjHZz9ogWnsYGsf-E3waIE",
             "width": 80,
             "height": 44
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "TYL:USA",
-    "baseTicker": "TYL",
-    "rank": 61.4048,
-    "price": 550,
-    "prevClose": 539.6,
-    "absReturn": 10.399999999999977,
-    "logo": [
-      {
-        "id": "attthLVlwqccgAJxU",
-        "width": 80,
-        "height": 79,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/oAApMFJc4BT7OnNVI8lp_w/4NgPpGVpEosQ753oY7xuMzhucLBjAJWA72fDVmsCQpaylbuXHPINvk16qxIoHuNHy4AcFONVLbYvQOzuy16w89-5jyjLfoSNRGsfleKjvbHBZ6BGFCwueN_Kh7rxIxxMGNkXuepGHBIWCI6fvMyudhylR59ysXdVvCjKComh-O8Q_BeHsNJ7HCDhzKTKqD_d/CMRnkxBmtabYN0OQdj9bI71wDsQZbWjqdkBfeNbESpk",
-        "filename": "tyler-technologies-inc-logo.png",
-        "size": 3411,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/ul2KUrM1vv3klU5Pq9bfOA/_F85DKIkrzI8BlzusMnaMcFxoc9sipHWRcUzU4UQh-ko-QUsmFhBXRO4iV5cePsVRPmmCHyVHr1GH0EfVR_wzdtKAJCJdhQk490b0JKtm4zZmlxfRIbJSiNXtSyLtw2N-FDpC0HYTaYS1nipaBZC6w/yuYklr9XsogrGa9d2KLVArJaFblFmgfNGpyK4nhvtKo",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/Y1NPUyCG6y1HNXja4JCQEw/X_Vy4R2AtrCxe_or9nveuSMgTvdeLu4n3HQLxEKr9NeWs_VLSRFX3olQx43ZLyg24K3LIc6GC-XXUGEOJr9vkIbH1FeMp2Deafo2Pfz5urCTgzZPlfxuaU_TmbOUft5dEnwgtB6V-IB8KVODYRoMFg/QX2Vc2knXhYf92omTzBV1u3PJ-FGLZ9a3F8BgnjzFgU",
-            "width": 80,
-            "height": 79
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746309600000/BWC9dw05TWA6wPO7ymnnQQ/jRAelInnZVD6t1az40Fcbnwd2NCccmnxVz_4MCA9BH_YYaeqlDU_ewpUAWh0nIAcJ-hfUJTo6kSMOXiuial0oX08ogSgT-0eYTfUmZyljtjoincuivTRTDuMHVFNxGJ5AimMFXF8jUhux7anBhuSZw/9yzxwhvIrQR-1YeyDiW0FyLrcdB5SZOVW4wjjyL5gFU",
-            "width": 80,
-            "height": 79
           }
         }
       }
