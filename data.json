@@ -72,42 +72,6 @@
     ]
   },
   {
-    "fullTicker": "BZH:USA",
-    "baseTicker": "BZH",
-    "rank": 20.4743,
-    "price": 21.25,
-    "prevClose": 19.53,
-    "absReturn": 1.7199999999999989,
-    "logo": [
-      {
-        "id": "attCrr7Di8w5hXh83",
-        "width": 80,
-        "height": 55,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746266400000/3sxm731UGtwJrAIuYp4H2A/7iXf7fNygwkW8GcVwftsRVCZFFJuYi1LRzYeUUyeifkAf_XWHTorgqgl9m0Dyv1c-R6dBQenAyLy28UTIWN5tpQCvL8V-Wpae74pdUbJOZ5IT3XwVB5nue4qhEYFRjAJZZWkdI7eGrDj_DvzQXhqZvsUwY5iOlAf3aQ8B5G2Kgghz0vvAs2n64oEcWAuhNfH/nWH1-YvcvnelkVvetCKgQNIqJ7k6S2ad0dIk9SJwCNs",
-        "filename": "beazer-homes-usa-inc-logo.jpg",
-        "size": 2364,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746266400000/HvnUdzw7oO1iLzfV3QOjHw/2rsFeTi9wby6IvNLn85GuKUqvGc6yL7oCxeMKC8Y4ln8ofRBlZYjB5_FGCTMOzPpAHQ46Sd36t53a7Pyh29DCtpQ4HVUBIwXe7av0k-Id8UPjCWNlIP2M5CRDQGjFucBG4DTXScaftx7YyYevFeLag/5U3PqaEp9QKt4ln_10QEjwZp7KrS3VlvpLbo9LDczgM",
-            "width": 52,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746266400000/3VLdXwn1onbs6UfTlDM8oA/PQof7K2YcbfJ1lo7BPafAEaNWVUIhYulcsSKfn19trndfGH6Q6DN56B98UgATMYEhvqNc_hbLq-XBDrFkpWBGz1Y4YgTaq9aCG4jCoUEzJVcCYhQkSS9AwZ0CopeDX0pI5kdvri21mUNtklHg_9GEw/7KeyvpU85xiWzb3akvilSkKwdB_kq6m0My8_k9wmamo",
-            "width": 80,
-            "height": 55
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746266400000/BrR87dWljBBpfsp85Kh1qA/SJnSyPnHFAyWO3IFudN54Y_T_udmlOkaaH-bMLlPuhJYlRY0uWRn_oTRT1bGXg-qgorZddw1mOiEcgiacY_L5c9LY3mmFX8EYppMYK3zLhDZx63KtMy4BjBR6ke_PUKzoKxWT5zRHxN56oaAn9GSpA/7k9ECM8NC-6eo5lLRKRqvUfJX5MwzmzwDIPrlkCcLls",
-            "width": 80,
-            "height": 55
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DXLG:USA",
     "baseTicker": "DXLG",
     "rank": 33.1644,
