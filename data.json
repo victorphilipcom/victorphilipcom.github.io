@@ -108,42 +108,6 @@
     ]
   },
   {
-    "fullTicker": "DXLG:USA",
-    "baseTicker": "DXLG",
-    "rank": 33.1644,
-    "price": 1.17,
-    "prevClose": 1.01,
-    "absReturn": 0.15999999999999992,
-    "logo": [
-      {
-        "id": "attF15uekPXVO3ucB",
-        "width": 80,
-        "height": 44,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/UEsXsUFTPoc5JqmlrmKLgQ/u_B18wP0msw_e7j4iutd6_w5w3UAneVrqvmlDg2ONHwo14wS_lax_BlFsx5I_6TP0sgNJPrY5aeaBECZReI_-yrwBfT4aX3ZY0a5xAqOejXsnTEnJuBh_TQuAq6WgIxGz4wiDSyk9PeCRmeoMCPGdDCBTUPqPzvDA2dhmUj0Q_GI1TGSQ0fH9ovQN40ojDkF/J4OCEJUgfWSywtrFI2-CYHeynHywaLwhUNiaR1tm_xA",
-        "filename": "destination-xl-group-inc-logo.png",
-        "size": 1359,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/uxPJ3D_ErwhyQypBGizoKA/b5u81xnEVPfZaUeW-o-t4-AsNQnFBD1GMMO1-6c1JY4K-7B45W6KoaxObFVc9ykbDAgIVZ4PZttcxXgfUGshN0vLkjxZ2YNu_zFmeaUl7_lY5_Y45M5T5M-m21OLyFp7yoJJStZpDDuhCHM-t_Nt3w/P2ox1BnFMrlDN-mVhF_MTY9kqG1Vv-kRMa2-rPia5A8",
-            "width": 65,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/1sheSSP-2YHJ6Yfl3_LDdQ/f0_AXIcd_97rtKxsXplKnfNCdFR7U9VcmX7jDcTn8ZpWPDJFao4r9vqGg93Yi0UbKdkHyEqhU_LsJXP9b-cdmAz60XHjT2-kC4sRB1sTrqvfrbJRutZ4MV3zrJNNFChQ7jAS2ISuGE-1gwsyeyCkHw/m239IdGqb0J6w_lwBngtEPYV569wVpcTTr-TlpahgLs",
-            "width": 80,
-            "height": 44
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746324000000/pWd6W1CSLPMnasBHLSHpiQ/IHZJitU6I4WgE31oRkFCULbU0KNMigRbWevAQNpH_bYI6Aarja18XUU_XOARgneCaQdAevLsSFu9ogCfQupy1KuGQX0HPaxmgHL6EhKh4Jve_zyBRjVfhzoJueKt9ehM4jYVMFSir4KflauOHP3UGg/0RfEMefT7JVP3DLSK9oZ_ztYbtpfIpX-oOLR2-T9dU0",
-            "width": 80,
-            "height": 44
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "TYL:USA",
     "baseTicker": "TYL",
     "rank": 61.4048,
