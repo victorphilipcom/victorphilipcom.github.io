@@ -72,42 +72,6 @@
     ]
   },
   {
-    "fullTicker": "BZH:USA",
-    "baseTicker": "BZH",
-    "rank": 20.4743,
-    "price": 21.25,
-    "prevClose": 19.53,
-    "absReturn": 1.7199999999999989,
-    "logo": [
-      {
-        "id": "attCrr7Di8w5hXh83",
-        "width": 80,
-        "height": 55,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/Gic5SjZS2iOm-ez5WVENyQ/aJBuMxIPxP8T5r2Vuf3mPrEhfsEAgREn9f3B4HgSi1q3SzO8bJJNPSE-sWtfEcNVbHmbVROPKh-QZnn-qJ_bpAs3p5X8O3m07U3IdhOwEdVnbQhFr58uFlHHfzWIAfNRXOeeOaDZk303vsLhJXw5p4ZMFxXQ9chMjGNO6gw2B2r11VeIXWVNuPXbzII-ViCa/UMgc7CHAsLsa1iY0rtWSmIPQ5IkzaTJMcYtPpuDt4Ow",
-        "filename": "beazer-homes-usa-inc-logo.jpg",
-        "size": 2364,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/jKiY7Ipq0FVTxeUd40wvcA/35fRLvkjWcEc-aWiR3nuao5G7E6Qa2RQVqj6lN2Tnok9uSSciPf157aQ6u8Q38nbzox74YHva5yFexFyyzxEmBzDAvHc6hIBzcl6niSitzcgEDdYO0FoOZ0HQaIIcsraP_iXfFrBw5WV1-scrMojMw/6PlRdMEn2XOqUdmDHP4nrfonCqu7zt0PgD9vNmDkjgU",
-            "width": 52,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/is0kARwD0pvKpULkZx1oog/jaFFx4pA6SP7SSZa3K3K0LyU9LdHyl_R5jEXoqr5_SZ5cP0LNYd-7eQUhX5BtaesytVX_pCC4B18HAbPFl2UW7AOizUpKmvdDUaT4etptbynqSGSt13KVGrdwH54_Znrwoklu2019jYtmBOhr4n5dQ/3zJMdJFcwLJYU6G_yb9HukgILR8bzUSSbG9KXAGuhxU",
-            "width": 80,
-            "height": 55
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/d0AdJX4Z7uwUzww-J9OoLQ/V-hhvUumjDAYGAsiX-eOFidcvTQPzzlLiC8y3ZKj082hNuzlKDSkWATEb7K2m5A2vMHZMiG-YUchp6Hm3ixJ7E5VKRuzJTtIYzTZRcLCf75_FA6Oh8yfomInANxQYNbVBr_mYLSaUrvmyampCQ5rnQ/6TdG1hOt-cBIenA_gYN5MEoY9I5aaCNYDn8rnKKWAbU",
-            "width": 80,
-            "height": 55
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "DXLG:USA",
     "baseTicker": "DXLG",
     "rank": 33.1644,
@@ -210,6 +174,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/8lqtGCf23psrVbcw6ikuhA/CepN_9kKCWWq1vfTIVDuag1z4mwRA41oeenoy8oKzcY4iFJEAd3lskl8HRwlfAyZZkDU-T-DRlHzXnp_-JIJsjlJ0qnGZUV-a28ABiwe-UFeNEJQvhaiTCcZxaTdvcM3wtn-NjmcYLRdzpI4q_IgAw/ksMnX2fZKBh0FfAO2IaGpg1A3PPy9A-i3bYnxeROS9Q",
             "width": 80,
             "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "DCGO:USA",
+    "baseTicker": "DCGO",
+    "rank": 80.9558,
+    "price": 2.31,
+    "prevClose": 2.2,
+    "absReturn": 0.10999999999999988,
+    "logo": [
+      {
+        "id": "attcz4c2bIv4qthBB",
+        "width": 80,
+        "height": 18,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/907dYzKwKCs49nwECmCs2A/gdwF71m6zh0MKD3LWYdlPpWCBj4sk-GfgamEjqCc0BKAqKxVdMPn9hXJJpXCEOspDWPDYw0ZBlHdgUnzSkg1xoE18B7RFT5CdH_lr3vYYwy76sGxgHoifG1UQFwcsBmu6pM5LFyxUVsrGy8giDDvHyrqjMgxmos48PWpOgqez_I/l6UqejrdKAhWHCbATSIHF3XZ1hXDChq5ZO3872Gqboo",
+        "filename": "docgo-inc-logo.png",
+        "size": 2519,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/b_Z2Lbq5GY7FP1ltGOpCHA/bn4nWBjTKkceDYg34OuniyYGM4hmzQgQYHNHgoFN6t1PH1C-P5BmqDG35AbMl83yTpUZOLu1wdP3UVrJ4l-bfgFkYbJTmxsRgK_tpFzKfWlweQPETB2bXYDxWiHZQnyPS9YxrDHmZZKAW14JZxJnYw/AQHT2T8r7zG-qpLOLolvALtOPypMHPC9b9rjGqO7ENY",
+            "width": 80,
+            "height": 18
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/3YYMnGOTq79ARkju_gD_5w/-4utLrV31gdjSgI8ncRY9jBzGJO0snauRwLO7K28Rni_fBS3Ntp9mMdxLl2aF_hY0m98yCQAj0xqdBwplvWrijdJrc1fm_cfzR3BqKbiF4o8npX_3sqjtAG706WLbZ16soQTeZ5ttM0bcsZD6X-l_g/svtKFaS7aaECRQ_3bIgn7UJoTsLry6eRN80NbLdUyQw",
+            "width": 80,
+            "height": 18
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746273600000/OLyBGmvNvvajThrsI7jrDg/NjZgpx2_1Y3McmijkGpl9HvEuAuJKP04RwXwDYpUdlyiPR3x8rp4DD0Fhl4-kJ98onOgLxUyvtQF2BGIVuSq_9xOv27MImRZA7FqtODt0S8W8crfCnNEpwAtQ57sGlJydn3HAd-KUR3-N_14SoAvag/ezaEUX6YQxkhc3d37jmdokG6hbhhBckz5LkMyWlXHIk",
+            "width": 80,
+            "height": 18
           }
         }
       }
