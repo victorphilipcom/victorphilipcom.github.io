@@ -1,41 +1,5 @@
 [
   {
-    "fullTicker": "SAVA:USA",
-    "baseTicker": "SAVA",
-    "rank": 5.7024,
-    "price": 1.61,
-    "prevClose": 1.62,
-    "absReturn": -0.010000000000000009,
-    "logo": [
-      {
-        "id": "attc4htx3wJpDcDeE",
-        "width": 80,
-        "height": 21,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/_GxvPpLhvIVYniqYDzkEYA/hFzUMgfwToqftJaWPJuoVZJE7mFSJYIU_psQIWGlN6marrwcsd1zpCgthFOLgTNPUC5zdA9NrlCuSbggwPU-7F98bkgxoOs7STCa2L4OixpoDBzENvV4cXfx1iGBu2r4Ghsh-xE_JrpIF_a73hDYdLusuWkRKGA4deuv7e5x8j1GlyiGCSFpbGwAWXyHr1FK/sYr-24hAcrTTvz6QNY826nC9wPxX_2JoqVPTHR-LljE",
-        "filename": "cassava-sciences-inc-logo.PNG",
-        "size": 2653,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/SvJsk0dVpO-_E1T6AoHPIw/_j2HkiJXijyP3Ux9Ng_WDChfKxiu5xshP4Vbh8gIfEgfWjv-iJHjkAkZvDclq4_NX19dt_haVJNRXIhcEkwGOeEphND-Eg2c755Gw4b-YhRgJN3lIbrrALgQp8pYdA073CHhsjUs9NEKAtViBUQ22w/XVZMVFaQXq4xJ2_evbF3owoKdwnY9AoCyPwIRlNOQc8",
-            "width": 80,
-            "height": 21
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/MtwV2483zAYwrXH5UbbK_A/AD3vR6UrFVBTr_qFzJxpIysOwl602u2B5kKsi12U8bcXLZ5KTWAiefo7u513uoHOzxWerfQeR959RcaTX4-AoT7mgAST-PIlmH33pd1EWwQo0QuQ40tj_8vjem8CSjPMWPHapKJW3dKHgiKwZMKCSw/rqo1_vxpN-7tFzANm0XDq_u0MYT4vG3BeMfSlfRPt1s",
-            "width": 80,
-            "height": 21
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/0EZldMuAZx_tkk5L6Si0Rg/skRYXpUB9eAjT5LYCcAYppdgIfYNZpb-565yfobQi1T01Tq9yAyw-FE8XHZautV1Q6PClJ906vgcwcbYU0KQIt97oegAoJxzudMJ9I-OLUcHfb00rjfHZybhpaEj9r3kpt4-Q5eR2HPjjd95zVSVwg/bdkTPJs4wvGa3bNC3lBy3WerxlcL1ka9pMies1YJ4xU",
-            "width": 80,
-            "height": 21
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "FN:CAN",
     "baseTicker": "FN",
     "rank": 16.2744,
@@ -66,6 +30,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/HpyJWuP4b71O18_Ku4XkwQ/GD7XtDSdPjWe9aJYUZAmcKAjyJRXQqIiV6_wOibHk9VG82rYMMXAoaXlF6ujf-5SmNnOnI_g5PA-YfunJVfSYx4DW78T3Vo8trfImrraMrieCW_UDr6-T1013yLHOEd5mB_VCyKOE7W2azIdW7lAtw/T-KVq0E6P9xH5uV6LJYHwYnaf11pQs2a4zqMiACEB2w",
             "width": 200,
             "height": 200
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "BZH:USA",
+    "baseTicker": "BZH",
+    "rank": 20.4743,
+    "price": 21.25,
+    "prevClose": 19.53,
+    "absReturn": 1.7199999999999989,
+    "logo": [
+      {
+        "id": "attCrr7Di8w5hXh83",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/yerqbDpEmgMQuynyCTiAEg/znDvGqPzTuDc95X_76GxAXTKuI-Ytqs5XbWFPMlgUVf8-lV7teVpwi91X9W8wt98MYyGYQmI4f47s_4eALWxccXEpEc-sWBKAPSeU45EqcDIVxS3JptI0gKFk6oAmaGANmn4HUTKxaHxVoJKwzVdZJQOywKVgBtjcF0BW0t7e58hWcOCQTFx8SijUM1UTw-w/Z5mwP6ofO8B6RAgi0q-La9eo-aNFPVzfKC8nl3YDEYU",
+        "filename": "beazer-homes-usa-inc-logo.jpg",
+        "size": 2364,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/BmjZKMGxuLDgz7Z2nMV9Cw/5oqQ0_qIzspzQ7QfKMzGd76X_OQZ4sTkVUeDKxBOLYZ9Y4QHz5mKwnnm2-iHmA7C4aGZQPswPOPAw5_CYsU9qy9UZ731jTPUFjSIAjh-lilDQ36ylr7tFgK0NBszFUAVyUySfrJn9xee_utiQg8HfQ/zb6gNMgHCf4ITyM6D4ZtFU0kk86gWMFrLZ0NijUKYdw",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/AS8W834SBCuyOBz8YdXB7w/NfrTDdUWREr9uc-HLXGz7_Xc4LjHvXmt4s5ilVo6UdssEApAKz5btCdrhmVcRDrUzQxDqHGvNlSOcdmSLv9Sj75sc4XR2rpzIJO36VMLu30_FiCbb7wZqlMGXU7XIM10YCtuzGKKeRJMQDusd7XA-Q/tDnLc9JfpGPc6-beX_jfrpm8wchyELmlJQoJ3bjKQ74",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746345600000/GO1LsGHh8b-luswUkokkTg/EIHQSa5J6nrKzggijzys-n8ZfwRL60KAd6ArKM4Tij-oTe1gxXA-q0h1AgQWTlsxeliO1nT67xW3_o2JDqFK4iwYDTwMMMJ0Jc8aQdLfMWl2MGm2ONMbAjyxcpJWc29Ugoih7EmYl4Es0ZHKJeOUlg/3gB_PgJYO69D3NYLG0KVAo2m84dWd5xCk45vEFACiso",
+            "width": 80,
+            "height": 55
           }
         }
       }
