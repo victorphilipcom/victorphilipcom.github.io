@@ -36,36 +36,36 @@
     ]
   },
   {
-    "fullTicker": "FN:CAN",
-    "baseTicker": "FN",
-    "rank": 16.2744,
-    "price": 218.26,
-    "prevClose": 210.76,
-    "absReturn": 7.5,
+    "fullTicker": "BZH:USA",
+    "baseTicker": "BZH",
+    "rank": 20.4743,
+    "price": 21.25,
+    "prevClose": 19.53,
+    "absReturn": 1.7199999999999989,
     "logo": [
       {
-        "id": "attmtrgiOfWvk94Zo",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746367200000/PQPA2oywbdGvCVcmF6Ia7Q/Wp_42Ep9VQLQZZzskTFHHlaQ15ha1XUWhZpaHE84de-mjtutY3JWMCWKr-aj2__w6tv-wFvMynitg34CVOA9ecNnzi-VX-qK6drx-06mQKJhJiME9kzM7LKfp8PjuSRgkkVeMItFXB0JdD8TMWsnNGJbaNoOIh7454JjJeb_9KA/TtnmlBHTX1Ptou0u6gvLNVftCIroGrEc-O8JB-lGGVM",
-        "filename": "www.firstnational.ca",
-        "size": 2477,
+        "id": "attCrr7Di8w5hXh83",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746367200000/PO8_5EJpxQqL_rbfwfQN_w/21kZi6czylu7jFQ6KWt6fIeU-3ROQqxzr_SFheocvGr2BE4WLR28IOlWzm4eiQQbQKsvY5mZkyeMpT_6WnRdI7BWLqwwn0o7zQiE5KZLYuEXpjT-NeFzI9eGkfyI4b6jACnAnBSdxSmL3tMfnYet_KjD9R_Ngc5pM-JChzCj_jHWz4eUepAxxrmn7-Q8zJ16/p8uCPD4-tmzfiO8QIr0EFXBnJlXwE_oiFGfgyo9Dvy4",
+        "filename": "beazer-homes-usa-inc-logo.jpg",
+        "size": 2364,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746367200000/_KvyLs9H3gbtJZVw9uLr9Q/CiuCur5ymgEqcHF0PdEZikjiS2mdvAhHzlYzPl8BZwCdj8xc39nf4JP-DYEhln-rAUegmk-gohjUtBwnW5BZ-xCMW6h_um2hjQkP_aI5VhPbeM1SbAcLPbj5l2kba79Fv0YdGYwpWCrQJ7ibOewSCw/sZhkPJ3ydAzRqh0JaVBG7Y6ihvM0XGrHxZkJnPPB0jk",
-            "width": 36,
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746367200000/_udEDnw4AlD9_KKvbR7zdA/lFC4RReNxA4H5ltNq9iXvul7WP7mqzmQFkfdupLoThNUDmbDMgRWlORgIknrqyBc96PiUzi6JxkzXifbEeH9FvB2Z7W9a4GZsnR5cOVpayKsmkElawawJJlECoRuZ7RDDlS5Z72JCdFSoj6zxHiBAg/k1D7TmnkCHcZgARLGDMZIv8tzfMu1kGOsPZ1-FxL0rA",
+            "width": 52,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746367200000/MZ2FA44xzDPapYa4eyok4Q/88UTf8UA2sDmXRebjBKQ3nbEyWkEC8vpjAeQ5QyCkFLnZAEel6UnjwTcFo1WEMxJTtoySJSMWeHyfD-zMhIet-nd9L74mX2XWAuoZ6wviJvjXfEHhCPUYEO_Pn-9qRoAGF3roMXmBObOVth8U_UI5w/XBcge0kQ-9v0adglrmjFRGqdn7v8Vq0oqP-Ps5m_9to",
-            "width": 200,
-            "height": 200
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746367200000/nYDkWQdAT66gJ72IgyKQCQ/96pBDbAisyplydxJu4X3UdnJvs64ffsWlF3lSD6RodYLPZroTH5Mci_dK9TnDiEtFj752lSDu4fuIaWnJ7S_iBxs7D-UVlG0hIkJd5ScOoUpZUP1Whb7cfEAtxnMvB6-ISlAUDGbxHTR7MfyGT_akw/ZUlxx79ZcwpJ4fXensVeSB7KkXexFd_oGRmLS-kuYIc",
+            "width": 80,
+            "height": 55
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746367200000/PYcqKtWqshXslL0YXUZJWw/bsxiYK1-fFd2hZseL8yVzijsFBbzmJ5LMMNsJO912bfg8F2rIPr-cJqd6NdgnyzZiqn7NCGY6m9VqCjX3rdpVFulMdjobAipjmf6n6lKDWXIJ98uc6LVJxBjcmbWy2b2z9F90yxST0jOvqCgBm_f8g/4jKs-rqSenPYXFE5EoKoSgHc3Zvjh89hCCKiCYHdOrk",
-            "width": 200,
-            "height": 200
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746367200000/tnEtC6aqpiRGH6y2p8_tGg/d-wkb6RRORbiSo3HW-2eR5pomDI_1E4RvDNhsmDZTfPLHVy0DV_UwY9e20A1x6dkwBOXz3nuHDaR_hUt4tqpqLxKBNk7GX4I69gHRpUfujOXhVEf1BGxyiXskCcT52Z5H4CkcVBeYsMkIYPlxt7DEA/JVcWjf2PWbcuSk-Y9Wkp0nvUvEfdpL26KLQqn4W1lGQ",
+            "width": 80,
+            "height": 55
           }
         }
       }
