@@ -144,42 +144,6 @@
     ]
   },
   {
-    "fullTicker": "TYL:USA",
-    "baseTicker": "TYL",
-    "rank": 61.4048,
-    "price": 550,
-    "prevClose": 539.6,
-    "absReturn": 10.399999999999977,
-    "logo": [
-      {
-        "id": "attthLVlwqccgAJxU",
-        "width": 80,
-        "height": 79,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/3URglRdvNegjqlHEq2qcww/ufzhUrRQ46cY_qz87E0z386hE0of3LyifG5tgeSf9ur93QjQCP34dxEIMRHmR6hQHprNaN7RUQ16rh8N0NajkPB2IKYQLCmTKP8MQX7wxNe7jdsng3Lzxt0Ah6d29mlbLFFOIbooIblfMu3-fw3niA7hacq8p27mnXzsTeJpu88dF_G06V1C3DSCo3M37y8h/yNuBHH6CNpkyU2Aq1GG_Qh_ndNq0LSIMKa_l7XVNtr0",
-        "filename": "tyler-technologies-inc-logo.png",
-        "size": 3411,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/bYLBizo8jq11TMERpOYN4Q/HGgOjcBQFQYtMnhWoyctsLgqjt494J9AlIdn5df92DO7QqveqQaLXqcrejD8A_YS-YdDm7uaSBLg6X3AdEmP-cp6sVsDkmmThJNb6zADxwbQDLuniV2h9adzn6Xit2T-cWEHN9OW63Zb9GWwgabbQQ/H5uS7usRoQWZfDwXqZq4r0-4scqShdNBjfnqvIx6aWA",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/JEljcCpTwyznqCB43kherQ/Do1rUbl5UQkDbQRxQo0DKBBUgABj1YRGa8lRYjHtNh8OgXq5C9Quwf_zHZItLYIQK0HWpGJX1EHpfZAL7MAOBhS6C09tTq3-sW7Az76wY7Co2b4wbnbv7A8gaNsuWpPZZSvutVmlLlN3xkrjB_PGQQ/wN2SzzS9KsrGey4XYCPIrmw8zzvT349KOYyXlHgnJXA",
-            "width": 80,
-            "height": 79
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/ElvgJahfDFCrR3UJFzlbPQ/2JYZIS4JfIGmC24ggpRD0Oo-WUw9vPJjlwq9D7HTTY_XUeb5d-lVLtCa_jUx5QP0JHKKl_6kQTreqMvvka7VFebU88G6DLdyfT7MwYFT-rpcpOEekDPtuIYQDBj-B0y9VSJIzb_eBxRwhfP-4GwLiQ/uqy80foiVT-cI5Z3biXYowBMqF3qoDFIcK49AB-b4P0",
-            "width": 80,
-            "height": 79
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
@@ -210,6 +174,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/ljXBMp9SXUuR1F1DVwsmXg/faDxG6iMzmfpwOnovRBqdrSitu0IScBNce4VALqowHPRDsp-c6KdQ0gFTy7jWUkC8LsOptFo6yq2FTfGiAMHk5dlxZRFjuGlosz_U17UjT4VfT38l8UWNy4E37gmmhpaiAycyCUb6-hIx2weNLlUYw/Zlp58756LE03CiCiR5BrUzwb-mYpPVEO7nipavLLNv0",
             "width": 80,
             "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "DCGO:USA",
+    "baseTicker": "DCGO",
+    "rank": 80.9558,
+    "price": 2.31,
+    "prevClose": 2.2,
+    "absReturn": 0.10999999999999988,
+    "logo": [
+      {
+        "id": "attcz4c2bIv4qthBB",
+        "width": 80,
+        "height": 18,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/OcpYGd9M9N0xKNRfWv4LYw/BZ4b_nzlitdMMR25hDdIRtgr53tjNV0l3zRnWr3pNiXnfWXTQnfsz8WfghfkID70-fcWcQpyn_QNQUZwkGsskhJiZqS9OVDvMndq5ifI5p0KdhPlXHYLK1EhqKzIghYADDl_j0vnQ8g59TCuGBhPeUHY9maaQtZl4hKj1_Wh6mU/8SfSEBUWcvkvDuja0mawmyQcziXLuo54Fjm58nukQf0",
+        "filename": "docgo-inc-logo.png",
+        "size": 2519,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/PX666HA8mbiJAD5YYV5edw/WEBCsXTcSzZK4bp8S70I4yPNTTcIaDyjKjZhAW3WvvT6m4gqHsbvsvbQeToJa74XJsaeMi_vl4atrRG0HlnUbwRUMta17ae8kaETQ0SmZlqCY3FY3a8fO-u9S6tB2g5SkhdhX-zZn3_tn4EX_PZYGg/fTXm8z05oOrvj1_NKLMWi99xulYU2IA0Z88tobuEdsk",
+            "width": 80,
+            "height": 18
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/oQFCd_ixyS7CGy0fCyhEkw/dqckrgMl7-wFZ77uiCKa6TngaQpnjgSvm9wQJU2TLQnI1ha40B_tn9Q7VqCoCjNp_k351_zCWgG-CWPrlCc-uPZqp_1drs4eYZERpjJZnl8GgOvfc8vP7kwkw3GTauiy8H75SMaBhog25lmqvQA60Q/AOoK-oVGttE52Srmf2t6A9dmGpJDNRK7zwXf0GnbpEk",
+            "width": 80,
+            "height": 18
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746410400000/Pd1DoL2wFJBJj7BoPbig4Q/CQvpNUGGVMGdwV_Goxew40FLA04qyq5X8GDuArVt12ADzzGpNGq1oOJWhl0VlnQCbCrRshwl-RmiWrNlAtpvXai4t7aBJ6r5sVDHCsEl3ks16jFLw9G2Q0Qwa6San9UEywahJ5hVeBDcprHQFdCP3Q/IuuiTE6ZtbpG8SZllDrubA1us86SZ8YsLFne8lEXyPw",
+            "width": 80,
+            "height": 18
           }
         }
       }
