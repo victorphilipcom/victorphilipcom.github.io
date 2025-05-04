@@ -144,42 +144,6 @@
     ]
   },
   {
-    "fullTicker": "TYL:USA",
-    "baseTicker": "TYL",
-    "rank": 61.4048,
-    "price": 550,
-    "prevClose": 539.6,
-    "absReturn": 10.399999999999977,
-    "logo": [
-      {
-        "id": "attthLVlwqccgAJxU",
-        "width": 80,
-        "height": 79,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/s8bHY-jDeGWNWB02is_Vkg/JnnTIfmsHAhauyZAUNzmIMeQ8FTUoP7hrnbkJ3Cf16DoWgfrRVK8_3sGFslWYwCJmkHemJBsYCiGNWxT_wV56MgXr6i_soBPlgbdKXem-_HmZTpSdyJ8cE54WN-HfHrAwJoT5ub3l9-uTXXNkgzDLl89f3oGsgtNE6XWGSHuLHvBmbgc4aQ6dnyW1MWX8NHR/B_MQNJACalvLlNbY7O1lCu5v5oLXvlOIgP-sxXGICvw",
-        "filename": "tyler-technologies-inc-logo.png",
-        "size": 3411,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/409kNIjTN-qNAzQ7GLbDUw/9cpuMrKFm197JgfPNeQYbdlH_rjExhoMw7NuI0-lUbcIaHTETt8-wTxzP-CZANEuH1uJR31ExPvmYb7q38QWxlZFgIjcCgA3RYc2Kauot2lISsq3YWi27UiVcS33QqY_FGirL-kylBYbwk02rNAtGg/itPBcL7NN3lVOIR80u10z9vm9QNsysij8ZyoiV-3YcE",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/XGEj6XYqSnccUX3ic6OlmA/6PA4w55JzK8jTMwRU0XRoUba7IcTDnQrjS99td3zZ8n1GO4NEdOfvE1R4QsVu57Kti5ccZp5s2cKrOqQ3npU-dKstzjX2lIkiFzHi-IZfI7OeAT69JyPT6cAPNbNE4XQ-FxBq0LfyE4YzvyTbybuKQ/D0H3gYob3FIu-pUo2wJWc34EVfOa_AZjMWPzAUGKtiY",
-            "width": 80,
-            "height": 79
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/baCOURDGngwdk0xIXcXiHg/XhUduQjQuuHtfpDZbJ1sEwhYwAZ7W4gLIXFTd_lrI1joFtdEVD4pLlpio7FqvWDfQMzBfUB6qzwnxU2FtdKEbx2jmM62PPtFNLsJGO0_cj7WFOej1FSHORIqVec4LndlU4BKqG9m8SuBwcyMikDtdw/txQeGWv3tAF3fBc69y4Rwz-tasqGyZ7aMxAk8otgPh0",
-            "width": 80,
-            "height": 79
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "WEAV:USA",
     "baseTicker": "WEAV",
     "rank": 68.5735,
@@ -246,6 +210,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/VdLkcSNAdYYgKqbedYk4tw/YCmfASWSh10dAasest_zRlsrjuQk_JCcDJhm2jdJJ6I1IzLv1edeQkprYEtaY-0GujzI-QTrt6oAU5RkniArL4rkr5ESqR11oOr16bwVF52-J4ifp3sdZQh93HZ5kSMj-feCbrZfLiu5uQueywXGRA/zoQEADbdXMZm2_4kLE9xrNYwE1gvkOnG9QDzscR-tXU",
             "width": 80,
             "height": 18
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "KINS:USA",
+    "baseTicker": "KINS",
+    "rank": 97.3932,
+    "price": 17.87,
+    "prevClose": 17.66,
+    "absReturn": 0.21000000000000085,
+    "logo": [
+      {
+        "id": "attFGEEPDdqZ96Tng",
+        "width": 80,
+        "height": 24,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/RNaPnggqgVMdlkHU3iRQng/IOTRQW_HUoPBG11dXQwf-K58hzJ32tx0mTUv-uxIBgg6aDQcOTRWdkqchPY8VqBKJ1UfZpzcqC1AsHPiAP0gpxnzUiiE9q8t96ajvyz-Uqw3wosryZI_-HC4OpCWXaktyB5gokRs_utzPJ1LdgrOXUSkLMKvGhjRYyIq88dQmb5hd7GGjvtrH0UigJOoha6N/7KAwyqAsKFdxLVyanLgJYnaprVZUvyRg5TxeUjNhUJ4",
+        "filename": "kingstone-companies-inc-logo.png",
+        "size": 2167,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/5laHypQWGT6B4Lwkb_QxeA/63IlYHhW7AcfI1vATZjLaGf_jBxzMTussYom3eLamVxjR_NPzb9y2BzVCfCODaGnJOH3prdzhpEmj5Z6_BuFyI3NrXGsehsfIN-RE2DYuX9qNM-4g_V6TcN6w5jr9ZxUImJxTzfvJdmxBiEV3lANLA/ppRv_xhRMkswwYye3LWTqPlb0N8oejKTgCftf_1_PBk",
+            "width": 80,
+            "height": 24
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/TRdNSNq3kOcO_I4emTUkVg/2TjDk-0q-VuSGtQRem-PAtbLk4YLImKG01nG5blyx3EkkU6_jvJ-6232hvolDA8Me4f-Q_yatPCKm1gxwfXaZnCuHRj5DXOQ3dv5q5ygf7USMJRNRdJ5ppkw84xL2oTThyblXCFOhIrDIclpJ4JY0Q/8g0wJ5e3E_CUM5YJD-q56ex3TAZUV34lz76T4HKiRW0",
+            "width": 80,
+            "height": 24
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746388800000/je44x3r2uBA4rLgECxlVQA/CMU9248BKvn4rz8IuPih5tTpkp03YszqUqnbmTUfq3smiHAcv40NIxVqAHXF_C7GGM7WFJ6KXz3rJim3EV3zZHuFiiztmkWuDhAYKXp6ShPRx0PqYJgG3n3KzHIknr1MPuEPIOyigM7EqYwuSaJz4Q/7V35xZ7QNYIdQwt2bbVEQ_xqs4jINz8zpDIdCvhqN0E",
+            "width": 80,
+            "height": 24
           }
         }
       }
