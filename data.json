@@ -108,36 +108,36 @@
     ]
   },
   {
-    "fullTicker": "BSET:USA",
-    "baseTicker": "BSET",
-    "rank": 82.4584,
-    "price": 17.87,
-    "prevClose": 18.66,
-    "absReturn": -0.7899999999999991,
+    "fullTicker": "EHC:USA",
+    "baseTicker": "EHC",
+    "rank": 82.4222,
+    "price": 116.31,
+    "prevClose": 116.64,
+    "absReturn": -0.3299999999999983,
     "logo": [
       {
-        "id": "attjRvvjWWEUrHh7A",
+        "id": "attn5MN4cGSGWXNa0",
         "width": 80,
-        "height": 80,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/f_z94ArV17qdEF8-Robp2w/XoY4ibGlSdsMTTx5g5drtMVyo7E8gnX1XK1SLYo5O9-flm9S1qU_lQOdL2AOPoaAqzP4r_9U3tq0p-nONVe91cQuReSdOrafZgSLC6PKnrAGZaEvbn8D5pdh7mrOZGO1Ql4yM-kYAzvSTxqOGrxfW1tZOF64yLBvAAV4kyTn7DjUQC5Hp7L2It_tikTQu0-HgAXHYMIS88EVtN0prNwnCA/5EWNr4MyIQPMKzEl1MHBoKR4Gj2xB0kNcivyXi8Tcxc",
-        "filename": "bassett-furniture-industries-incorporated-logo.png",
-        "size": 4930,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/ZxRepo4GEeRz96ppB7yG0Q/jzxp3C_HhxOOXw9oVUglINDT6f5e6NWZ2nzl9Mi3PculbDUkQeFvOkFFK6f6mnNmpWhv9q22AR1VU_eTWMRrzbLOnlcCFv2G_ftFLz0dbGFx4yIQFkM5TLfsqZgq0VJG0VUQZB_68sZRsdsjBmd41WdvSruMTdongO___TCg-Ec1RXCGSmv5YdYLhMFyAYLa/nMyCAWAAbARg_TLS4RNITszQM3OklhNPdx9FIDUh1Go",
+        "filename": "encompass-health-co-logo.png",
+        "size": 2403,
         "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/aoyr7L1dQuRQVDQN-lXSgw/IiY0_CwAuIsQQuHa90rgK0bTQSZ1JO1_rY8px1QcSA-YY1Z6HUhVuc6UipXxhkTZqhCi64txPz_mZN3JeLK1SsEw6eI82HxEas4PXJVJhnEDI855w1M31zs2on7N0hOmgoJesUWKbjo3xzF1rz2k6g/TTMjXUfrM9pj5aOgEb-oDKV2-CdsZed15IBHY-R6eik",
-            "width": 36,
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/lNGK3v4tuOHkRc_xbeY27g/8pikdGOef9YwWuYiYdotaDhfq1aE2jIAuSat39x8n6M5M_im6UW2n7XCrVExrb34KDmTiuHqoQ1SuJXNOsOtqXsEKqzzOHALexuwjOXEcAAMxyRobCauT3SzliDMnfqLlFwfgb6EIAhtf4T87LNLjg/lSOoChLLqT8EK-baLGtWams94-jpsr_DLLOub4LGmi0",
+            "width": 70,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/TAHI75ZEsCy4wFqh4dOKWw/mBbx_cZ74kh7hMLz_MZV1ZBsA8GxNQwKUwZxJEWsCL2_bOeDSmb4AKULSsLUpZ9wnKwotSfu8YNL9s2z6xGtbLeNVafdN5pU8-x6ihUBbUVkjX5rTPcUiLN1OIveaXVyfyau6katHINTlIbBC2Zkvg/bUzj4-hH77a0arwnEU_zi2JQAkvTxd45Ma4mDO8uNJ4",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/Vhf19KO0RK279vV9DNBFlA/M19mCDbw7x_5yedjTFoWU1bvhxWK7ZdNhn-25Y8P_NwWa7J6gVqGErNMqkuyBEAVoYgEQ7lIgGwpndMkCBxU_w5v_NOrlJYaEp_1SnkZtZOHxTl06fzAwvPt45Hd1f1mMurSSBi5czfv8ViZOCR4lg/i0s17-DwkV1bMmnsrhpPVN7WotNxsS_6JFvkaOBlPZo",
             "width": 80,
-            "height": 80
+            "height": 41
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/UOlpT9exa8ZJl54EdZUlwQ/ng72uNoihGqOouwL15qmgik_gnUOwx6oYsgfUkkaKhpN-CVrgRhFDWcR78Xss6LBkQy1yco24hH9PWrPCozVFZH5HwN-YiWL0CHi8yryKSdmdMPA6ejnBTCqzcZfM9TWJq2EHBiLDk-IICkIvOh6Fw/bO2XafL7IwecxtrvhCMRswzeFvxSdNPXr_ew8iNt5i0",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/mIH4lKPI48ou_74Vb1sJig/F7kpYfVQbdQxeoh3AcQF-SMbeuHc9vnjCM9IjYc0zBf9dOpKAlK_81JJG7sKNLtJREqSzAHGGTyk05wOaY73Y22sNMvOG79nVgtzYsARRHfwq3aPR7gmjiOmMGFpIhfrDD5tdr8ci2avZaZMCcIQ8w/ipQUsheT2RAqBZZYcqBVh0grNGJl6cZDglpbMhUHRsY",
             "width": 80,
-            "height": 80
+            "height": 41
           }
         }
       }
