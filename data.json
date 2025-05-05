@@ -6,7 +6,34 @@
     "price": 0.8981,
     "prevClose": 0.8801,
     "absReturn": 0.018000000000000016,
-    "logo": ""
+    "logo": [
+      {
+        "id": "attabOE4yHG4R882C",
+        "width": 80,
+        "height": 44,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/0Z6Pauf9kpWIWZjepGEPsQ/5B2M64V7RqWLECwyge8sgLY_93kpH61zkc5rQjyQdEvuIFFsmghkoDRZ9RUwC-7Q_knw1yxSeyKg0tNJzwTYTGtkJM9g6EfGEYWlOolEW5p96oxeGLe8TBmHMfni94ICbUCG90o0coUJxxGJ450pEje3B9IHG3bsXMSppaXyO5LDOD3S2JkhIONdWYXMCiBj/xCMaJjWBJfYfN8zTY8X19YuFvjtP5KmT8A6iUBypTZ4",
+        "filename": "lotterycom-inc-logo.png",
+        "size": 2795,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/6oaS126-cBEIdBHmuBv-7A/GMB2Vw1CHHHBjWjEZAe-JA0_cCb0SxDnRUWJi4R3hjrYtn1FUiuQ42uiswPFS2dHFXOtWZoejem61U2W0ChL6r6A0pu6d_ijn6dperUo62aQW8CcCc6l0Eef-6xT7x8ttYb5lYsyklmAhvT0th0WUA/omQor0poJTAs2B46i-K1IfyDA0oDJW2WCly0uL38hzQ",
+            "width": 65,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/OPCCKHWcq9v33p1ulaC3mw/x_htDv-73CLgnh1rJhRQbExH0SCa1Mlb9CA6H8QBGgPF3ZTwdCTZrn73W-0GcSRJv4XfjLZWCSoGZqhAHwYwmR67PU-FLfUcpjsMBKoVWPfXHSi8lgzmYm4PfYycMHbxcUC3lDPpjAvsW5aiAKhNHg/WAZA8KeMK0IYFrHzgMkcCL7UObY6ayB4eBu7dwRRGkg",
+            "width": 80,
+            "height": 44
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/ExNA9SPcMA49psIL2jE34g/yx219NVt-fopGCQTiKkfzmXmr1KtOgkDZBRsaooif57eXuFrkH9f95yKy-4WzaHGY_AV9lRBFuzrSk01SdGx_F5P-Fam4ozvgBJoiOYlsq20U_KLrzN-JT3td4XQx5Cr0fp4jhA0xCJyUiMjs0LNxw/PVdVHDTW5AbtuK7LSRtOp--EkLTUQnougidLrx8Qquc",
+            "width": 80,
+            "height": 44
+          }
+        }
+      }
+    ]
   },
   {
     "fullTicker": "ARQQ:USA",
@@ -15,16 +42,34 @@
     "price": 16.18,
     "prevClose": 16.9,
     "absReturn": -0.7199999999999989,
-    "logo": ""
-  },
-  {
-    "fullTicker": "AIRI:USA",
-    "baseTicker": "AIRI",
-    "rank": 66.4736,
-    "price": 3.62,
-    "prevClose": 3.64,
-    "absReturn": -0.020000000000000018,
-    "logo": ""
+    "logo": [
+      {
+        "id": "attWqYXw6eiWJc3zu",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/yG77i8ppC4P-uFxbHl_-DA/yXMcf_P5EVoUrsSqKtPjn2edrJF1SpL2kF6FsgLl70JWmsdXJore9LW5E0lhtjeIGJiMc9YwR-2zkRNgYSXxTPOsqf0le9efWuk0aXOLZQVTuqvXfiQ-r2NPg8rkXwpPd1HGyyZcknY1ShftxnyFG7RrXx6dihAUGQnUKa_TgoOawUZ3JJfUtc2U0sATemsA/OCeTjtPiJ_jc-acKHvLjxDKyp29KmP3bG9fzF4TgZ40",
+        "filename": "arqit-quantum-inc-logo.png",
+        "size": 5443,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/mTZrm2c9KA43Bmm5edvJag/MDUVjb3Vf0-nGPR7dh4008HNCt1dthTY4oEfgpZR06KyoqNfn8rOlUAa3KkHjcI0IsycG6ebemd-LM9pL7kD8WTECf_W4IGEv7aXX5NaxfVLjonmB7G8pHjLkjl7Ps3Yo5dq9PJ2X8auIAVQgzIXjw/xinKdKJhXVWwXCMW-L1Qg25_UIj5kBYrLif8lLpS_FA",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/aD7MoTQf8T0JSpdP6RRJsA/dosParnHc9GJVvYx77OZB3KjmmfeuIAlAVBKMdh9LdgF5hVYuXTDKvPRZ2tSFP8HFAiwuJWdts9GnrAswi6BSBdCgl9Ss0anD5oLsIitviAYiMNWoGjzRxariB1CT0uVy0hVWcAH1lMAVnmHlJdu6w/X6nhyHCO5n7w_PlTmM2aXIfTRheicJYw-tdr0VjlJxk",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/tsh2gQ_JDDzRjV6iUqhSHQ/d_DxlnV6ekLnFa4mB17cVirY_txD2W-mE-kO1k12KtDoEej-ohqzrtvt0Qp6npRZ6wdsSNjKwZPr5khBD2wtCW09zE8WDbtFIplXJa5e9Tp3AqhiWdwMNmxB1WumlDsSJvM1eRAtHCRxtY2YwmvJ2w/avNf6Q6UfUUrhlczuPc8bwIG7lAamu7La3fD3b6lkEE",
+            "width": 80,
+            "height": 55
+          }
+        }
+      }
+    ]
   },
   {
     "fullTicker": "EHC:USA",
@@ -33,7 +78,34 @@
     "price": 116.29,
     "prevClose": 116.64,
     "absReturn": -0.3499999999999943,
-    "logo": ""
+    "logo": [
+      {
+        "id": "attn5MN4cGSGWXNa0",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/34ZIO60yZrSGnzBD1paMeQ/Mm1VMN7TnWPcHUXIjIWcaVTbnOwDi_X8ti_CMO6YRWDlN6-AWE170Cv7pwgdPpV8zTetvaFgBefDjdLOJE_OqquwL88TEpWRxc0ltMoe8Tui2UlhX2uxXe5vMYdGqx2t5zjxc9onIf_x_ELfQqXBI5gF9QELhPLAGHW2DKHlvrOAYXZkG4501_f9Q2N9OnSc/q8nQa_5EeY-sSg7z5RgO6qAEagWhWKAege1ojOqCi60",
+        "filename": "encompass-health-co-logo.png",
+        "size": 2403,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/8c_T7wHAtXRq9VZdilb4TQ/_3R_3mpowTu35NaWmN7fwpwI3JYFRQQT3HKqR1yZytDRZk-Ptau6v-ijk7-gjUrvjnRuggur7D1Tv_kCkz6E_D7CoxbTagbjQzbEPGLjyR32pgNjc4tCceyBaXQM-tdK1xFHaKnUvKD_-SUeKxlDmg/4RtWXhP3pOu8o1HKGWqvQlr2zmi3ii7YQ8iEOGOLrU8",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/WYe9XA9tY3v5LpBf8TxB2A/Vkft4rb-hGksvV8hS684FiXula5mnMu1WBScCN1_yBL-tcysAI1Zr0SKsuIOIYnnGeaBMPEyEVD-6ZY-Qgz8UghZRlz32mGUl3C0yWIItRGVi8JI32m6dmnUts43USc9ixTFAX-53yt3ZH25TSjvNQ/0FLIM0ziVutXgzBEQp36_00amwpl53Hwj173FQROcmc",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/MWz5tnTcPYIIWtn1NCyz7g/xukOemBDlLn13Nhp5oRpUbXOQN327nfrh5ns_5DxBXlBPNzVigKtZY28wA5AjuPfEmqrewQc8TZOhVuWJIZC29CR7CJXMYKnK_JyLjtHaaxBIdRsdbxINVvvFWdrZ0_BaVR7WdaUNzl2HHjF9W8gDA/JhTJhXG4B0utDFidCfn9_2SEa51ryOEW6zKqOiOtjGw",
+            "width": 80,
+            "height": 41
+          }
+        }
+      }
+    ]
   },
   {
     "fullTicker": "BSET:USA",
@@ -42,15 +114,42 @@
     "price": 17.935,
     "prevClose": 18.66,
     "absReturn": -0.7250000000000014,
-    "logo": ""
+    "logo": [
+      {
+        "id": "attjRvvjWWEUrHh7A",
+        "width": 80,
+        "height": 80,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/0riy4DtHuq_xwuDPFiRF6Q/eCDUar6XGpvFO53xsYX8MueMp6Kuk1NqbhScCeyQos3iTtUnugUd2Jol-IZn-E6rdPeyBD5Ym8X_072smd_UaB9DuXQ4Cip4KDjPsedW6TMTSGItYopKwjx4yoDbJTa-Vzaklk77TjYoJWb5gmGtWtywwoBEXUHMx3hUzBpL5gzwuE3ojdNMTmoCza0xDUrK1aR7BJhU5mo5RTvYPq7Ikg/NmiFO62lYwnTxxgTjjoeYHFE0Qsug3nqhw1XC-fzv4w",
+        "filename": "bassett-furniture-industries-incorporated-logo.png",
+        "size": 4930,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/2_kTHEm-0eU9Egbk3_S1Kg/Nqz-H7OlSUShkIh2-8JBoppW52FZUwaVhjeeC-LpfbfU-L5ELUByRStXotaBcpIpy9eTLu_UW2Z8kMPcGd3-YGDzAF2iteaOdGJD00YQ-dkEIZ0pQceku99tcBqJFgXWmCDhDy9MpOV-zDEqi-23QQ/oiehjNMBtwzVdbpAe2ml6YWhdgOAUJLAg3CqVSawQKQ",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/Tx1nMtmmGnQaH0Z3i0JNjA/vatNKYN8AonE-LFVJ9khSOB-DLZ7o-45BhOQ_A_2oRhERT0iUPnuQxDa-Jhe1taCJj4z_buNzD-G1thefY5p-OBddFJxqf9g1tv6v5j3LOjncCCjEKbcNARiTXNO4UpobWIVU_NNVN_-ieWouHXt2g/N_3N4twYziZg3Em48TyA9S63eMmhU-1bt_JVyJPiXeE",
+            "width": 80,
+            "height": 80
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/art98AuK3WNzo0TJjYSTlQ/aUFrVsV99D4RCn54B3MJDQap1WKERd2dCnVMChc6x_UR0YUZmULKAoohZRE3fGkp5dThrtJHU5dAYTH4VwV04lpdoZDmzRLsp7-DkUfefHn-4U-jYLm77Y62R0K-8uBUflKmaYi7lk6ncu39A3GA1w/LC4KpIMzQpdDnbjGCau0QXGxD7AA6nJalyBjOsY1Iqc",
+            "width": 80,
+            "height": 80
+          }
+        }
+      }
+    ]
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 562.74,
+    "price": 563.19,
     "prevClose": 566.76,
-    "absReturn": -4.019999999999982,
+    "absReturn": -3.5699999999999363,
     "logo": "sp500.png"
   }
 ]
