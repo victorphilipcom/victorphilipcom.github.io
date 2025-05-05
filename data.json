@@ -36,6 +36,42 @@
     ]
   },
   {
+    "fullTicker": "ARQQ:USA",
+    "baseTicker": "ARQQ",
+    "rank": 14.084,
+    "price": 16.11,
+    "prevClose": 16.9,
+    "absReturn": -0.7899999999999991,
+    "logo": [
+      {
+        "id": "attWqYXw6eiWJc3zu",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/_lQrqZC-yqbOjkPGIbJY2A/qFfGMCaqx-Hd1oB4YYjA6laVBBDBtnYycciDHE4R2Jq2OnORS5POVBluu-ZFww8hP_quKk7uxHoEydkcmxnR49dK60JcdEGMXA-bxhrxbREeCzANHHwCA-IYIeIqldwSZeejDC9NUtArVUbI6ndM4vxfNSPHDojOcSAhTmglHvZs0Ulcj9ZJc5Lzu1kUSuVC/zuHBYyguSqymotNfck9WTtNwFBBh9rIFx5tHpvaaquY",
+        "filename": "arqit-quantum-inc-logo.png",
+        "size": 5443,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/kLx8LUhTP77SaVH4_w6kYw/Q6NPqDgLLPqId6IGcDZWtFA1JkbMU2CedsuWrgLr8ph1YNTBv1DBwGNp-YxltSqAN5K85FUw5b3PX5dcfTOXptkMe0XRBb8OlOjLBuRE5UOwVxE2EzekexK0L6aPVq_xPkc2gGChWqMwADgb-NnI5g/qjEdSqtPVGc4eJkYPab0GuKxnRJugecyPXH7BbKkq08",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/zHXZ6KscS3zrMNz0wrmlDw/W8OQjl-vG3LUBsuOXmRLsJelw9AzHlbnRBnADZa_lBLmPUH-_JWSJrw1IDqZ3YMyWTCmE5JlXT5B9rGyOzYSQUbhyLt1b6i6oIapd76ybQR_BOY8i2gV7JZxOfdJq-7pzUShD7E8y3PbJBjHuIiPmA/TVBH3bfbIv33nzksu5UMVeAyCGxKEzTJhczhA4YLDmQ",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746496800000/yebP74WbyNkOVRMNrXXDHQ/HFmueYm0v2p2cpoTAKl4PBGbhvm_babK7bsIRvpM-0T-kfQ9_u8v3plbzeB1BmcIVByIhfivGjRSwa68BJHwCxbkLFeBvyAy6SnjcRRXeCFZafIiUlBJKRlNYnHCYfGvmXX4btQWL_TBcBLRkeOBUA/iGRVPqCnZ0btKHc95LBoXja0DXr5s7fgBPN7LcDWMi4",
+            "width": 80,
+            "height": 55
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
