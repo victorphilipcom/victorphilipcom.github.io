@@ -72,42 +72,6 @@
     ]
   },
   {
-    "fullTicker": "AIRI:USA",
-    "baseTicker": "AIRI",
-    "rank": 66.4736,
-    "price": 3.6971,
-    "prevClose": 3.62,
-    "absReturn": 0.07709999999999972,
-    "logo": [
-      {
-        "id": "attQ2d8wMa9r3p20M",
-        "width": 80,
-        "height": 40,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/grRniuLjtpPDI__3zuy-ug/mZWXFBKwNHVSZncyrA80aMnBuU_TAAOLq67H6p0tGSWeQ-GIpsB8R2bZj_wIOOEZNC30pmKy5MQ9fKie2fBp67TIecluXbWmjC3fPm6b47rIJL246I0q8T31LX4ain1s0yZDGg971bon7TMPlLSocU03_2Nxbzkb_k-9hgjYNZiP1r56H3OpxfEwJ-EGocaY/vyOb2FOi6fBsaiBC3EMEpT0E1uPH8ycy3DyuWMwQ-KU",
-        "filename": "air-industries-group-logo.jpg",
-        "size": 1036,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/DBwOgw01YIoxt9BR9axwpA/IgMOXNmT_vCEqOgdIFsZL1YUXiu4M8-1BzOX8Ug1nKTK_9coLlMvnWOZ_8obqVEEhEIpxrrZnwtKzWVGwcih7EPB1dCKAXwXX6TmO7DVM6QOj96DNqUyMCbic9G968ePRNdLc4cF5yKbiGNV2EAgkg/Itz4WTyt7-FX1S4ZvfN9jikRo4QvdyUpWsV_WGVNJgw",
-            "width": 72,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/UgA6kbW3egcqrR7_Y0uYXQ/LIG1U7vf_uyKMraijUuQebTdBzf8xpqEB-HdWiZeja6SXjfXFsrHyhKhm2ZAE-LSMGM_7f3JXYck-RxJq8WdLQ_JQIyoYzfHoFgCe9KMxonjgFKXIvh6bKRM7IU9wISRlThZ61L0EykrbYxEHj-TgQ/zBesTGjCRrA8L8JtdxMKERcXLHxayPeJOaAQPrb1MtA",
-            "width": 80,
-            "height": 40
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/UtJoArh9cEPzm5_eL-DqIg/EKp5sssHrqXaUKTPKMtF-oSgU1t6TjdMlaxZqv9RapK_6ssdxNDhJiT8YfQP-1vSIoyIfcQkQXkmtRo4QJY71Bl33Z9VF8tf4agnAfp6Yx5fQTg0Haufc0bUC6WOPU_wABj0vUsB3Ad7WW9ZYIJBFA/CV362SQuMgckXFLKecNSKeD_MeLtFW_28eDUKzIcA9A",
-            "width": 80,
-            "height": 40
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
