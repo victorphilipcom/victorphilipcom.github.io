@@ -252,6 +252,42 @@
     ]
   },
   {
+    "fullTicker": "KINS:USA",
+    "baseTicker": "KINS",
+    "rank": 97.3932,
+    "price": 17.87,
+    "prevClose": 17.66,
+    "absReturn": 0.21000000000000085,
+    "logo": [
+      {
+        "id": "attFGEEPDdqZ96Tng",
+        "width": 80,
+        "height": 24,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746424800000/_LOYUNHb7u-KFDhBtqrDkQ/covh2U9cN-AUiGmOQqVfIlKXGUzICmCUomE3Wa0KQNR4VAWMhZ4PdB9l8-LB91czI37cVo_CdduAP-uBXufUyMkWpKlsWqyZf1VHJE4Aca5qqsig81eEWEk6FSsdytl6a2xJZgKzqgtVmHz8JsT8gMz2eq4JKzaGD0DBf8_gYAbO3ZnAnIIKPtc1_NQ6BJax/2zf7uDFyUPB-fSkgOWJ9cxx-Vg4oBnXLr2TSS_ppcXE",
+        "filename": "kingstone-companies-inc-logo.png",
+        "size": 2167,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746424800000/Eisv-lOQWTM-6EKaI6fbbA/B32y19PoH2ApsaXNy2k1xQWM9kvzRr0JAl6T0M2SjToQzx_FoN4T4FNM0xZx2WKYw5ma5k01PML2at8bm993JuuGyasEUKekgmmuF5z8iWi6N9a5zZQ4ZD38W_yioFAU5MTlawXlxaDC42MrGTrhIw/zM4VKvCMPctp9iF4dXYbsdco-eptL5wB1ScHuRrQOcA",
+            "width": 80,
+            "height": 24
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746424800000/0LVANJnrzfRbfSAcg_bXcA/zqAtXa51Vc7mEGH6cV7QouwNEjDSkcpSe0WzYmf_PyPtVKfz-3emY72lqrLJVBJYEyKhF4yzE1tZsroMJF0Bd7EtlSX4j6CXGa3d7oNBBndnET1XKNO-XME1wQLs1GmhHLdq2R-pFuiVCpaXT9eRcg/YoHBcDV-mLW4Aq7Z49shUj-CApXOzc8GBINCRU9YCW0",
+            "width": 80,
+            "height": 24
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746424800000/zkqZthBaDdHFzWVN0ovb-Q/O11dCsMLyvYw0fetxRtzq9Ac2zxdKTq5oJbAPt0FEdG4PiUvfaXS0v2IBSPfUpnwSgfv-BNGZyf-mRS5IhdTcdHao-WKbbc7dGF3FhQ3vnKkZrYmIL1Wgs-1_i38Ssp-G3OJtAcZ-mOGcTmtX5Sh-w/UnlyGqB0CGkoQ6EcJ7jcCiHGyD5Ldvw3hNouqXfa2FM",
+            "width": 80,
+            "height": 24
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
