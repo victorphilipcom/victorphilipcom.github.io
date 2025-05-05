@@ -216,42 +216,6 @@
     ]
   },
   {
-    "fullTicker": "DCGO:USA",
-    "baseTicker": "DCGO",
-    "rank": 80.9558,
-    "price": 2.31,
-    "prevClose": 2.2,
-    "absReturn": 0.10999999999999988,
-    "logo": [
-      {
-        "id": "attcz4c2bIv4qthBB",
-        "width": 80,
-        "height": 18,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746439200000/azhz-w4pcogAh1zuKDQwUg/frXn5xZFK0mLnfA05pgXHDGqcL2uc67GBnKENChWAjiZYtFcIWVVK_Wgl4-2MM769yPJPYcHqrfyOfOaJgqZMvKid0N-m3zKGJIdWf40yhpdthI1c5rVYW83zMEidEiZIfqi7y7zaRa54SxoXES76PI2jk6ihqmdYCUZGopfSWU/Ua20J4Bs-ZoSwQPqAi3tITsA2TvU4YQ55JYsoyWDyOg",
-        "filename": "docgo-inc-logo.png",
-        "size": 2519,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746439200000/H9CNfmW96PWB7crl8nslVA/O0haaV1B8jAfro3xKUCIBkW7Opil5920G4cem2MIYyJiYuqTQ4oNcnxOr5sgrVjN76hiQoNW8tG2fQIE_lXost5m-Duh-s39aVwm03XyEwy1MU8pvZj9KuYn4HmUCl2LvtlVOwUvDUMTSUmiPj9k5g/t0NuONvMYfrfyOYR4T7lDGAWs3ukQxIewhCbvAA88Ec",
-            "width": 80,
-            "height": 18
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746439200000/h3HGSu18DUFK1vWOMhxJDQ/WwpBv5Ssen5yOhe01fdAG9adWd8UbYmmhVhJh48X43D-L2hrKaxXjqextDMOhAij91i1fFs5F1Hb44W0oEjSM95Y6piByPe8G6szTBlj-wMkd3-Fu9h-aGybBumFHn57fWDw9kAGV1LV9O0gskKodQ/7JHCxyLp9U9pWEwErtbwuc8bCcKPZ92sYTF7xUKwLUY",
-            "width": 80,
-            "height": 18
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746439200000/oILxUqNty5JuxQSM8sE3_w/fiUeMg7YlFbFF3fjanmVhSXlt7clBqMEEAK4D31lr_Eqg032J1BGNvPnM-ZtihR5bAMLOUvfGV-c1ijBIg1GDfadXzfU-qLTZR7vq-KqQuc4PTq-howNC4rc1ZtSfWGL3m7D6xlLZbv72zqatc_vig/gaaTXp1V44qVZQnOki26SBRAam0HZqnkJb1oVWJT6mA",
-            "width": 80,
-            "height": 18
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "KINS:USA",
     "baseTicker": "KINS",
     "rank": 97.3932,
