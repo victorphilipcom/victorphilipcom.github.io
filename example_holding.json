@@ -2,8 +2,35 @@
   {
     "baseTicker": "FAA:DEU",
     "rank": 0,
-    "logo": "",
+    "logo": [
+      {
+        "id": "attKlYYndzi0Qw3lq",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746453600000/sWq1wu33M3K0VqBK_y_Nng/d4ZRaqxcU7zLVZSTmYM36T7zw0mX-r0A7_zTAl6Fx2m0LJD7geH8PEtRkv4oCZbF9r-OxxykLOSsa_06Bry7y_AbVcg00ZCYqkWxMQAdHos8FiSULZASpXIAkjIv021xEImFHO_N_zyC4M7n1Q5ZWzrcjYrB7QGWv5jekMW5kXg/hi5rl9SS3Q8_XWQL2FVEf_hfJ80HKCSo6UigMYNcuhU",
+        "filename": "www.fabasoft.com",
+        "size": 3006,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746453600000/HR9BwrX1OXklnvGIFakyVQ/BupFmZFLFCVp43O6ktN1SEfcG7K_ewQkWllVsvcvdjy1IQU9robV7-V5XMA4SiGN9ZzObNf-7J7ed0Le6__i4uldnnbtmg3edfml0V_WqNMfV_a54IArMaXr2CX4hBNva8vzLHNr9gJVVc6G0suCcQ/05IznXV7GyiTB97sMqWYIBEBL2yUZqm71rM-HVBPxI4",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746453600000/Gz4LggkXoYZIkekDoqhFUg/nGRJ6ZBi3ZqR96vbepwhaTeeXAMXD9YokVyquarQLH-f49mZa_GWi1b8_8h3G9xo_4mOIp9J9_gaAUcFxOyGYD7U7c7pvU87cCkwn0XnKtQ99cawN2mPmgsKxssafuS9rvLpukeQOqxp2rV9rI2W8A/NJi1_Rf-rMlRb59qHO4A_6-yFDn4zNmmSSQlMNsWek0",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746453600000/_XLKCPTjCcyU2sKiD704sA/r2HPiUk8R_WmEK_RbfN9lLep37y7tfPeIfbuwlRtofwLZV7iLhl0D6Q_aPNUwkKOJe5EbRthOUesXwwVaQuZzgIbz3jOkZy-cKt-CB7tGaE9ROFDPNU_z_2KacMTdZeDHve_m8HUd05GKWqt3ZFqKQ/wvzn_op8EGTxlZlYVsuXilxYUj54t4xdDHX1FroH-Co",
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    ],
     "name": "Fabasoft AG",
-    "description": ""
+    "description": "Fabasoft AG is a company that operates in the software and cloud services sector, providing a range of products to public and private sectors in Austria, Germany, Switzerland, and globally. Their offerings include business process ecosystem solutions like Fabasoft Approve, Fabasoft Boards, Fabasoft Contracts, Fabasoft Talents, Xpublisher, Fabasoft eGov-Suite, and Fabasoft Folio. Additionally, they offer collaboration tools such as Fabasoft 4teamwork and Mindbreeze InSpire for information insights and artificial intelligence. Founded in 1988 and based in Linz, Austria, Fabasoft AG is known for its secure data management and monitoring tools."
   }
 ]
