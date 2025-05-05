@@ -1,65 +1,47 @@
 [
   {
-    "fullTicker": "ESTA:USA",
-    "baseTicker": "ESTA",
-    "rank": 2.5525,
-    "price": 33.32,
-    "prevClose": 33.39,
-    "absReturn": -0.07000000000000028,
+    "fullTicker": "ARQQ:USA",
+    "baseTicker": "ARQQ",
+    "rank": 14.084,
+    "price": 16.2,
+    "prevClose": 16.9,
+    "absReturn": -0.6999999999999993,
     "logo": ""
   },
   {
-    "fullTicker": "UHAL:USA",
-    "baseTicker": "UHAL",
-    "rank": 8.1463,
-    "price": 64.6,
-    "prevClose": 64.92,
-    "absReturn": -0.3200000000000074,
+    "fullTicker": "AIRI:USA",
+    "baseTicker": "AIRI",
+    "rank": 66.4736,
+    "price": 3.62,
+    "prevClose": 3.64,
+    "absReturn": -0.020000000000000018,
     "logo": ""
   },
   {
-    "fullTicker": "INTZ:USA",
-    "baseTicker": "INTZ",
-    "rank": 12.853,
-    "price": 1.475,
-    "prevClose": 1.53,
-    "absReturn": -0.05499999999999994,
+    "fullTicker": "TENB:USA",
+    "baseTicker": "TENB",
+    "rank": 79.4714,
+    "price": 31.475,
+    "prevClose": 30.77,
+    "absReturn": 0.7050000000000018,
     "logo": ""
   },
   {
-    "fullTicker": "LPTH:USA",
-    "baseTicker": "LPTH",
-    "rank": 14.3555,
-    "price": 2.42,
-    "prevClose": 2.49,
-    "absReturn": -0.07000000000000028,
-    "logo": ""
-  },
-  {
-    "fullTicker": "TTNP:USA",
-    "baseTicker": "TTNP",
-    "rank": 37.6177,
-    "price": 3.72,
-    "prevClose": 3.75,
-    "absReturn": -0.029999999999999805,
-    "logo": ""
-  },
-  {
-    "fullTicker": "IT:USA",
-    "baseTicker": "IT",
-    "rank": 81.8972,
-    "price": 428.44,
-    "prevClose": 427.49,
-    "absReturn": 0.9499999999999886,
+    "fullTicker": "BSET:USA",
+    "baseTicker": "BSET",
+    "rank": 82.4584,
+    "price": 18.42,
+    "prevClose": 18.66,
+    "absReturn": -0.23999999999999844,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 566.485,
+    "price": 566.085,
     "prevClose": 566.76,
-    "absReturn": -0.27499999999997726,
+    "absReturn": -0.6749999999999545,
     "logo": "sp500.png"
   }
 ]
