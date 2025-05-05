@@ -36,6 +36,42 @@
     ]
   },
   {
+    "fullTicker": "ARQQ:USA",
+    "baseTicker": "ARQQ",
+    "rank": 14.084,
+    "price": 16.11,
+    "prevClose": 16.9,
+    "absReturn": -0.7899999999999991,
+    "logo": [
+      {
+        "id": "attWqYXw6eiWJc3zu",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/yG77i8ppC4P-uFxbHl_-DA/yXMcf_P5EVoUrsSqKtPjn2edrJF1SpL2kF6FsgLl70JWmsdXJore9LW5E0lhtjeIGJiMc9YwR-2zkRNgYSXxTPOsqf0le9efWuk0aXOLZQVTuqvXfiQ-r2NPg8rkXwpPd1HGyyZcknY1ShftxnyFG7RrXx6dihAUGQnUKa_TgoOawUZ3JJfUtc2U0sATemsA/OCeTjtPiJ_jc-acKHvLjxDKyp29KmP3bG9fzF4TgZ40",
+        "filename": "arqit-quantum-inc-logo.png",
+        "size": 5443,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/mTZrm2c9KA43Bmm5edvJag/MDUVjb3Vf0-nGPR7dh4008HNCt1dthTY4oEfgpZR06KyoqNfn8rOlUAa3KkHjcI0IsycG6ebemd-LM9pL7kD8WTECf_W4IGEv7aXX5NaxfVLjonmB7G8pHjLkjl7Ps3Yo5dq9PJ2X8auIAVQgzIXjw/xinKdKJhXVWwXCMW-L1Qg25_UIj5kBYrLif8lLpS_FA",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/aD7MoTQf8T0JSpdP6RRJsA/dosParnHc9GJVvYx77OZB3KjmmfeuIAlAVBKMdh9LdgF5hVYuXTDKvPRZ2tSFP8HFAiwuJWdts9GnrAswi6BSBdCgl9Ss0anD5oLsIitviAYiMNWoGjzRxariB1CT0uVy0hVWcAH1lMAVnmHlJdu6w/X6nhyHCO5n7w_PlTmM2aXIfTRheicJYw-tdr0VjlJxk",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746489600000/tsh2gQ_JDDzRjV6iUqhSHQ/d_DxlnV6ekLnFa4mB17cVirY_txD2W-mE-kO1k12KtDoEej-ohqzrtvt0Qp6npRZ6wdsSNjKwZPr5khBD2wtCW09zE8WDbtFIplXJa5e9Tp3AqhiWdwMNmxB1WumlDsSJvM1eRAtHCRxtY2YwmvJ2w/avNf6Q6UfUUrhlczuPc8bwIG7lAamu7La3fD3b6lkEE",
+            "width": 80,
+            "height": 55
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
@@ -75,9 +111,9 @@
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
-    "price": 116.29,
+    "price": 116.31,
     "prevClose": 116.64,
-    "absReturn": -0.3499999999999943,
+    "absReturn": -0.3299999999999983,
     "logo": [
       {
         "id": "attn5MN4cGSGWXNa0",
@@ -111,9 +147,9 @@
     "fullTicker": "BSET:USA",
     "baseTicker": "BSET",
     "rank": 82.4584,
-    "price": 17.935,
+    "price": 17.87,
     "prevClose": 18.66,
-    "absReturn": -0.7250000000000014,
+    "absReturn": -0.7899999999999991,
     "logo": [
       {
         "id": "attjRvvjWWEUrHh7A",
