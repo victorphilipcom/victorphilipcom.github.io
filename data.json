@@ -72,36 +72,36 @@
     ]
   },
   {
-    "fullTicker": "AIRI:USA",
-    "baseTicker": "AIRI",
-    "rank": 66.4736,
-    "price": 3.6971,
-    "prevClose": 3.62,
-    "absReturn": 0.07709999999999972,
+    "fullTicker": "EHC:USA",
+    "baseTicker": "EHC",
+    "rank": 82.4222,
+    "price": 116.31,
+    "prevClose": 116.64,
+    "absReturn": -0.3299999999999983,
     "logo": [
       {
-        "id": "attQ2d8wMa9r3p20M",
+        "id": "attn5MN4cGSGWXNa0",
         "width": 80,
-        "height": 40,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746540000000/TZlqMhi6VDavzMN0AWvTyg/mxRp7nM1ZF4SEUlZGxBmFjzL8yLPBE9ColxK3dYm-P3J97TsI95J86KZ1LS7OZpKa9vkI4DjJR8Wx3BW4q9rlQPwp3CjvV6PKIW4a9qdrKpHsqyQyGWUpylz-dGznX8iTghhWGYRr_pshsFRISXrLO8myc9qHPPyyOh0UtOJ98HYZx_47zVrotGNP4pCY_Sd/k4wmAJLrVFRYhEa2rypl_tHGa6_E4Ea2P5Nl0y0NPPI",
-        "filename": "air-industries-group-logo.jpg",
-        "size": 1036,
-        "type": "image/jpeg",
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746540000000/_eo3wh26DkYmzYjkIeOz5g/f7mOFO6AEaps5e1ITpoFhJ43sBWfPm42ff0YbE5bOy1GnlDGdMIHjuIzm4T368Bi2OOh5yFyUTiuiSTARacC2RC9d6m46Lc95HQVY169_htLWejRCAcaHH-NjAJfsd98dZ4gM7vc3Xnoh9JDRi_E54PHsMFRPVORGE2z5TvCORrSqH8A4504GhO43p8KPec5/KPs9VV-AP7lNRaCQAnQU84TLAVgsdqg4h3IiFRIAtdg",
+        "filename": "encompass-health-co-logo.png",
+        "size": 2403,
+        "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746540000000/--AM1aBUfi-IBpDIzvT7nQ/nUwjZX87axBVvsi5w8l5ErjPW8K2xyyDPvSvkj376_Dkek9NHh3rGNCL_qqStcNuavF8qocPxzpwMnOrkKSDZJQtCjEwzH0JkpoIEE1VQ1HYWv8537ciW1EeBDmnajGxDO_cdmCxw6Vkk_pB_iIY4A/pIR0MybcwQQ51T2IlfkzQ-4aRwQhvBwba_aaXwu9LD4",
-            "width": 72,
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746540000000/Emc3rg_fvMuBptS4uJVnoQ/rirn4_TcL9VzDT-mmfVtQFtnx_6h3CA_-fGsGe59dji3l5991rTYhyQMiOn-hOreUUtJGBqN_xoSNN0wU9YP1ZNKrrdDz5nFgJ2DO4uSheC5GziCfOlPZaauoXT6FWdro0Z0krd7TE4_QduYig-ERA/0lWnpHB2yE6NVTlWDDz3j3nY-hmXMjGilB3aLuGRssQ",
+            "width": 70,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746540000000/ydH7KeHTR7QEf7KYxvD5ew/obQTCeEpChEABvB8ZUz0ds7iGxkO4pYBsJ2dT5qr4EQSmW6bSkh-m51ik53BnQfNsQMOmiDJUPBI1tmM5MR9e2R9qNf7DBXPxrDmW8IOYXrlGPGm5RQcR5P6lrqaf60uNiTVY5TAahaDq8a5xZ9e9g/vTpf00imKmkvUN8jgkSvzbdfZgB8ww07uTweWawI4gs",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746540000000/FKQd0iu2DZqT9oWs277nrg/yuVBWXdbf7tm7rrQ8DdP3Cus0fuqSuXfYtODuXrWztjmxOcP--L4dw-OxZKUwpwl5ef_m8UfG_9HTRwCpckF3Sew3u7uazVCd78Fj2En5vzJqRgZhm_04qhGZvr4DZe_M7_ufQPeusVEWhZf-SgnZQ/25zYdVDJSkoLpJIEdBmsag2zpYNYx_26IY5nJeHlpWk",
             "width": 80,
-            "height": 40
+            "height": 41
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746540000000/XSZ3gq1ZsbffUfNRwTXAqA/yXiI-QxGMuBrO2s9FS9juQklH8frrfnKa43-PE3pnclz7pHjenJjoM4N60-wWft5LCNuvvyeiTKGQVcx231HkS1kM9WWtUoJKb2LoHCkCNdNssrTxfLor26IFLrCAv7Yj8Lr0NeSEOgQANfs-R4wLg/Fm-G-8y-vwDLaec_NLhsq1L33SD3HP9El86SdXLkgf4",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746540000000/XoDUKqZiNkVtsbEnejqvhQ/U_CVkKeKhdYHk-99LqvfAUqvWo8fIGKB0cjL1nYeAmnrImdgwWj3bEwPbw0Cv6FzltoCf26gsgcoNLXeipeWMoeEOCqP4pG7YuLja6vQZJuplGQ4ECN57gvKEwTiTneH8O7YG2Bv9CUjm4fprUh9GQ/jrAcVO8p9aHd-A9QZK17XlK4qQDvuoLZ2YUeAjxrSdc",
             "width": 80,
-            "height": 40
+            "height": 41
           }
         }
       }
