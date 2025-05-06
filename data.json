@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "AIRI:USA",
+    "baseTicker": "AIRI",
+    "rank": 66.4736,
+    "price": 3.495,
+    "prevClose": 3.6971,
+    "absReturn": -0.20209999999999972,
+    "logo": [
+      {
+        "id": "attQ2d8wMa9r3p20M",
+        "width": 80,
+        "height": 40,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/93DhN4jr0Bipx5agx1RyrA/gl3Eg-rwGbsa_vS-S0uFMtX7Z5kTtBGnJJ3uV3OCFtLdIAHLvaaXNV4oaZJAlBe1enlANWMSQlzf9PkxMhf6gKPO67MkQKCdEWWTHZFE1uo8BwBYwrcCEr2YTWRqymVvlxDs4gHwNPiQZGTZw3VtjhxLW-rFL3YXSONDOTLWsJ4kvdvKJn56j9YKLM__YfmW/_BOneh07g6X-tAPzn3shhqKGQrjRbsuFEg3YejTYEpU",
+        "filename": "air-industries-group-logo.jpg",
+        "size": 1036,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/aYmmMFSM4BvBfUvFkwzd-A/kf6bKDKHUCHot6JnfZxOENvdUxnI6hH-xHsK5ey1Oco7TZWrx70-UpB6moRzT2F_pRBtLbe7UjNUPecB74wZs0sKrVCqXPZMpETmCeU4PUoYuU7lzxxkXQTZy3Rvp7e5s9OV6l_uLkPTaT5mU-oFvg/wQe9Fi6X9Fv8b9mi1vv6SHXOLWDWWQlLaQAV-DXzM94",
+            "width": 72,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/lK1ALuaRxc989AOXzm6uQA/UknnF7ffQhn3wL17k_UlinxrbDU0zqJVZLbxUaHeSIcvFHAifvh3fYANqPc_HLoB82f0K78_8c-7GYroXH2fCkdASFE7uOll6r67N2vf-Ub_H0zxLU2-6MSUHD6gxRcKkTFwYBiVBp6D8q8YyfffZg/RiQWlha_NQBFrBcWxP4BVXrU_soi1pOZa_duiU6G-PE",
+            "width": 80,
+            "height": 40
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/Cqdnb81_K5RK1VlmqGLKRw/WaFkc3FMuXtAxoV8jS7zQZxkw4FMBi6J3mKodCwdyc1_WMAOvvVM8DPqsuBiVbrK7K_bDlMp_oaio10L5-T203bH85v5hjGMPysEBNeqUCwy24XWpPoAYvb6zJzsPYN5ngbaW1gJP9sMLAn0UXqOTw/T9Zc1jWPCcsdjbX51inAyvs9-wlMiznN4sUx-EQOza4",
+            "width": 80,
+            "height": 40
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
