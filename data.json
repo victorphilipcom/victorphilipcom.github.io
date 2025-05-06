@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ARQQ:USA",
-    "baseTicker": "ARQQ",
-    "rank": 14.084,
-    "price": 16.11,
-    "prevClose": 16.9,
-    "absReturn": -0.7899999999999991,
-    "logo": [
-      {
-        "id": "attWqYXw6eiWJc3zu",
-        "width": 80,
-        "height": 55,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/RG0Zj19hBlc7sQwmkpnJHQ/Bi2A13IdkZxiI5OvC4NRy7kTqzu1qrYoMUBIB1i635zrsfnaASnU25Rn22iro9acK5CkIREa489FrJTNrvumRfa-oEaVeNDZrvpg5b5CRwRgyJMgoNIfqnmb0rIZE_CCFZAd8IZnBTbXNyli3P169XSXqq4Id_haCsvrvIVZISnMJUDU0udtC7ZNWXYHcfws/DteHaEmVMhXAOenN6IKQQ4TwTnaLk4_wPCWSJ0Hbknw",
-        "filename": "arqit-quantum-inc-logo.png",
-        "size": 5443,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/pLXsZI7as0QMjzWRWiijxg/R8pkEdx8gQnZtfG9-a5DxAmRLeV49J3t_2pHlmL6FX2Oi5bJ4qKBglj7OeFs9tG2HIPzLb77IhK7pwwHiwCLMDTGPOOU_8T_Jprxa3SFAXCCC6GIcO42-7iFT6Tj8MnrHJXRn2CWM2e2C-lFgfgdiA/ySDuHV7GgQmytzP3kKuGhAVy8dLB3CrzmT0Q3W2WXYY",
-            "width": 52,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/hp9LVAXJj-BlG1gJNFM3nA/jSTCDme1GlvyP9LVxM3_FKDMzOaC1dUGWmbKf7QQomShzNvfiqCYTO7pZVxFj68tEYd0V7IWgzBhnWEWT9JCDMgnqifI3OvGESOsoGoAjFVHwgGu8ZRsaR_SLFstEERZSnlAUs3KREZQ0d6ALQl7GQ/f9VrHHDjp7CpeTEFS0qfr_nso79svshKfxJWa2NCgL0",
-            "width": 80,
-            "height": 55
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/Z8GmZ0YLaSrUhLNWf7o4_w/VJsuM5UhfmafmsfG1H4k22yPXtfgRgB11QUzHT-oOQVqZh9vTPeUU79Y-jd--4AwnZSWk9PbrtTwadVvOnHD7AOxEQJsBjE_FvDDIFyFBJw6THV47d_ruCVJO4ZJ5ULdmiHx0NVvb04z1uhYQTghDw/5hH7f2n1TNoz8rCdl1_kH9iEoxp6SngHIvIwNEeM5Js",
-            "width": 80,
-            "height": 55
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
@@ -138,6 +102,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/Oh_H-85AE1vhBp4gfMGy7Q/jEW1a4JK05zj8Ck2WtONO5qhD8oA6n_wheVw1I2IYmZFcqldveJuAoTcM5a5zJbyQ1lSc55WN9T-9w-O7S64mNT1VESvP2P5rc_6uKfshw1MAPY8FkHb9S7_q7Eua1hvtATcyDdNbLIbOyCkpiyL0Q/zWBbXNreTNV1XyMRE12riQvpvZdfDKOqw7g8s_g45IU",
             "width": 80,
             "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "BSET:USA",
+    "baseTicker": "BSET",
+    "rank": 82.4584,
+    "price": 17.87,
+    "prevClose": 18.66,
+    "absReturn": -0.7899999999999991,
+    "logo": [
+      {
+        "id": "attjRvvjWWEUrHh7A",
+        "width": 80,
+        "height": 80,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/Cuv8PhB-ZZH90hlzyNPxhg/3nVCtKzEKIR63OSSFfpcQnQ9NpjRzcxLOCyF9aklWu3BBWbvZ8sRVjhi-BNw7nEc4jH4WAJvJw6x3gSglQpnTfZ56pkKdbkSRwmnuKTnRVAXdyAGU0DukUAZzHl26HHSkOCyF3PyDzgn_NRnUNXNI51ACd81xLF4-nFbXryii0-BcfqGimqx_Hwpme1-DetW6bCBreguNdkHF8jZg1QBAg/zZ1uBk4WOlcWKwNOHx5ZH_HTllObJFR_KyyKds0SsFU",
+        "filename": "bassett-furniture-industries-incorporated-logo.png",
+        "size": 4930,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/J7LDn-ro-MJ8NC0UrpeANA/SXoIia6kJgHYKDb89O0kKk5QxXpDMQzD5sdyrJ62eY2ygJUnlmfdmFVnb-VjrHC56uPmrWOhfQZH_kADu3dH8LgmXFtphnA2TPcB6sxZk5mNjjcKW4yfOJC6MG0F6rTSEWcXZx1otLjdsdZRmBrnyw/Ea1gmcHQy4_3PXxj_WNEmeHti0EpQXDABlB8WemGHmE",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/nV0658W_nwnY1umHJuqyjg/WwR9-w0xjQK42xKh_PstO18ABXKeK1mo0fDlj_586OHut4T53hkgaix0brf7_--Sp3PH_VPasHueGAD72MEot6oYQ9VRDj1WxAZ9A3apYyhy-sT3bf9E7vdQrtpfy9a04HhNcY7LVwE4UZduo6RJBQ/gnuLDipctssAIK0WlgN7UWVDb4i7YSuudf7NHYzXPo4",
+            "width": 80,
+            "height": 80
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746532800000/QTbPHQOWl2EFPwSuhOSthw/fJWvyvGB7W4v3HCvESbSLZOHmA1tGDrMKNbP-Bbq57JiA0uT06koLMxDSee7ghwxQDsVDqDCWNFYJ7Giv-l_r7Jt8l_Uv57Pse7b2V2WT2_1cS3ssl4M-hv6TGLE9S6nLk8MUJa92A9anNAeDdUwSA/jvturaobV-EoZ3EoIqvA13F_UT1dR1Y9dGI3QF0P1YM",
+            "width": 80,
+            "height": 80
           }
         }
       }
