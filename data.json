@@ -39,9 +39,9 @@
     "fullTicker": "ARQQ:USA",
     "baseTicker": "ARQQ",
     "rank": 14.084,
-    "price": 15.35,
+    "price": 15.3,
     "prevClose": 16.11,
-    "absReturn": -0.7599999999999998,
+    "absReturn": -0.8099999999999987,
     "logo": [
       {
         "id": "attWqYXw6eiWJc3zu",
@@ -75,9 +75,9 @@
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
-    "price": 3.495,
+    "price": 3.43,
     "prevClose": 3.6971,
-    "absReturn": -0.20209999999999972,
+    "absReturn": -0.26709999999999967,
     "logo": [
       {
         "id": "attQ2d8wMa9r3p20M",
@@ -102,6 +102,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/Cqdnb81_K5RK1VlmqGLKRw/WaFkc3FMuXtAxoV8jS7zQZxkw4FMBi6J3mKodCwdyc1_WMAOvvVM8DPqsuBiVbrK7K_bDlMp_oaio10L5-T203bH85v5hjGMPysEBNeqUCwy24XWpPoAYvb6zJzsPYN5ngbaW1gJP9sMLAn0UXqOTw/T9Zc1jWPCcsdjbX51inAyvs9-wlMiznN4sUx-EQOza4",
             "width": 80,
             "height": 40
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "EHC:USA",
+    "baseTicker": "EHC",
+    "rank": 82.4222,
+    "price": 117.02,
+    "prevClose": 116.31,
+    "absReturn": 0.7099999999999937,
+    "logo": [
+      {
+        "id": "attn5MN4cGSGWXNa0",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/V5U9DADDha5ccn-_-B_rTw/ewLaanEk0jUAy-Cx3gw-fkHBgcOKG4WSBHTo7VN-y5qH93VOAFVDFKmuZm93tRRKn3FyIZngePYyVuBMLbf-fS3a1-zA5T-J44DKy_dmu5kF8HBHas0guYcFSGJiUzQ3bTjERtXOqLEosRV8Jl55ijs7sc6QUGf9ltfOeTMeEx-ib36RLp2e4yLH7JiZbDPP/3LLuN1id9Gucpz8J3uGFBbQ0DXkMAeQxFYB7W1zWWdk",
+        "filename": "encompass-health-co-logo.png",
+        "size": 2403,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/2otbq3Mq3mvdXXRARz8pHA/7udrGOkSSXyZdifbt463_4PGBuEFCCB8llm2-se9F65vu2tQ7rXy5hDX1JQI5Tl1fHNASERKtOrLQGCHYOA65CPr-lP_-EpAyLvGwxrdh9tN8NqaX3O_5AmLihr3mJLIR6i97c5JD16t9a42svDyIg/8C6CjlyL71Gz3vqTmGMDfeqUOCEFbFLnLCdKZTsN9rs",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/_mrz8XPRTJkU1zNYGf7XYQ/WwTkx4aVSL7sjYMKmmBJQxEMWK0qUwQDxkQXyYIgbyRgm5Sq8SSDNK72Dgoobar4hR7oE32ZF5M9zS93FZiNgxSkD6Q1WDC5oWGEzkmTcSnQ4Jay7hEpHCxn5zDW_1QFY_1f2yQtnN93u8a0YXzePw/O_JvRpIvUoyKU4voaidjwOs5TIh6aPGS43DdVviIFz8",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746576000000/mgcQ1s14EwmAapipTIGwkA/l1-lD2U-AV1NCfUui0cU8JMqyKJf_p69cdyYq0zw1yRjICeqY8VWXgeXc5BJvQl-sBdPKIumMGiinhbmSvVzDHb9vQ0eCkpu-oh2FFrOl46TeGhyyTrVxmRL6DKia3stqdabzzl1wwtsTslhvICUSA/eOgmeRMBheZbW0_RXTmfyni3sFULNZ7mao7w-Q2yUTE",
+            "width": 80,
+            "height": 41
           }
         }
       }
@@ -147,9 +183,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 557.88,
+    "price": 558.8,
     "prevClose": 563.51,
-    "absReturn": -5.6299999999999955,
+    "absReturn": -4.710000000000036,
     "logo": "sp500.png"
   }
 ]
