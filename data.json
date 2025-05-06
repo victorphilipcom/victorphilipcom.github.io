@@ -108,6 +108,42 @@
     ]
   },
   {
+    "fullTicker": "EHC:USA",
+    "baseTicker": "EHC",
+    "rank": 82.4222,
+    "price": 116.31,
+    "prevClose": 116.64,
+    "absReturn": -0.3299999999999983,
+    "logo": [
+      {
+        "id": "attn5MN4cGSGWXNa0",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/7E4LKyOvWaqLV91Jf5I8Kg/A-5xD1aaR5RxN8fuGyletq9EQ9S1LloY9PCAGwgihZDtbUH-nl4o8FxKGnpAkaJudfocDkDZ5235lYkvgy2Kz783-EHE86vcmCHcFJZSz3OxaHECvmOy6Uz_lNzsRO9ZSSnXstEp2uvlfUqJerVsEGXUU08JTRNQyDZ9uJ448FeLgpbZoehzBrigUDuTCYwD/6XUQRo3rzEWR3il7p6sDO1INVRQVwaXMAk_VX0X-xXQ",
+        "filename": "encompass-health-co-logo.png",
+        "size": 2403,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/WPxxMJWmEfz_uZAZW1tsUQ/Oi1SWrIn1q4Aujz8XnytbD8t3qR3hWKFsbavAvC9LAHSKVydVoW7CVOzcAA00qtIrT5RiGzqBN0ToyjYZLF1RwX3CneGxqOh0p3zvDvDBGTpe71_nqVWMMVu6_U6g4Nmz0ancSIE_Oio-abKu-9mPw/OScd-VrmoeGwTBEDTXD2lWtK1uVt6p7kUYAp0s7pKcQ",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/HhSrqF4ksL8J9BK7LPvbFA/DFgE0SE66oLAvF4UKVKxuP2XplMOp-DRrY428rAnRvktbpk6tJCuCTJv8LDxCN7KimNExXfte-UWRRPpLLVZcc5Rlc3EF07PX-Khle20AvSZrVRjou72MN2OP9-9DTvALWTw0PG3XGg3iNVw-0pZZQ/4TR_-dflylnySRE3vaF2RtwMNP__TLyEnh5hol0x_Kc",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/HWJkeaasfG-uxPSzZFDkmA/x-LIzU0bKvpWhrb4LgrSzblwXX8bifQLDd4HxMtnLqjGbODhFNnuoBwMZPOed_GjVlQBPAKjkR3hTgJQzbULf22oBHiSfP-hKMoCOG2Y4ioqFPzOqpRwGjb9NyMBU_wvBd7ZzcBYGgXlVizLfX9DYA/FgRzdFsBpuy_MFHsdfOWK2AiWXmgbziZNRQuqbMU9pY",
+            "width": 80,
+            "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "BSET:USA",
     "baseTicker": "BSET",
     "rank": 82.4584,
