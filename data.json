@@ -75,9 +75,9 @@
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
-    "price": 3.44,
+    "price": 3.495,
     "prevClose": 3.6971,
-    "absReturn": -0.2570999999999999,
+    "absReturn": -0.20209999999999972,
     "logo": [
       {
         "id": "attQ2d8wMa9r3p20M",
@@ -111,9 +111,9 @@
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
-    "price": 117.05,
+    "price": 116.97,
     "prevClose": 116.31,
-    "absReturn": 0.7399999999999949,
+    "absReturn": 0.6599999999999966,
     "logo": [
       {
         "id": "attn5MN4cGSGWXNa0",
@@ -147,9 +147,9 @@
     "fullTicker": "BSET:USA",
     "baseTicker": "BSET",
     "rank": 82.4584,
-    "price": 17.54,
+    "price": 17.41,
     "prevClose": 17.87,
-    "absReturn": -0.33000000000000185,
+    "absReturn": -0.46000000000000085,
     "logo": [
       {
         "id": "attjRvvjWWEUrHh7A",
@@ -183,9 +183,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.85,
+    "price": 559.935,
     "prevClose": 563.51,
-    "absReturn": -2.659999999999968,
+    "absReturn": -3.5750000000000455,
     "logo": "sp500.png"
   }
 ]
