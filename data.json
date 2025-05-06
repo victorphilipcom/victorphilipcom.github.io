@@ -1,35 +1,35 @@
 [
   {
-    "fullTicker": "ARQQ:USA",
-    "baseTicker": "ARQQ",
-    "rank": 14.084,
-    "price": 16.11,
-    "prevClose": 16.9,
-    "absReturn": -0.7899999999999991,
+    "fullTicker": "LTRY:USA",
+    "baseTicker": "LTRY",
+    "rank": 8.454,
+    "price": 0.89,
+    "prevClose": 0.8801,
+    "absReturn": 0.00990000000000002,
     "logo": [
       {
-        "id": "attWqYXw6eiWJc3zu",
+        "id": "attabOE4yHG4R882C",
         "width": 80,
-        "height": 55,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/_tiqCuhsx77UfJ613RFwhw/4ObbIG16H0VXiLyuRWg-WkVTVlJVO1_VOCtHh15Eykb0yyQnlyYhDAFfic5VxpjsdxzdAosnjSo8hIFWZTlyVhAQcz2T2NiZlmMwKxCoTQG6OpQMPWc-jTfogUmeAFM6g6dh8OtIRA2vWvk4IxI-DFhcI6UkpinePq4l5GQB_Axj1vWA7VR1YXC5V6p3S6fe/-CGFdoZOfkMTEYMl4uccHgbYA-mGbK4lLzHBHMwKUNQ",
-        "filename": "arqit-quantum-inc-logo.png",
-        "size": 5443,
+        "height": 44,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/WVNx5pLp47YIskMWknNu1A/Ru7Ui0Mt3cGC5V0aWWS8R-K_7zUk_9l-YfmV6jqLJeh6Cr2CyFkfSm5kjF3Btd7Rp3OJwVTOLKnuyT801MX_67hEEaA0AF8fuL49QVSa9cfpInTCYAXzVwigvSCg86cOwoX5-c_-f3V_cRXm1yMwCBk6m1yGyEsTjppV2jRRNT_H_nuYnHIAKQ6nsUs0Ff6t/p5u8O7FQGb8WKy9nnhRkygiuWDH28QhVbEqKYuNWt3k",
+        "filename": "lotterycom-inc-logo.png",
+        "size": 2795,
         "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/eaauOY7a77UsGQHFWiuW2w/DCrNVJBwXBFr2Gf9tItgETlyP1a0KFO1RMx1WiaKxpfG7By_t3taodK_vVhEBdWASJzL18ZdorKny78bJbEQpkyqQTFO4VNnC2pWcM11OWVJdwugQvhph_RgB2wNypwUWqWFYvyKmXjABk2wfX4JeA/J1_XacCTR6EemuCO5RooQSmjH51uVvsJRBl4_IsHhig",
-            "width": 52,
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/JNBgm5nGnVuqx77I8x02eA/6_1GjTngasMM_VcCUPCAxNI4l6t_20fDxOVbaI0lIf5GjEKLc50Y_uTzjS09NPxX3FvYGuHLKqzwhkCrCDka8OLjN6s2wR7lBxaYrKRGOZdPD-9KUmcen3pTqsZbrCHfPMe7hMJRJuHQgFAff9BK4w/-HNKHEzyI3H76g2kJ0xbM5V-VD-6Y1T2h_UPEJW_tvU",
+            "width": 65,
             "height": 36
           },
           "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/Le6JpCi7YsawePGZtQs5Ow/Wrr8pI_e4IShOdk8QGWgny5uyf_pU2E5IruzevWUJqtZZYUisumE_XeGQPvBHIJJdJn9QqSEOV2ZFWZmpMTUgVkIGWwb53UGPCbVu-Jsyrw3tY5G68F6rlp7pCVtmJ3yRCXY5zdm5DbevaJiB1nPUA/0HsR3Zk7yfaL7_Dgt2tMnUowBnydxpKHQeA4_rzDJyM",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/O95j8tUDdpQ4ijGPXpVhhw/ZrR9Ly0p3EfNwnd_oZKAx26vTnw7FYKqFdvQnIwLT4lJT0Bo67hc-vWSLXNDqVEJ0l-FYaaTNC9AILH5BpjrcKZnB79HkrAbikp0FvlI8EcrEzKvwwVf_3biedf-FbQTuVnzZxQRVKNrRtPxos1M5A/ixx0ewZ1bkHMy1uNDJceSj4bbS1qYoNNJzXemIs41gI",
             "width": 80,
-            "height": 55
+            "height": 44
           },
           "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/QpIqoxDEsgvzJEWpg_V4eg/_TYquVMBIx5aAzS9fxXvJ41C6jYKHw-qBw_T7gSBIUmg9EG1g6aLqkrpjN9Q3jsOBY9sFmZ30m1aJ3kP6jHgwLRuOVLkW_e9bWryODzXgaZjG6oxP_Ku3462dBcKlAnFHXmWvSWyV2wN5SJf0dGknA/Kr76RjhQwkZpFXPmHcBOuFYtEpEcku5kQHU4OEUQhU0",
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746518400000/ORptaEi18Dxgz9Sx5yYbrQ/IWvyCymzPQarjqZKm0r-0T9FLJCISIrG5mwJDZ8trwdKltPyEmgQbWiFTdi_8o2pA9d1O5eh4LBmC9XIoJgn22Q2JvSeY2VYcvP7ifktZsWhbZJU5-2EdzIin2ies2AFTQNGCGfQI2UUgNYEPTnjLA/UfTFevR_oPi60d7isMQ_7iDMmbERcqbxlFwjBGqx3ww",
             "width": 80,
-            "height": 55
+            "height": 44
           }
         }
       }
