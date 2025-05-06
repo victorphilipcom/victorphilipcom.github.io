@@ -111,9 +111,9 @@
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
-    "price": 117.14,
+    "price": 117.135,
     "prevClose": 116.31,
-    "absReturn": 0.8299999999999983,
+    "absReturn": 0.8250000000000028,
     "logo": [
       {
         "id": "attn5MN4cGSGWXNa0",
@@ -183,9 +183,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.125,
+    "price": 560.99,
     "prevClose": 563.51,
-    "absReturn": -3.384999999999991,
+    "absReturn": -2.519999999999982,
     "logo": "sp500.png"
   }
 ]
