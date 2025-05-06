@@ -1,5 +1,41 @@
 [
   {
+    "fullTicker": "LTRY:USA",
+    "baseTicker": "LTRY",
+    "rank": 8.454,
+    "price": 0.908,
+    "prevClose": 0.89,
+    "absReturn": 0.018000000000000016,
+    "logo": [
+      {
+        "id": "attabOE4yHG4R882C",
+        "width": 80,
+        "height": 44,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746561600000/7NPpqO-CAa1Sk38fNF5sxA/H1UxviAo2ExCeF6u80OJAGwI7JHqm1VTnBqQEiNtWG2GqEW8qwZdCXajh_4dr_P8l6I9TnWkcEAvYDEwTdrqA5p30MFevKssaZqO7bN0OP1y9KykmloTC_c_MJYzfOjOEhzwF19vnJaIJUhLrMz29RmJxCUl_eU6p5e1b2wvl8pmxtnuYNo5s0qzcH5eHce-/df2xoG9mIilXJYsyEeSfxQrN_tG62vqlf0JLA8LE-n8",
+        "filename": "lotterycom-inc-logo.png",
+        "size": 2795,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746561600000/q_KkFuN5T3gg7NWmz29-Vw/ni_974TDwghbdMgSt2-7Q9TPLCLyURLu472QaN87Rr6AEKdTH0q9xjP867dLU1IGs-9oEW7uP5f8wc5NZkNtJDFyH7IrugImySwLYsSoMbkH8iDGD_Nm4gp00-jMGNF4e1YhheL3wN5oalNFR9XCLw/85v-ioPK0JDNqwCsK1FOVZg19CGbEwrTnljqDtVq2yM",
+            "width": 65,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746561600000/ZLhT_ceDHAayz-Yr1FWyIw/5vmAf7jDMxI8rNcvjLCNNgWYznGEU1wvVtS7BFpvFDgMQwNJcgCg0fvydp7z4DveX1UHJyc6WLeJVNBIXgKNyK9aOwoZsc1I_z8767IxTaeR09gPmrmTqVI0wzu6F2DbjnxzLoBEcV62gBhxHQ46Mw/PWnuqUAsvTLC2VCD4C20lIAlXgPbCitWGSK4WEbqdS8",
+            "width": 80,
+            "height": 44
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746561600000/CleMGTsAeXFB_wcrmgLykw/IDQ88M3MXPLGsarG1jSQ71WaDZCIne9vPg8XNQfoHtiJHwyFZSpLxn7zG1kBEE5yGDgkyfMPG2rwwkmROa9fLz68BkYRKh-Ey3AcfW0K_Q0zEKP6j9l8uuJNs1emGSu5yg-qLOKeV5jWUN7lkouWWA/Begr9awYmXYKNPiGawIEw_27eEu4Ivo351d3h8Hj0jA",
+            "width": 80,
+            "height": 44
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "ARQQ:USA",
     "baseTicker": "ARQQ",
     "rank": 14.084,
@@ -72,42 +108,6 @@
     ]
   },
   {
-    "fullTicker": "EHC:USA",
-    "baseTicker": "EHC",
-    "rank": 82.4222,
-    "price": 116.525,
-    "prevClose": 116.31,
-    "absReturn": 0.2150000000000034,
-    "logo": [
-      {
-        "id": "attn5MN4cGSGWXNa0",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746561600000/IUEUL9YfKnoM4sZuJlwbxw/tc9ft1HwzTHQ9mP3l8wv_CDP0jYw2hRVRJ6j1r52G8ZTJN-qrFOIsKLXWD1saSRxqEGOEIBMh8LqZ8JIWkpbB2Ol7yTH7uIAzSe6kuCjN8T_eLOq2ibPYDZ3VrysGWo6tNJEWxAJ-uzR_IT_VuEH6fQHujy_Ua08z5SgMvKGXkL1kTcmQwYUJQplk685Bjrk/VRINUuDXDxyp93TWDtWwxCu1B3weVWe0cBIbA3oJnSI",
-        "filename": "encompass-health-co-logo.png",
-        "size": 2403,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746561600000/UCSTwfsCDdq2K10ejDLdhw/izJBtcQ_w6z8awv2FIUHLaiP8zqit2tvCfxrWXtO8aa7CnRS4CEfTantLwlz7sJwKiB8YtQkog8y_6LweJWXaCw6Hh66j4Y36B9wDK1NFQJzbn-9b3eJb_xm6DL7qm_XSAiu1AlLMiQlVehzyF1Tcw/3Ws62O3GWbOkLyebrZ_Dp9tdAe_5kG6bs9lbe0YKVBU",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746561600000/g_vgXzFYf0n-NnBolxqijA/wy9Q7EEHEH-jH0D_V1bs0kxaaYgNzbagnwUoJurIIiAn-ax7WsmHlqEaKNK3n1SFLrP8j4IY9BzKWT0M3irQNvWRSVQ_pW9t4RiWigGkQ_5B1cvBLOr4uwYVd9jILVXYip_oraIjAcJzx4tCrSnZFg/ydRDPCiMZpmZae8IJYOuLPlChhbaxEhJP_eJ8xT5Y70",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746561600000/EShCC3PBLn3S-LeEKva2Zg/6UGGd5gfiR4PFV1wfHQZXMLeY9YCIj5QC3XYRWc5JxlbAN6Mt9tlY9VfH9z-vxensdI_bp-6RD7MlbhWUdiv9g-WvjFgK6dQMcqmaq6At10qKajikBGLGRvXb07mdBgOvn3FD-mvhHtIjLmLr4A7_w/eTA5GfM77sKxr0yLUcEgssv66RJyYcxcHxkJM7Wryyw",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "BSET:USA",
     "baseTicker": "BSET",
     "rank": 82.4584,
@@ -147,9 +147,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.65,
+    "price": 559.425,
     "prevClose": 563.51,
-    "absReturn": -2.8600000000000136,
+    "absReturn": -4.085000000000036,
     "logo": "sp500.png"
   }
 ]
