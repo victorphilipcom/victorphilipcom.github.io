@@ -72,12 +72,48 @@
     ]
   },
   {
+    "fullTicker": "AIRI:USA",
+    "baseTicker": "AIRI",
+    "rank": 66.4736,
+    "price": 3.65,
+    "prevClose": 3.6971,
+    "absReturn": -0.04709999999999992,
+    "logo": [
+      {
+        "id": "attQ2d8wMa9r3p20M",
+        "width": 80,
+        "height": 40,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746554400000/FTs0z0jrFkYn_YPJrRFXiQ/WB8xXfT2_hkgkOYBu7E_udkjPzLoa4NftvyTDPCKMCfv4EQqiE676QR3_Q3FQ_EwtNLsO5mx1UqTvPdzxyqzwq0T0D4f7kWZsRRL1SQifjXjJIpWNHjPg4AhrG7cdJoonhoJvFt7chnjZ46oRuh0p2Gza_a4hOosiOCHV_Tjr_YxqeY54uvo-c4UaeHN32Ag/uAiYLsXae7rUTqT0a8cB0tcOmSexxME8oQSUaespAM4",
+        "filename": "air-industries-group-logo.jpg",
+        "size": 1036,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746554400000/RuemiRj6pkYbSSNqWlxF9g/diYX258DfssRGZHjsclg446vk3QbfDuw38rITS7bgBPRTsqmeLS6fmHqQd52RvpK9Da6aB_iQRTELS_1xQ3gbz3HYsU54mHmhRa4aEVo-v-SH6xvH6GI4kmd2KldJmm2xYEfGjTwAP026w2mUuLCcQ/pJGRlGBljcMZOTt9jUqf-b-2R-t3e2bPcZ9IbqujnjM",
+            "width": 72,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746554400000/AeJqTYuSecZOSQSdx80Kew/fATtxPf7IjCRUV_M8jy9cU7gy-jMrwCNFjbFQ0aQDMlNl863svr-9jHaUkYZL-0DDYnkSwVPAkLuPac3KJ7bJnl1BLhhbSBpbxDZ4DuiJiz66xEOhNk3-JHEnGkVHp8zG_BRyY1u7UJ7_Xg5zGpjww/QzLiDchPQUUly-_9e1J6iDcNuqO3a-2xpXFA3w_U-jE",
+            "width": 80,
+            "height": 40
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746554400000/HDbSii6cBooS2YLbp90kNg/155fCT1VyXPOa85kyF6IFSdylIilGn5HG0wmp1IhEZuLl_Q3DoZ2-KLfmOTEeMAVwgGv_qKDcwsK7fVh1Um6dz_Kq26qzt7F1KIYdlPLJWxdF6kqc_YAmiDUdouWW-mM12UltIu61MmvOPqVJEDY5Q/NLWZtl2v1hWY7KE593i6ve25_V_sQ7wyprS67ETiRmY",
+            "width": 80,
+            "height": 40
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
-    "price": 116.56,
+    "price": 116.645,
     "prevClose": 116.31,
-    "absReturn": 0.25,
+    "absReturn": 0.33499999999999375,
     "logo": [
       {
         "id": "attn5MN4cGSGWXNa0",
@@ -147,9 +183,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 561.235,
+    "price": 560.88,
     "prevClose": 563.51,
-    "absReturn": -2.2749999999999773,
+    "absReturn": -2.6299999999999955,
     "logo": "sp500.png"
   }
 ]
