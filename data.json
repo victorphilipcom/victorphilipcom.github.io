@@ -3,9 +3,9 @@
     "fullTicker": "LTRY:USA",
     "baseTicker": "LTRY",
     "rank": 8.454,
-    "price": 0.8803,
+    "price": 0.871,
     "prevClose": 0.89,
-    "absReturn": -0.009700000000000042,
+    "absReturn": -0.019000000000000017,
     "logo": [
       {
         "id": "attabOE4yHG4R882C",
@@ -108,42 +108,6 @@
     ]
   },
   {
-    "fullTicker": "EHC:USA",
-    "baseTicker": "EHC",
-    "rank": 82.4222,
-    "price": 117.92,
-    "prevClose": 117.02,
-    "absReturn": 0.9000000000000057,
-    "logo": [
-      {
-        "id": "attn5MN4cGSGWXNa0",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746648000000/WnVBUkv4l-qZIsrcOvFB6Q/Y25vTfFbzPa4lr3WYtoz3GOx-_1NMJ0CWjyLR14zvpr4VJHkQJ2NEZ0JIrXjpFlxWOLYJxTlhuAgjnYXyixH6OdnkMJzMRxhI1DxQMGjWtBkTF9_eyosU6Ha2hsWfEoNnsBr-IaBrNmBi1429kOukb9vLNXoxhyT-J7F8iNfWpXaOnppZ6tpqvjJ6hL9kaN5/NCauGOXF4u0eq3JivcJZnQUoMAT8C9q7oBRVc5ebc88",
-        "filename": "encompass-health-co-logo.png",
-        "size": 2403,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746648000000/FpVqqAK5_yLQbtQO3NEzKA/jgktxirv8NlPdXtwVMA0Y_pgRpHwTWB3aHAWlsL2_6WkbBBvEmC040BOS6az7rflqEFPB8MHr0JUsRfa66v48hgxyV14uNKH5S0Oopn8_9sRpChm7UeQK_D1dOn-EdoBb_qNfHbFqdeeCWc6sKkW8A/IzLt5vVEPGrSMejWXFANN-3zmjbBHhVSfS26zSom8Ac",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746648000000/y1ShRnCRagjWOfyjLZfEFA/JLvZ9nJTrq_MlduphvOHlwrVrT_W459rhkQLABjEW_cP3M7VNITsUZfhTRk7EPxCNbxYvAVLeO03ha8UStUCb88_ASNRjXlUcrHdyCsSTL0B1MGazGr5TEbIDZ9X0HX9Hr2SrQll7J652GJ1VmS-Cw/tOMTsJTtWvSqcxrklbSLrqxQ6A9IxtRVIaOfwIKm138",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746648000000/tWx58Z-uIZnSK8roudsBAw/80Fj5H1FMC4ey39n-TNWBDKgx2zl29V__i8D9FIq4f3RmNxlUm-oqR3t3zdUjTY732OoDPEUhJ0arV0K9_3bwHCNadzQkjxmUR304kkfbaSakXFPrL7fhuZXYcExeqd7c7CbrelLkG_tPUMFSQc4vg/hWZ1WgXVr1MG0ARpWzlZL74L2eM4O3l5UJ4tRNdhOLw",
-            "width": 80,
-            "height": 41
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "BSET:USA",
     "baseTicker": "BSET",
     "rank": 82.4584,
@@ -183,9 +147,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.37,
+    "price": 561.23,
     "prevClose": 558.8,
-    "absReturn": 1.57000000000005,
+    "absReturn": 2.4300000000000637,
     "logo": "sp500.png"
   }
 ]
