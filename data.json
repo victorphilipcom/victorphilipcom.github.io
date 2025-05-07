@@ -111,9 +111,9 @@
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
-    "price": 117.02,
-    "prevClose": 116.31,
-    "absReturn": 0.7099999999999937,
+    "price": 117.88,
+    "prevClose": 117.02,
+    "absReturn": 0.8599999999999994,
     "logo": [
       {
         "id": "attn5MN4cGSGWXNa0",
@@ -144,48 +144,12 @@
     ]
   },
   {
-    "fullTicker": "BSET:USA",
-    "baseTicker": "BSET",
-    "rank": 82.4584,
-    "price": 17.29,
-    "prevClose": 17.87,
-    "absReturn": -0.5800000000000018,
-    "logo": [
-      {
-        "id": "attjRvvjWWEUrHh7A",
-        "width": 80,
-        "height": 80,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746633600000/iDc0L4NzOS0beLX09aVJzQ/opGuQxcP69Gx3oDKIaFv5dJxzrvxVm3bB_8WAqzPjzdHYu4IvauglPa5SNb-VOUc10v_SkXa9bxtt42hDcd4w5_mFjKLkXfa8ZVgVHnnpddPlJNrKpaoZ7F8hBX-SnOGQjfkxUB0MK6vuKqhv8bfVPaoAxSsN2qU_HzfejysV45r5v1uUmYdVYDnBFq657_j2vfPKVx63Rt4m4c7w5CxMA/JADhqSk_C8vpoTQ_OaX7WhgUIsDoLdIHAH7AcTq9Y84",
-        "filename": "bassett-furniture-industries-incorporated-logo.png",
-        "size": 4930,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746633600000/HddWb4UrBkGoL_ayp7C5ig/B1lmjaj_yJtKXVlq1VMrrQQDmvTht8P1Mc5MGQXiBi-qoZLirl0MVg3eZevC59Fxa38CI6VJiwlbQQkyWbpU0xV-bIqu2DOEJfEaMHR_SQXV4X65IbZ7xHvFvV_g6iERdA8Pk4vpGFg-ecSW0UJEdA/-6ZtTezeE991bmLq5rhsROia7v_UsGyOAUmY6sga9Q4",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746633600000/0pIHQH0A3MI1wq5rPdK2kA/SatXK_dEoRVrCUzvBuvM1cKkloYzHZpVb-2WBVGcQBDgR6oscjWzTf3cZE6MJeAiiX6hi7Z-mAzqrmtjPnz9JiOX2ZOl1ggPPIRDUdGMD5i7YfXWlRFz6_0KHtmDKlbh5ROAfMAa64MELqw8eCqtxw/3c0MPidwALHA-7abOqiXQSuvypj0tGlWDOd3WHI1Ixs",
-            "width": 80,
-            "height": 80
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746633600000/WhStshHwL5gAP3zKjscGLg/hYuRQIYwvZjbDN73YJ7YrpxFltqJMopvvpIcgodLxemRSHB76DjJ4iMAAPgpugXyFuIK-tafifzPnXfldh09vdCdWFecuTRuWp5gSnwqof5l3e7_4GcuJ1VpX5JFLMADRW05Kj-00KBM7PtHbnPVyg/aogowD0IavfsoJvnR94LP1jfpweIndUbLZaTRDJUwjc",
-            "width": 80,
-            "height": 80
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 559.98,
+    "price": 560,
     "prevClose": 558.8,
-    "absReturn": 1.1800000000000637,
+    "absReturn": 1.2000000000000455,
     "logo": "sp500.png"
   }
 ]
