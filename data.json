@@ -1,5 +1,41 @@
 [
   {
+    "fullTicker": "LTRY:USA",
+    "baseTicker": "LTRY",
+    "rank": 8.454,
+    "price": 0.89,
+    "prevClose": 0.89,
+    "absReturn": 0,
+    "logo": [
+      {
+        "id": "attabOE4yHG4R882C",
+        "width": 80,
+        "height": 44,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/pUKV8TkQfVZ7qv0tQ3vzog/DC5Gc8px0_gURja9Jjj9I157_pMMrBACBMT2MiDneAgkxH6DL6q2_3m4OagJCybB1P1vBK-Wrm9sCVqChGD8hUB3JWZxDEakRB3gaKgGBcu_gEOVQbh0UImZhq60lcF5s1soUj-VR6AhziAbSucukWQ43hPkgvLMvBgYvdcsaVWE5QwOXMwRTNn6L2lEqCej/3Z-sl50Nw4cqHvq-hqBjIC-5ZL7w49mVXn-FmfEgl7k",
+        "filename": "lotterycom-inc-logo.png",
+        "size": 2795,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/UAvMkvxuTVL2NBhhHCkhKw/i1nCPYAppcp10C6c2sQ_GCOfsi1ygcuBFIATAV9Rb_xgBs4sMZxx8DjL-7GGDuYoHMHKbXw4PPY_hfb8MNDYhBdcJYrwgX1_w0eyM93rmx_SuFm21QcKPYv-Y2UBikRpnJiJomkTdxqNq0L_7-XoCQ/lX8Sbpr3YWLjqUzei3o7Vbssd8j74PU0gjg_WaAJRAs",
+            "width": 65,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/hHyPFB45H2DbWg1e5huDUA/52oh45u2XS91EPLP8pMbjq5KxW_5UHo-DnJbwBEwbMj1uKruimsx7FVTsEqL6ZF8abXZWxWo14Z635WMseoK6mmQ_X3Aq1572CsBlDmKS0IpfxXt6Zc5x_uvNyQZmuBhG3QcWm4f8i2dPdOBbD4bog/0Z_VerD_9GdFfpDZ56hXEDjqT3cJG5DJJamSWOZeWOs",
+            "width": 80,
+            "height": 44
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/uYphAug_M2iCuP69tz7Jww/BEf96oOfU5bvz1aZ1Q0ilWZ-h4fD78YDtrqpIofjD9wBRxRdxfrEjegznlzztivpkOoEZEODt2FYYKPCjhl0kzY4HpModnYxUOmC5oD_JObKJhPZvkmAu5gqXYVGbgXDk3EYI9R0S5ItJCd3cAp7wQ/36cUn3oFKFmH-SqXwb7GJhNtDlRxGYx8DCJMOk7UjnU",
+            "width": 80,
+            "height": 44
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "ARQQ:USA",
     "baseTicker": "ARQQ",
     "rank": 14.084,
