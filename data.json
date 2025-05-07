@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ARQQ:USA",
-    "baseTicker": "ARQQ",
-    "rank": 14.084,
-    "price": 15.3,
-    "prevClose": 16.11,
-    "absReturn": -0.8099999999999987,
-    "logo": [
-      {
-        "id": "attWqYXw6eiWJc3zu",
-        "width": 80,
-        "height": 55,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/Sn8zlOyLpmQH86n52ue7rg/dITlEp0H2nwpyAUPx5eizTiIN9NYooc-m0qPivHVt8RwyRPqLiGi1h1_YLp_fb4x4kgSKFnNbEd7zc-OZCiMDsokFgJBQspPMTbdYuNuR_s2B0TELNwDRgdMhLhoW3IvHBihjx4KRROGhbe82LLinWVbeWrNLK29vfinmZ9d7sjTrNlfIAo-bj80EuGp9hPQ/JDFjDTv16uF4VdNO1VtCexAr49QoGqothdb8ytjemuM",
-        "filename": "arqit-quantum-inc-logo.png",
-        "size": 5443,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/L3RHyeS0nsRy34vGAanHgw/L3Lvb3vP1ZbIdcpwHS8hgJ2V7itxND2vw94maAfPJRQJ9uP8slFEvHTHbOBJU8qlIHou0LKTHy97mMo3i3mRl3mKaeljEBerLVqL0s3gdLW-j1ultm1Q6UXNo0pQJtXOXV-ByyHYxUZqMUH3ScN3oQ/pEkyx4zmFGCbeNrNT9iG0r4wtIzJQumkyy_A_ffb7ZY",
-            "width": 52,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/3lxcKnPgVYKnfmYpmk9AaA/T3t79KWzwcGYmJ5m4yY4dh6AgQujS0ap4hm8mu8UluNOw1Vg5kAz3YpDlmplIO_MeT3SH4gNoawhR_HCxgB84FkSGdEBDLk0YWtP6YzgBOx9U7uFUE5Kv18zwH8PgFPPGOlFz3ZaB8gtjDKo9UDFoA/Siqm8auIbQ5NSiLQqEQ42-YzUSUACOWvcvGx4v33mkY",
-            "width": 80,
-            "height": 55
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/AvsQ5LnIUeaehMHvLpdJ-A/15FTDhp8AaELzUP33GjgXv76imy_ocVYV5EY8kcdOxabNGkXsrkEzlTYj4uuAfbhNxIRjMleuGjE9X16OVsrXwcCEhqfpQcTt3J-2OrpA7YFG1eTXzZKTDvchNdYlwS2cOuDq5D6YHfWXnKkMzzbTA/ibAzZ3eUE7kuSFs-jHtt0kEoQFQTQcR0urcTVH9HrVw",
-            "width": 80,
-            "height": 55
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
@@ -102,6 +66,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/rJMlT2qP2Ca1CoyK_zqX5g/dV7GFiMRLC4qqmbZzBT0bMgJsUMyW2tN7fHellZTMgYCAhsKxfRde87HKQ2F5uxlBrLYHF-Dsge2xCUrSdrH5nCvJqUg7CIXeULYX0LlTzXyXWG_fzJAGn7a9ianoRrSV1pzFdHaFvWSescwvds36w/Gz0MDeMES7beEzvf3ln8BIfuUDApTedweCazqcdu9Xg",
             "width": 80,
             "height": 40
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "EHC:USA",
+    "baseTicker": "EHC",
+    "rank": 82.4222,
+    "price": 117.02,
+    "prevClose": 116.31,
+    "absReturn": 0.7099999999999937,
+    "logo": [
+      {
+        "id": "attn5MN4cGSGWXNa0",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/cEFrrYphG3Kp2yZ0cbIZvA/VDHAR0P_5pMPfzsZQqLqr3mtoGvtr7zSrhht530xBBX7SmV5HNTMfsaE_BtzuC37V_njdvwXHyGW1f_uQoUbdikDeMiqNyNpkoIOVRWMNyQWObXSONPM3NZTRmlbxPt0qwkq7jSg05egHYpQ1xsaBRvQYw9b_oRDaarvgF03WT8OhRHK_kvdVgJYxYRNkMBa/292IykXDa-LRhwQytshopV6b3bWVL9oOkP3Snh5aeaM",
+        "filename": "encompass-health-co-logo.png",
+        "size": 2403,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/XbdCIQb0Z2E4yUr41O2QjQ/FcW8Pxv9M4RBG4YZc1RszUH28prd6VpoqruHFxjG__Mu6cvJ4xy2pf-FQPYXxfyOnfM1p-8kIta7PvLMDS6H11G7l-Owv1pGMKgTxp32W3GOCWGm7GY-1b9XS_Jtq4-oxvBF__eFBK7dnVDWGQKQ_g/elavaA1I2NcwdhzHsPrG8JBxraWs1OgTgXKXGzCwCIs",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/WMRB5CqoRFjnfr0ncA8leA/xWmy0HaMyRcBMWwhgQc-3_6mm4ut8SJW-ghpb3NgFU0BPEiI8w4znNmzfzKPYrD3d0ivSPIaK1WqwRUNTmWimap2OKhu-ef35IxLVaxSDEVYszxL0tF9CpCQ5x7bpSTqg0y7UgQcPOyjOMAySLzTWw/yVs0zEeF-G_y_nMSdP4zCJAN3_rFNsTNQNxr4KHB3o4",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746612000000/WreH1C9Yj3sB5mpI-zf56A/kjhr-LqcfqOqkEj5NAy1DWSO08RO-gEQC7P2d2T2iJ4rFFsIMwMv_VKOiFXnkAOjCqV6q2rbMZzAsXBb1W940tZuojt0wLj8y_Qq97cia-1BRS7zEvBoRn1JNirnXnjHsOUMq6-AMpbWjgu0nxdmCg/mNndDrFMYhEenKuRQWeCFOcjQI5PC3PC6kZQIXMOd2g",
+            "width": 80,
+            "height": 41
           }
         }
       }
