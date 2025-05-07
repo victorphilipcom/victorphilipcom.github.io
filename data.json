@@ -3,9 +3,9 @@
     "fullTicker": "LTRY:USA",
     "baseTicker": "LTRY",
     "rank": 8.454,
-    "price": 0.8961,
+    "price": 0.88,
     "prevClose": 0.89,
-    "absReturn": 0.006099999999999994,
+    "absReturn": -0.010000000000000009,
     "logo": [
       {
         "id": "attabOE4yHG4R882C",
@@ -30,6 +30,42 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/zlqN8Fyl4ox148jY514CBw/g-vJo4C_GNirFgnnnCwXuX5dSFKneGePk9JFL_mNxPw6HjwHLGQ-6_PeAEzPeIlAHaL7YwN2vbvJIuxVv53TWKY9D5tUUV0hxzpjkHxLC0wIIGaw7nlu4zVMdqKjZgNNobPq_VOseq3icnV_L57_Iw/QpvTnTEzouuGfoA5S8ApzgtSZ3Hkmq3KujGeH0f-BGQ",
             "width": 80,
             "height": 44
+          }
+        }
+      }
+    ]
+  },
+  {
+    "fullTicker": "ARQQ:USA",
+    "baseTicker": "ARQQ",
+    "rank": 14.084,
+    "price": 15.96,
+    "prevClose": 15.3,
+    "absReturn": 0.6600000000000001,
+    "logo": [
+      {
+        "id": "attWqYXw6eiWJc3zu",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/Z3c3BrgSBczmTl1wGe-VIw/iWBFMp8lHgzoQpapOLpUP0B-svT1WVpGU9vji-UXg5NP3sPcoTPu8NTKQwQaQ81lh8CBvcBV02gJqj9WoFQJAfNF8w4yqJqR75kDwiSVL9YVAT4aYvhsVPttvU-JLTrX7l5R_bPPJ3K0YfjNXt4AXFDy-Ay_w_SZmbnTPtQf9hRVsHlu80AYW29OUA_T-0B_/pIBZVid2yMux9JoLs0bJu0TcxGRqELUd88e0Qms-wr4",
+        "filename": "arqit-quantum-inc-logo.png",
+        "size": 5443,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/6cEbgvpX0XZLVnaaEL--OQ/C2nTHZiKwTYzpcLcenOBYUGcebCDrmA1Pa1p_M5DKnPMgMdbrLUC6V_irAB-ekMitiyx5Ly9shJideJhtkpMtu8osyws3aYdGsa9w_8CwuMha3OHZQ1IMC0s5-o5U_I7ZammIyQ1HfooRDBywWZ73g/6uBbOew4DjVoFMcw9CisGc-E_jy1FAmDvAvBc4SGwt8",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/AZoNLgg7oWWTuMK4CsQUyg/SoQSio7Jfzxl3SH73gJupv3z4g5znXBhO9JgOSsDpS0e2H4Qox3P7rIz7J6oEWPjn2n2CzYn7fgb7gWR5XU1I78pZ6D7BUw4tI3qKDRbssq8GhiQiovb-F6i7Cn6E2zwoQJx913cg87R3c-Ucss-MA/l2ZBSFHtDJQPQZlg8qiXjMVn_JYHHT_t2gYXqTvIEpY",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/Ju14qwUtpRdFCIHFp0puDw/aOoSE1PTbg1zcUkmt5ggZO4Hua20BwvNVkUzroiKCaTur4i-_2hf97MskK4Xvq-VNamA2MxZxD_H13MFdjqPOD3Fnb-o2hO7xVH3kNAlVMYioYtPpNwrn2e2jE5rMUpa6Uv6iYsH4EkUzpyjHDM2FQ/YntzHfUIliwt5qdjEScnghXLVqnWe25OmlGn0ZGkNwQ",
+            "width": 80,
+            "height": 55
           }
         }
       }
@@ -75,9 +111,9 @@
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
-    "price": 117.505,
+    "price": 117.48,
     "prevClose": 117.02,
-    "absReturn": 0.48499999999999943,
+    "absReturn": 0.46000000000000796,
     "logo": [
       {
         "id": "attn5MN4cGSGWXNa0",
@@ -147,9 +183,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.91,
+    "price": 560.94,
     "prevClose": 558.8,
-    "absReturn": 2.1100000000000136,
+    "absReturn": 2.1400000000001,
     "logo": "sp500.png"
   }
 ]
