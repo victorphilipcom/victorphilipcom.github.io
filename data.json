@@ -72,6 +72,42 @@
     ]
   },
   {
+    "fullTicker": "AIRI:USA",
+    "baseTicker": "AIRI",
+    "rank": 66.4736,
+    "price": 3.43,
+    "prevClose": 3.6971,
+    "absReturn": -0.26709999999999967,
+    "logo": [
+      {
+        "id": "attQ2d8wMa9r3p20M",
+        "width": 80,
+        "height": 40,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746626400000/Vr2buI5StJ2znDBmBFc64Q/aZiiz_-oQPcGDHm337OzQq05721UOQuzm4Huo24FtZTdryZLzpc6jC1IrCZbLbcMYsI_1aTsp1-RvW9cfg7YeFc1fMGAVFm3P0rEzadG4WV2v9J-Vwvl_rLhVtazhzv0_okQR0QoM_Aqcl-gfE5YJjheeqXLDqvL28y9HrTVddEp-JEOb99q4Mv8-o8PWHIf/dpBn6c9ILPtwIuTB4GDAFclpYuD8I2rruKIHnVA270E",
+        "filename": "air-industries-group-logo.jpg",
+        "size": 1036,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746626400000/x5tLzDgjxerFuDJQ0z1R0w/UalZ9ovHQ1Sq9ztTuiYBotNRDvelSN6cKdtrVh--AXwVutV1qay9RKj63kjTAHpbLmwZMEWyekdSau9YA5wXZB8XjwZRft8Z6QdSM3Q3jP6vT66JMyV5sjzKGPj9xMZy-eL1yEuuo8wQc0h-V3tQnw/A1pGo7wf7O4Y9UexgWLRTxkykYBPoZ_HFDx-sg9ChkM",
+            "width": 72,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746626400000/JVoIOLDRVVmQ2eXJRWVMHA/AEAKFKo67CUm85QJVnhFrbdaaPfQs4ZsywSHRIu8MkCocaAXnBLrpqUz4klhnHlhJpT5Gc58N3HTkixZjwfkCR6kXmGnLmDweEoUHQtV4X8j6uPkXkOXbY56UgWAQi5NITMaJYrgU82uW1vN_Ms1EQ/Zjq7Rna7KhHvFUwvSQeLvt9i7UUI82waT3hJOWDOIZ0",
+            "width": 80,
+            "height": 40
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746626400000/a1yG1_pFqANGnHVM_xpMfg/n0liY9lYIKml-DbA5CDPMs5KBsfNMpkQsuBQG-xUMnpunfWqiv5E_4oquqw2GxFGr6y6rg_0yRRZaZ31E6ovpyjPy95oy7hmYUtENqOwgNrrrxmitL3hbAugeBWHiZeMpZBKxzQPB_0OvsJboyvHAw/mEZbDkxWolQ87Ov6zpebih05w8HPz8ZCNLShHsb8jRw",
+            "width": 80,
+            "height": 40
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
