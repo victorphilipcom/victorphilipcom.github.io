@@ -72,42 +72,6 @@
     ]
   },
   {
-    "fullTicker": "AIRI:USA",
-    "baseTicker": "AIRI",
-    "rank": 66.4736,
-    "price": 3.43,
-    "prevClose": 3.6971,
-    "absReturn": -0.26709999999999967,
-    "logo": [
-      {
-        "id": "attQ2d8wMa9r3p20M",
-        "width": 80,
-        "height": 40,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/uTyNr41AYIA5-Mt2aM51sg/TOG5sWMdaCkRl8KyE0vFaxsk0q24dwG09kvgxzaIMKlFnRyPKbOXYESpnFzTEArt_OjQo-YOqBofisBGOdgekn80oxLBgGP4CdmNPjkQTklPeEUskNle3za7Fh82Dre_BdV8IhHLeQ4e-f_HI35BxabEbjIQ4l8Ju8BYhTZgVo65i4VveWqbmC7LHStdbyr7/7a0Gs19teQGLqTKhhS66GpnNtJYCSePT7yAO32eyWw0",
-        "filename": "air-industries-group-logo.jpg",
-        "size": 1036,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/3h5J1xyaeY-QBTcnkNUxZQ/6QDyLkdDWGEQg3h8jTnz_qt-VfY-9dZgQvGhy3Aw93XjOEzS0IGWEXRpgdLBuDOuO26iIem0At6Hdbe8bil8huvo6ii-U91fRmQSLW2_6UmN8w73-4ZDrNTPcutnHiW8XSQtXwWunw-v_PGHhXpY_A/hAdY0ZS3uRbRaNtDjaqhjgMc-xmRrStFxkV0EIcgAwk",
-            "width": 72,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/EYOnXoCKD1kIMGv09ZVkcw/_z2_1bdqOl6WXs2KVtd_V-LiuF-tMWT1b1FOhfGQMjrL81JkpgViMXDCffLcDBSWZLUR_MuVpyHRg2Ir9FCTjEc6N1N6yDa79ary-jjAI95KCOVIEmBtLN0dFUqiXW46N0ygv2EBu1o1Y2xgFHpoRg/DHWskg7Tf6qAqQbUVUgoTbKFSNHH9vpkGKV3favIqcs",
-            "width": 80,
-            "height": 40
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/6QPtDBYXhkYBCqtusPdihw/7LsMfpglidoqW0SmFXQO-pvooPRWRwBbEhvLQyyxKH5c6rcKWIpr5lNl3gzA6D_9StpQx4aJxZ0--1OoShqMxAyV0tDIcYYcjW8yaPiblHM1uhnWLUV4ZwvtynAhE4mQW-_MvEKDOizq-8dhcqWIqA/yrY4AuSCdc9kkISYSvxwKgarqwOY2XDjm0TJnriSgGE",
-            "width": 80,
-            "height": 40
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
@@ -144,12 +108,48 @@
     ]
   },
   {
+    "fullTicker": "BSET:USA",
+    "baseTicker": "BSET",
+    "rank": 82.4584,
+    "price": 17.35,
+    "prevClose": 17.29,
+    "absReturn": 0.060000000000002274,
+    "logo": [
+      {
+        "id": "attjRvvjWWEUrHh7A",
+        "width": 80,
+        "height": 80,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/iju-OsHaThfprGnhVADFeg/bv8oBAEKbCl3S6GLzmgn7iVYI_qDu_xoSK4TjlsFDQtD6wPOt79QipyyiJus9e707FSqFr1p_FLzffGHqGhJ-EsxS7DMouV0N9bFdQkkP8SLDqOjjy-1Z7WD4dqoG36pwcD1XpodPD-jfdK-x0OjSZFUyW9KsmimH99CELpwFF9_H8--ZquygY7XyCRbowbBdscD4OCgXfYbLId0qFJbsw/9Mrv0YuNaImuat2zNlMNpxjbUWms3quWkzramuDnT00",
+        "filename": "bassett-furniture-industries-incorporated-logo.png",
+        "size": 4930,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/nqjvaDakAfbv2cdmYL03ig/u-RkEfyHsM-FvnLLJeTTD1KEpM4dv8hEnZcmRDhtzGLQqxhRJJ_vEmm9eFWazaNvWnyOAnO1mgu3W5HxCmc2s_FBZpY9e2scP8Zj2dklo6L8Np8hz4_ouLQmYePyj5Z780ogC7ONapyTxY5-7TgeJg/qY_zXBGLW6ZcFQ4hhhqgyJLmZBU_dyThlmfgbDj2xl8",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/veI_GDP2EWZ7D7WalfzynQ/zAkqw8iJ0O8tBIQuTF8wGbh6qPUNzCmacjg4yZtyIQsdNStl1MwuAJCBivrE6blM7HKPVC3OsUsduqzfnSIhbUamwpzhi00eTAxOljOv_j_hmLK_k1nhMNukFsJHuwQZzie3EFppsV5hDsWYI3aFMA/NYrJcPkYSWXuiRStinFZxBUSiSIreasNM2lMb9kwSDU",
+            "width": 80,
+            "height": 80
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746662400000/KLljU9oh_IYA_LIg9NhXXw/-gKVj1d2hzZYzeYZtIPCU4cPkl6lz8fJRlYPhrNwpSDsIs9v5qaEfrjApVFBvNG_Z_Ikd4UP0lTtQbwpPFXTbpqzTKPc7USsWK8kBn5mNjhPX5LKIMCqGtvvEgUvk-OH31vlif0FsDWkB3_AjdEFFw/ZiB_Ztco5v5LX2lc4OhEQsi2pXc3yv-YT-VrixZSxZk",
+            "width": 80,
+            "height": 80
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.88,
+    "price": 560.91,
     "prevClose": 558.8,
-    "absReturn": 2.080000000000041,
+    "absReturn": 2.1100000000000136,
     "logo": "sp500.png"
   }
 ]
