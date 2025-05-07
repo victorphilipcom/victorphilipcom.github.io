@@ -3,9 +3,9 @@
     "fullTicker": "LTRY:USA",
     "baseTicker": "LTRY",
     "rank": 8.454,
-    "price": 0.89,
+    "price": 0.883,
     "prevClose": 0.89,
-    "absReturn": 0,
+    "absReturn": -0.007000000000000006,
     "logo": [
       {
         "id": "attabOE4yHG4R882C",
@@ -39,9 +39,9 @@
     "fullTicker": "ARQQ:USA",
     "baseTicker": "ARQQ",
     "rank": 14.084,
-    "price": 15.51,
+    "price": 15.62,
     "prevClose": 15.3,
-    "absReturn": 0.20999999999999908,
+    "absReturn": 0.3199999999999985,
     "logo": [
       {
         "id": "attWqYXw6eiWJc3zu",
@@ -108,12 +108,48 @@
     ]
   },
   {
+    "fullTicker": "EHC:USA",
+    "baseTicker": "EHC",
+    "rank": 82.4222,
+    "price": 117.39,
+    "prevClose": 117.02,
+    "absReturn": 0.37000000000000455,
+    "logo": [
+      {
+        "id": "attn5MN4cGSGWXNa0",
+        "width": 80,
+        "height": 41,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/isu7KNCAqRME-rv2IYPGfQ/H607dCw4JlI7omSarL6j832bMjoMDXx1DRk0ReS7Mnj9CUTnCo11y7F0S5nE_lORwYjoKDSe-gnsOuzRHuNV7Gn3LOdPc3I7IHvgxPRf96H_UNRhCn07_F6gI3pGjFmq5kQlNJP1DSjLyDSpV5zNa5RkFABrnD-UlUiM8KpbBCexUhwrfvugHkb0Ky25F8yD/n_lRsHonrhUCKdSJeUy3NJmFAucLrwrRWjKSfGp59kQ",
+        "filename": "encompass-health-co-logo.png",
+        "size": 2403,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/g5GpMEXf9jc3y-gK0YpeFQ/vXM2cw6Yz2p-1BfkcEW7maEsevgjBmQRZSzHMsT3vudEcPZ8rwH6rqv75aQYO8vF3MWyP1IyS07P3srwVPoykU3G4bsx-KDUfafk3wGoaRx3lWk1p6WlGd8-J5TxNwcmnrpGfmJE2dJbCfzIQ-fi7w/49TqdWxVw4rCgL5CWlkuFafEntZ-OTE1WJ70GN6Doz0",
+            "width": 70,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/r3g3wk1vdStnq_hJFgpE7g/8HjOVJb2chhOXPCafKUfRmz2Rt8s9xkQjhVXojIU4bQfIlDsychCdEKcQbipyErUzADmokhKkzJQ83Szc6cl7OYsnbk0xzYPuW0FV02VUTG_8BS-ljIGQqVtnltdlCTyy4oxiSoJs3ts3H5bP4BK6w/10K_ZmGVqLkmQ5wzEmOG9eUtBVKysKoh489ssJBq2AA",
+            "width": 80,
+            "height": 41
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/Zi6jPqaVjIl9VKKwnhFOFg/E4XMsfKlXfIszN_-CoMEC1zL8mW3iT66AbdWTLtvjQPyIgABNfCPTSlsSgMFF16g_OOs0irB9vxYgKFkAEz5W_7zlvDdy4lYGzDSzvktlY63O6cWB8gH59FBgD8MHRO84yAalqThJaxsCu6BDnmp5g/gBfzKRWyO-cYWUgR2LS5FhaROKiajtpbdZNVGTIsLco",
+            "width": 80,
+            "height": 41
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "BSET:USA",
     "baseTicker": "BSET",
     "rank": 82.4584,
-    "price": 17.795,
+    "price": 17.435,
     "prevClose": 17.29,
-    "absReturn": 0.5050000000000026,
+    "absReturn": 0.14499999999999957,
     "logo": [
       {
         "id": "attjRvvjWWEUrHh7A",
@@ -147,9 +183,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 562.01,
+    "price": 560.545,
     "prevClose": 558.8,
-    "absReturn": 3.2100000000000364,
+    "absReturn": 1.7450000000000045,
     "logo": "sp500.png"
   }
 ]
