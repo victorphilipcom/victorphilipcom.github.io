@@ -36,6 +36,42 @@
     ]
   },
   {
+    "fullTicker": "ARQQ:USA",
+    "baseTicker": "ARQQ",
+    "rank": 14.084,
+    "price": 15.51,
+    "prevClose": 15.3,
+    "absReturn": 0.20999999999999908,
+    "logo": [
+      {
+        "id": "attWqYXw6eiWJc3zu",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/6nUtI8QtDa30RXL1lshyMA/gL6tujMt5Wf2wgvriBpemOE54-dt3D7pzHuU32XvPTrrYa3SEK_wpbtrxcL6PYymyL1aQmoYq-hIuePb-vd4bQALQhnx2ILD4O0SUfwgcoqzphDApo4cp3nYXXl2b6voAWeTMNA4NLejZmNANJmANrgejR71dnNJ09pVpo06eK8nelVxSWLAN05UNFMbtqus/6iHujFiGlOkj_2N6CWWqGdGAb_wBZeiAON9FlXT0hKQ",
+        "filename": "arqit-quantum-inc-logo.png",
+        "size": 5443,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/YagFnJ1CkiTVmGImVssKUw/cjdnnK-dgdEM6XgTNXDbitumUu-l4ExBHJZdYgQjMQ-un0WyI9gHdD-ZYR-655qCdNrjAtkEfH1I9Qmp_Nxr4YW-vB0SHPuLwJxoEGeWMu5IOwOPBvdXuPiZlzWEIwDW9-MaB84EgaeGGZueZNzHWA/_LPH1r8wzRR3ZdwAkec5-xy0F-2Tj3r5dA1075QY2MI",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/bfkt3eqqTCoFpzBD75tvVg/RsFYff3HS3sfqRy4gpXA1m4JuEinGabIYR-SpynCr18Qc5oavVEH5X6JCxLtnq9z7YVBQpDClld-LgG1pX_wom0QDluXp-3EUCZj4-WvTuMdaQf9j3nCE4msJsu838_rkicMRdrxj_PEI44_XLc2dg/JjvTGDmzgV2HJ43wS_6wu35Oxga8IAEF1rJbZP7mM-w",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/wnmoz3NBpehQqbB4B4111w/LCoa9mQWNDOSX1Ma3WmQA09hTrGytf_gMwuJKkTZl1B6e_kiMvfGaFSHroZelzvXfSkLhsIods38P0R9CML_t_92UVX6ZUwlCPYUhGJwXz6_HT7oLnnduynZ89UF--QG7d8C8g7-jM7mdQNs8GRrlg/3O2_X-vk5wG1bOUmEtHYWB-1Taf0wTvMfeZ6V8t-ZZU",
+            "width": 80,
+            "height": 55
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
@@ -66,42 +102,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/nnxUONFINA51btXwnK0Lyg/Lp_3KoqC7VYiyqKs3OlFtFQH8cM-2TnghReadKL3Yv9Ed1DUGlTrkM4jh8bp2UyZZggLyQpu9gxM-S_GQnzXhqztgUZRCa9WYBEs4EFN-XMO7ZZxDoLrQyWIWHu-WnZZoPD06q-683xh0XTVqS5MdA/CsrvtOGlZYhESeWo_Zqw_JPkk8lsHYgrEnjBeEzaa84",
             "width": 80,
             "height": 40
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "EHC:USA",
-    "baseTicker": "EHC",
-    "rank": 82.4222,
-    "price": 118.35,
-    "prevClose": 117.02,
-    "absReturn": 1.3299999999999983,
-    "logo": [
-      {
-        "id": "attn5MN4cGSGWXNa0",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/isu7KNCAqRME-rv2IYPGfQ/H607dCw4JlI7omSarL6j832bMjoMDXx1DRk0ReS7Mnj9CUTnCo11y7F0S5nE_lORwYjoKDSe-gnsOuzRHuNV7Gn3LOdPc3I7IHvgxPRf96H_UNRhCn07_F6gI3pGjFmq5kQlNJP1DSjLyDSpV5zNa5RkFABrnD-UlUiM8KpbBCexUhwrfvugHkb0Ky25F8yD/n_lRsHonrhUCKdSJeUy3NJmFAucLrwrRWjKSfGp59kQ",
-        "filename": "encompass-health-co-logo.png",
-        "size": 2403,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/g5GpMEXf9jc3y-gK0YpeFQ/vXM2cw6Yz2p-1BfkcEW7maEsevgjBmQRZSzHMsT3vudEcPZ8rwH6rqv75aQYO8vF3MWyP1IyS07P3srwVPoykU3G4bsx-KDUfafk3wGoaRx3lWk1p6WlGd8-J5TxNwcmnrpGfmJE2dJbCfzIQ-fi7w/49TqdWxVw4rCgL5CWlkuFafEntZ-OTE1WJ70GN6Doz0",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/r3g3wk1vdStnq_hJFgpE7g/8HjOVJb2chhOXPCafKUfRmz2Rt8s9xkQjhVXojIU4bQfIlDsychCdEKcQbipyErUzADmokhKkzJQ83Szc6cl7OYsnbk0xzYPuW0FV02VUTG_8BS-ljIGQqVtnltdlCTyy4oxiSoJs3ts3H5bP4BK6w/10K_ZmGVqLkmQ5wzEmOG9eUtBVKysKoh489ssJBq2AA",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/Zi6jPqaVjIl9VKKwnhFOFg/E4XMsfKlXfIszN_-CoMEC1zL8mW3iT66AbdWTLtvjQPyIgABNfCPTSlsSgMFF16g_OOs0irB9vxYgKFkAEz5W_7zlvDdy4lYGzDSzvktlY63O6cWB8gH59FBgD8MHRO84yAalqThJaxsCu6BDnmp5g/gBfzKRWyO-cYWUgR2LS5FhaROKiajtpbdZNVGTIsLco",
-            "width": 80,
-            "height": 41
           }
         }
       }
@@ -147,9 +147,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 561.29,
+    "price": 562.01,
     "prevClose": 558.8,
-    "absReturn": 2.490000000000009,
+    "absReturn": 3.2100000000000364,
     "logo": "sp500.png"
   }
 ]
