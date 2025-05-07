@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ARQQ:USA",
-    "baseTicker": "ARQQ",
-    "rank": 14.084,
-    "price": 15.62,
-    "prevClose": 15.3,
-    "absReturn": 0.3199999999999985,
-    "logo": [
-      {
-        "id": "attWqYXw6eiWJc3zu",
-        "width": 80,
-        "height": 55,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/6nUtI8QtDa30RXL1lshyMA/gL6tujMt5Wf2wgvriBpemOE54-dt3D7pzHuU32XvPTrrYa3SEK_wpbtrxcL6PYymyL1aQmoYq-hIuePb-vd4bQALQhnx2ILD4O0SUfwgcoqzphDApo4cp3nYXXl2b6voAWeTMNA4NLejZmNANJmANrgejR71dnNJ09pVpo06eK8nelVxSWLAN05UNFMbtqus/6iHujFiGlOkj_2N6CWWqGdGAb_wBZeiAON9FlXT0hKQ",
-        "filename": "arqit-quantum-inc-logo.png",
-        "size": 5443,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/YagFnJ1CkiTVmGImVssKUw/cjdnnK-dgdEM6XgTNXDbitumUu-l4ExBHJZdYgQjMQ-un0WyI9gHdD-ZYR-655qCdNrjAtkEfH1I9Qmp_Nxr4YW-vB0SHPuLwJxoEGeWMu5IOwOPBvdXuPiZlzWEIwDW9-MaB84EgaeGGZueZNzHWA/_LPH1r8wzRR3ZdwAkec5-xy0F-2Tj3r5dA1075QY2MI",
-            "width": 52,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/bfkt3eqqTCoFpzBD75tvVg/RsFYff3HS3sfqRy4gpXA1m4JuEinGabIYR-SpynCr18Qc5oavVEH5X6JCxLtnq9z7YVBQpDClld-LgG1pX_wom0QDluXp-3EUCZj4-WvTuMdaQf9j3nCE4msJsu838_rkicMRdrxj_PEI44_XLc2dg/JjvTGDmzgV2HJ43wS_6wu35Oxga8IAEF1rJbZP7mM-w",
-            "width": 80,
-            "height": 55
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746640800000/wnmoz3NBpehQqbB4B4111w/LCoa9mQWNDOSX1Ma3WmQA09hTrGytf_gMwuJKkTZl1B6e_kiMvfGaFSHroZelzvXfSkLhsIods38P0R9CML_t_92UVX6ZUwlCPYUhGJwXz6_HT7oLnnduynZ89UF--QG7d8C8g7-jM7mdQNs8GRrlg/3O2_X-vk5wG1bOUmEtHYWB-1Taf0wTvMfeZ6V8t-ZZU",
-            "width": 80,
-            "height": 55
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
@@ -111,9 +75,9 @@
     "fullTicker": "EHC:USA",
     "baseTicker": "EHC",
     "rank": 82.4222,
-    "price": 117.39,
+    "price": 116.91,
     "prevClose": 117.02,
-    "absReturn": 0.37000000000000455,
+    "absReturn": -0.10999999999999943,
     "logo": [
       {
         "id": "attn5MN4cGSGWXNa0",
@@ -183,9 +147,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 560.545,
+    "price": 559,
     "prevClose": 558.8,
-    "absReturn": 1.7450000000000045,
+    "absReturn": 0.20000000000004547,
     "logo": "sp500.png"
   }
 ]
