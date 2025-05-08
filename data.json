@@ -144,42 +144,6 @@
     ]
   },
   {
-    "fullTicker": "BSET:USA",
-    "baseTicker": "BSET",
-    "rank": 82.4584,
-    "price": 17.35,
-    "prevClose": 17.29,
-    "absReturn": 0.060000000000002274,
-    "logo": [
-      {
-        "id": "attjRvvjWWEUrHh7A",
-        "width": 80,
-        "height": 80,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/RqoV-77EwBmZxSF1gfNwMQ/HlY9wJrb9pHQGUiwHbJUSOhoDBDYsim16C405rjIwVJjKyeOjD6S58RgHy3UHnf7Qp9_k2RBRtPYhiKbzH53dAu-XfGBZPoyKX-evGuXvK74lJrrf4e2K-W0XdKRT_UhPhE-w8bqBBdzzPquRa2IFuAlLqUFLOrNRRF-e-m5yhBPZokO_KDYtPanA4yebIB9YWEnbMY4uUivD6zePy3wYw/2ePFtUbKAzx0GCbJKuIaorJn_uhDSbcEsDi7fcqFHNk",
-        "filename": "bassett-furniture-industries-incorporated-logo.png",
-        "size": 4930,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/hUmKJLnfOhkgZ0pGaIDdhQ/X1xAVuvMQuQE0HKIKJccGrJI6DFEIiZHJMA-BOv3Wt6zRbLlQfoqkMHraMcwbo2URX-DsYN_SJARxuuxa-1ZSGXM8leSXqbnoM_5ks-nBwmosFBmDdlPYLjjOWP39HuXShno3bKCRCD6Pt2dIQfJwg/1wWzjK3sj4XEZ1tFqvU3BoJrtGxEmYnDlP92zt9krW8",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/09ZF4uZIzyGbOSMwQbUBfw/VlOuG-9votaIJM0tlzZMVSXZZjDjuvFFT0pDXqhvD-frb1wORgC5l6kmvI4W_DMlRy3nHoKT8zchlyhrqiCm-gMeGmHGcpTy-x5G_xWbrTpW7wZnKujTWgeRL2Atv1YTR_glmjrCC4CkRgOtZ97VxQ/ffM4nM3V2h9sjUbQx8FCoiXi3yye_5oKXfgwT_xBHxg",
-            "width": 80,
-            "height": 80
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/aVHREQOjPN8_2mDHiWS-ow/bNCZb0NMgPkVEh4Xy-suUiH_y9ydcSBFue5aMRFniyJ5e2yv1yQtIEDIyWoXhEMyaMIDSIlfStI6awDXbS_cbhvoOsgitGafKWMprMHnPe3gntbhoFwzcFmcVdXTt1Rj3fWi9XIu6N3eDr35IKe2lQ/6JJmBXSXjx-AmuSSWfiwI7vVaG7u6rvUxxqTSroxOAY",
-            "width": 80,
-            "height": 80
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
