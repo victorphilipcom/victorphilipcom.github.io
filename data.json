@@ -9,12 +9,21 @@
     "logo": ""
   },
   {
-    "fullTicker": "SVV:USA",
-    "baseTicker": "SVV",
-    "rank": 20.087,
-    "price": 11.3,
-    "prevClose": 10.8,
-    "absReturn": 0.5,
+    "fullTicker": "TZUP:USA",
+    "baseTicker": "TZUP",
+    "rank": 12.9623,
+    "price": 6.18,
+    "prevClose": 5.65,
+    "absReturn": 0.5299999999999994,
+    "logo": ""
+  },
+  {
+    "fullTicker": "GWRE:USA",
+    "baseTicker": "GWRE",
+    "rank": 24.2204,
+    "price": 213.15,
+    "prevClose": 211.1,
+    "absReturn": 2.0500000000000114,
     "logo": ""
   },
   {
@@ -27,21 +36,12 @@
     "logo": ""
   },
   {
-    "fullTicker": "MOH:GRC",
-    "baseTicker": "MOH",
-    "rank": 52.0848,
-    "price": 327.02,
-    "prevClose": 316.2,
-    "absReturn": 10.819999999999993,
-    "logo": ""
-  },
-  {
-    "fullTicker": "ATMU:USA",
-    "baseTicker": "ATMU",
-    "rank": 66.4793,
-    "price": 35.58,
-    "prevClose": 35.62,
-    "absReturn": -0.03999999999999915,
+    "fullTicker": "RFIL:USA",
+    "baseTicker": "RFIL",
+    "rank": 80.6925,
+    "price": 3.97,
+    "prevClose": 3.97,
+    "absReturn": 0,
     "logo": ""
   },
   {
