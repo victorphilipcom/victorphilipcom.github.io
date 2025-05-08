@@ -36,21 +36,21 @@
     "logo": ""
   },
   {
+    "fullTicker": "MT:NLD",
+    "baseTicker": "MT",
+    "rank": 38.4518,
+    "price": 29.9,
+    "prevClose": 30.07,
+    "absReturn": -0.1700000000000017,
+    "logo": ""
+  },
+  {
     "fullTicker": "RFIL:USA",
     "baseTicker": "RFIL",
     "rank": 80.6925,
     "price": 3.97,
     "prevClose": 3.97,
     "absReturn": 0,
-    "logo": ""
-  },
-  {
-    "fullTicker": "HUM:USA",
-    "baseTicker": "HUM",
-    "rank": 82.9405,
-    "price": 253.12,
-    "prevClose": 251.77,
-    "absReturn": 1.3499999999999943,
     "logo": ""
   },
   {
