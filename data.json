@@ -3,72 +3,72 @@
     "fullTicker": "GERN:USA",
     "baseTicker": "GERN",
     "rank": 11.1313,
-    "price": 1.285,
+    "price": 1.275,
     "prevClose": 1.31,
-    "absReturn": -0.025000000000000133,
+    "absReturn": -0.03500000000000014,
     "logo": ""
   },
   {
     "fullTicker": "TZUP:USA",
     "baseTicker": "TZUP",
     "rank": 12.9623,
-    "price": 5.93,
+    "price": 5.98,
     "prevClose": 6.18,
-    "absReturn": -0.25,
+    "absReturn": -0.1999999999999993,
     "logo": ""
   },
   {
     "fullTicker": "GWRE:USA",
     "baseTicker": "GWRE",
     "rank": 24.2204,
-    "price": 214.89,
+    "price": 214.68,
     "prevClose": 213.15,
-    "absReturn": 1.7399999999999807,
+    "absReturn": 1.5300000000000011,
     "logo": ""
   },
   {
     "fullTicker": "LKQ:USA",
     "baseTicker": "LKQ",
     "rank": 29.0972,
-    "price": 40.115,
+    "price": 40.1,
     "prevClose": 39.4,
-    "absReturn": 0.7150000000000034,
+    "absReturn": 0.7000000000000028,
     "logo": ""
   },
   {
-    "fullTicker": "RFIL:USA",
-    "baseTicker": "RFIL",
-    "rank": 80.6925,
-    "price": 3.97,
-    "prevClose": 3.97,
-    "absReturn": 0,
+    "fullTicker": "MT:NLD",
+    "baseTicker": "MT",
+    "rank": 38.4518,
+    "price": 29.955,
+    "prevClose": 29.9,
+    "absReturn": 0.054999999999999716,
     "logo": ""
   },
   {
     "fullTicker": "HUM:USA",
     "baseTicker": "HUM",
     "rank": 82.9405,
-    "price": 253.945,
+    "price": 253.5,
     "prevClose": 253.12,
-    "absReturn": 0.8249999999999886,
+    "absReturn": 0.37999999999999545,
     "logo": ""
   },
   {
     "fullTicker": "APT:POL",
     "baseTicker": "APT",
     "rank": 99.2748,
-    "price": 4.565,
+    "price": 4.55,
     "prevClose": 4.48,
-    "absReturn": 0.08499999999999996,
+    "absReturn": 0.0699999999999994,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 568.095,
+    "price": 566.815,
     "prevClose": 561.15,
-    "absReturn": 6.94500000000005,
+    "absReturn": 5.665000000000077,
     "logo": "sp500.png"
   }
 ]
