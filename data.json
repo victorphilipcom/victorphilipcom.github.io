@@ -45,6 +45,15 @@
     "logo": ""
   },
   {
+    "fullTicker": "RFIL:USA",
+    "baseTicker": "RFIL",
+    "rank": 80.6925,
+    "price": 3.96,
+    "prevClose": 3.97,
+    "absReturn": -0.010000000000000231,
+    "logo": ""
+  },
+  {
     "fullTicker": "HUM:USA",
     "baseTicker": "HUM",
     "rank": 82.9405,
