@@ -12,18 +12,9 @@
     "fullTicker": "TZUP:USA",
     "baseTicker": "TZUP",
     "rank": 12.9623,
-    "price": 6.1,
+    "price": 6.09,
     "prevClose": 6.18,
-    "absReturn": -0.08000000000000007,
-    "logo": ""
-  },
-  {
-    "fullTicker": "GWRE:USA",
-    "baseTicker": "GWRE",
-    "rank": 24.2204,
-    "price": 213.465,
-    "prevClose": 213.15,
-    "absReturn": 0.3149999999999977,
+    "absReturn": -0.08999999999999986,
     "logo": ""
   },
   {
@@ -48,18 +39,18 @@
     "fullTicker": "RFIL:USA",
     "baseTicker": "RFIL",
     "rank": 80.6925,
-    "price": 3.96,
+    "price": 3.97,
     "prevClose": 3.97,
-    "absReturn": -0.010000000000000231,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "HUM:USA",
     "baseTicker": "HUM",
     "rank": 82.9405,
-    "price": 253.41,
+    "price": 253.35,
     "prevClose": 253.12,
-    "absReturn": 0.28999999999999204,
+    "absReturn": 0.22999999999998977,
     "logo": ""
   },
   {
@@ -75,9 +66,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 565.05,
+    "price": 564.63,
     "prevClose": 561.15,
-    "absReturn": 3.8999999999999773,
+    "absReturn": 3.480000000000018,
     "logo": "sp500.png"
   }
 ]
