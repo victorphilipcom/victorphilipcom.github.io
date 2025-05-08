@@ -3,9 +3,9 @@
     "fullTicker": "GERN:USA",
     "baseTicker": "GERN",
     "rank": 11.1313,
-    "price": 1.255,
+    "price": 1.275,
     "prevClose": 1.31,
-    "absReturn": -0.05500000000000016,
+    "absReturn": -0.03500000000000014,
     "logo": ""
   },
   {
@@ -21,27 +21,18 @@
     "fullTicker": "GWRE:USA",
     "baseTicker": "GWRE",
     "rank": 24.2204,
-    "price": 214.96,
+    "price": 215.66,
     "prevClose": 213.15,
-    "absReturn": 1.8100000000000023,
-    "logo": ""
-  },
-  {
-    "fullTicker": "LKQ:USA",
-    "baseTicker": "LKQ",
-    "rank": 29.0972,
-    "price": 39.725,
-    "prevClose": 39.4,
-    "absReturn": 0.32500000000000284,
+    "absReturn": 2.509999999999991,
     "logo": ""
   },
   {
     "fullTicker": "MT:NLD",
     "baseTicker": "MT",
     "rank": 38.4518,
-    "price": 29.86,
+    "price": 29.845,
     "prevClose": 29.9,
-    "absReturn": -0.03999999999999915,
+    "absReturn": -0.054999999999999716,
     "logo": ""
   },
   {
@@ -57,9 +48,9 @@
     "fullTicker": "HUM:USA",
     "baseTicker": "HUM",
     "rank": 82.9405,
-    "price": 254.68,
+    "price": 254.7,
     "prevClose": 253.12,
-    "absReturn": 1.5600000000000023,
+    "absReturn": 1.579999999999984,
     "logo": ""
   },
   {
@@ -75,9 +66,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 562.915,
+    "price": 563.625,
     "prevClose": 561.15,
-    "absReturn": 1.7649999999999864,
+    "absReturn": 2.4750000000000227,
     "logo": "sp500.png"
   }
 ]
