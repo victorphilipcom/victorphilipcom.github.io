@@ -36,42 +36,6 @@
     ]
   },
   {
-    "fullTicker": "ARQQ:USA",
-    "baseTicker": "ARQQ",
-    "rank": 14.084,
-    "price": 16,
-    "prevClose": 15.3,
-    "absReturn": 0.6999999999999993,
-    "logo": [
-      {
-        "id": "attWqYXw6eiWJc3zu",
-        "width": 80,
-        "height": 55,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/2H0j7SRYXDO_SjJWsM02RA/hLNbiVkxM4bjrNwj50aHsyIQr2ZGXAN9Q1T75_dh0746xmrURo8aBzeTUyKClY01sLuOPn5ZlmbaRyJZwYvMy-6p-WMhQQCAAGz5JSp-jkU_72i6d1sPnIAMGzzdL5Awp2YMMaFUmNsCLdsDwYHoN_Hf2ZFpkAD8Kg9uK1JTB_DBz8cRWsXkicwwx4s0zvu7/vJxoIjWscMT5WLuuVwZvowWBLRpelAvg1zZMiQEN_Yc",
-        "filename": "arqit-quantum-inc-logo.png",
-        "size": 5443,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/xWM0IzpvHMaemKzFRjyPJA/qr1DTQuxSADKZUQifojreFFhIzivBhdiEgNEVeiGi4Z8YGkk89r7tD_WK7jcsuvA1wjlLuw_jkH9HhjApnMdCMe-eJcH--KbCbrC57WQE8XWkKrTR-kgQx7g1Tf8QDGd8f8jD3UJT3DNO4STQIeq6A/omuds6FUG3UG0fvb7Docf7fY-v-58sSUkQuluVxTyI0",
-            "width": 52,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/HnO9SiioiWZTHHz-HN40bw/2ewm6mgqq9x_kw4Oi2DCmNenAZc_BVpMG3NAsex6XYbItjIYoC19GvG5BxVGugHPQYcPigVoLQRgeZgm6LU8dY9kP08m-bNz4EBhydNISnmrJJnBUMt4FkgGDDNsIwW8XriZFxokbLvwE0-ryD3bOw/Y15nx0MItG9mfBVm6VLgBhzPV2tVtALdchlnkBZfs5E",
-            "width": 80,
-            "height": 55
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/2nKjCfzd-LGjpGXLB3TMDg/zkx3GeRK5tYhbZjBex036VY-Jd-fDOR3-OA2rnwlRU9VvlBKkKYu_L3xOC4nOdZTp_3ymNQb-5eb2YYOb1B2balQ08AaP8_i7NfKFqmH4uz5a8i-qylfLk3LXKCBBNSR-3tjBjH4_7mr_BI-13Q92Q/xQ7XHlR0OVWoCMR8QkEGB5q6X_JfphlIglfcvlfDpXg",
-            "width": 80,
-            "height": 55
-          }
-        }
-      }
-    ]
-  },
-  {
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
