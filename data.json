@@ -36,6 +36,42 @@
     ]
   },
   {
+    "fullTicker": "ARQQ:USA",
+    "baseTicker": "ARQQ",
+    "rank": 14.084,
+    "price": 16,
+    "prevClose": 15.3,
+    "absReturn": 0.6999999999999993,
+    "logo": [
+      {
+        "id": "attWqYXw6eiWJc3zu",
+        "width": 80,
+        "height": 55,
+        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/2H0j7SRYXDO_SjJWsM02RA/hLNbiVkxM4bjrNwj50aHsyIQr2ZGXAN9Q1T75_dh0746xmrURo8aBzeTUyKClY01sLuOPn5ZlmbaRyJZwYvMy-6p-WMhQQCAAGz5JSp-jkU_72i6d1sPnIAMGzzdL5Awp2YMMaFUmNsCLdsDwYHoN_Hf2ZFpkAD8Kg9uK1JTB_DBz8cRWsXkicwwx4s0zvu7/vJxoIjWscMT5WLuuVwZvowWBLRpelAvg1zZMiQEN_Yc",
+        "filename": "arqit-quantum-inc-logo.png",
+        "size": 5443,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/xWM0IzpvHMaemKzFRjyPJA/qr1DTQuxSADKZUQifojreFFhIzivBhdiEgNEVeiGi4Z8YGkk89r7tD_WK7jcsuvA1wjlLuw_jkH9HhjApnMdCMe-eJcH--KbCbrC57WQE8XWkKrTR-kgQx7g1Tf8QDGd8f8jD3UJT3DNO4STQIeq6A/omuds6FUG3UG0fvb7Docf7fY-v-58sSUkQuluVxTyI0",
+            "width": 52,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/HnO9SiioiWZTHHz-HN40bw/2ewm6mgqq9x_kw4Oi2DCmNenAZc_BVpMG3NAsex6XYbItjIYoC19GvG5BxVGugHPQYcPigVoLQRgeZgm6LU8dY9kP08m-bNz4EBhydNISnmrJJnBUMt4FkgGDDNsIwW8XriZFxokbLvwE0-ryD3bOw/Y15nx0MItG9mfBVm6VLgBhzPV2tVtALdchlnkBZfs5E",
+            "width": 80,
+            "height": 55
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/2nKjCfzd-LGjpGXLB3TMDg/zkx3GeRK5tYhbZjBex036VY-Jd-fDOR3-OA2rnwlRU9VvlBKkKYu_L3xOC4nOdZTp_3ymNQb-5eb2YYOb1B2balQ08AaP8_i7NfKFqmH4uz5a8i-qylfLk3LXKCBBNSR-3tjBjH4_7mr_BI-13Q92Q/xQ7XHlR0OVWoCMR8QkEGB5q6X_JfphlIglfcvlfDpXg",
+            "width": 80,
+            "height": 55
+          }
+        }
+      }
+    ]
+  },
+  {
     "fullTicker": "AIRI:USA",
     "baseTicker": "AIRI",
     "rank": 66.4736,
@@ -66,42 +102,6 @@
             "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/-P-m7xNX7COHkRJaZVTNIQ/6kY-n1rbSVJACqcGiPgeRhUoxEZUgFmtonZlQEc12CzZhdb78yWClpFzio04GYF7VNkRzwNP4VruVALRnWvD2J0su_MtIgRqWc--BzIW8WsQvxHLCjXfGovmhvWKL82bVE74Z925dWAfIOrpI-awyQ/co-S0WJn70FBlbM8m7VJfFnVNpxRKDMoexTZnHnXTLw",
             "width": 80,
             "height": 40
-          }
-        }
-      }
-    ]
-  },
-  {
-    "fullTicker": "EHC:USA",
-    "baseTicker": "EHC",
-    "rank": 82.4222,
-    "price": 117.48,
-    "prevClose": 117.02,
-    "absReturn": 0.46000000000000796,
-    "logo": [
-      {
-        "id": "attn5MN4cGSGWXNa0",
-        "width": 80,
-        "height": 41,
-        "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/1yEBGASfk4SDVxCq-yN08g/kxHVm-nlAQ7mtsltqa3_0GPn_L7JcmwB9KBzbkTuZVCbmgUN4Lt0KimsRbKUahmvEPITc24bDamRIITy_oGBcYmkbJKoQBMuTwWGADB8qW8n02MkMMNmcV6vbl7N78IiSsL40fvf5kTE68tMaE2EqcVnRyKExx2DeqpY-1H-C3gJEv0z3DfXvIGI-RabtodB/JEOvBgkjl55Of-YwIbfULp-GrHKUVEVufxMc3YdAmO4",
-        "filename": "encompass-health-co-logo.png",
-        "size": 2403,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/Vuf-zjDJHlIpXi5albT0hA/4aDSA41rhuQyibr96E3QFZvCu2xvTbdmTfvXJvYdQj_dZFwd8NQVP9_q2ELUSOv8vus8NxEo9kth3CUAWub6I5BVxMkb682wfuVfLitAQDgipCKj_qq9a1uIhV-R-xHQZlye_AvQw_WcPEOHRx9Hww/6m-rMtv82CdhzZbSa4luXaGyvb6UHBJr1jgc6UjbfLY",
-            "width": 70,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/IBtz6zhME9Nf7GKZ7YPZkQ/OV7uf8S5pqsP8A4VoejnX2lxejaS8lpi4o37SfLg0_nuNW0iMVM84ZmYGBs3QW_PTd06ehGV7upLVZrVkgbfs4EtTiCsqS4s0O0VOa4MDmnklJ_mq9p_QLRMop3f69ea9bNwSAucjw1sE-V4vvmyBg/uZ2VC8U7oxUGwSVW0gHZ0DtzrwHYZsuVy4o0EaEbaTc",
-            "width": 80,
-            "height": 41
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/40/40/1746698400000/srwWN9tnAZTzExOF5kHA2A/X6CQMbI1rjwfJCtE0EXX228LaGQdlxH23ODFZUr9DHRZBh8lo-8RBEhl8PnzuRF9Juk1Vo7id9_suPJtlsdU-NQKqvCElPmxy-x5HCUHCVb_pPObQ9d8Z80tUcU2nmBcL3tPy53OqtvElbXtaY1IlQ/I6r2E3sNrT5g7oLHGTAuGzyD2Ejz2nfJhYW1QXJhsu0",
-            "width": 80,
-            "height": 41
           }
         }
       }
