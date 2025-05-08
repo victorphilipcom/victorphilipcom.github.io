@@ -3,72 +3,81 @@
     "fullTicker": "GERN:USA",
     "baseTicker": "GERN",
     "rank": 11.1313,
-    "price": 1.27,
+    "price": 1.255,
     "prevClose": 1.31,
-    "absReturn": -0.040000000000000036,
+    "absReturn": -0.05500000000000016,
     "logo": ""
   },
   {
     "fullTicker": "TZUP:USA",
     "baseTicker": "TZUP",
     "rank": 12.9623,
-    "price": 6.25,
+    "price": 6.16,
     "prevClose": 6.18,
-    "absReturn": 0.07000000000000028,
+    "absReturn": -0.019999999999999574,
     "logo": ""
   },
   {
     "fullTicker": "GWRE:USA",
     "baseTicker": "GWRE",
     "rank": 24.2204,
-    "price": 215.36,
+    "price": 214.96,
     "prevClose": 213.15,
-    "absReturn": 2.210000000000008,
+    "absReturn": 1.8100000000000023,
     "logo": ""
   },
   {
     "fullTicker": "LKQ:USA",
     "baseTicker": "LKQ",
     "rank": 29.0972,
-    "price": 39.77,
+    "price": 39.725,
     "prevClose": 39.4,
-    "absReturn": 0.37000000000000455,
+    "absReturn": 0.32500000000000284,
     "logo": ""
   },
   {
     "fullTicker": "MT:NLD",
     "baseTicker": "MT",
     "rank": 38.4518,
-    "price": 29.84,
+    "price": 29.86,
     "prevClose": 29.9,
-    "absReturn": -0.05999999999999872,
+    "absReturn": -0.03999999999999915,
+    "logo": ""
+  },
+  {
+    "fullTicker": "RFIL:USA",
+    "baseTicker": "RFIL",
+    "rank": 80.6925,
+    "price": 3.97,
+    "prevClose": 3.97,
+    "absReturn": 0,
     "logo": ""
   },
   {
     "fullTicker": "HUM:USA",
     "baseTicker": "HUM",
     "rank": 82.9405,
-    "price": 254.305,
+    "price": 254.68,
     "prevClose": 253.12,
-    "absReturn": 1.1850000000000023,
+    "absReturn": 1.5600000000000023,
     "logo": ""
   },
   {
     "fullTicker": "APT:POL",
     "baseTicker": "APT",
     "rank": 99.2748,
-    "price": 4.48,
-    "prevClose": 4.57,
-    "absReturn": -0.08999999999999986,
+    "price": 4.56,
+    "prevClose": 4.48,
+    "absReturn": 0.07999999999999918,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 563.955,
+    "price": 562.915,
     "prevClose": 561.15,
-    "absReturn": 2.8050000000000637,
+    "absReturn": 1.7649999999999864,
     "logo": "sp500.png"
   }
 ]
