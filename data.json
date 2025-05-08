@@ -3,72 +3,72 @@
     "fullTicker": "GERN:USA",
     "baseTicker": "GERN",
     "rank": 11.1313,
-    "price": 1.275,
+    "price": 1.26,
     "prevClose": 1.31,
-    "absReturn": -0.03500000000000014,
+    "absReturn": -0.050000000000000044,
     "logo": ""
   },
   {
     "fullTicker": "TZUP:USA",
     "baseTicker": "TZUP",
     "rank": 12.9623,
-    "price": 5.98,
+    "price": 6.1,
     "prevClose": 6.18,
-    "absReturn": -0.1999999999999993,
+    "absReturn": -0.08000000000000007,
     "logo": ""
   },
   {
     "fullTicker": "GWRE:USA",
     "baseTicker": "GWRE",
     "rank": 24.2204,
-    "price": 214.68,
+    "price": 213.465,
     "prevClose": 213.15,
-    "absReturn": 1.5300000000000011,
+    "absReturn": 0.3149999999999977,
     "logo": ""
   },
   {
     "fullTicker": "LKQ:USA",
     "baseTicker": "LKQ",
     "rank": 29.0972,
-    "price": 40.1,
+    "price": 40.035,
     "prevClose": 39.4,
-    "absReturn": 0.7000000000000028,
+    "absReturn": 0.634999999999998,
     "logo": ""
   },
   {
-    "fullTicker": "MT:NLD",
-    "baseTicker": "MT",
-    "rank": 38.4518,
-    "price": 29.955,
-    "prevClose": 29.9,
-    "absReturn": 0.054999999999999716,
+    "fullTicker": "RFIL:USA",
+    "baseTicker": "RFIL",
+    "rank": 80.6925,
+    "price": 3.96,
+    "prevClose": 3.97,
+    "absReturn": -0.010000000000000231,
     "logo": ""
   },
   {
     "fullTicker": "HUM:USA",
     "baseTicker": "HUM",
     "rank": 82.9405,
-    "price": 253.5,
+    "price": 253.41,
     "prevClose": 253.12,
-    "absReturn": 0.37999999999999545,
+    "absReturn": 0.28999999999999204,
     "logo": ""
   },
   {
     "fullTicker": "APT:POL",
     "baseTicker": "APT",
     "rank": 99.2748,
-    "price": 4.55,
+    "price": 4.61,
     "prevClose": 4.48,
-    "absReturn": 0.0699999999999994,
+    "absReturn": 0.1299999999999999,
     "logo": ""
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 566.815,
+    "price": 564.955,
     "prevClose": 561.15,
-    "absReturn": 5.665000000000077,
+    "absReturn": 3.8050000000000637,
     "logo": "sp500.png"
   }
 ]
