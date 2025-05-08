@@ -18,15 +18,6 @@
     "logo": ""
   },
   {
-    "fullTicker": "GWRE:USA",
-    "baseTicker": "GWRE",
-    "rank": 24.2204,
-    "price": 213.42,
-    "prevClose": 213.15,
-    "absReturn": 0.2699999999999818,
-    "logo": ""
-  },
-  {
     "fullTicker": "LKQ:USA",
     "baseTicker": "LKQ",
     "rank": 29.0972,
@@ -42,6 +33,15 @@
     "price": 29.81,
     "prevClose": 29.9,
     "absReturn": -0.08999999999999986,
+    "logo": ""
+  },
+  {
+    "fullTicker": "RFIL:USA",
+    "baseTicker": "RFIL",
+    "rank": 80.6925,
+    "price": 3.97,
+    "prevClose": 3.97,
+    "absReturn": 0,
     "logo": ""
   },
   {
