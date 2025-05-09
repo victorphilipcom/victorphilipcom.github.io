@@ -1,5 +1,14 @@
 [
   {
+    "fullTicker": "GERN:USA",
+    "baseTicker": "GERN",
+    "rank": 11.1313,
+    "price": 1.26,
+    "prevClose": 1.31,
+    "absReturn": -0.050000000000000044,
+    "logo": ""
+  },
+  {
     "fullTicker": "TZUP:USA",
     "baseTicker": "TZUP",
     "rank": 12.9623,
@@ -33,15 +42,6 @@
     "price": 29.81,
     "prevClose": 29.9,
     "absReturn": -0.08999999999999986,
-    "logo": ""
-  },
-  {
-    "fullTicker": "RFIL:USA",
-    "baseTicker": "RFIL",
-    "rank": 80.6925,
-    "price": 3.97,
-    "prevClose": 3.97,
-    "absReturn": 0,
     "logo": ""
   },
   {
