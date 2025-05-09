@@ -27,6 +27,15 @@
     "logo": ""
   },
   {
+    "fullTicker": "LKQ:USA",
+    "baseTicker": "LKQ",
+    "rank": 29.0972,
+    "price": 40.03,
+    "prevClose": 39.4,
+    "absReturn": 0.6300000000000026,
+    "logo": ""
+  },
+  {
     "fullTicker": "MT:NLD",
     "baseTicker": "MT",
     "rank": 38.4518,
@@ -51,15 +60,6 @@
     "price": 253.35,
     "prevClose": 253.12,
     "absReturn": 0.22999999999998977,
-    "logo": ""
-  },
-  {
-    "fullTicker": "APT:POL",
-    "baseTicker": "APT",
-    "rank": 99.2748,
-    "price": 4.64,
-    "prevClose": 4.48,
-    "absReturn": 0.15999999999999925,
     "logo": ""
   },
   {
