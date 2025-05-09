@@ -1,5 +1,14 @@
 [
   {
+    "fullTicker": "GERN:USA",
+    "baseTicker": "GERN",
+    "rank": 11.1313,
+    "price": 1.26,
+    "prevClose": 1.31,
+    "absReturn": -0.050000000000000044,
+    "logo": ""
+  },
+  {
     "fullTicker": "TZUP:USA",
     "baseTicker": "TZUP",
     "rank": 12.9623,
