@@ -54,15 +54,6 @@
     "logo": ""
   },
   {
-    "fullTicker": "HUM:USA",
-    "baseTicker": "HUM",
-    "rank": 82.9405,
-    "price": 249.68,
-    "prevClose": 253.35,
-    "absReturn": -3.6699999999999875,
-    "logo": ""
-  },
-  {
     "fullTicker": "APT:POL",
     "baseTicker": "APT",
     "rank": 99.2748,
@@ -75,9 +66,9 @@
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 564.31,
+    "price": 564.18,
     "prevClose": 565.06,
-    "absReturn": -0.75,
+    "absReturn": -0.8799999999999955,
     "logo": "sp500.png"
   }
 ]
