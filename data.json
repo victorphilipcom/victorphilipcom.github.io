@@ -18,15 +18,6 @@
     "logo": ""
   },
   {
-    "fullTicker": "GWRE:USA",
-    "baseTicker": "GWRE",
-    "rank": 24.2204,
-    "price": 213.57,
-    "prevClose": 213.42,
-    "absReturn": 0.15000000000000568,
-    "logo": ""
-  },
-  {
     "fullTicker": "LKQ:USA",
     "baseTicker": "LKQ",
     "rank": 29.0972,
@@ -60,6 +51,15 @@
     "price": 249.53,
     "prevClose": 253.35,
     "absReturn": -3.819999999999993,
+    "logo": ""
+  },
+  {
+    "fullTicker": "APT:POL",
+    "baseTicker": "APT",
+    "rank": 99.2748,
+    "price": 4.68,
+    "prevClose": 4.64,
+    "absReturn": 0.040000000000000036,
     "logo": ""
   },
   {
