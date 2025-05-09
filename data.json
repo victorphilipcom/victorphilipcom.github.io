@@ -63,12 +63,21 @@
     "logo": ""
   },
   {
+    "fullTicker": "APT:POL",
+    "baseTicker": "APT",
+    "rank": 99.2748,
+    "price": 4.64,
+    "prevClose": 4.48,
+    "absReturn": 0.15999999999999925,
+    "logo": ""
+  },
+  {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
-    "price": 565.06,
-    "prevClose": 561.15,
-    "absReturn": 3.909999999999968,
+    "price": 566.5,
+    "prevClose": 565.06,
+    "absReturn": 1.4400000000000546,
     "logo": "sp500.png"
   }
 ]
