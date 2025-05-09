@@ -21,9 +21,9 @@
     "fullTicker": "GWRE:USA",
     "baseTicker": "GWRE",
     "rank": 24.2204,
-    "price": 213.58,
+    "price": 213.57,
     "prevClose": 213.42,
-    "absReturn": 0.160000000000025,
+    "absReturn": 0.15000000000000568,
     "logo": ""
   },
   {
@@ -36,21 +36,30 @@
     "logo": ""
   },
   {
+    "fullTicker": "MT:NLD",
+    "baseTicker": "MT",
+    "rank": 38.4518,
+    "price": 30.265,
+    "prevClose": 29.81,
+    "absReturn": 0.45500000000000185,
+    "logo": ""
+  },
+  {
     "fullTicker": "RFIL:USA",
     "baseTicker": "RFIL",
     "rank": 80.6925,
-    "price": 3.95,
+    "price": 3.9,
     "prevClose": 3.97,
-    "absReturn": -0.020000000000000018,
+    "absReturn": -0.07000000000000028,
     "logo": ""
   },
   {
     "fullTicker": "HUM:USA",
     "baseTicker": "HUM",
     "rank": 82.9405,
-    "price": 249.68,
+    "price": 249.53,
     "prevClose": 253.35,
-    "absReturn": -3.6699999999999875,
+    "absReturn": -3.819999999999993,
     "logo": ""
   },
   {
