@@ -27,21 +27,21 @@
     "logo": ""
   },
   {
-    "fullTicker": "LKQ:USA",
-    "baseTicker": "LKQ",
-    "rank": 29.0972,
-    "price": 40.03,
-    "prevClose": 39.4,
-    "absReturn": 0.6300000000000026,
-    "logo": ""
-  },
-  {
     "fullTicker": "MT:NLD",
     "baseTicker": "MT",
     "rank": 38.4518,
     "price": 29.81,
     "prevClose": 29.9,
     "absReturn": -0.08999999999999986,
+    "logo": ""
+  },
+  {
+    "fullTicker": "RFIL:USA",
+    "baseTicker": "RFIL",
+    "rank": 80.6925,
+    "price": 3.97,
+    "prevClose": 3.97,
+    "absReturn": 0,
     "logo": ""
   },
   {
