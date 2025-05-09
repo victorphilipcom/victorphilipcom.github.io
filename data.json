@@ -9,21 +9,21 @@
     "logo": ""
   },
   {
-    "fullTicker": "TZUP:USA",
-    "baseTicker": "TZUP",
-    "rank": 12.9623,
-    "price": 6.09,
-    "prevClose": 6.18,
-    "absReturn": -0.08999999999999986,
-    "logo": ""
-  },
-  {
     "fullTicker": "GWRE:USA",
     "baseTicker": "GWRE",
     "rank": 24.2204,
     "price": 213.42,
     "prevClose": 213.15,
     "absReturn": 0.2699999999999818,
+    "logo": ""
+  },
+  {
+    "fullTicker": "LKQ:USA",
+    "baseTicker": "LKQ",
+    "rank": 29.0972,
+    "price": 40.03,
+    "prevClose": 39.4,
+    "absReturn": 0.6300000000000026,
     "logo": ""
   },
   {
