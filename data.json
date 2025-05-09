@@ -36,6 +36,15 @@
     "logo": ""
   },
   {
+    "fullTicker": "MT:NLD",
+    "baseTicker": "MT",
+    "rank": 38.4518,
+    "price": 30.27,
+    "prevClose": 29.81,
+    "absReturn": 0.46000000000000085,
+    "logo": ""
+  },
+  {
     "fullTicker": "RFIL:USA",
     "baseTicker": "RFIL",
     "rank": 80.6925,
@@ -51,15 +60,6 @@
     "price": 249.53,
     "prevClose": 253.35,
     "absReturn": -3.819999999999993,
-    "logo": ""
-  },
-  {
-    "fullTicker": "APT:POL",
-    "baseTicker": "APT",
-    "rank": 99.2748,
-    "price": 4.68,
-    "prevClose": 4.64,
-    "absReturn": 0.040000000000000036,
     "logo": ""
   },
   {
