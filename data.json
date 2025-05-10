@@ -9,15 +9,6 @@
     "logo": ""
   },
   {
-    "fullTicker": "TZUP:USA",
-    "baseTicker": "TZUP",
-    "rank": 12.9623,
-    "price": 6.13,
-    "prevClose": 6.09,
-    "absReturn": 0.040000000000000036,
-    "logo": ""
-  },
-  {
     "fullTicker": "GWRE:USA",
     "baseTicker": "GWRE",
     "rank": 24.2204,
@@ -60,6 +51,15 @@
     "price": 249.53,
     "prevClose": 253.35,
     "absReturn": -3.819999999999993,
+    "logo": ""
+  },
+  {
+    "fullTicker": "APT:POL",
+    "baseTicker": "APT",
+    "rank": 99.2748,
+    "price": 4.68,
+    "prevClose": 4.64,
+    "absReturn": 0.040000000000000036,
     "logo": ""
   },
   {
