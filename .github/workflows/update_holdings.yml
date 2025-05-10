@@ -24,7 +24,7 @@ jobs:
           echo "Fetching RankingsTotal from Airtable..."
           curl -sSL -D headers_rankings.txt \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tbl4Hy2kVNE16r5Ws?maxRecords=11&fields[]=Ticker&fields[]=Rank&fields[]=Logo%20(From%20Logos)" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tbl4Hy2kVNE16r5Ws?maxRecords=11&fields[]=Ticker&fields[]=Rank&fields[]=Logo%20(From%20Logo)" \
             -o rankingsRaw.json
           echo "HTTP headers for RankingsTotal:"
           cat headers_rankings.txt
