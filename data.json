@@ -6,7 +6,7 @@
     "price": 29.21,
     "prevClose": 29.39,
     "absReturn": -0.17999999999999972,
-    "logo": ""
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/i9vT-yJT-TGjx9xRS0FDUQ/1vKRUzTaFU9CVNbXdgZZ_xv0FcYO5nIwtC6L2ZW_K_MI-MpO8xxLkCHAiAPu6zNoit9p6jcJyn2bVuwdx50pBALsacoG0nrYeL0TcqDnnhwqTts4lnpA2BLpgRmGY5gTs_2ZQkX--S2plncGnskUvYwW3uDtCZo9YC19CmGyuwlanC88V8O6cZyhPsW7RnYQ/hhfQyheviSu0f5oJFPZrVeNggjVhmWx0mVtoamB8cjw"
   },
   {
     "fullTicker": "IREN:CHE",
@@ -15,7 +15,7 @@
     "price": 7.04,
     "prevClose": 6.89,
     "absReturn": 0.15000000000000036,
-    "logo": ""
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/rJ0OT-XNu7Tbkg3iTepxyw/V3oaqgta33V23ttcfjujPzd8oRHeCNV0FZLVYABrn59lC8NAgdlzEWHcmFG4-Ay5YS-bHXuDMGDIVtwWTkSZwenn3WPCgSCWbS_miXQt6QYaeEL03f9_4mhlPZVu5_OsYMT8MA8qQ91kICy8JKVFfWjLbcqB38EKNwYgBjut3Gw/4CKRw8qpqw0sdS2eMRjgQKL34ihnsrMy2NseJu4Zz_Y"
   },
   {
     "fullTicker": "HLX:USA",
@@ -24,16 +24,7 @@
     "price": 6.54,
     "prevClose": 6.71,
     "absReturn": -0.16999999999999993,
-    "logo": ""
-  },
-  {
-    "fullTicker": "CRMT:USA",
-    "baseTicker": "CRMT",
-    "rank": 40.2974,
-    "price": 49.29,
-    "prevClose": 49.61,
-    "absReturn": -0.3200000000000003,
-    "logo": ""
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/BC2jC5hebj7cn5Lms1X7MQ/jPVp26jVt0HRAsQc1xE7FuPWyln9ff7JzlQm-rDkz5s1Pr-tateZ2H5GQwG3R6lR4-1-Et40FgMaz8n0n8HetDsa529OrJIDDPFKMkltw5UV24zSm53iZr9xrZkq0bPxF6eyAuQ6AXg33HT9WL7KU2sGBq9A32IPKRBGppv3w5JG3XMQ87ufJWZXfY-s3L7uvmE_ZYz0owWAGmzJycRpAA/oZZg2M6Qisy0Dp-eycLEAD-5EoXvQo7PVm76r9NCye4"
   },
   {
     "fullTicker": "CHH:USA",
@@ -42,7 +33,7 @@
     "price": 123.67,
     "prevClose": 121.26,
     "absReturn": 2.4099999999999966,
-    "logo": ""
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/deKr7hw3hDZ98lQRv-wW-A/t54v6fxyWdAJVDLi9KvK8cqlZG5-DDM8DKW5hcExyAfRJApP05X07iDu1yI8WS5QVzokffvmsd2qG4V6DTxCYUhtZn2eTFN90RiEfFQza7aLnRfAoWOczuqxZBxOdS5zVAiNuB_e1hxDZ4nxdyBsN405xX2h-4GIX7NsZ14xpXP_U4wxm95jgem1V_a-JSdcxxvGhrXpNk8tmJJ4BRwaQQ/EbJcNNYE2Ojn9XJ0o9JfGsCU1_-y-LwCItykT9ZBIXQ"
   },
   {
     "fullTicker": "DTM:USA",
@@ -51,7 +42,7 @@
     "price": 101.24,
     "prevClose": 100.1,
     "absReturn": 1.1400000000000006,
-    "logo": ""
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/RLqxwnVfhqfD-N2HMJlc6g/80mhHZ-qiYTlfcr3bP_LRHf0SIPzs9vS9QMgvlsRU5REQ3KD6OTJ8aRBSApocVlzT3JRdX5Lxldq5xkBFiVmcgYRccoBONVBCCQN4VzkiHaxEGJOlAdX8ESvRatS8oLoClcWEMH2IUjxmR9E7LpqNjHOcYRD_NRre0jzcMd13L2ueCz5MehbI_3zpvPJRIi-/znOITjGfk9HsazI5JyA9rdQrhTAgK_JCBaZ22AS4J0o"
   },
   {
     "fullTicker": "MGEE:USA",
@@ -60,7 +51,7 @@
     "price": 91.08,
     "prevClose": 90.31,
     "absReturn": 0.769999999999996,
-    "logo": ""
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/SF3PHHycNAUksxlWKPD_3A/2XBL2pAk-iKen7zoKHTNcZMB-ce23y9yIREu8yCVZ4ZPFc3kL5wRuBPJIZfqpgW7EY6XZKFTfBfK3knKj6CSEUYgQw8izgVy0FDjjsmfuVf-ATabOyLlTQZCMlckQPioTHfYtRFRMePfkW75SFQX8quRXFK2-Zr4x9wTY-rW7Ftqyl1Qt4Ozw27XEO4LEmSe/qpOcJ4ke3piVrdl03KPeY6N4n31RiF4czarMhh6pQXY"
   },
   {
     "fullTicker": "SPY",
