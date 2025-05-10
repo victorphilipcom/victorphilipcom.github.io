@@ -1,61 +1,143 @@
-      - name: Fetch & paginate Rankings_sample from Airtable
+name: "Update Holdings & Quotes from Sample"
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq nodejs npm
+
+      - name: Fetch Rankings_sample from Airtable
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          set -euo pipefail
+          echo "Fetching sample records from Airtable (all fields)..."
+          curl -sSL -D headers_sample.txt \
+            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblBvqS8O86NVAHkK?view=viwvLWdihqsICFTmv" \
+            -o sampleRaw.json
+          echo "HTTP headers for sample fetch:"
+          cat headers_sample.txt
+          echo "===== sampleRaw.json ====="
+          cat sampleRaw.json
 
-          BASE_URL="https://api.airtable.com/v0/appZEmpmx9gs4yATK/tblBvqS8O86NVAHkK"
-          VIEW_ID="viwvLWdihqsICFTmv"
-          FIELDS=(
-            "fields[]=Ticker"
-            "fields[]=Rank%20(from%20Rank)"
-            "fields[]=Description%20(from%20Descriptions)%20(from%20Rank)"
-            "fields[]=Logo%20(from%20Logo)%20(from%20Rank)"
-          )
-
-          # start with empty array
-          echo '{"records":[]}' > sampleRaw.json
-
-          OFFSET=""
-          while :; do
-            # build URL (include offset if present)
-            URL="${BASE_URL}?view=${VIEW_ID}&${FIELDS[*]}"
-            if [ -n "$OFFSET" ]; then
-              URL="${URL}&offset=${OFFSET}"
-            fi
-
-            # fetch a page
-            curl -sSL \
-              -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-              "$URL" > page.json
-
-            # extract new offset
-            OFFSET=$(jq -r '.offset // ""' page.json)
-
-            # merge this page's records into sampleRaw.json
-            jq -s '{
-               records: (.[0].records + .[1].records)
-            }' sampleRaw.json page.json > merged.json
-
-            mv merged.json sampleRaw.json
-
-            # break if no more pages
-            if [ -z "$OFFSET" ]; then
-              break
-            fi
-          done
-
-          echo "==== all pages combined ===="
-          jq '.records | length as $n | "total records: \($n)", .records' sampleRaw.json
+      - name: Verify sampleRaw.json
+        run: |
+          if ! jq -e '.records' sampleRaw.json >/dev/null; then
+            echo "Error: sampleRaw.json does not contain a 'records' field."
+            cat sampleRaw.json
+            exit 1
+          fi
 
       - name: Flatten sample data
         run: |
           jq '.records | map({
             Ticker:      .fields.Ticker,
-            Rank:        (.fields["Rank (from Rank)"][0] // ""),
-            Description: (.fields["Description (from Descriptions) (from Rank)"][0] // ""),
-            Logo:        (.fields["Logo (from Logo) (from Rank)"][0]?.url // "")
+            Rank:        ((.fields["Rank (from Rank)"] // []) | .[0] // ""),
+            Description: ((.fields["Description (from Descriptions) (from Rank)"] // []) | .[0] // ""),
+            Logo:        ((.fields["Logo (from Logo) (from Rank)"] // []) | .[0]?.url // "")
           })' sampleRaw.json > sampleClean.json
-
           echo "===== sampleClean.json ====="
           cat sampleClean.json
+
+      - name: Prepare Ticker List (sample + SPY)
+        run: |
+          cat <<'EOF' > buildTickers.js
+          const fs = require('fs');
+          let sample = JSON.parse(fs.readFileSync('sampleClean.json','utf8'));
+          let tickers = sample.map(r => r.Ticker.split(':')[0]);
+          tickers.push("SPY");
+          fs.writeFileSync('tiingoTickers.txt', tickers.join(','), 'utf8');
+          EOF
+          node buildTickers.js
+          echo "==== TICKERS FOR TIINGO ===="
+          cat tiingoTickers.txt
+
+      - name: Fetch from Tiingo
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+        run: |
+          TICKERS=$(cat tiingoTickers.txt)
+          echo "Fetching Tiingo quotes for: $TICKERS"
+          curl -sSL "https://api.tiingo.com/iex/?tickers=$TICKERS&token=${TIINGO_API_KEY}" \
+            -o tiingoRaw.json
+          echo "===== tiingoRaw.json ====="
+          cat tiingoRaw.json
+
+      - name: Merge sample + Tiingo → data.json
+        run: |
+          cat <<'EOF' > merge.js
+          const fs = require('fs');
+
+          function stripCountry(t) { return t.split(':')[0]; }
+
+          let sample     = JSON.parse(fs.readFileSync('sampleClean.json','utf8'));
+          let tiingoRaw  = JSON.parse(fs.readFileSync('tiingoRaw.json','utf8'));
+
+          // build Tiingo map
+          let tiingoMap = {};
+          tiingoRaw.forEach(item => {
+            const price = item.last != null ? item.last : item.tngoLast;
+            const prev  = item.prevClose || 0;
+            tiingoMap[item.ticker] = { price, prevClose: prev, absReturn: price - prev };
+          });
+
+          // merge
+          let merged = sample
+            .map(r => {
+              let base = stripCountry(r.Ticker);
+              let info = tiingoMap[base] || {};
+              return {
+                fullTicker:  r.Ticker,
+                baseTicker:  base,
+                rank:        parseFloat(r.Rank) || "",
+                description: r.Description,
+                logo:        r.Logo,
+                price:       info.price || 0,
+                prevClose:   info.prevClose || 0,
+                absReturn:   info.absReturn || 0
+              };
+            })
+            .filter(x => x.price > 0);
+
+          // add SPY
+          let spy = tiingoMap['SPY'] || {};
+          merged.push({
+            fullTicker:  'SPY',
+            baseTicker:  'SPY',
+            rank:        "",
+            description: "",
+            logo:        'sp500.png',
+            price:       spy.price || 0,
+            prevClose:   spy.prevClose || 0,
+            absReturn:   spy.absReturn || 0
+          });
+
+          // sort (SPY last)
+          merged.sort((a,b) => a.baseTicker==='SPY'?1:b.baseTicker==='SPY'?-1:a.rank-b.rank);
+
+          fs.writeFileSync('data.json', JSON.stringify(merged, null, 2), 'utf8');
+          console.log('Final data =>', merged);
+          EOF
+
+          node merge.js
+          echo "===== FINAL data.json ====="
+          cat data.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "Update sample-based ticker selection" || exit 0
+          git push origin HEAD:main
