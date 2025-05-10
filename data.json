@@ -1,65 +1,102 @@
 [
   {
-    "fullTicker": "IREN:CHE",
-    "baseTicker": "IREN",
-    "rank": 36.6522,
-    "price": 7.04,
-    "prevClose": 6.89,
-    "absReturn": 0.15000000000000036,
-    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/rJ0OT-XNu7Tbkg3iTepxyw/V3oaqgta33V23ttcfjujPzd8oRHeCNV0FZLVYABrn59lC8NAgdlzEWHcmFG4-Ay5YS-bHXuDMGDIVtwWTkSZwenn3WPCgSCWbS_miXQt6QYaeEL03f9_4mhlPZVu5_OsYMT8MA8qQ91kICy8JKVFfWjLbcqB38EKNwYgBjut3Gw/4CKRw8qpqw0sdS2eMRjgQKL34ihnsrMy2NseJu4Zz_Y"
+    "fullTicker": "SNDX:USA",
+    "baseTicker": "SNDX",
+    "rank": 5.3682,
+    "description": "Syndax Pharmaceuticals, Inc., a commercial-stage biopharmaceutical company, develops therapies for the treatment of cancer. Its lead product candidates are Revuforj, a menin inhibitor, which has completed phase 2 clinical trial for the treatment of relapsed or refractory and acute leukemia. The company is revumenib for R/R mNPM1 AML and studying the use of revumenib in combination with standard-of-care agents in mNPM1 AML or KMT2Ar acute leukemia across the treatment landscape, including in newly diagnosed patients. It also developing  Niktimvo, a colony stimulating factor-1 receptor, blocking antibody, which is in phase 2 clinical trial for the treatment of chronic graft-versus-host disease. The company is also developing Entinostat. It has an agreement with Eddingpharm International Company Limited for licensing, development, and commercialization of Entinostat. Syndax Pharmaceuticals, Inc. was incorporated in 2005 and is headquartered in Waltham, Massachusetts.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/27sIwbjoAEaTF7cgrT0iXQ/0O8F7fnZTJxAR8tDeVvpvbaMB8e2VCtAqRyFxmIozYpj9ICsT1DxAw3fajc91EpSkvDTWWMQsBvH8Lb1MYkoKn6zlRmyjr3WGE6Ik66b1p36QVF0Vxo0zS9kMANjvDxkHW2-lSe3U6kXRWEzO91f-A3edraQ_BQ4Y-PmRAGAkyzEOrUJrg1C21eKIcPtsuyO/jRqlAeJ4BH-jGGNSfY-acSg5RjqAaFLyPT-cDW1v_a4",
+    "price": 10.7,
+    "prevClose": 11.01,
+    "absReturn": -0.3100000000000005
   },
   {
-    "fullTicker": "HLX:USA",
-    "baseTicker": "HLX",
-    "rank": 38.3025,
-    "price": 6.54,
-    "prevClose": 6.71,
-    "absReturn": -0.16999999999999993,
-    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/BC2jC5hebj7cn5Lms1X7MQ/jPVp26jVt0HRAsQc1xE7FuPWyln9ff7JzlQm-rDkz5s1Pr-tateZ2H5GQwG3R6lR4-1-Et40FgMaz8n0n8HetDsa529OrJIDDPFKMkltw5UV24zSm53iZr9xrZkq0bPxF6eyAuQ6AXg33HT9WL7KU2sGBq9A32IPKRBGppv3w5JG3XMQ87ufJWZXfY-s3L7uvmE_ZYz0owWAGmzJycRpAA/oZZg2M6Qisy0Dp-eycLEAD-5EoXvQo7PVm76r9NCye4"
+    "fullTicker": "SOAR:USA",
+    "baseTicker": "SOAR",
+    "rank": 14.3634,
+    "description": "Volato Group, Inc. operates as a private aviation company. It offers fractional ownership, aircraft management, jet cards, deposit, and charter programs. As of December 31, 2023, the company operated a fleet of 24 HondaJets and a managed fleet of 6 aircraft. Volato Group, Inc. was founded in 2021 and is based in Chamblee, Georgia.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/LcMYN7ONi6kuWkzTSNaZ8A/rgtXqxVgAdhNQl4hMMNhzCTBfU5jEI1jslgei7r0dKLOHWZS26op8sFylbeChNHuBlx-EW23rltQEwlg8V3-i-KNJ9Fc8hwX1HSJ2cpMRYhOqH8nLqfK-E-igrj2wpBZfJnedAyYaRPB91E81CM6Oc0zA67ZfqKYIlSlN7eq5IOdG1EU0QdBcX1X6-y_tCSC/td5vK0xgMt_jSVr6_Ut4sz10TEf0oA8lrJZfG-naxKE",
+    "price": 2.28,
+    "prevClose": 2.26,
+    "absReturn": 0.020000000000000018
   },
   {
-    "fullTicker": "CRMT:USA",
-    "baseTicker": "CRMT",
-    "rank": 40.2974,
-    "price": 49.29,
-    "prevClose": 49.61,
-    "absReturn": -0.3200000000000003,
-    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/kTBfUGRyYdJrF_D1t4Sspg/HOjOjHtaNVKscFAAWg99i-XBHSUQGfLDZQvo-2pw3Kj2kOxOe2BElf2TKwawhLvZzJTXoAWh4OCnIP4kLkewHyquStFXIQT3_5R1F7GRsDTl7MTq0cqRHjkOclxpmfXzTMoJohjPIQpiww5PFAKH9SK1k-BGz9FtPqNcqXrH70_HTYI02kZhGsTt-8wDGdVT/ELNv7o3bpnkLxSqDtmYeihIWnkAv52tXzPgP9Tczx-k"
+    "fullTicker": "WALD:USA",
+    "baseTicker": "WALD",
+    "rank": 29.2347,
+    "description": "Waldencast plc operates in the beauty and wellness industry in the United States, Canada, Europe, the Middle East, India, Australia, and New Zealand. The company operates through two segments, Obagi Medical and Milk Makeup. It offers skin care products to minimize signs of skin aging, address dark spots, hyperpigmentation, fine lines and wrinkles, and protect and enhance skin tone and texture; cosmetics; and other beauty products. In addition, the company provides foundation, concealer, primer, blush, setting spray, and bronzer categories, as well as sells liner, eyeshadow, and lip color products. It serves distributors, retailers, physicians, and directly to consumers through its e-commerce platforms, and third-party logistics and delivery providers. The company was incorporated in 2020 and is headquartered in White Plains, New York.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/7VFcG9FegJUX5CJNzmXAXA/BpTa6EwPLa-Puk96A8Bgr3yWZKcvonqUnrbrGNXvhC48ywsOtR3iwgNsA-109nSVYgQJqjlnIGLnst0M3IerbRM1-4MdJ00gTzDURZjfiuUqAjTCXI-0DaPPScQWDNoQPKL26iarqu-GCDda4MZUxcAM7M0X_FRTZbNgrCkz684/8oMSnwyq0Rxh8F77iP67I0RKG_P66-9-hU3G83aIl-Y",
+    "price": 2.82,
+    "prevClose": 2.7,
+    "absReturn": 0.11999999999999966
   },
   {
-    "fullTicker": "CHH:USA",
+    "fullTicker": "DLTH:USA",
+    "baseTicker": "DLTH",
+    "rank": 34.6391,
+    "description": "Duluth Holdings Inc. sells casual wear, workwear, outdoor apparel, and accessories for men and women under the Duluth Trading brand in the United States. It provides shirts, pants, shorts, underwear, outerwear, footwear, accessories, and hard goods. The company offers its products under various trademarks, trade names, and service marks, including Alaskan Hardgear, Armachillo, Ballroom, Bullpen, Cab Commander, Crouch Gusset, Dang Soft, Dry on the Fly, Duluth Trading Co, Duluthflex, Fire Hose, Flexpedition, Longtail T, NoGA, No Polo Shirt, No Yank, Wild Boar, Spit & Polish, and Buck Naked. It markets its products through its website, catalogs, customer contact centers, and stores. The company was formerly known as GEMPLER'S, Inc. Duluth Holdings Inc. was founded in 1989 and is headquartered in Mount Horeb, Wisconsin.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/oXurCxOzBQnf1gyT0T77Wg/6pG0VUw7FSefqCSJIweTRXvbivIQ6NU_nsWXLcE1AwCNCNFWcRXNAVImF8AVrZEX9UZlNro8igdHnTCd43Xg6HF75yiQJ7Qkp8g1O05LQ8RxOlWXe32irmxyb8gvTduu5bw4pH0AkHjkZe4RKUl9edhZ8-gT6-aLMZpoDQizvVecMUBzJl-dlGgWGwLvvG7E/A3QR_orsb1OfWMN6xNTPey7EBQHFwTtd6gXXw9xXDXI",
+    "price": 1.88,
+    "prevClose": 1.95,
+    "absReturn": -0.07000000000000006
+  },
+  {
+    "fullTicker": "GMGI:USA",
+    "baseTicker": "GMGI",
+    "rank": 48.9663,
+    "description": "Golden Matrix Group, Inc. operates as an B2B and B2C gaming technology company in Central and South America, Europe, and Africa. It develops and licenses gaming platforms; and provides online sports betting and casino, and gaming services. The company is based in Las Vegas, Nevada.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/cmxNcoBkgL13xdbeLAzAKQ/fdbiqMfPh5SoB6phNbRlP7_e_ISmVW8uUzoTGvxrNpcR80jrOa17G-D9AcAS5lK7DoxdGad8bYjtCWYpsxb19baKDylpPhpAqzlFdO5hhMpc3HEV5UtwYHrA-FA27s-Bo75F2UZdKhs-qcdIKjZi4i1smPrcOqVjdcFfoSfesTuwGY2CE1CrytoRP6jRJF4U/MONqyczUlFE39WFyrreVzqEjfgEv4zB1qbgSpakIM0s",
+    "price": 1.72,
+    "prevClose": 1.79,
+    "absReturn": -0.07000000000000006
+  },
+  {
+    "fullTicker": "CHH:GBR",
     "baseTicker": "CHH",
-    "rank": 49.0569,
+    "rank": 54.1531,
+    "description": "Churchill China plc manufactures and sells ceramic and related products in the United Kingdom, rest of Europe, the United States, and internationally. The company provides plates, bowls, trays and boards, crates and carriers, stands and risers, cookware, counter serving ware, cups, mugs, saucers, beverage pots, jugs, chip mugs, dip pots and sauce dishes, lids, glassware, cutlery, utensils, and accessories, as well as raw materials for the ceramics industry. It offers its products to pubs and restaurants. Churchill China plc was founded in 1795 and is headquartered in Stoke-on-Trent, the United Kingdom.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/ekGvxyVWAHfH-KjWqqdWxg/tBqldSatrbtYSTEibbjsMUaW--Sgw4hAZoS792mRFLkP2lPnS7C2lra386T9p4j2I1M4_LCHhekp9MPkrkq5IQIOZvHIYlqp2pRfDPWk_U3gsRvDsQMIMQTf1Djb8KihxPfLSw3FaV06jb86m57fjm7qZM6l8kBiw0qsHxP22Yg/51LaUaF6fXDxKnGKoZtkF48htnC14CPl5ZMV4hKgrEk",
     "price": 123.67,
     "prevClose": 121.26,
-    "absReturn": 2.4099999999999966,
-    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/deKr7hw3hDZ98lQRv-wW-A/t54v6fxyWdAJVDLi9KvK8cqlZG5-DDM8DKW5hcExyAfRJApP05X07iDu1yI8WS5QVzokffvmsd2qG4V6DTxCYUhtZn2eTFN90RiEfFQza7aLnRfAoWOczuqxZBxOdS5zVAiNuB_e1hxDZ4nxdyBsN405xX2h-4GIX7NsZ14xpXP_U4wxm95jgem1V_a-JSdcxxvGhrXpNk8tmJJ4BRwaQQ/EbJcNNYE2Ojn9XJ0o9JfGsCU1_-y-LwCItykT9ZBIXQ"
+    "absReturn": 2.4099999999999966
   },
   {
-    "fullTicker": "DTM:USA",
-    "baseTicker": "DTM",
-    "rank": 57.8527,
-    "price": 101.24,
-    "prevClose": 100.1,
-    "absReturn": 1.1400000000000006,
-    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/RLqxwnVfhqfD-N2HMJlc6g/80mhHZ-qiYTlfcr3bP_LRHf0SIPzs9vS9QMgvlsRU5REQ3KD6OTJ8aRBSApocVlzT3JRdX5Lxldq5xkBFiVmcgYRccoBONVBCCQN4VzkiHaxEGJOlAdX8ESvRatS8oLoClcWEMH2IUjxmR9E7LpqNjHOcYRD_NRre0jzcMd13L2ueCz5MehbI_3zpvPJRIi-/znOITjGfk9HsazI5JyA9rdQrhTAgK_JCBaZ22AS4J0o"
+    "fullTicker": "MRC:CAN",
+    "baseTicker": "MRC",
+    "rank": 66.9206,
+    "description": "Morguard Corporation, a real estate investment and management company, engages in property ownership, development, and investment advisory services in Canada and the United States. It operates in four segments: Multi-Suite Residential, Retail, Office, and Hotel. The company offers real estate management and advisory services, including acquisitions, development, dispositions, leasing, performance measurement, and asset and property management; and investment products across equity, fixed income, and balanced portfolios to institutional clients and private investors. It also acquires, develops, and owns a portfolio of multi-suite residential, commercial, retail, office, industrial, and hotel properties. The company was formerly known as Acktion Corporation and changed its name to Morguard Corporation in June 2002. The company was incorporated in 2024 and is headquartered in Mississauga, Canada. Morguard Corporation operates as a subsidiary of Paros Enterprises Limited.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/ySTuwPTf-09bHtQexfSI_g/-L2SjQny4gNwX1tODLGi_4m1a7HjPHuiUUg31A2n6nc2-WQS-9yW50TBjgt6vH2fe4Q9LQp1OLvNEWdrbi-QRAfw5xX1jzRcI6ao4idpgU7Ndu5U2WU2nOCIdkYg3jnht2LXgp00B2PfkzI8RQxl3lxRHoNc_6EiCZI-R4SQffg/FlYQAv7c4qFGA7woBnjaW7qwK9fTBS8yejLtfZ2dogU",
+    "price": 12.25,
+    "prevClose": 12.35,
+    "absReturn": -0.09999999999999964
   },
   {
-    "fullTicker": "MGEE:USA",
-    "baseTicker": "MGEE",
-    "rank": 73.2499,
-    "price": 91.08,
-    "prevClose": 90.31,
-    "absReturn": 0.769999999999996,
-    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/SF3PHHycNAUksxlWKPD_3A/2XBL2pAk-iKen7zoKHTNcZMB-ce23y9yIREu8yCVZ4ZPFc3kL5wRuBPJIZfqpgW7EY6XZKFTfBfK3knKj6CSEUYgQw8izgVy0FDjjsmfuVf-ATabOyLlTQZCMlckQPioTHfYtRFRMePfkW75SFQX8quRXFK2-Zr4x9wTY-rW7Ftqyl1Qt4Ozw27XEO4LEmSe/qpOcJ4ke3piVrdl03KPeY6N4n31RiF4czarMhh6pQXY"
+    "fullTicker": "JOE:USA",
+    "baseTicker": "JOE",
+    "rank": 78.1284,
+    "description": "The St. Joe Company, together with its subsidiaries, operates as a real estate development, asset management, and operating company in the United States. It operates through three segments: Residential, Hospitality, and Commercial. The Residential segment engages in the development of communities into homesites for sale to homebuilders and on a limited basis to retail customers. This segment primarily sells developed homesites, completed homes, parcels of entitled or undeveloped land or homesites, and a homesite residual on homebuilder, as well as offers title insurance and marketing services. Its Hospitality segment owns and operates a private membership club, golf courses, beach clubs, retail outlets, marinas, and other entertainment assets. This segment also engages in the hotel, food and beverage, and gulf-front vacation rental operations, as well as provides management services. The Commercial segment engages in leasing of commercial property, multi-family, a senior living community, and other assets. This segment also involved in the planning, development, entitlement, management, and sale of commercial and rural land holdings for retail, office, hotel, senior living, multi-family, self-storage, and industrial uses; and grows and sells pulpwood, sawtimber, and other forest products. The St. Joe Company was incorporated in 1936 and is based in Panama City Beach, Florida.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/jqi1JgNPTgFRE8yZ5J0Wxw/3xWqeNMa5_TaPgaSccmDgn2lUVJmZ4ihAOwuxkGHMsbjBfxrJJe4jcdtF4ASdIpa6lGgbJM_SVqU7yCKbMeS6SHisUgY_C0gdHnCrb1O8YCrxbcgDYMKGCJuYKlk79_tgBoIL4JdHM3h8_XM_wOqiKuY2eCsX70QZ77fBbzF8rWNNEcTG3ZaMmsbj0vLeJaz/wFSCDte4KTfSaCQxfdpxh5YRJaYo6HufYD853YdvIG8",
+    "price": 44.45,
+    "prevClose": 44.45,
+    "absReturn": 0
+  },
+  {
+    "fullTicker": "GLXZ:USA",
+    "baseTicker": "GLXZ",
+    "rank": 82.3177,
+    "description": "Galaxy Gaming, Inc., a gaming company, designs, develops, acquires, assembles, markets, and licenses proprietary casino table games and associated technology, platforms, and systems for the casino gaming industry. The company's proprietary table games comprise side bets, which are proprietary features and wagering options added to public domain games, such as baccarat, pai gow poker, craps, and blackjack table games under the Lucky Ladies, 21+3, Bonus Craps, and EZ Baccarat titles; and premium games, which are stand-alone games with their own set of rules and strategies under the Heads Up Hold 'em, High Card Flush, Cajun Stud, and Three Card Poker names. It also provides enhanced table systems, which include Bonus Jackpot System, an electronic system installed on gaming tables designed to collect data by detecting player wagers and other game activities. In addition, the company offers automated electronic tables and other ancillary equipment, as well as relicenses various game titles to operators of online gaming systems. It markets its products to online casinos worldwide; land-based casino gaming companies in North America, the Caribbean, Central America, the United Kingdom, Europe, and Africa; and cruise ship companies. The company was founded in 2006 and is headquartered in Las Vegas, Nevada.",
+    "logo": "https://v5.airtableusercontent.com/v3/u/40/40/1746892800000/dIrhnkY_b-pJg5ZUZvzidw/gkoeyRI0Zpq7hLbqk4QlBwIok9VMwA3ewU6qrrvyslrVF-3tFhmHLBPA91EGj5dXcIS7p3ZqEAJ2r1lyRZfLLFvUL5mkBm3ot2GtCc0RuWbBATWQN05KcJiBbGy3gCrphlwSYX_mLU3Y7Qq7DG4qZQ-TNY3FwsAX5TaVuRu_ojKeLC4UQew1E1ND7KkUL7Y2/jj-96YJwRC_BxKNZWIbcKwrCRQTDF4Xhf6UxlslA2Vo",
+    "price": 2.79,
+    "prevClose": 2.81,
+    "absReturn": -0.020000000000000018
   },
   {
     "fullTicker": "SPY",
     "baseTicker": "SPY",
     "rank": "",
+    "description": "",
+    "logo": "sp500.png",
     "price": 564.34,
     "prevClose": 565.06,
-    "absReturn": -0.7199999999999136,
-    "logo": "sp500.png"
+    "absReturn": -0.7199999999999136
   }
 ]
