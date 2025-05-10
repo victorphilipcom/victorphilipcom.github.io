@@ -9,6 +9,15 @@
     "logo": ""
   },
   {
+    "fullTicker": "TZUP:USA",
+    "baseTicker": "TZUP",
+    "rank": 12.9623,
+    "price": 6.13,
+    "prevClose": 6.09,
+    "absReturn": 0.040000000000000036,
+    "logo": ""
+  },
+  {
     "fullTicker": "GWRE:USA",
     "baseTicker": "GWRE",
     "rank": 24.2204,
@@ -24,15 +33,6 @@
     "price": 40.1,
     "prevClose": 40.03,
     "absReturn": 0.07000000000000028,
-    "logo": ""
-  },
-  {
-    "fullTicker": "MT:NLD",
-    "baseTicker": "MT",
-    "rank": 38.4518,
-    "price": 30.27,
-    "prevClose": 29.81,
-    "absReturn": 0.46000000000000085,
     "logo": ""
   },
   {
