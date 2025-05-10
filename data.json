@@ -18,21 +18,21 @@
     "logo": ""
   },
   {
-    "fullTicker": "GWRE:USA",
-    "baseTicker": "GWRE",
-    "rank": 24.2204,
-    "price": 213.57,
-    "prevClose": 213.42,
-    "absReturn": 0.15000000000000568,
-    "logo": ""
-  },
-  {
     "fullTicker": "LKQ:USA",
     "baseTicker": "LKQ",
     "rank": 29.0972,
     "price": 40.1,
     "prevClose": 40.03,
     "absReturn": 0.07000000000000028,
+    "logo": ""
+  },
+  {
+    "fullTicker": "MT:NLD",
+    "baseTicker": "MT",
+    "rank": 38.4518,
+    "price": 30.27,
+    "prevClose": 29.81,
+    "absReturn": 0.46000000000000085,
     "logo": ""
   },
   {
