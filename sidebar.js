@@ -91,7 +91,7 @@
       <div class="rank"></div>
       <p class="description"></p>
       <p class="custom-description"></p>
-      <a id="more-link" href="https://victorphilip.com/Ranking"
+      <a id="more-link" href="https://rankeq.com/Ranking"
          class="cta-button" target="_top" rel="noopener noreferrer">
         Unlock Full Rank Analysis
       </a>
