@@ -1,5 +1,14 @@
 [
   {
+    "fullTicker": "GERN:USA",
+    "baseTicker": "GERN",
+    "rank": 11.1313,
+    "price": 1.18,
+    "prevClose": 1.26,
+    "absReturn": -0.08000000000000007,
+    "logo": ""
+  },
+  {
     "fullTicker": "TZUP:USA",
     "baseTicker": "TZUP",
     "rank": 12.9623,
@@ -42,15 +51,6 @@
     "price": 3.9,
     "prevClose": 3.97,
     "absReturn": -0.07000000000000028,
-    "logo": ""
-  },
-  {
-    "fullTicker": "HUM:USA",
-    "baseTicker": "HUM",
-    "rank": 82.9405,
-    "price": 249.53,
-    "prevClose": 253.35,
-    "absReturn": -3.819999999999993,
     "logo": ""
   },
   {
