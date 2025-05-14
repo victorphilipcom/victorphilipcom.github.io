@@ -5,9 +5,9 @@
     "rank": 1.5959,
     "description": "NET Power Inc. operates as an energy technology company in the United States. Its technology includes NET Power Cycle, a power generation system that produces electricity from natural gas while capturing atmospheric emissions. The company was founded in 2010 and is headquartered in Durham, North Carolina.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1747267200000/qv9sTCUwh88c3xp0dBhxRg/2_guAADIfpELMqEhcH5LQvIDEuR5C2bZi3w8SCEBfsUI98E7Ot9JmZ6Y4s-vmhjARDtxI2bK9hfHaRN5t_YnIdQKEtrvW-OCJFRbZ5VaIDMKixkY_Xn7B66xpenVJILgaG12TK6irhyRQ9iY2tQ6WxKhV8L3JRxj0QKRgJ4gans/tJZCobbg5osxdNsAAxdyYG0BWLILNr0g8Y0K0h5roEY",
-    "price": 1.795,
+    "price": 1.8,
     "prevClose": 1.93,
-    "absReturn": -0.135
+    "absReturn": -0.1299999999999999
   },
   {
     "fullTicker": "NVVE:USA",
@@ -15,9 +15,9 @@
     "rank": 11.9877,
     "description": "Nuvve Holding Corp., a green energy technology company, provides commercial vehicle-to-grid (V2G) technology platform in the United States, the United Kingdom, France, Japan, and Denmark. The company offers Grid Integrated Vehicle platform which enables electric vehicle (EV) batteries to store and resell unused energy back to the local electric grid and provide other grid services; and allows EV owners to meet the energy demands of individual vehicles and entire fleets. Its V2G technology also links EV batteries into a virtual power plant that sells excess power to utility companies or utilizes saved power to reduce building energy peak consumption. In addition, the company offers networked charging stations, infrastructure, software, professional services, support, monitoring, and parts and labor warranties required to run electric vehicle fleets. It serves its products to owner/operators of light duty fleets, heavy duty fleets, automotive manufacturers, charge point operators, and strategic partners. The company was founded in 2010 and is headquartered in San Diego, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1747267200000/p4JAx8MynXUrHUvS75QJoA/-iHxXizFQvIuFkGAooy1-b2_E26pL9O-TBeozMwLRcY6fPl16kE2lhAMLZF0sFfJOqOoqaqje0G32wKt8dw2-rfThGTMu-9K791Oht-DsefGYcYfkzbBwDYgSYTL8AOCZi3-lnP-AMiRbnz6_nnqNk11gAgm8OhKZjh9Wa0tjzZKEWhZkpcuJbXZjhdzufe5/dgBAVbAG1io64XTF8zDzKw9xO6b4LKnHmzS1aMJBbr0",
-    "price": 1.09,
+    "price": 1.1,
     "prevClose": 1.45,
-    "absReturn": -0.3599999999999999
+    "absReturn": -0.34999999999999987
   },
   {
     "fullTicker": "TELO:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 587.31,
+    "price": 587.16,
     "prevClose": 586.84,
-    "absReturn": 0.4699999999999136
+    "absReturn": 0.31999999999993634
   }
 ]
