@@ -2,8 +2,35 @@
   {
     "baseTicker": "NATR:USA",
     "rank": 99.9096,
-    "logo": "",
+    "logo": [
+      {
+        "id": "atttha3tiTHNFWGd0",
+        "width": 80,
+        "height": 22,
+        "url": "https://v5.airtableusercontent.com/v3/u/41/41/1747663200000/Yp-vBxJfwJi3YfIr64S78w/3Cx4J5neEFWNNczNWF-2In5O8DeJdpA8XR5M5l3cCK00hCzgIaMhS7exlwD5rbcFLEzjMwAlDdpgkMERJ8VNjEJCSMbEXEiKEqEG0s_cfho-0mdRbqPy2ieNJXC0o49gUxC973mpQuZ_G7jD_vScmTA2SoiyPhX7Qi-heCxqsQnezoLdVurGbO1rmSh8UiuS/Vk-kMPBgJbRPCWEd0ivCbBBPrtdBNB65dWJDxPsS5CU",
+        "filename": "natures-sunshine-products-inc-logo.png",
+        "size": 2616,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/41/41/1747663200000/KDBYiief4_A2Upa7CE3qYg/s5M640LZMpOxgC35AKtipJC6H2BCx6NciULhxjgQPo1nnaIdcDsTO9KIIkZ_W70vy9Db16BJ2VOLuzSC3k3r67peFgAt3yjwP063d-X10chnV_QYwEHvuZXkv4qEttBIjYHYzh0ai8JPN717dZc5Ow/TZILLExK4QqVQGTRvnhO17aEdRP8_8x_sVRbvgVv6H4",
+            "width": 80,
+            "height": 22
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/41/41/1747663200000/Jm05MQUH7yjwbqo11wHuiQ/HDVcnhgxNDclKEXdEwo3XeQ38O2zwButBOvVzWlQFH0bb5SMFFFtyHkP4vPwRuALlLxwl7YRlmpsSCJCee143WZG8hrE5CNm03QjuQgJnf8l6WaBNh-voWcIPtsigbU3FgpENEzMy_gt87Q3LD8Fzg/8rOTHvFYK_-3LvwIiTdinzijKHw1E2Aa2lKVAWaL2ys",
+            "width": 80,
+            "height": 22
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/41/41/1747663200000/Gmy_1jekHNBjDydpNG3uQg/hDPjmN5tMUUdUOnQCLgquZYWVwSuN15HujVFHb6h3I2F8QoM_vrz_hKJ7xGDZ3cTrxCd7JzgSmjcp0SDrChabex6faoZeXM-CWpdx8oxj98PJuJn0npKki5H3dQHwUrwoji6Ng8pRFF5VdgU46lr3Q/j_-ZUSoEMwBX_SV7DCU6mQOaGQtUvvue8V2j2QWTtUM",
+            "width": 80,
+            "height": 22
+          }
+        }
+      }
+    ],
     "name": "Nature's Sunshine Products, Inc.",
-    "description": ""
+    "description": "Nature's Sunshine Products, Inc., a natural health and wellness company, manufactures and sells nutritional and personal care products in Asia, Europe, North America, Latin America, and internationally. The company provides general health products related to blood sugar support, bone health, cellular health, cognitive function, joint health, mood, sexual health, sleep, sports and energy, and vision; immune products; cardiovascular products; and digestive products. It also offers personal care products, including oils and lotions, aloe vera gel, herbal shampoo, herbal skin treatment, toothpaste, and skin cleanser products, as well as weight management products. The company provides its products under the Nature's Sunshine Products and Synergy WorldWide brands directly to customers and to a sales force of independent consultants. Nature's Sunshine Products, Inc. was founded in 1972 and is headquartered in Lehi, Utah."
   }
 ]
