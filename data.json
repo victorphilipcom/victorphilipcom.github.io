@@ -45,9 +45,9 @@
     "rank": 37.6581,
     "description": "Civitas Resources, Inc., an exploration and production company, focuses on the acquisition, development, and production of crude oil and associated liquids-rich natural gas. Its assets include DJ Basin assets comprising of approximately 356,800 net acres located in Weld, Arapahoe, Adams, and Boulder counties, Colorado; and Permian Basin assets comprising of 120,400 net acres located in Upton, Reagan, Glasscock, Martin, Midland, Reeves, and Loving counties, Texas, and Eddy and Lea counties, New Mexico. The company was formerly known as Bonanza Creek Energy, Inc. Civitas Resources, Inc. was incorporated in 2010 and is based in Denver, Colorado.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1748563200000/r2qQS-1LrJYgQbejsS-t-Q/xi5Ez0ahUWhUD0I15dGEOLo67Y3zseLAtykIUbIQhOcQRaTmQukos5Ir3AdTZ045BWoaR1Owqt1nt3akEYZeBs6ZnHlW4qKtgq12CoAKNe8aSRy9aVCkzPwxkkNGMCo-pKH-NfOLLdj17PvNYd2tPJW0GWDBzUgq4mVW7GS1EU2BT8pQZjo-aF_hctwACtSZ/-T-A9x-DM7w5EkqxZ6MwtFA4ZlK5gGrsE_1IS_bNiwI",
-    "price": 28.41,
+    "price": 28.4,
     "prevClose": 28.65,
-    "absReturn": -0.23999999999999844
+    "absReturn": -0.25
   },
   {
     "fullTicker": "INOD:USA",
@@ -85,9 +85,9 @@
     "rank": 76.3282,
     "description": "Booz Allen Hamilton Holding Corporation provides management and technology consulting, analytics, engineering, digital solutions, mission operations, and cyber services to governments, corporations, and not-for-profit organizations in the United States and internationally. It focuses on artificial intelligence services comprising of machine learning, predictive modeling, automation and decision analytics, and quantum computing. The company offers artificial intelligence, machine learning, and computer network related operations. In addition, it provides data science, engineering, visualization, and analysis related capabilities. Further, the company engages in user experience, user interface, graphic and web design, design thinking, sketching, and digital product design capabilities. Additionally, it architects and engineers help accelerate, scale, secure, and transform mission and business outcomes using the technologies and partner offering; offers software engineering in agile practices, DevSecOps, automation and Cloud, and Low/No Code Platform engineering; systems and digital engineering; and tech strategy and product management. Booz Allen Hamilton Holding Corporation was founded in 1914 and is headquartered in McLean, Virginia.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1748563200000/w9j5gCTu3VH8Qz4MOzp9ow/f35_f03QbYmFAsRUweWmEu4JyDIQXFSyNL2vT3_0Y8Eoh0-hRB8GVdlEQtl8x0SDkKmBlEoNrzJOb3NtyDdOzdndbKCxB2PgtnJf9W_uV6QCz-m6xDaVYYFgRi9-lhBJkBGt3ecodruU5QtK_qO9EmTfzEtTCIbcQdhx4CGCchqe3VMjHQxCUTCKj2EJKBjds1bzSnysT5dt4HCxlQN-Mw/07aFLsYhJef1BNf5a6soHJqjnlkJIBBcNTKU-OqgOMk",
-    "price": 105.685,
+    "price": 105.72,
     "prevClose": 104.66,
-    "absReturn": 1.0250000000000057
+    "absReturn": 1.0600000000000023
   },
   {
     "fullTicker": "PSMT:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 589.53,
+    "price": 590.05,
     "prevClose": 587.73,
-    "absReturn": 1.7999999999999545
+    "absReturn": 2.3199999999999363
   }
 ]
