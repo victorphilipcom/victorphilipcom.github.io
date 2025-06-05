@@ -45,9 +45,9 @@
     "rank": 36.5558,
     "description": "The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally. It sells various building materials, home improvement products, lawn and garden products, and décor products, as well as facilities maintenance, repair, and operations products. The company also offers installation services for flooring, water heaters, baths, garage doors, cabinets, cabinet makeovers, countertops, sheds, furnaces and central air systems, and windows. In addition, it provides tool and equipment rental services. The company serves consumers, such as do-it-yourself homeowners and do-it-for-me customers; and professional renovators/remodelers, general contractors, small to medium homebuilders, maintenance professionals, handymen, property managers, building service contractors and specialty tradespeople, such as electricians, landscapers, plumbers, painters, pool contractors, and roofers. It sells its products through websites and its mobile applications, including homedepot.com; homedepot.ca and homedepot.com.mx; blinds.com, justblinds.com, and americanblinds.com for custom window coverings; thecompanystore.com, an online site for textiles and décor products; hdsupply.com for maintenance, repair, and operations (MRO) products and related services; and srsdistribution.com, heritagelandscapesupplygroup.com, and heritagepoolsupplygroup.com for roofing and building materials, landscape, and pool products; and The Home Depot stores. The Home Depot, Inc. was incorporated in 1978 and is headquartered in Atlanta, Georgia.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1749168000000/sTdkP563x4o-SsZc1MtVdA/5SrrgoNOh3TIkH2fh85OORSJuTYK0RBswyrnUM0MHTiqbhNY_AyjgXNSWK4uUVx63rRcVTyvSbtnd-8vR87p-uNFhF-JMOViSgMnrTlArBYur7FnbuDvvivvYFns-ehDegROTScKecl464WuK3Z18NNmCyySWQo4SrO1rQjxaOo/Vz3UzeOsBmLb1s9am3Tu1hCQ3P1PbKw1tx3i0u1Z-Ik",
-    "price": 369.02,
-    "prevClose": 372.4,
-    "absReturn": -3.3799999999999955
+    "price": 369.28,
+    "prevClose": 370.094924376985,
+    "absReturn": -0.8149243769850045
   },
   {
     "fullTicker": "BIVI:USA",
@@ -55,9 +55,9 @@
     "rank": 43.0069,
     "description": "BioVie Inc., a clinical-stage biopharmaceutical company, develops drug therapies to treat neurological and neurodegenerative disorders, and advanced liver disease. The company develops BIV201 for the treatment of ascites due to chronic liver cirrhosis. It also develops NE3107 that is in Phase III clinical trial for the treatment of patients with mild to moderate Alzheimer's disease; and in Phase 2 clinical trial to treat Parkinson's disease, as well as for the long COVID program. The company was formerly known as NanoAntibiotics, Inc. and changed its name to BioVie Inc. in July 2016. BioVie Inc. was incorporated in 2013 and is headquartered in Carson City, Nevada.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1749168000000/6gxqXajM08btwh5ch70aeg/q_wukNXHFhEqlbuV15mIC2deYktlouGR3x1P28xPx1I8MZ8lMW3d4FlYbMfuJiL2dFqF67MluQlMalllhd-A8P5RZLhjUkW_7KJvZ9kIo3D9xJWC1fCuECUlKUaU_cOL1fn7cb1cQXkdJewAE59kKE-IKOEYKfEFLoLo1olzcMc/BfJtlBfdsGgM7tJXgxZLhS3ur5n-cHrFTE90HXa7ZnI",
-    "price": 1.085,
+    "price": 1.09,
     "prevClose": 1.09,
-    "absReturn": -0.0050000000000001155
+    "absReturn": 0
   },
   {
     "fullTicker": "ATR:USA",
@@ -65,9 +65,9 @@
     "rank": 58.5652,
     "description": "AptarGroup, Inc. designs and manufactures a range of drug delivery, consumer product dispensing, and active material science solutions and services for the pharmaceutical, beauty, personal care, home care, and food and beverage markets. The company operates through Aptar Pharma, Aptar Beauty, and Aptar Closures segments. It also provides pumps for nasal allergy treatments; and metered dose inhaler valves for respiratory ailments, such as asthma and chronic obstructive pulmonary diseases; elastomer for injectable primary packaging components; and active material science solutions. In addition, the company offers dispensing pumps, closures, elastomeric components, aerosol valves, and digital health solutions. It primarily sells its products and services in Asia, Europe, Latin America, and North America. AptarGroup, Inc. was incorporated in 1992 and is headquartered in Crystal Lake, Illinois.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1749168000000/-dcv_xzbSAiTE39N9L0nfw/GGLp3R-5RhEP8vMpq8uBQNQH6Hg7SK62pqVV3bVeiGpNCe5Bslgz8jTgQsviZHZ_T68-1ad8Y1EghdGuVEK0p5paIgz9VQ6MnJYnXIxlyuXLoEk1g1P6ommgN0YXHHfO0C9GRib4v9sr86N2fWHuQDPPNYVa2VP7n8Mv508TCTSv2MvsallxMdJ6NzIqsJTE/mQ-0wE0-cKTfZd3vcthGsdDb35CMtfXK5Fu6crarvZ0",
-    "price": 152.285,
+    "price": 152.49,
     "prevClose": 150.41,
-    "absReturn": 1.875
+    "absReturn": 2.0800000000000125
   },
   {
     "fullTicker": "ECPG:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 592.29,
+    "price": 593.05,
     "prevClose": 595.93,
-    "absReturn": -3.6399999999999864
+    "absReturn": -2.8799999999999955
   }
 ]
