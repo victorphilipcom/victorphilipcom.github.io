@@ -35,9 +35,9 @@
     "rank": 27.7376,
     "description": "Tenon Medical, Inc., a medical device company, engages in the development of surgical implant systems to treat severe lower back pain in the United States and Puerto Rico. The company offers CATAMARAN SI-Joint Fusion System to fuse sacroiliac joints (SI-Joints) to treat SI-Joint dysfunction that often causes severe lower back pain; and features fixation device that passes through the axial and sagittal planes of the ilium and sacrum, as well as transfixes the SI joints. Tenon Medical, Inc. was incorporated in 2012 and is headquartered in Los Gatos, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1749254400000/lMCe2X9VColh5RO3RN-ugA/SF5WvVtGRwo6OadA3YzSKHmQVVbAOmXGMK7D_OWlB4p-1ASrNoCaNn_bKr6V79XRyGKUJXax0wLlQTMo5c87A7KAk5ueEW4HAZ3_z6a6jibW-1zLAUY62b80ev7yMqlxXSAKiA-uMn3OpYTInzn0o86jXF3O_55nfLnkoHv0cRvoe0RPMQDdaRHd8F_E8777/cQndrTN8XxEIhzwPolyNwoBtDvwnIJVKfOjRkR790Cg",
-    "price": 1.005,
+    "price": 1,
     "prevClose": 1.02,
-    "absReturn": -0.015000000000000124
+    "absReturn": -0.020000000000000018
   },
   {
     "fullTicker": "HD:USA",
@@ -75,9 +75,9 @@
     "rank": 63.6429,
     "description": "Encore Capital Group, Inc., a specialty finance company, provides debt recovery solutions and other related services for consumers across financial assets worldwide. The company purchases portfolios of defaulted consumer receivables at discounts to face value, as well as manages them by working with individuals as they repay their obligations and works toward financial recovery. It is also involved in the provision of early stage collection, business process outsourcing, and contingent collection services. In addition, the company engages in debt servicing and other portfolio management services to credit originator for non-performing loans. Further, it offers credit management services. Encore Capital Group, Inc. was incorporated in 1999 and is headquartered in San Diego, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/41/41/1749254400000/YClTg7TnAuRjHldXsHym0Q/203fLZInr_P-3IqyhTU86cbWTvENUQqs40NrufVL5ZRA1TZyuCzj5woX33M9vxADd3eNu5Fblj62WnRBRWm50ZVmSHq1INUqLjQhl3aOOVsHym5HxnsHuLvpJrqaTrljzkZdMSg1WXngCKu8sQgnLO0WuA9vgvjPfof6BDcI1o2r5ItZRuzfIX0mK6xWwAP_/LM9n-FvmQkZBzZbaT6OFrRCSn2QagKeEEBdxSZo2Qr0",
-    "price": 38.375,
+    "price": 38.41,
     "prevClose": 37.25,
-    "absReturn": 1.125
+    "absReturn": 1.1599999999999966
   },
   {
     "fullTicker": "MGEE:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 599.07,
+    "price": 599.43,
     "prevClose": 593.05,
-    "absReturn": 6.0200000000000955
+    "absReturn": 6.3799999999999955
   }
 ]
