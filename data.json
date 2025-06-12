@@ -16,8 +16,8 @@
     "description": "Applied Energetics, Inc. engages in the provision of advanced optical technologies and ultrashort pulse directed energy solutions utilizing dual-use laser and optical technologies to defense, national security, industrial, biomedical, and scientific customers worldwide. It develops and holds various intellectual property rights such as laser guided energy and laser induced plasma channel technology for used in high-tech directed energy systems. The company was founded in 1990 and is headquartered in Tucson, Arizona.",
     "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1749772800000/QlV2EYCZe5MgBWMpf0LrXw/e3IqoUZMFkCqxz0NAQ81JN-E_pzL5mIutNLnTpDNHaOwCyO22oF-IKu7L6QJQgTKNPfbGcOXYJdC_TlGDmp-58zTlyHFICnTeYnq18q16efp615Ae5ZfVCFXVd3iy6gCyn1K-046VSpHUCrs1rpDy8LLveOXl6lLhjkyQ0cEjWjrOJ7NmaS7VIaS8NszpxdA/l4WnE51Sc9zBeR7HFK-INAFL9EIkIBkI96Sc0xI8O-Q",
     "price": 2,
-    "prevClose": 2.45,
-    "absReturn": -0.4500000000000002
+    "prevClose": 2,
+    "absReturn": 0
   },
   {
     "fullTicker": "WEX:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 603.01,
+    "price": 602.94,
     "prevClose": 601.36,
-    "absReturn": 1.6499999999999773
+    "absReturn": 1.580000000000041
   }
 ]
