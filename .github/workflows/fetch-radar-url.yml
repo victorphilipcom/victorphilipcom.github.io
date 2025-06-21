@@ -36,7 +36,7 @@ jobs:
             <title>Interactive Radar Chart</title>
           </head>
           <body>
-            <iframe src="$FETCHED_URL" width="800" height="600" frameborder="0"></iframe>
+            <iframe src="$FETCHED_URL" frameborder="0"></iframe>
           </body>
           </html>
           EOF
