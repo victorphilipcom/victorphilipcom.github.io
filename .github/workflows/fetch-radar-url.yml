@@ -12,14 +12,33 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
 
       - name: Fetch and Create HTML
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          # … your curl + jq logic to set FETCHED_URL …
-          CHART_ID=$(basename "$FETCHED_URL")
+          # 1. Fetch the Combined Radar URL field from Airtable
+          curl -sSL \
+            -H "Authorization: Bearer $AIRTABLE_PAT" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm5_holdings?fields[]=Combined%20Radar%20URL" \
+            -o radarRaw.json
+
+          # 2. Extract the first non-null URL
+          FETCHED_URL=$(jq -r \
+            '.records[]
+             | select(.fields."Combined Radar URL" != null)
+             | .fields."Combined Radar URL"' radarRaw.json \
+            | head -n 1)
+          echo "Fetched URL: $FETCHED_URL"
+
+          # 3. Derive just the chart ID (the sf-... suffix)
+          CHART_ID="${FETCHED_URL##*/}"
+          echo "Chart ID: $CHART_ID"
+
+          # 4. Generate radar_chart.html using QuickChart’s embed.js
           cat <<EOF > radar_chart.html
           <!DOCTYPE html>
           <html lang="en">
@@ -32,7 +51,7 @@ jobs:
             <div id="chart-container">
               <script async
                 src="https://quickchart.io/chart-maker/js/embed.js"
-                data-chart-id="${CHART_ID}"
+                data-chart-id="$CHART_ID"
                 data-width="1600"
                 data-height="1170"
                 type="text/javascript">
@@ -41,8 +60,9 @@ jobs:
           </body>
           </html>
           EOF
-          # Log the HTML content for verification
-          echo "HTML content:"
+
+          # 5. (Optional) verify the generated HTML
+          echo "---- radar_chart.html ----"
           cat radar_chart.html
 
       - name: Commit Changes
@@ -50,5 +70,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar_chart.html
-          git commit -m "Update radar_chart.html with latest URL" || true
+          git commit -m "Update radar_chart.html with latest chart ID" || true
           git push
