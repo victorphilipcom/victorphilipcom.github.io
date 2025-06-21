@@ -40,6 +40,16 @@
     "absReturn": -0.040000000000000036
   },
   {
+    "fullTicker": "SPOT:USA",
+    "baseTicker": "SPOT",
+    "rank": "",
+    "description": "",
+    "logo": "",
+    "price": 707.42,
+    "prevClose": 710.19,
+    "absReturn": -2.7700000000000955
+  },
+  {
     "fullTicker": "MDU:USA",
     "baseTicker": "MDU",
     "rank": "",
@@ -88,16 +98,6 @@
     "price": 20.98,
     "prevClose": 21.65,
     "absReturn": -0.6699999999999982
-  },
-  {
-    "fullTicker": "SPOT:USA",
-    "baseTicker": "SPOT",
-    "rank": 47.5612,
-    "description": "Spotify Technology S.A., together with its subsidiaries, provides audio streaming subscription services worldwide. It operates through two segments, Premium and Ad-Supported. The Premium segment offers unlimited online and offline streaming access to its catalog of music and podcasts without commercial breaks to its subscribers. This segment sells directly to the end users. The Ad-Supported segment provides on-demand online access to its catalog of music and unlimited online access to the catalog of podcasts to its users on their computers, tablets, and compatible mobile devices. The company also offers sales, distribution and marketing, contract research and development, and customer and other support services. Spotify Technology S.A. was incorporated in 2006 and is based in Luxembourg City, Luxembourg.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750500000000/KGLmyUeheUrwQuiLVkmzUQ/nPowlgK75H1GECM0Enk4Xn1R4YsN2nIz5k58ZIQT2qJocloyjp9BSxgSjpyowTv1dqaefRVAAuIYqWXCuGunpf7HAoqBM1sY4RHGeez4eBG_pVva1MX8XLdNMAPMjVgqxHU2l9eT3XS81OfxOcCZh7_yiAx867JChpiXvdmZE62kqXBM7QP4PxQyaDow2-Ly/EQ7j39f-a1WANOId3ovsK6G1CApU7e1zJkBYiCh0Vs8",
-    "price": 707.42,
-    "prevClose": 710.19,
-    "absReturn": -2.7700000000000955
   },
   {
     "fullTicker": "SPY",
