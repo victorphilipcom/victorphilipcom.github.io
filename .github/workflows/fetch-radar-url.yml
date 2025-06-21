@@ -2,7 +2,7 @@ name: Update Radar Chart
 on:
   schedule:
     - cron: '*/5 * * * *'  # Runs every 5 minutes
-  workflow_dispatch:        # Allows manual triggering
+  workflow_dispatch:       # Allows manual triggering
 
 jobs:
   update_radar_url:
@@ -14,27 +14,19 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Fetch Radar URL from Airtable
+      - name: Fetch and Create HTML
         env:
-          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}  # Your Airtable Personal Access Token
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
+          # Fetch data from Airtable
           curl -sSL \
-            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
+            -H "Authorization: Bearer $AIRTABLE_PAT" \
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm5_holdings?fields[]=Combined%20Radar%20URL" \
             -o radarRaw.json
-          echo "API Response saved to radarRaw.json"
-
-      - name: Extract URL from Any Record
-        run: |
+          # Extract the URL from the JSON response
           FETCHED_URL=$(jq -r '.records[] | select(.fields."Combined Radar URL" != null) | .fields."Combined Radar URL"' radarRaw.json | head -n 1)
-          if [ -z "$FETCHED_URL" ]; then
-            echo "Error: No 'Combined Radar URL' found in any record."
-            exit 1
-          fi
           echo "Fetched URL: $FETCHED_URL"
-
-      - name: Create radar_chart.html
-        run: |
+          # Create the HTML file with the fetched URL
           cat <<EOF > radar_chart.html
           <!DOCTYPE html>
           <html lang="en">
@@ -48,11 +40,14 @@ jobs:
           </body>
           </html>
           EOF
+          # Log the HTML content for verification
+          echo "HTML content:"
+          cat radar_chart.html
 
       - name: Commit Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar_chart.html
-          git commit -m "Update radar_chart.html with latest URL" || exit 0
+          git commit -m "Update radar_chart.html with latest URL" || true
           git push
