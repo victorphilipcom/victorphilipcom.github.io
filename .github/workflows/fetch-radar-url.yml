@@ -18,15 +18,8 @@ jobs:
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
-          # Fetch data from Airtable
-          curl -sSL \
-            -H "Authorization: Bearer $AIRTABLE_PAT" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm5_holdings?fields[]=Combined%20Radar%20URL" \
-            -o radarRaw.json
-          # Extract the URL from the JSON response
-          FETCHED_URL=$(jq -r '.records[] | select(.fields."Combined Radar URL" != null) | .fields."Combined Radar URL"' radarRaw.json | head -n 1)
-          echo "Fetched URL: $FETCHED_URL"
-          # Create the HTML file with the fetched URL and custom CSS
+          # … your curl + jq logic to set FETCHED_URL …
+          CHART_ID=$(basename "$FETCHED_URL")
           cat <<EOF > radar_chart.html
           <!DOCTYPE html>
           <html lang="en">
@@ -34,16 +27,17 @@ jobs:
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Interactive Radar Chart</title>
-            <style>
-              iframe {
-                width: 1600px;
-                height: 1170px;  # Adjusted to clip the grey footer
-                overflow: hidden;
-              }
-            </style>
           </head>
           <body>
-            <iframe src="$FETCHED_URL" frameborder="0"></iframe>
+            <div id="chart-container">
+              <script async
+                src="https://quickchart.io/chart-maker/js/embed.js"
+                data-chart-id="${CHART_ID}"
+                data-width="1600"
+                data-height="1170"
+                type="text/javascript">
+              </script>
+            </div>
           </body>
           </html>
           EOF
