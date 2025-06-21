@@ -5,8 +5,29 @@
     "logo": [
       {
         "id": "att4t0JVDSx04G0NP",
-        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/Vy1q2401HP8aMhbPVYWjNQ/fzpRpH2jQiNlX9GBz-YYKwA0YlTGZpzDjMoSzYjZDk_UNqfi2X90aywyCn8xyKzC8GIKRvPo4KEuNjwTqUuIuySQWJkz0hh42SuhvUS-IeCp8CC6qpM33l7YrrRy3vw86DFVJf2nOrw2j6_Hzn2kfQ/fwjNnw-mGUQVDFV7XcVM-LDKy7rTBrTrox1qXAUv6ps",
-        "filename": "www.votum-sa.pl"
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/wBA2My3NtvFPgnsE_3cl_g/Q8oOSA4esF2yo8LWoVXtAphEL57S9L2OVAQfrlZXCHNnBrRE1BGs1fVCMb3gwyOuXuA_YUAZKl3jyb7Rr9qrFQN4wv96uYci-B0NNK0AC8zS7HFaGKUoO78UGwlxNRTialbEznnrubEJmiUehhrLCRIuYI9eXZ_kw5FhXzTsxZs/dxl_XMq29_IUYe_eigFj8REH4rFx6r6WC7oUqUAU-sc",
+        "filename": "www.votum-sa.pl",
+        "size": 10467,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/5F8sYDczjuA6ux7R1rk4lA/ZyUlvLnt_kOy70RJsmRnGzLYcDqJx24HixFxNLEdkLE7zS_yX-YjXjcBPC1Qf4JAKN9Wi6CIuwLHl_KWe14SpvN021KTsyNgK5juw-qi-re3ONJHar14J-LxXmENPcbPON0t__ahmCn3AI6FU3MaxQ/yR1rezlSFSa7GzaKYLyVwkzq42i7jTmwz8ceSt8Uygg",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/mZfdZB52beun9KcsBtRQqw/AZS9DtknuKyiqXHGMWzG-B8Wh9NIWkcBf5lBXajydubGh5gJSpc8CSk6_M8sHNsi0KDDukEE8zkk7ZTGSMa36x97Z7BlAhC0vkyKEnzvfXTsxpEDqhZKPjhz_A7BQd1PoCtadYak_fdgHoPO9WIVew/IMyL6zkFC9HQeZUHYbdOFWGmooMI11DdUQmdlm7tvYQ",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/1hfta9zghxeXJZM74bYW7g/6dPCUcy523iyEF-eZjxAm8Ky5WqUfCAeWHo4XQG7q0nHO7kw5savsVv6jG-l9gh97L6E-2PvTFo7vma439xgApaesUif_Ae-18lkd_uudBT4pZYG3Mb3O-5K5GN1E7sjBjO13cqo04dIDL1KpnW9Xg/r8aT_ZcNzvnodv7OKuddxl6RoOGx6HpEBuSVLH5X34k",
+            "width": 200,
+            "height": 200
+          }
+        }
       }
     ],
     "name": "Votum SA",
