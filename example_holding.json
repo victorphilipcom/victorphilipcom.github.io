@@ -1,36 +1,9 @@
 [
   {
     "baseTicker": "VOT:POL",
-    "rank": 99.9821,
-    "logo": [
-      {
-        "id": "attrJzbWBUI2UrwIj",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/7dMx00LLVbfQ1AD_UtHwZg/BuGGn32iUrf7A6CYK4NZcdvO6yQU8vyeWOspM3-Di0J-fCuuvyWfyCLcqHpXogby52M194UNZdWJhx6W54nxwFe9BbsKGU3GE9Xwlj-KBDOYi06TiidcUNsKqIB5ws4o8Djd3soS_QFyifnNzp4LQxf791uasCy-YSxNAmk42UA/d5RGgfL8Bg7WLSRmjQU0kcLT48q89Ykl-JTtlDcVCRM",
-        "filename": "www.votum-sa.pl",
-        "size": 10467,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/Vguk7Dow79fQuV8QFw0r6w/Di1XsdtieipN58_LnpDDrbyGf3U_xKtiAnTYMFMAh_cbPb-KGI8D09TwtrKmGrBwsYQa_bDbBJfLVYvKayJm7yLU_8mOvt2MqeTTWzTBYzXD7zJdfiTC-H9W4tMovg2S6ZSaUWwHzPzAKkCRhmAVpw/7FJn3Vbizu1lPEFPy4LCsJ43wsFmB3K3DrE0wosGCOg",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/meOZDqTQCgcVlTpBJpYPKg/UdSLkOKbPJWU1fww83rkPkal4rHw3VX6FxiJffSovbADimFjy2rkWwKg0aqJ3-NegoCzQvMQYMfcaQ_oqI0-9WTOZ7KcLMCgBjF4Bc8bCuifU0ElxBG6eiaoHmZka14RnLCfVlc9t1M3447kNNjrzw/wqS-CsWVcoxctJw7aYjhYrTjAEfQoxmvFWexNKL-8Cs",
-            "width": 200,
-            "height": 200
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/LaJrKFRngHyMiiMNJoYmAg/dveYvremqkPOBbCZSZx1IjHMF3Gs9NEUSwX6kSyPnaXxc0u3PEH-rRIl6oGFwW34gOD-j-g8R2Z8cpxAkvnxlHj4ZfmvD5_B0KahXASHp2zDJbpmYvMajnac3meLr15G7sPgEWwLBbyDEtaf6QOhHg/-YJ4vctc1WJwyM5YmTD1uxwfEKV_uZSMcJDurxBk0jQ",
-            "width": 200,
-            "height": 200
-          }
-        }
-      }
-    ],
+    "rank": 0,
+    "logo": "",
     "name": "Votum SA",
-    "description": "Votum S.A. provides assistance for obtaining compensation. It helps victims of traffic accidents in obtaining compensation from insurance companies. The company was founded in 2005 and is headquartered in Wroclaw, Poland."
+    "description": ""
   }
 ]
