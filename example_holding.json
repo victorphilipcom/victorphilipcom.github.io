@@ -1,9 +1,36 @@
 [
   {
     "baseTicker": "VOT:POL",
-    "rank": 0,
-    "logo": "",
+    "rank": 99.9832,
+    "logo": [
+      {
+        "id": "attCFiIpZxr4aGyDo",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750514400000/WHR1Egk_ZkGC2dFSzAZzdw/L1i15c3rXp4C1mn2u69p8ic1wlzJ_XGCaWE1yQeypRp0lus0tsFqCj8ZTG6oIhRAWYYWXfRHmOi5fKE2En3iF3sy9QtXu8dnsH7IVeGULjCWOsKKMn6Z0Vx95uyg_lmoqmLjtNZrzXUWGs2_iJqIPA31GXCgOCcFnEsIzFl8cuc/KjHBxdqP1944x4Zu6aJTXQq_VDLj4eZsF4b9Yp1jpBA",
+        "filename": "www.votum-sa.pl",
+        "size": 10467,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750514400000/-0a3mBIvF1gz_XCzzd5Gog/VOSz68cvz964Oz-agg-OajS1jNPfgprOqy5VMxrZRS0ELni5v3cma_SmVtS0cKB0KYoEYGIX1EGK-4J0Dm12P2_BSwexZBCWP-VXK294rTkey-d1fQXrkpPC8sRl1teaGgDcQyfXmNVTSfbXqnRoxw/ux_4t7hKy1GISUIQID-SRgyxuCj_EN0zTbY_wJ4pcrM",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750514400000/VFvlK2nf2rDVZb7CWzt-jg/-PBjAfvQthAeCA_UA5mtcauHhCRkuWfe3O7s1rLrT6WvFzS8aiI1PwUUoIWDVADQ0Av0AG5SpvOfllJrku-hhlicWfCidCzdREJ-i7sNQ0Ja9BJC4CRCmizo-ixrcrHT5ZcXNvGKe1vr5fZbsIJoXQ/Utn3TAxiZdExQJ9ca2ajwAlbHi6WkgbeSeV5a8ddqZ8",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750514400000/PDuFKnVUdfGDVGyK-I3EtA/hQ_vRZKX8mu8LRvLq2tJH_uHMwgqY-Qq8C11mx7Sn7geZD45dqrDQtuJjYkC4EEdOuhBf7Ep6Vz3sIDFU4x8EnUQW9xqygtWfgNngfUhV2YZztlblZA1Zke1iHamZ9My1CYrYor5RL4sJsEGcK53Fg/oEMv8Y4AeEBaOPJnQtoZ5zbnzdPZOt3B7fSm8RFCiTI",
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    ],
     "name": "Votum SA",
-    "description": ""
+    "description": "Votum S.A. provides assistance for obtaining compensation. It helps victims of traffic accidents in obtaining compensation from insurance companies. The company was founded in 2005 and is headquartered in Wroclaw, Poland."
   }
 ]
