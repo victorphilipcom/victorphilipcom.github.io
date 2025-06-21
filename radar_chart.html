@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Interactive Radar Chart</title>
-  <style>
-    iframe {
-      width: 1600px;
-      height: 1170px;  # Adjusted to clip the grey footer
-      overflow: hidden;
-    }
-  </style>
 </head>
 <body>
-  <iframe src="https://quickchart.io/chart-maker/view/sf-12264afd-afbf-41c3-aeaf-8c1f2f0024a9" frameborder="0"></iframe>
+  <div id="chart-container">
+    <script async
+      src="https://quickchart.io/chart-maker/js/embed.js"
+      data-chart-id=""
+      data-width="1600"
+      data-height="1170"
+      type="text/javascript">
+    </script>
+  </div>
 </body>
 </html>
