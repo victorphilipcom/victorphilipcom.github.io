@@ -1,0 +1,69 @@
+name: "Fetch Radar URL and Update HTML"
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Runs every 5 minutes
+  workflow_dispatch:        # Allows manual triggering
+
+jobs:
+  update_radar_url:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Fetch Combined Radar URL from Airtable
+        env:
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+        run: |
+          echo "Fetching Combined Radar URL from Airtable..."
+          curl -sSL -D headers_radar.txt \
+            -H "Authorization: Bearer ${AIRTABLE_PAT}" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm5_holdings?fields[]=Combined%20Radar%20URL&maxRecords=1" \
+            -o radarRaw.json
+          echo "HTTP headers for Combined Radar URL:"
+          cat headers_radar.txt
+          echo "===== Raw Combined Radar URL ====="
+          cat radarRaw.json
+
+      - name: Verify Radar URL JSON
+        run: |
+          if ! jq -e '.records[0].fields."Combined Radar URL"' radarRaw.json >/dev/null; then
+            echo "Error: radarRaw.json does not contain the 'Combined Radar URL' field."
+            cat radarRaw.json
+            exit 1
+          fi
+
+      - name: Extract Combined Radar URL
+        run: |
+          FETCHED_URL=$(jq -r '.records[0].fields."Combined Radar URL"' radarRaw.json)
+          echo "Fetched URL: $FETCHED_URL"
+
+      - name: Create radar_chart.html
+        run: |
+          cat <<EOF > radar_chart.html
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Interactive Radar Chart</title>
+          </head>
+          <body>
+            <iframe src="$FETCHED_URL" width="800" height="600" frameborder="0"></iframe>
+          </body>
+          </html>
+          EOF
+
+      - name: Commit radar_chart.html
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add radar_chart.html
+          git commit -m "Update radar_chart.html with latest Combined Radar URL" || exit 0
+          git push origin HEAD:main
