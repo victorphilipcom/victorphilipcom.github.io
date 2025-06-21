@@ -1,9 +1,15 @@
 [
   {
     "baseTicker": "VOT:POL",
-    "rank": 0,
-    "logo": "",
+    "rank": 99.9832,
+    "logo": [
+      {
+        "id": "att4t0JVDSx04G0NP",
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1750507200000/Vy1q2401HP8aMhbPVYWjNQ/fzpRpH2jQiNlX9GBz-YYKwA0YlTGZpzDjMoSzYjZDk_UNqfi2X90aywyCn8xyKzC8GIKRvPo4KEuNjwTqUuIuySQWJkz0hh42SuhvUS-IeCp8CC6qpM33l7YrrRy3vw86DFVJf2nOrw2j6_Hzn2kfQ/fwjNnw-mGUQVDFV7XcVM-LDKy7rTBrTrox1qXAUv6ps",
+        "filename": "www.votum-sa.pl"
+      }
+    ],
     "name": "Votum SA",
-    "description": ""
+    "description": "Votum S.A. provides assistance for obtaining compensation. It helps victims of traffic accidents in obtaining compensation from insurance companies. The company was founded in 2005 and is headquartered in Wroclaw, Poland."
   }
 ]
