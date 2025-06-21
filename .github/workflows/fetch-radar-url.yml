@@ -1,5 +1,4 @@
-name: "Fetch Radar URL and Update HTML"
-
+name: Update Radar Chart
 on:
   schedule:
     - cron: '*/5 * * * *'  # Runs every 5 minutes
@@ -12,36 +11,26 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Fetch Combined Radar URL from Airtable
+      - name: Fetch Radar URL from Airtable
         env:
-          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}  # Your Airtable Personal Access Token
         run: |
-          echo "Fetching Combined Radar URL from Airtable..."
-          curl -sSL -D headers_radar.txt \
+          curl -sSL \
             -H "Authorization: Bearer ${AIRTABLE_PAT}" \
-            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm5_holdings?fields[]=Combined%20Radar%20URL&maxRecords=1" \
+            "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm5_holdings?fields[]=Combined%20Radar%20URL" \
             -o radarRaw.json
-          echo "HTTP headers for Combined Radar URL:"
-          cat headers_radar.txt
-          echo "===== Raw Combined Radar URL ====="
-          cat radarRaw.json
+          echo "API Response saved to radarRaw.json"
 
-      - name: Verify Radar URL JSON
+      - name: Extract URL from Any Record
         run: |
-          if ! jq -e '.records[0].fields."Combined Radar URL"' radarRaw.json >/dev/null; then
-            echo "Error: radarRaw.json does not contain the 'Combined Radar URL' field."
-            cat radarRaw.json
+          FETCHED_URL=$(jq -r '.records[] | select(.fields."Combined Radar URL" != null) | .fields."Combined Radar URL"' radarRaw.json | head -n 1)
+          if [ -z "$FETCHED_URL" ]; then
+            echo "Error: No 'Combined Radar URL' found in any record."
             exit 1
           fi
-
-      - name: Extract Combined Radar URL
-        run: |
-          FETCHED_URL=$(jq -r '.records[0].fields."Combined Radar URL"' radarRaw.json)
           echo "Fetched URL: $FETCHED_URL"
 
       - name: Create radar_chart.html
@@ -60,10 +49,10 @@ jobs:
           </html>
           EOF
 
-      - name: Commit radar_chart.html
+      - name: Commit Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar_chart.html
-          git commit -m "Update radar_chart.html with latest Combined Radar URL" || exit 0
-          git push origin HEAD:main
+          git commit -m "Update radar_chart.html with latest URL" || exit 0
+          git push
