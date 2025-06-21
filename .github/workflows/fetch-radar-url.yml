@@ -1,7 +1,9 @@
 name: Update Radar Chart
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Runs every 5 minutes
+    - cron: '*/5 * * * *'  # Runs every  /
+
+5 minutes
   workflow_dispatch:       # Allows manual triggering
 
 jobs:
@@ -26,7 +28,7 @@ jobs:
           # Extract the URL from the JSON response
           FETCHED_URL=$(jq -r '.records[] | select(.fields."Combined Radar URL" != null) | .fields."Combined Radar URL"' radarRaw.json | head -n 1)
           echo "Fetched URL: $FETCHED_URL"
-          # Create the HTML file with the fetched URL
+          # Create the HTML file with the fetched URL and custom CSS
           cat <<EOF > radar_chart.html
           <!DOCTYPE html>
           <html lang="en">
@@ -34,9 +36,16 @@ jobs:
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Interactive Radar Chart</title>
+            <style>
+              iframe {
+                width: 1600px;
+                height: 1170px;  /* Adjust this height to clip the grey bar */
+                overflow: hidden;
+              }
+            </style>
           </head>
           <body>
-            <iframe src="$FETCHED_URL" width="1600" height="1200" frameborder="0"></iframe>
+            <iframe src="$FETCHED_URL" frameborder="0"></iframe>
           </body>
           </html>
           EOF
