@@ -52,7 +52,7 @@ jobs:
               <iframe
                 src="$EMBED_URL"
                 width="440"
-                height="800"
+                height="600"
                 frameborder="0"
                 allowfullscreen>
               </iframe>
