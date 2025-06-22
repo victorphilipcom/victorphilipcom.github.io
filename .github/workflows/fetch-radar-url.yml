@@ -38,7 +38,10 @@ jobs:
           EMBED_URL="${FETCHED_URL}&responsive=false"
           echo "Embed URL: $EMBED_URL"
 
-          # 4. Generate radar_chart.html with a fixed-size iframe
+          # 4. Define your logo URL
+          LOGO_URL="https://cdn.cmsfly.com/66cdf8de421f9b001276b539/images/KopievanZondertitel-BYmVe.png"
+
+          # 5. Generate radar_chart.html with logo + iframe
           cat <<EOF > radar_chart.html
           <!DOCTYPE html>
           <html lang="en">
@@ -47,21 +50,26 @@ jobs:
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Interactive Radar Chart</title>
           </head>
-          <body>
-            <div id="chart-container" style="text-align:center;">
-              <iframe
-                src="$EMBED_URL"
-                width="380"
-                height="600"
-                frameborder="0"
-                allowfullscreen>
-              </iframe>
-            </div>
+          <body style="margin:0; padding:0; display:flex; flex-direction:column; align-items:center;">
+            <!-- Company Logo -->
+            <img
+              src="$LOGO_URL"
+              alt="Company Logo"
+              style="max-width:200px; margin:20px 0;"
+            />
+            <!-- Embedded Radar Chart -->
+            <iframe
+              src="$EMBED_URL"
+              width="380"
+              height="600"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
           </body>
           </html>
           EOF
 
-          # 5. (Optional) inspect the generated HTML
+          # 6. (Optional) inspect the generated HTML
           echo "---- radar_chart.html ----"
           cat radar_chart.html
 
@@ -70,5 +78,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar_chart.html
-          git commit -m "Update radar_chart.html with latest embed URL" || true
+          git commit -m "Update radar_chart.html with latest embed URL and logo" || true
           git push
