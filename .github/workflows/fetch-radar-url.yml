@@ -62,7 +62,7 @@ jobs:
               #chart-container {
                 position: relative;
                 width: 380px;
-                height: 650px;
+                height: 600px;
                 margin: 20px 0;
               }
               /* small logo overlapping top-right of chart */
