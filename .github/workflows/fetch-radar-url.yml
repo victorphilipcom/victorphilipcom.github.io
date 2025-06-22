@@ -78,10 +78,10 @@ jobs:
               /* instruction text above the legend */
               #chart-container .legend-instruction {
                 position: absolute;
-                top: 400px;           /* place this just above the legend */
-                left: 50%;
+                top: 420px;           /* place this just above the legend */
+                left: 25%;
                 transform: translateX(-50%);
-                font-size: 14px;
+                font-size: 24px;
                 color: #333;
                 z-index: 2;
                 display: flex;
@@ -89,7 +89,7 @@ jobs:
                 gap: 4px;
               }
               #chart-container .legend-instruction .emoji {
-                font-size: 18px;
+                font-size: 24px;
                 line-height: 1;
               }
               iframe {
@@ -104,7 +104,7 @@ jobs:
               <img class="logo" src="$LOGO_URL" alt="Logo"/>
               <div class="legend-instruction">
               <span class="emoji">👇</span>
-              <span>Click the ticker</span>
+              <strong>Click the Ticker</strong>
               </div>
               <iframe
                 src="$EMBED_URL"
