@@ -72,6 +72,7 @@ jobs:
                 right: 9px;
                 width: 80px;
                 height: auto;
+                white-space: nowrap;    /* prevent the text from wrapping */
                 z-index: 2;
                 opacity: 0.8;
               }
