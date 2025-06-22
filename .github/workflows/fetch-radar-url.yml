@@ -51,7 +51,7 @@ jobs:
             <div id="chart-container" style="text-align:center;">
               <iframe
                 src="$EMBED_URL"
-                width="800"
+                width="440"
                 height="800"
                 frameborder="0"
                 allowfullscreen>
