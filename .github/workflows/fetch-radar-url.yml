@@ -104,7 +104,7 @@ jobs:
               <img class="logo" src="$LOGO_URL" alt="Logo"/>
               <div class="legend-instruction">
               <span class="emoji">👇</span>
-              <strong>Click the Ticker</strong>
+                <strong style="color: #000000;">Click the Ticker</strong>
               </div>
               <iframe
                 src="$EMBED_URL"
