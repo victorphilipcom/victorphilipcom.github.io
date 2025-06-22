@@ -4,21 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Interactive Radar Chart</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 380px;
+      padding: 10px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .header img {
+      width: 40px;
+      height: auto;
+    }
+    #chart-container {
+      width: 380px;
+      height: 600px;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
-<body style="margin:0; padding:0; display:flex; flex-direction:column; align-items:center;">
-  <!-- Company Logo -->
-  <img
-    src="https://cdn.cmsfly.com/66cdf8de421f9b001276b539/images/KopievanZondertitel-BYmVe.png"
-    alt="Company Logo"
-    style="max-width:200px; margin:20px 0;"
-  />
-  <!-- Embedded Radar Chart -->
-  <iframe
-    src="https://quickchart.io/chart-maker/view/sf-e8b15f67-9026-43b2-a58b-93c3e27a48c3?width=380&height=600&devicePixelRatio=2&responsive=false"
-    width="380"
-    height="600"
-    frameborder="0"
-    allowfullscreen
-  ></iframe>
+<body>
+  <div class="header">
+    <h1>Factor Profile</h1>
+    <img src="https://cdn.cmsfly.com/66cdf8de421f9b001276b539/images/KopievanZondertitel-BYmVe.png" alt="Logo"/>
+  </div>
+  <div id="chart-container">
+    <iframe
+      src="https://quickchart.io/chart-maker/view/sf-e8b15f67-9026-43b2-a58b-93c3e27a48c3?width=380&height=600&devicePixelRatio=2&responsive=false"
+      allowfullscreen>
+    </iframe>
+  </div>
 </body>
 </html>
