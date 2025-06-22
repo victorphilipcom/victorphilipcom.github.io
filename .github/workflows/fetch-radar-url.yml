@@ -78,7 +78,7 @@ jobs:
               /* instruction text above the legend */
               #chart-container .legend-instruction {
                 position: absolute;
-                top: 435px;           /* place this just above the legend */
+                top: 445px;           /* place this just above the legend */
                 left: 27%;
                 transform: translateX(-50%);
                 font-size: 24px;
