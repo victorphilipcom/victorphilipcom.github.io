@@ -15,18 +15,28 @@
     }
     .header {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      position: relative;
       width: 380px;
-      margin-top: -40px;
+      height: 40px;
+      margin-top: 20px;
+    }
+    .header h1 {
+      font-size: 20px;
+      margin: 0;
     }
     .header img {
-      width: 40px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 32px;
       height: auto;
     }
     #chart-container {
       width: 380px;
       height: 600px;
+      margin-top: 10px;
     }
     iframe {
       width: 100%;
@@ -37,6 +47,7 @@
 </head>
 <body>
   <div class="header">
+    <h1>Factor Profile</h1>
     <img src="https://cdn.cmsfly.com/66cdf8de421f9b001276b539/images/KopievanZondertitel-BYmVe.png" alt="Logo"/>
   </div>
   <div id="chart-container">
