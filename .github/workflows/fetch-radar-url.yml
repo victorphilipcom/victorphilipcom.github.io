@@ -26,7 +26,7 @@ jobs:
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm5_holdings?fields[]=Combined%20Radar%20URL" \
             -o radarRaw.json
 
-          # 2. Extract the first non-null URL (already includes width/height params)
+          # 2. Extract the first non-null URL
           FETCHED_URL=$(jq -r \
             '.records[]
              | select(.fields."Combined Radar URL" != null)
@@ -38,10 +38,10 @@ jobs:
           EMBED_URL="${FETCHED_URL}&responsive=false"
           echo "Embed URL: $EMBED_URL"
 
-          # 4. Define your logo URL
+          # 4. Define your logo URL (small version)
           LOGO_URL="https://cdn.cmsfly.com/66cdf8de421f9b001276b539/images/KopievanZondertitel-BYmVe.png"
 
-          # 5. Generate radar_chart.html with logo + iframe
+          # 5. Generate radar_chart.html with header flex containing title + tiny logo
           cat <<EOF > radar_chart.html
           <!DOCTYPE html>
           <html lang="en">
@@ -49,22 +49,52 @@ jobs:
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Interactive Radar Chart</title>
+            <style>
+              body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: Arial, sans-serif;
+              }
+              .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 380px;
+                padding: 10px;
+              }
+              .header h1 {
+                margin: 0;
+                font-size: 20px;
+              }
+              .header img {
+                width: 40px;
+                height: auto;
+              }
+              #chart-container {
+                width: 380px;
+                height: 600px;
+              }
+              iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+              }
+            </style>
           </head>
-          <body style="margin:0; padding:0; display:flex; flex-direction:column; align-items:center;">
-            <!-- Company Logo -->
-            <img
-              src="$LOGO_URL"
-              alt="Company Logo"
-              style="max-width:200px; margin:20px 0;"
-            />
-            <!-- Embedded Radar Chart -->
-            <iframe
-              src="$EMBED_URL"
-              width="380"
-              height="600"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
+          <body>
+            <div class="header">
+              <h1>Factor Profile</h1>
+              <img src="$LOGO_URL" alt="Logo"/>
+            </div>
+            <div id="chart-container">
+              <iframe
+                src="$EMBED_URL"
+                allowfullscreen>
+              </iframe>
+            </div>
           </body>
           </html>
           EOF
@@ -78,5 +108,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar_chart.html
-          git commit -m "Update radar_chart.html with latest embed URL and logo" || true
+          git commit -m "Update radar_chart.html with header logo" || true
           git push
