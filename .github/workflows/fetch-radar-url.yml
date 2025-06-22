@@ -68,8 +68,8 @@ jobs:
               /* small logo overlapping top-right of chart */
               #chart-container .logo {
                 position: absolute;
-                top: 380px;
-                right: 8px;
+                top: 360px;
+                right: 20px;
                 width: 40px;
                 height: auto;
                 z-index: 2;
