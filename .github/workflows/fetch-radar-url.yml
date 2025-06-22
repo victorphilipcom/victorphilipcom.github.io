@@ -16,7 +16,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
-      - name: Fetch and Create HTML
+      - name: Fetch Radar URL and Create HTML
         env:
           AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
         run: |
@@ -26,7 +26,7 @@ jobs:
             "https://api.airtable.com/v0/appZEmpmx9gs4yATK/Algorithm5_holdings?fields[]=Combined%20Radar%20URL" \
             -o radarRaw.json
 
-          # 2. Extract the first non-null URL
+          # 2. Extract the first non-null URL (already includes width/height params)
           FETCHED_URL=$(jq -r \
             '.records[]
              | select(.fields."Combined Radar URL" != null)
@@ -34,9 +34,9 @@ jobs:
             | head -n 1)
           echo "Fetched URL: $FETCHED_URL"
 
-          # 3. Derive just the chart ID (the sf-... suffix)
-          CHART_ID="${FETCHED_URL##*/}"
-          echo "Chart ID: $CHART_ID"
+          # 3. Append responsive=false
+          EMBED_URL="${FETCHED_URL}&responsive=false"
+          echo "Embed URL: $EMBED_URL"
 
           # 4. Generate radar_chart.html with a fixed-size iframe
           cat <<EOF > radar_chart.html
@@ -50,7 +50,7 @@ jobs:
           <body>
             <div id="chart-container" style="text-align:center;">
               <iframe
-                src="https://quickchart.io/chart-maker/view/\${CHART_ID}?width=1200&height=1200&devicePixelRatio=2&responsive=false"
+                src="$EMBED_URL"
                 width="1200"
                 height="1200"
                 frameborder="0"
@@ -61,7 +61,7 @@ jobs:
           </html>
           EOF
 
-          # 5. (Optional) verify the generated HTML
+          # 5. (Optional) inspect the generated HTML
           echo "---- radar_chart.html ----"
           cat radar_chart.html
 
@@ -70,6 +70,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar_chart.html
-          git commit -m "Update radar_chart.html with latest chart ID" || true
+          git commit -m "Update radar_chart.html with latest embed URL" || true
           git push
-
