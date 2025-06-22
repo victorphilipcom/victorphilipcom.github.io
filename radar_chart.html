@@ -23,12 +23,29 @@
     /* small logo overlapping top-right of chart */
     #chart-container .logo {
       position: absolute;
-      top: 350px;
-      right: 12px;
+      top: 353px;
+      right: 9px;
       width: 80px;
       height: auto;
       z-index: 2;
       opacity: 0.8;
+    }
+    /* instruction text above the legend */
+    #chart-container .legend-instruction {
+      position: absolute;
+      top: 400px;           /* place this just above the legend */
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 14px;
+      color: #333;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    #chart-container .legend-instruction .emoji {
+      font-size: 18px;
+      line-height: 1;
     }
     iframe {
       width: 100%;
@@ -40,6 +57,10 @@
 <body>
   <div id="chart-container">
     <img class="logo" src="https://cdn.cmsfly.com/66cdf8de421f9b001276b539/images/KopievanZondertitel-BYmVe.png" alt="Logo"/>
+    <div class="legend-instruction">
+    <span class="emoji">👇</span>
+    <span>Click the ticker</span>
+    </div>
     <iframe
       src="https://quickchart.io/chart-maker/view/sf-e8b15f67-9026-43b2-a58b-93c3e27a48c3?width=380&height=600&devicePixelRatio=2&responsive=false"
       allowfullscreen>
