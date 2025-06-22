@@ -41,7 +41,7 @@ jobs:
           # 4. Define your logo URL (small version)
           LOGO_URL="https://cdn.cmsfly.com/66cdf8de421f9b001276b539/images/KopievanZondertitel-BYmVe.png"
 
-          # 5. Generate radar_chart.html with header flex containing title + tiny logo
+          # 5. Generate radar_chart.html with title + tiny logo in header
           cat <<EOF > radar_chart.html
           <!DOCTYPE html>
           <html lang="en">
@@ -60,18 +60,28 @@ jobs:
               }
               .header {
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
+                position: relative;
                 width: 380px;
-                margin-top: -40px;
+                height: 40px;
+                margin-top: 20px;
+              }
+              .header h1 {
+                font-size: 20px;
+                margin: 0;
               }
               .header img {
-                width: 40px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 32px;
                 height: auto;
               }
               #chart-container {
                 width: 380px;
                 height: 600px;
+                margin-top: 10px;
               }
               iframe {
                 width: 100%;
@@ -82,6 +92,7 @@ jobs:
           </head>
           <body>
             <div class="header">
+              <h1>Factor Profile</h1>
               <img src="$LOGO_URL" alt="Logo"/>
             </div>
             <div id="chart-container">
