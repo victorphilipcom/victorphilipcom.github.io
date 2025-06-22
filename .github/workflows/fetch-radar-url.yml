@@ -79,7 +79,7 @@ jobs:
               #chart-container .legend-instruction {
                 position: absolute;
                 top: 450px;           /* place this just above the legend */
-                left: 27%;
+                left: 50%;
                 transform: translateX(-50%);
                 font-size: 24px;
                 color: #333;
