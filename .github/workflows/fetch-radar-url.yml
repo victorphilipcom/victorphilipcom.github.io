@@ -38,7 +38,7 @@ jobs:
           CHART_ID="${FETCHED_URL##*/}"
           echo "Chart ID: $CHART_ID"
 
-          # 4. Generate radar_chart.html using QuickChart’s embed.js
+          # 4. Generate radar_chart.html with a fixed-size iframe
           cat <<EOF > radar_chart.html
           <!DOCTYPE html>
           <html lang="en">
@@ -48,14 +48,14 @@ jobs:
             <title>Interactive Radar Chart</title>
           </head>
           <body>
-            <div id="chart-container">
-              <script async
-                src="https://quickchart.io/chart-maker/js/embed.js"
-                data-chart-id="$CHART_ID"
-                data-width="1600"
-                data-height="1170"
-                type="text/javascript">
-              </script>
+            <div id="chart-container" style="text-align:center;">
+              <iframe
+                src="https://quickchart.io/chart-maker/view/\${CHART_ID}?width=1200&height=1200&devicePixelRatio=2&responsive=false"
+                width="1200"
+                height="1200"
+                frameborder="0"
+                allowfullscreen>
+              </iframe>
             </div>
           </body>
           </html>
