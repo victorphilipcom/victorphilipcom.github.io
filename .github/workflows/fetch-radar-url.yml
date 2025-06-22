@@ -72,3 +72,4 @@ jobs:
           git add radar_chart.html
           git commit -m "Update radar_chart.html with latest chart ID" || true
           git push
+
