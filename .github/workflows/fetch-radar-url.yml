@@ -62,13 +62,13 @@ jobs:
               #chart-container {
                 position: relative;
                 width: 380px;
-                height: 600px;
+                height: 620px;
                 margin: 20px 0;
               }
               /* small logo overlapping top-right of chart */
               #chart-container .logo {
                 position: absolute;
-                top: 353px;
+                top: 363px;
                 right: 9px;
                 width: 80px;
                 height: auto;
@@ -78,7 +78,7 @@ jobs:
               /* instruction text above the legend */
               #chart-container .legend-instruction {
                 position: absolute;
-                top: 425px;           /* place this just above the legend */
+                top: 435px;           /* place this just above the legend */
                 left: 27%;
                 transform: translateX(-50%);
                 font-size: 24px;
