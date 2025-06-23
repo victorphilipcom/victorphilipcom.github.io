@@ -1,10 +1,20 @@
 [
   {
+    "fullTicker": "PGNY:USA",
+    "baseTicker": "PGNY",
+    "rank": "",
+    "description": "",
+    "logo": "",
+    "price": 20.98,
+    "prevClose": 21.65,
+    "absReturn": -0.6699999999999982
+  },
+  {
     "fullTicker": "CRDF:USA",
     "baseTicker": "CRDF",
     "rank": 1.4595,
     "description": "Cardiff Oncology, Inc., a clinical-stage biotechnology company, develops novel therapies to treat various cancers in California. The company's lead drug candidate is Onvansertib, an oral, small molecule drug candidate that is highly specific for PLK1 inhibition. It also focuses clinical program in indications, such as RAS-mutated metastatic colorectal cancer, as well as investigator-initiated ongoing or planned trials in metastatic pancreatic ductal adenocarcinoma, small cell lung cancer, and triple negative breast cancer; CRDF-004, a Phase 2 open-label, randomized multi-center clinical trial of onvansertib in combination with SoC FOLFIRI and bevacizumab or SoC FOLFOX and bevacizumab for the first-line treatment of patients with RAS-mutated mCRC; TROV-054, a Phase 1b/2 open-label multi-center clinical trial of onvansertib in combination with SoC FOLFIRI and bevacizumab for the second-line treatment of patients with KRAS-mutated mCRC; and CRDF-001, a Phase 2 open-label multi-center clinical trial of onvansertib in combination with nanoliposomal irinotecan leucovorin, and fluorouracil for second line treatment of patients with mPDAC. The company was formerly known as Trovagene, Inc. and changed its name to Cardiff Oncology, Inc. in May 2012. Cardiff Oncology, Inc. was incorporated in 1999 and is headquartered in San Diego, California.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/OGjq4m95ZndvfqTAh3uw2A/4jN87J_JfW4eFk-xYV7ymyBKBSmBK9c7zcDfQW6yvV7MdBK3K7tvF6xB5-4ynkzVPxnONk5nB_GDoanijglaxTpf5I0oqnC1k9CGeOdszmbYJv-DYaG_mmF8bE6Y9yZTG9CNG240UmWmP8Yn2hhSon-_Fq_4dFtt-rwZdrI2Yul1PO6sh_SKQi2wNtxZWd3j/MIQwWx9ZLa9o2yy8R2_0GxDfj7mypHDgaY78L6aG1lc",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/ehF0WnbiakmXHAs1DvmO5Q/FuqrXIwkTpu5F5MzL49R2Pyt5IoenHZvR5Qvmwz8cj59NsuIwHxs3x8vhKCGoERjQnvAGjIOfIQhiuE40M5_DPS2D7yBR3y6Kokx7-jtSGKtu34qW0YjbzaTVp3FePgOhh2GgGCjGdosa8pNw5HCtOZNInCA8ODvzYw-Qkk0lI5dpaYrp9D_yW1M9JpaCzsk/RMKpuTav22GSgAkXH2rn72Go16_St3g5nHOX1z37i2Y",
     "price": 3.1,
     "prevClose": 3.02,
     "absReturn": 0.08000000000000007
@@ -14,7 +24,7 @@
     "baseTicker": "BE",
     "rank": 10.8203,
     "description": "Bloom Energy Corporation designs, manufactures, sells, and installs solid-oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, a power generation platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through an electrochemical process without combustion. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, agriculture, retail, hospitals, higher education, biotech, and manufacturing industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/roo7rwuVJT7Q-LmBwAR8VA/14cbQCrdqojTpZXJ18nMWPaeWj_zKwI_AQvWKCexmwMkR8aSLHPw9N0LeAg9bXQxnU8qymzCKYSrPkWSExQL763O3tYz8g0EPH1KAlBU4M0rTu3AVxgBkKciFM4bkVa78TqbAelvjtbAON26nz5gkNA5Xr3Lj-iYZ0_YC5oiony2LOSQsslBr8JO0T6NgKXi/8rvlCvXEzEfp8breP28Us3Zta17FyNIGeCDI1UtyMks",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/xevOESCdlmz2xZR1b0uX6A/v72qyO0FzSsm2F2igF-jqJIiPZGGifsu7FOyZkg-Sn6KokesiSF18-_P-F7uL6_H6ePJetL2Vu2qesrJ2IpDTKINEdT8dw9VLQJYusvLgGQEeombe-Dk44Lj-A4YupV0SWQiWDZ8meyj9zh0qa88Q1UdSF6UaKOWVgs-Ces7GQX6C7VlsuEe9yVTlHrc_1mB/GsmxIzBUzTnhxJe7uowvUm3oW68GWPkiBs-A09jNeK8",
     "price": 21.75,
     "prevClose": 21.5,
     "absReturn": 0.25
@@ -24,7 +34,7 @@
     "baseTicker": "HRL",
     "rank": 14.0077,
     "description": "Hormel Foods Corporation develops, processes, and distributes various meat, nuts, and other food products to foodservice, convenience store, and commercial customers in the United States and internationally. It operates through three segments: Retail, Foodservice, and International segments. The company provides various perishable products that include fresh meats, frozen items, refrigerated meal solutions, bacons, sausages, hams, and guacamoles; and shelf-stable products comprising canned luncheon meats, nut butters, snack nuts, chili, shelf-stable microwaveable meals, hash, stews, tortillas, salsas, tortilla chips, nutritional food supplements, and others. It sells its products under the HORMEL, ALWAYS TENDER, APPLEGATE, AUSTIN BLUES, BACON 1, BLACK LABEL, BREAD READY, BURKE, CAFÉ H, CERATTI, CHI-CHI'S, COLUMBUS, COMPLEATS, CORN NUTS, CURE 81, DAN'S PRIZE, DI LUSSO, DINTY MOORE, DON MIGUEL, DOÑA MARIA, EMBASA, FAST N EASY, FIRE BRAISED, FONTANINI, HERDEZ, HORMEL GATHERINGS, HOUSE OF TSANG, JENNIE-O, JUSTIN'S, LA VICTORIA, LAYOUT, LLOYD'S, MARY KITCHEN, MR. PEANUT, NATURAL CHOICE, NUT-RITION, OLD SMOKEHOUSE, OVEN READY, PILLOW PACK, PLANTERS, ROSA GRANDE, SADLER'S SMOKEHOUSE, SKIPPY, SPAM, SQUARE TABLE, SPECIAL RECIPE, VALLEY FRESH, and WHOLLY brands through sales personnel, independent brokers, and distributors. The company was formerly known as Geo. A. Hormel & Company and changed its name to Hormel Foods Corporation in January 1995. Hormel Foods Corporation was founded in 1891 and is headquartered in Austin, Minnesota.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/91aw6Y0PI7BisKRlD4dccQ/tI-Ob1kw0JWQOIbgDK6XG-vP6s_efjIujEGAbqyMMxwg-D8lFvy2d9kttFuchRFeS5Blc69FZWrV6TacuLNoZ8uC_I8eZX1BNYR-D6BX7AhQVpVhua5SbvbUQj7UKI0hW-_48fXh9HWKc4GX8VyxlOLjTx8o6CZ4JMPzw20F_-y-ywAESgsudOsEcjlnPw0B/F95p8iP00C_5qSN6eD8zzsW76iCMxW7XBBNjZMz9SuM",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/Sv_he26C9rl23J27AvbXGw/7ZkLdKGjb6YY8NjHgDSk1rJHfbuOaPEA_voFCBd4HZIclasESRzhoo04ja3ljDuNRGhBQfnIYIo3D8zL_xqS4Xxqe34NtINEY6gNV4tFRZfH1iE-7Wb9Uk40tv2_HIauVPrPvyKPWwIhjM7u-RxEGy1sOUKBUIQ4Qt-bVk5FmjBy8IzXuxo_m_CvAaM4uPrD/bZCIIa_9VttJUgIbyZ8LKTPu31LjT-6dFdoMeXg5IjY",
     "price": 30.41,
     "prevClose": 30.16,
     "absReturn": 0.25
@@ -34,7 +44,7 @@
     "baseTicker": "DBI",
     "rank": 29.7601,
     "description": "Designer Brands Inc., together with its subsidiaries, engages in the design, production, and retailing of footwear and accessories in the United States and Canada. It operates through three segments: U.S. Retail, Canada Retail, and Brand Portfolio. The company offers dress, casual, and athletic footwear and accessories, as well as handbags for women, men, and kids. It sells its products under the Vince Camuto, Keds, Topo, as well as Jessica Simpson, Lucky Brand, Le Tigre, and Hush Puppies brands. The company offers its products through its direct-to-consumer stores and e-commerce sites; and a portfolio of banners, including DSW Designer Shoe Warehouse, The Shoe Co, and Rubino; and mobiles applications. The company was founded in 1991 and is based in Columbus, Ohio.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/BOU_ECd5jdOq6KPMLlX5og/_BmVIFes_7fY0kephW_GUizizxl4ah3ugyM-lLQgL9SgRhc6ns25hcWNTPNzIFLM9V6ocrIQyut9Z0fTgTsa2PC9tE8_Cgn3p4YZv-qpMyoa6Noct8-J7lURcmbPnPzuQpsuez7WjfegJeXpuBXYszHcMA49KX25KzWwNJ35FHxZFRV3gd70WeC9JVFwhwrb/pZqgUlKxAEH4_OOiSjx4v80SyMpA8jI0gP6ahp9K76g",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/6NVQPj862Grj6bYH4EXQ4A/yoR7WWsVthyMMTKILuA3itV5kfDYvjLXGh-FyuQfnYshsExsMw0hPpKOnFzwCbqFGCbGx8Z9Tv6jTMXpihfic5nFXibrvGjOztBQ6sNcxlWnhQeoTQJu3x_uJGsikiZE-QvyDBaO_AxbnonLPS5oXkqPWu2PiW2EiKkZfjWpSU-9nz-E-jB1Aevk-vA9xqVI/uH-jWUmMqv_GpMssDp3P4ohvwqkeFRP4junUwFtWJxo",
     "price": 2.29,
     "prevClose": 2.28,
     "absReturn": 0.010000000000000231
@@ -44,7 +54,7 @@
     "baseTicker": "LEE",
     "rank": 39.4565,
     "description": "Lee Enterprises, Incorporated provides local news and information, and advertising services in the United States. The company offers digital subscription platforms; daily, weekly, and monthly newspapers and niche publications; and web hosting and content management services. It provides advertising and marketing services, such as audience extension, search engine optimization, search engine marketing, web and mobile production, social media services, and reputation monitoring and management. In addition, the company offers integrated digital publishing and content management solutions for creating, distributing, and monetizing multimedia content for media publications, universities, television stations, and niche publications. Further, it provides commercial printing services; distributes third party products, as well as operates a digital marketing services agency. Lee Enterprises, Incorporated was founded in 1890 and is based in Davenport, Iowa.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/VJXgaPpjgt3cxbALOW6AHg/lPD4A5Lw0xWMZPfjJgBZjdTrHrxAkTJOVoqF0ZFarlWlvjXM4mOerpWv45AnGa5PSl7NK66FOSg0Ydj9yd6icG6Fyg2puxblEvpveuUf2qFYmOdQ03ufNNQZKa3m_snUptedJHKZG3C4YjSoShB9ACJH7BwKDMKZW31n_syzXAoJSCpWU088s0fCc2nqASWw/pP6K-Vvn3Duth_rU3acTTwhbs9FhfOdJbkf1n9r4O-o",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/Ex1CAwJV7uBr1ZqPI0Vfpw/Ofw7_mJWnGq0dfrQbGLY3vGtiNr6hNuF4xfod97SVxAGUhmaqdOT2NNyIUsTBNanHmGm5kSTZMUUy2AB0rMYQ6QNzVud1BGalLi0Kl3fa-k-Gkt6xXUanp6uMPMBeGpDhrLaA1sl-UQfFoGc5Htn0YmucEXSzdAq7HVZqfgzlljyLUEE9TKtpfzfLxfClryP/brtisksGeTKlPRa37LRFZ7wfZW7-N9DhCgSz1sAL5n4",
     "price": 6.16,
     "prevClose": 6.42,
     "absReturn": -0.2599999999999998
@@ -54,7 +64,7 @@
     "baseTicker": "GAP",
     "rank": 43.382,
     "description": "The Gap, Inc. operates as an apparel retail company. The company offers apparel, accessories, and personal care products for men, women, and children under the Old Navy, Gap, Banana Republic, and Athleta brands. Its products include adult apparel and accessories; and lifestyle products for use in yoga, training, travel, and recovery activities for women and girls. The company offers its products through company-operated stores, franchise stores, websites, and third-party arrangements, as well as licensing partnerships. It has franchise agreements to operate Old Navy, Gap, Banana Republic, and Athleta in Asia, Europe, Latin America, the Middle East, and Africa. The Gap, Inc. was incorporated in 1969 and is headquartered in San Francisco, California.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/DbGWgBxR1SnySfz756Dy-Q/aDhIdR6-hDYEL0VEdqH3x1ih6Jkc6Yxb9zDZX3cTqk5iKDHkW7qp_Jz87ZdsqInbTSBNnVA92kVzYvi6tz6jFbVdwVPLGnFkXkJaEv7ubwowvvAncF63nckDlhtkcg2Qk4MVaQeY1PwDZYjwIJHmUnX0G7IZKwE3Kpmpkg0DC1s/ge1X9bB2a91XJSzU6lQbQ4MDD2E-ubN1x5gmUY5W4M4",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/U0YKUtywFScrHpxkxlFEEw/BkP2d8Co1pxqSdMORN8uJG7_UZwqF8XgzemzA_wKoslB6eNYG_-qA2Hu3iPc5HB2hb89XRmv_kgARRU1MTwLCWctkfuSyP9SleTPmAQ-c2i8S1DBlXNLO4J0zg7KH_lfsXK7yxxNZCz1jZoOT_45cPWMWA89tVWMpySH_IVBbOc/zAB7uoJOjn3vil17mz4NMgRMTTKcj86clizWwjDi81Q",
     "price": 21.34,
     "prevClose": 20.86,
     "absReturn": 0.4800000000000004
@@ -64,7 +74,7 @@
     "baseTicker": "ATRC",
     "rank": 58.3459,
     "description": "AtriCure, Inc. develops, manufactures, and sells devices for surgical ablation of cardiac tissue, exclusion of the left atrial appendage, and temporarily blocking pain by ablating peripheral nerves to medical centers in the United States, the Asia-Pacific, and internationally. The company offers Isolator Synergy Clamps, a single-use disposable radio frequency products; multifunctional pens and linear ablation devices, a single-use disposable RF products for the treatment of cardiac arrhythmias; cryoICE Cryoablation System that enables the user to make linear ablations of varied lengths; and EPi-Sense Systems, a single-use disposable device used for the treatment of symptomatic, drug-refractory, and long-standing persistent atrial fibrillation. It also provides cryoSPHERE probe, which provides temporary pain relief by applying cryothermic energy to targeted intercoastal peripheral nerves in the ribcage; AtriClip System, an implantable device coupled to a single-use disposable applier; LARIAT System, a solution for soft-tissue closure; Lumitip dissectors to separate tissues to provide access to key anatomical structures that are targeted for ablation; Glidepath guides for placement of clamps; and Subtle Cannula's to support access for EPi-Sense catheters. In addition, the company sells various reusable cardiac surgery instruments. It markets and sells its products through independent distributors and direct sales personnel. The company was incorporated in 2000 and is headquartered in Mason, Ohio.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/fnQu_yLJGWbJ-gEQQy2O8w/y41w9jH2bD5sQQHz-GdQv7Pd2bMkOvChn-AV4Bbsf_3s2E0IkchrfnKYhGj02cHuDiSLR7uBJ5BakVF0GF9XBOS41CI7nIs7A6hfcigbiUruUhadpheVDFNSNYdPyH3I-C4543p4W62nLkfnFwV4BtGehCqqLnpa_v6d06DoXiQ/9pxv5flnHbcetQ1hXOfByZ2JSzHAv_zv9CFKfGXBkFc",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/KyYkb4yxiaotcDVPwNNdqw/q0tTf1OnhslwLZaiE_vfk5rmoHaZ49ckaoJExCuztSIwPk9j50yfjn548auCvjg1qUtsZPTy8Hpg98yFnNr-flkn8Obk6IoUS0jqmmJZHbHO36eyGFbGbHbMhYgvvLLA1L29ngqX7hCijMj9QivgrILxUgWs6VIsicAAFF1Und0/jUNvI5Livb4qg88uRxmY2c0tmbZEoPAoFX0qqrFt1Vk",
     "price": 31.4,
     "prevClose": 31.61,
     "absReturn": -0.21000000000000085
@@ -74,7 +84,7 @@
     "baseTicker": "LIN",
     "rank": 61.9191,
     "description": "Linde plc operates as an industrial gas company in the United States, China, Germany, the United Kingdom, Australia, Mexico, Brazil, and internationally. It offers atmospheric gases, including oxygen, nitrogen, argon, and rare gases; and process gases, such as hydrogen, helium, carbon dioxide, carbon monoxide, electronic gases, specialty gases, acetylene, etc. The company also designs and constructs turnkey process plants for third-party customers, as well as for the gas businesses in various locations consist of air separation, hydrogen, synthesis, olefin, and natural gas plants. It serves a range of industries comprising healthcare, chemicals and energy, manufacturing, metals and mining, food and beverage, and electronics. Linde plc was founded in 1879 and is based in Woking, the United Kingdom.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/mXs-1wCd3puBWDtphYCcBA/3i86BCMT2Ib3bqpd42vdy3eYVLi6g427z3VTgIB7u33X9c1RG2hguYo1c4-1ac1194n7WX7c4ilbxRfjMBMPxQNgnrS0MqcRAgDuWOOr3YZtNNW4_ZgjTG2S0BZUKIsqi7rIw1r15XPx40UXGEaBGX08d_ejmg2KrZwY3Pbddhg/F2LZQt6f34b0N0XTAMQXHa574rGKVXz4m3ckVeiPkI0",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/9ZyrwE5_8G-NxnkfIxnYvA/s0IIieY61-L3145YfmMJ5yKbLCyeR_T3--Apy7--8Sh96CQlyyJhStcImoHCC9xcxe8dHdRT1O-D2AsU5PsGrsipT5UWr1ylX8k8uzfemyIdnPeCY3q3GiUT2y4O3qEeGfPe9spDOAoVePmrnZxy6O4BStJTd9N50CsQGDlAWKg/mnnc4ST1Z_xm7VTtCPTAkXz7Bslg10HqxrRKs_aRzsc",
     "price": 455.86,
     "prevClose": 458.7,
     "absReturn": -2.839999999999975
@@ -84,20 +94,10 @@
     "baseTicker": "RMBS",
     "rank": 80.6241,
     "description": "Rambus Inc. manufactures and sells semiconductor products in the United States, South Korea, Singapore, and internationally. The company offers DDR memory interface chips comprising DDR5 memory interface chips which include registering clock driver, multiplexed registering clock driver, multiplexed data buffer, power management integrated circuits, serial presence detect hubs, temperature sensors, and client clock driver products; and DDR4 memory interface chips. It also provides silicon IP, such as interface and security IP solutions that move and protect data in advanced data center, government, and automotive applications; interface IP solutions for high-speed memory and chip-to-chip digital controller IP; security IP solutions, including crypto cores, hardware roots of trust, high-speed protocol engines, and chip provisioning technologies. In addition, the company offers portfolio of patents that covers memory architecture, high-speed serial links, and security products. It sells its products to memory module manufacturers, OEMs and hyperscalers, as well as to chip makers. The company markets its products and services through its direct sales force and distributors. Rambus Inc. was incorporated in 1990 and is headquartered in San Jose, California.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/kiDi4NcpKK0IVZZGFByU0Q/w6lHxq_u5POF4aFZzx_g7gh4LuV2LonuJhFpAlhbnh5ngH3jALWJ-H8ok6kPdR4S_mjGe1jampQyW2Yn5EnsE4JQBQG7zTOhFdCmyjp0a_tXhgbVQ4KvwsU0vmELk3eWFbMdrWxSbGyqKIyJ8pCoNXM4B3O_UNbQL5aCcSSqsMw/qGpoV7A398ohiYoFja08vkVpQh4ChFw6TxKm5mw8qgw",
+    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750687200000/XU-Do_Q2dS5z2KJDqV-Qsg/iMthk334wX9kTcP1YonUIIbPgvpFDnYLS2Lc1YRLzYS7S1BBRhKEC7ppgEh_No7TqPweq2_JYNU5i5mM94Dj1feGOYdur3HBtElTLQuXcl4cqpZdmWgHUM012gAFDO9CYRZGNfrS1DmzhQbdl3TYwHG3AKocWdWKqSipXf7eRhk/6xFvhE4srN1KRCosGcokg-Vey69sevh_8wO_zTBJx0w",
     "price": 59.38,
     "prevClose": 60.55,
     "absReturn": -1.1699999999999946
-  },
-  {
-    "fullTicker": "PGNY:USA",
-    "baseTicker": "PGNY",
-    "rank": 89.5152,
-    "description": "Progyny, Inc., a benefits management company, provides fertility, family building, and women's health benefits solutions in the United States. The company offers fertility benefits solutions, such as differentiated benefits plan design that includes smart cycle treatment bundle; personalized concierge-style member support services; and a selective network of fertility specialists. It also offers Progyny Rx, an integrated pharmacy benefits solution that provides access to the medications needed during their treatment and offers care management services. In addition, the company offers assistance service program where various services can be offered through a reimbursement program, including adoption, surrogacy, doula, and travel reimbursement when travel is required to receive medical services. The company was formerly known as Auxogyn, Inc. and changed its name to Progyny, Inc. in 2015. Progyny, Inc. was incorporated in 2008 and is headquartered in New York, New York.",
-    "logo": "https://v5.airtableusercontent.com/v3/u/42/42/1750680000000/RG1Uhtj0zNpQ90MuZoIVvw/Q6wnMzaz34MLM60uSAFXNemXBhFXZjnDBuk4ysd_yjRTRcIE31HzgFa1H8rZJILHSRmArVB0I2GEYsYdfiE_ukIIk4x5-ullZd2Y-n5jUEAUz2nvC_5BUiOFX20O4E8qIydE-wW5CH35Cun2_eCLEQAb0Fp9RCJ4-wr-h6usf08/1cmQriWCwxWFDNuiTlLWHZ1m7me0RnJ8l28lRBzMkDs",
-    "price": 20.98,
-    "prevClose": 21.65,
-    "absReturn": -0.6699999999999982
   },
   {
     "fullTicker": "SPY",
