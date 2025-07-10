@@ -35,9 +35,9 @@
     "rank": 24.2914,
     "description": "Nuvve Holding Corp., a green energy technology company, provides commercial vehicle-to-grid (V2G) technology platform in the United States, the United Kingdom, France, Japan, and Denmark. The company offers Grid Integrated Vehicle platform which enables electric vehicle (EV) batteries to store and resell unused energy back to the local electric grid and provide other grid services; and allows EV owners to meet the energy demands of individual vehicles and entire fleets. Its V2G technology also links EV batteries into a virtual power plant that sells excess power to utility companies or utilizes saved power to reduce building energy peak consumption. In addition, the company offers networked charging stations, infrastructure, software, professional services, support, monitoring, and parts and labor warranties required to run electric vehicle fleets. It serves its products to owner/operators of light duty fleets, heavy duty fleets, automotive manufacturers, charge point operators, and strategic partners. The company was founded in 2010 and is headquartered in San Diego, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/43/43/1752163200000/imcfg2dYI8u9kA7WaEnOSA/ssNU9FHijSF4mSV7BAJ-C77x2C6rS0yVyci_74nWNd1egpa3mBWy3DfOZU9Yw7_K2MAoKZ4wBJav_tNTh2fHT8-LepTfG6CSfKW-ANX8FBPwIm4S4SLrGPGZdos6voXfpxzqE9iWPXQHqGhSnUhoZ7GQhyW7u5Ro54qI3UdVsytEIsKGl96267_QTZox3NUx/QmlOscwE5vQQo_jG2QaAnZ8ZzpLHJKmleM1tBRt5VCo",
-    "price": 1.03,
+    "price": 1.01,
     "prevClose": 1.03,
-    "absReturn": 0
+    "absReturn": -0.020000000000000018
   },
   {
     "fullTicker": "SXI:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 624.06,
-    "prevClose": 620.34,
-    "absReturn": 3.7199999999999136
+    "price": 624.02,
+    "prevClose": 624.06,
+    "absReturn": -0.03999999999996362
   }
 ]
