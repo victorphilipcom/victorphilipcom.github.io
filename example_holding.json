@@ -1,36 +1,9 @@
 [
   {
-    "baseTicker": "VOT:POL",
-    "rank": 99.9833,
-    "logo": [
-      {
-        "id": "attcTS4eQtpBxihf1",
-        "width": 200,
-        "height": 200,
-        "url": "https://v5.airtableusercontent.com/v3/u/43/43/1752494400000/IflXvG4dXTU7Pt_BvhfZHw/_h0m2JYta2D-9EWYtgRuGYpnFSAT5cFvaDBHCczYP9ufl-6Olj1nx0tB7CPG7LsMKvC_7EovfWK8EifvOlcbnlxmhOeV2L6DdTkiHl3MW5QOAmx-dV6AYzIodgG0CeNIdj1JpHlLpVjImfRL5FiUrG_DBPEKJK9-w41aFB7qbE0/3ReGYV2CBpqwMtgZb0wD-Hn8IwvhF80f94fSQl2ouUA",
-        "filename": "www.votum-sa.pl",
-        "size": 10467,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/43/43/1752494400000/VwqJbcCd3ClW-jKHB8STpQ/MA1pEIlHAQORE9MBf5a0zIKTQEeQOKWr2xW4v4z6So9DCNLVFbz9bgkomsOigk_cfp2WUUEfVWZ-9vRuDHCHvkS50N8HhiDC6IVnPKvlwfHruIi7fhY6BNQu64eJ8QDk61xXdgaLgQXWHA_--eqQIQ/NwkiS3qtaj6HA5EFNFYMbOmxOFX0ULeasIXTNGWzvEU",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/43/43/1752494400000/7byW5jPzo1UyP1CbrzJDFw/h1klr8StHsvxDGjPVZN7oFbz4-zlz1_0GbFOsI17ETOJs2jFrIjGan92AwRQPafaw5hOZsZtS93NEJILrth6Uc_9VOK3lzAx7DFfTUYm_4ecLPTyMrt-_Tjo3wZR16tKypJLfU_UVRXnrU_YXi9h-Q/dWIvNJpdaUOof11WIZTE17HDvkhW-GGX3Dna9YnoIe8",
-            "width": 200,
-            "height": 200
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/43/43/1752494400000/cwb1InRuTMEYT2o7tqWTRA/tmrRII-Sdw2_ysOQODC98p08OLGgsZoezTINuu1EZdSqIo_XhWLwBh6TgvPkOVEuDS80urISZTm4vH1osoPVMf2Xw-IZA8JdrbXEVOo8ldXjiwbr0WiQs-5mBwZyQXL651xD1ZQNg9opD3FWZO61wg/8zecqLMhXp1ghr4OGcS-BBRkvt3msg_hCDCUUCAvK94",
-            "width": 200,
-            "height": 200
-          }
-        }
-      }
-    ],
-    "name": "Votum SA",
-    "description": "Votum S.A. provides assistance for obtaining compensation. It helps victims of traffic accidents in obtaining compensation from insurance companies. The company was founded in 2005 and is headquartered in Wroclaw, Poland."
+    "baseTicker": "NATR:USA",
+    "rank": 0,
+    "logo": "",
+    "name": "Nature's Sunshine Products, Inc.",
+    "description": ""
   }
 ]
