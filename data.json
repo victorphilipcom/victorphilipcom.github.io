@@ -5,9 +5,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 18.22,
+    "price": 17.97,
     "prevClose": 16.23,
-    "absReturn": 1.9899999999999984
+    "absReturn": 1.7399999999999984
   },
   {
     "fullTicker": "DATS:USA",
@@ -25,9 +25,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 2.855,
+    "price": 2.785,
     "prevClose": 2.88,
-    "absReturn": -0.02499999999999991
+    "absReturn": -0.09499999999999975
   },
   {
     "fullTicker": "TKO:USA",
@@ -35,9 +35,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 173.505,
+    "price": 174.49,
     "prevClose": 172,
-    "absReturn": 1.5049999999999955
+    "absReturn": 2.490000000000009
   },
   {
     "fullTicker": "ACTU:USA",
@@ -55,9 +55,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 308.55,
+    "price": 310.17,
     "prevClose": 309.16,
-    "absReturn": -0.6100000000000136
+    "absReturn": 1.009999999999991
   },
   {
     "fullTicker": "SWX:USA",
@@ -65,9 +65,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 77.32,
+    "price": 77.35,
     "prevClose": 77.04,
-    "absReturn": 0.2799999999999869
+    "absReturn": 0.30999999999998806
   },
   {
     "fullTicker": "XPRO:USA",
@@ -75,9 +75,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 9.425,
+    "price": 9.285,
     "prevClose": 9.49,
-    "absReturn": -0.0649999999999995
+    "absReturn": -0.20500000000000007
   },
   {
     "fullTicker": "JVA:USA",
@@ -95,9 +95,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 188.025,
+    "price": 188.46,
     "prevClose": 187.56,
-    "absReturn": 0.4650000000000034
+    "absReturn": 0.9000000000000057
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 622.8,
+    "price": 622.775,
     "prevClose": 623.62,
-    "absReturn": -0.82000000000005
+    "absReturn": -0.8450000000000273
   }
 ]
