@@ -15,9 +15,9 @@
     "rank": 12.4959,
     "description": "AXT, Inc. designs, develops, manufactures, and distributes compound and single element semiconductor substrates. The company offers indium phosphide for use in data center connectivity using light/lasers, high-speed data transfer in data centers, 5G communications, fiber optic lasers and detectors, consumer devices, passive optical networks, silicon photonics, photonic integrated circuits, thermo-photovoltaics, RF amplifier and switching, infrared light-emitting diode (LEDS) motion control, lidar for robotics and autonomous vehicles, and infrared thermal imaging. It also provides semi-insulating gallium arsenide (GaAs) substrates for use in Wi-Fi and IoT devices, transistors, direct broadcast television, power amplifiers, satellite communications, and solar cells; and semi-conducting GaAs substrates that are used in LEDs, screen displays using micro-LEDs, printer head lasers and LEDs, 3-D sensing using VCSELs, data center communication using VCSELs, sensors for industrial robotics/near-infrared sensors, optical couplers, solar cells, night vision goggles, lidar for robotics and autonomous vehicles, and other lasers, as well as laser machining, cutting, and drilling. In addition, the company offers germanium substrates for use in multi-junction solar cells for satellites, optical sensors and detectors, terrestrial concentrated photo voltaic cells, infrared detectors, and carrier wafer for LED. Further, it provides 6N+ and 7N+ purified gallium, boron trioxide, gallium-magnesium alloy, pyrolytic boron nitride (pBN) crucibles, and pBN insulating parts. It sells its products through direct salesforce in the United States, China, and Europe, as well as through independent sales representatives and distributors in Japan, Taiwan, Korea, and internationally. The company was formerly known as American Xtal Technology, Inc. and changed its name to AXT, Inc. in July 2000. AXT, Inc. was incorporated in 1986 and is headquartered in Fremont, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/43/43/1753142400000/TWuV3uzXY32Ea25EFcjz8w/2eRjIy7qbyJ1lzXug79pxvqcH4tZMMiQxBcivFX8ah1tr_N4cQRFskoxEtP77tU81fUnP4_vcbZfwDzmRe_4ltOUbFoxbTmq3xfHHXfXS1c4hT2n8AYgzpOVnq1adBx89wA7v7NLqQ9pgrVehGS8dQtz5kMpv_M4TuGTkJmafAQ/O_0G7f-qS-7r7jSxEEIxWTGUxtnDh0UGmM-50l3Mnic",
-    "price": 2.315,
+    "price": 2.32,
     "prevClose": 2.44,
-    "absReturn": -0.125
+    "absReturn": -0.1200000000000001
   },
   {
     "fullTicker": "SLB:USA",
@@ -35,9 +35,9 @@
     "rank": 22.3566,
     "description": "Atossa Therapeutics, Inc. operates as a clinical-stage biopharmaceutical company that develops medicines in the areas of unmet medical need in oncology for women breast cancer and other conditions in the United States. The company's lead drug candidate is oral (Z)-endoxifen, an active metabolite of tamoxifen, which is in Phase II clinical trials to treat and prevent breast cancer. It also develops immunotherapy/chimeric antigen receptor therapy programs. The company was formerly known as Atossa Genetics Inc. and changed its name to Atossa Therapeutics, Inc. in January 2020. Atossa Therapeutics, Inc. was founded in 2008 and is based in Seattle, Washington.",
     "logo": "https://v5.airtableusercontent.com/v3/u/43/43/1753142400000/atJhqtby39NA9YqIsAU7AQ/fUoHz4eSzFB8eqrTwmfW_SJJsWmrwyxJWvC43sFWUxZmtox60nDG5r9h3Zmft5-DBUFogzVuvNGbL33a24DPz2kDbh0oe6jGq9QNJUPVb6VuRnz2ca4PQDnYuQMv9Zv_mDlgK4OYpW3l8kGsmKEnjchnLp3m1Vyx-gzXmq8AKvsjvz98tFYy7-XbMB-EI7Bj/kDeiLFe8DDi0bwZREUAA_25KUIm1-_7TEaNxLkPA92k",
-    "price": 0.8485,
+    "price": 0.8487,
     "prevClose": 0.8419,
-    "absReturn": 0.00660000000000005
+    "absReturn": 0.006800000000000028
   },
   {
     "fullTicker": "BWEN:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 628.98,
+    "price": 628.77,
     "prevClose": 627.58,
-    "absReturn": 1.3999999999999773
+    "absReturn": 1.1899999999999409
   }
 ]
