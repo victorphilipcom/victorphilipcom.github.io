@@ -15,9 +15,9 @@
     "rank": 6.2821,
     "description": "Super Micro Computer, Inc., together with its subsidiaries, develops and sells high performance server and storage solutions based on modular and open architecture in the United States, Europe, Asia, and internationally. It offers various IT solutions, including complete servers, storage systems, modular blade servers, blades, workstations, full-rack scale solutions, networking devices, server sub-systems, and server management and security software. The company also provides application-optimized server solutions, rackmount and blade servers, storage, and subsystems and accessories; and server software management solutions, such as Server Management Suite, including Supermicro Server Manager, Supermicro Power Management software, Supermicro Update Manager, SuperCloud Composer, and SuperDoctor 5. In addition, it offers server subsystems and accessories comprising server boards, chassis, power supplies, and other accessories. Further, the company identifies service requirements, creates and executes project plans, conducts verification testing and training activities, and provides technical documentation services. Additionally, it offers help desk and on-site support services for its server and storage systems; and customer support services, including ongoing maintenance and technical support for its products. The company provides its products to enterprise data centers, cloud computing, artificial intelligence, 5G, and edge computing markets. It sells its products through direct and indirect sales force, distributors, value-added resellers, system integrators, and original equipment manufacturers. The company was incorporated in 1993 and is headquartered in San Jose, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/43/43/1754064000000/YJVNrfv-aiCyQEac1Ee-Iw/--DdRHZHT0Mbf7begOmHV3CMW9LqKhMdQdmeWBceBQCRG4QPLjK3mYbebRJ2GAsEJfNO1R2oG1syYQKWsxxTnmrXEUKY17hCRuo3GFRwc5CeANtj0vaU_ky1wD-w6QM2kQphO4KSwedm4xUkhnjfKXwt9ARe5Hf-U1l8DBF5jnYilHg_SC0f1LZtte4LR83E/plDi9vlfjdrpeFhf-LKFs0zY_nCPAp8_L9dLvKiQrGU",
-    "price": 56.93,
+    "price": 56.49,
     "prevClose": 58.97,
-    "absReturn": -2.039999999999999
+    "absReturn": -2.479999999999997
   },
   {
     "fullTicker": "CRWD:USA",
@@ -25,9 +25,9 @@
     "rank": 18.3822,
     "description": "CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally. Its unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data through a software as a service (SaaS) subscription-based model. The company offers corporate endpoint and cloud workload security, managed security, security and vulnerability management, IT operations management, identity protection, threat intelligence, data protection, SaaS security posture management, and AI powered workflow automation, and securing generative AI workload services, as well as security orchestration, automation, and response; and security information and event management, and log management services. It primarily sells subscriptions to its Falcon platform and cloud modules. CrowdStrike Holdings, Inc. was incorporated in 2011 and is headquartered in Austin, Texas.",
     "logo": "https://v5.airtableusercontent.com/v3/u/43/43/1754064000000/U_k2ecMZ_y0l0saPcxsbbg/1-zKVyatNX85LhsdJynhutzxYonSNeWxTMqgrXv_w0JURVGL9D_n_yL8VG0jWjM6FC-cMg-24spfwedR3CpJeRDRUYq86OTzaPsgyHtdZ7Y7uwS0J98k7Z1nMetXEIgD_5ZxkJaPtnf8Px6I5oeobNbJ7uulFmCr0ivkmacPlzu9C4JeHj_yTUoqKLSGhePp/vX93PTZnKrPdPAzy7CRxSirNfPOKqVkQXtlL1QCj4Y0",
-    "price": 450.6,
+    "price": 448.64,
     "prevClose": 454.57,
-    "absReturn": -3.9699999999999704
+    "absReturn": -5.930000000000007
   },
   {
     "fullTicker": "SDHC:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 626.73,
+    "price": 625.95,
     "prevClose": 632.08,
-    "absReturn": -5.350000000000023
+    "absReturn": -6.1299999999999955
   }
 ]
