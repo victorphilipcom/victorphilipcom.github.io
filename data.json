@@ -45,9 +45,9 @@
     "rank": 32.5848,
     "description": "Peabody Energy Corporation engages in coal mining business. It operates through Seaborne Thermal, Seaborne Metallurgical, Powder River Basin, Other U.S. Thermal, and Corporate and Other segments. The company is involved in the mining, preparation, and sale of thermal coal primarily to electric utilities; mining bituminous and sub-bituminous coal deposits; low sulfur and high British thermal unit thermal coal; and mining metallurgical coal, such as hard coking coal, semi-hard coking coal, semi-soft coking coal, and pulverized coal injection coal. It supplies coal primarily to electricity generators, industrial facilities, and steel manufacturers. In addition, the company engages in trading of coal and freight-related contracts, as well as provides transportation-related services. It operates in the United States, Japan, China, Australia, Taiwan, Indonesia, Brazil, Malaysia, Belgium, India, France, Vietnam, South Korea, Germany, and internationally. Peabody Energy Corporation was founded in 1883 and is headquartered in Saint Louis, Missouri.",
     "logo": "https://v5.airtableusercontent.com/v3/u/44/44/1754956800000/VYlymEK-V_KiGeyZCB-oqA/lLRMuvl8TOIa-Yp816x-AXEw9nR3jHq2EKJNe5aWXIeeA5ih5hl0RuEWRC1Sl0zPwP6yDGvKOB0VQsc5ZelIx0tN6JhEJY5rMekKwGrHcJ-PBExWBZtKp_9ewzLsiSCnrPUvffTZjNUMefCz2hLR0CdPTEVQgS7eedzNMZtnt48HgMDCCz6g_5G-anKRzEMr/ZqGHj3aZWHtafOGJh6hbI_7bD1Bi7ZnqLQW7NO9Jsw8",
-    "price": 17.605,
+    "price": 17.6,
     "prevClose": 17.27,
-    "absReturn": 0.33500000000000085
+    "absReturn": 0.33000000000000185
   },
   {
     "fullTicker": "CATO:USA",
@@ -55,9 +55,9 @@
     "rank": 43.4464,
     "description": "The Cato Corporation, together with its subsidiaries, operates as a specialty retailer of fashion apparel and accessories primarily in the southeastern United States. It operates through two segments, Retail and Credit. The company's stores and e-commerce websites offer a range of apparel and accessories, including dressy, career, and casual sportswear; and dresses, coats, shoes, lingerie, costume jewelry, and handbags, as well as men's wear, and lines for kids and infants. It operates its stores and e-commerce websites under the Cato, Cato Fashions, Cato Plus, It's Fashion, It's Fashion Metro, and Versona names. It also provides credit card services to its customers, as well as layaway plans for customers. The Cato Corporation was incorporated in 1946 and is headquartered in Charlotte, North Carolina.",
     "logo": "https://v5.airtableusercontent.com/v3/u/44/44/1754956800000/x9c5bQttJKtQ6poSxxJBKw/orXfEwSHFGmIy8sLMsIBXkcGWBRhfM17UT1NMWIUzi6DFwsxk8WjLSse_ufpdhMGludcWl9PCnxL3xkSLiHpV95cq1ggKDdsqeGCyzEc_W05q9vb-FcUqhcTG_Jp91Y0G8LivkoUSbGx_EWA-cx_dPxCiUVM14_quil3e59dyeM/aO8aiy-OK9BPBFHxasTioDgJog-yee9cgIdcLXW3sOU",
-    "price": 2.76,
+    "price": 2.79,
     "prevClose": 2.85,
-    "absReturn": -0.0900000000000003
+    "absReturn": -0.06000000000000005
   },
   {
     "fullTicker": "MTN:USA",
@@ -95,9 +95,9 @@
     "rank": 92.4651,
     "description": "Bumble Inc. provides online dating and social networking applications in North America, Europe, internationally. It owns and operates websites and applications that offers subscription and in-app purchases of products. The company operates apps, including Bumble, a dating app built with women at the center, where women make the first move; Badoo, the web and mobile free-to-use dating app; Bumble BFF and Bumble Bizz Modes that have a format similar to the date mode requiring users to set up profiles and matching users through yes and no votes, similar to the dating platform; and Bumble for Friends, a friendship app where people in all stages of life can meet people nearby and create meaningful platonic connections, as well as Geneva app where users can create and join chat, forum, audio, video, and broadcast rooms. The company was founded in 2020 in and is headquartered in Austin, Texas.",
     "logo": "https://v5.airtableusercontent.com/v3/u/44/44/1754956800000/GSOXkckbp8DvB3GzyVnvCA/KoaqJvCoGew6xr-RDQ47JQZ6UkcKC_OxvvvcxlHzwnI33hy-cFJl_6PX8BlFI-BBrupUcdlcVchOQFNPi03J_RkKtdmAseN-Hh5D1wpPdCLL-d4eaFcIZ3Jd0H2lbWtQKhALEk_OJE5l_n6xJM15tgAXUV_P9JyLKew_deFX5Po/YtZGqgL4_eI0vT4x6YDl6A5RqjD4nJH9CyVn1Ez7ONc",
-    "price": 6.305,
+    "price": 6.32,
     "prevClose": 6.32,
-    "absReturn": -0.015000000000000568
+    "absReturn": 0
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 635.43,
+    "price": 635.92,
     "prevClose": 637.18,
-    "absReturn": -1.75
+    "absReturn": -1.259999999999991
   }
 ]
