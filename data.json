@@ -35,9 +35,9 @@
     "rank": 25.1613,
     "description": "Enveric Biosciences, Inc., a biotechnology company, engages in the development of small-molecule therapeutics for the treatment of anxiety, depression, and addiction disorders. Its lead product candidates are EB-002, an active metabolite of psilocybin, which is in preclinical development stage for the treatment of anxiety disorders; and EB-003 that is in preclinical development stage for the treatment mental health. The company also focuses on the development of cannabinoid conjugate molecules for the treatment of pain and cancer. Enveric Biosciences, Inc. is headquartered in Naples, Florida.",
     "logo": "https://v5.airtableusercontent.com/v3/u/44/44/1756396800000/wMfSC9NyBvbGdGcnfxahyA/Ae0GgQsIVeRlIL_uBgDyje06tSxk5ZRbMnhSnnsN-BNoqTCcTgbLpdT5Bblq0I2ZfOCr0WoG4E7x8JBgLry6J4E_NFtUBA-3ob6hi_ObzDHp7rI5gNkHotTNi9zFdZXrl_R6Nw7ZmIR5g617B4o8gAjeBax12CE2YsOC-UcVCObTLtRhcpN2PfSAnmUpsU2k/bH8e0R-RuoViEEcr4S_h1RoD17Q7fwwZaHWVU5IMUHc",
-    "price": 1.45,
-    "prevClose": 1.3292,
-    "absReturn": 0.12080000000000002
+    "price": 1.39,
+    "prevClose": 1.45,
+    "absReturn": -0.06000000000000005
   },
   {
     "fullTicker": "INSP:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 646.94,
+    "price": 647.15,
     "prevClose": 646.63,
-    "absReturn": 0.3100000000000591
+    "absReturn": 0.5199999999999818
   }
 ]
