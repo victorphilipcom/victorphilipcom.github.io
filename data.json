@@ -45,9 +45,9 @@
     "rank": 38.636,
     "description": "C3is Inc. offers international seaborne transportation services. It provides its services to dry bulk charterers, including national and private industrial users, commodity producers and traders, oil producers, refineries, and commodities traders and producers. The company owns and operates a fleet of two drybulk carriers, which transport major bulks, such as iron ore, coal and grains, as well as minor bulks comprising bauxite, phosphate, and fertilizers, and one Aframax crude oil tanker that transports crude oil. C3is Inc. was founded in 2021 and is based in Athens, Greece.",
     "logo": "https://v5.airtableusercontent.com/v3/u/46/46/1759852800000/OGWlE2h5Nq4z1cF1ebCWKw/T6EcKpXGRNxdbQs3HM9_ajUXTx8hxIfjCX6AgTZ_DwdupnhgiqI4ZPuhrmPlQA_OPmhy0MxcakmvTlzdHt6AmEkY5JF3crM5d4au0nvzLvYBd9tUQ5r42Y7QlSOC-txMTic_L4B-97WeALwoWX5n4KyjSgTGrMbk70Hg6KbS8xo/BYU8GhcmGv9G95egduKllrP7KZux63DMhE07wXjInpc",
-    "price": 3.21,
+    "price": 3.22,
     "prevClose": 2.21,
-    "absReturn": 1
+    "absReturn": 1.0100000000000002
   },
   {
     "fullTicker": "MSM:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 671.955,
+    "price": 672.89,
     "prevClose": 671.61,
-    "absReturn": 0.3450000000000273
+    "absReturn": 1.2799999999999727
   }
 ]
