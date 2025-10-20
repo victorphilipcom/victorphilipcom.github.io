@@ -5,9 +5,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 2.28,
-    "prevClose": 2.54,
-    "absReturn": -0.26000000000000023
+    "price": 2.405,
+    "prevClose": 2.28,
+    "absReturn": 0.125
   },
   {
     "fullTicker": "MVIS:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 664.39,
-    "prevClose": 660.64,
-    "absReturn": 3.75
+    "price": 666.56,
+    "prevClose": 664.39,
+    "absReturn": 2.169999999999959
   }
 ]
