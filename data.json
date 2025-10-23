@@ -55,9 +55,9 @@
     "rank": 52.5582,
     "description": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions, spanning the data center core to network edge. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and switches; single or multiple core processors; and custom application specific integrated circuits. The company also provides interconnect products, including pulse amplitude modulation, coherent and coherent-lite digital signal processors (DSPs), laser drivers, trans-impedance amplifiers, silicon photonics, co-packaged optics, linear pluggable optics chipsets, data center interconnect, active electrical cable DSPs and peripheral component interconnect express retimer solutions; fibre channel products comprising host bus adapters and controllers; storage controllers for hard disk drives and solid-state-drives; host system interfaces, including serial advanced technology attachment and serial attached SCSI, peripheral component interconnect express, non-volatile memory express (NVMe), and NVMe over fabrics. It operates in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, and Vietnam. Marvell Technology, Inc. was incorporated in 1995 and is headquartered in Wilmington, Delaware.",
     "logo": "https://v5.airtableusercontent.com/v3/u/46/46/1761235200000/m00njR00eblHnSIeuy6nJw/ZTwyPreOHVHzH2VEi9aiymiSq-mZJhCU-NEpWc3H8YI9Kcq08TE7vJKMcdNLfyqCmx5gXBbXAZUp3tQLLf-ZBIPAo19lYlTBZVs_BXjVdVA60rmnrO2jrlg_cYBpfpkdUZIruCQKM7NK25BPjaKzrDPaU4j6U6J0Ses6cEToIdzBp8lItTwy-QZ9A5rKegzA/yJfaymnUemrk_8KmjZJ7FbhQD5E5-M-QfA1vgBHmA8Q",
-    "price": 81.05,
-    "prevClose": 84.26,
-    "absReturn": -3.210000000000008
+    "price": 80.37,
+    "prevClose": 81.05,
+    "absReturn": -0.6799999999999926
   },
   {
     "fullTicker": "CVU:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 666.72,
+    "price": 667.47,
     "prevClose": 667.8,
-    "absReturn": -1.0799999999999272
+    "absReturn": -0.32999999999992724
   }
 ]
