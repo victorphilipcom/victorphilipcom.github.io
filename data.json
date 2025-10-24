@@ -5,9 +5,9 @@
     "rank": 3.7056,
     "description": "Eledon Pharmaceuticals, Inc. operates as a clinical stage biotechnology company. The company uses its immunology expertise in targeting the CD40 Ligand (CD40L, also called CD154) pathway to develop therapies to protect transplanted organs and prevent rejection, and to treat amyotrophic lateral sclerosis (ALS). The company's lead compound in development is tegoprubart, an IgG1 and anti-CD40L antibody with high affinity for CD40 Ligand, a biological target with therapeutic potential. It is also developing its products for kidney transplantation, xenotransplantation, and liver transplantation. The company has a collaboration agreement with eGenesis, Inc. The company was formerly known as Novus Therapeutics, Inc. and changed its name to Eledon Pharmaceuticals, Inc. in January 2021. Eledon Pharmaceuticals, Inc. is headquartered in Irvine, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/46/46/1761336000000/9OXSGIfN0aEQK2inhg86Zw/og1-uRMhTnJVOgzEBmEhWap0f5MSUI9ptS2q7CtHO0smDzqPnF5sj-WWvfI-BsniXdUmaJOIC-28aVOxv30ARFf24RLjf6mqWVKR92D-8dbsp78TZlnPOHZ-UK2qKmzt9zXggArm3kvGjADgou0RXp7la6rvZtTG4VFE2YCJltcz_nAboCb9qrzje_NRv6Qj/13ndhIszLe1W37EJlhfj4Ze283iozD5kkf4TilRx_G4",
-    "price": 3.495,
+    "price": 3.475,
     "prevClose": 3.29,
-    "absReturn": 0.20500000000000007
+    "absReturn": 0.18500000000000005
   },
   {
     "fullTicker": "SHPH:USA",
@@ -85,9 +85,9 @@
     "rank": 85.9595,
     "description": "Visteon Corporation, an automotive technology company, designs, manufactures, and sells automotive electronics and connected car solutions for vehicle manufacturers. The company provides instrument clusters, including analog gauge clusters for 2-D and 3-D display-based devices; information displays that integrate a range of user interface technologies and graphics management capabilities, such as active privacy, TrueColor enhancement, local dimming, cameras, optics, haptic feedback, and light effects; and infotainment and connected car solutions, including scalable Android infotainment for seamless connectivity, as well as onboard artificial intelligence-based voice assistants with natural language understanding. It offers display audio and embedded infotainment platform that enables third-party developers to create apps through a software development kit and software simulation of the target hardware system; and wired and wireless battery management systems; and power electronics units. In addition, the company provides SmartCore, an automotive-grade, integrated domain controller; SmartCore Runtime, a middleware enabling communication between domains and apps to be shown on any display; and SmartCore Studio, a PC-based configuration tool to generate hypervisor configurations. It operates in the United States, Mexico, Portugal, Slovakia, Tunisia, rest of Europe, China, India, Japan, rest of the Asia Pacific, and South America. Visteon Corporation was incorporated in 2000 and is headquartered in Van Buren, Michigan.",
     "logo": "https://v5.airtableusercontent.com/v3/u/46/46/1761336000000/LTIkK72a1xS3nYWBsghCZA/oZXT2SgfL1WALXMmxl58vOw1pHz0hS4DcdhXoUtlROQR9F48cqvbc2GpuxbeHtz5DaEbD7shqoP-VxlrwF96UQ-uci8GGXf-c1j8FrdDMFtl1bE2jZKFauoko72FeiEL39WnNdQLuVzq6JXQTMRuToggVnrDKql7hZd-CvO5e2E/46Wzo4nolu_BEwHP3W3q-t_BMGwuR9tBz5CJ9_oV_nA",
-    "price": 109.66,
+    "price": 109.65,
     "prevClose": 110.22,
-    "absReturn": -0.5600000000000023
+    "absReturn": -0.5699999999999932
   },
   {
     "fullTicker": "CPRX:USA",
@@ -95,9 +95,9 @@
     "rank": 88.6113,
     "description": "Catalyst Pharmaceuticals, Inc., a commercial-stage biopharmaceutical company, focuses on developing and commercializing medicines for patients living with rare diseases in the United States. It offers Firdapse for the treatment of patients with lambert-eaton myasthenic syndrome (LEMS); Fycompa, a novel non-competitive selective antagonist at the postsynaptic ionotropic alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid glutamate receptor that is used to treat focal onset seizures, as well as tonic-clonic seizures; Ruzurgi for the treatment of pediatric LEMS patients; and AGAMREE, a corticosteroid for the treatment of duchenne muscular dystrophy. The company has license agreements with BioMarin Pharmaceutical Inc.; and a collaboration and license agreement with Endo Ventures Limited for the development and commercialization of generic Sabril tablets. Catalyst Pharmaceuticals, Inc. was founded in 2002 and is based in Coral Gables, Florida.",
     "logo": "https://v5.airtableusercontent.com/v3/u/46/46/1761336000000/nncvn9Q_F09TT3Qrq4bInQ/v98_ssuOHPZkSDSsXr4RNIosvbhBfCq50dv94SBJvKSuLtL2Ol76cqrDrhs_ybhr_x0Df6ILAUGn7qHEQl8YGUPZ5eJBfFjconu5J48l115aMHDFpJodk0UKkhS7pYbkFy8VtG6D44CCfdk0gwBfmpezlve-0GNaWMXjlhEC_DZnxLVkkNSavIG5yb-bfEU4/qV5Dz-1uRvB3BvE0lNfNI7-vOy_qHbLfg1mFUkzVm_g",
-    "price": 21.075,
+    "price": 21.1,
     "prevClose": 20.73,
-    "absReturn": 0.34499999999999886
+    "absReturn": 0.370000000000001
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 678.235,
+    "price": 678.125,
     "prevClose": 671.76,
-    "absReturn": 6.475000000000023
+    "absReturn": 6.365000000000009
   }
 ]
