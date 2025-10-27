@@ -1,9 +1,36 @@
 [
   {
     "baseTicker": "INFU:USA",
-    "rank": 0,
-    "logo": "",
+    "rank": 99.949,
+    "logo": [
+      {
+        "id": "attVzy0nt3KvMeGkU",
+        "width": 80,
+        "height": 25,
+        "url": "https://v5.airtableusercontent.com/v3/u/46/46/1761573600000/YeMJ-5a4hABgt6SRcDz9_w/pn4gDt2X5IufX0Pm4m0Cf8DwvteoK4QnayCbK87lTSkCAuPkt7V8kykPF85D3spYwMzzpDhadH51ukgrRBdiIj7yuY9jsMlJA_uCHyf6VT43x1AdD-8FPU3EJnvPi1_XOPYPvqYeMUTG_3rsyHKjwl8PIZq7YS96FOUMghIOHIGw0i2IvdsQCcTMy40fdWNO/VOrVZPAEonlUKrbgbm4AHUuThjW1P_TzZGzdan1EA6w",
+        "filename": "infusystem-holdings-inc-logo.png",
+        "size": 2713,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/46/46/1761573600000/aIjHtB8jA8fIX5Rg4wKXnA/k6fwsKHXUiGznSXtKXPas3AWy3Nh8Mt-sZ0joNLcyJSm2-YZUJsym5Im6NSsI3Cci-fe-gVaC5K-9K0Q8GJvVLPOQJwypvrCCdG8KdIJAK_tzDo96sBWksml1GUWGMzuoajAb7tL4fRt9Q6QA3LXXg/v3eox-Ck8m4GvJM78swSX410-7W7AkUIGrP0W_G9crs",
+            "width": 80,
+            "height": 25
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/46/46/1761573600000/ct0QUsoQPSzonseE2k5AZw/GD1C7QkkCDK_ROqgwiyOuAL3_TdYRSzI8a71DwHG4jQIzg6C4d5m4bWLkuK9bX8H6428PLs0MdaK5yjqvm57XJ-ptZ4JQD54t1TetDUwoZWOyHOqfh-u-CzUgXutY7UzeuNrbsih4lBFXAhxe8Kr7g/1j4_ClimVx3ioXoRoxVhGiLX-J_I8hmT_c4jMyIz1Vs",
+            "width": 80,
+            "height": 25
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/46/46/1761573600000/w_0bZfBX1utwipLOMWandg/ggrOKy7_ZG5qF9FQbqaDzDHfsIwN3DBnsL-fQ5_CuUd01bKidDNjV1Y5FO9cQG9JGfvaasW7sS5_UUC1zNeLHCP6y7aJloAiLgS-YY5Qy3VaSkJir5io2jk-n7dukrD3U9KcbXw5pZLcGdLgcW0IUg/itMcAI1S-wQWg8YNd1GGTyn74PscAwM0mc9AI5aPQ3c",
+            "width": 80,
+            "height": 25
+          }
+        }
+      }
+    ],
     "name": "InfuSystem Holdings, Inc.",
-    "description": ""
+    "description": "InfuSystem Holdings, Inc., through its subsidiaries, provides infusion pumps, and related products and services in the United States and Canada. It operates in two segments, Patient Services and Device Solutions. The company supplies electronic ambulatory infusion pumps and associated disposable supply kits to oncology, infusion, and hospital outpatient chemotherapy clinics for the treatment of various cancers, including colorectal cancer, pain management, and other disease states. It also sells and rents new and pre-owned pole-mounted and ambulatory infusion pumps, and other durable medical equipment; sells treatment-related consumables; and provides biomedical recertification, maintenance, and repair services for oncology practices, as well as other healthcare site settings comprising hospitals, home care and home infusion providers, skilled nursing and acute care facilities, pain centers, and others. In addition, the company offers local and field-based customer support, as well as operates pump service and repair centers. The company was incorporated in 2005 and is headquartered in Rochester Hills, Michigan."
   }
 ]
