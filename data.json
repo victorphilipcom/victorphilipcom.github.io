@@ -15,9 +15,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 31.28,
+    "price": 31.24,
     "prevClose": 30.79,
-    "absReturn": 0.490000000000002
+    "absReturn": 0.4499999999999993
   },
   {
     "fullTicker": "GDC:USA",
@@ -35,9 +35,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 75.825,
+    "price": 75.8,
     "prevClose": 75.89,
-    "absReturn": -0.06499999999999773
+    "absReturn": -0.09000000000000341
   },
   {
     "fullTicker": "MCRB:USA",
@@ -55,9 +55,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 67.35,
+    "price": 67.485,
     "prevClose": 67.42,
-    "absReturn": -0.07000000000000739
+    "absReturn": 0.06499999999999773
   },
   {
     "fullTicker": "GRND:USA",
@@ -65,9 +65,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 14.275,
+    "price": 14.37,
     "prevClose": 15.06,
-    "absReturn": -0.7850000000000001
+    "absReturn": -0.6900000000000013
   },
   {
     "fullTicker": "TWLO:USA",
@@ -75,9 +75,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 114.665,
+    "price": 114.455,
     "prevClose": 112.56,
-    "absReturn": 2.105000000000004
+    "absReturn": 1.894999999999996
   },
   {
     "fullTicker": "IT:USA",
@@ -85,9 +85,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 253.75,
+    "price": 253.88,
     "prevClose": 250.21,
-    "absReturn": 3.539999999999992
+    "absReturn": 3.6699999999999875
   },
   {
     "fullTicker": "HIG:USA",
@@ -95,9 +95,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 124.09,
+    "price": 124.395,
     "prevClose": 125.11,
-    "absReturn": -1.019999999999996
+    "absReturn": -0.7150000000000034
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 682.96,
+    "price": 683.37,
     "prevClose": 677.25,
-    "absReturn": 5.710000000000036
+    "absReturn": 6.1200000000000045
   }
 ]
