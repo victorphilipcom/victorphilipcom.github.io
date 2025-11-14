@@ -75,9 +75,9 @@
     "rank": 80.5876,
     "description": "American Well Corporation, an enterprise platform and software company, delivers digitally enabling hybrid care in the United States and internationally. The company offers Converge, a cloud-based platform that enables health providers, payers, and innovators to provide in-person, virtual and automated care; and delivers virtual primary care, post-discharge follow-up, chronic condition management, virtual nursing, e-sitting, on-demand and scheduled virtual visits, specialty consults, automated care, and behavioral health, as well as offers specialty care programs, including dermatology, musculoskeletal care, second opinion, and cardiometabolic care for patients and members. It also provides Carepoint devices, which transforms proprietary carts, peripherals, tablets, and TVs into digital access points in clinical settings. In addition, the company offers Amwell Medical Group network services consisting of primary and urgent care, behavioral health therapy, lactation counseling, and nutrition services. Further, it provides professional services to facilitate implementation, workflow design, systems integration, and service expansion for its products, as well as patient and provider engagement services. The company sells its products through field sales professionals, channel partners, and value-added resellers. It serves providers, payers, and the government, as well as the higher education sector. American Well Corporation was incorporated in 2006 and is headquartered in Boston, Massachusetts.",
     "logo": "https://v5.airtableusercontent.com/v3/u/47/47/1763172000000/2sa9hOjGzrC8mFAMm7CTAg/7zOt_JEVkZ0TAZEPtA8xQz1xXtXBZJlC5zkh9nKVuuDjoxs_wE2b-13kR319E3t_vfovSX8KM96wB7dqFYkFPu6P9dn8NkUfEEF4IJ1_tBaKNaVjvC4oYieWkXEQqUjjt7eJNxc6jtdh0yzWhArz_kGSNx4CpZFlzopGL3a3239X7kvkR-afXyR7FAVlLfqX/vn1wXD9eBtJ0TR_-UDhIg7x-SrqXm9IrwMXD6gwLONE",
-    "price": 4.035,
+    "price": 4.05,
     "prevClose": 3.99,
-    "absReturn": 0.04499999999999993
+    "absReturn": 0.05999999999999961
   },
   {
     "fullTicker": "BDC:USA",
@@ -85,9 +85,9 @@
     "rank": 94.4003,
     "description": "Belden Inc. provides signal transmission solutions for mission critical applications in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. It operates through two segments, Smart Infrastructure Solutions and Automation Solutions. The Smart Infrastructure Solutions segment offers copper cable and connectivity solutions, fiber cable and connectivity solutions, interconnect panels, racks and enclosures, and signal extension and matrix switching systems for use in local area networks, data centers, access control, 5G, fiber to the home, and building automation applications. It also provides power, cooling, and airflow management products for mission-critical data center operations; and end-to-end fiber and copper network systems. This segment serves commercial real estate, education, financial, stadiums and venues, military installations, and broadband and wireless service providers, as well as data centers, government, healthcare, and hospitality sectors. The Automation Solutions segment offers network infrastructure and digitization solutions; and products and solutions covering various aspects of data handling, including acquisition, transmission, orchestration, and management for applications in discrete automation, process automation, energy, and mass transit. It sells its products to distributors, end-users, installers, and original equipment manufacturers (OEMs). The company was formerly known as Belden CDT Inc. and changed its name to Belden Inc. in May 2007. Belden Inc. was founded in 1902 and is headquartered in Saint Louis, Missouri.",
     "logo": "https://v5.airtableusercontent.com/v3/u/47/47/1763172000000/Mzu8JPHdflR0oeEqi3lRYQ/G6SRmprnWtumLYDlalqutXWDZYYbxvGFFg4LZIRZAhEIPtXiVVYewyy1ESzlMXEvp3zmgz8Vaiy5q6qdPBzk9aytdQV4xpEvWoKWoF11GEaQLTSAJlXMfOtZmIpMdohWbnmuQcY1RBEJHeN5ApqMayldtx1STsHy_wi0EJfdzTo/oBIHGg19gjsQc6NBXDbsZdXSGX86VY5eJZlgmNxGZD0",
-    "price": 111.69,
+    "price": 111.82,
     "prevClose": 112.01,
-    "absReturn": -0.3200000000000074
+    "absReturn": -0.19000000000001194
   },
   {
     "fullTicker": "SPY",
@@ -95,8 +95,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 672.74,
+    "price": 671.93,
     "prevClose": 672.04,
-    "absReturn": 0.7000000000000455
+    "absReturn": -0.11000000000001364
   }
 ]
