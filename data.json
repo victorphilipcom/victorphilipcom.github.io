@@ -25,9 +25,9 @@
     "rank": 21.3611,
     "description": "TrueBlue, Inc., together with its subsidiaries, provides specialized workforce solutions in the United States, Canada, the United Kingdom, Australia, and Puerto Rico. It operates through three segments: PeopleReady, PeopleManagement, and PeopleScout. The PeopleReady segment provides general, industrial, and skilled trade contingent staffing services for construction, transportation, manufacturing, retail, hospitality, and energy industries. The PeopleManagement segment offers contingent, on-site industrial staffing, and commercial driver services, which includes on-site management and recruitment for the contingent industrial workforce of manufacturing, warehousing, and distribution facilities; and recruitment and management of contingent and dedicated commercial drivers to the transportation and distribution industries under the Staff Management, SIMOS Insourcing Solutions, and Centerline Drivers brands. The PeopleScout segment provides recruitment process outsourcing, talent advisory services, and managed service provider solutions including sourcing, screening, hiring, and onboarding services; operates Affinix, a technology platform for sourcing, screening, and delivering a permanent workforce to its clients; talent advisory solutions, such as employer branding, recruitment marketing, talent insights, candidate assessment, and talent acquisition strategy consulting services; and contingent labor programs, including vendor selection, performance management, compliance monitoring, and risk management. The company was formerly known as Labor Ready, Inc. and changed its name to TrueBlue, Inc. in December 2007. The company was incorporated in 1985 and is headquartered in Tacoma, Washington.",
     "logo": "https://v5.airtableusercontent.com/v3/u/47/47/1763661600000/c48DETkUSF6zGBRSxumbOQ/2zAeMa1tvW4pD4U8b0Aod7vJNV5GXKIUZqaZjl1Pu3G-pNybw-OlARRCSZDHFMDy6t_6dVaW71nM9I91iC-Bsv83gtwvrLIBAtlBWywPv0jpzxX0Lh3rhplpIp03KJ3Klv0QbLbUhFQq-EupaZrvCqwe6Ic3GDePTMeY_uQ5hHs/Md_c_jxFCQoHdp339_lFmDU0vX2-DJgsBvWsm0fEz00",
-    "price": 4.57,
-    "prevClose": 4.65,
-    "absReturn": -0.08000000000000007
+    "price": 4.65,
+    "prevClose": 4.57,
+    "absReturn": 0.08000000000000007
   },
   {
     "fullTicker": "ERAS:USA",
@@ -85,9 +85,9 @@
     "rank": 76.7991,
     "description": "Alignment Healthcare, Inc. operates a consumer-centric healthcare platform for seniors in the United States. It delivers customized healthcare experience to meet the needs of seniors through its Medicare Advantage plans. The company was founded in 2013 and is based in Orange, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/47/47/1763661600000/EirRn5MhhabF4OF3RlcygA/SY5_5td7-ZGK9hqlc0i5t2iMp-Z_I7fhEQ5YVcq5z48dyr585FMoLB7eGAQzt81VfyXFIJ0Cz-bVTXzV7rl0mt382aYqCdce70KNvcIC0Jw7_oaLL2niUMNEvxZwHy375Bi2fG6zxahVRmfaqTSlfVGxPLwlGtXjg05kuXfleh0_pN48cJNDh3BA4yw06vgw/5V8_y-ZJhYlYNnz5-sEVGhrPsj9rNURFuavU8rsQOjE",
-    "price": 16.4,
+    "price": 16.42,
     "prevClose": 16.33,
-    "absReturn": 0.07000000000000028
+    "absReturn": 0.09000000000000341
   },
   {
     "fullTicker": "THG:USA",
@@ -95,9 +95,9 @@
     "rank": 95.0668,
     "description": "The Hanover Insurance Group, Inc., through its subsidiaries, provides various property and casualty insurance products and services in the United States. The company operates through four segments: Core Commercial, Specialty, Personal Lines, and Other. It offers commercial multiple peril, workers' compensation, commercial automobile, and other commercial lines coverage; and professional and executive lines, marine, and surety and other, as well as specialty property and casualty comprising Hanover program business, excess and surplus business, Hanover specialty industrial, and specialty general liability business coverage. The company also provides personal automobile; and homeowners and other personal lines, including residences and personal property, liability claims, personal umbrella, inland marine, fire, personal watercraft, personal cyber, and other miscellaneous coverages. It markets its products and services through independent agents and brokers. The company was formerly known as Allmerica Financial Corp. and changed its name to The Hanover Insurance Group, Inc. in December 2005. The Hanover Insurance Group, Inc. was founded in 1852 and is headquartered in Worcester, Massachusetts.",
     "logo": "https://v5.airtableusercontent.com/v3/u/47/47/1763661600000/Q8MZpZgEPj8XGz0q3zxXDA/qLWHmiwQzRXrVgy-73T9hwbCNMIVjfHekbXVD5CQRSYAqsYf6nrJy9jdftVsSvZT95d4Um9ztLEgirHJ_xVdYzZo56vPKEe_ZUylx5D02RsOP3RktdkN1t3w0X13r1teOaZ54mciQvrHzYHgekHj68NvhVMBBTmSPIFUGTLkmE4hGzo0KRovNzVYhi2A9TqxhISEluXZs-xlmdtOAsZaEg/1MWnzhzxPBsQ9_CXn_kO1AODRgBS26EmQSQ7LQPUNSU",
-    "price": 180.75,
+    "price": 180.67,
     "prevClose": 178.73,
-    "absReturn": 2.0200000000000102
+    "absReturn": 1.9399999999999977
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 672.945,
+    "price": 674.245,
     "prevClose": 662.63,
-    "absReturn": 10.315000000000055
+    "absReturn": 11.615000000000009
   }
 ]
