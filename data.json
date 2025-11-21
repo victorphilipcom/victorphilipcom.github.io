@@ -35,9 +35,9 @@
     "rank": 23.8033,
     "description": "Erasca, Inc., a clinical-stage precision oncology company, focuses on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. The company's lead product is naporafenib which is in SEACRAFT-2 pivotal Phase 3 trial for patients with NRAS-mutated (NRASm) melanoma; and in SEACRAFT-1 Phase 1b trial for patients with NRAS Q61X melanoma. It also develops ERAS-0015, a pan-RAS molecular glue for the treatment of patients with RAS-altered solid tumors; ERAS-4001, a pan-KRAS inhibitor for the treatment of patients with KRAS-altered solid tumors; and ERAS-12, an investigational EGFR D2/D3 biparatopic antibody (bpAb) for the treatment of EGRF and RAS/MAPK solid tumors. In addition, the company's products under development include ERAS-801, a central nervous system (CNS)-penetrant EGFR inhibitor for patients with EGFR-altered recurrent glioblastoma (GBM) which is in phase 1 clinical trials; and ERAS-007, an oral inhibitor of ERK1/2 and ERAS-601, an oral SHP2 inhibitor for patients with advanced or metastatic solid tumors. It has a license agreement with Novartis to develop, manufacture, use, and commercialize naporafenib; Katmai Pharmaceuticals, Inc. to develop, manufacture, use, and commercialize ERAS-801 and certain other related compounds; and NiKang Therapeutics, Inc. to develop and commercialize ERAS-601 and certain other related compounds. Erasca, Inc. was incorporated in 2018 and is headquartered in San Diego, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/47/47/1763748000000/VAZGgOb4NtdM1FIjjjjL9Q/iXynZc1d76rJc-M9UKMfw7yD6gRhSiNsC6p1vfDzCSKTuTcvQi3k6CMoqx3HzAqKoA2dkksO5vY77QrRI-dsVAnMTXopw3tF31OxgKrXg4oPxe3AaP3xoZghVk8GaYcqykDthNnqpHFpoKFth-ZhtUPfQbzp2J3_MwsFQ0MGDD8/UPg62fSqunf5igF_vANYoPkcsy0jCakSQufD5fsa31Q",
-    "price": 2.78,
-    "prevClose": 2.76,
-    "absReturn": 0.020000000000000018
+    "price": 2.82,
+    "prevClose": 2.78,
+    "absReturn": 0.040000000000000036
   },
   {
     "fullTicker": "SWAG:USA",
@@ -65,9 +65,9 @@
     "rank": 56.5939,
     "description": "Stem, Inc. provides artificial intelligence driven software and services that enable its customers to plan, deploy, and operate clean energy assets in the United States and internationally. The company offers OEM energy storage systems; and software and edge hardware devices services. It serves energy traders, asset owners, independent power producers, community choice aggregators, off takers, renewable project developers, engineering, procurement and construction firms, operations and maintenance providers, electric cooperatives, utilities, load-serving entities, and grid operators. Stem, Inc. was incorporated in 2009 and is headquartered in San Francisco, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/47/47/1763748000000/rmh6fU7sXhZAYAcws3rD3Q/4R0jxdr0_Dk4tdmcEdqFD8VrVGyiPjUFlrrxajEgxa_9jH7epuS1yopdrQggW2LpuczYE8RSvNigGkcPjZwsH55jH-TkwPsq5s8wPGmGqLTzy2p-aotVk7UO0N7HSX6A7V9X6UWHl2soD5_5MjJhOkNRpagKM3FkpW-H-Dma3lM/StjfyeP5oqeAWnJTr-NvsaCFQbE5LjHR1nrlXuujbDk",
-    "price": 13.85,
-    "prevClose": 15.4,
-    "absReturn": -1.5500000000000007
+    "price": 13.745,
+    "prevClose": 0,
+    "absReturn": 13.745
   },
   {
     "fullTicker": "SKIL:USA",
@@ -85,9 +85,9 @@
     "rank": 76.7991,
     "description": "Alignment Healthcare, Inc. operates a consumer-centric healthcare platform for seniors in the United States. It delivers customized healthcare experience to meet the needs of seniors through its Medicare Advantage plans. The company was founded in 2013 and is based in Orange, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/47/47/1763748000000/EpHT3eY1xjT9px6IE2u_Rw/s9QCRJI5n3uP_jUgjmMVRJa3D5_wUULqq-TyhqjzkqD-HSl5Jhg6WgtyV1vvwviY7W4r_LfSnqjrxBcn6OoqtITfF1HPBhgnXZRuO_gzHj5GgbQYwvn1Lm8FTtniLATSwplwZxbTIAROp9DcUmTD8qSymnFFc2PViHy6gEd25EGzDZuZ7oBKpXY6YRrqdpt7/dhd0-O8uNHqQPRPCAF0wGnb9dao3U8OBSkA4Hc9MMUo",
-    "price": 16.07,
-    "prevClose": 16.33,
-    "absReturn": -0.259999999999998
+    "price": 16.17,
+    "prevClose": 16.07,
+    "absReturn": 0.10000000000000142
   },
   {
     "fullTicker": "THG:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 655.74,
+    "price": 654.955,
     "prevClose": 652.53,
-    "absReturn": 3.2100000000000364
+    "absReturn": 2.425000000000068
   }
 ]
