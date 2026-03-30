@@ -5,8 +5,29 @@
     "logo": [
       {
         "id": "attaHL6dfkatx50GV",
-        "url": "https://v5.airtableusercontent.com/v3/u/51/51/1774879200000/kfE9LsLyRkkUcR3HZpaO7Q/jwO_a6fTWlgPpWGVP5mTvNtpeHl81w3ZrjSVK926wijus7iQopjp_TpfdEfb2CwbMbVcb3eM3zlYJ2NQKSmnDFeIgfc-ur2gxCdQMhJOnvs6m4KddqC_FZP4URnPusv7RiTlE6kj8QrCsPXJGeCKzPrDv_YzTXxXiRvTonD8kNA/Wk1UGvRyzUztznY3NNRl2Kd9cFETv5aH4PP0AnULC8M",
-        "filename": "www.totalenergy.ca"
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/51/51/1774879200000/yeTUNPUOqkX9JMxJbn4mZA/QgH14-Tb7ZIfnbEtgomNsVxsBmdMnxTqrHZQtoC1hmKRKxHUDItWJzOD3GtrUfJFs-kJ8TMdCFQCI-0q8Pilj-C6HO_Hid8tyhF4Ccx-_Z9UNS4HxrCgbWvA46UdC0ET153alB0DE97qG5ZAF8EST0_I2QTB-aT3tB3irOGLIlc/yDdaMb1Mcmw0e1FX8k1s0RJ_uefo9_1Pl1lw23SE4BE",
+        "filename": "www.totalenergy.ca",
+        "size": 3310,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/51/51/1774879200000/CK7n_DAAOuPPjs7j5qrrEA/DiCWjIZ6a5Zdp_DxLQhgznIJk4Obw1ftn6RLPJMngEUkY7aAaWp7KL7DzUclyh5IWejHfJKxWRd5_6VMVxlmMPexHS1IzALi821soNPfUFCH4f3LBTWjPew8j5wADNsHaOHSMFhfQhkaUwoomT6Wyw/sfqBNbnKYsjKq-PzGuYpTP2_FEZgt4Bggiq2ptCe_SA",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/51/51/1774879200000/Jk6MBdtSentv_AGV7OgIlQ/v7nsHDa0GIvFcO78wJiuduR7xnFZmleOSRwj4ipzaMTlJLRxoRIgr5lNMHM2d1ZoCHH4jrZ1LIo1Sm7OtpxahbhFRS1rtezWfi3CepXHIF2KfCKxVdIwmI6lgxTfKyCOREzGkyosg_d2UnY5hnOx7g/bQSLbLzgXTfbOGg6KsJqHqAYXjRdlq93-gWtH64CjVs",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/51/51/1774879200000/FY5JczaBXPR349ePK_tXdA/Hy_sMYh9sNvXzykuiaoCFvcD4TzOwDE3qJ8LQIEjhlY6g6qMd942gFNJeChW3W3gxTsZBsUkxE6d0kayvYldwvK0MWwumggTAxY8tbtQWhlD4NRHgKlgW6XegjzOKC3eczwmKBiX3vwFTHBnA-hrPg/S5EqBiZ7cADqv7aXuYj1JT9Vw7i5g0bI_YliLw4jJ5M",
+            "width": 200,
+            "height": 200
+          }
+        }
       }
     ],
     "name": "Total Energy Services, Inc.",
