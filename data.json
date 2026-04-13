@@ -5,9 +5,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 42.65,
+    "price": 44.555,
     "prevClose": 43.15,
-    "absReturn": -0.5
+    "absReturn": 1.4050000000000011
   },
   {
     "fullTicker": "EQ:USA",
@@ -15,9 +15,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 1.8,
+    "price": 1.81,
     "prevClose": 1.8,
-    "absReturn": 0
+    "absReturn": 0.010000000000000009
   },
   {
     "fullTicker": "HKHC:USA",
@@ -35,9 +35,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 6.15,
+    "price": 6.23,
     "prevClose": 6.17,
-    "absReturn": -0.019999999999999574
+    "absReturn": 0.0600000000000005
   },
   {
     "fullTicker": "CPB:USA",
@@ -45,9 +45,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 20.075,
+    "price": 19.885,
     "prevClose": 20.43,
-    "absReturn": -0.3550000000000004
+    "absReturn": -0.5449999999999982
   },
   {
     "fullTicker": "SGA:USA",
@@ -65,9 +65,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 2.345,
+    "price": 2.365,
     "prevClose": 2.33,
-    "absReturn": 0.015000000000000124
+    "absReturn": 0.03500000000000014
   },
   {
     "fullTicker": "LRCX:USA",
@@ -75,9 +75,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 262.82,
+    "price": 262.6,
     "prevClose": 263.66,
-    "absReturn": -0.8400000000000318
+    "absReturn": -1.0600000000000023
   },
   {
     "fullTicker": "ESTC:USA",
@@ -85,9 +85,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 44.745,
+    "price": 45.16,
     "prevClose": 43.3,
-    "absReturn": 1.4450000000000003
+    "absReturn": 1.8599999999999994
   },
   {
     "fullTicker": "LOVE:USA",
@@ -95,9 +95,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 15.06,
+    "price": 15.03,
     "prevClose": 15.35,
-    "absReturn": -0.28999999999999915
+    "absReturn": -0.3200000000000003
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 679.175,
+    "price": 679.75,
     "prevClose": 679.46,
-    "absReturn": -0.28500000000008185
+    "absReturn": 0.2899999999999636
   }
 ]
