@@ -1,9 +1,36 @@
 [
   {
     "baseTicker": "ASCN:CHE",
-    "rank": 0,
-    "logo": "",
+    "rank": 99.9837,
+    "logo": [
+      {
+        "id": "attVLelAGUVAggkpw",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/52/52/1776124800000/qklZF2aaX-fE9mI03UQ5xg/oBE_cKbJWkJ6SKAt-WwE9u0VOKBsqEH8H6mcqJwIINUBOFgfvk_OW3e2FEJAgdNskrY9NFtbFp_chooPxSNocjhwkRT34s8o-4cPMu4ljbguQTJDjvDRLi73mxPJMulXPpuE3VOF-vUlbVEMZx7O7Uo3xzGDO78iyFWUpG72NQo/4CVL2Xw_UykVQ8bRmGUZVHwoKF3U_hiQexXo4s8s8B0",
+        "filename": "www.ascom.com",
+        "size": 4413,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1776124800000/26dk_XQeuPdx2_q_Jt8p1Q/mVbp9jpyeUhEkgUmeBtgZHipCBg5SbCRzXVo3rpe3g_AZ3Qy8NQFz2mBpvF0rkusPGPzautInL8GsittrGe5bZPUWtDBF8IbBImSkENRwMiVGscXkwWoe_RxyC9WYjvx4hz1u_vIOKfW9mC8DXX7QA/Mcmp_88QQuDeCMvETtHs3IElygYUM9nPBi2mLY2qqrA",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1776124800000/KPs78b0Rt-cWhiDAcO5eYw/GEYPOlQ-yMO6u5PbipbQZRhRKBS-qo-XI3ex3gpQ-pvQ0jVWe5ycwtkKbryV3mcsxLgwHHYP0SrAZi62hKTYGuBqE4tly_7sc5Q6qvTbS36MxB0kQd0Hy4Z8zAGUy9OgN8HUNA8TXjsbEifAKCqY4g/ak0a2hRgskpPBHt7tj6N-WlGhsCVbRsc4d1KOOJQsbs",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1776124800000/Rj_R4ilqaSlA3grxlMjZ-g/YXkWUVBew8u_op9NnxaRQHRt-lpCLGs8Vhbg6Kk4AmNxVB35EsnqW5wcaRCdQP0HgpflW1reSnnFYZ6wiajlPAp1bwn-ui3IiObNdEnTs-Qn48YrdC7j18e_OlkD9HGaHkW9ogH29f4KS1ApfhYf8w/btgoagOPPDWrzInSv144HNEw814E5y2m8YpshzidbIk",
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    ],
     "name": "Ascom Holding AG",
-    "description": ""
+    "description": "Ascom Holding AG, together with its subsidiaries, provides healthcare ICT and mobile workflow solutions worldwide. The company offers nurse call and monitoring systems, including teleCARE IP that provides wireless nurse call, alerts, messaging, monitoring, and wander management solution; and Telligence, a patient response system. It also provides Digistat, a suite of clinical workflow software; Unite software, a workflow orchestration platform that integrates data and events from source systems, as well as offers alerts, chats, and tasks to enable users on various endpoint platforms; and Ofelia for managing tasks and workflows. In addition, the company offers mobile devices, such as smartphones, DECT and VoWiFi phones, and pagers solutions. Further, it offers consulting, implementation, training, support, and maintenance services. The company was incorporated in 1996 and is headquartered in Baar, Switzerland."
   }
 ]
