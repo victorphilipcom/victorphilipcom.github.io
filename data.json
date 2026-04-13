@@ -5,9 +5,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 45.24,
+    "price": 45.17,
     "prevClose": 43.15,
-    "absReturn": 2.0900000000000034
+    "absReturn": 2.020000000000003
   },
   {
     "fullTicker": "EQ:USA",
@@ -15,9 +15,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 1.77,
+    "price": 1.725,
     "prevClose": 1.8,
-    "absReturn": -0.030000000000000027
+    "absReturn": -0.07499999999999996
   },
   {
     "fullTicker": "HKHC:USA",
@@ -35,9 +35,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 6.26,
+    "price": 6.24,
     "prevClose": 6.17,
-    "absReturn": 0.08999999999999986
+    "absReturn": 0.07000000000000028
   },
   {
     "fullTicker": "CPB:USA",
@@ -45,9 +45,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 20.175,
+    "price": 20.195,
     "prevClose": 20.43,
-    "absReturn": -0.254999999999999
+    "absReturn": -0.23499999999999943
   },
   {
     "fullTicker": "SGA:USA",
@@ -65,9 +65,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 2.515,
+    "price": 2.555,
     "prevClose": 2.33,
-    "absReturn": 0.18500000000000005
+    "absReturn": 0.2250000000000001
   },
   {
     "fullTicker": "LRCX:USA",
@@ -75,9 +75,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 264.55,
+    "price": 267.15,
     "prevClose": 263.66,
-    "absReturn": 0.8899999999999864
+    "absReturn": 3.4899999999999523
   },
   {
     "fullTicker": "ESTC:USA",
@@ -85,9 +85,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 45.66,
+    "price": 45.52,
     "prevClose": 43.3,
-    "absReturn": 2.3599999999999994
+    "absReturn": 2.220000000000006
   },
   {
     "fullTicker": "LOVE:USA",
@@ -95,9 +95,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 15.785,
+    "price": 15.9,
     "prevClose": 15.35,
-    "absReturn": 0.4350000000000005
+    "absReturn": 0.5500000000000007
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 683.19,
+    "price": 686.05,
     "prevClose": 679.46,
-    "absReturn": 3.730000000000018
+    "absReturn": 6.589999999999918
   }
 ]
