@@ -15,9 +15,9 @@
     "rank": 11.3938,
     "description": "Kosmos Energy Ltd., a deep-water exploration and production company, engages in the exploration, development, and production of oil and natural gas properties. The company has oil and gas production projects located in offshore Ghana, Equatorial Guinea, Mauritania, Senegal, and the Gulf of America. Kosmos Energy Ltd. was founded in 2003 and is headquartered in Dallas, Texas.",
     "logo": "https://v5.airtableusercontent.com/v3/u/52/52/1776729600000/ktJMb4HxC3X9vl0xJ-nh9A/w2uyAaxsVgmR4mxcK7OBYfhTUTj-v_-KKZKvP5TDfYP7wdEoSW8aUxxztpv81F3EOunGM6zTXuYWVZARcl8GdH7Uy5ImI0d2vX4ppvpAbJRDpgsfk4ODG0OvInaiNUq8Gm3smwKY1gXCJMSJjm7MPubach9rzVsZEUdnl5FI4x7OUMcTHE40h1jGFmqgw-oy/4zdBJe0P5nWJbaqyMWIrEZ3RgAC-avzJnxFq9eHuR48",
-    "price": 2.51,
+    "price": 2.52,
     "prevClose": 2.48,
-    "absReturn": 0.029999999999999805
+    "absReturn": 0.040000000000000036
   },
   {
     "fullTicker": "TKO:USA",
@@ -65,9 +65,9 @@
     "rank": 60.1621,
     "description": "Nutanix, Inc. provides an enterprise cloud platform in North America, Europe, the Asia Pacific, the Middle East, Latin America, and Africa. The company offers hyperconverged infrastructure software stack that converges virtualization, storage, and networking services into a turnkey solution; Acropolis Hypervisor, an enterprise-grade virtualization solution; flow virtual networking and flow network security, which offers services to visualize the network, automate common network operations, and build virtual private networks; Nutanix Kubernetes Engine for automated deployment and management of Kubernetes clusters to simplify the provisioning, operations, and lifecycle management of cloud-native environments, applications, and microservices; and Nutanix Cloud Clusters. It also provides Nutanix Cloud Management that provides management, capacity planning, operational analytics, automated remediation, self-service, and one-click administration; cloud governance; and automation services that streamline application lifecycle management, provide self-service for infrastructure and applications, and deliver multicloud orchestration. In addition, the company offers Nutanix Files, an enterprise-grade network file system and server message block files services; Nutanix Objects, a S3-compatible object services; Nutanix Data Lens, a data security governance solution; and Nutanix database service that provides automated database management to simplify database administration and to manage database copies. Further, it provides product support, and consulting and implementation services. The company serves customers in a range of industries, including automotive, consumer goods, education, energy, financial services, healthcare, manufacturing, media, public sector, retail, technology, and telecommunications, as well as service providers. Nutanix, Inc. was incorporated in 2009 and is headquartered in San Jose, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/52/52/1776729600000/XZtAZJOEsC1-KBgB9l8dMw/fBw3ST9Rjo0Yn-FWr--dXGf9MKtG2b94dJX4g-1Zn0vuQQg8QxRRRCPPto2sz6u7IQHgt9bzNBSzLMGOni-mUGSwqEK4g_Ud_Se8fNd4TaX_dkxPVHGNdY9FioL8giSf3eSTRnFhdAp9pNWweaJ54nn_3-5KVO6HoO86hKmsPOk/fOe7H1DZtjK-3xeJ_BXCfKz3tJoW1WPr1xHuQz8NlXs",
-    "price": 40.585,
+    "price": 40.59,
     "prevClose": 40.05,
-    "absReturn": 0.5350000000000037
+    "absReturn": 0.5400000000000063
   },
   {
     "fullTicker": "AMPL:USA",
@@ -95,9 +95,9 @@
     "rank": 94.6191,
     "description": "Five9, Inc., together with its subsidiaries, provides intelligent cloud software for contact centers in the United States and internationally. It offers CX platform that delivers a suite of applications, which enables the breadth of customer service, sales, and marketing functions. The company's platform comprises of including intelligent virtual agent, agent assist, workflow automation, workforce engagement management, AI insights, AI summaries, Revenue Execution, AI capability, and AI Agents that allows to manage and optimize customer interactions across voice, chat, email, web, social media, and mobile channels directly or through its application programming interfaces. It also matches each customer interaction with an agent resource and delivers customer data to the agent in real-time through integrations with adjacent enterprise applications, such as CRM software, to optimize the customer experience and enhance agent productivity. The company serves customers in various industries, such as banking and financial services, business process outsourcers, retail, healthcare, technology, and education. Five9, Inc. was incorporated in 2001 and is headquartered in San Ramon, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/52/52/1776729600000/cGvLgxnKw3miN7O7EVB3Gw/NDuZCmKaIvepUihtgBnPE_4iuDOyheMV19Eku_XXc5SAlzxUSsqS4HX70W3ElOSxNhiQk42DBvlUZx3x88WKk9FayFuYCRV5ReK5JAOtLy_yM-wXQg8bpqDmFSSuZfSLohpywzcQwl83-VLDj6STXtVjPWFhoBVEUwhpjtXghZw/Z_2_9fY-odCaxJNyOMk0Dv1naY72EOOQCzdnph6OXxg",
-    "price": 16.25,
+    "price": 16.24,
     "prevClose": 15.78,
-    "absReturn": 0.47000000000000064
+    "absReturn": 0.4599999999999991
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 708.64,
+    "price": 708.72,
     "prevClose": 710.14,
-    "absReturn": -1.5
+    "absReturn": -1.419999999999959
   }
 ]
