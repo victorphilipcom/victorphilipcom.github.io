@@ -25,9 +25,9 @@
     "rank": 22.8201,
     "description": "TKO Group Holdings, Inc. operates as a sports and entertainment company. The company owns and manages sports and entertainment intellectual property; produces and licenses live events, programing, and long-form and short-form content, reality series, and other filmed entertainment on digital and linear channels and via pay-per-view; and offers UFC FIGHT PASS, a direct-to-consumer streaming product that provides access to live and video-on-demand events, as well as original content. It is also involved in the merchandising of video games, apparel, equipment, trading cards, memorabilia, digital goods, and toys. In addition, the company engages in the sponsorships and advertising business, which offers sale of in-venue and in-broadcast advertising assets, content product integration, and digital impressions. The company was incorporated in 2023 and is based in New York, New York. TKO Group Holdings, Inc. is a subsidiary of Endeavor Group Holdings, Inc.",
     "logo": "https://v5.airtableusercontent.com/v3/u/52/52/1776816000000/K93iC8XcHeDzcHrqhHU7Jg/KMEenTtoXawTzm8P_4gsYvSRbMEPOmIDD_A68HWjNbTzj9wR7F2mixMoR3AtWvpNPO5VzufqgeEqA3a9J_gQuWuosC1b_3qM-0geK8oplEQXzQJi8G0tzY8iqQcGcKHNw3khbOdEYzXTNKm366H2NkLGQowRyqnmrs2kaMn67IyYC3UuybZKQ4huwOYayein/5C2WLFFEO25qM_w6tYgjoQlyOB4eMv1ZJEPd6mkLxns",
-    "price": 183.07,
+    "price": 183.1,
     "prevClose": 184.7,
-    "absReturn": -1.6299999999999955
+    "absReturn": -1.5999999999999943
   },
   {
     "fullTicker": "PACK:USA",
@@ -35,9 +35,9 @@
     "rank": 31.248,
     "description": "Ranpak Holdings Corp., together with its subsidiaries, provides product protection solutions and end-of-line automation solutions for e-commerce and industrial supply chains in North America, Europe, and Asia. The company offers protective packaging solutions, such as void-fill protective systems that convert paper to fill empty spaces in secondary packages and protect objects under the FillPak brand; cushioning protective systems, which convert paper into cushioning pads under the PadPak brand; wrapping protective systems that create pads or paper mesh to wrap and protect fragile items, as well as to line boxes and provide separation when shipping various objects under the WrapPak, Geami, and ReadyRoll brands; and cold chain products, which are used to provide insulation for temperature controlled goods during transport. It also provides end-of-line packaging automation for product distribution and shipping, as well as products that help end users automate the void filling and box closure processes after product packing is complete. The company sells its products to end users primarily through a distributor network and directly to end-users. Ranpak Holdings Corp. was founded in 1972 and is headquartered in Concord Township, Ohio.",
     "logo": "https://v5.airtableusercontent.com/v3/u/52/52/1776816000000/JKkijOsnh20kpNmQfhqr3w/VrCCceS0HvRX5CyIzJefCLbQm2VBjXUMq-uOZAs9Oh2GcwNclSIxbI-G5o4di_Edj4YyozLwmm7r5GAKEaT9Dw5My00vwBn--5BlCCr3GqRJtW8P60ryi2SqBfXLkwgIlb3HwWrG6MdW7ScMOZBzX2gy7A06VeRFyb51duE2q3b3A2lFW2vN9QAgpGjK4Pdi/RpY6k9Jjl5ub9fzOXHDvbflGsGGL72Df8fk-Z7UAXIc",
-    "price": 4.175,
+    "price": 4.18,
     "prevClose": 4.24,
-    "absReturn": -0.06500000000000039
+    "absReturn": -0.0600000000000005
   },
   {
     "fullTicker": "APTV:USA",
@@ -65,9 +65,9 @@
     "rank": 60.1621,
     "description": "Nutanix, Inc. provides an enterprise cloud platform in North America, Europe, the Asia Pacific, the Middle East, Latin America, and Africa. The company offers hyperconverged infrastructure software stack that converges virtualization, storage, and networking services into a turnkey solution; Acropolis Hypervisor, an enterprise-grade virtualization solution; flow virtual networking and flow network security, which offers services to visualize the network, automate common network operations, and build virtual private networks; Nutanix Kubernetes Engine for automated deployment and management of Kubernetes clusters to simplify the provisioning, operations, and lifecycle management of cloud-native environments, applications, and microservices; and Nutanix Cloud Clusters. It also provides Nutanix Cloud Management that provides management, capacity planning, operational analytics, automated remediation, self-service, and one-click administration; cloud governance; and automation services that streamline application lifecycle management, provide self-service for infrastructure and applications, and deliver multicloud orchestration. In addition, the company offers Nutanix Files, an enterprise-grade network file system and server message block files services; Nutanix Objects, a S3-compatible object services; Nutanix Data Lens, a data security governance solution; and Nutanix database service that provides automated database management to simplify database administration and to manage database copies. Further, it provides product support, and consulting and implementation services. The company serves customers in a range of industries, including automotive, consumer goods, education, energy, financial services, healthcare, manufacturing, media, public sector, retail, technology, and telecommunications, as well as service providers. Nutanix, Inc. was incorporated in 2009 and is headquartered in San Jose, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/52/52/1776816000000/RGZJ20HHc3SJg8VtkQz9pA/9Sosy78RV4l5L0L4-mCQsG_fYIjIs1B7Dnyd77wG88mVoks30Ps0luXAN3Lh8TsJLrhqOBC7fJ2el8UAgn4bOjT0S6z42GMzBefudG5dFpZNtXB8BAehHFg8F3NtZ8l8DjA7hn0UDpV3umydfc7UuG0oHLEEaHCPNe-i907oWsM/Zc6PjjnejFwT9F7egfNedrZPQ37RJz-j3WRjaDAjyZ4",
-    "price": 41.06,
+    "price": 41.07,
     "prevClose": 40.59,
-    "absReturn": 0.46999999999999886
+    "absReturn": 0.4799999999999969
   },
   {
     "fullTicker": "AMPL:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 706.5,
+    "price": 704.08,
     "prevClose": 708.72,
-    "absReturn": -2.2200000000000273
+    "absReturn": -4.639999999999986
   }
 ]
