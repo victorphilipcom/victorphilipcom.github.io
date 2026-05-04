@@ -1,9 +1,36 @@
 [
   {
     "baseTicker": "TOT:CAN",
-    "rank": 0,
-    "logo": "",
+    "rank": 99.9676,
+    "logo": [
+      {
+        "id": "att47Rte52Fu0xltp",
+        "width": 200,
+        "height": 200,
+        "url": "https://v5.airtableusercontent.com/v3/u/53/53/1777946400000/hdE53qYO_TOLfVpGVr82GQ/pvJoZFFPQMmB7BLPGtbo8d7BZ7P_fcClHo3HiRppPvcTElVR5KQeiQMzccOlv1eBUe10ame2YhfY-KHl13ThhRs5NY1KzAMi8GU2rNoSLS9AV9YTZE-MumWMyBWnPcHkr1IhmI6AvpytooJ1Yxb_YyPfq9LFBbUEca5VIl1zD80/cpyKns3vi-qaRaSenaQo-zDroy6O0x3a8a2X9s4pqrA",
+        "filename": "www.totalenergy.ca",
+        "size": 3310,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1777946400000/YtSH-c1ErSV0yAMH-6cpWQ/9Knc7ECWC_E-EjxX3ArR5ObNxdjU4zAQco7Xnpg-nwSn_V841SpEkNBV_v8uxtA7ciaAcCvRKSiOGQrWlyOzhCHRCfpBjNn7llUD2U-KYWeP-1T_Rgt7g9pu2zZ17bqppPLQpT6qAOEC1buf6sgsmw/AKCmeuu7hMHi7zY0Y9A8hpqsZAv6cK3vthd701wvVvY",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1777946400000/Jh4y-aV-i5W8vlcR9uu1wQ/Dc-Vpk61IGoh6katRyEF-81sPkOSRKGX73yE8Stdshyo0P39dCVCteZ6AA4jmHlC4GqonQO4C3WpDhGxYXEgXRvJClThP16jLdGtb72jNPc-iebip0vfgJ035WWTWP-z2-nT70ki6zajZNOXorMpCQ/yQr0tiyQtqNRuEmalULwvrFUY3BvAbSj0Q76G3JgFJ4",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1777946400000/sluYgL--hgag_qI-MWacow/l0MlHkNwtnny9z0K3ipprJ1q1pNTrrsmtkW6KtRbLo9aiT356UF4RGU25sPxZRINnKmEtBCW-hR8R62XPVUB5cJMjh9wo4aou_sYDWJ7tSJGdhvm8YyObwg-mZ2mqGtKB5F7YjmntadnCLNslCv1uw/9dQG50lO46PTDQ43K-t2FAPQ8S_vaBWj--8isxAFxjI",
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    ],
     "name": "Total Energy Services, Inc.",
-    "description": ""
+    "description": "Total Energy Services Inc. operates as an energy services company primarily in Canada, the United States, Australia, and internationally. It operates through Contract Drilling Services, Rentals and Transportation Services, Compression and Process Services, and Well Servicing segments. The Contract Drilling Services segment operates a fleet of various drilling rigs supported by a fleet of owned top drives, walking systems, pumps, and other ancillary equipment. The Rentals and Transportation Services segment provides a fleet of heavy trucks, rental equipment, and access matting. The Compression and Process Services segment offers natural gas compression equipment, as well as oil, natural gas, and other process equipment. The Well Servicing segment provides well-servicing rigs, as well as completion, workover, maintenance, and abandonment services. It also engages in the fabrication, sale, rental, and servicing of new and used natural gas compression, and oil and natural gas process equipment. Total Energy Services Inc. was incorporated in 1996 and is headquartered in Calgary, Canada."
   }
 ]
