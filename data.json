@@ -15,9 +15,9 @@
     "rank": 6.3484,
     "description": "Inhibikase Therapeutics, Inc., a clinical-stage pharmaceutical company, develops therapeutics for Parkinson's disease and related disorders. Its lead product candidate is IkT-148009, a non-receptor Abelson tyrosine kinase inhibitor, which is in Phase 2a clinical trials to the treatment of Parkinson's disease and gastrointestinal tract. The company is also developing IkT-001Pro, a prodrug of the anticancer agent imatinib mesylate to treat stable phase chronic myelogenous leukemia. Inhibikase Therapeutics, Inc. has research and development collaborations with Johns Hopkins University, Arizona State University, and Michigan State University; and a collaborative research and development agreement with Sphaera Pharma Pte. Ltd. The company was founded in 2008 and is headquartered in Atlanta, Georgia.",
     "logo": "https://v5.airtableusercontent.com/v3/u/53/53/1779494400000/hMvrbLxwNjPUUpcAUHav0A/ND4Eq3ErWu_1EkXW7j4rCRkZjYRHtnQUchd7_Hitz6FfjE5csGvQLF1KeSv3yCmjeoRbmIdZCHq5qP_NxOMg-7TaJHlvQGqTio6nQ8WlSjLqamgemNkNrJaMMRRP3xbKB7kvnJhcnKebNvVXnv9ognBDkf-5z4CCdQ58gdrK7v6YRzkbWyIskOzqEcPfcl52/2LnzWr4j7W3cd5e1UP9fe3NVPgNAuPsngxraKszEBfM",
-    "price": 1.7,
+    "price": 1.69,
     "prevClose": 1.74,
-    "absReturn": -0.040000000000000036
+    "absReturn": -0.050000000000000044
   },
   {
     "fullTicker": "COYA:USA",
@@ -55,9 +55,9 @@
     "rank": 53.5801,
     "description": "Acorn Energy, Inc., through its subsidiary, develops and markets wireless remote monitoring and control systems in the United States and internationally. It operates in two segments, Power Generation Monitoring and Cathodic Protection Monitoring. The company offers wireless remote monitoring and control systems and IoT applications for residential and commercial/industrial power generation equipment; and power generator monitors and AIRGuard products, which remotely monitors and controls industrial air compressors. It also provides remote monitoring and control products for cathodic protection systems on gas pipelines serving the gas utilities market and pipeline operators; and first RAD, a remote AC mitigation disconnect that mounts onto existing solid-state decouplers in the field and can remotely disconnect/connect these AC mitigation tools. The company was incorporated in 1986 and is based in Wilmington, Delaware.",
     "logo": "https://v5.airtableusercontent.com/v3/u/53/53/1779494400000/qKcfGCPrS63qxQQ16d23kQ/XPlBzSX9YSZKxVTYngE5iLs8WNy77MxNn4JbK0eEu6-dF6J2p_bVyXwLx0ISuQZzT2_DcYFPs5_I77ft96Ijg7Y3bf8GHnQpe8sJkVRYxgF90xhULG9ftG8c0RQBT5boXlECHPLQhI7pyeQ-muMH_q3x9vzXNQ4xhiR9bRMMcEV3x3sCh-E-rEIv6y4rn_HH/TPE9-bKPpx7ThdGpfRkea6xPW3hjNV1iQBNwWcBx8DA",
-    "price": 17.31,
-    "prevClose": 17.13,
-    "absReturn": 0.17999999999999972
+    "price": 17.46,
+    "prevClose": 17.31,
+    "absReturn": 0.15000000000000213
   },
   {
     "fullTicker": "NTWK:USA",
@@ -65,9 +65,9 @@
     "rank": 60.8378,
     "description": "NetSol Technologies, Inc. engages in the design, development, marketing, and export of enterprise software solutions to the automobile financing and leasing, banking, and financial services industries in the United States, North America, Europe, and Asia Pacific. The company offers NFS Ascent, a suite of financial applications for businesses in the finance and leasing industry. It also offers Omni Point of Sale, a web-based application; Self Point of Sale, a self POS portal; Mobile Point of Sale, a web and mobile-enabled platform; Contract Management System (CMS), an application for managing and maintaining credit contracts; Mobile Account, a mobile solution; Mobile Collector that allows collections teams to increase productivity; Wholesale Finance System (WFS), a system for automating and managing the lifecycle of wholesale finance; and Mobile Dealer that provides more visibility and control over inventories. In addition, the company offers Otoz Ecosystem, a state-of-the-art technology that provides open application programming interfaces; Otoz Digital Retail that helps?OEMs and dealers move into?the?digital era; and Otoz Mobility Orchestration, a comprehensive in-life subscription and rental platform. Further, it provides Appex Now, a marketplace of API-first products for the global credit, finance and leasing industry, including Flex, Hubex, Index, Dock, Lane, and T-Rate. Additionally, it offers system integration, consulting, and information technology products and services. It serves blue chip organizations, Dow-Jones 30 Industrials, Fortune 500 manufacturers, financial institutions, and vehicle manufacturers. The company was incorporated in 1997 and is headquartered in Encino, California.",
     "logo": "https://v5.airtableusercontent.com/v3/u/53/53/1779494400000/pybWkz4f5d9myQp1uqib0A/LDn65qlCVxglJP3P4bNAHAKGAeqtRH37b712EMGpKNo-rRjjlR8yG4vIdWK3cRdVPOMI_NNxo8NNudDY2rV2zr6eqE_cAVVDtgRFTPjDdEz6XS-_V64CQ--lXc-Ex_aRuESuggZa2HmBM48vcMZ8caD-MZuDXenI8XogzbbtxN26q-JxgWAliak-nocGWkzl/_T6jjutp8DaDQTRZJrjrjmSe3GFxG1pJAjkjJ_s8dWQ",
-    "price": 4.17,
+    "price": 4.23,
     "prevClose": 4.11,
-    "absReturn": 0.05999999999999961
+    "absReturn": 0.1200000000000001
   },
   {
     "fullTicker": "APPS:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 745.8,
+    "price": 745.64,
     "prevClose": 742.72,
-    "absReturn": 3.0799999999999272
+    "absReturn": 2.919999999999959
   }
 ]
