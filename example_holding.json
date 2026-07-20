@@ -1,9 +1,36 @@
 [
   {
     "baseTicker": "BUKS:USA",
-    "rank": 0,
-    "logo": "",
+    "rank": 99.935,
+    "logo": [
+      {
+        "id": "att9yaRdJCOvHtXzM",
+        "width": 80,
+        "height": 40,
+        "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784563200000/8x6fCiNt0mjY1KFjaM1LYQ/GD6QM572DscqeeNeDs5Nu-bEdaV-uH6qSrK6Tq_V_-jpguZQqdQS4B2P4iHh6boKss9nig7Zv2n7tn8LQGk12ed5AtCfqqsIdk0y_eOVASVO6Ei-DY7TShQ4H6GyjKIY83mB4halfH6NnSywxcuSmUNcS0HDj4oLimcnkCDECuKk4OfQg-KKNI6Jj23TX68x/eFmwbLEYrZMi6ER410F5XbzKFeIG0KiTYa0a3mVzTbQ",
+        "filename": "butler-national-co-logo.png",
+        "size": 1982,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784563200000/QIXC1lDT8FjNZLJxuuT3vw/lvUGtukgF2Dqb5c_fS_k5pF0jPy1CpGLgfLbZqY7ofAcOlQKByrWOLSmdWr4O2_nk26N6AwgIURKfHnwzlNPNrd9NiGScC6P8S5ViRziWykXFV8gDRpFxgH5R7zlGx1wL1pIc2MDcnIn6goSNS0A6A/sjM_NX6bI2Urk-mxJGcnV2_PrJ7f7AR5-ZbijhdUbeE",
+            "width": 72,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784563200000/nSA4bIueQukKAQI6TuZRyQ/cMmNtt2CEUE69h9AE4dAuCpNl58UC_J1F4tIrqeMmccDayjHWygn06OTGJcEY80JZvwFECoA2gGlAFq079TOD29PwOeBpK8w3K_HZEdoxJjqDqWI6D8n9zV_40Cm5xowRBGU2HN0s3c1kw-cieYV8w/P29EIfYy-Al9H0gTPPtw-_NNWPrjP_OLaS1tRkSxsnE",
+            "width": 80,
+            "height": 40
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784563200000/BMXXk04pRZxbC4240sY9AQ/b-wFT_zsnHE8-BViUBRmhC_exbRN-LKLqki798QViTZTAjDGL-WnpSPmv9MWJZu-uo6E7Ia05dKXuX_BUUJBjbgxeQVi9W74nM2sGr0WSK4SaAOeGzHoAaGvU7_x_Ox9aa5O0K6c-8LYhn_H5gyL9A/uEcz0_0_lTnMgbK-iC8gd2oPa2KEdpIp5wlc4TfrKZo",
+            "width": 80,
+            "height": 40
+          }
+        }
+      }
+    ],
     "name": "Butler National Corp.",
-    "description": ""
+    "description": "Butler National Corporation, together with its subsidiaries, designs, engineers, manufactures, sells, integrates, installs, repairs, modifies, overhauls, services, and distributes a portfolio of aerostructures, aircraft components, avionics, accessories, subassemblies, and systems in North America, Europe, the Middle East, Asia, and internationally. It operates through two segments, Aerospace Products and Professional Services. The Aerospace Products segment provides aircraft modifications to business-size aircraft, which include passenger-to-freighter configuration, radar systems, addition of aerial photography capabilities, search and rescue, environmental research, mapping, intelligence surveillance reconnaissance modifications, and stability enhancing modifications for Learjet, Beechcraft, and Cessna aircraft along with other specialized modifications. This segment manufactures, sells, and services electronics for weapon control systems that are used on government aircraft and vehicles; and sells, installs, and repairs aircraft avionics equipment, including airplane radio equipment and flight control systems, as well as troubleshoots and repairs autopilot systems. Its Professional Services segment manages Boot Hill Casino and Resort, a gaming, dining, and entertainment facility in Dodge City, Kansas. The company acquires, refurbishes, and sells airplanes, primarily Learjets; owns properties; and operates a management consulting and administrative services firm that provides business planning and financial coordination to Indian tribes interested in owning and operating casinos. It serves the aviation industry, including owners and operators of private and commercial business and government aircraft and suppliers. Butler National Corporation was incorporated in 1960 and is headquartered in New Century, Kansas."
   }
 ]
