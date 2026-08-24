@@ -1,36 +1,9 @@
 [
   {
     "baseTicker": "RCMT:USA",
-    "rank": 99.9837,
-    "logo": [
-      {
-        "id": "att30nlc3ERATT6kR",
-        "width": 80,
-        "height": 70,
-        "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787572800000/p0s7V8yEDaqSQvNSlZpOMA/HdEp94jEVZWwRjHtVy2SQQWbSKkwxccgxyhJ2IiB1lOBb7Ri_-QLni1XwVbXvo4cwvxK84HADy5VBL1g0Fqy9zFOvQACdCycX9LqPEDnCImBPrsKJNTENV_EIash-cV2M_grfDdw0pQlrM4j0_by4rmIwg0G6cW_VL1pShA7R9-MgORTn14vMYlEDOXq67TD/B84nJtsvj-W54TtQ-jT0L36ADJWKvcMkFUQw0vkQ0gQ",
-        "filename": "rcm-technologies-inc-logo.png",
-        "size": 2717,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787572800000/DJicud6V6quCGxXY0_mlOg/jvbHl2IEzyrKpfBbdf0FelmRVi2y9X8Utr8lH0-iWUbigRprIaAdvMzQvXlhhwnJrVWzN9fGg6JxzLgCnSFI-SjZenlJzwbcxWkdwjJhMqjyN5s5Yqq07KlL8SQPdm-5oTUclzSaDWePBxV9THCnHw/5YE0Ms_5M6Jpjs0dIbqS-GlQbCGyMCui6_EJwimPWVc",
-            "width": 41,
-            "height": 36
-          },
-          "large": {
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787572800000/SFfjnLn6FUelEHsW8UUFIQ/NO4S21eQ_RhlvardBmnVzCArxi1Qpmeq0vCgT1PauSH5L72fPMy9W8qwVaBewCbfZQwRPmXsgfrQYyj9YLtIlzUa4CGIgVJ2icEj5b8yri8H1-wirqD7Vu_jGDn_4VczbIRXye4Dul5534yXMzW4Gg/2znoa_3S7IA1sURdFO7__6moL3WPfICAZ0IZTSEW6zw",
-            "width": 80,
-            "height": 70
-          },
-          "full": {
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787572800000/Zalem4c9Er5HLVZ5VqXd3w/DfQjels8WR_fSOU5AQZCH9ouJLwNTuxU8Ge6Dy8grhXNzgofspt2EFq3evyU4QCkHNqlGR0WLavtPkQjsqKbjd1EUkMqA6KkO4j3FgWJcEHwEpF2QjmPsRbLmZgrYuHxjXwVxej_c_aaFsnq0rkOyQ/f2wKcfv6Zf5yC-iyATVb7F0Wn5QLp0QR053_h0m9T9s",
-            "width": 80,
-            "height": 70
-          }
-        }
-      }
-    ],
+    "rank": 0,
+    "logo": "",
     "name": "RCM Technologies, Inc.",
-    "description": "RCM Technologies, Inc. provides business and technology solutions in the United States, Canada, Puerto Rico, and Europe. It operates through three segments: Engineering, Specialty Health Care, and Life Sciences and Information Technology. The Engineering segment offers a range of engineering services, including project management engineering and design, engineering analysis, engineer-procure-construct, configuration management, hardware/software validation and verification, quality assurance, technical writing and publications, manufacturing process planning and improvement, and 3D/BIM integrated design. The Specialty Health Care segment provides long-term and short-term staffing, executive search, international recruitment, and placement services in the fields of allied and therapy staffing, correctional healthcare staffing, health information management, nursing services, physician and advanced practice, school staffing and recruitment, and telepractice. The Life Sciences and Information Technology segment offers enterprise business solutions, application services, IT infrastructure solutions, life sciences solutions, and other vertical market specific solutions; and data solutions, digitization, recruiting process outsourcing, human capital management solutions, workforce management, and consulting services. The company serves aerospace and defense, energy, financial services, health care, life sciences, manufacturing and distribution, and technology industries, as well as educational institutions and the public sector. RCM Technologies, Inc. was founded in 1971 and is based in Pennsauken, New Jersey."
+    "description": ""
   }
 ]
