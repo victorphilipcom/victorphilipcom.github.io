@@ -65,9 +65,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 332.89,
-    "prevClose": 333.69,
-    "absReturn": -0.8000000000000114
+    "price": 332.59,
+    "prevClose": 332.89,
+    "absReturn": -0.30000000000001137
   },
   {
     "fullTicker": "IHRT:USA",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 774.83,
-    "prevClose": 769.64,
-    "absReturn": 5.190000000000055
+    "price": 777.52,
+    "prevClose": 774.83,
+    "absReturn": 2.689999999999941
   }
 ]
