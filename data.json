@@ -5,9 +5,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 13.245,
+    "price": 12.83,
     "prevClose": 13.15,
-    "absReturn": 0.09499999999999886
+    "absReturn": -0.3200000000000003
   },
   {
     "fullTicker": "WLDS:USA",
@@ -15,9 +15,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 1.4,
-    "prevClose": 1.38,
-    "absReturn": 0.020000000000000018
+    "price": 1.39,
+    "prevClose": 1.4,
+    "absReturn": -0.010000000000000009
   },
   {
     "fullTicker": "CLF:USA",
@@ -25,9 +25,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 11.865,
+    "price": 12.06,
     "prevClose": 12.25,
-    "absReturn": -0.3849999999999998
+    "absReturn": -0.1899999999999995
   },
   {
     "fullTicker": "CDXS:USA",
@@ -35,9 +35,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 1.38,
+    "price": 1.41,
     "prevClose": 1.36,
-    "absReturn": 0.019999999999999796
+    "absReturn": 0.04999999999999982
   },
   {
     "fullTicker": "BW:USA",
@@ -45,9 +45,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 5.465,
+    "price": 5.64,
     "prevClose": 5.91,
-    "absReturn": -0.4450000000000003
+    "absReturn": -0.27000000000000046
   },
   {
     "fullTicker": "TRGP:USA",
@@ -55,9 +55,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 278.615,
+    "price": 283.96,
     "prevClose": 285.72,
-    "absReturn": -7.105000000000018
+    "absReturn": -1.7600000000000477
   },
   {
     "fullTicker": "AAPL:USA",
@@ -65,9 +65,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 335.58,
+    "price": 336.67,
     "prevClose": 333.63,
-    "absReturn": 1.9499999999999886
+    "absReturn": 3.0400000000000205
   },
   {
     "fullTicker": "IHRT:USA",
@@ -75,9 +75,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 1.96,
+    "price": 2.02,
     "prevClose": 2.01,
-    "absReturn": -0.04999999999999982
+    "absReturn": 0.010000000000000231
   },
   {
     "fullTicker": "WSM:USA",
@@ -85,9 +85,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 239.27,
+    "price": 240.46,
     "prevClose": 242.25,
-    "absReturn": -2.9799999999999898
+    "absReturn": -1.789999999999992
   },
   {
     "fullTicker": "REX:USA",
@@ -95,9 +95,9 @@
     "rank": "",
     "description": "",
     "logo": "",
-    "price": 44.03,
+    "price": 44.31,
     "prevClose": 44.04,
-    "absReturn": -0.00999999999999801
+    "absReturn": 0.2700000000000031
   },
   {
     "fullTicker": "SPY",
@@ -105,8 +105,8 @@
     "rank": "",
     "description": "",
     "logo": "sp500.png",
-    "price": 775.27,
+    "price": 777.22,
     "prevClose": 779.09,
-    "absReturn": -3.82000000000005
+    "absReturn": -1.8700000000000045
   }
 ]
