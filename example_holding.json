@@ -1,9 +1,36 @@
 [
   {
     "baseTicker": "PMTS:USA",
-    "rank": 0,
-    "logo": "",
+    "rank": 99.6882,
+    "logo": [
+      {
+        "id": "attUvkDPxGHwPSHmB",
+        "width": 80,
+        "height": 40,
+        "url": "https://v5.airtableusercontent.com/v3/u/58/58/1793044800000/fcBNi5U1wJQIpaDbbeQuPQ/VQCuIShm7XvIXZDaO5fwEFK29uXLUpX9WjzW4HWm7Ye-pV_o8slZ-cHRM65EdZq-SqhI1aLCSNc-O7CWimm7QFc50UF_SG8IlGWZgOLJQRCpHCInmhfdWGJ9sxCSaULXZ2eZAkaARIB4aHwaxS3ipDWfvcTJQA9JhrBnW7piwkpPOW5lA-hAR-kITMvKnZfr/mZNA0MF2iorPBAO3cS566UHiOX_Z8_7IxQTPlRhXyTc",
+        "filename": "cpi-card-group-inc-logo.jpg",
+        "size": 1199,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/58/58/1793044800000/t8FGfB5Q2HbxqMb7luTPNA/y8dBJJDiOAojy7Ffd4I9slGyNPgS26ouholXVrodVyJdWXdqxe0sRCQVvJeqQCfkFgT-pjO1_o_-Aw0xmbpZL7O1Wyrwnj6othbMwJYa8j44IRNJUufJKQ2V8_gMKOppMssfBQb3DQa8BazilnMC9A/VyCZqDjTVNYFTDdwgFSDwNazqE6PJhi4_j49RPBqvaM",
+            "width": 72,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/58/58/1793044800000/5TIFJUdmwRpuNlPrPzi6JA/WtWLMjit4o9SYRMpNfI3fhjjkBowkADpX-ruhai0ngW1E4JunETU8Tkp7RyTf-hCM3IYP8nYTDvtpLjRsEEpl7ZCy-i4XWQKYE344d5uC6kiManHM13NQiKDnhvJ85UkvHIKyV65A8f4T13OCV2nkQ/bf0OaXzwTG0HG30fJkQ1nbUQLtg6p2rbsVy6jlvoZw8",
+            "width": 80,
+            "height": 40
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/58/58/1793044800000/f-Xkk76tbaCDMCguLmuInA/5vIfzGmzCfcS3ahNA7djDu16RoU9F5YB0T_s2nXl7CwMeYydfc1LvtM_WNSBN3nfOus9moWx0eSITDObpWQ85G8tj0xDtbxglToxMm55sW5ZsGGzjBLl0NOXFt5OpBsH7hlRFyOjAd0G_024RR9kXg/QY28K25GNm6D-DMdWCxmbXwgQGN6yPyy9WUvJzn27Jk",
+            "width": 80,
+            "height": 40
+          }
+        }
+      }
+    ],
     "name": "CPI Card Group, Inc.",
-    "description": ""
+    "description": "CPI Card Group Inc., together with its subsidiaries, engages in the design, production, data personalization, packaging, and fulfillment of payment cards in the United States. It operates through Debit and Credit, and Prepaid Debit segments. The Debit and Credit segment produces secure debit and credit cards, such as contact, contactless, eco-focused, and magnetic stripe cards; and provides card services, including digital services. This segment also provides personalization services, which include instant issuance solutions, that provides customers the ability to issue an instant personalized debit or credit card on-demand; and other payment solutions, such as digital push provisioning. The Prepaid Debit segment primarily provides integrated card services comprising tamper-evident security packaging services. It also produces payment cards issued on the networks of the payment card brands. It serves issuers of debit and credit cards, prepaid program managers, financial institution platform providers and card processor organizations, fintechs, small to mid-sized financial institutions, healthcare providers, entertainment venues, government disbursements, transit services, and others through sales representatives, customer relationships, and partners. The company was formerly known as CPI Holdings I, Inc. and changed its name to CPI Card Group Inc. in August 2015. CPI Card Group Inc. was incorporated in 2007 and is headquartered in Littleton, Colorado."
   }
 ]
